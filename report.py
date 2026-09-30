@@ -142,6 +142,8 @@ def _accuracy_line(s: dict, key: str) -> str:
 
 def _cost_line(s: dict) -> str:
     if s["cost_status"] == "unavailable":
+        if s["price_verified"]:
+            return "unavailable - no call returned token usage (every call failed)"
         return "unavailable (no rate for this model in pricing.py)"
     text = f"${s['cost_usd']:.4f}"
     if s["cost_source"] == "reported":

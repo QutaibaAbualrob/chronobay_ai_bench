@@ -1,27 +1,28 @@
 # ChronoBay watch-identification benchmark
 
-Updated 2026-09-30 14:56. 100 watches in the answer key. This page is rebuilt after every run; the detailed reports it links to are never changed.
+Updated 2026-09-30 15:15. 100 watches in the answer key. This page is rebuilt after every run; the detailed reports it links to are never changed.
 
 ## Latest result per model
 
 | Model | Exact reference | Incl. look-alikes | Brand right | Cost / image | Median time | Errors | Images | Run | Detailed report |
 |---|---:|---:|---:|---:|---:|---:|---:|---|---|
+| **claude-sonnet-5-5-nothink** | **72.0%** (72/100) | 77.0% | 100.0% | $0.0084 | 2.5s | 0 | 100 | 2026-09-30 12:14 | [claude-sonnet-5-5-nothink.md](runs/2026-09-30_121426_full/claude-sonnet-5-5-nothink.md) |
 | **deepseek-flash** | **48.0%** (48/100) | 53.0% | 93.0% | $0.0013 | 4.9s | 2 | 100 | 2026-09-30 11:24 | [deepseek-flash.md](runs/2026-09-30_112454_full/deepseek-flash.md) |
 
 ## Exact reference by brand
 
-| Brand | deepseek-flash |
-|---|---:|
-| Audemars Piguet | 2/10 |
-| Breitling | 3/10 |
-| Cartier | 6/10 |
-| IWC | 3/10 |
-| Jaeger-LeCoultre | 3/10 |
-| Omega | 6/10 |
-| Patek Philippe | 6/10 |
-| Rolex | 8/10 |
-| Tag Heuer | 5/10 |
-| Vacheron Constantin | 6/10 |
+| Brand | claude-sonnet-5-5-nothink | deepseek-flash |
+|---|---:|---:|
+| Audemars Piguet | 6/10 | 2/10 |
+| Breitling | 9/10 | 3/10 |
+| Cartier | 6/10 | 6/10 |
+| IWC | 9/10 | 3/10 |
+| Jaeger-LeCoultre | 4/10 | 3/10 |
+| Omega | 6/10 | 6/10 |
+| Patek Philippe | 8/10 | 6/10 |
+| Rolex | 10/10 | 8/10 |
+| Tag Heuer | 6/10 | 5/10 |
+| Vacheron Constantin | 8/10 | 6/10 |
 
 ## Read before comparing
 
@@ -41,6 +42,7 @@ Every image in the answer key (100). Compare these.
 
 | Run | Models | Images | Summary | Detailed reports |
 |---|---|---:|---|---|
+| 2026-09-30_121426_full | claude-sonnet-5-5-nothink | 100 | [summary](runs/2026-09-30_121426_full/summary.md) | [claude-sonnet-5-5-nothink](runs/2026-09-30_121426_full/claude-sonnet-5-5-nothink.md) |
 | 2026-09-30_112454_full | deepseek-flash | 100 | [summary](runs/2026-09-30_112454_full/summary.md) | [deepseek-flash](runs/2026-09-30_112454_full/deepseek-flash.md) |
 
 ## Test runs
@@ -49,4 +51,5 @@ A subset of the images, to check that a model or setting works before paying for
 
 | Run | Models | Images | Summary | Detailed reports |
 |---|---|---:|---|---|
+| 2026-09-30_121405_test-3img | claude-sonnet-5-5-nothink | 3 of 100 | [summary](runs/2026-09-30_121405_test-3img/summary.md) | [claude-sonnet-5-5-nothink](runs/2026-09-30_121405_test-3img/claude-sonnet-5-5-nothink.md) |
 | 2026-09-30_112430_test-3img | deepseek-flash | 3 of 100 | [summary](runs/2026-09-30_112430_test-3img/summary.md) | [deepseek-flash](runs/2026-09-30_112430_test-3img/deepseek-flash.md) |

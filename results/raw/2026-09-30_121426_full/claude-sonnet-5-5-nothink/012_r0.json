@@ -1,0 +1,66 @@
+{
+ "run_id": "2026-09-30_121426_full",
+ "model_name": "claude-sonnet-5-5-nothink",
+ "provider": "anthropic",
+ "provider_model": "claude-sonnet-5-5",
+ "mode": "schema",
+ "row_id": 12,
+ "repeat": 0,
+ "image_file": "012_omega_seamaster-diver-300m.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Omega",
+   "model_family": "Seamaster Diver 300M",
+   "reference_number": "210.90.42.20.01.001",
+   "movement": "automatic",
+   "case_material": "titanium",
+   "bracelet_material": "metal",
+   "confidence": 0.3
+  },
+  "raw_text": "{\"brand\":\"Omega\",\"model_family\":\"Seamaster Diver 300M\",\"reference_number\":\"210.90.42.20.01.001\",\"movement\":\"automatic\",\"case_material\":\"titanium\",\"bracelet_material\":\"metal\",\"confidence\":0.3}",
+  "raw_response": {
+   "id": "msg_011CfZc66nU7PJGZb6qZXKd8",
+   "container": null,
+   "content": [
+    {
+     "text": "{\"brand\":\"Omega\",\"model_family\":\"Seamaster Diver 300M\",\"reference_number\":\"210.90.42.20.01.001\",\"movement\":\"automatic\",\"case_material\":\"titanium\",\"bracelet_material\":\"metal\",\"confidence\":0.3}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-sonnet-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1494,
+    "output_tokens": 82,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 1494,
+  "output_tokens": 82,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.003808,
+  "cost_source": "rate-table",
+  "elapsed_s": 1.79,
+  "started_at": "2026-09-30T12:14:33.508793+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-sonnet-5-5"
+ }
+}

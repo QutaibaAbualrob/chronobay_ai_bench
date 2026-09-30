@@ -24,6 +24,7 @@ ANTHROPIC_WORKSPACE_ID = ""
 #             (effort high or below). Omit to leave the model's default (adaptive).
 MODELS = {
     "claude-opus-5-5": {"provider": "anthropic", "model": "claude-opus-5-5", "effort": "medium"},
+    # "claude-opus-5-5-high": {"provider": "anthropic", "model": "claude-opus-5-5", "effort": "high"},
     "deepseek-flash": {"provider": "deepseek", "model": "deepseek-flash"},
     # OpenAI and Google models through OpenRouter (one key, real cost reported per call):
     "gpt-6.1-sol": {"provider": "openrouter", "model": "openai/gpt-6.1-sol"},

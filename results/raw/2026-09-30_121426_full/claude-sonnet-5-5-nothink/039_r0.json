@@ -1,0 +1,66 @@
+{
+ "run_id": "2026-09-30_121426_full",
+ "model_name": "claude-sonnet-5-5-nothink",
+ "provider": "anthropic",
+ "provider_model": "claude-sonnet-5-5",
+ "mode": "schema",
+ "row_id": 39,
+ "repeat": 0,
+ "image_file": "039_ap_royal-oak-offshore-chronograph-43-ceramic.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Audemars Piguet",
+   "model_family": "Royal Oak Offshore Chronograph",
+   "reference_number": "26405CE.OO.A002CA.02",
+   "movement": "automatic",
+   "case_material": "ceramic",
+   "bracelet_material": "rubber",
+   "confidence": 0.4
+  },
+  "raw_text": "{\"brand\":\"Audemars Piguet\",\"model_family\":\"Royal Oak Offshore Chronograph\",\"reference_number\":\"26405CE.OO.A002CA.02\",\"movement\":\"automatic\",\"case_material\":\"ceramic\",\"bracelet_material\":\"rubber\",\"confidence\":0.4}",
+  "raw_response": {
+   "id": "msg_011CfZc7NtNtcrAdkyAMfvUG",
+   "container": null,
+   "content": [
+    {
+     "text": "{\"brand\":\"Audemars Piguet\",\"model_family\":\"Royal Oak Offshore Chronograph\",\"reference_number\":\"26405CE.OO.A002CA.02\",\"movement\":\"automatic\",\"case_material\":\"ceramic\",\"bracelet_material\":\"rubber\",\"confidence\":0.4}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-sonnet-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4957,
+    "output_tokens": 96,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 4957,
+  "output_tokens": 96,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.010874,
+  "cost_source": "rate-table",
+  "elapsed_s": 2.794,
+  "started_at": "2026-09-30T12:14:50.825174+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-sonnet-5-5"
+ }
+}

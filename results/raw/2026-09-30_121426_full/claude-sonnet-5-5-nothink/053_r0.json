@@ -1,0 +1,66 @@
+{
+ "run_id": "2026-09-30_121426_full",
+ "model_name": "claude-sonnet-5-5-nothink",
+ "provider": "anthropic",
+ "provider_model": "claude-sonnet-5-5",
+ "mode": "schema",
+ "row_id": 53,
+ "repeat": 0,
+ "image_file": "053_breitling_chronomat-b01-42.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Breitling",
+   "model_family": "Chronomat B01 42",
+   "reference_number": "AB0134101B1A1",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.6
+  },
+  "raw_text": "{\"brand\":\"Breitling\",\"model_family\":\"Chronomat B01 42\",\"reference_number\":\"AB0134101B1A1\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.6}",
+  "raw_response": {
+   "id": "msg_011CfZc7ygtP37vYFPxS9Fj9",
+   "container": null,
+   "content": [
+    {
+     "text": "{\"brand\":\"Breitling\",\"model_family\":\"Chronomat B01 42\",\"reference_number\":\"AB0134101B1A1\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.6}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-sonnet-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2590,
+    "output_tokens": 82,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 2590,
+  "output_tokens": 82,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.006,
+  "cost_source": "rate-table",
+  "elapsed_s": 2.334,
+  "started_at": "2026-09-30T12:14:58.985382+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-sonnet-5-5"
+ }
+}
