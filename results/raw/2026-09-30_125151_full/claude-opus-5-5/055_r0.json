@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 55,
+ "repeat": 0,
+ "image_file": "055_breitling_avenger-automatic-gmt-45.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Breitling",
+   "model_family": "Avenger Automatic GMT 45",
+   "reference_number": "A32395101C1X1",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "fabric",
+   "confidence": 0.5
+  },
+  "raw_text": "{\"brand\":\"Breitling\",\"model_family\":\"Avenger Automatic GMT 45\",\"reference_number\":\"A32395101C1X1\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"fabric\",\"confidence\":0.5}",
+  "raw_response": {
+   "id": "msg_011CfZf41QpDh3F4cqSFDw25",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS0AkKEAgSGAI4AUIIdGhpbmtpbmcSDEBtYXYJ0v5/xQQnYhoMkg4JDy45XJnsSZvrIjBA3DVmz0QjlYobUBw65wok/rs/JJEwG9RXqw+0mmODoWqcDeErgXJPG7zFXqxEm3wq7Qj2Rq0xrzg8CchQ3InEewvu2QGLQ7SkKfQ8Oo7JAei1BujyzIPWuTA/VLnJe4zXgz8Zxi0KUVczU9pOcfXQxLGAuHu4Wtr6wN45Q7fhBS27WvRZq2cfWqFDrqhMWeQx2XTR/zHyzkBCZkAonfWq7nCSaZPRSfwZ23xprowhM1T8StMwB68SgkGIQ9FOSxfTZBZehPvwm8yaCNItOctskyQ/LHTKrMG/pT5SsACvtkg4kYWZ4noZ49ppEg1x3CbBsCWkm1OIV754YEWpTey/Iume/gIvlKs86YqIQJOIx7jS+YekL8sijftawt2PYmyn6TCYI+1qYbfJsC4z+KTBJhcBCSGsFbDTzNgvJ0/Ml6pJcgixYnNxdQfgOlbdo+IPDnwQwar3uWOrRkyPF7n/zaJc7tuHjD1KbbYbEJZMO4Fse1AKqttv4IzAtR2inu7HdySiNPadBjrJuueqMHxnJep4pq8TWo24E2sk3YRxE3/Gw6vBlwUinru+9nMw0J/SU0N8hM4KG7nUXMcjSjES9dWkUMB4wp4g8lDN2PdYodqWUjOs63fUTNLpLCRhvKbj27OAY6MyG3mC0Mqidimti9UCcXJuO7DDphRRsbK/3gQMkueRk2Z2THSGFp8qNlOLH1Wp9kJKsSZvteMHxZPSQEu8fQb2zNUicIIDxnb6KiWvcrUWYCYo/6akrCmUYDBe2QCUNPn51nwXFqfxOnF27OGc/H0f713c4ikIygx1IVUg1WB/WuvOmRHm20WI+gYV3/08u6f1ODdedWMTL3+Aj3kkNPEZNX47St6ToZVZwBAn8be4+E1tF2e0ZMFQu0Cpfnrsj8o9VAK4MJr8DNGiV9Q7DrBmolKEty0qs5HbDoGIJt6mrCFKxuebA9dFbEGJSzX+B5JRELynuY+qMxn6IFniluwQvqTx/4rmfAlGnHT5wvrNMjCniadmZ3ePur5Zy/ea/jvusbPuSL7e8gaok68mzDxGKxFuGLLQPAiBz1boD7JeJBM4Z6Y01DpEK5j7XeUks4ipPRNorOxIAz76cvTy4CCoCoZtZnF9hPM6J6z7rhY/DTGLGeD4A0mzPeLi5ZJG4gv0aapaCSd3iPDamByrxeU+sA9A4pWLw9+3qihcuPEVwbGctcGbL6vWGbkMeUR/imAq/hWElYlH2D/i3Crx590Qo7KYaCp6bQXxaeCrU6XEoo7gXefGm0JwI56qYX5f9QxJQYGTlERwBVjgbW1Uspogb2RCExF/vAteT2bQGNoUbUxiIpzqqsPa8oRQX0ChKKwrf36Vou454y3mu4JZ4QW5p8cRPz8sFjJUQyGPD7gZsIMwaEXFQcjjWsw9LrKbPoZPx/7OCiEpuPZnV1YLKwBCacTEqgMlEyuvUNwP+VCxc21/TKyJ4u4vSxjbusUR+ZXA/lCWeJP+Cz9BZW/eELhQpKDBZsdj/aJTENs9d1Fq96vJ0c2ccCccnEFdNsvSLnohbYLm0Rfyk3ymrHUoI+CDYetOyvmCSXeijxgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Breitling\",\"model_family\":\"Avenger Automatic GMT 45\",\"reference_number\":\"A32395101C1X1\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"fabric\",\"confidence\":0.5}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4670,
+    "output_tokens": 352,
+    "output_tokens_details": {
+     "thinking_tokens": 265
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 4670,
+  "output_tokens": 352,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.02572,
+  "cost_source": "rate-table",
+  "elapsed_s": 9.314,
+  "started_at": "2026-09-30T12:53:25.641540+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 26,
+ "repeat": 0,
+ "image_file": "026_patek_world-time.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_family": "Complications World Time",
+   "reference_number": "5230G-001",
+   "movement": "automatic",
+   "case_material": "gold",
+   "bracelet_material": "leather",
+   "confidence": 0.7
+  },
+  "raw_text": "{\"brand\":\"Patek Philippe\",\"model_family\":\"Complications World Time\",\"reference_number\":\"5230G-001\",\"movement\":\"automatic\",\"case_material\":\"gold\",\"bracelet_material\":\"leather\",\"confidence\":0.7}",
+  "raw_response": {
+   "id": "msg_011CfZeyvqNPUuf6eYjXX2Wr",
+   "container": null,
+   "content": [
+    {
+     "signature": "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",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Patek Philippe\",\"model_family\":\"Complications World Time\",\"reference_number\":\"5230G-001\",\"movement\":\"automatic\",\"case_material\":\"gold\",\"bracelet_material\":\"leather\",\"confidence\":0.7}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 5831,
+    "output_tokens": 498,
+    "output_tokens_details": {
+     "thinking_tokens": 423
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 5831,
+  "output_tokens": 498,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.033284,
+  "cost_source": "rate-table",
+  "elapsed_s": 11.078,
+  "started_at": "2026-09-30T12:52:30.248911+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

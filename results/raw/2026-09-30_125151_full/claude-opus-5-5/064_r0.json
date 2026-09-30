@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 64,
+ "repeat": 0,
+ "image_file": "064_cartier_tank-louis-cartier.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Cartier",
+   "model_family": "Tank Louis Cartier Large",
+   "reference_number": "W1529756",
+   "movement": "manual",
+   "case_material": "gold",
+   "bracelet_material": "leather",
+   "confidence": 0.4
+  },
+  "raw_text": "{\"brand\":\"Cartier\",\"model_family\":\"Tank Louis Cartier Large\",\"reference_number\":\"W1529756\",\"movement\":\"manual\",\"case_material\":\"gold\",\"bracelet_material\":\"leather\",\"confidence\":0.4}",
+  "raw_response": {
+   "id": "msg_011CfZf54tgYgdzeVB2DYUDc",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS5hAKEAgSGAI4AUIIdGhpbmtpbmcSDINJfvCz1c4X4Af/OxoMDtp0IRdFqGUIOeGBIjAn7QAXwSrEgxAAkN89zQLsnZ+uLiD1kKQiu75JB4RiPEJTLng6ddJTct17lIoND3cqgxCi1jER3C8iK1HdQARoYxFXMZIQ3bk5M4awC4B9uoMiBCAWADxZasJ+6CJKFd6U7fHHiHZ1s2NiKQLF3HAeqPnI3EqZk/QpuycoU+LODVVPSInbDQvuDYV8T8I3BDLFvk8AE4yl9oAgc5TJy1kYvRbYLyUdV3nw5b9KN0XPLD76vBQ3zudzxfuRAxPWKrPEz70HHHVlgH3KTnZU+rjU2yYhbs3Xe+LU41XjSKY6b/QoF02PPMElLf009K2cY9DIjBF7B0bgV6XAsJBSM1VkJi2o0262/5L4PfUuP0i7lK926yHGO6AXuxOH6g2nzn6OT3gkhPKFrbiICcTrCnNl3xkXUuOL6ImyUoVnZnocSI4McunWJWkaYYwZFF3DNwSiGETuNkBgclvXeVs5qS9FM6EKYrMFRuxJPs7GhpUjrwiOj4CLlGQSECyCkqjtOr5dd1vXf6ZnsSPtp0rsd7cxf7X5tRnwNQhTCTPv94mOLydP/lSzoZ3HWWv/FdDffgArdBtyfx4KEp9ujP4gAF7GJf+MObQhHBpnRUzj35D1kD4ffBEudTN1k9uswKcZNZr2DpDukEOnejyE7MyUv4OOoeBFZejWmF/eiQBQ04NcIOvOBacdfoUf8KoP5j93bFIbJEYQhwdTPqhpwf3bdmj6bplzE5OlakDw72ZNtMnl8Cu+7MmZBnHor+NXef4IZgNJq0DjOVi7ifn1TKcAGZgiMcBN0QOoUlUNJkeJj5MtzOGmL+uSVhLA9iNXBfYJmx6wUfhyE4pEq/DhYcLNB4Ii3uliIiXTMqUM/vO/X9NQD7QL6MpxDWHL9iku0FQUgcoF589DpWu1kSftNcg2B03N3BE/CQ4tDUm/UbX3C+gpKJbrf8aZHXxmNibgFJ13r6imBKqNcrZOeOcTzmrU8VlsQj97NdIW1Mm2cB/ZscyLkBmoD3msBr41aFVUPjEg/DQR33tl07pZgZtoHRnR6hFB6MrwYOSXo72uq04BGR7LiWDXNDnHFrSiWxhk93HVtq2CzP9pfXkMMTFuqC8eDkdx66I3U3dkihJf9PTDrRTaQvNQjicVAfJZQlF4QRQxp4VPo4QrP6mf590brJq0K5xh5/6Ib1yEPsLanlqdZq+y08JOAYrk/KxXi0E3ZEFXl71CYeBmoQ61aWdH2wZp3x6PEiaVkh8TOWDF3K5ofkRgoEyqzTkMo8j0ACgFbMwMFxRvSk2NVuHrqec4XXMp2lkJP5McGQvZ0urPiRUX64Y0NvRP83xjbDH6Vrpr36BSwpDnPrt1I0YczabTB4GpQJijKPlMxYqRlhFskS0b6zD6AjWtJ5R5uCdHcWSoh9q5N1NzfYdruk5Y41Ffikb+CX7P781WYfqyuWJ/lF4elZMAbxPDw/hUBfkIzz0Qfl8Ndl58+tWiIidzU+JuYUVhB4XMq/cEsA4CzCFO3NXNE7E9S9I5wncejAs8VN/biBZJECPU1Iuw4FEm5Pe2wntQ75xyFtvgn+nL+NPkJI0LlDj3szpyR9u3FEKNRsYuW7ui1sS3kaUxwP+MC9Ddw/IDMZO+vEC5d3cJnBFNo5w+72gAN0CH3AzDxG9UJh87rVqmgLRRRH2NViBAS8pUlkPitb8krFalVCwx481QWuAAWwK+1o3w6PsT5VVsGzrZwFwXFfghgv6aXAlGVkIgGFPbgnFX7AN/yZDu3SG9x3YqFL+IpsLa7oreyt/bqVgfJm4pn+/lAJZJir2X43wVzTtA1ppM2mPd3mEqp6RGwCecRjFeXZN8PnsMY/+SXpXAAsP6UZWgeX3wBw2lQuwyh90rxJ8Ngwlzy37xvHfOypOnK43oAFbBBXwXAaSBMfKspN8Me8EumBTTW5Rt2/K2s+ofUtOJLR2BJVkUfKUY4YUtGUlBuZH+CccfQROOcZneMR28W0Twgv07DApt/4hSvSb02/b8+UmL7WB8cI5S+puHuRhgTyNokvAD/nSGwemYxoevoZEszo7Kz3fNKPkiVwAv/dLAaPFpdS8xaQKRZC+7ShRDlbdmlJ41aa+Neh11wug+r2rQDENeH4POjUCRWLpx1GxSX/VvxbAErGGlLYKa5Y99Tl1BlqcKqfdsYo0g0d/AE1WWKdyYxQmNSPVn+WX/I833C0aDkIOkruz9t8SYp+dW47F1UrqAb+GfySVLq8HvPf2+YyxUp+pIOFxCP6VOZBenGeTQQk0WSveipjsbJRGx8OfebrzWUn42e27Y7zvTtujpA0WWE7UVWvBB7Zen7bUXFtkF8hqq+SMzDpNAsGiviH8P45Rmt3t9vFpOD2DM+x0tk3JslYyf0Xv/YWGysD0+0t9RjZf1Or+xpAgArBfxsTFSvT8NnazJ+nJPU3MtipVW0E7c86p+IyyXM89aoieYKfzRvguizVZMpkyPpbkV6PRo+2f6nZVY0xoTdjSiJtLkruUnjoznpZvRFNsHydyuPAszSsobxjNhHb3IJHjPfK/AV+Pn5GYUTE9A5TUnQi8xU4wkfsmCS6m5lzOD56Cp9rUtJ8nAJ4nAiUf/sXn9yHFjqdPdhmAchZGVFtADPw2xKtVES1/pRH2zfP3uaIiVcvX2Rh7+VtN0kMnJcGx6H3w6piN1O7fYk7EtV1lhUHUQLjFXLXlYEa5bAoQXsgTmvzoDIzfHCB3jRYPRBdDgKaakPUwLuJ9SnkTBgpu3kzRJcwX2ygMUgjs4OY6DCh8w6h/mcZNfApZwFvezOp4psIgH4MU+ghgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Cartier\",\"model_family\":\"Tank Louis Cartier Large\",\"reference_number\":\"W1529756\",\"movement\":\"manual\",\"case_material\":\"gold\",\"bracelet_material\":\"leather\",\"confidence\":0.4}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4526,
+    "output_tokens": 735,
+    "output_tokens_details": {
+     "thinking_tokens": 659
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 4526,
+  "output_tokens": 735,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.032804,
+  "cost_source": "rate-table",
+  "elapsed_s": 9.965,
+  "started_at": "2026-09-30T12:53:40.017155+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

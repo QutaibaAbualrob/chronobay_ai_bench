@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 60,
+ "repeat": 0,
+ "image_file": "060_breitling_chronomat-automatic-gmt-40.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Breitling",
+   "model_family": "Chronomat Automatic GMT 40",
+   "reference_number": "A32398101B1A1",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.6
+  },
+  "raw_text": "{\"brand\":\"Breitling\",\"model_family\":\"Chronomat Automatic GMT 40\",\"reference_number\":\"A32398101B1A1\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.6}",
+  "raw_response": {
+   "id": "msg_011CfZf4hjhykLiVjWCvQntv",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSjgcKEAgSGAI4AUIIdGhpbmtpbmcSDFPHPnuNfvtkaI9FWRoMe3EzHa1ajvtYCiO1IjBCrKXrR5qpjRI3bkjjWhSTYt0ZCiUCa7Y5M68HoCI5+FOSnNtUXKkb56cEsTmkrs4qqwZ4DdJyDPDfolp0iauGanBcp2Sc9KfvtyqhA/Gdt3H7RLvZA19mc9Ex3LIKvp1gepFC/X7rY0pUHGz0nD16hk3nZcyPNkShyJBB69KMG+rlfqEcF6rhoAfldNbn/3mVdkh7Ilydj2kuv6F+lGlRRem1Hxhy3EtdiYgZ55s2sKIRirpo53L2jw24HpkIGlKbijlrrFGLcpmMLIsHuY23JtuiRAhP3vFMJSu6IYR603vuV1FLjH6FcfPrnOHSGcswuggzWLrdm+lG90BFfkM03pEU2Hu/K8cp2BtWW8BECiuV1b8EYqSQj7d6FC/XVmC80emNDxrkdWRTfpvT82BgJeApB3mJhQTIM94RYgGqMm/8fkazAD4iGXOcKA0werFJKaeTMcVKbt8vye95m3oaIrGedeEBKYBkIsgUTvj8ttUpuQdcXg1Rj7+Nch+oPlRB1SCoHTDoE3btG+5IWLQVseC8eY8c1BZEKoITiDJ7DzjzPIrTqhE4Hih7PDF9bQShWJLozByC5Do9bhPJ8pS2QvzsfG21+fZWZ7dQqS1yQPoV9O7qWmUTgAVD29deGpnhimIycG2M8jqEnBrywu+SNr9z0OQZJj8OWnezuqkX5WIpxP+GC3+py5yBNDcmULUfG065ZlGHwClZtq38k6akJ5b4rjpeMjzjG+0LHNvFHv5rQ7kL6BucA7LOUT8k7DR9w2L5unT4oNRzHsPdZ0cVGqWdLeNY/kCrzK1h7bkKkj4MifQmjker4Y/iY3SBS727DzmWCImTSOOI4IRjZsWje5Bh0qc4sVpjiNva5uO0gOZKX0xvSrXd0BSYroMWbIgNU8au8jkmSckvZp/v13rQkOZk4uUQmZSZ/4VwkGgAc7G4LgHtKfkRTM4Dc7s5roHxulWexCxhtx4m3ioOOrsE0iSNa0KErmlIalqPoqtOXi5+UeUk2pPwkRo/+qCdVATMuWgOMlTbfMfwOlC1Cy9/slAba4Sg8xKJG8qVQXzM1rt81+kGiKmH2XGKs4tfrQ/Chc2fNPyWraFv3JHTvZfcA8mVTEZhGhyNr+WaUvQNcHIi3c594Y7Af/V2qPcXGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Breitling\",\"model_family\":\"Chronomat Automatic GMT 40\",\"reference_number\":\"A32398101B1A1\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.6}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2591,
+    "output_tokens": 231,
+    "output_tokens_details": {
+     "thinking_tokens": 144
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 2591,
+  "output_tokens": 231,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.014984,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.058,
+  "started_at": "2026-09-30T12:53:34.958473+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

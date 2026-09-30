@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 28,
+ "repeat": 0,
+ "image_file": "028_patek_perpetual-calendar-chronograph.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_family": "Grand Complications Perpetual Calendar Chronograph",
+   "reference_number": "5270P-001",
+   "movement": "manual",
+   "case_material": "platinum",
+   "bracelet_material": "leather",
+   "confidence": 0.72
+  },
+  "raw_text": "{\"brand\":\"Patek Philippe\",\"model_family\":\"Grand Complications Perpetual Calendar Chronograph\",\"reference_number\":\"5270P-001\",\"movement\":\"manual\",\"case_material\":\"platinum\",\"bracelet_material\":\"leather\",\"confidence\":0.72}",
+  "raw_response": {
+   "id": "msg_011CfZez3oKcZHvL5BePbUT7",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSxQcKEAgSGAI4AUIIdGhpbmtpbmcSDKu3nYxdUwkE89ATLRoM7r1OCRnb3x1L1WMkIjB+wwbaYHIGpmtsfSuHXUX2P0rDJUo3/EhgFa2sRgWrjQCjiZnERto7PxPfOSJ4Cckq4gZTXs2VJ81OfyO1up+rpAM0eIdky3WKf6ZNofCCtaoUo34QwNTCTyjuuqxR3c+dKeH3Jn01AfksAW63k96JTef+a1OQvDNtNX1fz9DrvQul0x+R7n6c/pl9uCE8ovgZF4Ejm1f+alsqToUd970Judtc9H9Nk8A6iBMMjSFk9pYbdp6lc4TgWPuexgjcn5f6h9860sra7rkveya2HWna47gmRmV63saZjCpAjG+yz3bTY9/jN0Pmbbpj9Q118XbP1t1DvvoL3GOidrWIBAolYNoBAyPIn4w1wwB6sbQ7xoO7XXGFJtiQai4CAkH5c5yOp70Zvo6348VWkjLLjf5Dp30py+n2BVITAtuR0xiNaYvX0cODpGJBj0fOzuPL14N/6K4x9EvKxnhr+3V7oUJ02xEFof/GEXqdnqLorU/8iRPyAGLYZ6k92GWS6QLYsq/OLBgbMd0QQZXKjJb2CB7e80+8d/Q5vUnmtpFaADSqbX4P+YFr1GliIO3lQvoVKXvAc44+rq2bjsTU0/stb5cXwXCZOEaBk0s4dFZePa9UdFStXVdRLxS77TIkm4zRTRRxgn092i4cgUWHjHUSzoV5eFgkegpK0jo4NoBGSvVCidLgPZWYnCyVA7KhBoC5iwxF1pSv42jobE4KQ6W1ywW4BI1o6pK3Y9RHJVluFRwmH0nxMm7nyVUU/D+1buwpe39JiNX88ChG5GoMh/b5igh9xp72PgmGsIDLuAIDuqi4F8pTIQC1EQ3kF3UxmVBJYLylzQmImEZhtShcMTA5w4lgQoKi3vNSQBaOsOiU+/jPHU7CenKQzd7cLuQLPbFXP2X7pzHaGNlhW/E5rE5a2UWRM5+w1BzcXicB1AuWpcpZRGkPZP7dzuvXJo2HQxkTy+D3kTldHplpSqSu9qhgEhLFQ3h4CEi/fFZQT4N5DFj4qxmdA4E6dAd1W/pbmHA/mD6J1PQE0fYdP9hScEEoSHsCwmMzj/BHpWlOLa+yaNmR+DfhJqAKW5l8kvCgpIdknPTwL30rpk49IYqeKXrsDuT4pb6pPrMVbRT+cLsFRliFsYLjb1M6aBfa1Z/Vo8bKSC7cSMullBHUSH/xBIg7MKcoK9W7Rp77lR7GuyT/4RAZ1g0Z+JLvHyG8lX+DL1PAYb4q/JsM7xgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Patek Philippe\",\"model_family\":\"Grand Complications Perpetual Calendar Chronograph\",\"reference_number\":\"5270P-001\",\"movement\":\"manual\",\"case_material\":\"platinum\",\"bracelet_material\":\"leather\",\"confidence\":0.72}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1484,
+    "output_tokens": 248,
+    "output_tokens_details": {
+     "thinking_tokens": 159
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 1484,
+  "output_tokens": 248,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.010896,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.41,
+  "started_at": "2026-09-30T12:52:31.900162+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

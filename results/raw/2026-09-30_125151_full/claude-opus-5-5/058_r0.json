@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 58,
+ "repeat": 0,
+ "image_file": "058_breitling_aerospace-evo.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Breitling",
+   "model_family": "Professional Aerospace Evo",
+   "reference_number": "E79363101B1E1",
+   "movement": "quartz",
+   "case_material": "titanium",
+   "bracelet_material": "metal",
+   "confidence": 0.55
+  },
+  "raw_text": "{\"brand\":\"Breitling\",\"model_family\":\"Professional Aerospace Evo\",\"reference_number\":\"E79363101B1E1\",\"movement\":\"quartz\",\"case_material\":\"titanium\",\"bracelet_material\":\"metal\",\"confidence\":0.55}",
+  "raw_response": {
+   "id": "msg_011CfZf4Vup64C3WJ9VpinL9",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQStgcKEAgSGAI4AUIIdGhpbmtpbmcSDKeJp6EyX7njRcQCbhoM8Vj/NdumsYIsG2dIIjDykvrFJozw+imdc5iIE9mWiKFUWeX1JEzVQSeEooKHZWcVfhdBJE90eJ+EH8JbrvIq0wYRAex35uEz5fnTdiczuba+4xFw2jdHezz6zihrtV1wtfjt3GrXTqly6l9n3enQKf3QKqasM8ILs/oAot6Z+Fts1bFdbpijOTjZetDXeNbOKxP2zg/DZ7dR4X3w83FGeRywjepHP2KRM4k45W4Y8kBbADDIxAEgK6Rq/VBhlQUubckBE29epz6R/nEbmzfYMk3FHDXqDLI6Kt6FjQFUVyHv25ehAnPfsIlAd5SJ4Vm/Ti/LPvm6F9EItViRQkcpNsFubz0N66ghIh5w7JeSwexLCxtuxA4Giyw3ZsFHfdqfDRpEj3NBVaGsNwai3/IdsrIALsvrg1JKZ9J68nL9azDpkBbXrf2/lUeqTO/RcncylgjpszmDBvpw/TkE3XQbYa0aV/rxMw6PBbxOSkGrLxzK7R2Tb0fd5KDPgNHZO5GRpvkCls+2mk6rbHV/baOVgppha/YCp3EnKxDmK9ZwcLCTxR2SagiEKLUu98KIiWLZTRp/vWMw9mzkqimLQ02xUHTyUNsPgrbrqrA6ej3XDe3D8RVFKyJwC3mMJqXPra7rvidhqjPDgz9BmX3RxUOBwcxB37RvgyWKYzipQSrg8XRMH+vu+Ob1+e3oEzoqz6lJwsuhXlNBfoLKsVsBA/vVlBeyIVQlaIjD1FawcN2zzziYVhT9pgfhH9OHuXj6M1+lqMRK8X1IaSjEKaJC2mp4heyKvkBVqftoWG8Z47UYTQQKz88uFTfIvRnu+BgFHMbkhku5r+080fdYVmNn2+4mQDIayuiwPoW0JYqJK0pcofZUBxQCynUOxVs8c4s1SENtXy/3D5jfzsmPFYf24MUnoT/haEPZUvwmh94m1zgs3LpOPODJ+zwEjD4cUiqYFQqT5JxnfVbaEIT5GA3TgQBI++qJ1jRowjVAf+NsgrKCNnlU7eqcLFYcOBhR46DC49gRy5l9EcJUtdJVtgrTTW0ZifrN6E4daQJKb17TvpZK56lSNQQDge0ryuMFs9PuxrjLy2EgcPPOZWhx68yZem871Rl198+akgtyw0j5GFVJ0rAInHocCxAyk/sK14JrrxmKQixd5PZh1VYEQoHj5uhHuSn68NNRaU/ffcPLxnSIkSBkDKvZLYPBmj1q3dsqfSPZUCsLwBgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Breitling\",\"model_family\":\"Professional Aerospace Evo\",\"reference_number\":\"E79363101B1E1\",\"movement\":\"quartz\",\"case_material\":\"titanium\",\"bracelet_material\":\"metal\",\"confidence\":0.55}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2591,
+    "output_tokens": 240,
+    "output_tokens_details": {
+     "thinking_tokens": 159
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 2591,
+  "output_tokens": 240,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.015164,
+  "cost_source": "rate-table",
+  "elapsed_s": 4.584,
+  "started_at": "2026-09-30T12:53:32.303416+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

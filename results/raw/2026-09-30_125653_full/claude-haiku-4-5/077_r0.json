@@ -1,0 +1,63 @@
+{
+ "run_id": "2026-09-30_125653_full",
+ "model_name": "claude-haiku-4-5",
+ "provider": "anthropic",
+ "provider_model": "claude-haiku-4-5",
+ "mode": "schema",
+ "row_id": 77,
+ "repeat": 0,
+ "image_file": "077_iwc_portofino-automatic.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "IWC",
+   "model_family": "Portofino",
+   "reference_number": "IW356501",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.75
+  },
+  "raw_text": "{\"brand\": \"IWC\", \"model_family\": \"Portofino\", \"reference_number\": \"IW356501\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.75}",
+  "raw_response": {
+   "id": "msg_011CfZfMjS86swfm3pyZpNDn",
+   "container": null,
+   "content": [
+    {
+     "text": "{\"brand\": \"IWC\", \"model_family\": \"Portofino\", \"reference_number\": \"IW356501\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.75}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-haiku-4-5-20251001",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 2395,
+    "output_tokens": 68,
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 2395,
+  "output_tokens": 68,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.002735,
+  "cost_source": "rate-table",
+  "elapsed_s": 1.424,
+  "started_at": "2026-09-30T12:57:25.933172+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-haiku-4-5-20251001"
+ }
+}

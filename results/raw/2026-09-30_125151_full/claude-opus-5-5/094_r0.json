@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 94,
+ "repeat": 0,
+ "image_file": "094_vc_traditionnelle-manual-winding.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Vacheron Constantin",
+   "model_family": "Traditionnelle Manual-Winding Small Seconds",
+   "reference_number": "82172/000R-9382",
+   "movement": "manual",
+   "case_material": "gold",
+   "bracelet_material": "leather",
+   "confidence": 0.6
+  },
+  "raw_text": "{\"brand\":\"Vacheron Constantin\",\"model_family\":\"Traditionnelle Manual-Winding Small Seconds\",\"reference_number\":\"82172/000R-9382\",\"movement\":\"manual\",\"case_material\":\"gold\",\"bracelet_material\":\"leather\",\"confidence\":0.6}",
+  "raw_response": {
+   "id": "msg_011CfZf8oAW4BqHBgX2eaaFC",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS2AgKEAgSGAI4AUIIdGhpbmtpbmcSDF2GGo2tKpbN5S3iSRoMu1YrB8GWEkrZ+s8bIjAaPRUpf5MQrHjd5WZ00a80L9Dr8caQOZLtcS9PqcyHfq7vlNyhF017etpuvfnYc8Mq9Qf4dHuaVq8i1mJUxd2TRtDzGXKdL5705QgbO5q4NADTCTYk01LbjebVq5OfUWyKY2RQ9tGn8q++A8GDaVf8HUZ/r8J6MV5bNX9DCbhWMQh4tl7QRf8BeWdxLZOFVnzwHWHBJEd7kVy038vTCvZo5xi6fzgEkhjrBFW1ojjyqvxSLAIGT3l8ynpNWUZO0vvWWlr6sutv1ZLy1WYRGAjUCixNMQPfyppaV2DmcQ3+QWmJ6mYIT7X9iNsVVo+OzKWGm3ugDo6ZrZQlByRvJbq8HHm/ageQSuFYf+1L4FFsEhfQ9hMrdUPkX5/bBl5zwOb8rh0up9gsQZxF1GPGOkkEF9Np70QOPwkncOmZVpZbIqbN/1Eyycfn2Y3KgJ37toakJUKHcdQZ5H2tLOdX7PjaQyhYeFTjHQLzboYqbfLGiFrFwXgSaFepgFE0dZd//cnuliTaObD+krKoH7GZYlkM6FUEdJ9RGxQNvwKQ6//5oqoLG0fJqBLOxJtex7RYy2vG5Fik7dmxoMTz2LQXLXwJj5aMQpZuXXoJs6CGoZ9xyRIZIl5AVhz+6FyMl00+UkjOpGtCbIM2veKfbRbATOjbfGhn5w21y3p1l0ED1vrDxe4zzpgVmF+k+K/PSi2kVQ2gWg+TJDoashDIYkOlRjaUkQtk9h8iTuI7gagxds1dxpwHAAqKj7lrw+/IBAtDErQL77RUr/X2DrN/NLqw2GUwQpdzYWdlnPBP5cjfBPPt7dYNJDpOVyqJwkR7hOKMRbL3tPnu1/yvXJj0qLnutnxi2VdqGAZ2HZOISNdQUje1R086rOdkLcxpHZsZ9opZfL8zLt/Rn/L7dRlnsyIe6HW7iIrTrJv9SYxQUhaJymAEkKfrmIDWb0QaVu6WdrxJnd+QBSgL6oqHzfGEOH8Nm3KddypsF6vgKeJ8qf0ql+ZzzDhuRd8ZtJu/9zAvmgWybx9zkPFdtvHsyb69mBsVpgvPhYQRKk++fuDJjZPAvxD+2opdpptF1UOTVaSokCIWNcHDWwVqC63hSqygBnvsi7jNerTQxdGXDd+f/uJFUjRAYcSkwbnJdQTCULwenEPqIFXmKciAyRIIDbZKM7rPDzJZsmam8rZxNnRSzsOD6k8Qpn9hf9euNS1dSi/3/cufefIYcpMQU0gJxq+xCLuMBPC3He7/E5xpifkqFtV46fjaXACPKUBkPJFbpnY/qItjv5n921iZR4bq6hI3fe6RBqSz4Le5DBpm3cmRcrm6NLXXvLdNWflu74s+DAigPq5z/kF/Mr01rp6MnRiMM744kEQViq2kO6NUYHFKWQkzgkv6ZwqZvyD3dvoYS+3hhEWymJaUm/hEuyvKoRgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Vacheron Constantin\",\"model_family\":\"Traditionnelle Manual-Winding Small Seconds\",\"reference_number\":\"82172/000R-9382\",\"movement\":\"manual\",\"case_material\":\"gold\",\"bracelet_material\":\"leather\",\"confidence\":0.6}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 3564,
+    "output_tokens": 324,
+    "output_tokens_details": {
+     "thinking_tokens": 231
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 3564,
+  "output_tokens": 324,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.020736,
+  "cost_source": "rate-table",
+  "elapsed_s": 9.124,
+  "started_at": "2026-09-30T12:54:30.591324+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

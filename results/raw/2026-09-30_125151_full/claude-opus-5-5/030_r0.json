@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 30,
+ "repeat": 0,
+ "image_file": "030_patek_twenty-4.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_family": "Twenty~4",
+   "reference_number": "4910/1200A-001",
+   "movement": "quartz",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.6
+  },
+  "raw_text": "{\"brand\":\"Patek Philippe\",\"model_family\":\"Twenty~4\",\"reference_number\":\"4910/1200A-001\",\"movement\":\"quartz\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.6}",
+  "raw_response": {
+   "id": "msg_011CfZezN1wfwE6AcXBfbGiT",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSnAkKEAgSGAI4AUIIdGhpbmtpbmcSDLyxgNS3qHbxwuCLtxoMx4Y5c7GGHEtMLcPxIjC+8qpYprtc0A0TO43OUPmYrcHbgv6dsvwadZqTi0BsTFzQCuzy+/ecJRvyGgSa2dMquQjf4sqFtc21J3vsh9iJ0EvQr5FaLhODMP392Bh0JE/Co4HpUVF69GeF7KNxBM+roQm1QgHurRI3KbKWRaW8P9yQup34D5tV7lGwJBoDy4JTk3GZpQ99r03GS85upfeDJY0wJN+Z4Vkl5dLlwgf0R9VyCKuxHeunLAm680kizDx/YclHLdkw2gtaNHv1BBtPxnrOhDLud0gEgb/SKit5SQKWaEPTsz5eS1vmwWeuuTyb5TgBuW5PFXrLoHpYzGOUSqiBGsfvBOPpFK23GEZnCbB66gyr2+17/4+Wcjv9lN6+sbG6qO5GgUG2fq6okzG8MAmmP2tmAFoLd8Z/MVJBaSKhu263JhU/96NLO1bDplVFTZjjGwAG0ZgDw6ewKJevGONKSE75Is6lOChevW+XC3+gv/DOyEuQ1ZWP21KofVY6ZnxO7eZk3BSObiHgtj0WlvFROPovCHvfma/NU4WGMLH9HYkWNL9kQX2eEYqJoEfXZ5pzcLSR1bjQrDMaTrG6d0ejPKB9gkLlgC9kP8AK0Nrw5Y6Vjf7u12mDCkUOqvKalHwG4yE9FCI2JpD2nby8s4PWMgJJg8TVeD4QMlW8+9GB1ZZAcp+MDG1J4nHvmSM0ubkvs2jkrGTxpfjHQOune3RhJErTPytgJ01NhjvHM5B9pFQSdzhM35HEGd4AVw0/r/16+NF/wfOgdjok3FJDlr2gx5ctBoDcSDpAcq77uS8NM8Da/FUU2Bk9TJ3bcJEpOzMmjZham4AF0dvuj2ccDjRzJCGDtaAUt5WCX+qNjp3Hzg63KlerprXayds6UkCvq8gnJF1F8D1dBXh8kdIpiB/nYzkIQHQatSCCjam7iApAk93aS2UGYYTcXycABs2QdhHOEzTmezM53FsWF1+MvU1TQ9hPy5fGUAFRgyYep/gU6CsYX73O4oFHY0/ZJyGhFDOCLPquM9Bd7mgPAzkRMwb7/h+uQ0ZxEDgtLzVI0TRlW4LUNJ9Yv+/iVcrApVESNFUy792diNALzwupEaLMGjwCsnOlowNwsxfqKeENYcCJhL2rtyzP313CZPXT2vk/vzYluPCs3RTMVNf7G//z8DXK3jC44oF92q+EFgdQQ2eo7H8elxDhtjTBPNOnSIFQUbxdLFKyK8gGXyOtkoMX7tQLPWgFMZI8+Q6KcMTCrcs6SCDgazG6B4CTkb4WH33jcEea65kba16Zhh0zGINOg67qarK/uC9d19jdxbPMwWt8xNUQHzJ6RYPs5to5jClDHtXi+8TP5RA3/O+z5/4Th+4u3HvFahbTOETkBggw5m+wXUSuEqMVRxPmTWK8VFEuNFNofVp+JbnbDH8j5f2ILUb8Y9LUi/0mJi63EYXrxpahzKwzfNYM9BLsa+yXkdDl9jVaTAwbP0xQ0LkHDrImB7YzGa1DJ0LYtTjXz6wkHrHHIu2bzNOPcL0wGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Patek Philippe\",\"model_family\":\"Twenty~4\",\"reference_number\":\"4910/1200A-001\",\"movement\":\"quartz\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.6}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1980,
+    "output_tokens": 366,
+    "output_tokens_details": {
+     "thinking_tokens": 284
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 1980,
+  "output_tokens": 366,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.01524,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.018,
+  "started_at": "2026-09-30T12:52:36.208458+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

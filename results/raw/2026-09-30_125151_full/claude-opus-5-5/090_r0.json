@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 90,
+ "repeat": 0,
+ "image_file": "090_jlc_master-control-chronograph.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Jaeger-LeCoultre",
+   "model_family": "Master Control Chronograph Calendar",
+   "reference_number": "Q4138420",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.72
+  },
+  "raw_text": "{\"brand\":\"Jaeger-LeCoultre\",\"model_family\":\"Master Control Chronograph Calendar\",\"reference_number\":\"Q4138420\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.72}",
+  "raw_response": {
+   "id": "msg_011CfZf8Po4x3QCHsqLjzHBy",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSjwcKEAgSGAI4AUIIdGhpbmtpbmcSDPEIUu4juGPWwfhM5xoMnZWMcHW5EKaaODUtIjBlnjSGFg+aJEd7tr8EULJdj9eFIY3xSyC80VoDYUGB7eTWmGstMyiFRTQwrpxhRQkqrAYeXSt8yJU5xXR8SlgXHrnQlbYDY6q21Lk3B19vNdNFr9Qlyy1ykaXUAzHjfQXsl4lqljk0w4veE7gC0kpjxKc6XY2MQ977HXZ+Z3WvaDQDwsliy+vSXn0CKbbZ4Na/1GdI7wKq/a4vRoys4tcXGtrJBcs1REMhderjiaTJRCjYl/bOcoGw+ckkVzf4i5paqr+yvXAcdYqyGwJDYDnOuuks0l4T8Gn6IFIgWKs0ZBgYyH2pcCkZD29ptPW7qmKUbrdJhSTWlZ1+HS9s6uztnzpDv6PrlFmr0tPuynKfgPzwvdw6exQUK/tzGaqZqroGkTvHDAkHk09g7bJnj6dXAzf+ik42nWjWygmX76gPtCrgNQncr+5r0gjzOvdG+xfkucebLADBAOikl3khKXB4aXz6c6pueWT+vItEPmBViDckS4sKvXTnNzizCe6yfGb5RJO8xuk4XWxA/w8FJDZB+fD4qjmuRJEHp17d0lc7HmcgMIe+r18TZVeImvvnpU4Uq0IWSzyLxcXDYUyfMpEJsysKgJyA3+Wvw8G2JSU44bs564SdBeERO0Fed/NWcB5OiDAJ6T/modMN/uGxUlVlK4f8FTdyZCD+eBDDvCOiuZ5q9VK0csbSbEJtMKn02nF8WlhuHKZRNF1qb8ddbtMhrBS402szm5DXiTcFHLXmsQ3FDYEEsEWG20cMjwOY3X/Jh1C+kroWa+RMbG0ckYlhECM1jBkYXmtTYIgxjcNERwTY5H2lkj4ZRcUCpHeJsZFM8saxKGvGG7l0wsNGQwFRZ2MuI86lxYWDBSr4iT7GPQEm5h9Olw52LQtPHOfMODOXajckLRrNflYp6xVgkaW7J77SynLJZxjk6QsZmE5NVM9nvMXAacENQXAvEEFbx3eq/t1cAI4VOxcapXU8MKJ1e3Kwo8YX9M139fMp5jfrmf91olKtsKXjMKyP1slV05DnZ5mqCtqLCKlwE0Ga3dDUBfVg/AqMOAUVhcjDSO528Qyw+w7f42OhPnYG8+2nBZuj+U3+3wq1bQ25kYpumiJxhLA2P5fE7iYD6o3XtNdYB2fZDZQcCOpoUJ2sAwY0jRgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Jaeger-LeCoultre\",\"model_family\":\"Master Control Chronograph Calendar\",\"reference_number\":\"Q4138420\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.72}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2542,
+    "output_tokens": 229,
+    "output_tokens_details": {
+     "thinking_tokens": 138
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 2542,
+  "output_tokens": 229,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.014748,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.41,
+  "started_at": "2026-09-30T12:54:25.180486+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 2,
+ "repeat": 0,
+ "image_file": "002_rolex_cosmograph-daytona.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_family": "Cosmograph Daytona",
+   "reference_number": "126500LN",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.6
+  },
+  "raw_text": "{\"brand\":\"Rolex\",\"model_family\":\"Cosmograph Daytona\",\"reference_number\":\"126500LN\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.6}",
+  "raw_response": {
+   "id": "msg_011CfZew4pFRzzSFhTnHWXVn",
+   "container": null,
+   "content": [
+    {
+     "signature": "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",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Rolex\",\"model_family\":\"Cosmograph Daytona\",\"reference_number\":\"126500LN\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.6}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4958,
+    "output_tokens": 647,
+    "output_tokens_details": {
+     "thinking_tokens": 568
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 4958,
+  "output_tokens": 647,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.032772,
+  "cost_source": "rate-table",
+  "elapsed_s": 10.517,
+  "started_at": "2026-09-30T12:51:51.198462+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 84,
+ "repeat": 0,
+ "image_file": "084_jlc_master-control-date.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Jaeger-LeCoultre",
+   "model_family": "Master Control Date",
+   "reference_number": "Q4018420",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.72
+  },
+  "raw_text": "{\"brand\":\"Jaeger-LeCoultre\",\"model_family\":\"Master Control Date\",\"reference_number\":\"Q4018420\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.72}",
+  "raw_response": {
+   "id": "msg_011CfZf7nDvb1rg99wthjryh",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSpAcKEAgSGAI4AUIIdGhpbmtpbmcSDBbz0bSY05J5+hsBThoM2j23hUc2KBw/1RJKIjAJF9/Qsigyky5p1A7f2oKBzZbRDiAwy+3ft+oBm0yXlVmPZHhdZbX1f4wctVv00xwqwQYSYanbteUchv8Ye9K1i1E625o7ACHAtXp89mlHB6XyCngnV/RmPm1cuCgdcfG69xzBPrQ5Y/lAz5mi0XghU3PWFolomENCZy5oegybDky8+MDiaHr/DzWdNbD/uw94WZTlkuK/EQtQEHbwFZ0T1a+azcojD30EkjTzY6UcqcHdbyyVANOU2DWfXz1LdDGdcUtDLEjnkuWbdrGXfGg3OLd18AF1IJIPz24aWrHry75shXiBPXnjk0BG4RkdEn/XjzpZuz/7bAAA4vkTXyokqoo/nfcDlKwZG4NmV0X+gFr7bwmj3nEx8i5FZ5KI8E6O8Yo6Dxv3o1CfUduJiYmaWt7KDDyShWopujPtMhcG/xwsV3aNvK+wNvT1w17aR7rgcHGc0UQB9KQaP/5+isbkMCB70/03XJhhvjlIxUJO68JpFbN0I5CEC/6iFoNIoa8Yh6/rsULK+Nn6A3CKVqEn5V9mMKl2JjFcxQ5+cmkn8Z5Pe7OcTW+eiOy8f9xb3vT/C7GynZoKnG0RcsXZFj4hnUcFUs6EiXNw0Xjvehs/kpUYvTDOCS6VDruKMc+JS7TmLtWYLXd8+FKJt9cH7SPnutbPRVseprQEsjkJ63VWj8YeNILss6TgLsPQ/nkr5xi0EYc3QNV3K6AbuCpNa4Yk9VEQ5RLj4WVtzCbtCQWwHMRiV9smhWpQpcOCVjiNvWMAtSOw5HngBqe+UXChQbI/+pwYKCscYhRyOSNr+0AAca9S+tFjdCC05/V62LdwLplxV/yLo7XKvgbHMk9XED5uMnbDG7e17w6Hb42aVukKIj7q2L+thkb324XNdOKd6PiVqorBLOCd46f6sL1xGiLI92H/fd0PljgUXaanb/Aat6nXcUn9QqSHnXLgiHMN4tjo2n50eBSlSp9/TZo2aNuS7bJW6NTgT8jQ1tAB9iPCcrRh7O0rAwO4xXnKStnjsH6lrBAqY0wJpXQAq4R2gxx16WRBFQ4tQvgsOe9KjEOex796/Ni/+dH+C8sCLkm97tDQBxrTy5Hh1fKlAEGIBYLgH7Xuupy9rahuCmvcHL5WlCXTFChd3FvDpGlZURE/04VJ8g9nK2+6xGRSFsX24ZpDtekpqBgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Jaeger-LeCoultre\",\"model_family\":\"Master Control Date\",\"reference_number\":\"Q4018420\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.72}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 5831,
+    "output_tokens": 226,
+    "output_tokens_details": {
+     "thinking_tokens": 142
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 5831,
+  "output_tokens": 226,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.027844,
+  "cost_source": "rate-table",
+  "elapsed_s": 4.031,
+  "started_at": "2026-09-30T12:54:16.823354+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

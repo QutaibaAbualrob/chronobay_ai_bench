@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 52,
+ "repeat": 0,
+ "image_file": "052_breitling_superocean-automatic-42.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Breitling",
+   "model_family": "Superocean Automatic 42",
+   "reference_number": "A17375211B1S1",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "rubber",
+   "confidence": 0.5
+  },
+  "raw_text": "{\"brand\":\"Breitling\",\"model_family\":\"Superocean Automatic 42\",\"reference_number\":\"A17375211B1S1\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"rubber\",\"confidence\":0.5}",
+  "raw_response": {
+   "id": "msg_011CfZf3cjZ36WwUcRbZfy48",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS5ggKEAgSGAI4AUIIdGhpbmtpbmcSDAAk0ZdW0ha5diFoaBoMBFfyx+rJa2hpkROXIjBeJrBizGi+bQom6PYuIWf7umBiodxK9DpobC0694AqZS3HYs9NucSPxQgKz90deoMqgwj75GI5CFI/fsljewU2h4fY6AKsbLf2GmfM25ZIWWJyYAdZ7VIHfXmcqWqisa+MW1Ayi3WSApHfwzxLZFJ31i1KFbecJTTVSMqDHss8TRYQU7KeNdhwfADIhTxSGJ+iAM1w92FaFJY20/KcaGXbmeBq7zOC3gl2IsFmjj6Np+5tXoCtjIGfRZUk64Gg+jEJUAkvHHrsZfWwws3t8A2unCH48kneFAv43gspVDieGcAiUA6k3AzpIQW9V79OJnlpnJvzzKQoT9n704QxV1pDqmU6BuBmSWM1oCm135CXyoYTg4lfwmLPEJCjHeCqiK/q+P4mrrCXj8NQZDOodUANpNfsum32IFmBNzF1rn2rTvxDNXjMSFP4Pll2wqx2A/NEKwIDjfFWKujr0BMhYnO+OZp/dp6SyyIBc5aEEfx/XxIyCFRHJBU1O/H3RR7F8m873c5AKYM7f/YmsklEqjArK/l89QuvZ/zDljoOYRHHZWFcgB3t7tddNf2a3EKgw9WwjeTIuMtnQfo+lRdkjDZOroltPc69INj7wc97xnXodSSu/ARjLft8vDGEuJfo0SS6l39WUYPLrrvrLF24XfKIgGn4pfGjXxaKZRq9VmKOGCpBG8iQ44Mjo1WMz7HsEXaD109B1wwjBb8ELpP2lQYVgqH28ETyBoxqtF0r+ITpHt4idq5bIUNHqLueAr2gO3Sc/AyPQCH4VtEQvefM6pIos3I6uqf7YACpqcHydC0DQ9v35Wrx7RkI7Cs5uRmbnrJrteGqUaCpEtmjkK8N44omRO7aw2tDLog5398cdFTG8uBA289TcXwQDrScc/KhejrwjEV7sT2sbseaqJXYOas4M5nWwtn3CBNE5l21nvJ6UI/N7PFjb+v+RLSsiR3yZHT1q4Do8EMyrFNmXPF9fi+87hT5Wy3vEpDTj19fD1VimYruGE7phu0Ckltx0ehSWat3gNq2yeOnXdDdH7/DeFoKGzHuZ14/XyqduMXDToc8bt9t+UBDl/HXfDEYnTS4UcZrhFb75fl4G3lOxDXUJ7cgWGv9vLkwnhc/FjSpZc4ALjHP07ilbptFjzn7ikOtKewrDaDPyWavD90fWEUEIWmatCPtjSCx5XwuxqjXhh40ZAR3YhWhsFlVPkJi6P4xLihgoOHXO8GFLHjtIK2NnbVFoC1maKobZD/nerbiQBtnwTHNwWD1wohjFBm897RbpNaHVNoWZ1EaH5OmThB5bCdrlkU75p/Lj0uFASoTMsStCDEPMdZvE9hVivjt9YyZ/BVQJj2oUzh0/yQYo0XfX8pCbad5sX7LkP9cfPUB20am+AmGMydK6VIFG15NUEVFHZofm3PbbaBIujXSOinUi1Aum21aGwbqGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Breitling\",\"model_family\":\"Superocean Automatic 42\",\"reference_number\":\"A17375211B1S1\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"rubber\",\"confidence\":0.5}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 5831,
+    "output_tokens": 312,
+    "output_tokens_details": {
+     "thinking_tokens": 228
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 5831,
+  "output_tokens": 312,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.029564,
+  "cost_source": "rate-table",
+  "elapsed_s": 6.275,
+  "started_at": "2026-09-30T12:53:20.331065+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

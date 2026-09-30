@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 74,
+ "repeat": 0,
+ "image_file": "074_iwc_pilot-s-watch-mark-xx.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "IWC",
+   "model_family": "Pilot's Watch Mark XX",
+   "reference_number": "IW328201",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.75
+  },
+  "raw_text": "{\"brand\":\"IWC\",\"model_family\":\"Pilot's Watch Mark XX\",\"reference_number\":\"IW328201\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.75}",
+  "raw_response": {
+   "id": "msg_011CfZf6JqMf5yFsMwS9TTJm",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSvAgKEAgSGAI4AUIIdGhpbmtpbmcSDJ29/aSj4AdsDed8MhoMMUh6mqqnNmiNr9lzIjDEwbuCXyFg4DejNdIpk0McFFuT7o0fbltLOCW2za+RzEvds6RxRqjb1Hgnsa7DOacq2QdPCRRYrbMEjBCDy17NSmbU6KZRQDCSrFW8fZ/4zLh6+3Rn2PPzqTGMMHfxKORi05RT/TWFsWeE523/Ed0cFPX3KxWLmXJZnsLoZw9n3LJihM8uTkuRSxj59kBgLGUIZuI4x/43iRVuYTw7AkKWjJSxa3slW78CE9STImIf+UOys2abQ7bbY5GahRgzboZWjujWMTz4hlZoJavwqL6mKr6u4WWVpZlGYtxEaa8MOJTCabm4AHSryhmIWBzQg9VhX7eLZxJpmh03f2OrVkWjsj42sG/sgoieTvkdT91BmSQAJXcbgmvpKbn9VZ8iiQZ8Wd2XX8TynLbBmyOdv5A67en8knEE1bp9FGmsOsWd14cLicUn9CEdP563J5ZWSIj0g5aK6ElgN6DYOLjXnRlF8WMxldCgY8H6LRK1+29vXeRnp9ft8RlE2q1Rll/O3zQyITqTdxPop3jIuD/BEx16yYpMLHq0XAC9bvTl33CpJz5AdmlqXNkUq+u/PgF/FYkx47VZ1H7ZlD6V4bCLjyTTtNJtI2WeU23gedQGt74KY4y8mKWEN9AIWBx9lsuVuIQTCE2hyDzWXBlMqtXH/jfbxOe8vdT3JI5ZUqWDJLoicrKnu7Q2QPKFwJXY1LJshWri0ng3RJxXSLPTGYXfEYyVp5t7a8XyVoL9e4y/Uf5dCFdTMEguS/h4YB7HwWOkRQrkf8pXcE4q3ZnFqObhCM17VrzaaRNcdstUNEw6A90327V2b/GT3rgHZlqOqIotX9JRqeBUnhkYQ3dP7c97TFEQYd18Ms9XJV1mkd7JrpIgAluI4NxzupdxQSh+Pli3wPwM6fa2nUWhfRp3f0USGFWI8lDxo3VCA/1+2/ARvah2NzL2KMVJEs2ic9TftqXqVwStjHtWrsLfomEEVtxkf9lT7wDKzMbrIEfBCNle8kRn6OdyI+FqGtQ7KT78ViHMLHI0tXNiaO1qfR4Fy6/QL67/sasjZ46TQZlV9FiH2TFjgGy78IGYAYF3q87tNKzi9TS7x+VoFCXXQvllazUqk0L4kU/vchuEOzIh0o6kGf7gRDzenUPG6QZ1LuxOkCINUFPDlQ/ll4Qj6cCuHpy9n7ABHlSkec0EEk6s1xT3efOxEVHLTFFEJ805zaWzS0FveHHobNgfZE3SMUqNDc22eUOM2qd+z8dVgM7crvdzhLRZEexJFSxSkyvc4a7jig5X0sX/fNY1WSz5sb249IQV8fU0H6Ckdh4377zQ+Gq+8OCTOMg3oxedxAXML31zREuC2bECbcZ8sWpsQXYKxvcKRp0p2coZJx6RIr4AWvEgGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"IWC\",\"model_family\":\"Pilot's Watch Mark XX\",\"reference_number\":\"IW328201\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.75}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4095,
+    "output_tokens": 280,
+    "output_tokens_details": {
+     "thinking_tokens": 199
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 4095,
+  "output_tokens": 280,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.02198,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.389,
+  "started_at": "2026-09-30T12:53:56.880067+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

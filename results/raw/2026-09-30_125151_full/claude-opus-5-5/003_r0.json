@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 3,
+ "repeat": 0,
+ "image_file": "003_rolex_gmt-master-ii-pepsi.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_family": "GMT-Master II",
+   "reference_number": "126710BLRO",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.85
+  },
+  "raw_text": "{\"brand\":\"Rolex\",\"model_family\":\"GMT-Master II\",\"reference_number\":\"126710BLRO\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.85}",
+  "raw_response": {
+   "id": "msg_011CfZew58rA6V3GB2gqtAkM",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS8gcKEAgSGAI4AUIIdGhpbmtpbmcSDDY7G9YDxkzwGjZJYxoMbIoYV2q1mSOWgassIjCQwLjVy/NT84kJ6+ABOA/P5E05Zaulw6EEPSuh+SUtGs09BwUE220Z00ey+ummyQQqjwccpCa706CKEBUg+1ksin4qjmpQaYSjFuHmUvXd4IJRepUPNb4+5+eun0I8aE00uewbw7YMjGFr5rr+qA0zxv6LpSvLRHYPDlfgoVNaK6PXa5fwtbWkeXDx6Lqt15sS9M2szE1CJoAsoUAFaMO2IXVjjvyoCb4P8clB+6b1jVSxZx5g7eJdSnAYx3a4kY4W8hdGkYlu6AdtR/LZ8Zj8a3B1tae0PiXzcZ06V0WQiQZmCycFBxKsSAXR6pruml7GDW4htrPilcoSvo3LjpTsRX7DfvPRsqeTyn2e0cbiZU9XOGGxTEeSHgvSzjNmqrdV8nPp/Af8V1BcJRPRMcEFjT3ilv8RHuRI7NbtayAJe+W+Wgk9/kWqT29+TygZU0UISY8nXVuLns+cITptxS0GjQhjcrHOmxHff1s7Iuw+O84Z8EUijILzl7LTZGZwcpBqjIuOJ6nBnvIIGzKL0eCBS8XxN3F0M9dcS+neyVmfUTFY42b+3fpQyEIVPy7MccdbfX6foXIX9WDi5BS/5lGxMw90gOcrIFSHluFmJ7cAxpuC/uk0Wd9h74X9je5g1b1seEMuh9x1cX1jnSosEIALdKtFCLHV9Jykc6QBcr5uu0muUEwqyJV0ozqZgeaem3Jnus0padKlXIWsDcnItpdDBiUsoLihM3OqtFLLR5pyraKKyW39nZ1ZsuknlpKgCpykVbSKLI1IRQd2qtyDe7TI+wQ6dv4+z0r3rbwDfYJkaYb/9JTrx63DwqfsIM+do20QPwVG+KNFVNJ5LoXtGuVlr+bksAHFgj2Tu9pma2ue2/ut7865UThX1Xeentiz/NRcF6SGYzJToBwBWP+SJsKi2vIcY/GViy7v3yRLQwON1x2uNYMwa0hWd/pzy5235UrtghzPJ4HvtbDJWIJJQB5M4Yo0lDEXsZY0TAk7zLsNiFjm0WyRVj5bB13ebuKYSxLOIeX0b/TYTvqQOWlBuA5TxcKwQ+OA5zrN1n+LOyZlBwToOGCwdK+iP8vD3OsYjfSYQzAazVUgABtVbP0uKSLxxlsxQNCgdyk8rDYUmjKEyxucemLlhbrh0lN3pmW+0BT6IpT+Mo0x0xj9mbtMnBhc61PUsOLqcFmIcleadMofStD9KxIDlUCvGZl7kmZVSesKdskFns4UwcVVAquShVLbw1vEBhU0OV4DHP+6maDXGdCYoAC1BRuA8wkDc/8s2uakmhgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Rolex\",\"model_family\":\"GMT-Master II\",\"reference_number\":\"126710BLRO\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.85}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4244,
+    "output_tokens": 279,
+    "output_tokens_details": {
+     "thinking_tokens": 201
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 4244,
+  "output_tokens": 279,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.022556,
+  "cost_source": "rate-table",
+  "elapsed_s": 6.035,
+  "started_at": "2026-09-30T12:51:51.204980+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

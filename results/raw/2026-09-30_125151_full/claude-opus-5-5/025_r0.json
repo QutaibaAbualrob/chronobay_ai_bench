@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 25,
+ "repeat": 0,
+ "image_file": "025_patek_annual-calendar.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_family": "Complications Annual Calendar",
+   "reference_number": "5396R-011",
+   "movement": "automatic",
+   "case_material": "gold",
+   "bracelet_material": "leather",
+   "confidence": 0.72
+  },
+  "raw_text": "{\"brand\":\"Patek Philippe\",\"model_family\":\"Complications Annual Calendar\",\"reference_number\":\"5396R-011\",\"movement\":\"automatic\",\"case_material\":\"gold\",\"bracelet_material\":\"leather\",\"confidence\":0.72}",
+  "raw_response": {
+   "id": "msg_011CfZeyd4J2wYsCSutXWtqP",
+   "container": null,
+   "content": [
+    {
+     "signature": "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",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Patek Philippe\",\"model_family\":\"Complications Annual Calendar\",\"reference_number\":\"5396R-011\",\"movement\":\"automatic\",\"case_material\":\"gold\",\"bracelet_material\":\"leather\",\"confidence\":0.72}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4958,
+    "output_tokens": 431,
+    "output_tokens_details": {
+     "thinking_tokens": 352
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 4958,
+  "output_tokens": 431,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.028452,
+  "cost_source": "rate-table",
+  "elapsed_s": 10.09,
+  "started_at": "2026-09-30T12:52:26.116530+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

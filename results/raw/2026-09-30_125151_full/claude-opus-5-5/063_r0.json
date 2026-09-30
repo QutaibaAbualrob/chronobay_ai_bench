@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 63,
+ "repeat": 0,
+ "image_file": "063_cartier_ballon-bleu-de-cartier-42.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Cartier",
+   "model_family": "Ballon Bleu de Cartier 42mm",
+   "reference_number": "W69016Z4",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.5
+  },
+  "raw_text": "{\"brand\":\"Cartier\",\"model_family\":\"Ballon Bleu de Cartier 42mm\",\"reference_number\":\"W69016Z4\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.5}",
+  "raw_response": {
+   "id": "msg_011CfZf4yuJHZokvpLjKkVEu",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS3AcKEAgSGAI4AUIIdGhpbmtpbmcSDMI80krcA0jDbmUkRxoM7tNSJ9TzOOe3negdIjAGSzxvDop5zTEpPPr7/C05Y2r9q/rsGbx5XQ+WRsfPCvVqfSxpVHhpje263jdeUAQq+Qa2vJ3EXsiHTmU1FDJXioMNjVUihyjz/JORqfwqQM1P6ov0RfuXFeimsczjdp/3I2fX/8q58niMJDHJJ5wsWsY3aq45KIIm1363DBJR57HOYqJwLeQyUkFPMr9F4YfxPw1+afMuKyi4stXm8oNHEzHAS2amvlcSisFIxnbGJesnT7Peyn2HgeISPua5FuOxGSPuq1KwrMNnFttxtFemkU6XNmN0f4blk3lxnYnYCh8E/5JnrLQ2XkmY4rUDRCbZxsRQyjkrhAmn/B4zSmy8Smejh4mSgk6NqmOD5D4kn9JAPFhPS0fVzI2+soqecJ3CnnnsIW22HgeM7BYLfAO2ktSeJJsT/499MusMnhDf6ULxIMrLj5QTpzIkOjZ4GmIqwYeAMMELJysegnELQ9L+sXtPBs+D848Yw0JBdegV2372CApV44BGH7Z92T0ATTaiwTTsJdbqqE6TFCOG7CvLxuubvR7HXfEXYZcRn6H9/IH/vry4UfmiNFPKzD9qJeEPYae+F/15O6OCk+iw02j7/U+ntF8ljm8tGg66UKkLwtix6F8CooyQZbNAGFiR9HENSKyryhCyWCK4lweO3xir7aWhrWVi/sJAfF5aanHiSuH/5n7uFRlUIU4f+kYPRkhStc5z2HLT4MJD0jccqtVpBi+dCKdjELmP4UqxTnmtxTA9t19LCkbiy5+aVbfHYLSD3nD0Yec+Sx0HyCt4IOv28yzwOlmJWpAWAxa5jGqLNCBkzyOzDO2cNxBx4ldgs3i6nneQA5DdXdF1VIkrK49zNhu/docUxqdp5c0S13bP2gXN2GdJx7XPtVIIug/eMrE5RLNYSc81QpdW6/xFhCe1FfdjHe13dV0xxKWlBivUIlwd7s+KvdO65SM6fz40x8PbEMQ1aOaz4U7fu/3z8OCHJT+2OYxgh5l2Tv1JJ/17sm4FLPFvSTiRZAAGrc380y4pvNRBCBJ7IVOziExH8QicWCACRNxjtKorvBfgtf6AxM7S6rNG/j28BRLibSRZTFyoZzWYrnc9O8t/qNDpxcz6hkYpHyn1fb42ML+4ALGX7ecRWx7McAECOaHOkGG8GfhoucSjvjZe/Qow7/1zgFKtV9zMepa/VNP+5LtHli/FvQWQ1K8QLUdK+XdmUF6+hTS8O5vKCJke9Be453jBfKdN+tQkn+OZNGN+rcFkGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Cartier\",\"model_family\":\"Ballon Bleu de Cartier 42mm\",\"reference_number\":\"W69016Z4\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.5}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 5831,
+    "output_tokens": 265,
+    "output_tokens_details": {
+     "thinking_tokens": 177
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 5831,
+  "output_tokens": 265,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.028624,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.672,
+  "started_at": "2026-09-30T12:53:38.565971+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

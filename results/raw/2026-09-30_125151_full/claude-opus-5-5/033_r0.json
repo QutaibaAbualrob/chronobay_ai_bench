@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 33,
+ "repeat": 0,
+ "image_file": "033_ap_royal-oak-offshore-chronograph-42.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Audemars Piguet",
+   "model_family": "Royal Oak Offshore Chronograph 42mm",
+   "reference_number": "26470ST.OO.A027CA.01",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "rubber",
+   "confidence": 0.72
+  },
+  "raw_text": "{\"brand\":\"Audemars Piguet\",\"model_family\":\"Royal Oak Offshore Chronograph 42mm\",\"reference_number\":\"26470ST.OO.A027CA.01\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"rubber\",\"confidence\":0.72}",
+  "raw_response": {
+   "id": "msg_011CfZezjzn6MVqV7d3EsKYa",
+   "container": null,
+   "content": [
+    {
+     "signature": "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",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Audemars Piguet\",\"model_family\":\"Royal Oak Offshore Chronograph 42mm\",\"reference_number\":\"26470ST.OO.A027CA.01\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"rubber\",\"confidence\":0.72}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 5030,
+    "output_tokens": 574,
+    "output_tokens_details": {
+     "thinking_tokens": 471
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 5030,
+  "output_tokens": 574,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.0316,
+  "cost_source": "rate-table",
+  "elapsed_s": 9.784,
+  "started_at": "2026-09-30T12:52:41.329078+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

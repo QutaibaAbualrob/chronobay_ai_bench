@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 13,
+ "repeat": 0,
+ "image_file": "013_omega_seamaster-aqua-terra-150m-41.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Omega",
+   "model_family": "Seamaster Aqua Terra 150M Co-Axial Master Chronometer",
+   "reference_number": "220.10.41.21.03.001",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.6
+  },
+  "raw_text": "{\"brand\":\"Omega\",\"model_family\":\"Seamaster Aqua Terra 150M Co-Axial Master Chronometer\",\"reference_number\":\"220.10.41.21.03.001\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.6}",
+  "raw_response": {
+   "id": "msg_011CfZexLPu3cu5R2Bz3mdFu",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS1AgKEAgSGAI4AUIIdGhpbmtpbmcSDCQrTew6ZA2CH4DOphoMhdQpATmzXGIbt/GVIjBkW73cjrTmGmQOO/72UeNzqmESajR35I9IkDpVxNlEaZMyu1m1gZ9mAtYsHHvHkvMq8Qdh0FZkt0HlI0y3p0Hd88NWMn9oRSuq+X2Tet+QFeM8C49LB5A6y254GV/bVJMgWV0/wPb1QnUq4OKLtfa/pDAc8p6SWtqaN9/7I6TIXzYp0WH1oLeBtAWob+O6M/ZGQ4zZKSTTvVOB3rlgiP5w0lYVfiT292BmWs7fRVcMPALkC/NrepvBauPKXuXsqq4tEyyIPM8toVTvaoCBJLQFnmEXg40EpqhrO6oAdMpRJyh3OamlAjYduHp3x54dgwqTVkAtXqoLuXg8R8/5DdPVwvDhqTV+tSgdEwKf9RYI5IGuBsBA3+FUlPDa7Kd/k/B3xuI49W6bPRHKNbMBYwSdCtFCZbL7Y5CE0TETlvARB9A8W6HH8sAizysLaEzSVRsUd3Eg4bNWsGrERedQtXhE9aKga7R8xHYF/VCjU8zyNrhbsLF2VMSltVpvanfApnMYfvW+7SsyAPKraO3cT3EMhkCWMifK7YPXgfqUkGNSyZDBhXK9pasCrJ8p5wFmy77gxUXHOXPBl7wvRBLWtcKT8A5mLUtotN6Re7niBBgN0Sn+VHPbJziW/KUkIpGjLcyvL1eh1KrmsXxtJlitBIezoYAcFTcpFZuJaNa50LBj5xPfD0rpC0rkguBYefq9l5oyyfJVovTpQ0bnxcbuExqDfvPUPcOQ8EY6g3D1FrBXBm7VzWvbpmK45sjtXJS+Ku6v9aAGzS1eAz3tokMGTcSARdF/GX6r0iQRuOxPtT2R5xXYOVJLlJeLacA1/VIFarMwvlGhgZCLeYUs7vIVXilAtzweLkLOzwvg1UjprwUnAsQzjlvvra39Xr6lRNP1Qy5QMdlKooazvxBfNsKu/AsOYI6UQGeYuQwTReE7ySRUv5kYZ/AotWW/hyqeHWoybO1QXSnlXXpuaaOTgbYRt/nJBOjzqrgQxysutTR3Ncg/IsrdhvZ2YLEIVbpiFm6Rmn12FYVlY9IRYbnGOZeNgBQnJUd7FgX6oSw5sI8PDim8QjTXehbywNQ4a0l/Q2b8LlKj6bh3aeCGvlSjE3RE2SX7l8xk94teo76V7y8zSWBqnXBoggCBXAciJUIeOY/VKLE3s77uQXGJ+Nw6UmzXc6wKdAutPRfmjTOBaO4G7Rh0RpDwka08R1i/EGLezIHC2WHe5RswtehFDqDbmYpRXQ/TksqGo76hYKErtBjjxlmtNqP0mzuEiHAPjHg50Tu/YavcSxZs7ApdnC9r2JZI6KoELctVy11X7yxGS0iVj3y4YOV7ar9ZDQDK9bIyYI58KSs3c76GWMA4mT9+DAA6HDFKvy72x3Wm/XgMpqSQ+fmNcpK45TRRorbjIwFbbSJ4whkC8Wu7GAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Omega\",\"model_family\":\"Seamaster Aqua Terra 150M Co-Axial Master Chronometer\",\"reference_number\":\"220.10.41.21.03.001\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.6}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4434,
+    "output_tokens": 316,
+    "output_tokens_details": {
+     "thinking_tokens": 213
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 4434,
+  "output_tokens": 316,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.024056,
+  "cost_source": "rate-table",
+  "elapsed_s": 6.706,
+  "started_at": "2026-09-30T12:52:08.493278+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

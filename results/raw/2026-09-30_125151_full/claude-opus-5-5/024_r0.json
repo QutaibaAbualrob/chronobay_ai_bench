@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 24,
+ "repeat": 0,
+ "image_file": "024_patek_nautilus-moon-phase.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_family": "Nautilus Moon Phase Power Reserve",
+   "reference_number": "5712/1A-001",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.9
+  },
+  "raw_text": "{\"brand\":\"Patek Philippe\",\"model_family\":\"Nautilus Moon Phase Power Reserve\",\"reference_number\":\"5712/1A-001\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.9}",
+  "raw_response": {
+   "id": "msg_011CfZeycSq2yrdQoJduE9zf",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSjgcKEAgSGAI4AUIIdGhpbmtpbmcSDLfOVKaoTal6jabbABoMjWhjwNrIRO9CjnstIjDPXvIQeVlmPVcutdGlWdEcOEpNqmRsnChj1FC1P6NXyOebBFyZRTbSxROultHRmKgqqwZBKW5ZPtJGaxwBuMrevwRY9J1wYjqnWiKygY21pcRfOmLJviT21dKPrVfyQsdIrMG3hDsfDOjHT2NLtrSwFkv2QlqZXxq7vgtmGqge6Jg4KorfRxVAMe79I+Tdf+dqyHrULA8z2OrbJCAzInlc6mh2cyz0JtMhbVKi2dpm9P4lqgX9MFddN/B9vN5jMrgxII180bxNAtdJWTSudR1F3nta/J5WHErpfAwvhDzMm9iQQzb8kULOiPxm53ttSMFMVSijhU7RWMgVvBigQzr/KVLNgKgXURzqyV1FNKJAn52MlXJsLggC6inydBaC8r9D7W262F2YiwDf8TW0tfyx4srHgVWBaqIrhNA/ViV8BFy8yGgOgffJa3lGMbeGp/1SsUmKK8NMzIdgDb42Ohtj4q8UTJxSQkjgL8llX4PvoaLHuf4pRfagnjUhMIhDJKmVx6IHYsaJp74OsVUBJzTb1Y1NbzAKjRIWd56vC8sqb/0AA5wWBHGznHfQ7RvqK/5uHw/YzzKoDIv407Dzz7B2Bp+rWCiDMbYaGX7EgclZSdbrtYtbKe1RjeqMrIaOP+QXzK/3hhCLSs3HumWsiukxJa/GHk9YedcRQaxpJ0wY1fgibhPxo8zgbDAyht9dgVfYdAzceJaCIs+K5/mGUf5WHR/cbGtB/mzgVW+U9JCnZVaZ0xDkEcyMc9F6sf5fbg3x7/yxgE2Cat/z6XtAUXpE0bJ/bDXMVKp1f4aKhJEcT0wmD2q+NsRsnrPmsOMcxCrMwGAQ95Fg5WTvI4p34g3xBCyHXi3GtnZ5PJkY7PktVPdSMoeuHkcYD++XCu6LIIwrqHoiksGgHd9saz8/eGE6GqUi3RJvw1zqcJs5OaJJOIjJi69U8fxSSVh5B/WvCDZNlOIj+V4eCgqTacPsBylZXkGa7nFlnDPIHQSptt1DAujzMzwLNQ+9+fj32HtcXMRdNEHWCjJOmDD5HHzR7A7w70bsmpoUWcQX2o6Ro0cap05Uuy0xLkVuMvHvgHKJqM1o881fkLa85PI87sCSxu3gFnM8MkwPvOaoRBoGE0x/tJjd8tPFhV+uYAave92yGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Patek Philippe\",\"model_family\":\"Nautilus Moon Phase Power Reserve\",\"reference_number\":\"5712/1A-001\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.9}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4244,
+    "output_tokens": 235,
+    "output_tokens_details": {
+     "thinking_tokens": 143
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 4244,
+  "output_tokens": 235,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.021676,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.889,
+  "started_at": "2026-09-30T12:52:26.010259+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

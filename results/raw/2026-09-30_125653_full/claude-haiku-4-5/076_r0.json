@@ -1,0 +1,63 @@
+{
+ "run_id": "2026-09-30_125653_full",
+ "model_name": "claude-haiku-4-5",
+ "provider": "anthropic",
+ "provider_model": "claude-haiku-4-5",
+ "mode": "schema",
+ "row_id": 76,
+ "repeat": 0,
+ "image_file": "076_iwc_aquatimer-automatic-42.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "IWC",
+   "model_family": "Aquatimer",
+   "reference_number": "IW329001",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "rubber",
+   "confidence": 0.45
+  },
+  "raw_text": "{\"brand\":\"IWC\",\"model_family\":\"Aquatimer\",\"reference_number\":\"IW329001\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"rubber\",\"confidence\":0.45}",
+  "raw_response": {
+   "id": "msg_011CfZfMgrbXGTB1q9PyS54C",
+   "container": null,
+   "content": [
+    {
+     "text": "{\"brand\":\"IWC\",\"model_family\":\"Aquatimer\",\"reference_number\":\"IW329001\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"rubber\",\"confidence\":0.45}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-haiku-4-5-20251001",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 1881,
+    "output_tokens": 55,
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 1881,
+  "output_tokens": 55,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.002156,
+  "cost_source": "rate-table",
+  "elapsed_s": 1.404,
+  "started_at": "2026-09-30T12:57:25.430612+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-haiku-4-5-20251001"
+ }
+}

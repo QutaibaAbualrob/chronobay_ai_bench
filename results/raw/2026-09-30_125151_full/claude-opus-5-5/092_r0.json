@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 92,
+ "repeat": 0,
+ "image_file": "092_vc_overseas-chronograph.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Vacheron Constantin",
+   "model_family": "Overseas Chronograph",
+   "reference_number": "5500V/110A-B148",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.8
+  },
+  "raw_text": "{\"brand\":\"Vacheron Constantin\",\"model_family\":\"Overseas Chronograph\",\"reference_number\":\"5500V/110A-B148\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.8}",
+  "raw_response": {
+   "id": "msg_011CfZf8YTiLgHeDiYUyfZ3K",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSpQcKEAgSGAI4AUIIdGhpbmtpbmcSDO+pX/PlgPKZEFG3JBoMtP2NDN5YR+KO4PeLIjDp12nE/M0n7SGOOfWrJGLRTptOcYBJS9A+fOyRGXvdYMuP79GavcH84DMHq+LcM8cqwgYIRePJyCe6eDIY/Gb8ZfbIZWKXDsMJ38LC4K+xvttmk+e8DH0Om8p6FLFUDEo7Ba7HnDIWDHjjZMW70ave9lsyPkU/8KksFmpfb22thYZGWhXRsuMefTtjRZ5/Nb4TO06baPgVZRQdxNQ5vjY6xHA04aKDyGzesayz/KsS4zuP4WZNUgRV2fo4T+at8RtZS3tEL+uqs4UBva0C42cyg4yRn067I+Zhhy5w9cOuaicFGhcASFt8I9xx4Y/Ljl3ouE0NoOqO1Lq/In72TSRBX6Kmk0V1jJNtSa4tRhaYBUfxLrbBqmSfnPiE2rdOoTcXvag0ir7PMTFFLPgrnw0VY8ORfJduzZLIAUAiIHi3hbvncqSdh+Ew3Q0NzVt/Nw7jn7YRGaYTJxosSNfjb2s/d/v+yW83YITLJB9HZSoajlwaoyGbFHpZ7XeJIf54Guu4xJFGg8DSCSwZnP3FY+dOIniEUzopXaEH8iXa7wR5HgNouuX+4TZSa/fJbmWTgzqZDmrtA/QAMTyvFYTH/tkH7odpHTsU8blbjqzdrDCigg/nh1zLNKWiWoNUod4OQLB3pXeX/uszQSIYn+NmfLjj91ywmoO9WCt/2qvCp/F4fPd1yVR7drFA8dcI5Rr7OAvKB2q5SvYnHcMMp91WSvBRnu16UQiN4RC78RvjuWrwSPiekJui0swyfYrOZ1hIxgWePA0zUBeleIwKBhNP5fXEbQ+MycfunwRexGGIAmO6bSow/Ouy6l1p8KMmUhxiG93SxWIMhejy4JDEJcNcwb1XWMQQH88ykwpGX1mGqyug0X9je1e6nVcE/6JotGWsxb5xbuPGFQpIa4qMbHjF33ibIEymzw9cQpuCAQitoAFCbBgZGVPaFCLDq8zjNwf/BQu4SD4f1H32kGBM7mtj1kggeTqEvEZUe2hUsusNszwwRGo1rIivM++xW7b3Hvuc5on4WRJGOSgKXN9TbIK0CwxDHgyfHYs2n+aXZexaO2+C6dbXMqjxUbQQfbv3u0bamdkBgEMdqzoUrokcE+aV3TBOAL2/LCuZth4Czf+w1VYar8z3D+ngq4NcWKOVvNNf3D3HFcx61SUvxgFApZ9PNmWUTLG648QYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Vacheron Constantin\",\"model_family\":\"Overseas Chronograph\",\"reference_number\":\"5500V/110A-B148\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.8}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 5831,
+    "output_tokens": 239,
+    "output_tokens_details": {
+     "thinking_tokens": 151
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 5831,
+  "output_tokens": 239,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.028104,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.868,
+  "started_at": "2026-09-30T12:54:27.057056+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

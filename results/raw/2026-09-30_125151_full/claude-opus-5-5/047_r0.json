@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 47,
+ "repeat": 0,
+ "image_file": "047_tagheuer_carrera-chronograph-glassbox.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Tag Heuer",
+   "model_family": "Carrera Chronograph 39mm Glassbox",
+   "reference_number": "CBS2212.FC6535",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.5
+  },
+  "raw_text": "{\"brand\":\"Tag Heuer\",\"model_family\":\"Carrera Chronograph 39mm Glassbox\",\"reference_number\":\"CBS2212.FC6535\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.5}",
+  "raw_response": {
+   "id": "msg_011CfZf2pcPgAuMbdNRUkj1t",
+   "container": null,
+   "content": [
+    {
+     "signature": "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",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Tag Heuer\",\"model_family\":\"Carrera Chronograph 39mm Glassbox\",\"reference_number\":\"CBS2212.FC6535\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.5}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4958,
+    "output_tokens": 738,
+    "output_tokens_details": {
+     "thinking_tokens": 642
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 4958,
+  "output_tokens": 738,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.034592,
+  "cost_source": "rate-table",
+  "elapsed_s": 10.834,
+  "started_at": "2026-09-30T12:53:09.495516+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

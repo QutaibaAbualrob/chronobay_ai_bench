@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 96,
+ "repeat": 0,
+ "image_file": "096_vc_overseas-dual-time.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Vacheron Constantin",
+   "model_family": "Overseas Dual Time",
+   "reference_number": "7900V/110A-B334",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.85
+  },
+  "raw_text": "{\"brand\":\"Vacheron Constantin\",\"model_family\":\"Overseas Dual Time\",\"reference_number\":\"7900V/110A-B334\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.85}",
+  "raw_response": {
+   "id": "msg_011CfZf8yPABnY9gSoVAWrmR",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSyAUKEAgSGAI4AUIIdGhpbmtpbmcSDJG3vKPmTSysYjCMeRoMkaLENyXgax8mYwJzIjDw8EtgKs1I25XIkOzh+F0Di8zLazgTvK1SDVUrVdekn/xLf8Ma32CLjHSy3DdRIb4q5QRmNn6i4GZcoUvuHj9/q29V4EKiF7hw97Cr5b5Uj5owucOWjsaElAemG30OFqNySLbq9J+3nGlTV7nwRsUFV9/Di/qZiCFy0qiA2ZK6U4vwNawAjDZtepTL0oHLdqa6Gmgh16zJYwUhRA+qrasST3y2Wa6hFJlNWL7y85hkKl296VlGCybDGliiAFue46ejAUzLz8ANOUpUfkdx7XEDZdXCCefPDZ24skJ7x50H7QNWCm35yP+vvRiGAhmgwRSizGz1WZOzlDOl13hT5NqA5P+uWserWJ1tCVxt7h3BPIFii08hrnVgmkjfu9Qc2T/dwZRa3EHOUFJkp1LV+6ZT/CpTRPKN9k5VHamVFMHmx4mwDkiXBfsOvt9jRGmtG9UtsdOo1EeSYp7M14YtfRAdE7W2POl19fRcBjcMvo2c8xSWAcHnBbZTEcWpUyfLE1BHMCM5c7Cfs8s0dyWTNu0Lsc4L1ZSFkBmn6wY964UAS9N4w/SfETn8GbODvmDldSji5HJytehkF/9ix9EFrKKjbejAuIYyA412JePRKFPDBDQVzuamr7jB1LFjE8DhYgF4QOpOmoPq7oot0aiQJlr2MXodhpOtVPZqJJRBkFBE6edbclze6lZSUdDT+qdzDCfZmjnE85iosCX1FcOyA0up5MvSGFLQcjIGvOsuHJwnS3QFKraWhUeBtuf4fMfMNDtKH9vnk5l3olHb2/kNjZNebUQorNDZcguj8gAkqMQsVjRtK8IQIOzy2BHf48EbubVK7bwQu0YszbE4PClQckdx71xwRdLpoUsfa7DvsX8CRPW+Pszw744PGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Vacheron Constantin\",\"model_family\":\"Overseas Dual Time\",\"reference_number\":\"7900V/110A-B334\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.85}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 5831,
+    "output_tokens": 146,
+    "output_tokens_details": {
+     "thinking_tokens": 58
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 5831,
+  "output_tokens": 146,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.026244,
+  "cost_source": "rate-table",
+  "elapsed_s": 3.799,
+  "started_at": "2026-09-30T12:54:32.926219+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

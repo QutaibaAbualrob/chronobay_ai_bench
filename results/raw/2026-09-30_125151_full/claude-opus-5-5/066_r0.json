@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 66,
+ "repeat": 0,
+ "image_file": "066_cartier_pasha-de-cartier-41.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Cartier",
+   "model_family": "Pasha de Cartier 35mm",
+   "reference_number": "WSPA0013",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.72
+  },
+  "raw_text": "{\"brand\":\"Cartier\",\"model_family\":\"Pasha de Cartier 35mm\",\"reference_number\":\"WSPA0013\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.72}",
+  "raw_response": {
+   "id": "msg_011CfZf5LyKW4fVSdMcJ991G",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS6AcKEAgSGAI4AUIIdGhpbmtpbmcSDBRcvpP8lBjOXRsl4RoMkM0FG6X4Su/SZogNIjArt3YV8w+QmwTxtS2aY5rnQvpJ4YwEz5rp7RIr3X7DorFRCVtKV6eg2yiqk0dDRMMqhQf+wHLO93Nqhcssq9zAkWz5E8k+gm6eLpoBVnFfI6B9YKboWTA6O6Uoinh6T4T1bp9XDIOgty2ditRBeq62fhJBFvDC6Tgm8ykkrPsK0OPm3TDwK7HcIrjEp05RLh5xNhAd3i4GOipCzL1l+DjT6K4U6tnFNkCh5E0UqrkkEo7QuGaW+yzdVUJUu0rrXaPFlLCoMowWYTtccHvUPUT10kRLSgAHtlyNKFFntPY8PcVCRZvl9wKInRgPZjmB6wN5p0VLdSlfjaisB6I52ZXKdtt6liiue00FSH+ysKLhyRsAe98dr3PhXYgtkF284JErDGdCQhOm2pxEpD8JXXO1EvgVlpY962TnPQEyZJ5LgT00ag9MjSey/4JE44VZC4synjGSvlpXj63WwFacv7nn5xC6v20dMqlLmngVkmxIy1yGqvKanBJPcIbrgfao7C8y42PIQYNsR6/tdTfGt9XffvKpjEHvW1z4vw+bJpYeTducGmbEnaTH2eht+yYCXZ9xt1zOaPH8slUVl/wMDZWu/Fr/AEKcYorVVOkNLDUXJyK8HO/wLkDolvC7/zZeNJmntHmX4tcayuCTyA8IPw/3J/ZYSOh65pMSurJ9Vwf2DvYTSDRPdTKGIJ6X8LvML2jMscPODWXAy+MbanbG9dRSAyuzN/gLTlXLKmiNOY+eL51YJvO0p9bw4TabuaTLpQApbq++suUB95rK+Lju/PxoFLs5nS76ZQ5qmPzzRLqY8PyaglglqoHU9ohOnQlC+GS96w9sL71lasoAiHUd8qmEBeDNrT8VywaOafSSIdp9l7EDN7X9VC9JJMLG0tG9TVgLoHiYmV7wIz4XYDj1Y3pzWPloN1KTODFTA1imnwZ7463k0lU5HuaHLKXPBKly4IA1Wsb0vqB9zwJouIJdsjxp2wphQQ3kMX6bQsAK1OfRFBJdfso99b+iGh9CAWnb7FmpnZRMvLxQbOannUCMmHdu2RAFt22ko7qDYrrkvCRAC/4SwvYJDWto4dHR8hvpZYcFqy7ATmV7Nh9uG6XhFKZIO4fIY4MXlKliAnwLAKcpbLwLjRWVbX9y2p1aL7kecmyi6wExA1yOZxIZdrHdLO94oFZLtoEAdLQF/tgXcJkBawmL9cDacGj0ax+DXGLy2KwSlWLu7vUK1n6Q/MOJ7Yf5KAd+auyBAeVvsat3y7YZzgPcP/99yho5GAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Cartier\",\"model_family\":\"Pasha de Cartier 35mm\",\"reference_number\":\"WSPA0013\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.72}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1799,
+    "output_tokens": 286,
+    "output_tokens_details": {
+     "thinking_tokens": 202
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 1799,
+  "output_tokens": 286,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.012916,
+  "cost_source": "rate-table",
+  "elapsed_s": 4.948,
+  "started_at": "2026-09-30T12:53:43.803932+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

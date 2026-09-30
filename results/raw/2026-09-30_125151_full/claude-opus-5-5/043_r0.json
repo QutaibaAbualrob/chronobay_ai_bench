@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 43,
+ "repeat": 0,
+ "image_file": "043_tagheuer_aquaracer-professional-300.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Tag Heuer",
+   "model_family": "Aquaracer Professional 300",
+   "reference_number": "WBP201A.BA0632",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.72
+  },
+  "raw_text": "{\"brand\":\"Tag Heuer\",\"model_family\":\"Aquaracer Professional 300\",\"reference_number\":\"WBP201A.BA0632\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.72}",
+  "raw_response": {
+   "id": "msg_011CfZf2SqTpPpaxnAGLo4rx",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS/wUKEAgSGAI4AUIIdGhpbmtpbmcSDKBP3WRHxNYXvAjpRxoMmar3sKpk3N52bzTtIjB5/kE+mVCnRHXV7OqUi/djThMSROBG1JOsvj5m8R/JeUOv6r8hSL0QenKv21A+sSgqnAWeC3imvuH5NrxlyoCWYAlcZpqdV+3s7QUud85ttGr3GSzmoNoNppz8SjiWHcFHxm9Da4kVGmrC2hyxjGarXsVqFdpzVeE3WH8c7W7Sl1HsDATlajUfwtNhXLkKai9WYuvnYo/EZ87a/sZ4KJHY6M0kJxf4rtw4B8T6lETk58/o9ZRbCB2cdbaiRb0lZToLqo4sMAIy+EVsASgGpdr7j/Bqj0YeS7rE1UYhfByq0QInADipPw0aeou6VgrW6uvTPADx8stKCvXc5hf7sdVYrDbTt/ZkIEKkI7z3/NhQfSzAp5WXhWKonuHkaAz1SZrmQEt8ruh5/iS+tOeaKMXlWH5BHrizsxKeOdznp2z1H8o0wka+RCsNqcVtlYmEyBEq78CVoAdbTQkuY0qGE/zTAPWWfhcCWs/2tVe3z4prI8vKi9IPYaD1q20GJHht3HDPvgvLNTCe2UdWvceftuGGtWCDTScSq6uQTwzWVl71CZvW0QHyvgeAqFjTvbVm/uRv3UX8Vn+Di3ZI0anHcM5IZuu3EkdCgrAbWy1Zut2YYwbNXSB1R2nP3FNap1CiJPq4vrveNonLFxC0SsBMyqu/czKLMhEo9wQs+LP2EhrNh2iyObCP5MAPLdGtBHkqRcBpgwUD3udxzu+JvrT3i48WQr10pFlDfE+tiBqMpInlbNOpuSs13ZYuysHANzJH52i61Bf0l91tXdRKlCp93X5d8Ikr5zmWLm97FMpMvedBdnuJCpmcCRZW7AChLQoxWHtTYyzXmyUg95TAMXAJNllqi8syhGw2C0Z1ylFK6n+S30ENOWBE2RUchVx9XVo/dn5ZzBsMuBfbVzxRk5SD81R3wDWQjuXPey1l2oPhb8dS+Q7qMW4fYvIMm2Jy1xSfpBgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Tag Heuer\",\"model_family\":\"Aquaracer Professional 300\",\"reference_number\":\"WBP201A.BA0632\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.72}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1695,
+    "output_tokens": 180,
+    "output_tokens_details": {
+     "thinking_tokens": 91
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 1695,
+  "output_tokens": 180,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.01038,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.016,
+  "started_at": "2026-09-30T12:53:04.478963+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

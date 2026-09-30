@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 65,
+ "repeat": 0,
+ "image_file": "065_cartier_santos-dumont-large.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Cartier",
+   "model_family": "Santos-Dumont",
+   "reference_number": "WSSA0022",
+   "movement": "manual",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.5
+  },
+  "raw_text": "{\"brand\":\"Cartier\",\"model_family\":\"Santos-Dumont\",\"reference_number\":\"WSSA0022\",\"movement\":\"manual\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.5}",
+  "raw_response": {
+   "id": "msg_011CfZf59LLTHh7y2ZyMkNpA",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSowoKEAgSGAI4AUIIdGhpbmtpbmcSDPZ0sz7nUsIWLVzIeBoMCmAYW3AbH2jrtmw7IjBkMwsTJwJ6mJ9DrC47DOQNWEz9gFPxgDg0qjIrOaWlc91ZlPhhIBc3/PSTB2+b+xAqwAl6PR/p6gB0l9gehcO8UuCOiERmXtMzZFsRcvGDWn9Xyffy+oQNsBLIZIZz9FQt2bmvlMP8MK13a8R5cwkjPCi1HL7r0nDl0gX9wwUO6/ISjcMcL31ki/A6V6HrrxpJHEqQl1MMve3C2v3Bakw2/3mMHyC1dsbs/u1OUo0CRaT6v9Wsrcf+3pGdSHhTg7itTRQyWNv9DIjH1tb/4CrCS0WydiZO8nCAqAl0JoBJd5AfSk7WIz1kiXHGfUDMFqTYv5pKmm2i+spKuqsa4QC6YUMSuFnV9VB/ehVUU9wxLDqj8ouy9tFzIt9fyAJZAwLPe1+1q84OIbl+FRX9R4ii939Icq8kTEaRnBpYDl3eNWiGTkF4rvd6lBFF1NbJpDTanCriLn89Osu5oB/YIwvaw+U6Dm36lFeyepSb0TKMmSXTwLsCZNzvwgV8ym2vjvH/n6Oua1RLukskzoK5d5hAwZHFUtP7dTLbPPERKLNlm0bGYStmeaL64Uv/4se/V3I/4ixpbil8J8wEtdiFyT+IPHTu+wfSL8L4AQoQMtuz6AV5tXydNAU3LNCcijUVCKrsB0ex2AGfhWF3dvqkpJt+Lnn73QmK3n8kkNHIXagi11pUsSBGqJzCC9OfrECJejoK+oW16Rmuhqs9PSq3Rn4lHR9FTt1SeEzfu5+b89FyQ2XPLNViQQ1S/MU8kXwHRTC8437jPpv2SuJJGvqy5ynCGWt36pUATU789ddDPXjS5iN6XwgXsCGs7ssKAx3ZE9vFjk4YwIqsykHcv+OPPtkKUWJeKdn8Qr8D6jDXgskYkWh/iovUVUaMXoh+FRiHbtc8QgzhFiTpBDLzQCuoj5/zxLzRm8fPXVMXbKU/sCa9s+057iMwclsdbzaMoiqZgSIColABOvdte+jZjrZPDnlx81mViz0rBKjFOJh7y6CxcfhwnGXKuWWOz/jQD0MXLS0KLw34DvDB8JPsHoCB34JO3mXtHYt8BmcO1ojNpaWT54UNjs4gwyrUEegR8+qTWjlJpNC15QtEFuaCfvZuKKP7Xlwjbotd8kV5oRqAVzjJJ7xKMygWWcu6lVzn3/IBxKd/LvCjNF8zgGeNOx/58t8CG2HB84gETPmmfCasPaXV6AIFvTiaIyQ+3h3ZvBHw08g26MZnfwAuQKSuRSys0s90+eQB9SGYsdthjGqM8g1m9k3zJ+ixou8I11xqZg3P90AZT+f9PW5AmWTYt2naqv5M8I4BAaFsWMVZ9yPWqG05RVchd9CG19rX6MPMnhdIzHIDaAsjFK2d1kKHOkMRs83eCIZXjFhPgaRgMSc2ofQO3Rn27klddaHGXM+LMAKHhcifoeOLuvjYaTqAR2qmht46kBCR7ue7rMeoIUv6nZCzoRJ8Igvn5cHHVt8My34uAo3E8xMMIrYN952u2GCPZxTM/12HEdBYnRmToRz4SojTedTxg/ZbYfMkiglLmwujicSXegf9w/R48hh4RaF8wuythi0VzG2kwV40Q+w8YG5eFRVSbIx8k1MpmKEmFG7AymmjX0AUrga/MuKW9WdTzAHdkWetQiiauHuhb9tKXUYPERXsCeOfKTrCRtuuIRbl6qag2Ab6VTmwsWuXVhfzP49F6Hj2GAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Cartier\",\"model_family\":\"Santos-Dumont\",\"reference_number\":\"WSSA0022\",\"movement\":\"manual\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.5}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2295,
+    "output_tokens": 419,
+    "output_tokens_details": {
+     "thinking_tokens": 341
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 2295,
+  "output_tokens": 419,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.01756,
+  "cost_source": "rate-table",
+  "elapsed_s": 7.62,
+  "started_at": "2026-09-30T12:53:41.076984+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

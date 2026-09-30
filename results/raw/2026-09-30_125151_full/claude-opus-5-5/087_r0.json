@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 87,
+ "repeat": 0,
+ "image_file": "087_jlc_master-ultra-thin-perpetual.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Jaeger-LeCoultre",
+   "model_family": "Master Ultra Thin Perpetual",
+   "reference_number": "Q1302520",
+   "movement": "automatic",
+   "case_material": "gold",
+   "bracelet_material": "leather",
+   "confidence": 0.8
+  },
+  "raw_text": "{\"brand\":\"Jaeger-LeCoultre\",\"model_family\":\"Master Ultra Thin Perpetual\",\"reference_number\":\"Q1302520\",\"movement\":\"automatic\",\"case_material\":\"gold\",\"bracelet_material\":\"leather\",\"confidence\":0.8}",
+  "raw_response": {
+   "id": "msg_011CfZf84fP8bkP6CrkWERT2",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSowYKEAgSGAI4AUIIdGhpbmtpbmcSDHwxIDo4qPO0cyuRoBoMuEi4qRHxnHXHqKExIjDCnEUwONSbMgJhLflLCSKQNkzOR8sl4ZFFW7354PAskZmWXGVtrqJ2hb1RH61Q0G4qwAUAZDX5srkQOX4Y3z2rGHCS2stPnQU5h7/XZugAWyXWCy4znbznxx2/cw3mihZcZaptQ9012JTR39lOtWFEUqhO6snwAlgPq6aWuVymtWomNeM9WP76lMIm74WZGUa5wzPL7Eg9JUI8L7R5axoqsue2Ozn+MJPjAqLEwZ1Dg3dViKaUHxUmXq1hPtbRuBBicc9JPOfSE2FLiHj3KAMsc8quKIka3oKF/vLwzRZ/7emGc7eY8BZcRpjVFN7XhPdkEuVNhfJSnjAZDm3kzBgaOunwi1zaGOb5got3WHw2lydYA/zNLr/vM90JGjSABr7zyGbjqMtnkZcnJ92D0MEAt2rljCOPj6blcQC8Bx3u23jXe2JnF5NrMyFDLlMNh7W7SKeaSLwbUH7f4c/keJokbdiUQAgcI99BztNypFQtivHm7J+N0JYhg3UPzLhvV+NWnVrsed3HJfzVXi3D4vEWs/J4AY8SKm0d3soReDWO1onARSKELCI3QZvscQp1Bnd5xO6oSqSFgaYJEammtMHV79foSMvw6nDvTM+5qHdGf6yPMvmDJCHG0wAOTfFrl+GrwGoz4SOZKsVt1tU0XeTrgS4OAV9AOnvaGrXenLq+0Iu2Dvzru5Aj+8XDVgOAKI9ybSqTCzDs3/dmTZP58Oyxnxcgj+VQrplj/9nwrf1h2RFTrr2rXR1TxVTnsRnjsH8eAeTopeX3RLB/10DCGERSuaFmFlL75msxef36bWA3eqreAxMIScWBWFmokTUomofAZBleYsLqT0KgLsaLBCB5nA4GTgvWbZhCUhfDrwIQDHpuSn0y37ImAWFaLHVfdf/sYo5PR9+eUuoYGhuUJ4qjg8gw3c6Q97GLPF4TpSJIzcFBMXJTI1M50O+vPoZfqzS30LeyQpR7tLKNmLNHGv+gpJ8IOrx5rNjhJw5ORCsmh0/dERgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Jaeger-LeCoultre\",\"model_family\":\"Master Ultra Thin Perpetual\",\"reference_number\":\"Q1302520\",\"movement\":\"automatic\",\"case_material\":\"gold\",\"bracelet_material\":\"leather\",\"confidence\":0.8}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1911,
+    "output_tokens": 182,
+    "output_tokens_details": {
+     "thinking_tokens": 94
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 1911,
+  "output_tokens": 182,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.011284,
+  "cost_source": "rate-table",
+  "elapsed_s": 3.611,
+  "started_at": "2026-09-30T12:54:20.711894+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

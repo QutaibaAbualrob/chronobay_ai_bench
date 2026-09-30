@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 42,
+ "repeat": 0,
+ "image_file": "042_tagheuer_monaco-calibre-11.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Tag Heuer",
+   "model_family": "Monaco Calibre 11 Automatic Chronograph",
+   "reference_number": "CAW211P.FC6356",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.8
+  },
+  "raw_text": "{\"brand\":\"Tag Heuer\",\"model_family\":\"Monaco Calibre 11 Automatic Chronograph\",\"reference_number\":\"CAW211P.FC6356\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.8}",
+  "raw_response": {
+   "id": "msg_011CfZf2SwuGjMjgRHMDsqF4",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS6AgKEAgSGAI4AUIIdGhpbmtpbmcSDD12nGSOFAomgK8NihoMNdvNmtiHO2lPdbBbIjBzIs4zoDFriaiq7gtEolZ69KtEepTyTEL/FuZrulbkXGsN2WSguyBZn5kA/00XFDgqhQio/D6UOft4YbJ9AYNgWCOh8Ti6R8cL2rcDvNeZeMtxZwCl7bAQURp9a8uCqvOFYyY4ErV0qarrmS35pyCMacRQmtK+8lisWLEAIn4MKmQSlu5Fw4IS75fekroeUfGCpNLNqx+VJEdtS3NEs0AYLD2o0kquLvNJkX4sS132SmA6UI69/S7pFqGIvdVdM1vwmXn33MN7RQw38/mDmwTEJVH69csz/C/UoXSEllQ1z1ifRlDxCXE5R2kaoPG9qeSL5xkPtI/xceagoz4mbGLUNgkCBc/hIIzMehvjgSm7ItfUfLCck9keJawc9kTKz7B3O3ElNU1MzmfnDPz2McYOojXq0NLtlh2ZQK4uCQp5eyeJ4f9GmDvKhWrctJvrh6bcmtRaLuDSa/vWceoEqULkyUSBNt/k1ShHoRhIK9qliwz0eIATyE6XNEmu0cQj/q+rZygI5DCZR+8vAOklsIO0i/p2spy8/7b458UMwHSQ2uCvz7of5orH/sy/5ljAEVin5GcO5WajJ6dS8egrIi5P2vd/+MDayh2zNvfsfpFiGWxIysXIwWbGodWfjRB5BG29KbfyQAtAnUY7aTGNRp4TC77ugr25QMJv8Z+X6jA9u70dtiy9ZCu+WAz54SzaVPkvepn8XabvNsmzYzmYE1rr0Ub6eRjlzoYi98h/M7EwOKpxU3ypNpiWa2grvbRd1xBgvI1T8lOEoJ5HzU3Wd1IaQKiOF2kuqkrZaF5BcXKaK5xmCQ5ilPyGrX8BMzAhz6+gmzGDu5O5GC1nVazqgepNDuWCVrJsNLryDWjdGlxTC6SGgEEX/30+gcKsa98m1Huo9vpqsMz0uvDKp87RDl4dJfDRHYPdiy8b7VosyzTUbZ3stAac1Kbkhij3wFaktdE2QRiP7LpaqHpyHyJBegshHUEY/2n9ZwX/aSD28CftQUuCelMKsXs+nq8fben9855RLs5CX0dkyzdn7pNEd2TGXISXHsvNbL/+bdVESrb6ccG/xfnQTx/SfR76ZSlsImZzQ+GX4w6hU5tdw/b4Hpjx57cE7cRi5MpqrkgHVLrWfPBCfHFp47373vXtf1MX8iFKuu0je/GNNqNo//N1hd4bROOR0O3qVRZNDURY12Z8eua/rozpNEcX7sgjlE9frwy2S3T7HnnA1Q/BN6b6yGoFfH1kMa0Eo5VlUEfO55btwzvUocAIKUVogqieZmFk43fHZSABAL74/PSEsES8h6aJumND3oNJY/31UCN2FhNVgU95gn2K0BePI1W2a9YLj1AaxaioN0fHk8x6UeHGnQA4m50y9twob6SAgWunn7Aqgtm9/9T0rf3DuP+Grl2yan/HMV5roPmU+9svLtQ5zbRjcW0+b0z+asMYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Tag Heuer\",\"model_family\":\"Monaco Calibre 11 Automatic Chronograph\",\"reference_number\":\"CAW211P.FC6356\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.8}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 3564,
+    "output_tokens": 325,
+    "output_tokens_details": {
+     "thinking_tokens": 227
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 3564,
+  "output_tokens": 325,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.020756,
+  "cost_source": "rate-table",
+  "elapsed_s": 4.827,
+  "started_at": "2026-09-30T12:53:04.449746+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

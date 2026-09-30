@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 31,
+ "repeat": 0,
+ "image_file": "031_ap_royal-oak-selfwinding-41.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Audemars Piguet",
+   "model_family": "Royal Oak Selfwinding",
+   "reference_number": "15510ST.OO.1320ST.06",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.4
+  },
+  "raw_text": "{\"brand\":\"Audemars Piguet\",\"model_family\":\"Royal Oak Selfwinding\",\"reference_number\":\"15510ST.OO.1320ST.06\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.4}",
+  "raw_response": {
+   "id": "msg_011CfZezSng5o4hZRuy7v1iD",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS5woKEAgSGAI4AUIIdGhpbmtpbmcSDPIjhrm/9aJUznWnXRoMMUaFvBkj8wEA3F8tIjAlPGWySH7owtB9DPqd0lZelP8KJin69FoNJoE4Vqh7FMmrognFkVZt0J31B5UH31sqhArPJYPaKNVzmmLbcV0W+n18CUGtPRduglPFuf7V/1Mrx2fTku1bQsPq4tzFIgSvFzhnYjQ7qTQC3Xo8IsOkaoMGq6dQz9ArIs8/LniFvyTVN8MUpdgiIWhm74OhS+KncQToaecqPxrWgE9cPyVJwYIHydo6ZRe504Wlc1RbkBegih6+oYzjp7RtZ18O0Q4ucQj6HrO/atElz6DTyRRGzgIj1qp2X+zbgH6rwm1LrWqH3eww+bXyv4wwVeTabIWo0lP0omrGgPF+R5jIn1I8nD5ZlPvcFtDYoKD5rMTXqHmbgh3beKuTkogxNZ0GNvNNap19UwqWdVQ41nDea8ISlXwxJG7TJNsgbTJba1gchRCIDNhDc300KmxRVXeVst3EV1JbOLo4zFJ+XYnDT0aZiKu8B8U3GiJTuLL5hT2pHGke6vtgNYeg4lylSWouz70XNF/Hp7Zq25IuR52zP7DiyeMZts4OefLdEr7/OATf7JZI9OyINQmAEO41hgFXGCEzkQFsMd86E/BMP/q6TI2ESgCxLZatwpRv9Cxuk3C5UPR2BmtoAiMCLyEi0+rrfbsUyGUZACT71NjShC7ttRH0VGVfHLS0fNNKp4jzmd9+lqfhpMjQ4suA54fdgXkxdsKliZ16slP1Ww/f6E7iW0Ag08QzMqiX1WrX3+OC/DNs+h6C2ywVbrfO0sxNvcqKNGmB4kC1NqNdo69f6pE+CEivPZFTmv/0+zUDULI5k87/VW4GlFfO0lbQEpZEApBddGXdF/nLjnV79zaDYwDzboVKr3/2SsjjgZqp/sH1moueI6SzdbhmjAM1lZiPcW6khe3H3uYBap1Dgt3LCqK9/QI1naqT/dX6h10R8+oK6WymTAtr3GugHhQH9jmqNAiOvQTZO/pTYo5ib116Sz4acHld3dvOBddXJFmj+xcldKd2AfOxPp+4yCZXijK3Gynuf9MVSuQBm8EUP7VRs2Gd7ptNKQwYPBAC6jD+9gUQPuGOVGkd6tZpaDU+/fLCHB51d217baZaqMKIGPoozNLZhH2V9fzFMxTrV++0Y+qyjAV955Lr95wFeHlF1H5sS412iMdrQv6KG0XajxeigwJSII/HfmE88uknMRjV1EU0MGMqRuzZ8yyxLR743OV5zSWF1e+xxYuJ1qbr8aqoN02B3VfGU84mJcfre5kIUJoQw5BnZOv/L137M1EPNwPlaBNhmsi3hMzMncx1pTIjFxePLCVcT+HeOojacXYmdECJn5TTnuE72Y9L90GI9J1FBazOxjTO2c3hiDn/PCPFu67SvcSTHlUT0pKyDV81YDAjLvNjkBs4wlpZdmKtPPAWpyrIj9PvoKGJLbWhTriFyna21YrMYlTTdYA48yBxaYWz7zLhqWdIA4DVXdoU3jBSb7jC3uMGMYdN3bfzt+sgUJ1s+1N5qMRl8TAjjLQ87g/Fle46VBcZAHwRPsdQnv250UEM+8DJ2YWnIx8ZrMhTBhlyS3MwG8To2g6BczANrb5VBND2ImNRo4i8J0MEM3qahwmymBYuiowOHRyK1YsBMGnltU7XFRktEMjhLpJ3xQ1yrpAD37yFU4F8f+KiiluqixZVxOxFXEMj3JNh0A2yO6ftlCfZV1O4VIr+rF3L74RxGEDSmOVQbmhsC905r/xnquPmJkSnKQxHt1utNh+iZxpKuN7tNPEsm23QRl55H/N1ojvCKxpUVn3nNYcYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Audemars Piguet\",\"model_family\":\"Royal Oak Selfwinding\",\"reference_number\":\"15510ST.OO.1320ST.06\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.4}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 3186,
+    "output_tokens": 506,
+    "output_tokens_details": {
+     "thinking_tokens": 411
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 3186,
+  "output_tokens": 506,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.022864,
+  "cost_source": "rate-table",
+  "elapsed_s": 8.771,
+  "started_at": "2026-09-30T12:52:37.312177+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

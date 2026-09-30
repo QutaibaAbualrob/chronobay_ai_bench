@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 35,
+ "repeat": 0,
+ "image_file": "035_ap_royal-oak-perpetual-calendar.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Audemars Piguet",
+   "model_family": "Royal Oak Perpetual Calendar",
+   "reference_number": "26574ST.OO.1220ST.02",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.8
+  },
+  "raw_text": "{\"brand\":\"Audemars Piguet\",\"model_family\":\"Royal Oak Perpetual Calendar\",\"reference_number\":\"26574ST.OO.1220ST.02\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.8}",
+  "raw_response": {
+   "id": "msg_011CfZf19BJ9QSR4LNZEtriV",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSjwcKEAgSGAI4AUIIdGhpbmtpbmcSDPyzmyFXtFeA4aI5VBoMba++WfITlv5CYDCEIjDLhxchMfCkwdjHQWPUNcZuvX1uC8Zf3c0wvNhNdewkp5r1M9wEc1J2+L0XfFVcCtQqrAbbAYvVsTONSWnzWIX/hIRtp9ksS3WNh3kCG9k/kBjQmX3vei71LQgLg7kXktYNNobiogbBR4Lbp6WabaZj8xClhIDN/fXJY4QkZwFVaJzQEbACZ8crGBggbiSa9f8FZDJG1YtAfktJX4nm4l4WOWTC6a4xjmiECONi71VkooAE/QesiMoiugYc7BgVCLelkxhCyYjk319dL1xvoGs/hZsY5+5c+dcqCYwKppcfJMRLcSOrRJaOt/pIiWV9w7pTyay7eP3VbtCLvQv3n77ibTB6vMJaT6SXslqEbJkXAbQUqyYkp3f9oyfiY0HAn/os8NaQYyOpz6fjhBYx+7bdFn6zAPc6wk37BnZF1J/+bP0GzYw2GcZjfe9Nk18rLr+up9LSlrhwLzOZBPpd88Sy5q0mC0L+GqQ2oIjNH2A6QSqC/6ZXzUZ8MxXZwHbGBkFFx6PvZHa4/ZUw1k4u/r/JH7+s2daltJClMKvsvRAzaY4eZ7yZQZLpIZnF2oxktE65AxWEzJlf9ii6NTmKOrzwCStnFBRd8NqQqQqB8tgGKsUtaZgiI2X4SZNLC8oXnIAPAf/Fv9T6VKtybm7fZfGYyk8UuksD2tcgk0ZIHqDXI6kIqq0rXI3zXgH91J1zTKdTGqWY+/8B2wHXR9iFg6xeZ7gUtOofrOu6qxHABlKMR+/JPdo5LKhQN7J7RnRbD1vYklFGLZfiGgmZuorHzogBK4GhQVxnAkYpklkHJG4+BBqJz4CCqUDOGxOTJVrbsrG1/JjSPAfw9yYAiXJc14RT3zRP+8epSxNhiHMIMefW9c+vYd5fmzzLqpmgrq2TBR/FDcDSv1EFhvumHPA33uFPIrTWQsrs689GWzcZjbvfYuZXtTzcag1aLb6bLGdbdaPz0bGKw2IBEXmiLT27L6ZsvdCAVB5hIr60xI39l9NUZd0FLrbEhntqow7qyNlF17hMIro6apfxx6f+Iz0X32qIplCOFW48ZgkEe7SV3rOirhtQRjPoC+8zHk5OBFg/Vr5MzVcqWAD994DSLL8ZfYLkdPgA6OGcLwrfKkNfOw22/DvQKAcT9WyOfAS1hsq5QRgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Audemars Piguet\",\"model_family\":\"Royal Oak Perpetual Calendar\",\"reference_number\":\"26574ST.OO.1220ST.02\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.8}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4958,
+    "output_tokens": 270,
+    "output_tokens_details": {
+     "thinking_tokens": 172
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 4958,
+  "output_tokens": 270,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.025232,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.245,
+  "started_at": "2026-09-30T12:52:46.741223+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

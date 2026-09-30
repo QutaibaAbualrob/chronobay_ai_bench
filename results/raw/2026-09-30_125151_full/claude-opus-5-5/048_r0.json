@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 48,
+ "repeat": 0,
+ "image_file": "048_tagheuer_link-automatic.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Tag Heuer",
+   "model_family": "Link Calibre 5",
+   "reference_number": "WBC2110.BA0603",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.6
+  },
+  "raw_text": "{\"brand\":\"Tag Heuer\",\"model_family\":\"Link Calibre 5\",\"reference_number\":\"WBC2110.BA0603\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.6}",
+  "raw_response": {
+   "id": "msg_011CfZf32bxgxJJLyhsTBGYo",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSyQYKEAgSGAI4AUIIdGhpbmtpbmcSDPY6lNm4H1vtNXIR0hoM1pCsEs39C7K9RA/ZIjCtMOeXzNDwFlfVlWtxz/+W48MK1OjqqLniqS3UofJYf/lxh5hbpp7uQLM2LHVALO4q5gVx6UVEoPnUVXdnKJZsRANYnbV7f8mvxGUp5FZp/wO+HXpbXzf3SC23mtZ/ly0c6ccGZQlyI1eI0B01Ov+LXkaEmk9KpEAFnneOkCdWZtKlsl9R0ziWtvQDiEIFaTPvgK8sPjtDNZVRYTXCJV4Z5fBOXkalBdFsGwQA8kvsQn4X9Hr4hJn6en2Heh9YPpVd1ZVs0xtEaSQZ9WWKHfdvr50VjxhvEMj/Bbjk6BAbLt4AAA7f7kbzCjQw7Lt7DBgIHE5TSISnn+gjHjB2so+P71jQo4Nrwgj49GZq6USUDbzKD0LK197wnf4PSGQE2MCYK4bLKuljpz8G4tA9v9eQeZm6kc4NMeVFLmYC1pJxss6FLb7NLiwyo0TTJE270bVlrjNH/zWcsjE+JJrln9Qf3y6s/3dgb1rqyfU7DePM7k1VtWCjOLKetN/oCwQDG1gz9PRC1mzGqn62vugl9B2fF6jfpoGuF9/+dDRdWiaIROiGPTEr2E0QrYSMsH8pwMVfZwjRPqkEfi1e+ajfUJ7TTOjcp+tWm7cHCkeTW46SebnYTCWhKJotyPqTFsatyECd/YMDXQ8P1Ez4LA3emADzi6u6aG1N19CzDrF5rsCNmF/BB3brLrOboms1OD/OMNQXOlrpKI3iMmltu6yi/2S0yPWIkuzvWPGJnNg4kaG9Wh6XUlrA2cXOyhYs66fZonR8d3QV7OCO0H0pGygHmPMF1oukcOPQ4fQjE0PQvu/L26Ppqyta79EbSvKpaYrmyWKLYLLouOtN6N8K6FJJAFPDFHFGqbcMyfhjWL5ROEcBWsVo7YDwL/z+zvbSWzSLOaAL6vS+g22PBvweRsptcifCKm3W2nvx8pL0owBItBYjbKzOaWAd0GpjIPtAIXpb3X94B3OvbMCIpwsCjcFJ1x74qlUMUbOqb0E/VzfmdzkwZNhkO+X73XEVoHNM2x9hUZleAsn6SC0IZFKwbI0Zg+4YkLdhCcnENsNbGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Tag Heuer\",\"model_family\":\"Link Calibre 5\",\"reference_number\":\"WBC2110.BA0603\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.6}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4958,
+    "output_tokens": 214,
+    "output_tokens_details": {
+     "thinking_tokens": 128
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 4958,
+  "output_tokens": 214,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.024112,
+  "cost_source": "rate-table",
+  "elapsed_s": 6.949,
+  "started_at": "2026-09-30T12:53:12.343739+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

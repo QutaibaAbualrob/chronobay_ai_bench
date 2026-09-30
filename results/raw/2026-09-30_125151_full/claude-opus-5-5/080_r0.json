@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 80,
+ "repeat": 0,
+ "image_file": "080_iwc_portugieser-perpetual-calendar-44.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "IWC",
+   "model_family": "Portugieser Perpetual Calendar 44",
+   "reference_number": "IW503302",
+   "movement": "automatic",
+   "case_material": "gold",
+   "bracelet_material": "leather",
+   "confidence": 0.35
+  },
+  "raw_text": "{\"brand\":\"IWC\",\"model_family\":\"Portugieser Perpetual Calendar 44\",\"reference_number\":\"IW503302\",\"movement\":\"automatic\",\"case_material\":\"gold\",\"bracelet_material\":\"leather\",\"confidence\":0.35}",
+  "raw_response": {
+   "id": "msg_011CfZf76BdJxbCf4TmTQeLb",
+   "container": null,
+   "content": [
+    {
+     "signature": "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",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"IWC\",\"model_family\":\"Portugieser Perpetual Calendar 44\",\"reference_number\":\"IW503302\",\"movement\":\"automatic\",\"case_material\":\"gold\",\"bracelet_material\":\"leather\",\"confidence\":0.35}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2591,
+    "output_tokens": 665,
+    "output_tokens_details": {
+     "thinking_tokens": 585
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 2591,
+  "output_tokens": 665,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.023664,
+  "cost_source": "rate-table",
+  "elapsed_s": 10.299,
+  "started_at": "2026-09-30T12:54:07.468116+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

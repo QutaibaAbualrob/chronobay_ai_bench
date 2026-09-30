@@ -1,0 +1,63 @@
+{
+ "run_id": "2026-09-30_125653_full",
+ "model_name": "claude-haiku-4-5",
+ "provider": "anthropic",
+ "provider_model": "claude-haiku-4-5",
+ "mode": "schema",
+ "row_id": 92,
+ "repeat": 0,
+ "image_file": "092_vc_overseas-chronograph.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Omega",
+   "model_family": "Speedmaster Professional",
+   "reference_number": "3570.50.00",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.7
+  },
+  "raw_text": "{\"brand\": \"Omega\", \"model_family\": \"Speedmaster Professional\", \"reference_number\": \"3570.50.00\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.70}",
+  "raw_response": {
+   "id": "msg_011CfZfN7qmnVWsu3JLXHXW3",
+   "container": null,
+   "content": [
+    {
+     "text": "{\"brand\": \"Omega\", \"model_family\": \"Speedmaster Professional\", \"reference_number\": \"3570.50.00\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.70}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-haiku-4-5-20251001",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 2358,
+    "output_tokens": 69,
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 2358,
+  "output_tokens": 69,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.002703,
+  "cost_source": "rate-table",
+  "elapsed_s": 1.72,
+  "started_at": "2026-09-30T12:57:31.054660+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-haiku-4-5-20251001"
+ }
+}

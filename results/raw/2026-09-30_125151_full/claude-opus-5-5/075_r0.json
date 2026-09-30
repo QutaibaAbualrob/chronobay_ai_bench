@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 75,
+ "repeat": 0,
+ "image_file": "075_iwc_pilot-s-watch-chronograph-41.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "IWC",
+   "model_family": "Pilot's Watch Chronograph Edition \"Le Petit Prince\"",
+   "reference_number": "IW377714",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.6
+  },
+  "raw_text": "{\"brand\":\"IWC\",\"model_family\":\"Pilot's Watch Chronograph Edition \\\"Le Petit Prince\\\"\",\"reference_number\":\"IW377714\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.6}",
+  "raw_response": {
+   "id": "msg_011CfZf6QUgjRoeZQjT2mQkm",
+   "container": null,
+   "content": [
+    {
+     "signature": "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",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"IWC\",\"model_family\":\"Pilot's Watch Chronograph Edition \\\"Le Petit Prince\\\"\",\"reference_number\":\"IW377714\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.6}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1554,
+    "output_tokens": 507,
+    "output_tokens_details": {
+     "thinking_tokens": 411
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 1554,
+  "output_tokens": 507,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.016356,
+  "cost_source": "rate-table",
+  "elapsed_s": 8.219,
+  "started_at": "2026-09-30T12:53:58.184357+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

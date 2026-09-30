@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 77,
+ "repeat": 0,
+ "image_file": "077_iwc_portofino-automatic.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "IWC",
+   "model_family": "Portofino Automatic",
+   "reference_number": "IW356501",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.72
+  },
+  "raw_text": "{\"brand\":\"IWC\",\"model_family\":\"Portofino Automatic\",\"reference_number\":\"IW356501\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.72}",
+  "raw_response": {
+   "id": "msg_011CfZf6qmxG5GFLXxoLhjJ4",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS2wgKEAgSGAI4AUIIdGhpbmtpbmcSDIw29h+hNxt5lfl6GRoMCJiY4rI0IchBbiJmIjCxs4kL17UtyFFseI3rJiFmVo85UJb+K1WPTk/Xmh7Hiv2VDrMXyHiw2f3Akrc9cWgq+AcDXznwR6jStsOXTi2j8BbnTaJcpCRWZJ6Y5MV+U9Qm6JCAV0bMabGRoqXO1RmQ5Ghk/vw35U5W9fwa2cYVWH7dP6hDT1fq2HSfq19GTBh/GH5MDczThBWqRUeIHYw++GKN9oag23Esv6cMxbosETihFZkB4GZa0AyPNna11yxLzq+6zV/UtJ1IXZqrsARoGCU81gXtZdZBbSuZ1cH9O6i8TRs4iLn926fwPHGsN7RCSsf/4LEOlS9J8duIxZyFpPT5L89K95dcXNt5BItt+4xISQa7079YZVf/sMSxgtFprO9crrLYL99hfOYngafFeyy5wMrg4bUlAFPugXF7o3vvQfnMW31dPF3noaiFMYRSPbb4qFyT2Q+DrKEkQpE/evd5ZW1QQOmOpJargUh2lRR9RuNDAJ9AvsII1KSq52xSrIgt+qTbIoUXJd2v+hSYyT/JbtpEm6QKT6naKTYOByIeWl2fdp4UvluX3mTNUDq8YQXF5ZFJoxECE0F8i50afYT5+PCdnBFKfrxC75LClouEqat2+/lQwehaZpzyyXLfG9ooShfzB4wmTbT4k+xs+mrvxYNiRC9othuw72lL5jcmGtDo7xSTSk4SA62ccvytajgc3FHkY4oN3kCZPQaF7cCRfdMCv/oYHLnk9t7wEh7KitZ8Z8hXAoNXkuGUxtGCUby/Fu2lsRBFcGr07C3Dvf5JSWaW1Zq2LZRlOo3/gHK+PkBrqkvk0+Bh3YE7/AyDAsLoyMkcgiKEZnHXwqQi5NUWGSykL074UuCnv7MrlnWLuGXU66zobQvel9PoUYUFJ79lTHqyVON+dSVuJ2Yo5oRs0tFEZasU1P4c52olRi+pB5Nw1+0sKaAKoUbKomsBEoWEKfcLykh44ridm/6zDo21oF6Or1bRHnRAuet4voWs9kCHHtbwnlonmftG8/t2kiouz2VhZ65YgKt95faTqkyFjtwiddwDzz2UCJStq0z8LOnQgeOUC1i7RxUYao1Irg5V/i1nyb+tmpC0c+ncwOjD9XLq3cG/DmvkQPrCLD/LMh4SfMOqu+zGs038z0ZE90ip1XHYo0ZnzVegPSvMVbiBYUBK8h4SgpYFVwjOoPltKT5bGTj2WQvt8CTc3s6vdcne2tDMzskf0u98tUaNgvsu2oizx7EkmhuKxE3Jrfmsm5Aoi8zCGFb/RNX01JQLwAo+7XLjf5lgjcbM+DYkJlm06zYs5gjaBVsS9er+6UgA22hIjHGq+pYN7FTTf/F/UyFTOqL/uXMZc+F/SmGy8opejHORaEy60yCCIFiuxX/eZPGlgu4/svA08sBsqi14/GwizHe5k1vNNJLsuizW6GW4XJhoVpdwhBgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"IWC\",\"model_family\":\"Portofino Automatic\",\"reference_number\":\"IW356501\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.72}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4202,
+    "output_tokens": 292,
+    "output_tokens_details": {
+     "thinking_tokens": 216
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 4202,
+  "output_tokens": 292,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.022648,
+  "cost_source": "rate-table",
+  "elapsed_s": 4.776,
+  "started_at": "2026-09-30T12:54:03.659664+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

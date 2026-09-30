@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 21,
+ "repeat": 0,
+ "image_file": "021_patek_nautilus.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_family": "Nautilus",
+   "reference_number": "5711/1A-010",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.78
+  },
+  "raw_text": "{\"brand\":\"Patek Philippe\",\"model_family\":\"Nautilus\",\"reference_number\":\"5711/1A-010\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.78}",
+  "raw_response": {
+   "id": "msg_011CfZeyEvmbK4yRzMwqTTe9",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSxwYKEAgSGAI4AUIIdGhpbmtpbmcSDKiC4AWiS8nnFWn66hoM+hLxjSXBpqwB2gk7IjAdUCKXtmE6SUdCATGAX050n2j2EZ+9vqbmhz8ahgKOE3fngjzpc4BwNHNZn3tlSy0q5AW6StSSoJKhF/PofYOnccW+C9FqG3OIR1XvZzfnX5LF+iQgOr3LwXOmOtgn/fozM1rhmvLvl9bnX0A4/4cLvD6NGiiBEUiP6skdqQF05uRjXnlEsgJoOhlveV5YaIzNheOXcrRsZIfFndRCsaFdQ4n6cMNznTHFaZqyMKuA46GfzFcy+8HGmXFvvMixBPGFMZdb3yU+M0zpj4kVAFaF0fKbN3Hti4hlj4FcnPZoNYUe18ghUd8dfXXwmPl0kUhxUXfwvdKgrvyiJdjzwaxmT8ApEDBYx+WyeqKjuh+Gid+wnU1N/D1jGOLBR3DYYTGeiYqGIievgMuuITltFxMDzTzCiSop5vwYyVsZLAEVB38yCtAmrCvcCTv9lvL+ud2a6PpiAHc0ZlCZBDklLK9+gGsrlebJKgrsjzKuEKUThYAZjmZQTg2hNw8DnSWb0ybMJNBl9JSxC7/Bdhbqck7xhSbdknyHlYG1VXBMrEN9ZFs3k5up+n7KhORjjJaW0DRIjLhlblnHVlmO+ze9lg/C/fv0pbETYOJ8KWKFS1czLdcRFzIDCIoIYj7qZQOcKrLCglJAlZYqNR2nrlVD3cP039SZDiCc+VWdm3TrJY+05uzMLWTmykByvyWoiiQDHPKYrlRxhOrTuaSK4pv53exABg49ctSji/+qqIg8H87B38a/WZLJxJ7QK7sfy0pa5/pYk5pgu577/wj7VrgjRe/duq9nJSr/2KwfNcs0giCd+/ynKe2tA/Zvr7kdNCtN/XHZ5kpn4d/CfNFgr/skmL/1zPcKri1a9Xs/OMXX7eAJE5Ef8g9SWfJEuwPhGBtrikALysti826sx+3VkBQEk/07qihEUX+EBjpI6Jk46NRj4nAznU7QKnZM7ReA8zo9cFClR0t6YAc/uvmSNoONoz7Cdk3VR3w4A4U0XWMglA1CK3ngAwn4N4trD25a06PApT1FXWCrl+2PotzN9u1slmIIHuNs0SfJiBgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Patek Philippe\",\"model_family\":\"Nautilus\",\"reference_number\":\"5711/1A-010\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.78}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4958,
+    "output_tokens": 206,
+    "output_tokens_details": {
+     "thinking_tokens": 126
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 4958,
+  "output_tokens": 206,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.023952,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.223,
+  "started_at": "2026-09-30T12:52:20.892416+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

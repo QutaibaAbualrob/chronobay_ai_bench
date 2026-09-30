@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 73,
+ "repeat": 0,
+ "image_file": "073_iwc_big-pilot-s-watch-43.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "IWC",
+   "model_family": "Big Pilot's Watch 43",
+   "reference_number": "IW329301",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.6
+  },
+  "raw_text": "{\"brand\":\"IWC\",\"model_family\":\"Big Pilot's Watch 43\",\"reference_number\":\"IW329301\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.6}",
+  "raw_response": {
+   "id": "msg_011CfZf67NYUkxHw1TEGchgo",
+   "container": null,
+   "content": [
+    {
+     "signature": "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",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"IWC\",\"model_family\":\"Big Pilot's Watch 43\",\"reference_number\":\"IW329301\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.6}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4958,
+    "output_tokens": 672,
+    "output_tokens_details": {
+     "thinking_tokens": 592
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 4958,
+  "output_tokens": 672,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.033272,
+  "cost_source": "rate-table",
+  "elapsed_s": 9.995,
+  "started_at": "2026-09-30T12:53:54.178910+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

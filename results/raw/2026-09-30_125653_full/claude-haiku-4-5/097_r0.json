@@ -1,0 +1,63 @@
+{
+ "run_id": "2026-09-30_125653_full",
+ "model_name": "claude-haiku-4-5",
+ "provider": "anthropic",
+ "provider_model": "claude-haiku-4-5",
+ "mode": "schema",
+ "row_id": 97,
+ "repeat": 0,
+ "image_file": "097_vc_historiques-american-1921.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Vacheron Constantin",
+   "model_family": "Patrimony",
+   "reference_number": "87172/000R-9341",
+   "movement": "manual",
+   "case_material": "gold",
+   "bracelet_material": "leather",
+   "confidence": 0.72
+  },
+  "raw_text": "{\"brand\": \"Vacheron Constantin\", \"model_family\": \"Patrimony\", \"reference_number\": \"87172/000R-9341\", \"movement\": \"manual\", \"case_material\": \"gold\", \"bracelet_material\": \"leather\", \"confidence\": 0.72}",
+  "raw_response": {
+   "id": "msg_011CfZfNErSQnB6pkevMJJeV",
+   "container": null,
+   "content": [
+    {
+     "text": "{\"brand\": \"Vacheron Constantin\", \"model_family\": \"Patrimony\", \"reference_number\": \"87172/000R-9341\", \"movement\": \"manual\", \"case_material\": \"gold\", \"bracelet_material\": \"leather\", \"confidence\": 0.72}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-haiku-4-5-20251001",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 1678,
+    "output_tokens": 69,
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 1678,
+  "output_tokens": 69,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.002023,
+  "cost_source": "rate-table",
+  "elapsed_s": 1.383,
+  "started_at": "2026-09-30T12:57:32.986532+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-haiku-4-5-20251001"
+ }
+}

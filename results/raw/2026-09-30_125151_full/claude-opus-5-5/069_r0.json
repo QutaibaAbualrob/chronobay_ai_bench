@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 69,
+ "repeat": 0,
+ "image_file": "069_cartier_drive-de-cartier.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Cartier",
+   "model_family": "Drive de Cartier",
+   "reference_number": "WSNM0004",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.6
+  },
+  "raw_text": "{\"brand\":\"Cartier\",\"model_family\":\"Drive de Cartier\",\"reference_number\":\"WSNM0004\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.6}",
+  "raw_response": {
+   "id": "msg_011CfZf5i55B78EoBYVo5wvv",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSigcKEAgSGAI4AUIIdGhpbmtpbmcSDBGRd8iT7Bz92qWgoBoMVtXHW2d9Ph3tk5VAIjAVAJlyWmKXBHBn8c0BMZjlXv0OMK3JryySHX58Ck0EASYlsQsW1VGo0MLxKtqg1P0qpwYpEh47kQPsYKEfGLa0Z/dDfxr0SoCiwolJ/F1UJavR4SWSI2DzxiWtw3kEtXH+/UdcAvbWlCppq/4v2YAyfaUZ95aGQgWF7tAkfm8R1VpdkTG44Kbju/1y04MwY0ffQtNLwRqMsUk5c8LBGGZFOIUzZZyrfkPTGX7nEM1o7cTnbPiVWxBcbU5B/jOcAskYOByTrbdi1ggBcxFUfFvxBHI2FWtZxSJdW3DMwyaBC2UY/pjpznKTn6Cv46f1lubqa6vhoS2G2NzK7eHmRh1zFNeHx5AqcZRI5HJALwqPHBeNuE47M36gJqDypbyWMFv8dTkvHp8lGFQXqueTujpv1N27+3y50ntVzGK92KdAdHx9+CPSak0aQclGpma0O5o+IuwQKtjEIekJe56hl4JKRwTukwMceep6M7itam1BcIb8Yl6YtO8oaBiW624TxHhvC3NHDyGAIex2RHzXMIR02cvxM/E84GQUT7Anms8Xu5Hk342P9W+WSg4m8jvcVXTNRx1gF1oZUmsQApYlzkaDlUjeqCpvomDOU8O3ZE9QeGG8YKF2RTBUzkBlKuK6OIQlwOcAJ5gvRdL458esuO9RODVxVdRBJ+6m6hf7Du4MEF/P5sxUaOOr+MdeXDFXG6M8FPxOJ5BajOTyUl3frqE3V1BimwNLU1YUkhso20GT7xx9m6j4qT42q2LMBv2Px1fL3TAwQ/PKztNXzOCzelJh1/TdwktnKr4hWFYO912qyBbK2G0z6BxVvc9moiOJ2mbC355gB72utdMPIsCxTVSNCvvh6VBWL2lUBoMYWwy3QAy57dA+GQhRTiK5nel/t87scoXun8V5FH5mCNPdJuBABF/T6V3xjx6EB+FBc5mq/Se/A9veCqnczeQOPheB1de6npj7mU9ZNWVqTcPhdCCe1ti29MqP3CI2SolzUbJzlheyts1dRwZz5tFy5ZunADmg1AMgsSsDEmNIo7o18kzHH3vat9hgCHhsHBX0OtexSULFUqv0IfbRLtonL2pGLbuonwa66D/FpgOADlODzUjS0rZgklP+uxFYrnf/2dNZeKy54VgKcMwThgUYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Cartier\",\"model_family\":\"Drive de Cartier\",\"reference_number\":\"WSNM0004\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.6}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4526,
+    "output_tokens": 213,
+    "output_tokens_details": {
+     "thinking_tokens": 134
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 4526,
+  "output_tokens": 213,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.022364,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.289,
+  "started_at": "2026-09-30T12:53:48.753138+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 32,
+ "repeat": 0,
+ "image_file": "032_ap_royal-oak-jumbo-extra-thin.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Audemars Piguet",
+   "model_family": "Royal Oak Jumbo Extra-Thin",
+   "reference_number": "15202ST.OO.1240ST.01",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.55
+  },
+  "raw_text": "{\"brand\":\"Audemars Piguet\",\"model_family\":\"Royal Oak Jumbo Extra-Thin\",\"reference_number\":\"15202ST.OO.1240ST.01\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.55}",
+  "raw_response": {
+   "id": "msg_011CfZezjehPrgxXEtJLQ8WP",
+   "container": null,
+   "content": [
+    {
+     "signature": "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",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Audemars Piguet\",\"model_family\":\"Royal Oak Jumbo Extra-Thin\",\"reference_number\":\"15202ST.OO.1240ST.01\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.55}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1911,
+    "output_tokens": 820,
+    "output_tokens_details": {
+     "thinking_tokens": 719
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 1911,
+  "output_tokens": 820,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.024044,
+  "cost_source": "rate-table",
+  "elapsed_s": 11.478,
+  "started_at": "2026-09-30T12:52:41.228685+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

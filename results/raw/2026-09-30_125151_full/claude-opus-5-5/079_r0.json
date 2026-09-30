@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 79,
+ "repeat": 0,
+ "image_file": "079_iwc_pilot-s-watch-chronograph-top-gun.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "IWC",
+   "model_family": "Pilot's Watch Chronograph Top Gun",
+   "reference_number": "IW389001",
+   "movement": "automatic",
+   "case_material": "ceramic",
+   "bracelet_material": "fabric",
+   "confidence": 0.72
+  },
+  "raw_text": "{\"brand\":\"IWC\",\"model_family\":\"Pilot's Watch Chronograph Top Gun\",\"reference_number\":\"IW389001\",\"movement\":\"automatic\",\"case_material\":\"ceramic\",\"bracelet_material\":\"fabric\",\"confidence\":0.72}",
+  "raw_response": {
+   "id": "msg_011CfZf71cYxRTXTuckD9Akt",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSzwsKEAgSGAI4AUIIdGhpbmtpbmcSDEjFqC3tUZwpZes+UxoM6DBGVLQA/Zq9P393IjCovcQgZ7g6yLjZB6+rbHc0EgkvNlqVbM7GVmaL+FTs7Q/X2sqMQ2xlyLYTLDTS608q7Ar1isFOSlO6oLJelwrCHv3xuAtFmq4asW6MHH+rHh/JMJN35pVNH2UQyZCkW9CpwWf0yxmZ/3Bu1fQF6QAyRIoEAndeOgul+6t6mnvHimqam+nwvAopYVZsfVgEpU00MVEe7XioKcZ5iAtgsOsv8SAfjuIiz0S8zbR1Yfypl52QBhok1Fk8TlZme3XpUjSszgmznvQxgESie2PJITmoaE4My+Hjer8SDuMo1jLWrcQNFoE2ZmZ6gTxE1oXb570IJX36nNPY1MiNDt9AdzqMSlP5FpsrhQLoqfH5IDF18c7ergrwFxtFjmcj9GZkXZffXWxp3PKkoKdR86NCBRF7Da9Em43MyHumVXa36UVo8E6mSReaPg9hzzUN6FimmljLgpbKX+xQXLO7JN/FJHd0L+HFNIiIEaGz84SXrwoi4DVJF0prdaZfhU7XiD6ryg5g+/fZ2TusmAPnKbNQVSEE+dv1bNK73Vicb6JYXHaV4ZRhmx9Fa9JGiE+cRGjqmkFujsHcsuYagmipzRvbvpKtCyg7EKBCRbEP41QrCVzGxUem/z9K9nxwntIRYWksCy4XYqC++xp/PpkSZqoCYtTq/fcFTkBahPkYNP2RtNgvW6pt5aogiJhWP5vdlfR6Ln2qJMPlQUXYwW9eryjWLDzgIBBgEZ39356rADFeCLCp2oO695/xbstB4GVJvs2amhkvRKrfInYLZ05d/Rr3noM+nXTOD4Zx3oMvcG5Mmnntm2tF60usfvpLQ5RetJ4tekQToOjPLWpFEKjBTUBJa5PrB0uyrb52F2DLDrLWrzYsHb6BvC6Ckj4qndb9jNzytmpoYQbk2jW4D8O/KEbFqn1vFBTmrEtgwNNlp6QcEE6BwYOqn7L9Stsx3tMYexCMlnTLD63EIL0kRsxE8P35pAwTOzoR36v8vqa4km+/X5e9+oUUPqZj4StZxNF8EoZDRmmZ2JUyFYQChIO2srS3ayqAuj47JlwQezMaZh+WMdOEJ3nYQj9/C4omu4+NJ8CTOf5CCUjniiYD/5XFsH1hnuMG/CmYH2BCQTi1Si4R4Nh7GOyw5RXAN/R1JyPEOq68xjcYL/X+s9bSui4pqY2MfRm98rHP+U4Z01JsjPjCklffbxbVNG3iSyk6BvbuhNoVtOtNOy4s8sPFiLWZyL9FG60a54P4BvnNhy2qkwOQ2HtEJEFq95EXM/5J7MxMQxAgr+s6V4MA3kF5gqoMd/FpcrWQ4UgkdnAQnUOMhle0TD0X8u2YQSH2MC2tAJImRHNFN58eZiM3RELg3dy3t9HAKl3fQZ+/OPtpOKa5HRiuYTPG+8/H4Gddz8y5MCCKV6TPrhMtiPU3qRKhig500e1lBMsMOJ60AL+oM3mE+ix4bD/wmh/LMl8crT6vNYfSeb6SmVQJ4/5ZU/WWuQxCHB6DuTDKtkBpRr2doYAgj4EPReSu/Fxlqw9QMdaI4cKq1XUU4gLhKPh/ipECrSo3myjjtwD95mpCqNK0c76nLOeaZfIimKIX/hmXJYz9SIkNxvoVuJXaH98RUpW4TyRMJGZlLaSb+BMExt32BkpYqea19GiRFNC8E2NxSuo3HtS27Ce2CI9yCy4Wcnt2e3aBhRGBPlx6zgXeB1JEwYThD6+R4toOJFJTAAmXkM/ccKxeh6a6NCvDbwJFeFJHujc0KrVU7ZcF2PNI/lLg5pFJHsZ0PkoTw73YP/PY9YHnGHuQoiHeAtP+jvtI1bWLVnW6XBprgZccLNVWQ1RI+WkoiIZRVI51IQoipb16ceFwxyKjo2bv10CQ+NsDP/nIYOqNA/15v5DTBPy13WI/0lVW3u7TrO3Sq3lrs4fI8rPkMC8Go41BvBgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"IWC\",\"model_family\":\"Pilot's Watch Chronograph Top Gun\",\"reference_number\":\"IW389001\",\"movement\":\"automatic\",\"case_material\":\"ceramic\",\"bracelet_material\":\"fabric\",\"confidence\":0.72}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4958,
+    "output_tokens": 522,
+    "output_tokens_details": {
+     "thinking_tokens": 437
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 4958,
+  "output_tokens": 522,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.030272,
+  "cost_source": "rate-table",
+  "elapsed_s": 10.417,
+  "started_at": "2026-09-30T12:54:06.404891+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 67,
+ "repeat": 0,
+ "image_file": "067_cartier_panthere-de-cartier-medium.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Cartier",
+   "model_family": "Panthère de Cartier",
+   "reference_number": "WSPN0007",
+   "movement": "quartz",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.45
+  },
+  "raw_text": "{\"brand\":\"Cartier\",\"model_family\":\"Panthère de Cartier\",\"reference_number\":\"WSPN0007\",\"movement\":\"quartz\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.45}",
+  "raw_response": {
+   "id": "msg_011CfZf5Nsg4gwWK6ZYmFknq",
+   "container": null,
+   "content": [
+    {
+     "signature": "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",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Cartier\",\"model_family\":\"Panthère de Cartier\",\"reference_number\":\"WSPN0007\",\"movement\":\"quartz\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.45}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 5246,
+    "output_tokens": 503,
+    "output_tokens_details": {
+     "thinking_tokens": 423
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 5246,
+  "output_tokens": 503,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.031044,
+  "cost_source": "rate-table",
+  "elapsed_s": 9.793,
+  "started_at": "2026-09-30T12:53:44.239683+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 89,
+ "repeat": 0,
+ "image_file": "089_jlc_reverso-tribute-chronograph.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Jaeger-LeCoultre",
+   "model_family": "Reverso Tribute Chronograph",
+   "reference_number": "Q389257J",
+   "movement": "manual",
+   "case_material": "gold",
+   "bracelet_material": "fabric",
+   "confidence": 0.72
+  },
+  "raw_text": "{\"brand\":\"Jaeger-LeCoultre\",\"model_family\":\"Reverso Tribute Chronograph\",\"reference_number\":\"Q389257J\",\"movement\":\"manual\",\"case_material\":\"gold\",\"bracelet_material\":\"fabric\",\"confidence\":0.72}",
+  "raw_response": {
+   "id": "msg_011CfZf8LKxU4XVsBnopSo8S",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSmAcKEAgSGAI4AUIIdGhpbmtpbmcSDCgyh2zHVCH9DUjlwRoMvQaNsjCvfxefXkdFIjC/Y4SvU34lWjToEBGI/6/tbjhlaq6OqCoyTn0vbfcylas1J62B/Iar5rSkPAKq73gqtQbtdUa8CsG240qay6/LiiwV7MiltWbRCPeiEkyql0pEgP1gH+28oC1Y6PFeCjJvCVi5hX7Cuh51oSyiIC6GmQdBHEIfwDmhChIo+hhCwOze7JwMbbYuM9fdLpPZZxrMfbzDZrT/8c8LSG39cz1ygqbJrRIftRWlaXFenEGv/TxhapqHQSSFCO2A8+q/wI/pTAed7kgOgavqZR6babMK8gmDvUe29vUYn32gpHiXPgi6dsW3uwrkIeiji68KG1WgcdlfsORCV+nbhwnGkKP260vm+tICxASYJEUnbNAt5pBpStOu5eQWaX96bBUiCgkkz758XVRlEtMTDgR0IvJslw66rO+AnMFWwE55Y9WHskk8VAR/SpSm4sXD5V3aOimJkPNdMArDsJQBqoMCgwgzGb/rWVzPSZl5W4iJu/d2KC36eKBunp+7t9wjayE7WlV49RdCmC8WTeGcBqonOk8h8NNrVsDK5/tYws4W41gmJl9RSA2MKEpE36CihdBDq+uV77SYClPWdr2kuswSXgqUoIxwvsK02WqdPS5cqvoxih9mnB4TaCIt/JCYuWPmzR6Cwbg7TGAkuu+cVLhHlbERO8LZOcSr30XqQQiM9ZJVepIctF9qtaJnq6qnvkABza6WcxCwKyDXmqMpnu/Nd3Y0TXmE7bhH2w1oRuhOuRSVOur5LCCGmb3+ufQPoxpDthJF6HwTz4cvBlJPEt0mfMhAXpzqjXevgju5efwK/kEuZdp8a2vDkgq7M0L4mGLV0vQUCVys0j0djrF5Mx6h5rkSwcDe39oHWzpF+pGe2S7D/FL5xc4DbfTbNSZcE2rXvju5SFSBbO1qtUAm+BPePtwK0eNLPq/KzLX+uGmXmw/0YNILxzxE5NJS/28ZnGmSuynei8DMq7WpdKu71K9d72r6wvVvnquMVPenINrQ7S3Y0UMMJIA+q7QxTC3aXpLa8N7f2KmvVMO1d0FXXbNnUKJG2oY9yLnTkOv1dMeuhloaRIqXyPEEmhomk9RzcuUcXcprrK2uJtiIUwdPEvvlvY/o4UBGD6qq3N5mgYcXOkacaA1XylXY/zNAjEcDKuYoTIZ1yQl4tyrWvxgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Jaeger-LeCoultre\",\"model_family\":\"Reverso Tribute Chronograph\",\"reference_number\":\"Q389257J\",\"movement\":\"manual\",\"case_material\":\"gold\",\"bracelet_material\":\"fabric\",\"confidence\":0.72}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 5831,
+    "output_tokens": 222,
+    "output_tokens_details": {
+     "thinking_tokens": 135
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 5831,
+  "output_tokens": 222,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.027764,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.076,
+  "started_at": "2026-09-30T12:54:24.324450+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

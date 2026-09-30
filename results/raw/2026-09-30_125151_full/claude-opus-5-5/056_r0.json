@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 56,
+ "repeat": 0,
+ "image_file": "056_breitling_superocean-heritage-b20-automatic-42.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Breitling",
+   "model_family": "Superocean Heritage II 42",
+   "reference_number": "AB2010121B1A1",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.45
+  },
+  "raw_text": "{\"brand\":\"Breitling\",\"model_family\":\"Superocean Heritage II 42\",\"reference_number\":\"AB2010121B1A1\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.45}",
+  "raw_response": {
+   "id": "msg_011CfZf44EEU6pVJZEhCYJJT",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSuwcKEAgSGAI4AUIIdGhpbmtpbmcSDKNC13Hn749lCp++fhoM5ZIT8bC2Mw2fWkCEIjBLd30/SxLzknMMG0YoTlPlO2Zft692NjNlXA7RzzA9sN50c0OxaDT0Fwr5A5V+CtMq2AYryNf/xP1s7qhS9qgmbp4vnejpIaXr3KzwIf7kG+P+DFmsxafTDKDuHp6OdK5QCJwQjeMX3kB7wwKRTlYv+xmbjDTcFCTg61zxGvLXvHYxE6n+kEZ0FI5UBTFxKtkWaMKfGZhR5twVcLkGt0C/JU/VXEvgcq2sRENj5v2GbIZiWcGPxptHZFKcIm6eIIffg2Se1/Bj/kbpmDEZWHu2Zgw/qUgPSyr9dWCof6XofTF3so+RxnqXsgsSu+LmMOf9rVtXPaJu/qCcP1nLr8rlD1Tb2BQbz/952o5LvPywdrIHGklDHSFuZXRxXNdccnRNku2vgtgxb8zN1HTvlqYdu5KAzurDRtO7GdMEHObVpEXQ5j4RoVYAXqjJutc7oB2jSfb3LgqcVMWMCGfQjIrso7sC0SthEti66B0aIul5wl5q/y7Z9xIWcGw4apLoiZytjeon14OQEQOZVUoisgH1BgjOcQlQ1ii5g5JOqEpSArtOwyH4AZSfZehnqNKarG0qVdmjqaSQ4F7tBqa6gi3OZv2ImEbTk/w0QG3iTHTSBlwXbt1omfAEic+hmfrZC/ifNJ98awAqLTeguLJVb3YXSo3Lrf3avj51Ls2hAQJZc5DZJxpZzdtCUOq8J5xHsFNI5PoW4mBpBcO+DpODhDecYUQi8B/hxWSB0KYs3kD9fcnDMhda9WMiAZnuZtUVMvUBH0RAb4hBT7LLpml7oEyK1bQab9thHzu5sDxxOCCoQKTzrxDNtZp561dr9R9HfYQkX0tKsabWW/oIpMUq4QUS+6H0GGyZzitErTCoKxb/g79GBi58IGOZkVNc3Cx7tGiJEXTNsSjczRyTqfK0rKDq52mvCxoTv57ZnGtxZpGL/5GcRe1YAHmxd+LzEfbbRR/2VVh2VpVCPMI+qJm65sF8x7agfBkmmzme+YFJ2lL3OabXUuNNzZezJkEZiLumdhcMESU7UiHpdGZegWy7JZrKrowkjKCxo5cVQdqQyzP0Km9+HGCNSCiLC1IyXiIpDNzbaHHqrJglLghxXOfWKZKhKkeUuDqH6/Ua9ewPrxcOLEUJn9WkJ6Ydq+1d6NadTeCX3lYsOyYUfQ8gF05ouGmTOkybIbpGnqgmPcawJHyG+3LOeqdUDZjPFtEMGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Breitling\",\"model_family\":\"Superocean Heritage II 42\",\"reference_number\":\"AB2010121B1A1\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.45}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1554,
+    "output_tokens": 271,
+    "output_tokens_details": {
+     "thinking_tokens": 186
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 1554,
+  "output_tokens": 271,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.011636,
+  "cost_source": "rate-table",
+  "elapsed_s": 6.007,
+  "started_at": "2026-09-30T12:53:26.295278+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

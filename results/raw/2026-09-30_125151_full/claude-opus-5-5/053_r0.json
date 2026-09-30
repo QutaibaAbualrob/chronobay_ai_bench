@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 53,
+ "repeat": 0,
+ "image_file": "053_breitling_chronomat-b01-42.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Breitling",
+   "model_family": "Chronomat B01 42",
+   "reference_number": "AB0134101B1A1",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.6
+  },
+  "raw_text": "{\"brand\":\"Breitling\",\"model_family\":\"Chronomat B01 42\",\"reference_number\":\"AB0134101B1A1\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.6}",
+  "raw_response": {
+   "id": "msg_011CfZf3eQkftQVnrWAho4Wv",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSkQcKEAgSGAI4AUIIdGhpbmtpbmcSDNvMnSVcthMrZLszChoMsGhmENvjSEjaftnEIjCwup+JQADrmKXWXEd3eo2qiJSPSRbs/tmvF9koNp4nWVvabKhtGMqkb1nyxthQE0gqrgYaDfib1V9ZUTldDghCk2FLWmw68/DhB7/hbdh6f9uvLemVeJVes0jKtfmOy8n8ivDUDivfjD01MfdgM5Y3aLMI3lENbLBXEYYSsZMvhw78Xh4+wVwHVmLxbFfhVzbtoLb4JX6lgyBtg5EyZpkGUIIx2Biqfg66GXYEv5eXmRit/6upu3FtSP+ihjxyK0TFhIJ3evMjS0gcnlp5fDwvO2+NWMQeeLW7ZZ/k8df1wM72d7FWfPmiSv0kOPxY7DnEgxtInQQLFaa00KyPY1bbWhoTpBDjIOJMpOGzKXwuJ0lP6uJ6YG5bwkIW8okZeOnHp80xkL6lkz6j7uh8N1A+hEGtTdh+oYPuekL13UQ3JIY6yIz5HPGDNkKyv/VRYhKkxneUPtiEy/Ygjt2cgvaDzFMJdl0pJKa7K84HgZdZ4JcO4WjNLN/NvAixYlBfsbUU2OV5AKT1uBBAKfA5iRBPQy3t+S8Hu9B6JUMc4LcPIltcoNJJR29185E6ndmv0lv/SIfHIADfF0LXQQXlybJ6wIH1KpLe1udN2+euxh+gbNSVI1OtccX78JUy22TMXA6Sj1Cv/yd0DXssalNPKzFQxEAEulQZUd9pISYpwM4ljT/ncFJdwgPbbx7Vm7I22AfFDjTf+9Z7mDqoDR5vOpbztq2JP7vGIX3thtVgfkq27DAXi2zDPTO3NcOZGrpYWh90v95eGHCr6mfFmtcKNmImeHwBYJLOUZf+8beLLbIKB/CSI7na0Tglx1FFB2Tyi8mX1NOCvMfBphNpf4EbmI9N0LMYH7UphHK4pB3fIITclQ04b7zTfm+Ek+cCW3Yr2CouUZRapuuArmzrkffySOzje089I+NKV8Aw+yCGGob90o02cqryUOHwmS/wQdT7/tIrVPlPaWyuKfIHkFlnYl6u1s7wJqtBMR5l38bn1M6NpMo2U1MRGdR8jeJeaJFvKouIko7yA3fEFZ3OW8ufqfkpZpzcKBH5BagODdk2VgxJ7VvcnWHtXd4Vo0vf0id/jGIK0AHRASKrFaVCM+99NVfoO/6WL8sR1kciGfXaqxI0vguOD8DDML0zU0aHxpTaUPCuGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Breitling\",\"model_family\":\"Chronomat B01 42\",\"reference_number\":\"AB0134101B1A1\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.6}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2591,
+    "output_tokens": 226,
+    "output_tokens_details": {
+     "thinking_tokens": 143
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 2591,
+  "output_tokens": 226,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.014884,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.007,
+  "started_at": "2026-09-30T12:53:20.633757+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

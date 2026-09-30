@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 59,
+ "repeat": 0,
+ "image_file": "059_breitling_top-time-b01-chevrolet-corvette.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Breitling",
+   "model_family": "Top Time B01 Chevrolet Corvette",
+   "reference_number": "AB01762A1K1X1",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.55
+  },
+  "raw_text": "{\"brand\":\"Breitling\",\"model_family\":\"Top Time B01 Chevrolet Corvette\",\"reference_number\":\"AB01762A1K1X1\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.55}",
+  "raw_response": {
+   "id": "msg_011CfZf4YfzvL1rFJGuwZc4C",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS5wgKEAgSGAI4AUIIdGhpbmtpbmcSDHbpV5Rip4rBYL51RRoMX0ofQUHggr5Rh5dcIjDLqJb6WaDlX+5caxCMU4f/7sNKN6VwvBHZ/b+U8AZHp6Rx9lqHHHYbpdWRXmP7+6QqhAhsDXHIcn2Fg/Z2Q2iQ7ZZggd6VfuCjXDyJv8NwRjQ/WURprUiTixT4VAjm8smfEX2qEK6w0das01QR5Bg2EF+NfaYylfGr+nGwtU7oajad1cMFXPuT2QoDBulUhqMDQoiM+L8UztREO05kDsAUJeqbNIv2Wxnm/9vVd1BiKvraN28vRK+ZQPdB4gLDxoB8sc1TAhg7+gX3ljY8Bgt/kIhUsBN4gch24HSEZ67AUbpc3r4fCQ6DtlPUQU9fDORtiLK3JFtaMdW49UsEw4CXbqeTQHRjrSBIg6g2sgf0pE8J6xuKYEhCA1iF/wZtiVraos8jA/QOgrBuWB+SiR9JSQdMIzyA2IUXBaZra2Jmrf1mkCFl3VgQCiyIAK5crZO9znggG5Xh5f/MxAaIHLfFuO5QoBCrs38vqw7bA9+eJGHw7L5DZd1daWvqam2CxzeJHRn2VSFflYCx9Pj7gYpi4xJUoXg7k/2SEKoTdEAu6zpKXCmls/jgvwD54P5KXjcFYcXCUcjwdp+n1crWQTM2edpuUzWo3J2nqeLWqadTojXHEp/DqMPM1VM7Ch0g5VmircKLIx+1PpLpMg0LP1BW/+HzGQs+Rz+1ytM84XsRC31yxneNx51ZZWsfferYV8p3CzEWolQ5VqJsd1Fcbyf8pd0F3R53UWBL67EltNSP/F9vQZMFAxM+wUVgPastkNQ/cLEMnBCuxaCDGEOhLLBOcETvLqHWd5/M976iqqBs5D47OJHe0+Lr8yqSWDXtA120Vfs6l1LT4b6nxE1wSXovY4xwsbuXU2gQDmuTyqJu/beAxMqpjSgtE2UiM2VCsOH4Yb2CcvqEzXMpUeKCBOHM84IlHHTdMAaR5f41VQ11G39X3BWwyXIy8KNuLekhDnsKA36zAq12SneSbznlTwLPXJiLLCjhPaGk0iyvudtnoHhRxou6GS+b187n3LVFNJtyFAEy+1gf41ww+iKgjhtWLzjmwrf7miz9b0zDFWY5dZzZTo+fwBegRwFcit6riQAXKHQQ9ji2qQfSNhvNPxZ31KObQkjJFY0dFMOzaBwI8jNNw0SOny0wI17z+TVym16RDQsaxwuGY/bKARJPfL8mFWT0e3PnIxZcI8QxaL/M/ZRwald8Uw/RgMSmzgtxx9b8g1myk0tzgUh0i5795/q+Ug8SVrVcIGwkjKUbpADH0gmaDyC1Z7dfZre8JrM3c2fGOZLX4h2BGCqwSzde8a4WFYlmAMzdZMlvOi9CiUF3Llqo/3vY+jBW6vkmHB4iPtSONp7Ecfgc+6ox8wO5bhj+vcG/ffGObbnJ1W20QiUH6mIpTNW9RXJnyuUVSvH6sR3bz6o7d8DmHl3OCQjYR3POuHl24gKGOBgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Breitling\",\"model_family\":\"Top Time B01 Chevrolet Corvette\",\"reference_number\":\"AB01762A1K1X1\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.55}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 5831,
+    "output_tokens": 358,
+    "output_tokens_details": {
+     "thinking_tokens": 266
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 5831,
+  "output_tokens": 358,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.030484,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.605,
+  "started_at": "2026-09-30T12:53:32.959477+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

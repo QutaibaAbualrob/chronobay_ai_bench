@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 71,
+ "repeat": 0,
+ "image_file": "071_iwc_portugieser-chronograph.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "IWC",
+   "model_family": "Portugieser Chronograph",
+   "reference_number": "IW371617",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.72
+  },
+  "raw_text": "{\"brand\":\"IWC\",\"model_family\":\"Portugieser Chronograph\",\"reference_number\":\"IW371617\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.72}",
+  "raw_response": {
+   "id": "msg_011CfZf66kLHemsgndWkCccP",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS9AYKEAgSGAI4AUIIdGhpbmtpbmcSDDapuLCHmQgRneP8DxoM/uTl+8w7BnnU5/K2IjAqfYUhxFleMSSxlsjhHgBvoHnDDTjvEa/Z9qMkCNfNNZplstrNpS/3ZsSEzvXtQJMqkQZCZpRW8luV7rbr0aKGgWeZiiq+qy2N1RE5NUYhe19XNnxIo+7iD5GziXQ/X5b4LU/WSg3IrE0Cb59FzyfZcN2a6Uc4RJJiBt2Qp586ZTmtQePxqSYMn/wfcWQrC9Je+xEl+L+y5dBZ7s6lBaJTX2kqUrONvD3GsnwA/MXKaTpWR6c7MDUyIGK4JzDJOk2AvbyMzWFKCeLFyiOtiqtYZRCkJba5yLMrwIjkyo6qU4Ur0A+R6E5HMRWfM6Naj5+/LCin/LNvcVqKY+7CR30SbaYmm6TT3begF1glQB+I+tYAcRpE6mrJnfMGyay9kIw5tqjrhoT/tCh7XqUnOu+1R66zHAubTMHl/HFa6g6J7r/Z5QQZY8ji3P2smIRyI8ElnElYpXwUy95mLXKGOfyZF117RNKHSDrD6m3I1v9qIfGfOSJXVjI/2a7u8jf9kvmQWL90Hc/CBl2H7d9HedzqLlnAMgxehg9GAC2KhFx0VUHsHR3wmdRQGOCMd8or1GRgOq/7aWkW3xgTmPc0bsOkezLSnX7NYCCjQztuKgoC0Arm71TENE+81qpjfiLB+ZTCmo6nthC2u5DjHrJ03FDv2ROa0cOM5nhyikapl6lYIVA0OsQuDho9+wuJMbr/EfDc04CbcK1WOrfXXOYEQRuBnFETeDsnAlLddqwSmOTAVohdTfqkskaJSEq1Qrq4RhCtOtacrl4vrGbAmknPYjAThmHs35yNTqGVVByaTQn3JNcZSznFjyVKgqmHBFPGxI1UMHUE7Ud24SdS2otNdUMR0AhQyL7wJuWI9CcpteAB7VoVukORztFYqOTDVn4v0VT4ApNwU2X6gqfWlvUJDNw5dlBP5ST/so6ODLecxA7UIqHHi7A4MLDzpJ1rLqaqs9MCVUVXMdfPJthaCdueWdRicWPcRKr+EmCLWPMqlTTk9Yy/L51xHm0Cj9SNpyVSaPQgzNHV0ssn0TalPpMUJYhxkBnn0ECq1U5QlMIg3NfNfyjRYhESBcp3gCF7jmE2A5Hp0mIhxjwRtF/BekH39Mg2XTwwnxgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"IWC\",\"model_family\":\"Portugieser Chronograph\",\"reference_number\":\"IW371617\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.72}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1484,
+    "output_tokens": 203,
+    "output_tokens_details": {
+     "thinking_tokens": 125
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 1484,
+  "output_tokens": 203,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.009996,
+  "cost_source": "rate-table",
+  "elapsed_s": 4.148,
+  "started_at": "2026-09-30T12:53:54.035174+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 99,
+ "repeat": 0,
+ "image_file": "099_vc_patrimony-moon-phase-retrograde-date.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Vacheron Constantin",
+   "model_family": "Patrimony Moon Phase Retrograde Date",
+   "reference_number": "4010U/000G-B329",
+   "movement": "automatic",
+   "case_material": "gold",
+   "bracelet_material": "leather",
+   "confidence": 0.72
+  },
+  "raw_text": "{\"brand\":\"Vacheron Constantin\",\"model_family\":\"Patrimony Moon Phase Retrograde Date\",\"reference_number\":\"4010U/000G-B329\",\"movement\":\"automatic\",\"case_material\":\"gold\",\"bracelet_material\":\"leather\",\"confidence\":0.72}",
+  "raw_response": {
+   "id": "msg_011CfZf9FG9MLr1DQkDyLKk7",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS6gcKEAgSGAI4AUIIdGhpbmtpbmcSDPWMsE/oRbWuf7C/hxoMfaQPHcZP+qN8CzASIjDvXqifBaHVGy14n3cqDGGdfWbR16nJv47M6Lccd7t6gIEH92hQ9HgRG671b6kuf0AqhwdL8+/FeHjwZKqq2Vp9YoTnHPhbMK2bUh3Lmyl7nq5E4HXVKpci3hzsMiWWo2Aalg1t2ecUJGY9YicKQxIOCdYg91QrWhmBVBtjd8+vgli4mfEOlfxNvT1MctsXDAzC1b/eaCpip19JV4w3AxdTK3S1kbUazmWBh8MwNkJYbNg7PFUKeEZg+gxrrAt2bNhoQMCdCcAPZu/WRjh5L8FEpwN+2wmxEFHT5SS/F0vbrXp8/APobJu5fZpNd7SwWyG9/eTDpMkcQjHOeceqgqCzeW5EOl+AXX4kKVZNzGDSkFrsQ1qbcekNCGl6a6PjB/NO2sTAq+OJQCYOUnxPU5QsfKq6Vkx34m85a3qpMQHAmdSXIicGHltZnfvnwhgJQT+oT81ewRObSZjzxwvO6dLaiswafF3Aliff+Df4GEPmwmPjs4/8h8Km/d6efGXhEmCftB+nSpjRCHvITUGfT4CMYdqnlq1f80sgWJOMQUlYSR8Npmj2yw7KGCUKT1Y0TXOJvjelMUJERJhaJb9/HeadMdxDFc6t5oxjhOGkZBsH0M/oFL+jM0Q/y51CgvYN+75zRQY8LOZcRHx3bOXMomrp/t3Pp7fc2pXrEuO490UKXEhVkjpxUoy+ZWy6isx54FOizoQgj6e2+LcQ2QzNTrh2qv/KIMnlnolPh+oijolGWQlqGPU2Kj2L1NVCTKDABmK9sNXNTxAnHA8fCzZQQqZhKYvXNAngWNk5ukfcGbZIgvYTnB/lLPWjTDP2FwW4gxIndu7WOTeAk29Q46uueaQx4QNULZWJjIDJgMs1YnuHGlzBcQX0mUcmzQ+erzNemxe6zmNvgaGAC98pAidFpqDL+v5fHmbOkm4zmj7JpoVCfB4qZY+sejc4EcQ8eybrYsx9nCWNldRJkv8AOquch+7NzuNiqXEltsQo4BWnCkj7HpKwIl7+WH5fV6xtJTCyl5coGlwhxYPMkT3vIbQzv1BZZyYF++/9XRZ7L9qvrKwNIERCD4uL61kj3PBAxvnixvP+G8p7JO4nrViAMKga6VxRvm7C9L75QLOacblXTyhm674F6ybMU7SYRrKo58RMJuDdURFpgCD7/ql5r5IgOc+ztBKsAUsXCvkrLJVVbE7KXHbON9r0ZKx0RZ6lNGBQwLKfI30Ts5qN4+sAOQXW1cg2/4J1Qq+JeJ2OCB6682/uZGlVEheLH+d0fRIYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Vacheron Constantin\",\"model_family\":\"Patrimony Moon Phase Retrograde Date\",\"reference_number\":\"4010U/000G-B329\",\"movement\":\"automatic\",\"case_material\":\"gold\",\"bracelet_material\":\"leather\",\"confidence\":0.72}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1980,
+    "output_tokens": 262,
+    "output_tokens_details": {
+     "thinking_tokens": 169
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 1980,
+  "output_tokens": 262,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.01316,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.811,
+  "started_at": "2026-09-30T12:54:36.728249+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

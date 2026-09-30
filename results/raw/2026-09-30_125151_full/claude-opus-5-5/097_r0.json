@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 97,
+ "repeat": 0,
+ "image_file": "097_vc_historiques-american-1921.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Vacheron Constantin",
+   "model_family": "Historiques American 1921",
+   "reference_number": "82035/000R-9359",
+   "movement": "manual",
+   "case_material": "gold",
+   "bracelet_material": "leather",
+   "confidence": 0.55
+  },
+  "raw_text": "{\"brand\":\"Vacheron Constantin\",\"model_family\":\"Historiques American 1921\",\"reference_number\":\"82035/000R-9359\",\"movement\":\"manual\",\"case_material\":\"gold\",\"bracelet_material\":\"leather\",\"confidence\":0.55}",
+  "raw_response": {
+   "id": "msg_011CfZf98FDJpL1oj7BVDH1h",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQStwgKEAgSGAI4AUIIdGhpbmtpbmcSDDV4SgHdlPwTKmHBUBoMLTXNqq96OKCj1p6HIjBu55QFQoegyqGVpO8xmAfcPSZLvEt2B1Z0xrlb77wSblFSd9H2bbG5CIgOqGZTj50q1Acm8aeNxdYfLULCvy91fshWdh0iFD/WW4m+KF/+3G3N3hjMZJdmIuRGZmafoQT6EoO3VPc/LECL751RMrR+FPMZ1RmDkVQtNpY5QFYt5OemteSrozefipnwsTCd9U4GV6pBwSk32/OubrN7DD0b2V8cayVTJosJrfFVmKHP+kuVq+zz8J3lOALhNFqhcEQj7SbqQr1fhPVekqrDjl7jW0wr7OymXlyzBfeYNQMdbL00ktqu5TCXOe+SWkz8tSFBshRdH9+4T/SOYOg5swprJsL4anR4GRyxV/wg6XGIs1Ibs3hwr0TijOEIvsV/QaAt8JEb1j/SRv+j6cFC05R/7mUzeyUGnZQYwetM9aBIotQOGcyPiMsZPZP/Ri+Hw7aPr/nfRGaQ7e0Wcl2kyTQKU4iwkl+9xZpymA1DT9Jc76AViDwzsLs8Zovu9JolqZwosYJ35V9/pzzjP+4TMSQMNoz0rubTz52xePGtUfCp10TJhFC3TAu5ojaGIzqnIqKiNjfKyzhEc4fN7roIPJSUxzqmaxjk4zrPgPdRlWEZUgzPZn+neA7ckzVhjnodYn56YnuRh9gu1yFM/h7CjQcv/wqWU/N0HQ9Sx6R7TR0p+dhmmPHCYb+yNp71MXvgaVlgAJQnW4fM8LlQo3XCwRzUZmOS80fBXSlJINOlyba2+kgQA6m1h14tHkyqblCaZbVHP0XHMCf8y/Di3J5YOoXmKYINTMz3WwsElttKtaU7OSvyx3G+XqxzneC+gsBgoLAqltpDI3r6HkMYwejflRlmHwmAHBEzGNMdgDzbFWtFiAPdx3XDiNQtEpwlsPv9QeuPBxHfJilLIa/VH4klJdOdxOqvk2Zx+c5Zc+gu5iFvS3CFnN6FHn/f/VJ79CzrXZsClQL2sHyaC1ACG/5uUPJqEHMBqgDh/j3g5FKyR0tzqhl8e8/xxi8gkQ0+pjVVM87OQIDhs9O8fb5Dt6pFM5bLV1GBvTyZ44NWZQ7mqHqLFSuZC1necDFE8/goJBeCA08AXJ+CiKJw7pqWYVXYskDB4HdZDJQJsIDp9YkOXD2c0+2ERiKomXow5CSg6GIfQxg3v9Bgfr3iZIzdkGdp9a2es2OrOCMwxIeZDrWMUslNuaiKJ/vO+PTibTPhuGKGJ4UXIY8XhUXlZ+wPjeJI4xuobUvJNuOXfTIUqJYDOBycOm4uhu+p4i9MVzcB42AK2DxXhPNGjoXefP61ha2GxQoCKGwHLEP7c1gQb3JOFVNC7o3BQVje7DEvYjr5ESJpynwxHT7HUsH55yS6ycsvRrtnP9I0t6I4URgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Vacheron Constantin\",\"model_family\":\"Historiques American 1921\",\"reference_number\":\"82035/000R-9359\",\"movement\":\"manual\",\"case_material\":\"gold\",\"bracelet_material\":\"leather\",\"confidence\":0.55}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1911,
+    "output_tokens": 306,
+    "output_tokens_details": {
+     "thinking_tokens": 225
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 1911,
+  "output_tokens": 306,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.013764,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.246,
+  "started_at": "2026-09-30T12:54:35.051254+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 12,
+ "repeat": 0,
+ "image_file": "012_omega_seamaster-diver-300m.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Omega",
+   "model_family": "Seamaster Diver 300M 007 Edition",
+   "reference_number": "210.90.42.20.01.001",
+   "movement": "automatic",
+   "case_material": "titanium",
+   "bracelet_material": "metal",
+   "confidence": 0.72
+  },
+  "raw_text": "{\"brand\":\"Omega\",\"model_family\":\"Seamaster Diver 300M 007 Edition\",\"reference_number\":\"210.90.42.20.01.001\",\"movement\":\"automatic\",\"case_material\":\"titanium\",\"bracelet_material\":\"metal\",\"confidence\":0.72}",
+  "raw_response": {
+   "id": "msg_011CfZex9aXhuhtTRRM7sQxs",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSkQgKEAgSGAI4AUIIdGhpbmtpbmcSDP0DRxK/rSdAdSNtwxoM1OkuELp7AI8DttJVIjB5REvXXKySD0FJd8tdT+PiL1m6CFCh4xqV1WZTkn7yAqyRdUI0BCF+H8ponXFRbGMqrgeDOzXvjjbhmqp+ZULAKLotYPci/jbcblF+9NLyCQuv7SoqZiowH+2V8/ID5yIQwdCi4IVPHch2KEP2wkaJv12nzcvg2RUatkcuthjs1JXQSwTN1ivCL5Jt8j1heVcFRCVZ8jFR/aqfURw9dji6mdO3aFcki2ju9zqYgq5q439vr/4PuSj27sZnKhYw4iOu0cDNf/yqdOsV6Pa7xtJdsF7QOF2bu1+PM/jL2QCOcY08EVlY00pSEFn8WOY2xy8ViFu+vPBvkTl7yGNHJ4p2QWoG/72cBuKHg9Zc1vXKeOPdzFq8rAFtge3gIaKKapXmqgXgHOtRMbWwG/lX13mOUsq5QXydVT/HC08BBwsFV9U0i2u0alRSHXuK04oYA638n4AjVd4h5zwLhDcLlR2FeHe4ZtECTN6S/99T8WaEDSmg8bZEjtaL2Ken2+gkwv/z1Ud7LymDEF5tr51W3EU5vDhRhLvHHKh6FaG+YvaKDMzJwTHYb+GK8bicWGDzUoI2nHmzTNVjp2GcfgYMxf4aWxrDGGuJDkmMVTr6qoFA0/8LmZkwyRsctw1IenC82WzsFfmHPnB/lMH5ozIntvaJmf///t9z6qaus6yr/6QeEfqnK4Sw8C1kBbZ3SCunBheXjzrr+381Hx3FYJHqrOh/Ylzc5ytWdqauomwnt9PXKCgQvgEnHuCN4WXQsVf6Xikqj+vM65Q+8uXvhF0AaSo9YmM/bKgbtfRDZRv5oTpwWZQqSngU8NGRfNNEiLdnsx+hpgRwWLSM8YC9QrS0rBqLytlizAe5QPWRpLhUEGNPjifq1Zn6lxQ0tL106d3Ee+aCTTYGieR0f++okxxH/68OUhnEcz74blt7b5/XnPL0mebLTHvodP4XKW90fNX2Ln/gcoy6zwU3VOHHgSk26p5Ducit3zMH0bGIS/b3kjgWMuZcL/w0BMbjB0JZ4DE5LDbL9XDUNkn0Z8MKNpSKm39/fMopoSgHVKdx0OTsA1EB+12RdMAScqS1EaHDaLBRIsNRSRshxWoIEhNAVStc+BWoSkwost0s/LW9ONUVFOnMsNywAKlWS3zEra8ojCtP24q1KF2/cG/zwdlDSjgFFubawwZv4dlU3YRgLZrs8AW/O7OLDdg2992R0tK+rSQaqgz2aGyNJYMtAbh2hIqaw7oBuCSzsQjLI4xZ91GQ0iujMT+VMqtLAKSmSHCoY44uifat7fDAEORAliMOxruWwkoN0VRBfmpeJcrMfiGAyXTQQmMYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Omega\",\"model_family\":\"Seamaster Diver 300M 007 Edition\",\"reference_number\":\"210.90.42.20.01.001\",\"movement\":\"automatic\",\"case_material\":\"titanium\",\"bracelet_material\":\"metal\",\"confidence\":0.72}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1495,
+    "output_tokens": 281,
+    "output_tokens_details": {
+     "thinking_tokens": 192
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 1495,
+  "output_tokens": 281,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.0116,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.724,
+  "started_at": "2026-09-30T12:52:06.187644+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

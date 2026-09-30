@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 14,
+ "repeat": 0,
+ "image_file": "014_omega_seamaster-planet-ocean-600m.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Omega",
+   "model_family": "Seamaster Planet Ocean 600M Co-Axial Master Chronometer",
+   "reference_number": "215.30.44.21.01.001",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.72
+  },
+  "raw_text": "{\"brand\":\"Omega\",\"model_family\":\"Seamaster Planet Ocean 600M Co-Axial Master Chronometer\",\"reference_number\":\"215.30.44.21.01.001\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.72}",
+  "raw_response": {
+   "id": "msg_011CfZexYf61etAtxnx8JPK6",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS5AoKEAgSGAI4AUIIdGhpbmtpbmcSDGFo//vHdYjXN4ywmxoMu3u6FKIicixLEE5cIjCQ8uETVjS0pPTDjqUtZ2b6v4ulBGcASC/oPyo34FT9srR9PvhbUukH+jIzvSS1MHkqgQokirAMJtjVX006Fs+S4rf460P6tvxMstqLG6RsKZcumnQTaeFySX8Ustw65voV5wtXP5j5xIX8q59U1cSGyvone344edGuiGkQEsPG33Vims7MUEzM+4bMzE/uEVQlZqgk1XBGeA4h6gPqcIX7FB+ItghEvacRoSC2A3hjd8fSM8G8ANr0VJVvSsUxw6Z6Dj4OFu0rWES6WL1LRBTghDAifmHlu5+cO28nrsBhWmpFL6ADjT9pDJnHWr0H2ApCf9aHeowjAH1BTIWwf5ZX2zreRE+vHmYwPn1QNQXltVwFHBcykOUsqB8WhbRfgDrmQrr2OWyQ5MvhjCiQnh1uW7vqYH3pVO9tMEe3ykfTh2qAff2Lqrb5LoVKk1TQ5cwYO4EeIQ7H+m4KSOWm36ibU6pIEC9s2pwCoazKFAInwm98ZZUq+cegJZzp5K8doo9K8Po9OWSUBCB9STm+cvaiHA1ZpySskdYoYxWi7XYmoxyCjmxYGXkWVO/wzrPRU/FBbVxKpXZuIxRkqj8BsFcRAI4tLc6/ASDxlTjrIZ4If4SoSHIYfbIC3/3Ydm9/xHoEvlsjWOUFZ7hGMuF9fdSUxThsetlcx3YuaFW3Y/9wHDPu0arSLCuws/jBp4FliPQqSn4ruaoeQYaqk+YSad3O7SFhrZhD8L7+hByPBduFvWZV39IYUXusClmS7s38Lmb7D8Jg3TfVGwLsD3ZjC73ksEcU5m6P4x58z0OfVgZ+BnQuof0L6+D4Tnf4D56q1axPxK0OI98IuPpkz9kOPC74JXSc41ND6GIslFWdyt0GqvMKGXuJ+rw2CSI/T8OGj1DZduWJJtR9LAjY1rAvN8Ldq+JmzFJcKc+w6W/zPXzGfgrHotA1Zdnt2b09lclITmyno9vmtWE8XP5Ke1iD/vxWg9DsIVKwlxRHDiq2jNpYv8NPYE/3ASJsHumIyWYAr4nFabXK17SHIxmAFfEhyIFbAW/begWAMzshNuPp7aMm9k8LI0EeuVTH/ntfE4IvSoTP9Fpa4YNUH14Zpp1C+DmTXL3Sf0fQY/ZTOu8rgUMX+tTrzhUn6WdvPZNRhVy8e91fr988Gt+GQC8oLxhxPZfVKq7QHumGsOvrRCnaxoIPz6q28l2ko38xPtteJ/YTcq706XBg+TzduRkE7FFX3QiJ72ffZCs0uwzMhcohwpFXow8EDGbQMSkF3kdncKje33rbzdUQm+zWhkiepCvHkTNsIGmeCviXUBtUKY1KnGslRUEdpMkdnv8aj00JLgvsKjubeZg079mjIh0ERm/471roGnZ3b2SqFprB6AInqOAbLitVwbryLXIIcSDnczsY+zxxCZFMYehUKKDouxbC540T7xwZYCNLzC7aJSjFAr0BviQ+OeGJAqz1SC3owwE9Zw1v+OCUxQKILulgDKfCyZSv4f5bzv+GlQspjqI7KUXz74+sCt7NrIgwvglNvpMwx8f5IaSQ08l3rjEuXVN+C2IF9HsLPVZK8j/N6iiDE4p9RVFkSV/fX1uSFUWOoye3XCdxNavJOn9+hAvU/R8WJDenHAo5nKMYiZowzgee7z+PHuJNc8woWQeXlFIjQm3D3gZ2Aeg2+fOupOlkTsy01EGop1+Nr3S5iXFjuVxijqIRCKJLH0L77FUZS0h/S1h2NLfLh0hMXLf7zlyQ44a3p6oJd+bOQgBo+IjCpNya9+8+/0/p7wEYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Omega\",\"model_family\":\"Seamaster Planet Ocean 600M Co-Axial Master Chronometer\",\"reference_number\":\"215.30.44.21.01.001\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.72}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 5831,
+    "output_tokens": 479,
+    "output_tokens_details": {
+     "thinking_tokens": 376
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 5831,
+  "output_tokens": 479,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.032904,
+  "cost_source": "rate-table",
+  "elapsed_s": 8.48,
+  "started_at": "2026-09-30T12:52:11.236307+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

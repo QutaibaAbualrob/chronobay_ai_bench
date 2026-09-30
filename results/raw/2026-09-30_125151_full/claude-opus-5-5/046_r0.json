@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 46,
+ "repeat": 0,
+ "image_file": "046_tagheuer_aquaracer-professional-200-solargraph.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Tag Heuer",
+   "model_family": "Aquaracer Professional 200 Solargraph",
+   "reference_number": "WBP1114.BA0000",
+   "movement": "solar",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.3
+  },
+  "raw_text": "{\"brand\":\"Tag Heuer\",\"model_family\":\"Aquaracer Professional 200 Solargraph\",\"reference_number\":\"WBP1114.BA0000\",\"movement\":\"solar\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.3}",
+  "raw_response": {
+   "id": "msg_011CfZf2oWfaPn7qRa7P26J6",
+   "container": null,
+   "content": [
+    {
+     "signature": "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",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Tag Heuer\",\"model_family\":\"Aquaracer Professional 200 Solargraph\",\"reference_number\":\"WBP1114.BA0000\",\"movement\":\"solar\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.3}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 3279,
+    "output_tokens": 542,
+    "output_tokens_details": {
+     "thinking_tokens": 448
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 3279,
+  "output_tokens": 542,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.023956,
+  "cost_source": "rate-table",
+  "elapsed_s": 8.35,
+  "started_at": "2026-09-30T12:53:09.278145+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

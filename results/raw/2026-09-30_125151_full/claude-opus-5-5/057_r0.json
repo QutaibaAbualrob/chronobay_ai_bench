@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 57,
+ "repeat": 0,
+ "image_file": "057_breitling_navitimer-automatic-41.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Breitling",
+   "model_family": "Navitimer Automatic 41",
+   "reference_number": "A17326241B1P1",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.6
+  },
+  "raw_text": "{\"brand\":\"Breitling\",\"model_family\":\"Navitimer Automatic 41\",\"reference_number\":\"A17326241B1P1\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.6}",
+  "raw_response": {
+   "id": "msg_011CfZf46f5364n79cFMdfDQ",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSoAkKEAgSGAI4AUIIdGhpbmtpbmcSDIsquLKgqwDbyNwkiBoMILd6LgvtcsrRNnisIjAoR1OB6+VM8Py6HvJOdw3NCLdX7lEeqKKf3jgFSWTOp9iAz32y7AmJmvbZotUjI/0qvQh9OwuL3eYBr2+9pCN556CrkSa/Lad2G+zVcMWb4K29sT87CPBGPmJzvFNym9FnXUJy4zCOdaPo6U+nAPi8mEiTXulqKH4Y/Tgjb+UnVA4UgYKT2zZSrKMKsEamRB88dkp7tWi8lw/D5Yf/QK8QsVJ9+sBkwv6N0N+Qs04e9UamN4Tqa+XenrYRm9vXvTLZOY48n1zgfi3CvB0YrPJegf5Py3EwIgu3H7tB82gj1StqV9sbywyyG371luLx9AoAZby0ks96Z2Bckf0KoutxJmtGDrSEoE+5TM8of3PZMnEZKW9VjjLQQ5/SjbJLD273cQBwRbmZxKvTg/NT26FBWwgOP9L5HQ76cf10Cs9qrdnzu41i57nuOMSPRpa9j4ySouOlz63F9g6byi41EVJLEp8KYqvMmD6P1Cztf74q77AEHRpbJ+maCN+O0EBRe4b22spOGxIUO566nacT48Y1F88TEV1Gwy6ctwGK7hmGWskO5dTgAU9czbEYhpXuttMNGUy292ChMSIZW9nVlulduFqoApDCYBC7ZgWN7KYd2BHB9cSBB5Cy+sUYAQLG2DWKWpCK7jIIB8kFZNxvXANG85HulgfSSyl0OezOku5H4sK7UzICecmsLPwxM3EWj0Qg3LUfExPgPmtaNqU14mVAe38dNSgQVT3EOXMiz9CDfWd+YcQaocCWoQ+nKkhLwj6A6u6ImMS5z0gPdQfmhIPK0Coh3/u5etmwXIykCL9UG2ur8SeK1rZhpV4vFpwBISBLXbBiZgZbkT44s7Apeng2mkDRcaa4CzpktNLGH88PKVcCv84ZpzngKBNNpLs5Sznjzo0Yayl32AWdgqoIFRjjwlJn3569Zp4sSEWH84W+mRysbYzHc36PXJHhPRPXcIhQl9POLp3PeC2l4L8e+eXMzHWKVDseJK1LxnesomIEdpRcZqa/5J4ucemceNWvpM34ptMYGe4THR/Du/MUx6lMVzn/vZ0CtfzNERtvEOwAJKp+MjAegExFfUZtb2eROXkhe5edf+s1LBTKCppX7ZTLFgP8KJaPtdM764tlRY5BPW9/mLH4AyQiIW5660kvM7piY0xriaPKrxLPh2f2NXav1P5LW4bTeYrnJi1L7i4w+sZX1OTuezv9M1ciO+PfSfmev+bdAb/7m7/pU0jHdVhUARQrCkpFIIW3mIBzO1d+nqJoj+YCQaHN8iHNpnb0iMVthmWMvOfiyAl8nHqlPEUzpceo+Haj1RNlPpG4mahEFQo827cTWLSyOJwz8aaPOeEU+3ENVhSTnlwMxRjIse4jIyAIkd0uEbw9kTmJDRD2/oUTb6X96yJgNzedSdLOuaOXiTN21xQq94OG0d/hAL58CUYk12Ae0svPzX9sKgPNB50abe0uwlKqMwmSrq2EQgxh03nMuquFSGPrJ0I5UcOml9MsAEdiP3ZY/a+PMrKWVRgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Breitling\",\"model_family\":\"Navitimer Automatic 41\",\"reference_number\":\"A17326241B1P1\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.6}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4434,
+    "output_tokens": 349,
+    "output_tokens_details": {
+     "thinking_tokens": 265
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 4434,
+  "output_tokens": 349,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.024716,
+  "cost_source": "rate-table",
+  "elapsed_s": 6.348,
+  "started_at": "2026-09-30T12:53:26.609158+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

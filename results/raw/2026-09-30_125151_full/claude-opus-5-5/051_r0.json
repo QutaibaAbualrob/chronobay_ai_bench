@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 51,
+ "repeat": 0,
+ "image_file": "051_breitling_navitimer-b01-chronograph-43.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Breitling",
+   "model_family": "Navitimer B01 Chronograph 43",
+   "reference_number": "AB0138211B1A1",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.55
+  },
+  "raw_text": "{\"brand\":\"Breitling\",\"model_family\":\"Navitimer B01 Chronograph 43\",\"reference_number\":\"AB0138211B1A1\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.55}",
+  "raw_response": {
+   "id": "msg_011CfZf3YEgTNAaKwWbtPGt8",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSvwkKEAgSGAI4AUIIdGhpbmtpbmcSDMvmVEAUcn4BRitv1hoMgQYPXv+ljNNglzixIjCFSNqOuesz9FgIsfx+slRXi/DS+m3tXPZMl6bMG1cBXF5Mp+YpZpKS1+z1fueM5zIq3AiJTOWPs27ir/wr4atQgZGieDI0q1bKpy0DK+n5g4qBLAK3qKwibDoxnRpgj2fCV45tMBMvNkVkAVTVhvWIz7spV/KI8fMo42c/8NTTerh9JYjHjJiBtdzzP2tBUGDoMe9oijEr9NFkzxUr8JOPeaKOYICtWwbGAI2wxMzpzIj58DhDrZ/NdEm19ADT7cpl3y5UT1K47UjK7crA4hA83ecmp2N1bShpcfVECjRfLEyu7tAlOJOO7INX7z4MKsGlpD3dROJ+jE/fT9XYfxr9rWDrfSjxoI37X4+fVLTFVJvNln8jEZaI5QkwJeHV+7jWcKwC01+0dMi7R8npFti+rYJSbvpOqebexD/tjrudD3yPVBlHYFrDf6XbOr4Epcc5kLR1/JfSJBuKmLPe1NMpHdJ/I2o42SESHA4HqttcEXdBMHoUjKmJIxMidE2zY9TmvfBMx5A+qO/bq1vrRT0G6//lAx5dYPrqDcdh/n+hndUEPHI00yhhH5KU3/VxNTDrxSWR0eUsbOAAwmyWToE3UJ8GGaAymxhNkFWDjQNCaSZF/yEjCwCHiSg/sJs+asPIxqCLdFPDL3Cfp61fF9NE4cH/tpI8XZchppl9V3KgvF636klHGwF/E/8f0a04CphfWXhlTD3FGnKxlqjuMcPFItPkV/nxb9Fmnx+RTUriOZ7SP6LHpg3IsTUObigrcwuvULy+lgVahIPKVDNFa6ytgZxo6GfoIyW2HXtXMXkfizkLpY+K8DPTDlUepvX4iN9N2MQcrgKyCgShv/rRL+uzJKAhz//IkJu0THRUnQtHguXnbklDn4FETEHSrlT/lJnRaejAM1OfjUyplli1E5kTQsNTL47Ne7t16ZAy9k/y/r1c8ye1UcpCQmTkxNIf0rkMXwsVd9+gzbPQYlRyyUyYU+7P9U8SFIkmuSEnCIGDBgITJOSwwFeeQCfLz3TP5FXa/YzqC7F3BM3enDXbXlyHhkL/f+xfcpwJdADeMNGHstKmLxVh9Es4IdDLMOMaJEreQpXBEy7ImthN2t7Amffk5MQG+dDj5fJFHsS0dOMIj3nCbYa/IPcbs5IlWPM79mGSJqg+l3oTeFS+4DSs+Sqpfhfd23wfMFSP+DhOFW403BYrrlzBBGdcWf9ETSnOw9wC6iIkKdxUQlL+xfei11rTmgRfRPS7//iIrXsmzzWKcf11PUXDDOiZMtrV++SuvfyMtJqq0yiW8f8Ov4Be7X6pHd5QppznjYY46pt3Ggw2h+VYFC08Vdtlmc474J11FeA8wno8qlzfVeenW9XElvoIr1GSUacv/oKy9p2CZJyGRtiWYuImZxq4lRslXlwWYUZN/pw9t2dLx8fjs4m+F57RvGsBGpuQ+fanQ4iWDq86jSSDBRCLhjARdMY8GzmQxvCsn+xsZO0TqC34t7nhh8AVbbXt9R19YVGO7f7H1vKSCZtDSSUTs2V5SWF1wdWg+YIdRXhaOI5HC9o/G0v6+KEYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Breitling\",\"model_family\":\"Navitimer B01 Chronograph 43\",\"reference_number\":\"AB0138211B1A1\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.55}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 5295,
+    "output_tokens": 344,
+    "output_tokens_details": {
+     "thinking_tokens": 255
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 5295,
+  "output_tokens": 344,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.02806,
+  "cost_source": "rate-table",
+  "elapsed_s": 7.0,
+  "started_at": "2026-09-30T12:53:19.293658+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

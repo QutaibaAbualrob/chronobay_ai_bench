@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 29,
+ "repeat": 0,
+ "image_file": "029_patek_calatrava-yellow-gold.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_family": "Calatrava",
+   "reference_number": "5196J-001",
+   "movement": "manual",
+   "case_material": "gold",
+   "bracelet_material": "leather",
+   "confidence": 0.45
+  },
+  "raw_text": "{\"brand\":\"Patek Philippe\",\"model_family\":\"Calatrava\",\"reference_number\":\"5196J-001\",\"movement\":\"manual\",\"case_material\":\"gold\",\"bracelet_material\":\"leather\",\"confidence\":0.45}",
+  "raw_response": {
+   "id": "msg_011CfZezJbZQeFq9UedNXc6r",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSgwsKEAgSGAI4AUIIdGhpbmtpbmcSDFh8Tc3++BCNAfqs9RoMb71OcNmSvQErQTUHIjAUuSeSUMnaTIAjzDAasyWYSMxj9FQvuARRargWj4NoXgQn/65E0Nivko5NysuBlEIqoAo+BEpp+9bFDUh/ptMIuGcjDkSCe6nl9DpTxZ+0YcNs59ojjy33kjdf/G53Hr7XMQW3h3yL8Dj3x/sUM2jb/eeaNeJtc9rCzN5R8rZpYdGWYduK7zHE6qlWIjvrlCNzBMDzcf9IzJL2Y2xVrH9XYgibBE2Lv3jp6IN+OpuixGjJVflPH8eURiVYA7a8A9e8oD6Jf8spitzCnk+sRVC9C3lL7oP+8Sq7lp0tAILIfesNVxl//61Sw7+/ei0/tJShAQlgpnosBRG3FzmWTwlgHvUgr85qjoHsqpLc14IBM0bowCXY9x7nIvTC1hfVgxgnEEbLHbV7gG3gI4E6xWHVwtughBb8iOUUYHcVI43pHXNMox1tMtL0tNhLFl4xucuanf/7yhyiDWVgmKgO+IooioZ4km59SxF0D/N8BaypgCUcSNmbfto9KJMbsgdbAGnkzGL8rI/fBPQ2bjuQTJ7QWvEqT3KAdLkl3erJnUcQSYXpQWYUunj64L5rf7ebTohiLaemWOLcwpXFLbwDuHLLqLlNWQTr+s0yHRo+/cbrdpNg1lQF4JGNGl/XtnKKtm/QJIszh7G28qS9OZ33QUyhyvXOHCwxJu6iED/Y1mKB+wFuWuXD+8Aype+saVXtJ0U788j6k67KDHb7cYj32+DjJlFsOohR8U9Uz1s0Rk//6yrO1yy90p7Uu3V2BD60h96K2v2SS09DDidOac33vnKQuTIZysl111syoUw3+pC+CeMbryGGnrqvRq5QesFMdcg9z5o9lvelBeu6S/soR/GNLPdLHQ0aqE3KdzVnKDeBKPwbHy3EA5JAfRYGzWf6KNVVMilnjCOyq4GZ4ysZEADDr5YW3g5Q/92DnuksB7dqExeSdI2AMecFvqDyektqNzqWs2CzHHGBkCOmtmpnPR/FYJ/RRE5b68CL4HGrdS/Tu6KkksuwXUm+4ZK8qh6BTXEl2XCCgdxhk3XOpyH8HPVAhBb7ZEmRRc2C9h43BIj3DdXQ09ABOz7bnZ4oKj3iKGkttWZ8ugVjv1xBAKokZA3Uq6f4EQIiHVnBHQB+ZPWkRp5a6pPv6GQPNQMnKbnpFs3x/mKn2VZUh7pP/tuZXIG0+/GhItLUKVyVXZPvnUp1YV6YAZWtMNX7kQd/VObBwzXAehgLcj3X6iwr3g0NN1rIJOsfH53aQijA/y6mMYZhRg6ariEdoxe7DtM0RlEFpUiiQab1caefGYVhR7TVAEay/MV8t8GHNTSJKoRMEALzuM1yUXXjcuexI8Yq3fEqqfyWxB0F0kQtqrzb6JmOYTSIQ8cw3TjxteT8b743bgHNVWXwTcbETndvD83bRDCPg+x4g4aEu5T+jylfyr58WNkNNTXOZonciJ5RD0PLg+lcJZxrt3lRAtpJBi6IjaQNpQ1yRyzF5RY6h5DoEi1KBuTYOKMgkOdIbNcUd81E8ALTXhczOlo5HlKcgTFa6C0+WDU75tK8EJwXi5aYbcMCG1IAC8veUMlwoTK8nBRdjr6T8lyz36I0CxCAVakkzVaJproVxwijOimRd563NCEIHXuTnSmVPW0Sfko8zyJRug6uR03GJcg07IE8i4C7M6JYz3QmhPvqNHFX8zlnFPVoEtNr1ZNki+aUUEWRbBM4dLKtRtx9x+uvamB7nBJtHa2GMCaX2wfegdxV8OIHtDicmWSmIJk1v6f0hdR211vrz6WzE9GaEvu6Rm3mfCCGXe6OXrvIpCoY3IXrxUllYs9bEJtPw77tGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Patek Philippe\",\"model_family\":\"Calatrava\",\"reference_number\":\"5196J-001\",\"movement\":\"manual\",\"case_material\":\"gold\",\"bracelet_material\":\"leather\",\"confidence\":0.45}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2366,
+    "output_tokens": 419,
+    "output_tokens_details": {
+     "thinking_tokens": 346
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 2366,
+  "output_tokens": 419,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.017844,
+  "cost_source": "rate-table",
+  "elapsed_s": 11.41,
+  "started_at": "2026-09-30T12:52:35.330441+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

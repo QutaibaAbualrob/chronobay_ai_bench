@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 4,
+ "repeat": 0,
+ "image_file": "004_rolex_datejust-41.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_family": "Oyster Perpetual Datejust 41",
+   "reference_number": "126334-0032",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.72
+  },
+  "raw_text": "{\"brand\":\"Rolex\",\"model_family\":\"Oyster Perpetual Datejust 41\",\"reference_number\":\"126334-0032\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.72}",
+  "raw_response": {
+   "id": "msg_011CfZew5UCCKnXbgjM897oE",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS2AcKEAgSGAI4AUIIdGhpbmtpbmcSDE2wjcOuLuzGAS9GMhoMqE0+MBx6ks37gJjeIjBKcyVWnBmoFh97A3RO5m8Ba9eVfw3QP8CScAU4ugNcMq1gHGDtA9OcOerjVbt3fAEq9QZXyogIANFSk4TRULzSDVlB6Bh4lFWpoLGSPIz6VTQYQV25g8APEKus/dxvojTVVMWuhTndtEzIrvp3YrhVd4eV0ZbhsoW5uW7ERuacUa1QZePeJi4kC796SgoI1OklAMUGwiDYFHT3cFE+yDuCxM6+HKn3Xss0ljXHnN/YH6yMdluk2G2EquO5Ks4FMUxnWIp7bdV4aOBBIP4wj9I9CHmRA9gtqZP1TAzv5XuyzRPc2tZBNiX8VRnhlwK3/sr4OkX/JnGBk5fUtTvrmolmq5UXIdK8FbHfTD8YwJjvCH4s9K4zeV9Pz2u8LudUC0hXHxMol8KiAlCloo1ML0l8QZQz3vU7GdL2LcdFSEHxdb5oWH/RViYVato8LI0W+kA5b3irMH2DjxQCrCCcA1K6FxagIJcVY+c1B9S/fVMlXMs+EVjLATcCXa27px6fP5SiV+mEtvDGiRx4XIAhh0rdbubfMT1O4E9yUQz8Fw4whf9uK0wMZ5ji75BiV0kntOFzesWtBkkeEUP586ptM9j/6MbY45OywNQKSkLkVl+sIGWzJgQwZ/KZRt5hHp88OX2rFbkrTlM/JhYiYn26efkvSdyMSAOUYX5ZrLoLVkcItoszEA7GKl2izGO36Dr9oqBCjrllfbwIuyO05qVdR+bOIiufJdR2TLOBTMjKvA297LGipGpKE+vZTktDbbWaLGNvNa902ockWnbqgSleWjjLGEiKSx8O0aGkQqQHp8w5SkI2uXyHRSI5kjOwC35dLxwQLiu2yPrqEtCFN/o8Ihq+mdAWQr0/Es0gdPbjKbPAyMuY1VvciG0XvNSeT6J1G29AQROYbTGdoKLSCq9+7OqffuB99yXq5BBkskuZhYTXXB4OxBDUw8DnZzm5sRZWsjW1Li7MWRXW9dIj6emIMqrKy2KdJWbpy2I6Nhj1/nGS0Gm+9oyihnWW5H3BdeP5+L5vvkUBDH3+pYw5fEyMQ5jvelBwZC9L3psKqQXyGXyUe4mHYL7PSuiQ1GdfWAd7etpFrPDpvbj+6GqAtbr68qrmT6eSCzhanQNvMCVJPzkbOq72ShsKDrbv6J3uyqHCXijwKW4CrjmPrIjKD1ax5x4v8iSDGAd6KeRGSDiSdiIjkkQspu7EQfc1D3qdOMVHBHyBh4W82LiqA01xcRCTaJ+ydVThuBQVXxsYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Rolex\",\"model_family\":\"Oyster Perpetual Datejust 41\",\"reference_number\":\"126334-0032\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.72}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 5831,
+    "output_tokens": 253,
+    "output_tokens_details": {
+     "thinking_tokens": 168
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 5831,
+  "output_tokens": 253,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.028384,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.881,
+  "started_at": "2026-09-30T12:51:51.210357+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

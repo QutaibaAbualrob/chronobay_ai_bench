@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 1,
+ "repeat": 0,
+ "image_file": "001_rolex_submariner-date.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_family": "Submariner Date",
+   "reference_number": "126610LN",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.8
+  },
+  "raw_text": "{\"brand\":\"Rolex\",\"model_family\":\"Submariner Date\",\"reference_number\":\"126610LN\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.8}",
+  "raw_response": {
+   "id": "msg_011CfZew5jpPDnPAmRRTeNPe",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQShgcKEAgSGAI4AUIIdGhpbmtpbmcSDMeD/B7/3a7a2nAwXxoMw9dDWyFFw0zrEwvpIjAr7XTMl8gcEtDrZNFZo9+RvaY0Z+p5MtmrkSDjkumon/rsKHyoX76OWhTkni/vyA8qowZSNepLygoq5cTVOnEJJBSutxQFHWzb2p6dy+LwX1yMu4fXlVuISxxwy6mqt3hIQJcEScsstEgIAdhZB80Klb3jzff5Ms3+oP0xYo3+j3rs7e4TvEwuzYW+VRo0NB5ufsW56dCyJ4j56d1d4jyS0KAGKw3Gcq5SF4ypgT0xIsaNdqg0kdeD1MEBrbSc8TvQ0bkEFWkmSnqpbN0hGPApi1nbt8vPT8w/nqVhQvPS+Dx7x7xjsv5PhJR2/osRzq5osRwMtdZA5j/gvUhbl057vYGvFtfmli+/hTkwMXDCfZhQgFz5jDv/EHhuBugPidEfdu1G0d8NDVIuFKgjKr3SSSrVCOR+NBVQxzamEXkIX1QXlkNyTlav4AWGteF8NCV7op5uz/rnvYp07x4UMCwialb1XNhZv7hQ7nyLDUKEBHxBvXkmh4erDXGVFYZDuKh6Ib0dGjFh16Zj/QJGronujqKtQ6WCx/hF5h2P44oepl9NsmjKa4H0/XpvII/XhE/PUeGF4yMeMkYHOquWHK8MHcvI7JjTpj7YAyA34Jj32XU3y9IeXOpM4rYifBQLHR4HTGlgBuQOAYoaSrtjtOLPibHdKqrO9gI6gpmCwd9sdN96uWrs3tbSyP5NG5BHPdn/yqGcEL8Vm3NE/gZl35WuFUrJw6PCJf05pfl/R1wcwN1AvebfaHFPcnAbgL5YpvIUeOye/7DI9es/yNjQaURH8RqiH5CEadSud0JKuvZfWPjooM2CW9L39Rpshu7ayORBeFN0IwWMoDT+baqpn3IojA7HzBnUnEDcGJ6VEpM66qcn1AuhJmY9PP1gb3zqagbifQq/pLAbgRk+DV8VjSlxWkhVA/PhEAuAtV1Fn8gkdar4VLavfRyfYiVD1ellGPs8/4F0We1kfDXooRsbPnSFLBVa6u+/5vA78My/46XNTZpOlz5JJ0oPzXSZdLBNC6ewTlXhgDJLxaIprU0oJ2deccixsZ2UV2j9XLxfwVXvKPu++qI8lydoQ/3sGi6KAhr9buGe77Q7zuzDnmpMgUwePf6hw18FO2hNPnsrhblwaPg0Bz8b+xgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Rolex\",\"model_family\":\"Submariner Date\",\"reference_number\":\"126610LN\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.8}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 5831,
+    "output_tokens": 221,
+    "output_tokens_details": {
+     "thinking_tokens": 146
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 5831,
+  "output_tokens": 221,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.027744,
+  "cost_source": "rate-table",
+  "elapsed_s": 7.202,
+  "started_at": "2026-09-30T12:51:51.187704+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 6,
+ "repeat": 0,
+ "image_file": "006_rolex_explorer-36.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_family": "Oyster Perpetual Explorer",
+   "reference_number": "124270",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.55
+  },
+  "raw_text": "{\"brand\":\"Rolex\",\"model_family\":\"Oyster Perpetual Explorer\",\"reference_number\":\"124270\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.55}",
+  "raw_response": {
+   "id": "msg_011CfZewVRMJkY455kDGcyP9",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSrQgKEAgSGAI4AUIIdGhpbmtpbmcSDFHvmq5/YpUr/FsgmRoMEOlusXFYOF9X3BFgIjDICpnRw4io3kC7YMZDoFgzEhNmI2fpfxcHT+n2pFH4Ep+0x0ge+y+Md7vvcQQAS4YqygcgMVBcOLZMkt5z5SD3RVE2sp6yrC75o46mIzhkF+k8gSczUgwaokqrsUXlDzORFB3CsHN1u8vuM3lopC/zwtbfkLX3+CdGQB/95BjI4gBuQYUv6D39qRdgQZ0SmyT5Vx0QVc2I/Mydf5xkE5BI8Yms65wVafLLwecQZjALaDpZT58TNF7vBK0tuk6qewX2bsQAzgmv5Im9Ez7BwSG8G87oCcdRxK2lyF6ZZa+wZAd8FHgxU1In4+e0+ZHTuvDRWsX07QzG0PuSm58vOF/uE8duN/LV7737IILO5SEh3rlvQ7jKsziAcNAK+193Jehm1S/T+SiVmQnLq++bB0aBc54+cM5Ci/TELVX4DZD3xFt/S+4QBSXIxkJp7Ut1rJ30nKMjlaog8T1I728ORNGgi6HYjvcXnSlWo4MYqAN0Ejh5nh6egpXqv0nCqRs990MpRWa8KEZkuFb4p1XL4gdNzOHTAwkQEzBdgcPUjq2bSUXfJmtBjk25cbmYaFzcqRq3BYgRg90pDKtS/IoK8Tdwn9JmM7RQla3H+wXY75zT6lqnvP4/mrWO/RR5xf8u0dGblDLosYhuLXaZOeQZLymGhcSm4YcCVhqeZK44/IOVCi8PNJOnZA/cfJRyXEEsjwv2BhkLEe/LU9/d6A/GCMasOW4ZkMBDAUOhGBLKwIBKq9kBWkPc2KLNUpBKnGW53UEX8EC1GutTq3S6ou/hzFTS5NJkAbyvpIWo+PBqh/kob9vQ4SvwXstZZ1DE7jwUb/cFsRi5FKLZjsDDrK5u51yvCK10GqLW2qwce2h3qeB2HdD0jG/Cc0F30tgj/W9qDgKPALlDAy+18nYjBvGWuV0UFPWCM+Tq3AjZQDRmXfcfGbA5JfdCj9ljE0EQttIEvP4sevzPNKTRapq94s3zgIV7Arn7zmBx9F/4fUIXcJyLjKQUjm3nLA89BQaxxqynTFHzdUX+3wXHLPD+lA/QewQb7hlzoZMCPo7/ePScEQPH0zf6pYHIxxSFmy94E2BB00oxxo42+biPnVGoWxcttXuc6gkYle61jLQ757hxL5ZuFd2VblBZ7Zgd2q6ebxh2vLWom3WdcgiFc+JFnOp4nD9HIxwMQXrirVjrNsI+1MnjE1aew8JEtNYkpA79fc0mF+LW/VeApkduKii+04ub0CAUXDXHIU8oXqaZ/b+h+LOJx9qn/smeX00n5s8KSIBsSai+SgxhT5g7kdn9cMyYT792/N7sxT8o4TBdqZQQh5YrVQRjTzc9K5A0ArL8ZEUkLeyqZP2XMZ7+xMsYgqBZGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Rolex\",\"model_family\":\"Oyster Perpetual Explorer\",\"reference_number\":\"124270\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.55}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2591,
+    "output_tokens": 288,
+    "output_tokens_details": {
+     "thinking_tokens": 208
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 2591,
+  "output_tokens": 288,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.016124,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.789,
+  "started_at": "2026-09-30T12:51:57.240404+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

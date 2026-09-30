@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 91,
+ "repeat": 0,
+ "image_file": "091_vc_overseas-self-winding.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Vacheron Constantin",
+   "model_family": "Overseas Self-Winding",
+   "reference_number": "4500V/110A-B128",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.75
+  },
+  "raw_text": "{\"brand\":\"Vacheron Constantin\",\"model_family\":\"Overseas Self-Winding\",\"reference_number\":\"4500V/110A-B128\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.75}",
+  "raw_response": {
+   "id": "msg_011CfZf8Wrj9bycP8Df7ru3y",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSmAYKEAgSGAI4AUIIdGhpbmtpbmcSDCuisk0/Fg5Tl8XWoRoMBWFy5PRSmNYJGGHTIjDcyar9KfRJySx94rc+aqf5WWVcJ/dEVqCpZzrWher6EHqCxExkjw7S/dKzVxVO5GUqtQWl4e3uPWe7+hzL2Vxe1sQMXnKNGnmPxFsNilcs+MLqMzRF4Gs9HquwpRIvmGTB75V8hjdeYRUn/bZb7nHKPUzzRVSSZXJm3axqtHrMnQ9jK8Epr+grIq0kPlbb11HpeRMLFr/C85kr7t+6hwftKHM1aiuEGMsgcUpXcP07f8BvMJ8tEo6iESIN7V3yn0l7GRzTgjxsULak/2L43p17EBS7VTFauKfDCVw9DIQTfRsHc7dYV8HG7C9bWIDzUIuB+c8NlvhN7xaDx7SymeO32NcPmdDX8wRAzZ9e2ghuGerhure/DtolGrWlT/aHt/ph0GbbEU0NcOL/IQu4JIJgeV2g9PXHqgD5u9KiXh0lFXSBpwJmodH8WFUeG5JXZhvBiS18FZgiTSc6j8K6DEXafs+ciTcHjpbnAoORLQHrWc7PCtE59trUzLhUU51rf6y6jxfGtSg6gtvMmXyRlJ1SeDsECQFcFrC992l2nmpYAhBnpWqqIz+LOXGjYbxtQyOjO8gYy2HhcjYsGlX+hGcJ9p/W5TTIsPA2xKDAnQBFK9qs/jlLXIRgS7ctQv6zwiUXW2MtElGjrWOl6nxKORGdpFrFCMtrVusWGn0naYIG8dksJgLGwjcs737lGVElAe5rnHILsYmOLAtV/cEbG0ZIffCWOwQ57oFIvYjc4wWevFyh1HG5guiUwPKEG5h4E2fs1wsrDOlZfuxkUCigjWrKTED9AFY2/+qbb1IiG+ViSdjOdxvlNdVA8g1j7/D3sDzvUwpqc1xYgarI9GfBA9ajWKyevyQzS0xeixLovQNKPmzub4M+dEKdoD7OvRuz1wcIRygVXHMjFuUjZyb0+CYpReIy0wDS8eM7CfU/Q3XpLa7QjQIeyLGgsgPMDKsHZskrVf7KSPwiHCF0F1FCXOE0eyinrvrkmJEYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Vacheron Constantin\",\"model_family\":\"Overseas Self-Winding\",\"reference_number\":\"4500V/110A-B128\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.75}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 5831,
+    "output_tokens": 183,
+    "output_tokens_details": {
+     "thinking_tokens": 94
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 5831,
+  "output_tokens": 183,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.026984,
+  "cost_source": "rate-table",
+  "elapsed_s": 4.854,
+  "started_at": "2026-09-30T12:54:26.814135+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

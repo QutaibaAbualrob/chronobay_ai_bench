@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 40,
+ "repeat": 0,
+ "image_file": "040_ap_royal-oak-double-balance-wheel-openworked.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Audemars Piguet",
+   "model_family": "Royal Oak Double Balance Wheel Openworked",
+   "reference_number": "15407ST.OO.1220ST.01",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.72
+  },
+  "raw_text": "{\"brand\":\"Audemars Piguet\",\"model_family\":\"Royal Oak Double Balance Wheel Openworked\",\"reference_number\":\"15407ST.OO.1220ST.01\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.72}",
+  "raw_response": {
+   "id": "msg_011CfZf23mtZEuRgdiDAK2zt",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSpwgKEAgSGAI4AUIIdGhpbmtpbmcSDFv2L87yD7fwQLqnuhoMpxTKZOqkKn6TGk0EIjCTZ/1edB5NrFxcExBt3h/BYUG4sIlf1hYX8Y/XVevciruCK2nSVZv8DZeFAOW7y2oqxAeNDgPGKrfejptA66XdZJ/AcNkPgf7jT2NMKWkPgdFG1LF/O91s9uph0GdU3hrPQFIUy8ak/zI5zti6VN5gxNqJP4rTqTZZtuwIx6rZqr73/TjCtOqWp2nfvNA2zXl9P6hbmbC/BEoD0ADnRBUG38chPoyxI10gI+vjiQyxmSg6v2rDb7XBptx2KJPx9zt+bIRZKmpbC8KpvpcNCRywMcNPm7HMeQNl/KB5fts4yKqLMfujhv/mICurBdVL1LIDPFna/9n0+CRI/DvBIGChalpROpzOOfMXejdFH8ATG3j5pQqUC3gbP5u4k10DPhatlCxEvKjmViXtjoY2Xi1Vu0LBPoWOJPrZ0VJ1CsiCzgaEqbI3Md9K+TwOpYvLkScFpRcq8pYml9nZKuUJE/EZ5SLhmA6RFSbia166F6mI60zn5r3insLcuxlDYTHhAaRezzhxsOHHFHe90GsFL5clVx0Iydr2z7XBKdEWY18eGURLpuTH24JuZ1uw9hVMcxEuuHqucY+68QVSX9wXFLynFUua8p5xs3iS/K6w5MffUL+on86/8YPzSBhAb0HNjUeKIJRffPdiYLVhjT1UBuIkpY/yKSzHnsxH7hPrk2InMmdgTFxdWqjIlhK9t67JSpzWmWjky/9YZZ4u9FJNliyDIvaICZQQD4eaFT5fUqFvjxdQt25yIKV6mdtZvRIEgKRfKY2sI6T5eEj+K3Ylu9lbifrjsZlKIuDu2mDmNK9jhxZUsyYc5ITccmUcBF3CA9NK8KUXgYSSjrdNNy2CHpkhefu6YvucRH2RbBwByguH6vTWw88b3yjiZjDFBNoUnWEUWjKlyj1MX2vL8PfNkCAjOBvB4QdeabD+dN5MZHpStKz555NC5Sb+Ttf+SHQj1xVqW11iG6y9cn/s/GGTwNWL4UgDEvhgCtZaBHj6imfVWR2vvSWyS5ojDULPgRxhplEys/6la7jDETMdqb7FliZ4wf2MV1oWMVAX2z4CiyPrCKCB1OWMPDxTJe+ClUPR3o5EymhyuX0AoF+sPpm5DJKLijWxg2UojfHN4CNcbd6lpwAG4ut9aoQyoxAt5On5z0/IuUBLyciqBSHX6oC5u+fUj0V5fMuy7bBNuINrJnKTvnjQ6NxIeuXdKZQzybMJrzg0MXL0X3VUtsi6tR1rpEFdJUAHxZXVrhfF4npC5AyI5g2SOZ7AzjlY57j+u2ImmNhVA7AwZTE+PWq3Vh0j9NW3WUm9P4uedKfYCHlhYMv/2O4LnhkXchiJPUDJ3Ce+PhL2aQvUYdMuGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Audemars Piguet\",\"model_family\":\"Royal Oak Double Balance Wheel Openworked\",\"reference_number\":\"15407ST.OO.1220ST.01\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.72}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1695,
+    "output_tokens": 326,
+    "output_tokens_details": {
+     "thinking_tokens": 224
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 1695,
+  "output_tokens": 326,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.0133,
+  "cost_source": "rate-table",
+  "elapsed_s": 6.763,
+  "started_at": "2026-09-30T12:52:58.551800+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

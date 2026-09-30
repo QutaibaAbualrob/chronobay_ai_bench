@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 49,
+ "repeat": 0,
+ "image_file": "049_tagheuer_aquaracer-professional-1000-superdiver.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Tag Heuer",
+   "model_family": "Aquaracer Professional 300 Night Diver",
+   "reference_number": "WBP201D.FT6197",
+   "movement": "automatic",
+   "case_material": "titanium",
+   "bracelet_material": "rubber",
+   "confidence": 0.8
+  },
+  "raw_text": "{\"brand\":\"Tag Heuer\",\"model_family\":\"Aquaracer Professional 300 Night Diver\",\"reference_number\":\"WBP201D.FT6197\",\"movement\":\"automatic\",\"case_material\":\"titanium\",\"bracelet_material\":\"rubber\",\"confidence\":0.8}",
+  "raw_response": {
+   "id": "msg_011CfZf3F73asQW3jZXgWWQg",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSpwYKEAgSGAI4AUIIdGhpbmtpbmcSDL1CPgSf5ZFr3ZCF/RoMNFVpEIa26o2tHi63IjA4hRassbWHZdjjrkAl3GlWT8+CB6VSOiq/MT9VANqLugs/BgFDYrCTuXPD9aLZnrwqxAVTWmHKd8Nu7mQveAikt2fPgE+hl7PP7S3UWmPMxEQ3rpn/h0u0JS+hnFjNDNr8UPXsEA549PJxoNOMs5xJfttUODyny2QXaigj/DPqcTKE3nJS2zniFtSqa7vc0T0mKkAVfSXIX+h4VYpD2S33NYO8NViAH5o2kVS7gsejayaO+1QMnLT/Fi0Dh31AkotyuzLcCSTmKnwSMxnID7yJ1u0GVyie9e8kC/h/GvOpCizP1xVWqiwhF3sKl/ticC3VtGWe8ut7hYNTmujSqs0lp29UnO+rVt6AfWP5TEkq9hFtEMTP4oMPRhQkOuCCNNA1sqd3dS4Jdl488UJ6kEH6iD6Iu1VXJMtsunvEj9J+J9QRRYOQOts+xvP2SPO//E8iE+d42Cx2FeJEEfbOcJJQ01djgCQemkdfLwyelT2Oifq2owPt32FjaRuFA8yfelWZxHWzr6i7XeIQeLO8SmWIqoUX/RoA7Q5HAtWzFAn3XV0TZLYZpTWVh1zAOwO0XKv+QuF0ztDZI8tKRVxYtVv3rqtuaA2MOkDV1qe6Zq/J41Fxfz+anMkt7/ZLasH/c1Ps+Xu1SFFqESOHEM9tmQ/B4Fgv61hESifDJMrmdJHNmsCmc9YjytLNGtXAx1aNWb14c/5DKycwkgqZG1qwlHzcugrX7koXP3qCP7YXN3ZsWSzmVtcElOKnUOxQqiwHJw2xGEvzz4S6CxmIs+t4QYVst3KnkJi1YrWYYwkrpYJRo9ZH3WO24DSgox217dQb/g9AbuNyfEki0TrPOr+Fbs2JauTCVDeRQG+C2sFesSP8q3O1iK5ay9X5xkXJxPuimFz4e04H4f8Nn6vOg7+OFImSOGGhxiFgcrCQjgCxW6BSuW4agTQksJ0XfNFnGy1zfOhTaB0Tj9jRuRZ2XiuDUzs4SP93Mp2fuOnPfeqdK4LjPap8EDMpNbYYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Tag Heuer\",\"model_family\":\"Aquaracer Professional 300 Night Diver\",\"reference_number\":\"WBP201D.FT6197\",\"movement\":\"automatic\",\"case_material\":\"titanium\",\"bracelet_material\":\"rubber\",\"confidence\":0.8}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 5831,
+    "output_tokens": 188,
+    "output_tokens_details": {
+     "thinking_tokens": 95
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 5831,
+  "output_tokens": 188,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.027084,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.555,
+  "started_at": "2026-09-30T12:53:15.075694+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

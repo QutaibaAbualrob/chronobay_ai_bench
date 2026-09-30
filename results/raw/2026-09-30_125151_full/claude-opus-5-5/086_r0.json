@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 86,
+ "repeat": 0,
+ "image_file": "086_jlc_reverso-tribute-duoface.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Jaeger-LeCoultre",
+   "model_family": "Reverso Tribute Small Seconds",
+   "reference_number": "Q713848J",
+   "movement": "manual",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.4
+  },
+  "raw_text": "{\"brand\":\"Jaeger-LeCoultre\",\"model_family\":\"Reverso Tribute Small Seconds\",\"reference_number\":\"Q713848J\",\"movement\":\"manual\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.4}",
+  "raw_response": {
+   "id": "msg_011CfZf7tfNFgH9G7HJuPZmd",
+   "container": null,
+   "content": [
+    {
+     "signature": "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",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Jaeger-LeCoultre\",\"model_family\":\"Reverso Tribute Small Seconds\",\"reference_number\":\"Q713848J\",\"movement\":\"manual\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.4}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4360,
+    "output_tokens": 538,
+    "output_tokens_details": {
+     "thinking_tokens": 447
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 4360,
+  "output_tokens": 538,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.0282,
+  "cost_source": "rate-table",
+  "elapsed_s": 8.774,
+  "started_at": "2026-09-30T12:54:18.039557+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

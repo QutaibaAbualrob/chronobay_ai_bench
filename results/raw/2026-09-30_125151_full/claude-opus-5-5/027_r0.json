@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 27,
+ "repeat": 0,
+ "image_file": "027_patek_aquanaut-chronograph.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_family": "Aquanaut Chronograph",
+   "reference_number": "5968A-001",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "rubber",
+   "confidence": 0.88
+  },
+  "raw_text": "{\"brand\":\"Patek Philippe\",\"model_family\":\"Aquanaut Chronograph\",\"reference_number\":\"5968A-001\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"rubber\",\"confidence\":0.88}",
+  "raw_response": {
+   "id": "msg_011CfZez3Vxr2RgAoRH7smmM",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSoAYKEAgSGAI4AUIIdGhpbmtpbmcSDJbAYbFl3Wfd6iaxTBoMntvW39ZiMdfLpIKUIjBV/x9ifObslO6C10Dx7Cz8a2QFTYO/dhdrNNprZRhvFKhgjmPP0ni8hJCYmZrZaegqvQVWA1svIvYy1ZN4UIGAe61DrBlNIVHJVTzgcmnZJYbDPo12Nvp7yejB9MoOXtoa0HK1pWJBGCLBKupgmgsvctYsQRwNIILVzD+pY6Na+tY6o2gmVz7+5Yh/Ct4VMsDM7intk3G2BQJKb9lAexF+ZNRtFXQuJNo+9s1/6WYkmvK6GFEyzE6i6UV14UZ9XKVI/yEIUy3tThJKXHyikc6BxWx07xqQfF4RRlFE7Jt+Gu3werrDYuGuDfprOhjXefy8tvUE0j9zu1r1h9B42pbcS85zE/zRl4fZVK/hj3hGDFZZbfuYWi4OqE8H40k1DDiJiwiFygmmAUmrBlG0jBfAYXZNeFOQsRRec2W8v7b4SZUIW/tTyFM4mWe/oADY7EoIXC4t9PpbllW9U7Fhx+iTX7hd84dXuPjN72Dj4cDpqZnYeWF9vzn8SzQeBwc1fMX7h12CQrWI6HanBELEe1Zr7izpUA66VZzyjXdn/yF5Fj4RDm13hwGAPLPCPMebygu2+bt6bPe556K3RAXij8LKb/FRPD8w+ADvahFBIXLX7G5tBw3/IpN6E6s1HyPDoMCPzkLkLPkjJjagmtNpbHavIU3x3JELjfYsDZIUDoZrk195R/5IES8uW1C0bsV85maibMl/kiipTM4IOYY+BGcA5ZaOgnNABbV+FgeWa4+iTbzi88BpGDQjRspvN5A0yC/p7+EeZkS6jtIgOkWpeAhzq52/OvORundZi3LpZQR1LXaIFBDuBh9sCTJ5EB5E36QxZ+2vnUPUr8Xv/u2WKXd1BcfuI+kveo5uuiXuxcbLFPXQj+jWGc5EcXkk0IhW0lcVJnpf7oYpPibIzuVmMULGR9b2oe96iOf7G+g0Jq6W+3YsTczjmLL6ugHYx70KexAZTua9aE7Mq5VwXgf5v4y0KmYHvj5hK06AKfw61+RJChgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Patek Philippe\",\"model_family\":\"Aquanaut Chronograph\",\"reference_number\":\"5968A-001\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"rubber\",\"confidence\":0.88}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4244,
+    "output_tokens": 168,
+    "output_tokens_details": {
+     "thinking_tokens": 83
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 4244,
+  "output_tokens": 168,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.020336,
+  "cost_source": "rate-table",
+  "elapsed_s": 3.442,
+  "started_at": "2026-09-30T12:52:31.886267+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

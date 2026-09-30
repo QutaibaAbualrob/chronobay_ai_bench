@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 93,
+ "repeat": 0,
+ "image_file": "093_vc_patrimony-self-winding.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Vacheron Constantin",
+   "model_family": "Patrimony Self-Winding",
+   "reference_number": "85180/000R-9248",
+   "movement": "automatic",
+   "case_material": "gold",
+   "bracelet_material": "leather",
+   "confidence": 0.6
+  },
+  "raw_text": "{\"brand\":\"Vacheron Constantin\",\"model_family\":\"Patrimony Self-Winding\",\"reference_number\":\"85180/000R-9248\",\"movement\":\"automatic\",\"case_material\":\"gold\",\"bracelet_material\":\"leather\",\"confidence\":0.6}",
+  "raw_response": {
+   "id": "msg_011CfZf8hwE2a1Aof5qS3zQz",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS+QoKEAgSGAI4AUIIdGhpbmtpbmcSDDUgZqhV7sElmgDN6hoMsTN+p3412xfO3r9SIjCWLIgYQrTT+TKIVwBu1lHwoJtOCBc4fuxTqQdIrN4+brUhQFgaqAH/52RcU1fEMhkqlgq/Cq+hMiyKntrqksYVC2zMCx4bgMxx0BvYKAGmPTAX8G6TSJLHpadC9hRM6KFmN+2gTjU9NY7GlSHW0WcB8p8l/2aGU2fy5NmLFMqM788LM/QPQGxdgKMV5H6o8F6vbZSln7jQlSR+9RVpFRrJu25gbhSMI/i6ycptDMBOVefwTA3yGUVs66ThuMVT3XpLyxmy1n6Xv2bvOPl9iCRfL1PS9tDK9IbBJTD01z91fw6wS6/g7ghL99r5EUb/d1iXpLQ4eQU3zwo3zANiq97NAVRSb2wQpnZu0YgamAF1m4hxSsA50UCnXzlRgyXy8GsVGWfWuuTYYyQdP/bxQQXVrJEQsElQAxzkCc1Qh7yDHXquEGYKwrWinG/PRoJTtfdqYuGO4RIWTb0WP7T9O/H0JqTUlRfcKcglo9KPMQbNSCCdMUZ7TXCIFIIQ+HvkuDScT3gGswR7gTFC1CjXe9EeZVMsS0gb5U3/dG8kwSEk5WauwklsLEMy4xZIGBlWv2CZ971BPCSHmKMqNCoonEjdzQVgUWtjAe4ciIKPmx+gff8QN4ldxhXN5EpgjsdUaEp2ZJz9R77SxNojeXwqn+fV6gy23S7Z4lYcG7qqtjlQvUXmYVdVYhqcQb0dlfBk+IsA2K0jWu4zsDBw0urR12xDlNq0Rfh7+YbXc0LxuP4sZ0mnEhsk5vKvhamwixuQOfChZ/zLn2Jgy2Eo5KtBPJR4O6ONvNHR51uLuW27clMOemVkszKo+yZcf7mmqiEGc9G61krTyTLaFREMuK9+4tcL89NoJIZFM4IzID5OsZfjgYyruAgPxrxg8Lf6NA1Ciy67fd4dahzEMacwKin0hJKDi9KMyonGsnWfGN7Y028R12SkkyHpCwRX8Vs2J8rRrw21hcDrCIt/GgxKYYwRMvsqfRP1hJ5ZBk3V50gPtg/0x9uqdXfqj6xQJ0vtiai3IIoJCa02Ue5pu5PAdCFV/K0getgpnCZy/JphLVVsoCcnTXtsLOIinJwvCclaT8m2KUoHUZB4daXkG7/EdouxAottc8hyM4eI7PEgpnf72mi5Tn02IYsCbkCQhQvL9xQDX9cUQwfrDpayZQLSm4KKGoHA+h6eV4qvY/8cZM9tn+T9y97vms8KPjSrK979nvFW0VuM3FuSK82kU54HAdoBI8r+f0R76kxU5oxwDq+haNrAwQmjCLEa3tx7RMDk325q8aggeKdQMP4mse/Lq5jRRzr7749WAUnELD/3+d2lpiuPUFV38r7YLe6mVrIG3G324ubbvB+tVOJ+T+vlhmBOZM8SFvztGGVX/gA6zxvNTUpFlahajcqpJ90T6bhn2MiYf/dCicSAb71j0HYV5AUNHAK6VVMF8urR7CjOvxP8CWX2mzS0JWB0k225s/NV19df016t+SXlFMWkIW23ZoqhooP7jXQzmpw1ue8kjJU7V5PYOZUibt+/ENN18rLvllNiD7HhE2BcsQDjgRPXq1QxV01e8LnHRUFUDhmlxJQQjRfxgu2lPyrGv4PXiZQdpDrQmvPgy66GbFyEPYFnWVUyH5ZZ70AnnUpi/93ixbP0NLkcKbol+0HknpqSOwwCoq0tNtb8Y+BHmHPcaaBJy2UumJUOcKFKh9DA8HNz7EHf+v9G3YZffFVzJbJ/gSwvbhLiJhDIKjrKaMqmQoBMYssps4mSJC2bxfhrYO2uhXoAmErYCc1qK0yg1T4H1uxeWY71c9Jp+HAUv4b70DwYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Vacheron Constantin\",\"model_family\":\"Patrimony Self-Winding\",\"reference_number\":\"85180/000R-9248\",\"movement\":\"automatic\",\"case_material\":\"gold\",\"bracelet_material\":\"leather\",\"confidence\":0.6}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2591,
+    "output_tokens": 441,
+    "output_tokens_details": {
+     "thinking_tokens": 356
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 2591,
+  "output_tokens": 441,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.019184,
+  "cost_source": "rate-table",
+  "elapsed_s": 7.057,
+  "started_at": "2026-09-30T12:54:29.403022+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

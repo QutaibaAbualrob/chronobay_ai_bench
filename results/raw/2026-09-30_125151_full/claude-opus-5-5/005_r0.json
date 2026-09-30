@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 5,
+ "repeat": 0,
+ "image_file": "005_rolex_day-date-40.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_family": "Oyster Perpetual Day-Date 40",
+   "reference_number": "228238-0006",
+   "movement": "automatic",
+   "case_material": "gold",
+   "bracelet_material": "metal",
+   "confidence": 0.6
+  },
+  "raw_text": "{\"brand\":\"Rolex\",\"model_family\":\"Oyster Perpetual Day-Date 40\",\"reference_number\":\"228238-0006\",\"movement\":\"automatic\",\"case_material\":\"gold\",\"bracelet_material\":\"metal\",\"confidence\":0.6}",
+  "raw_response": {
+   "id": "msg_011CfZewViCobXDEJN8fQvwY",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSrQYKEAgSGAI4AUIIdGhpbmtpbmcSDAfm9nFFs/CL53JQfRoMqojvaq/D4E4rzbriIjD0721drhu9exzb+ncNEDtswWSLnfd/3AhXCcfeSjgZzjXxg9ASA9ujursJnq6Lg1IqygXF/FG9uPNFLXS60C/a/npFyKzGLmstbREsf86CyGpoDH+hhRxaEzZES6a2q8ietF0egKQ8i62WbghYL3hhjyhGz3ePZmPG6Qnny79qjAsdEaPEDvncYFIuJ1WAKXtG0obS4wq/t+OyO23eVnnbf6p0RnnAzLjSDUeL35sLfyw+Qk7Dl1sFN0qIK+swueSENLkbjtGwU5VUaC+EWXhvGStkMxr7d0cZDcqLQhZ4faQzNrdRq5NP7k/gV94YxatQr03S1+sWXhFHcoc/BJ1DcTWjPNKslwxs2AxejI/ZbMRakYM9w0T7mJ7Ipr/np+cUWqOpq1l6CqGkFeUcNtveQ559TvbZfKpF6aLKatb8LHEJn//r+4hPTX8Ud8kDQiYtG63fiEfS61RxGasfVzWxJ/2D0hB40ZCBzDDw+DV0vti1Y/6JqI52I6C3notHTEa9DNfvLW9e7a6ZyhTmObsmz1Hc5oD/g/O2Tdolh4FqV3oBQ0iQ5/hcdTeXVO6br9p6b/Ep26AYkNnjLGBeJdZ8DIaZvjJMvXgmkJOCsgAl1g7jWoJLApY9JWo0VIGYfLB1fm02I7nD50a5Ph9/uFUCo2e5FIWR4cWpRHvi6TVBltvWvbnBfk4bmfGsIkJ1hfuMBEYPTGFtQoxyYH+oSH1+URjYx8f5g6fYxYrbL239qWHj5gLbmA8lq0CiC1GtD++gi53bDeOP0egsJPMIOjm3dgzuv5AlYqsRliM23EXFl+Lz9W/XIaHCpYh/jE+WNgkxlfkuaY/sP0lxajD9OQwcVO7oROKURRiXRnAGnXHROW7Hh68uRijHtsUSb5E0IaFe8Sg6YnZ2hgA1tIXX7NSdXegeog1ulMaMexrgko9He4eZCLRhOsHaxNqyGeLgrwpcPJVHwZUNfeI5W32b51Anscd8yeXED95HirC37rTPQseraJL4sh0BbVSTIm8YAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Rolex\",\"model_family\":\"Oyster Perpetual Day-Date 40\",\"reference_number\":\"228238-0006\",\"movement\":\"automatic\",\"case_material\":\"gold\",\"bracelet_material\":\"metal\",\"confidence\":0.6}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4958,
+    "output_tokens": 171,
+    "output_tokens_details": {
+     "thinking_tokens": 89
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 4958,
+  "output_tokens": 171,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.023252,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.364,
+  "started_at": "2026-09-30T12:51:57.092478+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

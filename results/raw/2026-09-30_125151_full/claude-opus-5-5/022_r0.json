@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 22,
+ "repeat": 0,
+ "image_file": "022_patek_aquanaut.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_family": "Aquanaut",
+   "reference_number": "5167A-001",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "rubber",
+   "confidence": 0.8
+  },
+  "raw_text": "{\"brand\":\"Patek Philippe\",\"model_family\":\"Aquanaut\",\"reference_number\":\"5167A-001\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"rubber\",\"confidence\":0.8}",
+  "raw_response": {
+   "id": "msg_011CfZeyQroq3rH4z6K9UnjC",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSuwcKEAgSGAI4AUIIdGhpbmtpbmcSDJSQOFUH2iJKqnvkOhoMg4n2/LA/xQZ2sdTUIjB1OzvWXpCkGIYiZGJIHJj0+S/ldjLjQQ4o7tfrGwXj86G7MVLbgeY1EAYjO8yyv8Aq2Aa9IAm1yotYQ+pJchdHJTILTAXp1tehbiNK/ZpKU7/MVH7gzjcF44WfH7oD/e0SaRBuM31A0wb4rVhDKS1J8Nieaevzv2A60XgswtS+mHBWKYXe4IT/e+kC+DxZSXTc5B6Z2UErwymleOhQjwD5EFYIBMCozYnp9OrpFV9Jw7t3bZ0aLdjlsHDRvNexFdd7rkXuPGs7uWabZzWauwVJwxSxtd4EUusNtB8er9pKZnGJtzCQgG0Q27AgLLq/+/TzTN7KCyXJcu153eWrfpYD/ZMraGcki9NpcrgTAPnxp8uOqydsjghv3ZtbP0ytMZofW5UCef2jbHQrdSgccEaG2k/bG5/B9a+08Xc7hoNFRwJ3rvBm7GTu9iiWqYeIqUtoucRjOCwLYhiVDlSz5tOD6oyee0tTMeUD0VgdywoRibki9Lr0qU87MYpcTJIG8DBgvvujJaqGzrWaUu5UqJMAa3hkOstq3YGSclgz30pETXSetMN8zSD8w9lOvE6Y35OEtQZL0kR+lS4nfXW4ppYwUNmw4k/eR7dEOk8eHZm1yPNx1j+/mvV0+hlhHRZX2NXkzR/pmrFoh7kKrvan23c+VZkQhyaDstg/GyFts2hLdtsHSf+z+FJvg73l2c/5Gtv13nLRuT16rZZcBra31N/Uf5b0pajsXSomPqG+Bx7iOyZJ9/zE3aWMISAYyXMaXGkSjxXkjJBzxrkr5pSIC9dKqPHoJWKSMDD48z5L8XB5KozA0xfUwVLunUne4w8HfpuWlZfGVofkv/8ZP/0XRE/wCQMW2bXS2BD2iUTv0mHTg65r4wGlnk8c4cavFp03nyILzhEde5Icd5yZeZJYSceIYkOB6bkY49v8ZnkZwYELD/slJhspbsrSs0p/ycCQD4wZ/2LmKt6IJlQ02MXw97mNIqz5jfEyIgF+0xv8EzRu0haLfiqI3XgKJJhUnwrfLU4e+7NDIAh9ZBV9NllQchTkM6ALA0IU6BMeLaYgkk/g7oEEVS6LNLpajEhCUPltb10eP4SBfdoPxLYC42UZU9jW9SGPWGBVKTaUb/pnTPHM0L3K2/VuxDAG/w7qtbiO3TsBqBmjowhwbfv20yMu9CX3R4Q67BHe/KuP8M5t0eIXYMYoVt4x5XqZaHKVGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Patek Philippe\",\"model_family\":\"Aquanaut\",\"reference_number\":\"5167A-001\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"rubber\",\"confidence\":0.8}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 5831,
+    "output_tokens": 239,
+    "output_tokens_details": {
+     "thinking_tokens": 159
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 5831,
+  "output_tokens": 239,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.028104,
+  "cost_source": "rate-table",
+  "elapsed_s": 6.964,
+  "started_at": "2026-09-30T12:52:23.282235+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

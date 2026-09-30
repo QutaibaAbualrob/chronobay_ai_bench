@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 95,
+ "repeat": 0,
+ "image_file": "095_vc_fiftysix-self-winding.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Vacheron Constantin",
+   "model_family": "Fiftysix Self-Winding",
+   "reference_number": "4600E/000A-B442",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.8
+  },
+  "raw_text": "{\"brand\":\"Vacheron Constantin\",\"model_family\":\"Fiftysix Self-Winding\",\"reference_number\":\"4600E/000A-B442\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.8}",
+  "raw_response": {
+   "id": "msg_011CfZf8tJZbR4nm8rZ8Lmoc",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSzwYKEAgSGAI4AUIIdGhpbmtpbmcSDEMCvn0WPMXpWQ45oRoMsh5S4KGa9IrpRRFlIjB5+DkYN5acdaq5GGiqBP9dkUlq6HD861TGO4oUwrGgVTzyXAlOtxwiQ+JQyNJYPQQq7AV99bio8yt6LZ3dUXtU3p5/XmHOQ8/m5UnK9rRKG2CgU8cIM/8ZI7HCDV894g35E4YBMPuv2ndVxF71lHHQLxy+V0Lj6wcsOPxlURBIx5FelAmSH9NmP09cPnyZwDCylLHPZu4ZMFRxN+sAhzmeqpNKtRL5LfkvC9vj0CLhgYJNF8vvlFk9+7teEvyIC9jz3tD+F0mBQwy2442G69hgFfK0N0Dxv/gbyPzMJWJ/0OkbdJ8Zh3kcsAQbJkIqoTCuL7wp5w5X1KughGcBR4G1GoJCdxirkzirkmQ5+vxrCFA1JkyG6vZwZJua+8sp7p5t8NZl9HXPGvSREHSL3F2MXRN2QsC8GC7+sYt6TBaYcvE8owpm3tcQaHEt6wEP/X/6GhUfq7kY4fUWFk7nFOvTQWg6vLGIgzf88aTfI9UlhemNoyMg4P3emKuTA6uqV9zIv/6vGaZYeijFuM1Owe4D6085Du20yXMu/AVmpNnIXKZjWq+dSt1Vn7FAvP02b8hzgS699l+CJcnIMVqbVmyEwxfhMGS2+gZOQ5Ss+P/lclbi4bg1HulHG36DUqb6OSFT5eN04FKcMhCePcSKwN/N096POmtfH+mCzypcfY/tqxgGqA8s4JRypkY3+V1KdYFA5dBnlcpIwuqNIIJbPjtE6ZbAtmjDeM1ImRrgU9OQuW3uhplKP9id5UrCSe8YmZhDdGCB7paqmaF3Uw3CqMWmtt2ZLgcZmqsrzcVM0Jx4Ssa2zvK8snY7Em1+h3EUcdVJ9S77VcdjHpG0+nX1xOxBc7AdZzaMEGbvbpHCFA8UZ7UktROAyTgwgn8C2bv7eumALsy76eS3OfA2Nr1Cg71IaTIa7NLEfa90xX5oZ788Aei2uE2Zk8P6t8zN+pzyeDbsBMhRyaFzYSxfJXQconpTXfN0+FjV5YRQU9IRw7rSJNVNfjbSpHuGkFdtyQFoXLU1jlDEYWd4VNAvf6m5DffUNAvEuHlVgGBof5NCjX+SGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Vacheron Constantin\",\"model_family\":\"Fiftysix Self-Winding\",\"reference_number\":\"4600E/000A-B442\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.8}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1911,
+    "output_tokens": 214,
+    "output_tokens_details": {
+     "thinking_tokens": 123
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 1911,
+  "output_tokens": 214,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.011924,
+  "cost_source": "rate-table",
+  "elapsed_s": 3.377,
+  "started_at": "2026-09-30T12:54:31.670234+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

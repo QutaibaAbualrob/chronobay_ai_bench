@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 85,
+ "repeat": 0,
+ "image_file": "085_jlc_polaris-chronograph.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Jaeger-LeCoultre",
+   "model_family": "Polaris Chronograph",
+   "reference_number": "Q9028181",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.6
+  },
+  "raw_text": "{\"brand\":\"Jaeger-LeCoultre\",\"model_family\":\"Polaris Chronograph\",\"reference_number\":\"Q9028181\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.6}",
+  "raw_response": {
+   "id": "msg_011CfZf7rCnmx6hgQh6t58m4",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS7QoKEAgSGAI4AUIIdGhpbmtpbmcSDMPvn7SoTivwx4MNxhoM6BhBnaMCTcc2t0BFIjBbcZGrs8nDAW5FVy2tTAwUwTqoWzh0pTgNFm2kXok2j8qhVPke6I5RqjRcJY/9vTYqigpbqdoxZKzqxcGuZqdANoxgSX+o/q/q0weA9E3KgZdxRwhBkIsT0xKOH0mlJ++OIacvUD+eZaRpG9jgX7i2xK5Jq3/GfwJLsJzR2mcD1ya0/kJTsPv/0lqYMnjQY4w3KtdnZKZfPSGB/IMTPMmSMQfhodFB7QJ4dP0CP9L5LiGkbj53VpoH3nJ5fHjjHD8e87LQFv88g0vzJih3889m3L9O3uVBDibZemqWrvnnr/h8lZUWxCWHwH5qIVLvxs3RRzyIQgRcp1y8pwpc2zPE17Zs2kDKs3oLqc0lpAG1D86GSolGUEPSMTjguE2xPaZxKXYRkJ4OgVBlFIgob6JIK3S6gBou+6hkyWRXmJdrq1rOn6uFdhgIXIYQAakla9pITpZt1Z64DUieqaTEfoN0NVHW+j87elTD6wLkmYINNH8hsvpIDx0SGuSZPIY+fRvKw4Aqx5aYIfKNzRgZbf7Og/j01Z0x1n/fKUQSDj/xwNOJzylH8JChOvqQMQdeXC031qjTL9ANJMFV/1LxgyS6GWGr/5SIzGyN7arBxsMbnzhIRhoe7FwG5sKNAfm4uiM6feDJF+vk5bys1KLe7RwKwLZtXpFM3OR2dKNbkavqQ4fVzsU4rxMeBRqXrX2ozt0rbCI2oaJ5qxvv4f12SzAxTjFNDw6YSx0sjFVWKDmXaXfscKrK31DSx7EFLjuCNZib+NZOELYUkUzYZkmEsI+zEm+WxSBsUSwxnmkERFHH3DES9sYBc+0D471GNxiT6XwJUlwZgvNma6DFjf9XXRu1292BeOyV1NHVJ2HhhZam9MJwmLAZNuE4NFnDUgxX/2IRlDWx5Lvx7rv7Ha4AS1G8thxRbfunEkU+dJJyUdOT222GttMszq36pcReo9JsyFdsueeWnSknikZIolC6JaUd/JPnXs9FFhScWgfDq3uNzUpOusy67BNxHzu8bFP8g9rpIoOjx2iZKWtIyeJZi1xTZNdR8xKXcWd/GRSG6+V6hQyNunwR4vqGVl1+Qz9NYbCyXA6OLULicY2a4rH2hkAH3lSrPAEY4auyPEitfDlB3FMjfuzZgzrRWf+FUAwZY4VyusyZPYP1cURJUG34euip/DyYTHHYYdJ9P1+h/FRtSdv2lqj4fF7+5Zqxm9C+v/S1WJ9oWhk2/zdQyz/pdWOvFXf0dCDpV2YY3LMv2+ka7D8LzSkSr1T4+rU5LhrO1Oy3y2h3zgmD8eUZ85qLwA9DlJGgn+l4JbHEoxyATcLOB8g7bNCIulXRjUL7edSnZC72H7z1PeQud1HJNU7+AhOawpAfpwxX2JIXoZ93QGFISXUQi8VbyYhTzGSEx8YTK79NmaoonY6yCUsBUuuxctm3J+0qhs6rJ/RFZ55ePCu1YenXmr63PckRRq2OTpSxPsyRPv6X+h29qRK+8E+mxY8bz3ItwyWUlOJYAUWiVZaBxU+YizhNC3Fb0RfH1ti5Np4A0JrDcYkBOeJNZq30j2TWyoFBzoh5v6w5E4FeJE+etDkDx4VOZ5SdjJ57xm3bQTqG+rGNYuuTRbKv01t7xYu8RrizEJ075u0jDjSQmGuLTM7XX6N0V7+du/1AAt2yyfYllpe3O9ubwlsRbVogyzfGAgP/nVfScLyD6kOu1B+67M20vMZlT43iQNQxYa8OPf6mw+MUwhmJNWFYM1FK6yfAU/AyVsR92UzZ3B8T34E3FgiTWlxHaJ1Abv3TeFgYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Jaeger-LeCoultre\",\"model_family\":\"Polaris Chronograph\",\"reference_number\":\"Q9028181\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.6}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4526,
+    "output_tokens": 462,
+    "output_tokens_details": {
+     "thinking_tokens": 375
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 4526,
+  "output_tokens": 462,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.027344,
+  "cost_source": "rate-table",
+  "elapsed_s": 7.407,
+  "started_at": "2026-09-30T12:54:17.770315+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

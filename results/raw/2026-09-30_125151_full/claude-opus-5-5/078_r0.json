@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 78,
+ "repeat": 0,
+ "image_file": "078_iwc_ingenieur-automatic-40.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "IWC",
+   "model_family": "Ingenieur Automatic 40",
+   "reference_number": "IW328903",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.8
+  },
+  "raw_text": "{\"brand\":\"IWC\",\"model_family\":\"Ingenieur Automatic 40\",\"reference_number\":\"IW328903\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.8}",
+  "raw_response": {
+   "id": "msg_011CfZf6roUKMYmZz2amVH8h",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSkgYKEAgSGAI4AUIIdGhpbmtpbmcSDGT1H6ySXkLz1JFsJxoM5PtHF+V2pKUSK7QZIjA+0QsASc3gr2vD+oli4BHmIyBagrjJxM4ZnmI905jdy/Yu7OsgQichmNduU88k6LUqrwV/xedRC+f9vmyS4tA0Gs58kDUseHJ2X59ZDAyfr4WXBxwFmS/XTIRMwFyAH3Ru0OKAI/PMQsW8vRXLpRNbe5+C+8zrRR8H1LMSef5y3oNbSFhWN+IlgLVXmcnIyTPHpqCbvl/zITMuXIr0HJw1GAyf8adTcTykvuAco4UAdW4ZtYpqbU1fhxufOb3c2zznHi3zdiI985fpw4XUHzqITvmTeY9er4r0kyaRgpoRt9YWIYT6NtUV/TkdTlX48nG6NER6Vzn3L+w6c+Cd4+Epyrl3diFpzTr0jBaYF3E+iT8lK0bx4yAKIERK19OK6UCvd0Vs1W99GQpiEmvDeMo5RgW7H3c3Ks8FqngMGz4Os380HzobFsNoENRrC+MDa8It37lrIA6eANtP8b3+3y01Ra3peqDF7xgP5jXShl+s8B7a0lHBQYsuxBcd5DbaiZLR7EzRX6sU4C1kbnLlt2LaKvWyZkw0VYrpT5G7OB6bRMAk/bZWSZdZLVVEqhvYvNfO7+kih3U/Q+4UPQwQllcTYQQyekZISGlTCuUln4z6At2L30dJcELCUNi6tRD7ahXifgBsce+Bpaqr1cd63HbiqCRGE3jTBWISBpGAJYi2zq04J8oAsNvxQuaDM7JnUPPYXIaCEW9GKj1vw0ehdR42PE13TaadPX6WzMUZaNC8bb+DYlfcSrW7VbH13Ywb1xfpjVsotc5CX1/LpgsdkbfAEaYpyiipQWDPMHBlmRPruLA1Moe8CwkoSPhYDFT4m96h16PgX8OrngtE4MU5Y5WEeAVVdWrM2eeVwr07AhFZVLTH+iRnh4do7Q908+/DoH7E63HbAxzKGktYBvxDtR0MbEVXGsACd9dbKJMyj4l5/nmgTSdSuC6XEmTJ4CfQE5Kw+LtzdwL9aKrRd2O6po18xqgYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"IWC\",\"model_family\":\"Ingenieur Automatic 40\",\"reference_number\":\"IW328903\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.8}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2423,
+    "output_tokens": 166,
+    "output_tokens_details": {
+     "thinking_tokens": 86
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 2423,
+  "output_tokens": 166,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.013012,
+  "cost_source": "rate-table",
+  "elapsed_s": 4.504,
+  "started_at": "2026-09-30T12:54:04.176678+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

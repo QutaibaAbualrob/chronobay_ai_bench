@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 8,
+ "repeat": 0,
+ "image_file": "008_rolex_yacht-master-40.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_family": "Oyster Perpetual Yacht-Master 40",
+   "reference_number": "126622",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.8
+  },
+  "raw_text": "{\"brand\":\"Rolex\",\"model_family\":\"Oyster Perpetual Yacht-Master 40\",\"reference_number\":\"126622\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.8}",
+  "raw_response": {
+   "id": "msg_011CfZewpkC8TGNcmjFsqrdi",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSsAgKEAgSGAI4AUIIdGhpbmtpbmcSDLSjljd0JaOH4pbCLxoM6v9IWuUlOvo420JHIjCq1VIw7fPSo2ruxx4T80Th6vBGreP5XUpcCzRwwtO6WcP0kXaHaSdA7WRSX1F/YmEqzQcg/khPQ9jX/yWIbNR5oAVjn6sx6vWAzDuO/bRHI7e5fExvfxwHlGCH2mKIjFVseM8UeJk22NI8RZ/6Yl+7XSFjd6lC7VfPr51wr2FvWuRJnff8fZWulIPad0U7uTrFxTXzoKd1saB3NY17cJ1z93u9wKWfrbTH1qCOO5IvEK8gEMhZHFIY/HdDf2ga/vLB5hl7w7Ksb+tTH34Sf9HZTnpJs7LLAvvhEprO26HNA/R7VQdQTChSvejqTcI7S+REQlRxDxLCjF5RA24Z+dM3Y2bhs4obtODBcrYY+96hZWEA6F8G4u/ryvwa8lDSYcBCC77TTiNkkXPLkFwR1TQlT9H42vWXe9yUFgYe8HZDcgyZxGDH/4m2MfeoBbXg8M+cmiFbpQjNi06gROMUuRSTuP1YG8ELabgTMsrBLCM0eOcZCKKtlhLctN6eID05iPa/vV67ySUehBr72sVfBiVXCk7xr0mOOYtAzhysfSbV5kp5KdW9jtqmi2vgm58cLRLrJv2Evy/PxIrfI/nIGbQbDH5lAerX3fb/os4p0xv0NOSZUOGUq+zOdFva65g1TSjg0Nsh+jGG5pudjQlmkGTRez3zh0ba0FvTTjHybaYsBVM4cM6aTUUi6FTIjH5MUC2MQB8w0tic6dQ7NFgPNoFNld29/d/qeNkBykyNYFkYDo7e/BrWz4KW5XU64ECBVVv9tzxzPbvlmPaoZYYBgGu8CQgp0nC+UXIqW+jJ6Lx1VNEipj7zDixfTKDOAE+tJV26c8YwR+VwEQko1rVRT2YjYNeM4sOllsArMcDemx42ADXN8vFuMmstW/ZmGyZAsq53E3DrJtLT7XJXqfSB4HlaIU1kUPPcuL136lE4lBOl+2FZ9xs1KxhNEa2zHt+B0dw8viVH09M1Ld1X65db7FdHszO1hmdQQK/caxmzvbW9Nq6x18MBt+Dd9MApulHbz/FWQ5twPC0uCil/axmKAjBKRN6kiMPKZR8e2udNAL9MBo+LC+3ihvB78Cz3A/kLag0IDI4JiKyun+7j3pnJ0Ev19HjpobUbB8uIUBj2mvbDlmMQyGSA1UXiO5lPK4qSl2687nwTvoZDItbEmkQTIml2axNFZw4Ro1Udfp/MpDfu906nbxk0/dyE9HVNm69yUKEkCaYbhBJYuUP0rprUL0M7ibeEWswZ7JKLafUeLuHmshs/1hCqH25/TSy+nERdyP2sjZDIl2TjDJAttLQxlpMRC9agPxMXDb9TPDxw2Dx6QSIhTzps+JxuTz0cdHMxsRlUpuT1WPuuIsMFBLyf9hdjGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Rolex\",\"model_family\":\"Oyster Perpetual Yacht-Master 40\",\"reference_number\":\"126622\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.8}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2919,
+    "output_tokens": 290,
+    "output_tokens_details": {
+     "thinking_tokens": 205
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 2919,
+  "output_tokens": 290,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.017476,
+  "cost_source": "rate-table",
+  "elapsed_s": 4.468,
+  "started_at": "2026-09-30T12:52:01.717841+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

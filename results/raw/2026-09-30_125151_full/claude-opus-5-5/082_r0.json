@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 82,
+ "repeat": 0,
+ "image_file": "082_jlc_master-ultra-thin-moon.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Jaeger-LeCoultre",
+   "model_family": "Master Ultra Thin Moon",
+   "reference_number": "Q1368420",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.6
+  },
+  "raw_text": "{\"brand\":\"Jaeger-LeCoultre\",\"model_family\":\"Master Ultra Thin Moon\",\"reference_number\":\"Q1368420\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.6}",
+  "raw_response": {
+   "id": "msg_011CfZf7BLh2nz68eFwFZxob",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSjgkKEAgSGAI4AUIIdGhpbmtpbmcSDKnNf57rCSaU0IdeeRoMPMrZqI+LVWZSOfc3IjABR+6XWbINrUVQu7vI54Y5QJjCA7FzVk02Iqh07hcMw7s+kOQt+gEszPJTerHJticqqwhP8fg0RebVxpicDgf+gr1fqEs94tdQ00AfunlDSN9bfbmj3xI42tO0nArcdrj6zgiMmgSjuTPNeBeulFdH+Uk5WWQ4oac2NKM6qlAxJGrPbGPqmD7xGj+B7gCcnk87UinRGE35eIpqCQ7/YB6U5Cr5KD/NiZhciyjiTxNXxnUhDkG4O4byp2Y5ythseomislfOf+qquEyYL5YKDu79/XFRg3hZRDmSptMN4YH+fJK5zeUXAObmyGx05H0hrRvbB8n7AGYmV39IMAD+jshfTSH4nxhs5xldVmQqpccf1PAZDmTPjwxrZ3N7u4MxgDJ2/rWXUB/A6HsYv8DW94mualvXpFCbxhyjIEALJ2lJWVMaKBw0tabClV8Jt8urDr0iuubeECgrLMPX3Dt89iByiSNMvF732NNYotPCrnxskR691rm1Qko1psHSFs/RLZlWxjiuHTLPyGrRX1XQS2W2x7cO6pOazJHOKiOp+1X9GG0AvMTV3Tqc1a1KXC3lYAXG10eC0AOriZXkX1+7rnZTIc6FzNL+dyOpuXcT5RKQuxpPLzqxV4ohI0rb72J9z4MJyOWND4VR5q2qHxJ9XnJa5sOjL/3lTMLj2K2TpJzSYzXy6HWFWrxv3S7uULvdCooDFLxcztRk5IMVUvKPwWTSjkFE3t0NfDF7LcfZkW/6KgwIdh7OtsEPhcTQc8ydU4iAjuc7i6SUQ/Gomv7LeKixMM0Ikxpzmf5tmY+w2CSsx0O/o9i6aZYMNf5/5pAyZgC9JCrQ/NhR67YZXrwn4XFKU/SmTo4rKA2tZz4wklFA+5Gg1AzAHUdU0kXf+QBfJNxGtd8ejoGpCd4JI6DsV60Ce0m1QS3atW7uSpnDJx2JnmOwrJaYY9TSI6yCrN6l8jtkWRB4pzf+0klrf0RlVcSSPfSKezZWwckgfEsl2e5V+J8KAD+FDa60QFhk7+KhsRohP6KUXhvG2Li/Jn7XwCS00F0LZG42tb8Dee+ABF9xGTKmr7czKDPluo0NJ83N7dz2ulIkjpLrlhwfCrAl8I32qK7n2yj1vRstPwewWoja6IVZe+a+BJ2HcrDOxr5W73wqh+T+oYAwKMdJOhRqDgeOvd2pyeTyjc9lz2/XYO6N5YEBVl+4nQRBUIxDCM/+x6aA4n+3doamnhcvP1umuu7NlxWbxwyRIUuqi9J09o3HqHVqq4u/+CQ22u6XDLKywst60t2fz7UdQPCBI6lO4oJlkcFuDQMmHINdBM5Bd71PMkZKLQjDuyqWudV1uA7SIjyUi4V8mJNx3mCAk4wq4uaCdfS7hIWKrTczM7obtw9Tw3eaZRpUukDenT0aY8bWjocfffaP0mb7TloMPRaTteu+lP2I4+rMrR50YHB2mqQmHfBxqs3R+4QKQEvGYmMDt4QQBHc1L75SQv/IlhqtiRgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Jaeger-LeCoultre\",\"model_family\":\"Master Ultra Thin Moon\",\"reference_number\":\"Q1368420\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.6}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 3761,
+    "output_tokens": 334,
+    "output_tokens_details": {
+     "thinking_tokens": 244
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 3761,
+  "output_tokens": 334,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.021724,
+  "cost_source": "rate-table",
+  "elapsed_s": 9.356,
+  "started_at": "2026-09-30T12:54:08.682275+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

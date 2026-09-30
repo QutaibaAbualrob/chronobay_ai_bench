@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 7,
+ "repeat": 0,
+ "image_file": "007_rolex_sea-dweller.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_family": "Oyster Perpetual Sea-Dweller",
+   "reference_number": "126600",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.88
+  },
+  "raw_text": "{\"brand\":\"Rolex\",\"model_family\":\"Oyster Perpetual Sea-Dweller\",\"reference_number\":\"126600\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.88}",
+  "raw_response": {
+   "id": "msg_011CfZewaNFsAoFCMPZgVaJT",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSoQcKEAgSGAI4AUIIdGhpbmtpbmcSDPmyMWwqTtyQPeyiMRoMq8nX3LE5MXlpBAsRIjCB/x8ECwtJ4dPafnFUSPgmQpYC4Jq5JD4UPMkU9UVD6o+/beGfka5/cDgaZjzAjmAqvgYEXhls2eWldI8uOtJQ+6S0DArtPjBW4hZjH9JMwEuOYsox+uzWtmYVZeJ3ZCkgjdlUTr6a2jU3uQVLbHPFlEpzx/jTkwJV8hXGehbWj0lp/hAFK2vqNkUQpg/8F8V9QzfxDIZRkidxto5clTZIjBy15cjYO4L4Au23KclzeiN3Kvgrq6AmBUES9ajWCPo4zvdqGIXYIEtSD3BGJRgMfNUtaC48Dfo72NWNgGbK/7HHQpHPmatgaxjchQ+bsG8EpgG7xrYxt8ybCYuFl04ZXO7riW5WnD7UerPEcycMNeVgzvcCq0Z6OPBwtcaQ6SJiqAjuYcxnHk9Od9OOVvHRX3Liq4Nqjekl8KEJNaISFw6PW4Fh00pCr8WYyxPtbXm7xMIQf4saqUh9XvD2wyHhBSzNAvJU9XZ8BewseTKJ3mNIE2iNqP0+weE3O5z5sZVhxohnAJmmv5cYOyhZWQJscoJPuFV0ZoRbE8Ps23V8axL4gvO1C2PpZKbcMIawG3n/Dv4INLs35wicqN5b25cOaggU1R5BAXPwke+TjsLIGcF/ScIqltxKZ9qMZfLpcPAfQsQ/QzIaR0OT5HKqGXbbepYvPhl2Go4p5+0UYFPRz/HpdV9loVm8DYiCHJOIsHUk6ie1Hp37OW9QGelBNnypQMdtid9OV4KEMWG/+I29djfZZl01d+gYbGVyQxbklC+WqoIvKv3GYUu1DAKWX0GYW5pMGCvdJn3ZU0EnJj46Er3tGmmmHRpN9ekmjHojXXzaD/0j9tawLt9ym+CXZJCb6uPJ2sTPLa4uY3wJ7WXLn/Zszy/Z4ETwsdiOyZYOJVpp7bbK7ORpQNWZFmEaQYbNuoEyGHUA4XqIMcHJgGyqXJEBjqy6mhzC7CsGOUtVB/VeT2X77+ft/QFc2M4le87nGtgFtVdsgdk7pLXKqVwj1G7kP5K6YpKkLY56EQIXhu/CVudVDPbiK5Ru54BsbNe4efIlxPqzwVZi8gozRqQvPITp807D6FnbbBLu5IVRnz7lKOO2rsPlX0tVpebndl/FnsZUN9dBsXcogkw7qanpND00csxZZ/fmszPitm8cfZd+QSOxRpHC1fR7F+LhVT44gRgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Rolex\",\"model_family\":\"Oyster Perpetual Sea-Dweller\",\"reference_number\":\"126600\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.88}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2402,
+    "output_tokens": 229,
+    "output_tokens_details": {
+     "thinking_tokens": 145
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 2402,
+  "output_tokens": 229,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.014188,
+  "cost_source": "rate-table",
+  "elapsed_s": 6.222,
+  "started_at": "2026-09-30T12:51:58.390689+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

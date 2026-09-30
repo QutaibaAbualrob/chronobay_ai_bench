@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 61,
+ "repeat": 0,
+ "image_file": "061_cartier_santos-de-cartier-large.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Cartier",
+   "model_family": "Santos de Cartier Large",
+   "reference_number": "WSSA0018",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.6
+  },
+  "raw_text": "{\"brand\":\"Cartier\",\"model_family\":\"Santos de Cartier Large\",\"reference_number\":\"WSSA0018\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.6}",
+  "raw_response": {
+   "id": "msg_011CfZf4q6EMRMQo4prANksN",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSkQkKEAgSGAI4AUIIdGhpbmtpbmcSDImw0KC61wFgli64OxoMNnYqPmc3Ntx44e8YIjDNRyXEIQWHvWVJKgMGzoeQJgf1rSfSCz55wG8D1OseUajlz6FiSEL/wWrQ7ZI3pT0qrghl8+381sL2/oDYL38UTUqRxZOR2p9K3zwGEiKzQ+F75m5tlxAIPssnHIgwsgaquPE737Y80Pxt6ZIMGygZiRaWNTib68iEZeVK5RdPGXJ4gJgJGyjYrymWgKcmNDTw2H0vpw2Kq3qik9Q6Tg6aqg4NwF9zmnb5BFWVohInh/dMiMSKRnfL+SsASj2lndznYykfmat3kyGW0lPg7Apz4F2BewwccF55RYL4rSzWTIsTzpFGnFPJZuhNR608KmxI8vnwjF30scn6eXrzrGN4nE1yZSLeVb09Ys41yT5U1aHOQ3IOnK25lDWJiQencE2h8YKH8U5DpgcAq4TEYq2aO9IAirDvcj/zX+x/B10Ohzb9kgmp46p28GAUQdOg6E4PTN+opherQXOa/rl2zyMQIMAQv71z7vH1UK2w8zQG7SbSGCJcw4fVCx8nbMWUji260NDkZ75rtc1TSvtvgCPa50AVXpuZO6vaqvcQ4sGaVjHgk1kuz4BTZIRYnvbibfHMxZprxSTDd1LgVBj5NkKq3fdX0hf3KzzhwamJO/8q4Je91mbIoi26GYX5EFiT1ylzJTWwdAesW232V2Ef1cou6s2CI+sxCBmIqSaHyoI9DbRlAzSAc5xoprcPwbGLcMnLa4OcoJpqZbTV+7OB2ooyXhAjJj8tTI5TEotPtlvV/N0vvg/UThDUkzjtpu4Mgy+imhYsguoB92RGEkpEHFAXS896mxqdWcvGWJ3pbZNqfYNPILSImjmfHxbiK4BlLzV47tInoaUdadGS4sawJZ4wIvsPPcwFmx3iFGYpRn/Q+OxInDkrINKMrpsuAmHlIC3pnk4pv0cqrDv5e4MZMvNROwFbnGxUGNxssOejZi6HXNmx0+1D8cn19by9Xk7xTRpCtPdanSBQ1H7dtGnZecerhu/RZ4y9JMtG6H2shbCes6NdF7cbPffWi5d2eQhnRFdI/yHzcVtGrclogSZR26NmWr+e7yPUjEqCChkMGyRDBh7lhbeCW5M7IyU3OYYDTSgbFl9oJ2/5gexB81rYNzrmSTAEx8jRGNYqfs2rkE4aExYFfvI35Ex2exSomHXb4sc8nqKeRLJOMdyGhxciN3WWfgTHY+jqviskOUH+LB6br5dSACdGPBl/NmCvqlcpW20o1nro5O5x1ZHXMATH5TNSyjGclH7QLAB4OZ/Lg0LY69h8AxPIX5IrERk+zn1TPmsJl08qlUwFoxPa2A8T00yh8VtKvW+dMEPHnnbvRnIWYIDZ8mgSupzvj0jC4DqawOUy67ZanPzcmOz/7nWogLtTNX9Pp7u3M5aaBARb/8YZTxr7pzp5+xmTjJv/MBWbaBw8ghooa8wNgkIwXYiObkryzu3t3aN6EFWMOVkdNZ8Ok2gbBKCeLpjbZnSrJI+IosIf7g+HkzrNdcJvBFYNXJ2xiRgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Cartier\",\"model_family\":\"Santos de Cartier Large\",\"reference_number\":\"WSSA0018\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.6}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4958,
+    "output_tokens": 308,
+    "output_tokens_details": {
+     "thinking_tokens": 227
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 4958,
+  "output_tokens": 308,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.025992,
+  "cost_source": "rate-table",
+  "elapsed_s": 7.823,
+  "started_at": "2026-09-30T12:53:35.979825+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

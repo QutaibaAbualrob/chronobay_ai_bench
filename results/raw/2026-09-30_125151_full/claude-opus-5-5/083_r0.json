@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 83,
+ "repeat": 0,
+ "image_file": "083_jlc_polaris-automatic.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Jaeger-LeCoultre",
+   "model_family": "Polaris Automatic",
+   "reference_number": "Q9008180",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.6
+  },
+  "raw_text": "{\"brand\":\"Jaeger-LeCoultre\",\"model_family\":\"Polaris Automatic\",\"reference_number\":\"Q9008180\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.6}",
+  "raw_response": {
+   "id": "msg_011CfZf7hf5apWHnfDHbP9GQ",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS8AcKEAgSGAI4AUIIdGhpbmtpbmcSDKQnCg1KhcYhOIqJshoMNl5JXB1Jgi4GXMcOIjD4CK5ZKB+KCOnzYaNnap4G1ILhWgZNdWDfVnHVDgzNQrRowLJUUqyxyGV1tVK9wuAqjQeTr4cIXdSaonq3hDNr+QQq5lfsHZXe1M01kAfLDl0Va3JgGRz5uJDL9NrxD6h0sPcsg3eNYU5myT76swwYLrueixfXQyygK37ne8UUMRbbVJtobbFWttanatyWKtNQCc8e81vkhG0zf5ynkzsD9Ou8lRQ+37yyv2WGOqaJb6lwaaYP9iBEKKxIxBRiBH8s/7qiY2xZ4qV24TvfuXExDJEUT0b/FANvFYdad9ICcPCt3FxcSyccxVgfnwasafNmI1PWFNLoceNu/HgkoAz4+4v8E++ZTAHQ0UBVKcgLZbOTDflpKuRbfVB0cY51XAB2Atp90vNcOxPjbhWfxjDghGKdUPO1u0ytRDyJuJNE6bRGln3fWm/7Q2PBGq8eTHncpsPEdnonc1IUpLLJ+ZkhHFY+ZzgVQplZj20+gj/8C6PCJSbEqw55AjLdHpDoCjH1nnN4RO3e+alEAdSw6ga89KDlrq+l1FpHLgl/l3xxDEtB2STEpoOncm/s+CDhfM+qsF0BLiE/Bd8LIRdxUgwmB5LX7PNkXG9hQseFSi04CrKLcpOaSS/FqbyoE5JTOad5TmqGzOi301nr5KDRiHo/yOmIeYRrmXmlHtzSIjx6Mfm0gAHY9rFO6MC5MpWmT4lGy553ep7SbalsKQif81yW8U2EmIx/qT5pp1gZkfiSrO/bE/e2+XLZyXrST4UZyFe7ggIQ0NtM3+kKEuSUS8Ed5AJP43TYcaxUdrKycx3U7YmWZk2ob5aEmC3a2Vgae/WCKZxDXJT8LvmRnjcMj1u9y1I6KisNdI9a/410e5Nsn08dFefKWApOOTKatHiixhlS97RC3Nq7yP1+NmAia4EP6eglCOjP7qARrEPQdMSElPsReh5VkyXSRJfyciAWExVyTSMW5yhyvlK3QfI+Pb+r/X6q7BSSHWkinmFxizy8HGfy3HBhdO5hco7g/WOcqSMVe7lNKWEAfg3iZw4R6obDBGc4KjvqPoY6aacUBFW3v9Vons2+nXD+wBcSkqkyAxtg2pE+cmu49RqpIaC1XXZDReJx02WuX0HVPT8JAOoEfsynG+6lO7krFXrsJePelz9oAc5Uq/D3DW8H1cqKw96Lr3FgDkzDNGv8CrxzUO2VXF4J/PJi8PbttgBsq7TiuXbkXgJvdii453Q51eyccGTgPtj6W5tPKEowql+pwQrTQto0WeH3YNgNUIsT9m755fIYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Jaeger-LeCoultre\",\"model_family\":\"Polaris Automatic\",\"reference_number\":\"Q9008180\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.6}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4454,
+    "output_tokens": 279,
+    "output_tokens_details": {
+     "thinking_tokens": 193
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 4454,
+  "output_tokens": 279,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.023396,
+  "cost_source": "rate-table",
+  "elapsed_s": 4.95,
+  "started_at": "2026-09-30T12:54:15.760731+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

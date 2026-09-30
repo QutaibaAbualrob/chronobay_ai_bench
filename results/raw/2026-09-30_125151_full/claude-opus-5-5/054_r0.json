@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 54,
+ "repeat": 0,
+ "image_file": "054_breitling_premier-b01-chronograph-42.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Breitling",
+   "model_family": "Premier Heritage B01 Chronograph 42",
+   "reference_number": "AB01451A1G1P1",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.3
+  },
+  "raw_text": "{\"brand\":\"Breitling\",\"model_family\":\"Premier Heritage B01 Chronograph 42\",\"reference_number\":\"AB01451A1G1P1\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.3}",
+  "raw_response": {
+   "id": "msg_011CfZf3rJsEkERNLkmqBfLg",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSrBAKEAgSGAI4AUIIdGhpbmtpbmcSDIryTUx6qXRlqNK+ORoMhsSGE+k431GMb38cIjCg6ScFsJkbUZmBDo+aukjtKPiRbSMH40B4XLYBEXsz3K2oDEal7SSqhYI4FYtqjpEqyQ/DbGdi6FsoxW0FHZRpkbIPMGDL2RDqbkNxGBVaN9dVPe5HLopwniap7BGccT+oqSoZns9/2YVn3IxwHTGUW51pYYne2HIP+6U4OWotfrx2o7Fut7FWMtI7OKp5fvXK6iEXtzqAWp1i5tDN55ZK8vvQuYrWJka+Q38IByqI6keYTPptTEoEppx4L5+o0fcpLk1Ge7d0JoaLygYCJBh1N+mbuEy7eiSF9bBa2ciW5cKhmCp3pqPHJ7jnObDgIu4hXwk+bnyhhVMSwnfaEuUxBZkEG8upQjdWuzRA2BiZSka6ZBuogC5qTv8wMMu32N+pCrg4rSgP3HZPwHRRUquHbyBBZUnWSK82nwDapONYj0rzfbfu7JCvS9mO3PjmdIg4642C4zBlNBNMlEgYKRthpjyIelUsqJyooQvko2WZ4JGo+dh9AuPtzYwkmpwUJFjBXdXtk1NZAzWOyXYmufsQ5f0ZjCJwJ8Mwd1w8S0tboIQByKb9nVSdW6M38QJp3/NP1foJoYGcR9XgSibLdRqb1SCL3SYWrTypEaHyFlVwffoU38fPNqFmSytg9TGEbJhsRGdarX0PvQVrLNUTLN/mCCLwJ7UGkgDWLk4+ag/SPMylGoL8CyqEV/gNSnSFtncelu5mX3gZJWMx3yMPLOu6B8mT5a/xg2n0F8CXEbB6pzT82+o+sfZ6EuD8Kzn5RyebMOFUJ/NQtXaqAeY3n9ucIw7Hlq7/orItwv1nhRYe+demh88f80FFfePuwoPwP8+PTpd7AMvXHr8xFCa945tqTnUesqT9YxnLkVfcAz/1PKgF8EAnhwUOalyUvO3f6zN1vr2k7XnypVeUpAkS3wBVQQKuhvuGplTcgsnA8bC2n5qasP/lXjWInus2//Y9LfMAePiwzfpOebjAaFJPNhCSZjWjU5HZFfcXkgOZI5WMpNrGI6kbVe5qz1W3WSUetHu5KIeaxKGTv0/UmmJXqE9eQFmm7ALTMZQXLlFd6wgZ22gXH4zGGJVs3V3rypIuqZgEga1CTQstA1uIqitbmqqDrzp9I4h8dXf3e/QJCKEHO6DDNy0KlhYL8xQ3rGbS6xePYejTLvNypeS0VZNOAJ0mrkj/07oozCy1TCtMRFdHsYsG+6ooMwEvmZTm9nf3UD/5SVsElZMFx5WGNbf8OEVG3ivulTMmhIH9vNt1zwVoeRoyhbIwDwRkyj6aVsG6gqugrl1RcLSJ2yXS8nEd97kzUnOOuvIKqkC6B7LocF8EsBnLUYo2f1Jed2n/gVV6rw7soVZb4HgWVaR+RLemZMsT05Ndjt3XVYIX8yXPxUhKQdad7FPEPi589kW/kSawN6x1MVztFjyZurBt5ONhgTcr/5Krcn5xBarhu5X3KSc2fXEssf0IcMVqPEr/MflXV0uuXHyasDqy1mjPLHbuAOciAhxoLShWHtrYPiRnGR/04yBT6eNiGZeoQafdXHcELARTZ5EX3bmKgCh+i6zmP0qvIwniIahDirOwO+1vXADHbNor7ioD4Pzzp5PcnVBLQuLyO/PpVcvv3AC1iFO/+1pydjKeNQgY5ForvB2aQEQexYIllS7lFNx5nfqoIYs3v6EN0I33koeOM2hpcxH+kR+gol/M3BBUSqwc1LhjhXEko1D5EsoLCR6YtbC9rdQCjYaSZ2hH68iBXdQDC96GBIGek0WGSZ1qrCB5KEb5hVTDLH21xPAJhhMkrE49iTYshsu3ITDq7HBcZJt0TtjJMTjuksVHXAgZUqd1sqhJkyp72CC+YhS21IuaHuNG78LSBnAWObvCjKlYzNJYwGw1JF2zMcCTPkOLlu/8KcyXh6h4UBSvjnLWFLaNtc2AVG4jqAhmDo1Ts3HrgbEAGc18zMpuEURdl4zl4bzBGEDsKTwApoEBwpuFheSE193jveuAwr+vUzgU8hYigNWjU51Be4dxzLfiAPmNMd30YWZSTqaUbHJeFhKqu7sejxjrwFCzs0//VUR4XYa+3MxqsSdqm2ymLvJxazh1u7JPBvyRM8qQahN2QzCBC+WTJ6CP2BIoqDokV/W3IMkbkR6zIn97Zp6B0Epb7PSHBtrxQtkjNdpxKitTwxYyWQf3Vrndl/V95tFkJv9xAzkZG4WhHuAsTFhpq9k8xpn2pJuNX0NK79QqFe70hfDqyIGvfTyl6v/bTWZnwhbzNKAWuPC1rYHKdCkUdXKL3uHzUBz7aygMLeyObKjob8ehvK1fAWsvqsHPh5SMWYLLZ/TbXhr45cxhGP4DYRj9yAa3UgAsxLwcK9fYFiIKQrQZ8m3lbxQsuoiTq84rAopic1ZyooKqSpIIkO/P2tipQjl55R74Xfp04UIHdRw+Js8VwHTuaZeBk7apRF1wtf/wPlqccwK3N/rR9vyOAG8f9vzC5V0WcYQFMr+5xWiLsnzIfE57isfvmZYorwU55+t8oYKnFmk88Yu+ayBEa3med7sAjyY85Djw9r5H/R+vbxvHSPyLEedkIECwqK3+B2pPE48vBn3vjyNQPfpeEgLE3JUEkqcFLXAggt3qhTr8D/Q+ROsyVBiX/5vYRAeCDxdL8OCyy0LAQZ7OfccRhFmSSCOwKDi9EjvrsS3govF4plWLdaTwjTj/n5fGsICbppyAvhJAZR+7OZviytKccYVU+v3ZQPmKtghGGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Breitling\",\"model_family\":\"Premier Heritage B01 Chronograph 42\",\"reference_number\":\"AB01451A1G1P1\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.3}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 5831,
+    "output_tokens": 793,
+    "output_tokens_details": {
+     "thinking_tokens": 701
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 5831,
+  "output_tokens": 793,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.039184,
+  "cost_source": "rate-table",
+  "elapsed_s": 12.443,
+  "started_at": "2026-09-30T12:53:23.532497+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

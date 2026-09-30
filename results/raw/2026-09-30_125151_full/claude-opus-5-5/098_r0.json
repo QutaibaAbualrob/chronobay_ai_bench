@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 98,
+ "repeat": 0,
+ "image_file": "098_vc_overseas-perpetual-calendar-ultra-thin.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Vacheron Constantin",
+   "model_family": "Overseas Perpetual Calendar Ultra-Thin",
+   "reference_number": "4300V/120R-B509",
+   "movement": "automatic",
+   "case_material": "gold",
+   "bracelet_material": "metal",
+   "confidence": 0.55
+  },
+  "raw_text": "{\"brand\":\"Vacheron Constantin\",\"model_family\":\"Overseas Perpetual Calendar Ultra-Thin\",\"reference_number\":\"4300V/120R-B509\",\"movement\":\"automatic\",\"case_material\":\"gold\",\"bracelet_material\":\"metal\",\"confidence\":0.55}",
+  "raw_response": {
+   "id": "msg_011CfZf9E6h9nkuDsG9YHq6Z",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQStAsKEAgSGAI4AUIIdGhpbmtpbmcSDJEa+jhJ8uyNPgzpWxoMEogPbxBViBpLlkz/IjAmsRUqs7Xm1bdt1+scBK6b522KrC+aOIn1leew2+1UEzmn/dMGeaxldcC7/oWOV0Qq0QqK1oSdKxxjRRyuFIdlpwvFB5rzyR7gqd7iw8McqEnr71gGFNimZMEKV0YSvz4rmD2yVmdbCHkr5AJAbJ7qz+/h52K8DsJgrewW0TL3oBKLxx6x7TrTfa2FSZatgSST1gcfBTVguxXXPhXfOsRBBdE4hb0g2QcBRkWVwMFWZnh1bH2QujqaDvoW/sh0dhPrET5RLYAIjQEMxGYHqXA1yZkDQ8kHuxGWa6ox86YaQmV1kbP9ORsLS2qUnZ1shUIxyu4mTV4cKFLlYz7VpyYFiidESgb1/C5rk4WB7i/hSpsFVHtcumNkud3iR6IQZ/+yEmBtiz9y/gOvjwuPXtv49WRQrH9uSYW9vJK23+rGKQziJcGG01mj+gfBmnt+td6Z5ErL3dXdZ8z6Dg69EoSlFSkHMxePEHw81m4w/CbYODgtgDm6MYQuGmwpfn/hTlPUXoGH90OVZ5G/dhS8sCRHa5Pd+4ZcSnEgwKd16R1bE1baVF638FHgNAEU4GMWiZK+fQTiATuLeRaqAdYvcHMMoU4bnlOyr+J/hXBxfLECsn/BrysCoFLLUMXDua4R2586TEVpcdKNSH+Gy0L3ey78O5ics3u1RB+iX0jRd37IfImUDpq3NDyZPSR6Qk6lbWuaNPg+JjbUqw9ZGnxaiN0fw7OMiBNQGFPp6Gqkndc2RwFaVyyEmDzAiZk5uqhnbZ+xoOQovEVcN4WZy3nkmhEf5vL4whMSyNcmIwTjyfQ+1l5j/l2gw31lPeitIhPct5+YeAeNfbiz051qpuQ0J8o9LG0CTILWzpEiKLuCTYciK98w/zan5GwAv2cq430uFxwXq1vELT5WuNBhuMk0iJ/RZjPh7cj6CnXW8IeOcIwxX6V5rfYnonxIDdVLRuIb38e/Pp+QsOYq8KYdt//jitOn9Z9YLzmN8bE8svX4k7y46zDS4M7vuVsDGiMCWybhUoTQD7TsLJwkKT1jf4XTcsTHtG2zg/HeIY7SgMExuBtxYiicAPDOOLxsNxZxZqcqncM35q4+RS5jVpQCLMolt7NpS8uPtCsrGMB9U2cgGESrIorjYmLuPmWI9L7w+mz57oPB/8GyoNFXxIQX4DvLCWj2tgytzSCZufN+zCK7tMj0Ysa3NIwEQoH6P+ulN1G4viHjL4Y0IG6gFeDIzBHwlHFKEi1prCVxOSL9rQE05QZQVnujm/RbhGLIGRld+coERrsMSEgbWQAAED9gdxEDccaVvyMjRkR4gadRKWPy+aVlL6yn3x3mJp9O+x32LdzHJTRZKPuf5xlOl8KDEJXmBTQuYXnCPSwD3Q+rs/TeeGJHXc7VD31bCkll65wnZtbON3Kca/41M7khWRsXZDBCY2aoz1MWQiH5M/Kvj+H5DJ3Gh+cp7tshdXybfbdhRdqRTGm/4CNP3FdpW2+7UITPWXlszyyx3lpELiQSUOOueHLTp4+mL2ox7vsUqrxpmYoQ5MlU5PHbNDMW6U5bjFhr7IXnITEB8Sd5P4bLEHqLfNMpL6l7lV9o/BXG6ct5nc7OJROWrwrc4LmBnF/Nz8XevyAxCMfP6lEUYL8rt0OwW8ytF4QWIqqZ97Q99Ls1Jimz4t5d2TG9HuxCFNZ4gCbYCpYHsM774b36Vo0DdQ19ru07pbwFZbtoColN+gUAf7CM3UxDnH4tDvJnsd/E4tY4hRdMUVpxmnboIlIbB5aW27Ho6H/TmSTr+wqKJeE4RU4nQo0j8WNkrg4RclLp4JuXNkzSMIhP1wsr10Hs2zbx1ax1hxCWfV/AKgGRreCX9TYmwQ9c95nqrsnyQJt/id/Coiri2zLoqhgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Vacheron Constantin\",\"model_family\":\"Overseas Perpetual Calendar Ultra-Thin\",\"reference_number\":\"4300V/120R-B509\",\"movement\":\"automatic\",\"case_material\":\"gold\",\"bracelet_material\":\"metal\",\"confidence\":0.55}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 5831,
+    "output_tokens": 486,
+    "output_tokens_details": {
+     "thinking_tokens": 390
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 5831,
+  "output_tokens": 486,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.033044,
+  "cost_source": "rate-table",
+  "elapsed_s": 10.026,
+  "started_at": "2026-09-30T12:54:36.461911+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

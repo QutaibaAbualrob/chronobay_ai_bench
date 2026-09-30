@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 70,
+ "repeat": 0,
+ "image_file": "070_cartier_calibre-de-cartier-diver.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Cartier",
+   "model_family": "Calibre de Cartier Diver",
+   "reference_number": "W7100056",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "rubber",
+   "confidence": 0.8
+  },
+  "raw_text": "{\"brand\":\"Cartier\",\"model_family\":\"Calibre de Cartier Diver\",\"reference_number\":\"W7100056\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"rubber\",\"confidence\":0.8}",
+  "raw_response": {
+   "id": "msg_011CfZf5ownw1Ar5wDK48wN1",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSzgYKEAgSGAI4AUIIdGhpbmtpbmcSDGeuQDlwTB3aWTW9fBoMegskn0otiw2hDthyIjCo43dw08FHUy8OZMnMDDoFp8CRx9XbzIBoauf8V/GD9mo+JYngm4x85LT5Trb40Xwq6wW7cf8GVxW/tHsnKevVid48wzL7bYiK+Nobm3ycejeFZH3SLuZnf6J7f8vi8VhyEmQXzNcGl6zj7HZ7qN48nwIFJm9xKSd0vfvrbgZwg3VQOh5d6rNdthSar0B7T5TyQ8kKku3YLMTa8H+PAx11IkTJ+Wext8Z4EtNtIbAf5PrOyfC35/sYdlZ1NlQTDNFg+vSOJOFHVTRzYOOoQRp3bTliQ57Wggccz3xoBWgBvar9uO3S2Xvdn4BvP0BOF/6EpB6sAbKV76O17JyCrnBsSLd8U8+vZubBnFKP/kSAC2t0r6CWT+FSV7LupuRfaUVnFu1LxkBHiQKn+hWPlbd2oioN0UCgGmoMByvRfdV8oG4mVTxKWC1Fsx0/47C9DXYc/RuLoZdQl/V5HQJ431cKv1/Dg9E9hHM6A3aSjexLetxGTOzwK4oWt9TP7mJHlHEsHErPUSXWY91+NNP9PaZ9P4Uu2cOFt2pRyXjHffQdj2at8LmA6r0idQkgttAas32XPEN1+9iQ6ra179BERNH/o4bnnZbCubQpd0e1KJrsAAk6ZVlCrnm6vi70ioMzi8rIGf1kirqI9UulDzGCq7x0+NA9ssTmZThKW/+uRulxHMeec+VxO2SzqIME6N3vOGclJiNM2+Sol+y0wBESrvaPkUgGGepY4RbBcYBDmzSAMRX1ham/SRXn3CzfT0fPhPtQ+rCoU41Katdfb9XeUI5wUFOcUiFbRsZ49bUYGBBxQ2E7Ot2U4KrfhmFd7p0PHtfKrxiYIDbnElxO5xCfg6dIrpGS5XzFnNAWN9nrf7rKf9PUPBz6DngNrSuMrbWXmNaT9FDyNPE4EzhbEoWTAxSCQUGkPzVa70eGLazx1GkjD+DFhQH2Rg37PY5GkMKzDMT8+jMzoKIjsbMQke/nMmUKfWRjjOlHy32S3XnV9HFM7gOihWF4Afk3Oz25qtOruq4OYBduZv+CnDeBjEAnuerIfaFKne1LwmdTTUe6ZjUYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Cartier\",\"model_family\":\"Calibre de Cartier Diver\",\"reference_number\":\"W7100056\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"rubber\",\"confidence\":0.8}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2059,
+    "output_tokens": 184,
+    "output_tokens_details": {
+     "thinking_tokens": 102
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 2059,
+  "output_tokens": 184,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.011916,
+  "cost_source": "rate-table",
+  "elapsed_s": 4.193,
+  "started_at": "2026-09-30T12:53:49.983201+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

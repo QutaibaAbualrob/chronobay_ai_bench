@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 11,
+ "repeat": 0,
+ "image_file": "011_omega_speedmaster-moonwatch-professional.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Omega",
+   "model_family": "Speedmaster Moonwatch Professional",
+   "reference_number": "310.30.42.50.01.001",
+   "movement": "manual",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.55
+  },
+  "raw_text": "{\"brand\":\"Omega\",\"model_family\":\"Speedmaster Moonwatch Professional\",\"reference_number\":\"310.30.42.50.01.001\",\"movement\":\"manual\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.55}",
+  "raw_response": {
+   "id": "msg_011CfZex3RwE9wDkmERMQ93J",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSkwgKEAgSGAI4AUIIdGhpbmtpbmcSDFkrba/KQ5SSNVj9YBoMQtChw3+VMhFLL1eJIjBaUmZn4TCBGJIbPU+Lrzh8ORnrf/CuOa6dd9+btHCzyNqpbBVMD+slSfKjfkVgfCkqsAerLO7tlkJtrpguRA4RXhUgrAoQth8FAfr9/CA957lCQPDoab9pGSG3l1xEXkljCTG1S7IxI4bkTy3hYK1vutDjBwoGQVYUsRXrvalZgAsHIQHsJuYds+VSDMggIOUTuuuMgmpplMzJ8Kb9eht3GvCcwsjbvBpXLCi5h+VBPeKpriPUbdfydDAy3zFpGkeqCdYYLnacMyCq9/BY38B+dy1Zf1sfXofLB/RowsBm0bScHkjcO17JTbmgupj5G01srLpS2Vh8MhWu1eoiuM+KjuHmKB5IuIo9SVndGhBDWOKYBTAfXFm1ZwaEw3N6Rs6w5GSvEzP1JGCj8J+rSHfF7DOVJDugAmNa9f8LA+SDAWeklDF/Ef1oBage6tXVafHHkAlsHY6LHE+cgGE+1pY6bgDNmaXakxdyR0v/oSVJHiqRe5oYtgL5VQVoHHmy47sLPKT4GloXwEiFy3zkiqx+xxFYjcRSz2KqSjTUSwm0o/qqHk0nTaNhwfd66IZDfo766Q8vgMOgTjqZjdhKh3Kfm0AvjfSUHVRIM+UL94hTcjsLdJqmcR1wqhk5N/xKSiEsMYM/HklxCdEbrpVtCaJRTQu3FyGQK8LEIF+IA7TXSx9KQvXCyRWO6aoZ5TPRszC62r9TAr6akyD20gCbTDwsXUFLLAyAHMVxkl0K2B0vv8LVlUd69zV/Naewie/sZiGJWejFkfhaEDscSNdGRGYwY2BpioNED7nvAAtBU7t2ARkx9RyhgvGECoXNwC+YqS7yADRSRhf+woN+1baDgnUA+fFiTewxv9VFmh4vm5Rq0WaDuhKr2e7Hv/qambT2poxtw5KIf3Q5khXyfWqyYVstH+z82Kq30Qf1CBik6Z6C0YxdlR4mUlu6kM6MWeSOcGhv2gJYPwuxrpRGKL89KdwdOizr7sgkbTHAfj6UB8RsTKlML7KnZTP55DCG2a4B1gBllp+BnL30x/zhi8ayx1WSWB/zXCFyySV8blncolB9jGRaynKiTfG7LXHTe9l+Z0piczr2/1yuhUmCaYUSuwnBlMRD0RZpgCCp8yOYBUVNJEpSGWz/6Cm8Ujx6NZLCvuGYlQNkekZuHr3mFdpB0L47FyoVcwVxuLHAcwRQ95s5IfDG78xCfbXUxkEbHqahV0fcuiMKacWLhyNcrAQxX9YMGAUXbBsoc2kFFZZe4VK/VfvI4MxxIhZ48yc83CxzcO8IMC/+2+rCoGoyvM79Lwp7DJsYOfC4mbYTf6WUVL0s6m8JGhgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Omega\",\"model_family\":\"Speedmaster Moonwatch Professional\",\"reference_number\":\"310.30.42.50.01.001\",\"movement\":\"manual\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.55}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4958,
+    "output_tokens": 273,
+    "output_tokens_details": {
+     "thinking_tokens": 184
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 4958,
+  "output_tokens": 273,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.025292,
+  "cost_source": "rate-table",
+  "elapsed_s": 6.62,
+  "started_at": "2026-09-30T12:52:04.615481+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

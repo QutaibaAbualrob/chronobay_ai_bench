@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 34,
+ "repeat": 0,
+ "image_file": "034_ap_royal-oak-chronograph-41.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Audemars Piguet",
+   "model_family": "Royal Oak Chronograph 41mm",
+   "reference_number": "26331ST.OO.1220ST.02",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.6
+  },
+  "raw_text": "{\"brand\":\"Audemars Piguet\",\"model_family\":\"Royal Oak Chronograph 41mm\",\"reference_number\":\"26331ST.OO.1220ST.02\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.6}",
+  "raw_response": {
+   "id": "msg_011CfZf16HukDkTvAuwPgHUr",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSzQ8KEAgSGAI4AUIIdGhpbmtpbmcSDNeOc4/L8AZWB4vwIxoM0yVFrTPAhsjyYDGoIjAlXyZ7Y2xyFvEpNSQOeoNnxUM6EKVX/H5bVqyrreglN9iqhcgE9zLvh/BNT4uSM5Uq6g70FJI8vS8SiBMlyFAUhNXwisCHD1t0sdIAxYkvqgu2uJcmBLmwQW03RjUwmDuc8nwscNNu0SWEW/ZxBc5a+ddgEW8/tlL7iLTx+amqeE9TNWb6ofe+OkWbtB3HLpFDVs4CAW053MAOhGnYkZ0t8rq48s9Gj7VNZjljxIkeZYFHjHbzaoQMRMQs0aajBvAseZJeEs2ZM//fET7gRqEZpxsz1EIFSA6Wdt/WYMvkwNtZ4gIH1DCv4wEsPUlGvqxOb3s2o1l46Xz6OzSREFeYow3cV1T+AtyKDMKz4AyZNcU1kDYFPEWoGGD4rr78wW8ZwY2Lox5Y1Fg6DGGZvJoIbDqKzQtOKLgHlzgPARHrWmkaMgwaLbivouT3qZGOtF1iDa8ZM4b2CTexgd6rRVfh02hyAlXqTa2/arkg6jGaYU9NIs670heRiSkDW1tB3Rrgvor3rFmKzbLrQXm6YtYhOZfgKOc3tYXQbzbFi4I24Lkl4U2TfK+0JybKDexC0FeXrAO9NoWPvqvU5S02haq5Mz4gIg0+bryHlrvEdQwZNEWfvKU3eD4LPX7u9Cah7+ZfspsrMvF+x7bYc1WBDuEl98nkoeyo3GazGu7t7V/Ok5opmqA9TjNKk52rddQs30Ml4WcZCPtn/WSTRqzG0Gvsc20e3jCMVp5rl3XwvQfyV/b1pgEwhipcIMGgbcEe15970a3KKMxm0XoUpIGXTs1+/AEsvvH8KUGnQX4Uj5ab2OXLCS8CDMvluJm9hdxjSv8ycq/l4ikd2F/BftKAgnrCz68SSJH4dRPzVa3vS7uAdwJKbeSI+0kum3G+fDevY9FjnYjuRfCFY9FV+W1BOQmDbnGKsA8ZKNwUujySE0WYPE1kV0tzjct1nqCTXKvnKUh4AfVMlMfjZSY5T4PB/uzZWEU3YmH58XrQ/A+Wc3AN4ofFeoT4rRzwQ8rz8tF6OHA4Th+ckDQJ9PWetJZBxq5HAeg7NHrxJLF2Pm3QBP3Rgkhq7LoUvQ4DTK26DG3+rMa0OcKx4RX5aZIOyQLJJPHvIdRzK4KYJrQoYjid9OC1dTYZTldAFS4nTkoZWnYyMpghmfxnOywE/ez7z7y8gDRqf5Gff7J/GXJk4riCqbqhyX0O1aNiE/FEFtriyiMiq8Eon7K3L3q91Qs+u6Pfd4U+StGawTfMxmJJfgWaoj7ObGLazdi+7h66XQH0EN/CMeMMUkXkSZLm1g+gLRQ4dkVQtdkzd3sGjooEoQq0Trpi9j3yQbE4DvbCFABIH9EU0ujTr0J5JShzSTsAGdcz5si7vuc7WsVNat1/zPC8q7QQy3f47+70UnTCh7xu1z4fabx+eKRUCWk0gbAKL6gRqiV+YER08yBJ72q3tTh0l37UrveB8n77WmGIbjPUsz4TUpMWwxFzk/aPiYhgrJ28i9TziB/DROi63vvt4g7En7hSgP8CfZov/1gwhVJh+fMXbHaJwPP+eGs8+qO3TyIqvUh/266ppwvWFWWOePt08yiJGslP1uDSn+RLP+Yd20XLpQ+c3vm9PTea6HmUTo0NN41Q0fuxmAVPkUmEGovq2iQ0KcZJ+c9oiR7ogey2/9hTSNKIN6dxrRDwnT1vtIXkrSEKZ7ihbYLd9L21lAfjHmNqxbibK+tah+V48qZmcX7nFpP2h/F0WWLJ/JdcGV15Te7+pQqUunDpXzPOZiQQ1/PHAIOBChBIortv3+bvXMHwIx2DGuHUaJEnfpAxxFR9ulQ/gnQveFBbZxtc81iMxPIdLNbq+qMW+YssGW54dAL/lJumrucBe1hgKgKU+LAZo2ezOLvcyYExaUNYA5LsYTHYyItDq5QrReSKSIP7SYATACCK1E61hPYPW5Afw7dk+LY1BWIDn9zxxqfKppSJmlWQgbTiZjtMOK3Ebkocgk504AlpjCBhH2C2F/HZdmxHxtCthm5O76Obphonzom3nCk53aYqD49PWezjDWEXm3ndKzggH57pm04j+gw+mYJuEQ5QLbDA0Jj1cZchrkka/nugHXhbzgG1yIH81657sKikl6q7Es7QKnYan44BrDShaD/tG2Qj6Ksjkxyzo7Bm20aGNJNaYOEpkx3ePqmghID0tgTAtEReoFzpu8P702rnYgxzPzDlFZQ5N5mlePb2c0gz+ak1BIi916zTJ9TLQTTZg0U12bz3WEB//YueSEaJPe46QDbEavI9em6WtLYM86YgWgNFcCDK3wX6WS/7dMjCM3hqkmJedwTun4w8fhQl/nuYRCrZlk+zTS58sIYzs0/9zU6/yDbPwVXACjHuhpnP0/tkDwl51V/cpLk8z3pSXiPi6B8TDX387WXCcQ+VZymJs1LoM9sI7ROu0/aXN8moDKXYBhvguFbNuH5CNeLVSWM7G2aXkyD5ZWTHNhE7qxv65pTUcwaWBVjud0fEAR+zSNgyie/lZYO0R0/F6KU6f7tqKY0cjg9eZhscybgE867R3uRGBZ/CDVPiV3GgPQDMYDtenmyV2qWfAM3ft14JhIwwiKl6+mX/3tF9jHcJeRgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Audemars Piguet\",\"model_family\":\"Royal Oak Chronograph 41mm\",\"reference_number\":\"26331ST.OO.1220ST.02\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.6}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4526,
+    "output_tokens": 711,
+    "output_tokens_details": {
+     "thinking_tokens": 613
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 4526,
+  "output_tokens": 711,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.032324,
+  "cost_source": "rate-table",
+  "elapsed_s": 10.582,
+  "started_at": "2026-09-30T12:52:46.086309+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

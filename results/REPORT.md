@@ -1,28 +1,30 @@
 # ChronoBay watch-identification benchmark
 
-Updated 2026-09-30 15:15. 100 watches in the answer key. This page is rebuilt after every run; the detailed reports it links to are never changed.
+Updated 2026-09-30 15:57. 100 watches in the answer key. This page is rebuilt after every run; the detailed reports it links to are never changed.
 
 ## Latest result per model
 
 | Model | Exact reference | Incl. look-alikes | Brand right | Cost / image | Median time | Errors | Images | Run | Detailed report |
 |---|---:|---:|---:|---:|---:|---:|---:|---|---|
+| **claude-opus-5-5** | **79.0%** (79/100) | 84.0% | 100.0% | $0.0223 | 6.2s | 0 | 100 | 2026-09-30 12:51 | [claude-opus-5-5.md](runs/2026-09-30_125151_full/claude-opus-5-5.md) |
 | **claude-sonnet-5-5-nothink** | **72.0%** (72/100) | 77.0% | 100.0% | $0.0084 | 2.5s | 0 | 100 | 2026-09-30 12:14 | [claude-sonnet-5-5-nothink.md](runs/2026-09-30_121426_full/claude-sonnet-5-5-nothink.md) |
 | **deepseek-flash** | **48.0%** (48/100) | 53.0% | 93.0% | $0.0013 | 4.9s | 2 | 100 | 2026-09-30 11:24 | [deepseek-flash.md](runs/2026-09-30_112454_full/deepseek-flash.md) |
+| **claude-haiku-4-5** | **11.0%** (11/100) | 16.0% | 89.0% | $0.0025 | 1.5s | 0 | 100 | 2026-09-30 12:56 | [claude-haiku-4-5.md](runs/2026-09-30_125653_full/claude-haiku-4-5.md) |
 
 ## Exact reference by brand
 
-| Brand | claude-sonnet-5-5-nothink | deepseek-flash |
-|---|---:|---:|
-| Audemars Piguet | 6/10 | 2/10 |
-| Breitling | 9/10 | 3/10 |
-| Cartier | 6/10 | 6/10 |
-| IWC | 9/10 | 3/10 |
-| Jaeger-LeCoultre | 4/10 | 3/10 |
-| Omega | 6/10 | 6/10 |
-| Patek Philippe | 8/10 | 6/10 |
-| Rolex | 10/10 | 8/10 |
-| Tag Heuer | 6/10 | 5/10 |
-| Vacheron Constantin | 8/10 | 6/10 |
+| Brand | claude-opus-5-5 | claude-sonnet-5-5-nothink | deepseek-flash | claude-haiku-4-5 |
+|---|---:|---:|---:|---:|
+| Audemars Piguet | 7/10 | 6/10 | 2/10 | 1/10 |
+| Breitling | 7/10 | 9/10 | 3/10 | 0/10 |
+| Cartier | 8/10 | 6/10 | 6/10 | 0/10 |
+| IWC | 7/10 | 9/10 | 3/10 | 1/10 |
+| Jaeger-LeCoultre | 7/10 | 4/10 | 3/10 | 1/10 |
+| Omega | 7/10 | 6/10 | 6/10 | 3/10 |
+| Patek Philippe | 10/10 | 8/10 | 6/10 | 2/10 |
+| Rolex | 10/10 | 10/10 | 8/10 | 2/10 |
+| Tag Heuer | 9/10 | 6/10 | 5/10 | 1/10 |
+| Vacheron Constantin | 7/10 | 8/10 | 6/10 | 0/10 |
 
 ## Read before comparing
 
@@ -42,6 +44,8 @@ Every image in the answer key (100). Compare these.
 
 | Run | Models | Images | Summary | Detailed reports |
 |---|---|---:|---|---|
+| 2026-09-30_125653_full | claude-haiku-4-5 | 100 | [summary](runs/2026-09-30_125653_full/summary.md) | [claude-haiku-4-5](runs/2026-09-30_125653_full/claude-haiku-4-5.md) |
+| 2026-09-30_125151_full | claude-opus-5-5 | 100 | [summary](runs/2026-09-30_125151_full/summary.md) | [claude-opus-5-5](runs/2026-09-30_125151_full/claude-opus-5-5.md) |
 | 2026-09-30_121426_full | claude-sonnet-5-5-nothink | 100 | [summary](runs/2026-09-30_121426_full/summary.md) | [claude-sonnet-5-5-nothink](runs/2026-09-30_121426_full/claude-sonnet-5-5-nothink.md) |
 | 2026-09-30_112454_full | deepseek-flash | 100 | [summary](runs/2026-09-30_112454_full/summary.md) | [deepseek-flash](runs/2026-09-30_112454_full/deepseek-flash.md) |
 

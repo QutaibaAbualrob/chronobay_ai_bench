@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 45,
+ "repeat": 0,
+ "image_file": "045_tagheuer_carrera-date.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Tag Heuer",
+   "model_family": "Carrera Date 39mm",
+   "reference_number": "WBN2110.BA0639",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.5
+  },
+  "raw_text": "{\"brand\":\"Tag Heuer\",\"model_family\":\"Carrera Date 39mm\",\"reference_number\":\"WBN2110.BA0639\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.5}",
+  "raw_response": {
+   "id": "msg_011CfZf2WSzazxzuLT3Zwwup",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS8QoKEAgSGAI4AUIIdGhpbmtpbmcSDAg0x4GUEnSYDjO0rBoMjNEfdqI35n6J0M8NIjB5Jd2SjTEBp9jUBCzAghIsn171GLrTOLVXh+Vk2BYYc5OtETkCKY2bZvz//TblLFEqjgr+jpok+GTOfvc6JfWEYyC0tUKu3klBT9Ihrht0vPSQNnj+fj2Ecwpl+53BUpELSxT2zy1fWVyqaZ/GwjGjBYSKjR9ckOSXuKkFzPm9Qe1VWbbbIDnzPDu0W7wt9xVTLwm5umhTPYE8b6D3DjkzP7MsD5bPJB/MXxwY2JRkfKZBUF7Ea1MqKtt2ICpJAkVeHIQF+Fmk4dRjo2ME89od+Psf/Ru/9hTpb8aEnKN85jzSqcmzcR9c8NkOEowLih7pt3+YQKSBQSP0v8sLLxJREMHwtW4nWWAYsTtkhCKJb0Ib9mr17jH90ESCPJZgQEjrgZaj7gvYxBlf1zanwcgR1Weoh+DmuCRfH1cOZ58zrlJtBioyQa46xHryQYsDjKbgBVII3X4kVpf1Jh7/fsliaj9JgPc7j9XJy0nOtTycAwxCrgNEFMkDQGBA+3L1OQ/shANv0mcbcf5EGnvitrpCAigefV1La+ttKPNEzJDT8ZanfNj4QeJ4jwV1bNiWw9pA+XVAfOtsp9YyX0BXmKIgfZ/aLvwSKFgRW6bjvHLxqgtgA9zgrLACs3F1AJzpjpVIn6YhWvHcbpcj57CFoykVLClCJd4806F0OksP0g21Jwk/ycQLDLnqJJL3Xo8kI2Mv10egV1HbXAtlSTIt9/9neUk+am2fbDX0hlu+odLGwcGXzPPDpSWaMSK2eCnVanzDHVoW43+gQj685eldaAS3p54WK6IeLaH0LLci6FCq9JNxML8OU7Fhj0oGn3Q3SFMCUuMxg57CB/V0J/YdcKs9MN990NuH52NfcLhUmIKAaJB9PI12+UewobefRpbsoDSEVfWINaIBVtmIGOpHmQYpgks5SnNzs5O2BfEOTqnipqavzSVqsuKLsyGGWrY3WiAnX268cTh75dBrHwx+BolAY96Ygf+SXXepwpl28bPvph9gD7MK3081DsMMzV/OWUspZKgH2cQSNn65O2EVBiIZ/VBNKboCcyeZXuUo3NAYreXocn74/DHa0VXf3DThb6FalLlkvdy1O4CQJXQEH1wG8zCXVbjTaDVwJ2RwuBUf4NdRY60iTqz80pOFd6YOqQQGgSyRMrUEOkVNFLlWmunO6N/upaI8HQHew2Axazz6C0VNzIq2LmTH13c4BJb5tH6IeIXUeqXHVYpshlibneGi8ih7sbBkSlzpJq0POiViaD9WWzCXVNBZO+Ox/XQZY+KG3bxlKMofanjZXuZzD97Donm4T2h5wTNAL3kSAm/MYCHo/igzHeawyMRV0nuTB7mLvAvj/2a8SbS4ERFbF7YFpAZ+kaIO/429dI//Bm8tyv2J/v5xe9NrsBYSkEu8Nj/3tMfQL+/nyC42w+UEg7BU28EF4+Q7JgoLxPqth3zBDxQTrcQMGqnPL2EhGWiDadA1qz1Y3OMNYBjNEshhDULHlxzsPNNumUxviDBGQBk7bRUy9YcGO1jn5tBogyt3cOvj30H+0LaqTOzkh5FDsZ9tWlIje530CUDObTRJlJCB3MYj8vIjrNosA1zdeIRFnWox/OeVzRzp+t3n62sOCNX1n52Y90uxPtkF9Fqt/+hJNYJWdd9lQ9mykTTefeiDGhAgOGTvOgBQb8/cj4qsi0yb657pRP93bFwAnlI+YrNcJmSTL0P0W/shD2xZ3XF5+dN/ee5slgnHo9J/FTPVzrJt9Krfr4Hhl1ZSs3sfkv3Jl1HoVLShJSktntSoduuzMnRYGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Tag Heuer\",\"model_family\":\"Carrera Date 39mm\",\"reference_number\":\"WBN2110.BA0639\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.5}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2489,
+    "output_tokens": 493,
+    "output_tokens_details": {
+     "thinking_tokens": 405
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 2489,
+  "output_tokens": 493,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.019816,
+  "cost_source": "rate-table",
+  "elapsed_s": 9.757,
+  "started_at": "2026-09-30T12:53:05.316752+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

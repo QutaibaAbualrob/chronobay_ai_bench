@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 68,
+ "repeat": 0,
+ "image_file": "068_cartier_tank-francaise.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Cartier",
+   "model_family": "Tank Française",
+   "reference_number": "WSTA0065",
+   "movement": "quartz",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.55
+  },
+  "raw_text": "{\"brand\":\"Cartier\",\"model_family\":\"Tank Française\",\"reference_number\":\"WSTA0065\",\"movement\":\"quartz\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.55}",
+  "raw_response": {
+   "id": "msg_011CfZf5hysGvBcJZQky47KQ",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS3ggKEAgSGAI4AUIIdGhpbmtpbmcSDM/bRJ8ksPSVnn8UeRoMmmbZq+2NNg7zwMfPIjB4YEq8yVWyV6Tgx94EO10mVGU9VRsO3fWD8ILYg6UlLjnebgFjc/xFNER0hjsg+zcq+wd2NLuH5QeFMIW7UiVAB3llznwDLemUfKTbZJVuT+/sqfTxyaC9qs1a/dmir9I4CPmQWEnzX3qVU0M9aVcFFUzJkifcuhYwkVNggblzt/VhhzagW1/7h7mRc3278C/ICQ2gugofAsesHtIGYOmX3ZQEtqoFj56fBHOBgaCcjro3KX93rlhXbC2iknOC/w3MljPuppf3ehuTj5PhFNtFibZwuYpOlI9nDppS6YJPHuAtqK7WUQmb54zJNGhkkgRxO37fz+ifKHx+2YtQfvAzghzonAE/B/FomGXAJX3fxgIi7Lgvg8Dm4V6H2TXTsa9di1lKwPSTaH0M+8RglotraG24HPMPZQUMlieQ0QjDUm6NPe01mlH/Yfad3t6UOJrDlRDLh2tnROOa+ve2rn5kp0CfBrO3JcoCXo9yDx8Z3qy3r8aM4eii6vQyPZNfXJs3iayKUkUwqulSvm63AFEOK54Fikp/2zVzEwEN0mDY+hUAOtJUzqBdy5fBzjf5CrEkPeoeRgYcmsDpzCPZyzoXENotznuv3xUqp2Pi50ckgD8M/kf8rJhB2lUQyuYPPmDz2ksip1ZFzn2gN4HELiBZ0GStjgKGcJzt6cWMl2nZeF3r9VhhBA6mukY994IJ45LyiZkzuUNltkf+3R9kln+36rSs7mvTTbbygjwM7PeZxt+kvI3pInqVbXle+ytt1Uq0y0iaB1N/bBH6n6su40VjJ0IyVfBEG0x4JyfGiRP5CZNHUny8QKqOR47k6p9C2pF/JGezLpycjGyC8+rpOR0PKc6FTlaWBzLcdNJpCJlYkOT6WAj4qXLjEZVLEhNAllfRAh8OPZRGnNzyJxOwXG4geZdt7qSpSVuyPHkdx/nSHwmyfmT/fJJTVU2nHfVLthPJU5cKxd2zyALVO1DK6Oin9k7ACQmWO40S4pZ/yQIXjkEAZCvG34ujQrMhp8ZruIYtW99U6BrTSYmRQasb/j9eLWkNXptHcirTsXEWkt2pwqW0Yb2QowmyKtyQU1izYRBKdHs/RPIWukO3hNKCKGLjlyYGT/QcoVCYZEMKxLLSSW1zBujWjq+iJydQw8hePhtvJGNJCIlsFL05ErhtzwaJ6MxN+wUshX/DkdAPD+0om2hARQP8yzAckKjgu0s/T6v1C9Bbl2JTbGQ3qCkx6cPR0nDhksGyQOmO86aXXdf/dLPRwNLEZSf7X1ADGJdLqQo+V4VnF5CeZ/7TLr0Umk9qzxIh1lwMLuz0KrM8Q8XydeWCyIK10Paie9k3qw1LIKql9eJ1b+1dE1bK/CFj4thyBn/f6s8g4gNg1bLgJYV0jY25FCagoFc3ibF5xkIUsDCpwJVWlZq82PBLr3xE1hgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Cartier\",\"model_family\":\"Tank Française\",\"reference_number\":\"WSTA0065\",\"movement\":\"quartz\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.55}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4958,
+    "output_tokens": 312,
+    "output_tokens_details": {
+     "thinking_tokens": 236
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 4958,
+  "output_tokens": 312,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.026072,
+  "cost_source": "rate-table",
+  "elapsed_s": 8.18,
+  "started_at": "2026-09-30T12:53:48.698365+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}

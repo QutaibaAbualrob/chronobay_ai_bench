@@ -1,0 +1,71 @@
+{
+ "run_id": "2026-09-30_125151_full",
+ "model_name": "claude-opus-5-5",
+ "provider": "anthropic",
+ "provider_model": "claude-opus-5-5",
+ "mode": "schema",
+ "row_id": 23,
+ "repeat": 0,
+ "image_file": "023_patek_calatrava-white-gold.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_family": "Calatrava",
+   "reference_number": "5227G-010",
+   "movement": "automatic",
+   "case_material": "gold",
+   "bracelet_material": "leather",
+   "confidence": 0.6
+  },
+  "raw_text": "{\"brand\":\"Patek Philippe\",\"model_family\":\"Calatrava\",\"reference_number\":\"5227G-010\",\"movement\":\"automatic\",\"case_material\":\"gold\",\"bracelet_material\":\"leather\",\"confidence\":0.6}",
+  "raw_response": {
+   "id": "msg_011CfZeyasKwDakeCKVmNvb5",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSlgkKEAgSGAI4AUIIdGhpbmtpbmcSDKYgT4ky+2MiGCw+AxoMVJiC9tY3n8fxvJbOIjAQS23gDO1WQO1wFJf285QDc87GLcGabH+fHjqaZXJUw8/Zjj4WG0qNWZOrjQIfX0sqswiAFnfB6+EE5D6Nv4aVtmiTNwsKN0r5H8p2or8VvWIndNThO1LksBPFANLWEKuBH5/lOz5h8OBWFjZbRWvVkq/v6QELzmfFgKIZiAMVGzYaqM7fMSR9CkWHUP7vXci2Itzn8jg+F3/ctxeAUG2hDmUsXuASBx28Vfk9xvMsAP83tZlU5zyNCVnjKTfh4mIaCKJf2/3wdSjDHv4NevHZO3l44BLlGCX4m28rGvdF4IVmIA87qxKyXBXHhAkrgCaqhT2Rf9x65VT//FUe3p2EuF9Aj7J7yso+zXUJvu2WvqeemT4I3qXsxEuK7gopfZlxqQptHJS4i21MXqjdpiZB0feG0+VlSAd6kWTngB5//tHLGFsBQNBOh37mT02HF5ILU4H/Y/L+YhGyH7nc86heAuZVqJ8t36xaEESLrqi7GWaaoUNIDU5K9rGrmn/5NlQg4Jg+ZmtN9dcM0nWwC8huziYB9sWYR3ihQntE+U/2jociBpibasQY8lz7YC/eLrUhpjMuPf+QP9st2Tg7U1MsQ7VyFb53BS6CF18ATHI9/CvyYcbhPuyNkaM7QIvF/tOBW9zI11sg9gOBogLS+ZC2kqlqRzaSflu7vrnDSVmz1VHQvsyheUzl7lW2y4VvVuMHNTsf0ag/X25IAYmph4fpr+eXoBYxaRP+LUQpB7i5hdXnHd6VAQDpYIR4PQGzI7mDiZOQdn6fp6OT0PcSdq6o7xPsVtfDf+0ER/5QtP6YNQeIwe3obrXDmJbP1lDqU3JippWEiJEOKPLznLMNj2qK8vrM2jqd5ry5RCYbug7vED7LT7wneloI6M9CGenj2lKSe9tEp7dfPfys9hm/FS+LDBTbfA3lFotnJZwLRYuSu1btYMdHxXMOUP5wbJymlvV1EUC4U9rDitOD9iQUMW0F0AId93kTz8Ls/7R0UqVgtxyHnldDMdR7Xcc80Ujr++r2W/+4pKMVtjbLuQShzSqlLEtnqEwS9RiTiEmh4jlefRDTzjs77I6umgBClUKml00sYVC8qLRRARwkI+c4x9w7KkoyasAxU0MSWa2d2pj2Z1pqxmnxDxqlBZXPgXN1Rt8dkZlsqaRYF4vm8/LgaO35rEUnScDZcfImOJ9k0AW2DmNhaGrUe+4hf0F6xUcA0sde0Xi2T4UVizbbaCY0heVVfHSxvKC14omTwcxfpwqVsGcmPqFie4VpEQ+PnkDlHhxZ8YRqPUn+Gk/o3kGOIgNZBOuGKbl6Dw1B+jk41077ANuMOaojozqB+eqRRfO82/KpYjt7yojHs5aE504NKZfkbVgk+DD5q1UpYy2Wza6kT8YWNLRKUk9jQdixJllT5UTPkXQmoVZY7mRKgGd9uT54U/TFWhia+85ovUQTGsNJa8OVm23n3Een2s0Apeijlv3eE/Yva6HBBNGlMPPStaop7iRAYRbjGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "{\"brand\":\"Patek Philippe\",\"model_family\":\"Calatrava\",\"reference_number\":\"5227G-010\",\"movement\":\"automatic\",\"case_material\":\"gold\",\"bracelet_material\":\"leather\",\"confidence\":0.6}",
+     "type": "text"
+    }
+   ],
+   "diagnostics": null,
+   "model": "claude-opus-5-5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "end_turn",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4526,
+    "output_tokens": 313,
+    "output_tokens_details": {
+     "thinking_tokens": 239
+    },
+    "service_tier": "standard"
+   }
+  },
+  "input_tokens": 4526,
+  "output_tokens": 313,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.024364,
+  "cost_source": "rate-table",
+  "elapsed_s": 6.228,
+  "started_at": "2026-09-30T12:52:25.656868+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "claude-opus-5-5"
+ }
+}
