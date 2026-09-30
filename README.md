@@ -101,7 +101,14 @@ results/
   raw/<run_id>/             every raw API response + meta.json (gitignored)
 ```
 
-`REPORT.md` is rebuilt after every run and re-score. It prefers each model's
-latest full-dataset run over a smaller smoke test. Run folders are never
-overwritten. `score` re-reads `raw/`, so fixing the answer key never costs a
-re-run.
+A run over every image is a **full run** (`2026-09-30_112454_full`). A run over
+part of them (`--limit`, `--ids`) is a **test run**
+(`2026-09-30_112430_test-3img`): it checks that a model or setting works before
+paying for the full run, and its accuracy is not comparable. Test runs say so
+in the folder name, in every report title, and in their own section of
+`REPORT.md`.
+
+`REPORT.md` is rebuilt after every run and re-score. It shows each model's
+latest full run, and falls back to a test run (marked "TEST RUN only") when a
+model has no full run yet. Run folders are never overwritten. `score` re-reads
+`raw/`, so fixing the answer key never costs a re-run.

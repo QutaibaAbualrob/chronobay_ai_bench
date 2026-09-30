@@ -1,0 +1,70 @@
+{
+  "run_id": "2026-09-30_112454_full",
+  "model_name": "deepseek-flash",
+  "provider": "deepseek",
+  "provider_model": "deepseek-flash",
+  "mode": "prompt",
+  "row_id": 40,
+  "repeat": 0,
+  "image_file": "040_ap_royal-oak-double-balance-wheel-openworked.jpg",
+  "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+  "result": {
+    "parsed": {
+      "brand": "Audemars Piguet",
+      "model_family": "Royal Oak Double Balance Wheel Openworked",
+      "reference_number": "15407ST.OO.1220ST.01",
+      "movement": "automatic",
+      "case_material": "stainless-steel",
+      "bracelet_material": "metal",
+      "confidence": 0.35
+    },
+    "raw_text": "{\"brand\": \"Audemars Piguet\", \"model_family\": \"Royal Oak Double Balance Wheel Openworked\", \"reference_number\": \"15407ST.OO.1220ST.01\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.35}",
+    "raw_response": {
+      "attempts": [
+        {
+          "id": "f293fee8-5a7b-495a-acc0-cfcd8af7e93e",
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "logprobs": null,
+              "message": {
+                "content": "{\"brand\": \"Audemars Piguet\", \"model_family\": \"Royal Oak Double Balance Wheel Openworked\", \"reference_number\": \"15407ST.OO.1220ST.01\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.35}",
+                "role": "assistant",
+                "reasoning_content": "The image shows an Audemars Piguet Royal Oak, appears to be a skeleton/openworked version. The case appears to be titanium or white gold with a frosted/grey finish — actually this looks like the Royal Oak \"Jumbo\" Extra-Thin Openworked, or possibly the Royal Oak Double Balance Wheel Openworked in titanium... Hmm. The grey matte finish with brushed bracelet looks like titanium — AP Royal Oak \"Jumbo\" Extra-Thin Openworked in titanium? Or the Royal Oak Selfwinding Skeleton.\n\nActually there's a known reference: 16204 (Royal Oak Extra-Thin Openworked) in yellow gold, white gold, or steel. There's also 15407 (Double Balance Wheel Openworked) in steel and rose gold. The 15407ST has a steel case with openworked dial. The image shows grey/dark grey case — hmm, this could be a titanium version. There's also the Royal Oak \"Jumbo\" Extra-Thin Openworked 16204ST in steel? Actually 16204ST.OO.1240ST.01 is steel. Hmm.\n\nThe dial here seems plain skeleton with gold-toned balance wheel visible and bridges in grey/dark rhodium. Actually the wheels appear gold — that's characteristic of the 15407ST? The 15407ST double balance wheel has grey NAC-coated bridges with two balance wheels. In this photo, hard to see two balance wheels.\n\nAlternatively, this might be the AP Royal Oak Openworked in titanium — ref 16204ST? Let's consider the \"Royal Oak Selfwinding Skeleton\" 15305ST (steel with openworked dial and movement, rhodium finish) — this looks dark grey though.\n\nActually the photo could be a replica/AI image. Skeleton Royal Oaks with frosted grey titanium look... There's a \"Royal Oak Openworked\" in titanium — reference 16204TI? I'm not certain.\n\nThe most common reference that matches \"Royal Oak Double Balance Wheel Openworked\" in steel: 15407ST.OO.1220ST.01. The steel version has a steel case, black/dark grey movement finish with gold balance wheels. Hmm, actually the 15407ST's movement has NAC coating making it dark grey, with pink gold balance wheels. That matches the photo: dark grey skeleton dial with gold balance wheels visible, steel case and steel bracelet with the matte brushed look.\n\nGiven the lighting, the case looks greyish/matte — could be titanium (the 15407 also had a titanium... no). Let me go with 15407ST.OO.1220ST.01 and confidence ~0.4.\n\nAlternatively, the \"Royal Oak Jumbo Extra-Thin Openworked\" 16204ST.OO.1240ST.01 — skeleton dial, extra-thin. The photo's watch has a thick case? Hard to tell. The 16204 has an openworked dial that's dark? 16204ST has rhodium-toned grey openworked movement. Hmm.\n\nThe 15407 is 41mm with a \"double balance wheel\". The 16204 is 39mm jumbo extra-thin. The photo watch appears to have a reasonably thick case with big visible bezel — but that's the Royal Oak look.\n\nI'll go with 15407ST.OO.1220ST.01, confidence 0.35.\n\nCase material: stainless-steel (could be titanium). Bracelet: metal.\n\nMovement: automatic.\n\nActually, hmm, let me reconsider — the image looks like the case has a matte grey finish typical of titanium, and the AP \"Royal Oak Double Balance Wheel Openworked\" titanium? There isn't one in titanium I believe. There is the 15407 in steel and 15407OR rose gold and 15407BA. The steel is 15407ST.OO.1220ST.01.\n\nGo with that."
+              }
+            }
+          ],
+          "created": 1790767602,
+          "model": "deepseek-flash",
+          "object": "chat.completion",
+          "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "usage": {
+            "completion_tokens": 895,
+            "prompt_tokens": 675,
+            "total_tokens": 1570,
+            "completion_tokens_details": {
+              "reasoning_tokens": 815
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "prompt_cache_hit_tokens": 128,
+            "prompt_cache_miss_tokens": 547
+          }
+        }
+      ]
+    },
+    "input_tokens": 675,
+    "output_tokens": 895,
+    "cached_input_tokens": 128,
+    "cost_usd": 0.000619434,
+    "cost_source": "rate-table",
+    "elapsed_s": 6.161,
+    "started_at": "2026-09-30T11:26:41.977639+00:00",
+    "attempts": 1,
+    "error": null,
+    "error_detail": null,
+    "served_model": "deepseek-flash"
+  }
+}

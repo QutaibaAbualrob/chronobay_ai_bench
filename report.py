@@ -108,6 +108,7 @@ def summarize(model_name: str, model_meta: dict, records: list[dict], gt: dict[i
         "raw_match": raw_match,
         "n": n,
         "images": len({i["row_id"] for i in items}),
+        "dataset_size": len(gt),
         "passes": passes,
         "strict": sum(i["strict"] for i in items),
         "lenient": sum(i["lenient"] for i in items),
@@ -169,9 +170,26 @@ def _errors_line(s: dict) -> str:
     return f"{sum(s['errors'].values())} ({parts})"
 
 
+def run_kind(images: int, dataset_size: int) -> dict:
+    """A run over only part of the answer key is a TEST run: it shows that a model works,
+    but its accuracy is not comparable with a full run."""
+    if images >= dataset_size:
+        return {"kind": "full", "label": f"FULL RUN ({images} images)", "suffix": "_full"}
+    return {"kind": "test", "label": f"TEST RUN ({images} of {dataset_size} images)",
+            "suffix": f"_test-{images}img"}
+
+
+def _kind(s: dict, dataset_size: int | None = None) -> dict:
+    return run_kind(s.get("images", s["n"]), dataset_size or s.get("dataset_size") or s.get("images", s["n"]))
+
+
+TEST_WARNING = ("**TEST RUN** — only {images} of the {size} images. It checks that the model works; "
+                "don't compare its accuracy with full runs.")
+
+
 def headline(s: dict) -> str:
     started = (s.get("started_at") or "")[:16].replace("T", " ")
-    title = f"{s['model']}   -   {started} UTC   [{s['mode']} mode]"
+    title = f"{s['model']}   -   {_kind(s)['label']}   -   {started} UTC   [{s['mode']} mode]"
     hc = s["high_confidence"]
     lines = [
         title,
@@ -191,7 +209,11 @@ def headline(s: dict) -> str:
 
 
 def to_markdown(s: dict, gt: dict[int, dict]) -> str:
-    out = [f"# {s['model']}", "", "```", headline(s), "```", ""]
+    kind = _kind(s)
+    out = [f"# {s['model']} — {kind['label']}", ""]
+    if kind["kind"] == "test":
+        out += ["> " + TEST_WARNING.format(images=s.get("images", s["n"]), size=s.get("dataset_size")), ""]
+    out += ["```", headline(s), "```", ""]
     notes = [MODE_NOTES.get(s["mode"]), PROVIDER_NOTES.get(s["provider"])]
     notes = [n for n in notes if n]
     if notes:
@@ -224,7 +246,11 @@ def to_markdown(s: dict, gt: dict[int, dict]) -> str:
 
 def comparison_markdown(run_label: str, summaries: list[dict]) -> str:
     ranked = sorted(summaries, key=lambda s: (-(s["strict"] / s["n"] if s["n"] else 0), s["model"]))
-    out = [f"# Comparison — {run_label}", "", "```",
+    out = [f"# Comparison — {run_label}", ""]
+    s0 = summaries[0] if summaries else None
+    if s0 and _kind(s0)["kind"] == "test":
+        out += ["> " + TEST_WARNING.format(images=s0.get("images", s0["n"]), size=s0.get("dataset_size")), ""]
+    out += ["```",
            f"{'MODEL':<26}{'STRICT':>8}{'LENIENT':>9}{'COST':>11}{'$/IMAGE':>10}{'MEAN':>8}{'P95':>8}  MODE"]
     for s in ranked:
         cost = f"${s['cost_usd']:.4f}" if s["cost_usd"] is not None else "n/a"
@@ -334,9 +360,11 @@ def build_index(results_dir: Path, dataset_size: int) -> Path:
             med = f"{s['time']['median_s']:.1f}s" if s["time"].get("median_s") is not None else "n/a"
             errs = sum(s["errors"].values())
             images = f"{s.get('images', s['n'])}" + (f" x{len(s['passes'])}" if len(s["passes"]) > 1 else "")
-            if s.get("images", s["n"]) < dataset_size:
-                images += " (partial)"
-            out.append(f"| **{s['model']}** | **{_pct(s['strict'], s['n'])}** ({s['strict']}/{s['n']}) "
+            tag = ""
+            if _kind(s, dataset_size)["kind"] == "test":
+                images = f"{s.get('images', s['n'])} of {dataset_size}"
+                tag = " (TEST RUN only)"
+            out.append(f"| **{s['model']}**{tag} | **{_pct(s['strict'], s['n'])}** ({s['strict']}/{s['n']}) "
                        f"| {_pct(s['lenient'], s['n'])} | {_pct(s['brand_ok'], s['n'])} | {per} | {med} | {errs} "
                        f"| {images} | {_run_time(s)} | [{s['model']}.md]({rel(path.with_suffix('.md'))}) |")
 
@@ -375,16 +403,30 @@ def build_index(results_dir: Path, dataset_size: int) -> Path:
     runs: dict[str, list[tuple[Path, dict]]] = {}
     for path, s in found:
         runs.setdefault(path.parent.name, []).append((path, s))
-    out += ["", "## All runs", "", "| Run | Models | Images | Summary | Detailed reports |", "|---|---|---:|---|---|"]
-    for folder in sorted(runs, reverse=True):
-        items = sorted(runs[folder], key=lambda ps: ps[1]["model"])
-        s0 = items[0][1]
-        kind = " (re-score)" if s0.get("rescored_at") else ""
-        links = ", ".join(f"[{s['model']}]({rel(p.with_suffix('.md'))})" for p, s in items)
-        summary = results_dir / "runs" / folder / "summary.md"
-        summary_link = f"[summary](runs/{folder}/summary.md)" if summary.exists() else ""
-        out.append(f"| {folder}{kind} | {', '.join(s['model'] for _, s in items)} | {s0.get('images', s0['n'])} "
-                   f"| {summary_link} | {links} |")
+    sections = {
+        "full": ["", "## Full runs", "", f"Every image in the answer key ({dataset_size}). Compare these."],
+        "test": ["", "## Test runs", "",
+                 "A subset of the images, to check that a model or setting works before paying for a full run. "
+                 "Not comparable with full runs — a few images say little about accuracy."],
+    }
+    for kind_name, header in sections.items():
+        folders = [f for f in sorted(runs, reverse=True) if _kind(runs[f][0][1], dataset_size)["kind"] == kind_name]
+        out += header + [""]
+        if not folders:
+            out.append("None yet.")
+            continue
+        out += ["| Run | Models | Images | Summary | Detailed reports |", "|---|---|---:|---|---|"]
+        for folder in folders:
+            items = sorted(runs[folder], key=lambda ps: ps[1]["model"])
+            s0 = items[0][1]
+            rescore = " (re-score)" if s0.get("rescored_at") else ""
+            links = ", ".join(f"[{s['model']}]({rel(p.with_suffix('.md'))})" for p, s in items)
+            summary = results_dir / "runs" / folder / "summary.md"
+            summary_link = f"[summary](runs/{folder}/summary.md)" if summary.exists() else ""
+            images = s0.get("images", s0["n"])
+            images = f"{images} of {dataset_size}" if kind_name == "test" else f"{images}"
+            out.append(f"| {folder}{rescore} | {', '.join(s['model'] for _, s in items)} | {images} "
+                       f"| {summary_link} | {links} |")
 
     index = results_dir / "REPORT.md"
     index.write_text("\n".join(out) + "\n", encoding="utf-8")

@@ -185,7 +185,9 @@ def load_config(required: bool):
 
 def settings(cfg) -> dict:
     return {"max_output_tokens": getattr(cfg, "MAX_OUTPUT_TOKENS", 16000),
-            "timeout_s": getattr(cfg, "REQUEST_TIMEOUT_S", 180)}
+            "timeout_s": getattr(cfg, "REQUEST_TIMEOUT_S", 180),
+            "anthropic_workspace_id": (getattr(cfg, "ANTHROPIC_WORKSPACE_ID", "")
+                                       or os.environ.get("ANTHROPIC_WORKSPACE_ID", ""))}
 
 
 def api_key(cfg, provider: str) -> str:
@@ -361,7 +363,8 @@ def cmd_run(args) -> int:
         return 1
 
     prompt = cfg.PROMPT
-    print(f"{len(selected)} images x {args.repeats} pass(es) x {len(models)} model(s)\n")
+    kind = report.run_kind(len(selected), len(rows))
+    print(f"{kind['label']}: {len(selected)} images x {args.repeats} pass(es) x {len(models)} model(s)\n")
     total = print_estimate(estimate(models, selected, args.repeats, prompt))
     if not args.yes:
         if not sys.stdin.isatty():
@@ -377,7 +380,7 @@ def cmd_run(args) -> int:
         images[r["id"]] = (base64.standard_b64encode((IMAGES_DIR / r["image_file"]).read_bytes()).decode(), mime)
 
     now = datetime.now(timezone.utc)
-    run_id = now.strftime("%Y-%m-%d_%H%M%S")
+    run_id = now.strftime("%Y-%m-%d_%H%M%S") + kind["suffix"]
     run_dir = RAW_DIR / run_id
     run_dir.mkdir(parents=True)
     prompt_hash = _sha256(prompt.encode())
@@ -404,7 +407,7 @@ def cmd_run(args) -> int:
     meta["finished_at"] = datetime.now(timezone.utc).isoformat()
     (run_dir / "meta.json").write_text(json.dumps(meta, indent=2, ensure_ascii=False), encoding="utf-8")
     summaries = [report.summarize(n, meta["models"][n], all_records[n], gt) for n, _ in models]
-    return finish(summaries, gt, run_id, f"run {run_id}", run_dir)
+    return finish(summaries, gt, run_id, f"{kind['label']} - run {run_id}", run_dir)
 
 
 def finish(summaries: list[dict], gt: dict, folder_name: str, label: str, run_dir: Path,
@@ -452,8 +455,10 @@ def cmd_score(args) -> int:
                 for p in sorted((run_dir / report.safe_name(name)).glob("*.json"))]
         summaries.append(report.summarize(name, model_meta, recs, gt, raw_match=args.raw_match))
     now = datetime.now(timezone.utc)
+    kind = report.run_kind(len(meta["rows"]), len(gt))
     return finish(summaries, gt, f"{meta['run_id']}_rescored_{now:%Y-%m-%d_%H%M}",
-                  f"run {meta['run_id']}, re-scored {now:%Y-%m-%d %H:%M} UTC", run_dir, rescored_at=now.isoformat())
+                  f"{kind['label']} - run {meta['run_id']}, re-scored {now:%Y-%m-%d %H:%M} UTC", run_dir,
+                  rescored_at=now.isoformat())
 
 
 def cmd_validate(_args) -> int:

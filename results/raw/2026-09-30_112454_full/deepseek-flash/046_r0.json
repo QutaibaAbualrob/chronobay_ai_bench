@@ -1,0 +1,70 @@
+{
+  "run_id": "2026-09-30_112454_full",
+  "model_name": "deepseek-flash",
+  "provider": "deepseek",
+  "provider_model": "deepseek-flash",
+  "mode": "prompt",
+  "row_id": 46,
+  "repeat": 0,
+  "image_file": "046_tagheuer_aquaracer-professional-200-solargraph.jpg",
+  "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+  "result": {
+    "parsed": {
+      "brand": "Tag Heuer",
+      "model_family": "Aquaracer Professional 200 Solargraph",
+      "reference_number": "WBP1110.BA0627",
+      "movement": "solar",
+      "case_material": "stainless-steel",
+      "bracelet_material": "metal",
+      "confidence": 0.4
+    },
+    "raw_text": "{\"brand\": \"Tag Heuer\", \"model_family\": \"Aquaracer Professional 200 Solargraph\", \"reference_number\": \"WBP1110.BA0627\", \"movement\": \"solar\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.4}",
+    "raw_response": {
+      "attempts": [
+        {
+          "id": "03fee903-1113-4805-877a-f83179df2600",
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "logprobs": null,
+              "message": {
+                "content": "{\"brand\": \"Tag Heuer\", \"model_family\": \"Aquaracer Professional 200 Solargraph\", \"reference_number\": \"WBP1110.BA0627\", \"movement\": \"solar\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.4}",
+                "role": "assistant",
+                "reasoning_content": "The watch is a TAG Heuer Aquaracer Professional 200 Solargraph. The dial says \"AQUARACER SOLARGRAPH 200 m / 660 ft SWISS MADE\". Steel case and bracelet, black dial with rose gold accents. The reference — the Solargraph 40mm with steel bracelet is WBP1110.BA0627? Let me think.\n\nThe TAG Heuer Aquaracer Professional 200 Solargraph 40mm steel: WBP1110.BA0627 is the black dial version? Actually the Solargraph references:\n- WBP1111.BA0627 — steel with black dial? \n- The Solargraph was introduced in 2022 as WBP1111.BA0627 (40mm, steel, black dial with rose gold accents? ) Hmm.\n\nKnown Solargraph references:\n- WBP1110.BA0627: 40mm steel, blue dial? \n- WBP1111.BA0627: black/grey dial\n- WBP1112.BA0627: ?\n- Also titanium versions WBP1180.BF0000.\n\nCommon cited: TAG Heuer Aquaracer Professional 200 Solargraph 40mm WBP1111.BA0627 with black dial and rose gold accents? Actually I recall the Solargraph \"WBP1110.BA0627\" being the black dial with rose gold plated hands. Let me think further.\n\nThe original Solargraph (2022) was the \"Solar Dial\" with grey/black striped dial, steel bracelet, 40mm — reference WBP1110.BA0627. Yes, I believe WBP1110.BA0627 is the titanium? No, titanium Solargraph is WBP1180.BF0000 (40mm titanium, rubber strap?). Hmm.\n\nTAG Heuer Aquaracer Professional 200 Solargraph:\n- WBP1110.BA0627 — 40mm steel, black dial (Solargraph)\n- WBP1111.BA0627 — 40mm steel, blue?\n- WBP1112.BA0627 — green?\n- WBP1180.BF0000 — titanium with... Actually the titanium Solargraph 40mm is WBP1180.BF0000? \n\nAlso there's the 34mm Solargraph WBP1113... Hmm.\n\nAlso the \"Solargraph\" with the striped dial — I think the steel with black striped dial and rose gold hands is WBP1110.BA0627. I'll go with that, confidence moderate ~0.35.\n\nMovement: solar (light-powered quartz). The category only allows automatic, manual, quartz, solar, hybrid, unknown — so \"solar\"."
+              }
+            }
+          ],
+          "created": 1790767613,
+          "model": "deepseek-flash",
+          "object": "chat.completion",
+          "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "usage": {
+            "completion_tokens": 652,
+            "prompt_tokens": 1361,
+            "total_tokens": 2013,
+            "completion_tokens_details": {
+              "reasoning_tokens": 576
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "prompt_cache_hit_tokens": 128,
+            "prompt_cache_miss_tokens": 1233
+          }
+        }
+      ]
+    },
+    "input_tokens": 1361,
+    "output_tokens": 652,
+    "cached_input_tokens": 128,
+    "cost_usd": 0.000576534,
+    "cost_source": "rate-table",
+    "elapsed_s": 4.534,
+    "started_at": "2026-09-30T11:26:52.330745+00:00",
+    "attempts": 1,
+    "error": null,
+    "error_detail": null,
+    "served_model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "run_id": "2026-09-30_112454_full",
+  "model_name": "deepseek-flash",
+  "provider": "deepseek",
+  "provider_model": "deepseek-flash",
+  "mode": "prompt",
+  "row_id": 29,
+  "repeat": 0,
+  "image_file": "029_patek_calatrava-yellow-gold.jpg",
+  "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+  "result": {
+    "parsed": {
+      "brand": "Patek Philippe",
+      "model_family": "Calatrava",
+      "reference_number": "5196J-001",
+      "movement": "manual",
+      "case_material": "gold",
+      "bracelet_material": "leather",
+      "confidence": 0.42
+    },
+    "raw_text": "{\"brand\": \"Patek Philippe\", \"model_family\": \"Calatrava\", \"reference_number\": \"5196J-001\", \"movement\": \"manual\", \"case_material\": \"gold\", \"bracelet_material\": \"leather\", \"confidence\": 0.42}",
+    "raw_response": {
+      "attempts": [
+        {
+          "id": "1b651e65-5885-45b1-b6d0-9f591493d70c",
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "logprobs": null,
+              "message": {
+                "content": "{\"brand\": \"Patek Philippe\", \"model_family\": \"Calatrava\", \"reference_number\": \"5196J-001\", \"movement\": \"manual\", \"case_material\": \"gold\", \"bracelet_material\": \"leather\", \"confidence\": 0.42}",
+                "role": "assistant",
+                "reasoning_content": "The watch: Patek Philippe Calatrava with small seconds, gold case, white dial with applied baton hour markers, dauphine hands, small seconds at 6. This looks like a vintage Calatrava ref 5196J? No — 5196J has small seconds at 6 o'clock. Actually 5196J has a small seconds subdial at 6. Yes, ref 5196J-001 is yellow gold with silver opaline dial, small seconds, applied baton markers. But 5196 has \"PATEK PHILIPPE GENEVE\" printed. Yes.\n\nHowever, this could be the vintage ref 3429 or 96. The dial markers look like applied batons with a thin seconds hand. The 5196J has baton markers and dauphine hands? 5196 has baton hands (feuille?). Actually 5196J-001 has \"Baton\" hands... The 5196 has leaf-shaped? Let me recall: Calatrava 5196J has silvered opaline dial, gold applied baton indexes, small seconds, and \"baton\" hands? I believe 5196 uses baton hands (dauphine-like). Hmm, actual images of 5196J show dauphine hands? The image here shows dauphine/feuille hands.\n\nGiven the case shape with somewhat thin bezel and lugs, it looks like 5196J. But the lugs here look a bit more angular/flared. Could also be ref 3796 (vintage). Given brand's official format: 5196J-001.\n\nMovement: manual (caliber 215 PS). Case material gold. Bracelet leather. Confidence ~0.4.\n\nAlternatively 5226? No. Let's go with 5196J-001."
+              }
+            }
+          ],
+          "created": 1790767566,
+          "model": "deepseek-flash",
+          "object": "chat.completion",
+          "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "usage": {
+            "completion_tokens": 447,
+            "prompt_tokens": 969,
+            "total_tokens": 1416,
+            "completion_tokens_details": {
+              "reasoning_tokens": 384
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "prompt_cache_hit_tokens": 128,
+            "prompt_cache_miss_tokens": 841
+          }
+        }
+      ]
+    },
+    "input_tokens": 969,
+    "output_tokens": 447,
+    "cached_input_tokens": 128,
+    "cost_usd": 0.000394734,
+    "cost_source": "rate-table",
+    "elapsed_s": 3.61,
+    "started_at": "2026-09-30T11:26:05.265704+00:00",
+    "attempts": 1,
+    "error": null,
+    "error_detail": null,
+    "served_model": "deepseek-flash"
+  }
+}

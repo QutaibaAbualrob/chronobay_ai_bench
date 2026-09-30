@@ -1,0 +1,70 @@
+{
+  "run_id": "2026-09-30_112454_full",
+  "model_name": "deepseek-flash",
+  "provider": "deepseek",
+  "provider_model": "deepseek-flash",
+  "mode": "prompt",
+  "row_id": 5,
+  "repeat": 0,
+  "image_file": "005_rolex_day-date-40.jpg",
+  "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+  "result": {
+    "parsed": {
+      "brand": "Rolex",
+      "model_family": "Day-Date 40",
+      "reference_number": "228238-0003",
+      "movement": "automatic",
+      "case_material": "gold",
+      "bracelet_material": "metal",
+      "confidence": 0.6
+    },
+    "raw_text": "{\"brand\": \"Rolex\", \"model_family\": \"Day-Date 40\", \"reference_number\": \"228238-0003\", \"movement\": \"automatic\", \"case_material\": \"gold\", \"bracelet_material\": \"metal\", \"confidence\": 0.6}",
+    "raw_response": {
+      "attempts": [
+        {
+          "id": "c1495244-3886-437a-9f6c-2786980a86fd",
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "logprobs": null,
+              "message": {
+                "content": "{\"brand\": \"Rolex\", \"model_family\": \"Day-Date 40\", \"reference_number\": \"228238-0003\", \"movement\": \"automatic\", \"case_material\": \"gold\", \"bracelet_material\": \"metal\", \"confidence\": 0.6}",
+                "role": "assistant",
+                "reasoning_content": "The watch is a Rolex Day-Date 40 in yellow gold with a champagne dial and President bracelet. The dial has stick indices (batons) with no lume? Actually the dial shows baton indices. The \"Swiss Made\" with the coronet between suggests post-2019 dial. Reference 228238 is the Day-Date 40 in yellow gold with President bracelet.\n\nDay-Date 40 yellow gold champagne dial = 228238. The dial with baton indices is the standard 228238-0003 or similar. Let me consider: 228238 is Day-Date 40 yellow gold, champagne dial with Roman numerals... Actually variants: 228238-0003 is champagne dial with baton indices? Hmm.\n\nActually, Day-Date 40 yellow gold President bracelet, champagne dial, index markers → 228238. Various sub-references encode the dial. The most classic is 228238-0003 (champagne dial, index)... Let me just go with 228238.\n\nDay-Date 40 launched 2015. Champagne dial with baton indices — reference 228238-0003. Confidence moderate, maybe 0.6.\n\nMovement: automatic (caliber 3255). Case material: gold (yellow gold). Bracelet: metal (yellow gold President)."
+              }
+            }
+          ],
+          "created": 1790767499,
+          "model": "deepseek-flash",
+          "object": "chat.completion",
+          "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "usage": {
+            "completion_tokens": 336,
+            "prompt_tokens": 1377,
+            "total_tokens": 1713,
+            "completion_tokens_details": {
+              "reasoning_tokens": 272
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "prompt_cache_hit_tokens": 128,
+            "prompt_cache_miss_tokens": 1249
+          }
+        }
+      ]
+    },
+    "input_tokens": 1377,
+    "output_tokens": 336,
+    "cached_input_tokens": 128,
+    "cost_usd": 0.00038933399999999997,
+    "cost_source": "rate-table",
+    "elapsed_s": 3.496,
+    "started_at": "2026-09-30T11:24:57.959416+00:00",
+    "attempts": 1,
+    "error": null,
+    "error_detail": null,
+    "served_model": "deepseek-flash"
+  }
+}

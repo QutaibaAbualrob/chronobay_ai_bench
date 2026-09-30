@@ -11,6 +11,8 @@ OPENAI_API_KEY = ""
 GEMINI_API_KEY = ""
 OPENROUTER_API_KEY = ""
 DEEPSEEK_API_KEY = ""
+# Only if your Anthropic key is not scoped to a workspace (the API says so): wrkspc_...
+ANTHROPIC_WORKSPACE_ID = ""
 
 # Models to benchmark. The key is the name used on the command line and in
 # report filenames; "model" is the provider's own model id.
@@ -18,6 +20,8 @@ DEEPSEEK_API_KEY = ""
 #   provider: anthropic | openai | gemini | openrouter | deepseek
 #   effort:   Anthropic only — low | medium | high | xhigh | max.
 #             Claude Opus 5.5 always thinks; effort sets how much (API default: medium).
+#   thinking: Anthropic only - "between_tools" turns thinking off on Claude Sonnet 5.5
+#             (effort high or below). Omit to leave the model's default (adaptive).
 MODELS = {
     "claude-opus-5-5": {"provider": "anthropic", "model": "claude-opus-5-5", "effort": "medium"},
     "deepseek-flash": {"provider": "deepseek", "model": "deepseek-flash"},
@@ -27,6 +31,8 @@ MODELS = {
 
     # More candidates — uncomment to include:
     # "claude-sonnet-5-5": {"provider": "anthropic", "model": "claude-sonnet-5-5", "effort": "medium"},
+    # "claude-sonnet-5-5-nothink": {"provider": "anthropic", "model": "claude-sonnet-5-5",
+    #                               "thinking": "between_tools", "effort": "high"},
     # "claude-haiku-4-5": {"provider": "anthropic", "model": "claude-haiku-4-5"},
     # "grok-4.7": {"provider": "openrouter", "model": "x-ai/grok-4.7"},
     # "qwen3.8-max-prime": {"provider": "openrouter", "model": "qwen/qwen3.8-max-prime"},

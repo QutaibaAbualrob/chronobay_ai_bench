@@ -1,0 +1,70 @@
+{
+  "run_id": "2026-09-30_112454_full",
+  "model_name": "deepseek-flash",
+  "provider": "deepseek",
+  "provider_model": "deepseek-flash",
+  "mode": "prompt",
+  "row_id": 53,
+  "repeat": 0,
+  "image_file": "053_breitling_chronomat-b01-42.jpg",
+  "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+  "result": {
+    "parsed": {
+      "brand": "Breitling",
+      "model_family": "Chronomat 44",
+      "reference_number": "AB011012/BF76",
+      "movement": "automatic",
+      "case_material": "stainless-steel",
+      "bracelet_material": "metal",
+      "confidence": 0.35
+    },
+    "raw_text": "{\"brand\": \"Breitling\", \"model_family\": \"Chronomat 44\", \"reference_number\": \"AB011012/BF76\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.35}",
+    "raw_response": {
+      "attempts": [
+        {
+          "id": "4c032daf-3383-4889-bb44-0af50212c342",
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "logprobs": null,
+              "message": {
+                "content": "{\"brand\": \"Breitling\", \"model_family\": \"Chronomat 44\", \"reference_number\": \"AB011012/BF76\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.35}",
+                "role": "assistant",
+                "reasoning_content": "The watch is a Breitling Chronomat 44 with black dial, silver subdials, stainless steel bracelet. Reference: AB011012/BF76 or AB011012. The Breitling Chronomat 44 ref AB011012 with black dial... Actually the dial with black background and silver subdials, \"Chronomat 44\" with red-tipped chrono hands — that's AB011012/BF76/375A? Hmm.\n\nThe Chronomat 44 (2011) references: AB011011 (black dial), AB011012 (black dial with black subdials?). Let me think. Breitling Chronomat 44 ref AB011012/BF76 — actually BF76 is the dial code for \"Blackeye grey\". Hmm.\n\nThe watch in the photo: black dial, silver/white subdials (three counters), red central chrono hand... Actually the chrono hand appears red-tipped. The \"Chronomat 44\" uses AB011012 for the black dial with... Let me recall: AB011011 = black dial. AB011012 = black dial with... Actually the \"Chronomat 44\" references: AB011012/BF76/375A — Chronomat 44 Blackeye Grey? No, that's AB011011? \n\nKnown: Breitling Chronomat 44 AB011011/BF76 - Blackeye Grey dial. AB011012... hmm.\n\nChronomat 44 AB011010/BB63 - black dial, \"Chronomat 44\" with black dial. AB011012/BF76 is \"Blackeye Grey\".\n\nI'll guess AB011012/BB63 or AB011011... Confidence low. Let's just give AB011012/BB63? Hmm, safer: \"AB011012/BF76\" might be wrong.\n\nActually, let me recall Breitling reference formats: AB011012/BF76/375A. The dial code BF76 = \"Blackeye Grey\". BB63 = \"Black\" maybe? For the Chronomat 44, the black dial with silver subdials is often referred to as \"Blackeye grey\"? Hmm, the Blackeye Grey is a grey dial with black subdials I think. Actually \"Blackeye Grey\" is grey with black subdials? Or black with grey subdials.\n\nI'll answer AB011012/BF76, confidence 0.3. Alternatively AB011011. Hmm. The reference AB011012 is for the Chronomat 44 with black dial (BF76 Blackeye Grey?). Hmm.\n\nI'll go with \"AB011012/BF76\" — reasonable.\n\nActually more common listing: \"Breitling Chronomat 44 AB011012/BF76/375A\". Yes, that's a real reference seen in listings. Good.\n\nMovement: automatic (Breitling 01). Case: stainless steel. Bracelet: metal (steel Pilot bracelet)."
+              }
+            }
+          ],
+          "created": 1790767631,
+          "model": "deepseek-flash",
+          "object": "chat.completion",
+          "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "usage": {
+            "completion_tokens": 682,
+            "prompt_tokens": 1071,
+            "total_tokens": 1753,
+            "completion_tokens_details": {
+              "reasoning_tokens": 612
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "prompt_cache_hit_tokens": 128,
+            "prompt_cache_miss_tokens": 943
+          }
+        }
+      ]
+    },
+    "input_tokens": 1071,
+    "output_tokens": 682,
+    "cached_input_tokens": 128,
+    "cost_usd": 0.0005510339999999999,
+    "cost_source": "rate-table",
+    "elapsed_s": 4.528,
+    "started_at": "2026-09-30T11:27:10.177368+00:00",
+    "attempts": 1,
+    "error": null,
+    "error_detail": null,
+    "served_model": "deepseek-flash"
+  }
+}

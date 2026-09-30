@@ -22,17 +22,26 @@ class AnthropicProvider(Provider):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.client = anthropic.Anthropic(api_key=self.api_key, max_retries=4, timeout=self.timeout)
+        # An organization-level key (not scoped to a workspace) must name the workspace on every request.
+        workspace = self.settings.get("anthropic_workspace_id")
+        headers = {"anthropic-workspace-id": workspace} if workspace else None
+        self.client = anthropic.Anthropic(api_key=self.api_key, max_retries=4, timeout=self.timeout,
+                                          default_headers=headers)
 
     def _identify(self, image_b64: str, mime: str, prompt: str, started: datetime) -> ProviderResult:
         output_config: dict = {"format": {"type": "json_schema", "schema": json_schema()}}
         if self.options.get("effort"):
             output_config["effort"] = self.options["effort"]
+        extra: dict = {}
+        if self.options.get("thinking"):
+            # e.g. "between_tools": Sonnet 5.5's thinking-off setting ("disabled" is a 400 there)
+            extra["thinking"] = {"type": self.options["thinking"]}
         try:
             resp = self.client.messages.create(
                 model=self.model,
                 max_tokens=self.max_tokens,
                 output_config=output_config,
+                **extra,
                 messages=[{
                     "role": "user",
                     "content": [

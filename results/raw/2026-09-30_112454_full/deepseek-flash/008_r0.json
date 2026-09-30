@@ -1,0 +1,70 @@
+{
+  "run_id": "2026-09-30_112454_full",
+  "model_name": "deepseek-flash",
+  "provider": "deepseek",
+  "provider_model": "deepseek-flash",
+  "mode": "prompt",
+  "row_id": 8,
+  "repeat": 0,
+  "image_file": "008_rolex_yacht-master-40.jpg",
+  "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+  "result": {
+    "parsed": {
+      "brand": "Rolex",
+      "model_family": "Yacht-Master 40",
+      "reference_number": "126622-0001",
+      "movement": "automatic",
+      "case_material": "stainless-steel",
+      "bracelet_material": "metal",
+      "confidence": 0.5
+    },
+    "raw_text": "{\"brand\": \"Rolex\", \"model_family\": \"Yacht-Master 40\", \"reference_number\": \"126622-0001\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.5}",
+    "raw_response": {
+      "attempts": [
+        {
+          "id": "32d6f07e-3d96-4e27-875a-69b3d59aa651",
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "logprobs": null,
+              "message": {
+                "content": "{\"brand\": \"Rolex\", \"model_family\": \"Yacht-Master 40\", \"reference_number\": \"126622-0001\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.5}",
+                "role": "assistant",
+                "reasoning_content": "The watch is a Rolex Yacht-Master 40 with rhodium/grey dial, platinum bezel, Oyster bracelet. Reference 126622 (current model since 2019 with 3235 movement). The older version was 116622. The dial appears dark grey/rhodium with blue second hand and blue \"YACHT-MASTER\" text — that's the rhodium dial version 126622-0001 (or 116622-0003?). Let's think: 116622 with rhodium dial and blue accents existed. 126622 rhodium dial with blue hand is 126622-0001.\n\nThe case is 40mm, platinum bezel with polished numerals, stainless steel case. Movement: automatic, caliber 3235 in 126622. Bracelet: metal (Oyster bracelet, stainless steel).\n\nReference format: Rolex official reference is \"126622\" for the steel/platinum Yacht-Master 40. Some cite 126622-0001 for the rhodium dial. The blue hand version... Actually the 126622-0001 is the slate/rhodium dial with blue hand. Yes.\n\nConfidence moderate: 0.55-0.65 since 116622 vs 126622 hard to tell from photo. Superlative Chronometer \"Officially Certified\" with the crown between \"Swiss Made\" ... The 126622 has \"SWISS MADE\" with crown? Actually the 126622 has the coronet between SWISS and MADE? Hmm. Hard to tell. I'll go with 126622-0001, confidence ~0.55.\n\nWait — actually for Yacht-Master, reference numbers 126622-0001 is the slate dial. Blue hand indicates... The Yacht-Master 40 rhodium dial has blue second hand and blue \"YACHT-MASTER\" text on the 116622 as well (116622-0003 with rhodium dial). Hmm. The distinguishing feature: 126622 vs 116622 - both look similar. But there's the \"Swiss Made\" with crown at 6 o'clock on the 126622 (Rolex started putting crown between SWISS MADE around 2020). Hard to tell from image.\n\nI'll answer 126622-0001 with confidence 0.5.\n\nActually let me reconsider: the dial is rhodium/slate grey. The 126622-0001 is \"slate\" dial. Yes. Confidence 0.5.\n\nCase material stainless-steel. Bracelet metal.\n\nMovement automatic."
+              }
+            }
+          ],
+          "created": 1790767502,
+          "model": "deepseek-flash",
+          "object": "chat.completion",
+          "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "usage": {
+            "completion_tokens": 604,
+            "prompt_tokens": 1239,
+            "total_tokens": 1843,
+            "completion_tokens_details": {
+              "reasoning_tokens": 535
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "prompt_cache_hit_tokens": 128,
+            "prompt_cache_miss_tokens": 1111
+          }
+        }
+      ]
+    },
+    "input_tokens": 1239,
+    "output_tokens": 604,
+    "cached_input_tokens": 128,
+    "cost_usd": 0.000529434,
+    "cost_source": "rate-table",
+    "elapsed_s": 4.438,
+    "started_at": "2026-09-30T11:25:01.456397+00:00",
+    "attempts": 1,
+    "error": null,
+    "error_detail": null,
+    "served_model": "deepseek-flash"
+  }
+}

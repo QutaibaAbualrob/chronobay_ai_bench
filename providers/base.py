@@ -91,6 +91,7 @@ class Provider(ABC):
         self.options = options
         self.max_tokens = settings["max_output_tokens"]
         self.timeout = settings["timeout_s"]
+        self.settings = settings
 
     def identify(self, image_b64: str, mime: str, prompt: str) -> ProviderResult:
         started = datetime.now(timezone.utc)

@@ -1,0 +1,70 @@
+{
+  "run_id": "2026-09-30_112454_full",
+  "model_name": "deepseek-flash",
+  "provider": "deepseek",
+  "provider_model": "deepseek-flash",
+  "mode": "prompt",
+  "row_id": 21,
+  "repeat": 0,
+  "image_file": "021_patek_nautilus.jpg",
+  "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+  "result": {
+    "parsed": {
+      "brand": "Patek Philippe",
+      "model_family": "Nautilus",
+      "reference_number": "5711/1A-010",
+      "movement": "automatic",
+      "case_material": "stainless-steel",
+      "bracelet_material": "metal",
+      "confidence": 0.45
+    },
+    "raw_text": "{\"brand\": \"Patek Philippe\", \"model_family\": \"Nautilus\", \"reference_number\": \"5711/1A-010\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.45}",
+    "raw_response": {
+      "attempts": [
+        {
+          "id": "77ad4e92-6a5e-4c86-8c41-43b92a1d4db4",
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "logprobs": null,
+              "message": {
+                "content": "{\"brand\": \"Patek Philippe\", \"model_family\": \"Nautilus\", \"reference_number\": \"5711/1A-010\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.45}",
+                "role": "assistant",
+                "reasoning_content": "The image shows a Patek Philippe Nautilus with blue-grey dial, date at 3, stainless steel bracelet with the classic Nautilus link shape. This appears to be reference 5711/1A-010 (blue dial) — the dial here looks blue-grey/slate, which could be 5711/1A-010 (blue) or 5711/1A-011 (white/silvery). The dial appears dark blue-grey with horizontal embossing. The 5711/1A-010 has a blue dial. Given the lighting, this looks like the blue dial 5711/1A-010. Though it could be a replica. Confidence moderate.\n\nThe bracelet looks like the older style with the two-piece links... Actually the 5711/1A-010 has brushed links with polished center? No, the Nautilus bracelet has polished outer links... The 5711 bracelet has brushed links with polished bevels. The image shows highly polished links, which is more like... hmm, the older 3700/1A or the 5711? Actually 5711 bracelet links are brushed on top surface. This one looks polished — could be indicating a replica or the 5711/1A-001? Let me not overanalyze.\n\nI'll go with 5711/1A-010, confidence ~0.4.\n\nMovement: automatic (caliber 26-330 S C). Case material stainless steel. Bracelet metal."
+              }
+            }
+          ],
+          "created": 1790767532,
+          "model": "deepseek-flash",
+          "object": "chat.completion",
+          "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "usage": {
+            "completion_tokens": 380,
+            "prompt_tokens": 1377,
+            "total_tokens": 1757,
+            "completion_tokens_details": {
+              "reasoning_tokens": 311
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1152
+            },
+            "prompt_cache_hit_tokens": 1152,
+            "prompt_cache_miss_tokens": 225
+          }
+        }
+      ]
+    },
+    "input_tokens": 1377,
+    "output_tokens": 380,
+    "cached_input_tokens": 1152,
+    "cost_usd": 0.00026520600000000004,
+    "cost_source": "rate-table",
+    "elapsed_s": 3.424,
+    "started_at": "2026-09-30T11:25:31.006962+00:00",
+    "attempts": 1,
+    "error": null,
+    "error_detail": null,
+    "served_model": "deepseek-flash"
+  }
+}

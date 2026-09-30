@@ -1,0 +1,70 @@
+{
+  "run_id": "2026-09-30_112454_full",
+  "model_name": "deepseek-flash",
+  "provider": "deepseek",
+  "provider_model": "deepseek-flash",
+  "mode": "prompt",
+  "row_id": 67,
+  "repeat": 0,
+  "image_file": "067_cartier_panthere-de-cartier-medium.jpg",
+  "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+  "result": {
+    "parsed": {
+      "brand": "Cartier",
+      "model_family": "Panthère de Cartier",
+      "reference_number": "WSPN0007",
+      "movement": "quartz",
+      "case_material": "stainless-steel",
+      "bracelet_material": "metal",
+      "confidence": 0.32
+    },
+    "raw_text": "{\"brand\": \"Cartier\", \"model_family\": \"Panthère de Cartier\", \"reference_number\": \"WSPN0007\", \"movement\": \"quartz\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.32}",
+    "raw_response": {
+      "attempts": [
+        {
+          "id": "2d15b524-0deb-400d-8764-095f30020133",
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "logprobs": null,
+              "message": {
+                "content": "{\"brand\": \"Cartier\", \"model_family\": \"Panthère de Cartier\", \"reference_number\": \"WSPN0007\", \"movement\": \"quartz\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.32}",
+                "role": "assistant",
+                "reasoning_content": "The watch is a Cartier Panthère (Panthère de Cartier) — square case, Roman numerals, screw lugs, multi-link bracelet. Stainless steel, quartz movement. Small model likely. Reference numbers: WSPN0006 (small steel), WSPN0007 (medium steel), WSPN0008? Actually: Panthère de Cartier small steel WSPN0006, medium WSPN0007, large WSPN0008? Let me recall: WSPN0006 = small steel, WSPN0007 = medium steel... Actually the medium steel is WSPN0006? Hmm.\n\nPanthère de Cartier references:\n- Small steel quartz: WSPN0006\n- Medium steel quartz: WSPN0007\n- Large steel quartz: WSPN0008\n\nYes, I believe WSPN0006 small, WSPN0007 medium, WSPN0008 large. Also two-tone: W2PN0006 etc.\n\nThe watch shown appears to be a small/medium model with two hands, no date. Looks like a fairly small size, maybe medium. The dial \"SWISS MADE\" at bottom. Hard to distinguish. Roman numerals, no seconds hand - quartz.\n\nGiven the photo enlargement, the case appears medium-ish. I'll guess WSPN0007 medium.\n\nActually the small is 22mm x 30mm, medium 27mm x 37mm, large 30mm x 40mm. In the photo it looks proportionally... hard. Given the \"SWISS MADE\" text placement and Roman numerals with \"VII\" style... In small model, numerals are... The dial shows \"XI\" and \"XII\"? It shows \"XI\" at top left? Actually shows \"IX\"? Let's look: top-left \"XI\"? The image shows numerals: top appears \"XI\" and \"XII\"? Hmm, actually shows \"IX\"? Let's read: at top left \"XI\", top \"XII\"? No — the visible letters: \"XI\" top left, \"I\" top right? It shows \"IX\"? Let me just go with Roman numerals standard.\n\nConfidence low ~0.35.\n\nCase material stainless steel, bracelet metal, movement quartz.\n\nI'll answer WSPN0007 with confidence 0.3."
+              }
+            }
+          ],
+          "created": 1790767674,
+          "model": "deepseek-flash",
+          "object": "chat.completion",
+          "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "usage": {
+            "completion_tokens": 560,
+            "prompt_tokens": 1384,
+            "total_tokens": 1944,
+            "completion_tokens_details": {
+              "reasoning_tokens": 491
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "prompt_cache_hit_tokens": 128,
+            "prompt_cache_miss_tokens": 1256
+          }
+        }
+      ]
+    },
+    "input_tokens": 1384,
+    "output_tokens": 560,
+    "cached_input_tokens": 128,
+    "cost_usd": 0.000524784,
+    "cost_source": "rate-table",
+    "elapsed_s": 4.434,
+    "started_at": "2026-09-30T11:27:53.550833+00:00",
+    "attempts": 1,
+    "error": null,
+    "error_detail": null,
+    "served_model": "deepseek-flash"
+  }
+}

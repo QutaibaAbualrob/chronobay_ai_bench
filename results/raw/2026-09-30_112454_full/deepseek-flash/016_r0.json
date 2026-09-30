@@ -1,0 +1,70 @@
+{
+  "run_id": "2026-09-30_112454_full",
+  "model_name": "deepseek-flash",
+  "provider": "deepseek",
+  "provider_model": "deepseek-flash",
+  "mode": "prompt",
+  "row_id": 16,
+  "repeat": 0,
+  "image_file": "016_omega_seamaster-300-heritage.jpg",
+  "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+  "result": {
+    "parsed": {
+      "brand": "Omega",
+      "model_family": "Seamaster 300 Master Co-Axial",
+      "reference_number": "233.32.41.21.01.002",
+      "movement": "automatic",
+      "case_material": "stainless-steel",
+      "bracelet_material": "leather",
+      "confidence": 0.55
+    },
+    "raw_text": "{\"brand\": \"Omega\", \"model_family\": \"Seamaster 300 Master Co-Axial\", \"reference_number\": \"233.32.41.21.01.002\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.55}",
+    "raw_response": {
+      "attempts": [
+        {
+          "id": "dda91f4d-e25f-48fd-8cf4-fccfea55e5be",
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "logprobs": null,
+              "message": {
+                "content": "{\"brand\": \"Omega\", \"model_family\": \"Seamaster 300 Master Co-Axial\", \"reference_number\": \"233.32.41.21.01.002\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.55}",
+                "role": "assistant",
+                "reasoning_content": "The watch is an Omega Seamaster 300 (the modern re-edition, 2014 onwards) with the \"Spectre\" style... Actually the Omega Seamaster 300 Master Co-Axial reference 233.32.41.21.01.002 is the titanium... Hmm.\n\nThe Omega Seamaster 300 (2014 re-edition) with black dial, \"Seamaster 300\" text and lollipop seconds hand, faux patina lume. Reference numbers:\n- 233.30.41.21.01.001 - stainless steel on leather strap? Actually the leather strap version is 233.32.41.21.01.002 (titanium)... let me recall.\n\nOmega Seamaster 300 Master Co-Axial 41mm:\n- 233.30.41.21.01.001 — stainless steel case, black dial, brown leather strap? Hmm, actually 233.30.41.21.01.001 is the steel bracelet version.\n- 233.32.41.21.01.002 — titanium case with leather strap.\n- 233.32.41.21.01.001 — titanium bracelet.\n\nThe Omega naming: 233.30.41.21.01.001 = steel bracelet. 233.32.41.21.01.002 = titanium... Hmm. Actually the third group digit: .30 = steel, .32 = titanium? I recall the Seamaster 300 Master Co-Axial steel on leather is 233.32.41.21.01.002? Let me think.\n\nOmega reference structure: AAA.BB.CC.DD.EE.FFF\n- AAA = family (233 = Seamaster 300)\n- BB = case material and bezel: 30 = steel, 32 = steel? Hmm. Actually for Omega: 233.30 = steel with... \n\nKnown references:\n- 233.30.41.21.01.001 – Seamaster 300 Master Co-Axial, steel case, black dial, steel bracelet.\n- 233.30.41.21.01.002 – ? \n- 233.32.41.21.01.002 – Seamaster 300 Master Co-Axial, titanium? No...\n\nFrom memory: The \"Spectre\" limited edition is 233.32.41.21.01.001 (steel case, black dial, NATO-ish?) Actually the Spectre Seamaster 300 is ref 233.32.41.21.01.001, limited to 7007 pieces, with a black/grey striped NATO strap (leather-like), lollipop seconds hand, no date, \"12\" and \"3,6,9\" numerals... Wait, the Spectre has a 12 marker and the dial lacks \"Seamaster 300\" text? No, the Spectre has the Seamaster 300 ... Actually the Spectre dial has \"Omega\" logo, \"Seamaster 300\" text, and numerals at 3, 6, 9, 12 with a lollipop hand? Hmm — The Spectre Seamaster 300 (ref 233.32.41.21.01.001) has a black dial with vintage lume, applied numerals at 3, 6, 9, 12 (with the 12 being a wide triangle? no, it's a \"12\" numeral), a lollipop seconds hand, and the strap is a black and grey NATO-style strap.\n\nThis photo shows numerals 3, 6, 9 (no 12 numeral visible — actually at top there's a triangle at 12? The photo shows \"12\" as... at the top there is a marker with an arrow. Hmm. Looking at the image: at 12 there's a triangle-ish? Actually the description: dial with Arabic numerals 3, 6, 9 and a triangle at 12? The regular Seamaster 300 has a large triangle at 12 with a dot... The standard Seamaster 300 (2014) dial: has a broad arrow at 12? Let me recall: The Omega Seamaster 300 Master Co-Axial 2014 has baton markers at 12? No — it has a triangle at 12 with a lume dot? I think the dial: applied indexes with vintage lume, 3/6/9 Arabic numerals, and at 12 a wide triangle marker. And the hands are broad arrow hour hand + lollipop seconds.\n\nThe photo: at 12 there is a marker that looks like the broad-arrow with a triangle above? It shows \"12\" area with a marker that looks like a triangle and an arrow. Hmm. And the strap is brown leather with white stitching, which matches the Seamaster 300 steel on leather strap 233.32.41.21.01.002? Hmm.\n\nLet me recall the Omega Seamaster 300 Master Co-Axial ref 233.32.41.21.01.002: titanium case? No. I recall the reference 233.32.41.21.01.002 is the Seamaster 300 Master Co-Axial in stainless steel with a brown leather strap... Hmm, \"32\" for Omega means \"steel + gold\"? Omega codes: The second group: for Seamaster 300: .30. = steel, .32. = steel with... Actually I recall 231.x = Seamaster Aqua Terra, 232 = Seamaster Diver 300M... 233 = Seamaster 300.\n\nFor Omega: In the 233 family:\n- 233.30.41.21.01.001 – steel bracelet\n- 233.32.41.21.01.001 – steel case, leather strap? Hmm — no, I believe the leather version is 233.32.41.21.01.002 (with steel case) and the titanium version is 233.92.41.21.01.001 / 233.92.41.21.01.002?\n\nHmm. Known list of Omega Seamaster 300 Master Co-Axial 41mm:\n- 233.30.41.21.01.001 — Steel on steel bracelet, black dial\n- 233.30.41.21.01.002 — hmm\n- 233.32.41.21.01.002 — Steel case with leather strap? Actually 233.32.41.21.01.002 is \"Seamaster 300 Master Co-Axial 41mm, steel case, black dial, brown leather strap\"? \n- 233.32.41.21.01.001 — Spectre limited edition (steel case, NATO strap)\n- 233.92.41.21.01.001 — titanium on titanium bracelet\n- 233.92.41.21.01.002 — titanium on leather strap\n\nHmm, the \"Spectre\" is 233.32.41.21.01.001, limited 7007. And the regular steel with leather strap is 233.32.41.21.01.002. I'm fairly confident about that: 233.32.41.21.01.002 with a brown leather strap. Actually wait — 233.32 might indicate steel case with leather strap, and 233.30 steel with bracelet. That is consistent: the \"3\" third digit means bracelet/strap type? In Omega codes, the second group's second digit... Actually Omega's reference format: 233.30.41.21.01.001 where \"233\" = model family, \"30\" = case material (steel), \"41\" = case size, \"21\" = movement, \"01\" = dial color, \"001\" = version/strap. Hmm, then how is strap variant encoded? Via the last 3 digits maybe. Hmm, but the Spectre is 233.32.41.21.01.001 — second group 32. So 32 vs 30 differ by case material: 30 = stainless steel, 32 = steel with... hmm, the Spectre has a steel case too. Unless the Spectre is steel too and \"32\" indicates... \n\nActually I recall Omega case material codes: \n- 30 = stainless steel\n- 32 = steel (with leather?) no...\nLet me think about Seamaster 300 references from a known list:\n- 233.30.41.21.01.001: Seamaster 300 Master Co-Axial, steel, bracelet\n- 233.32.41.21.01.002: Seamaster 300 Master Co-Axial, steel, leather strap (brown)\n- 233.32.41.21.01.001: \"Spectre\" limited edition (2015), steel, NATO strap\n- 233.92.41.21.01.001: titanium\n- 233.90.41.21.01.001: ? \n\nHmm, but Spectre with 32 while steel and 233.30 steel for bracelet... So maybe the digit denotes combo. Whatever, the leather-strap steel version is 233.32.41.21.01.002. Hmm, but is there a \"233.32.41.21.01.001\" as the leather strap steel version and Spectre being something else? The Spectre is indeed 233.32.41.21.01.001 (limited edition, 7007 pieces). So leather strap steel = 233.32.41.21.01.002.\n\nBut wait, this photo's dial: does it have a date? No date. The regular Seamaster 300 Master Co-Axial has no date? Actually the 2014 Seamaster 300 Master Co-Axial has no date window; correct, no date. The dial has \"Omega\" logo, \"Seamaster 300\" text, lot of vintage-look lume, arrow hands (broad arrow hour hand), lollipop seconds hand pointing to a dot at... The photo shows 3, 6, 9 numerals and a triangle at 12 — yes, the Seamaster 300 has a triangle at 12 (with lume) and Arabic numerals at 3, 6, 9. Wait actually I recall the standard Seamaster 300 has a triangle at 12 and numerals at 3/6/9. Yes.\n\nThe bezel in the photo is a black ceramic with light numerals (vintage lume color). The standard Seamaster 300 has a black ceramic bezel with lume-filled... yes, with vintage color.\n\nAlso the crown is at 3 o'clock — but the standard Seamaster 300 has... The 2014 Seamaster 300 Master Co-Axial has the crown at 3 o'clock? Actually the earlier Seamaster 300 had crown at 3 and the 2014 version also crown at 3? Hmm, the Omega Seamaster 300 (2014) has crown at 3 o'clock? Wait, the Seamaster 300 Master Co-Axial had the crown at 3? The photo shows crown at 3, and the date... yes it's the 2014 re-edition with crown at 3. Hmm, actually I recall the Seamaster 300 2014 has crown at 3 and no date — hmm, but there might be the \"Spectre\" with crown at 3. Yes.\n\nSo model_family: Seamaster 300 Master Co-Axial (or \"Seamaster 300\"). Reference: 233.32.41.21.01.002.\n\nMovement: automatic (cal. 8400 Master Co-Axial). Case material: stainless steel. Bracelet: leather.\n\nConfidence: maybe 0.6. Hmm, could this be the Spectre? No — Spectre has NATO strap. This has a brown leather strap. So 233.32.41.21.01.002. I'd give ~0.55."
+              }
+            }
+          ],
+          "created": 1790767514,
+          "model": "deepseek-flash",
+          "object": "chat.completion",
+          "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "usage": {
+            "completion_tokens": 2668,
+            "prompt_tokens": 1368,
+            "total_tokens": 4036,
+            "completion_tokens_details": {
+              "reasoning_tokens": 2589
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "prompt_cache_hit_tokens": 128,
+            "prompt_cache_miss_tokens": 1240
+          }
+        }
+      ]
+    },
+    "input_tokens": 1368,
+    "output_tokens": 2668,
+    "cached_input_tokens": 128,
+    "cost_usd": 0.001787184,
+    "cost_source": "rate-table",
+    "elapsed_s": 13.801,
+    "started_at": "2026-09-30T11:25:13.262252+00:00",
+    "attempts": 1,
+    "error": null,
+    "error_detail": null,
+    "served_model": "deepseek-flash"
+  }
+}

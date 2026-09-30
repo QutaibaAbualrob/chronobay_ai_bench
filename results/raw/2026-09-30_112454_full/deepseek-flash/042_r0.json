@@ -1,0 +1,70 @@
+{
+  "run_id": "2026-09-30_112454_full",
+  "model_name": "deepseek-flash",
+  "provider": "deepseek",
+  "provider_model": "deepseek-flash",
+  "mode": "prompt",
+  "row_id": 42,
+  "repeat": 0,
+  "image_file": "042_tagheuer_monaco-calibre-11.jpg",
+  "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+  "result": {
+    "parsed": {
+      "brand": "Tag Heuer",
+      "model_family": "Monaco Calibre 11 Chronograph",
+      "reference_number": "CAW211P.FC6356",
+      "movement": "automatic",
+      "case_material": "stainless-steel",
+      "bracelet_material": "leather",
+      "confidence": 0.4
+    },
+    "raw_text": "{\"brand\": \"Tag Heuer\", \"model_family\": \"Monaco Calibre 11 Chronograph\", \"reference_number\": \"CAW211P.FC6356\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.4}",
+    "raw_response": {
+      "attempts": [
+        {
+          "id": "81ccc87d-2519-4bfb-bfc5-1ebd17d370d4",
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "logprobs": null,
+              "message": {
+                "content": "{\"brand\": \"Tag Heuer\", \"model_family\": \"Monaco Calibre 11 Chronograph\", \"reference_number\": \"CAW211P.FC6356\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.4}",
+                "role": "assistant",
+                "reasoning_content": "The watch is a TAG Heuer Monaco, blue dial, chronograph, square case, on black leather strap. Reference: TAG Heuer Monaco Calibre 12 Chronograph? Or the Monaco Calibre 11? The dial says \"Automatic Chronograph\" and \"MONACO\" with \"HEUER\" logo in the old shield style. Left-hand crown (crown at 9 o'clock), which is the Calibre 11 layout... Actually this one has crown on the left side (visible at left edge around 9-10 o'clock). Calibre 11 Monaco CAW211P has crown on left. The blue dial with red hands and white subdials... The Calibre 12 Monaco (CAW2111) has crown on right. This has crown on left, so it's the Calibre 11 reference CAW211P.FC6356. But that has a blue dial with black subdials? Let me recall: CAW211P.FC6356 \"Monaco Calibre 11\" — blue dial, white/silver subdials? Actually the CAW211P has a blue dial with two white sub-dials and red accents? Hmm.\n\nThe classic Calibre 11 Monaco (CAW211P) has a blue dial with... The 1969 Monaco had blue dial with white subdials. The modern CAW211P.FC6356 re-edition has blue dial with two silver/white registers at 3 and 9? No — Calibre 11 has subdials at 3 and 9 (left crown). In the photo, subdials are at 9 (top-left, 24-hour indicator?) and 3 (bottom-right, running seconds). Actually looking: top-left subdial has 24 20 15 10 markings (24-hour indicator), bottom-right has 60 50 40 30 20 10 (running seconds). Left crown. So it's Calibre 11.\n\nThe current Calibre 11 Monaco CAW211P.FC6356 has a blue dial with... I think the standard has silver subdials? Hmm, the \"Monaco Calibre 11\" CAW211P.FC6356: blue dial, white subdials, red hands? Let me think — there's the Gulf edition CAW211R with orange/blue stripes. The standard CAW211P has dark blue dial with white subdials and red central chrono hand? Actually I recall the CAW211P has a blue dial, black subdials with white markings... Not certain.\n\nThere's also the \"Monaco Calibre 12\" CAW2111 with crown on right, black dial, blue... no, CAW2111 is the blue dial with crown at right.\n\nGiven left crown + blue dial + white/silver registers + red accents, the best match: TAG Heuer Monaco Calibre 11 CAW211P.FC6356. Hmm, but the Calibre 11 blue is often described as \"blue dial with two white sub-dials\" — yes I believe CAW211P has blue dial with silver-white subdials at 3 and 9? Wait, Calibre 11 layout: subdials at 9 (running seconds? no)... Calibre 11: chronograph minutes at 9, running seconds at 3, date at 6, crown at 9, pushers on right. Actually Calibre 11: minutes counter at 9 and small seconds at 3? Hmm, in Calibre 11 the movement has chronograph minute counter at 9 and small seconds at 3 — but the 1969 Monaco had the minute counter at 3 and seconds at 9? Whatever, that's fine.\n\nIn the photo, the top-left subdial shows 24/20/15/10/5 — that's a 24-hour indicator? Hmm, that's odd. Calibre 12 has a 24-hour subdial? Actually the TAG Heuer Monaco Calibre 12 (CAW2111) has subdials at 3 and 9: chronograph 30-min counter and running seconds, plus date. Hmm, the \"24\" markings look like a 24-hour register, which appears in... the Calibre 12? No.\n\nWait — maybe this is the Monaco \"Calibre 12\" with crown at 3? The image shows crown on left side (two crowns? there's a crown at left around 9 and pushers). Actually I see a crown at the upper left near 10 and pushers on the right at 2 and 4. Standard Monaco Calibre 12 has crown on right. Calibre 11 has crown on left. The image clearly shows crown protruding at the left side (upper left, around 9-10 o'clock). So Calibre 11.\n\nHmm but the subdial with \"24 20 15 10\" — this could be the 24-hour indicator found on the Calibre 12 Monaco? Actually there is a Monaco Calibre 12 with a 24-hour subdial? The Monaco \"Calibre 12\" chronograph has: at 9 o'clock a 24h... no.\n\nHmm, let me reconsider: the Calibre 12 movement (in the CAW2111) has subdials: 12-hour counter at 6? Eh.\n\nHonestly, given the appearance: blue dial, white subdials with the \"24\" scale, red-tipped hands, day-date at 6? There's a date window at 6 with \"8\" — the Monaco Calibre 12 has date at 6. Calibre 11 also has date at 6.\n\nLet me just recall specific model: TAG Heuer Monaco Calibre 12 Chronograph 39mm blue dial CAW2111.FC6183? That has crown on right, blue dial with white subdials at 3 and 9? Hmm.\n\nActually, I recall the \"Monaco Calibre 11 CAW211P\" has a blue dial with two black subdials with white numerals... And red hands? The \"Monaco Calibre 11 CAW211P.FC6356\" is described: \"steel case, blue dial, blue... \" Hmm.\n\nAlternatively, this might be the \"TAG Heuer Monaco Calibre 12 CAW2111.FC6183\" — blue dial with white subdials and red second hand — but crown on right at 3. In image, the right side has two pushers (at 2 and 4) — I see a push button at bottom right. And the left side has a crown. So a left crown + right pushers? That's unusual; Calibre 11 has crown at 9 and pushers at 2 and 4. Yes! Calibre 11: crown at 9, pushers on right at 2 and 4. That matches the picture.\n\nSo: TAG Heuer Monaco Calibre 11. The blue-dialed Calibre 11 with white subdials... The CAW211P has \"blue dial with white subdials\"? Let me just go with CAW211P.FC6356. Hmm, but I've also seen CAW211P.FC6356 described as \"Blue dial with two silver sub-dials\". Hmm actually I think the CAW211P.FC6356 has a blue dial with two black subdials and... no.\n\nLet me think about \"Monaco Calibre 11 Chronograph 39mm CAW211P.FC6356\" — I'm fairly confident: stainless steel, blue sunray dial, silver-white subdial counters, red central chronograph seconds hand, date at 6, black leather strap with folding clasp. Yes, that sounds right — the blue dial Calibre 11 is the classic \"Steve McQueen\" re-edition with blue dial and white subdials. Actually wait — the classic 1969 Monaco had a blue dial with white subdials and the McQueen. The Calibre 11 re-edition (CAW211P) matches.\n\nBut hold on: the subdial at 9 o'clock showing 24-hour scale? In the 1969 Monaco Calibre 11, the subdial at 9 is the chronograph minute counter and at 3 is running seconds. The 24 scale appeared on the Monaco Calibre 12? Hmm, the \"Calibre 12\" version has a 24-hour indicator? Actually, TAG Heuer Monaco Calibre 12 (CAW2111) has subdials at 3 and 9 o'clock: one is a small seconds, other is 30-minute counter, and there's a date at 6. Hmm.\n\nActually there IS a version with 24-hour subdial: the Monaco \"Calibre 11\" with 24h? Hmm. Wait, the Gulf Monaco? No.\n\nActually the 1969 Monaco Calibre 11 had the chronograph minute counter at 3 (with 15-minute... no). Let me not overthink.\n\nAlternatively, this could be the Monaco Calibre 12 CAW2110/CAW2111 with crown at 3... but image shows crown on left. Given the \"24\" scale, maybe it's a Heuer Monaco \"Calibre 12\" 1980s? Hmm.\n\nHmm, one other consideration: the newer Monaco \"Calibre 11\" reference CAW211P. I'll go with that.\n\nActually wait — I recall the blue Monaco Calibre 11 CAW211P.FC6356 has subdials: at 9 o'clock a 30-minute counter? Let me just answer: reference CAW211P.FC6356, confidence ~0.45.\n\nHmm, but let me reconsider the \"24\" scale. There's the \"TAG Heuer Monaco Calibre 12 Chronograph CAW2111\" — its subdial at 9 is small seconds and at 3 is 30-min counter? And I recall the CAW2111's dial has \"12\" numerals? The CAW2111.FC6183 is the blue dial with white subdials... crown at 3.\n\nThere's also the \"Monaco Calibre 12 Automatic Chronograph\" ref CAW2110 with black dial.\n\nGiven the left crown, Calibre 11 it is. Among Calibre 11 Monacos: CAW211P.FC6356 (blue, steel, leather), CAW211R.FC6401 (Gulf, blue with orange/blue stripes), CAW211V (grey?).\n\nHmm, actually the Calibre 11 blue dial CAW211P: I now recall photos — the dial is blue with two white/silver subdials? Some sources show the CAW211P with dark blue dial and black subdials with white printing. Hmm, the image shows white/silver subdials with black printing. There's also a \"Monaco Calibre 11\" with blue dial and white subdials referenced CAW211P.FC6356... I'll go with it.\n\nActually — hmm — the 24-hour counter at 9. Let me reconsider: the TAG Heuer Monaco Calibre 12 has a \"24-hour\" subdial? No, but the Monaco \"Calibre 12\" (ref CAW2111) uses the Calibre 12 movement which has a 24-hour... The Calibre 12 movement (based on Sellita/ETA 2892 with Dubois-Depraz module 2008) has a 24-hour indicator? Hmm — Calibre 12 in TAG Heuer refers to the movement with 30-minute chronograph counter and 24-hour... Actually I think the Calibre 12 has a \"24-hour\" subdial? Hmm, in the Carrera Calibre 16... no.\n\nHmm, actually the TAG Heuer Calibre 12 (used in Monaco CAW2111) has: 30-minute counter at 9, small seconds at 3, date at 6, and a 24-hour indicator at... no, I think the 24h dial is at 12? Hmm. Interesting: the Monaco Calibre 12 has \"Grande Date\" maybe.\n\nWait, but the image's subdial at 9 shows \"24 20 15 10 5\" — that scale goes 5,10,15,20,24 — that's a 24-hour indicator (typical). Actually hmm, it might be a 30-minute chrono counter with markings 5,10,15,20,25? But I see \"24\" which would be odd for minutes. Actually looking at the image description, the top-left subdial shows \"24 20 15 10\" going clockwise — that's a 24h indicator.\n\nThe Monaco Calibre 12 (CAW2111) does have a 24-hour subdial at 9? Hmm, I'm not certain. Actually no: I'm reasonably sure the Calibre 12 Monaco has small seconds at 3 and 30-min chrono at 9... \n\nHmm, there IS a TAG Heuer Monaco with a 24-hour dial? Actually the \"Monaco Calibre 12 Chronograph\" ref CAW2111 has: date at 6, subdial at 3 (running seconds), subdial at 9 (24-hour? no, chrono minutes).\n\nGiven uncertainty, I'll answer Calibre 11 CAW211P.FC6356 with modest confidence.\n\nHmm wait, one more thought: this could be the newer \"Monaco Calibre 11\" limited... but fine.\n\nActually, let me reconsider the direction: perhaps this is the TAG Heuer Monaco \"Calibre 12\" ref CAW2111.FC6183 which is a blue dial with white subdials and the crown on the right — but the photo shows the watch on the right wrist? If worn on the right wrist, crown... no, the crown is at the left of the case relative to the dial (at 9). Regardless of which wrist, the dial is up. The crown is at 9 o'clock. Calibre 11.\n\nFinal: brand TAG Heuer (note brand list has \"Tag Heuer\"). model_family: \"Monaco Calibre 11\" or \"Monaco\". movement automatic, case stainless-steel, bracelet leather. confidence 0.4.\n\nReference format: TAG Heuer uses \"CAW211P.FC6356\". Go with that."
+              }
+            }
+          ],
+          "created": 1790767608,
+          "model": "deepseek-flash",
+          "object": "chat.completion",
+          "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "usage": {
+            "completion_tokens": 3119,
+            "prompt_tokens": 1368,
+            "total_tokens": 4487,
+            "completion_tokens_details": {
+              "reasoning_tokens": 3044
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "prompt_cache_hit_tokens": 128,
+            "prompt_cache_miss_tokens": 1240
+          }
+        }
+      ]
+    },
+    "input_tokens": 1368,
+    "output_tokens": 3119,
+    "cached_input_tokens": 128,
+    "cost_usd": 0.0020577839999999996,
+    "cost_source": "rate-table",
+    "elapsed_s": 16.192,
+    "started_at": "2026-09-30T11:26:47.655523+00:00",
+    "attempts": 1,
+    "error": null,
+    "error_detail": null,
+    "served_model": "deepseek-flash"
+  }
+}

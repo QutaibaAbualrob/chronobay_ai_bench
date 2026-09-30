@@ -1,0 +1,70 @@
+{
+  "run_id": "2026-09-30_112454_full",
+  "model_name": "deepseek-flash",
+  "provider": "deepseek",
+  "provider_model": "deepseek-flash",
+  "mode": "prompt",
+  "row_id": 7,
+  "repeat": 0,
+  "image_file": "007_rolex_sea-dweller.jpg",
+  "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+  "result": {
+    "parsed": {
+      "brand": "Rolex",
+      "model_family": "Sea-Dweller",
+      "reference_number": "126600",
+      "movement": "automatic",
+      "case_material": "stainless-steel",
+      "bracelet_material": "metal",
+      "confidence": 0.93
+    },
+    "raw_text": "{\"brand\": \"Rolex\", \"model_family\": \"Sea-Dweller\", \"reference_number\": \"126600\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.93}",
+    "raw_response": {
+      "attempts": [
+        {
+          "id": "718ad6fe-2af1-4be6-b4db-0ad40599ae69",
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "logprobs": null,
+              "message": {
+                "content": "{\"brand\": \"Rolex\", \"model_family\": \"Sea-Dweller\", \"reference_number\": \"126600\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.93}",
+                "role": "assistant",
+                "reasoning_content": "The watch is a Rolex Sea-Dweller with red \"Sea-Dweller\" text — the \"Single Red\" Sea-Dweller 126600, 50th anniversary edition (2017). Features: 43mm, red Sea-Dweller text, 1220m depth rating, cyclops lens over date, stainless steel with black Cerachrom bezel, Oyster bracelet.\n\nReference: 126600.\n\nMovement: automatic (caliber 3235). Case: stainless steel. Bracelet: metal (Oystersteel).\n\nConfidence high, ~0.93.\n\nModel family: Sea-Dweller (Rolex Sea-Dweller)."
+              }
+            }
+          ],
+          "created": 1790767501,
+          "model": "deepseek-flash",
+          "object": "chat.completion",
+          "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "usage": {
+            "completion_tokens": 201,
+            "prompt_tokens": 994,
+            "total_tokens": 1195,
+            "completion_tokens_details": {
+              "reasoning_tokens": 137
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "prompt_cache_hit_tokens": 128,
+            "prompt_cache_miss_tokens": 866
+          }
+        }
+      ]
+    },
+    "input_tokens": 994,
+    "output_tokens": 201,
+    "cached_input_tokens": 128,
+    "cost_usd": 0.000250884,
+    "cost_source": "rate-table",
+    "elapsed_s": 2.364,
+    "started_at": "2026-09-30T11:25:00.897949+00:00",
+    "attempts": 1,
+    "error": null,
+    "error_detail": null,
+    "served_model": "deepseek-flash"
+  }
+}

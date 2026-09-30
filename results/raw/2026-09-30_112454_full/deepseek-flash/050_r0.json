@@ -1,0 +1,70 @@
+{
+  "run_id": "2026-09-30_112454_full",
+  "model_name": "deepseek-flash",
+  "provider": "deepseek",
+  "provider_model": "deepseek-flash",
+  "mode": "prompt",
+  "row_id": 50,
+  "repeat": 0,
+  "image_file": "050_tagheuer_autavia-calibre-heuer-02.jpg",
+  "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+  "result": {
+    "parsed": {
+      "brand": "Tag Heuer",
+      "model_family": "Autavia Calibre Heuer 02 Chronograph",
+      "reference_number": "CBE2110.FC8226",
+      "movement": "automatic",
+      "case_material": "stainless-steel",
+      "bracelet_material": "leather",
+      "confidence": 0.6
+    },
+    "raw_text": "{\"brand\": \"Tag Heuer\", \"model_family\": \"Autavia Calibre Heuer 02 Chronograph\", \"reference_number\": \"CBE2110.FC8226\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.6}",
+    "raw_response": {
+      "attempts": [
+        {
+          "id": "0a26d0b8-d972-496e-925e-e2e8816e6fdd",
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "logprobs": null,
+              "message": {
+                "content": "{\"brand\": \"Tag Heuer\", \"model_family\": \"Autavia Calibre Heuer 02 Chronograph\", \"reference_number\": \"CBE2110.FC8226\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.6}",
+                "role": "assistant",
+                "reasoning_content": "The watch is a TAG Heuer Autavia chronograph, with Heuer 02 movement. The dial says \"AUTAVIA\" and \"HEUER 02\". The case is stainless steel, with a black dial and white subdials, and a tan leather strap. The reference number likely CBE2110.FC8226 (Autavia Calibre Heuer 02 chronograph 42mm, steel, black dial, brown leather strap). Actually the Autavia Calibre Heuer 02 42mm references: CBE2110.BA0687 (bracelet), CBE2110.FC8226 (leather strap). The brown leather strap version is CBE2110.FC8226.\n\nWait - the black dial with white subdials and brown leather strap... The Autavia Heuer 02 with black dial has panda-like subdials. CBE2110.FC8226 is the one with brown leather strap and black dial. Yes.\n\nConfidence ~0.6.\n\nCase material stainless steel, bracelet leather, movement automatic.\n\nModel family: Autavia Calibre Heuer 02."
+              }
+            }
+          ],
+          "created": 1790767625,
+          "model": "deepseek-flash",
+          "object": "chat.completion",
+          "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "usage": {
+            "completion_tokens": 306,
+            "prompt_tokens": 1377,
+            "total_tokens": 1683,
+            "completion_tokens_details": {
+              "reasoning_tokens": 229
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "prompt_cache_hit_tokens": 128,
+            "prompt_cache_miss_tokens": 1249
+          }
+        }
+      ]
+    },
+    "input_tokens": 1377,
+    "output_tokens": 306,
+    "cached_input_tokens": 128,
+    "cost_usd": 0.00037133399999999997,
+    "cost_source": "rate-table",
+    "elapsed_s": 3.538,
+    "started_at": "2026-09-30T11:27:03.849941+00:00",
+    "attempts": 1,
+    "error": null,
+    "error_detail": null,
+    "served_model": "deepseek-flash"
+  }
+}

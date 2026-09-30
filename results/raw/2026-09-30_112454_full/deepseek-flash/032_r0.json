@@ -1,0 +1,70 @@
+{
+  "run_id": "2026-09-30_112454_full",
+  "model_name": "deepseek-flash",
+  "provider": "deepseek",
+  "provider_model": "deepseek-flash",
+  "mode": "prompt",
+  "row_id": 32,
+  "repeat": 0,
+  "image_file": "032_ap_royal-oak-jumbo-extra-thin.jpg",
+  "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+  "result": {
+    "parsed": {
+      "brand": "Audemars Piguet",
+      "model_family": "Royal Oak Jumbo Extra-Thin",
+      "reference_number": "15202ST.OO.1240ST.01",
+      "movement": "automatic",
+      "case_material": "stainless-steel",
+      "bracelet_material": "metal",
+      "confidence": 0.62
+    },
+    "raw_text": "{\"brand\": \"Audemars Piguet\", \"model_family\": \"Royal Oak Jumbo Extra-Thin\", \"reference_number\": \"15202ST.OO.1240ST.01\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.62}",
+    "raw_response": {
+      "attempts": [
+        {
+          "id": "c99f1e5e-b48c-4138-a72b-72e943bee092",
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "logprobs": null,
+              "message": {
+                "content": "{\"brand\": \"Audemars Piguet\", \"model_family\": \"Royal Oak Jumbo Extra-Thin\", \"reference_number\": \"15202ST.OO.1240ST.01\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.62}",
+                "role": "assistant",
+                "reasoning_content": "The watch is an Audemars Piguet Royal Oak, Jumbo extra-thin, blue dial with \"AP\" logo at 12 and no date... Actually there is a date window at 3 o'clock showing \"3\". Wait, the image shows a date window at 3 o'clock. But the 15202ST has no date at... actually the 15202ST does have a date at 3 o'clock. Yes, the Royal Oak Jumbo 15202ST has a date window at 3. And it has \"AP\" applied logo at 12 and \"AUDEMARS PIGUET AUTOMATIC\" text. The 15202ST has the AP logo at 12 and no \"Audemars Piguet\" text? Let me recall.\n\nThe 15202ST (Jumbo extra-thin) dial: applied \"AP\" logo at 12 o'clock, \"AUDEMARS PIGUET\" printed above? Actually the 15202ST dial has: \"AP\" logo applied at 12, and below the center \"AUDEMARS PIGUET\" ... Hmm.\n\nActually the 15202ST dial: at 12 o'clock there's the applied AP monogram, and beneath it nothing; the \"AUDEMARS PIGUET / AUTOMATIC\" text is below the center? No.\n\nLet me think about the 15202ST. The dial: AP logo applied at 12 o'clock position, \"AUDEMARS PIGUET\" printed in the upper half below the logo? Hmm, standard 15202ST dial has \"AP\" applied logo at 12, and \"AUDEMARS PIGUET\" and \"AUTOMATIC\" printed below the logo? Actually I recall the 15202ST has text \"AUDEMARS PIGUET\" above the center... no.\n\nThe image shows: AP logo applied at 12 o'clock center, and below the center \"AUDEMARS PIGUET\" over \"AUTOMATIC\". Hmm, the image shows AP monogram at 12 and then \"AUDEMARS PIGUET / AUTOMATIC\" text below the hands (bottom half). Hmm, actually in the image the \"AUDEMARS PIGUET AUTOMATIC\" text appears above center? Looking at the photo: the text \"AUDEMARS PIGUET\" with \"AUTOMATIC\" beneath appears in the upper-middle region, and the \"AP\" logo appears at the lower middle (6 o'clock side). Yes! In the image, the AP monogram is at the bottom (6 o'clock), and text at the top (12 o'clock). That matches the 15202ST layout — no wait.\n\nThe Royal Oak 15202ST: dial has \"AUDEMARS PIGUET\" printed at 12 o'clock with \"AUTOMATIC\" below it, and the applied \"AP\" monogram at 6 o'clock. Yes! That's the Jumbo layout for 15202ST. Actually I recall the 15202 has AP logo at 12 and \"Audemars Piguet\" at... Hmm.\n\nLet me recall pictures: The 15202ST blue dial — I'm fairly confident: \"AUDEMARS PIGUET\" and \"AUTOMATIC\" at 12, applied AP monogram at 6. Yes, that's correct for the 15202ST Jumbo. The 5402 original had \"AP\" at 12? The original 5402 A-series had AP logo at 12? Hmm.\n\nActually the original 5402ST had \"AUDEMARS PIGUET\" and \"AUTOMATIC\" at 12, and the AP logo at 6. Yes — that's the classic Jumbo layout: text up top, AP logo at 6 o'clock. Correct.\n\nThe 15202ST blue dial \"Extra Thin\" — reference 15202ST.OO.1240ST.01. That's the standard 15202ST with blue dial and stainless steel bracelet.\n\nMovement: automatic (Caliber 2121). Case material: stainless steel. Bracelet: metal.\n\nConfidence: high-ish, 0.8.\n\nThe dial appears blue with \"Petite Tapisserie\" pattern. The 15202ST blue dial is a \"Bleu Nuit, Nuage 50\"? The 15202ST.OO.1240ST.01 has a blue dial. There's also the 15202ST.OO.0944ST.01 with blue dial from 2012 (40th anniversary). Both blue.\n\nNote: there's also the 16202ST (new Jumbo with 50th anniversary, 2022) which has blue \"Petite Tapisserie\" dial with date at 3 and the same layout, and it says \"AUDEMARS PIGUET\" ... the 16202 dial also has text at 12 and AP at 6. Hmm, so distinguishing 15202ST vs 16202ST: 16202 has slightly different printing, \"SWISS MADE\" at bottom... The 16202ST blue dial \"50th anniversary\" - reference 16202ST.OO.1240ST.01.\n\nThe photo is likely a 15202ST. I'll go with 15202ST.OO.1240ST.01.\n\nActually, distinguishing: The 15202 has hands... both similar. The 16202 has a wider date window? Hmm. The 15202ST's date window at 3 with white background. Both.\n\nI'll give 15202ST.OO.1240ST.01 with confidence 0.6.\n\nNote the image shows \"AUDEMARS PIGUET AUTOMATIC\" — the 15202ST has \"AUDEMARS PIGUET\" and \"AUTOMATIC\" printed. Also, is there \"SWISS MADE\" at bottom? Yes seen.\n\nModel family: Royal Oak \"Jumbo\" Extra-Thin."
+              }
+            }
+          ],
+          "created": 1790767575,
+          "model": "deepseek-flash",
+          "object": "chat.completion",
+          "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "usage": {
+            "completion_tokens": 1364,
+            "prompt_tokens": 789,
+            "total_tokens": 2153,
+            "completion_tokens_details": {
+              "reasoning_tokens": 1284
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "prompt_cache_hit_tokens": 128,
+            "prompt_cache_miss_tokens": 661
+          }
+        }
+      ]
+    },
+    "input_tokens": 789,
+    "output_tokens": 1364,
+    "cached_input_tokens": 128,
+    "cost_usd": 0.0009179339999999999,
+    "cost_source": "rate-table",
+    "elapsed_s": 8.436,
+    "started_at": "2026-09-30T11:26:14.724399+00:00",
+    "attempts": 1,
+    "error": null,
+    "error_detail": null,
+    "served_model": "deepseek-flash"
+  }
+}

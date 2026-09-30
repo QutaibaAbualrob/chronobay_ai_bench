@@ -1,0 +1,70 @@
+{
+  "run_id": "2026-09-30_112454_full",
+  "model_name": "deepseek-flash",
+  "provider": "deepseek",
+  "provider_model": "deepseek-flash",
+  "mode": "prompt",
+  "row_id": 41,
+  "repeat": 0,
+  "image_file": "041_tagheuer_carrera-chronograph.jpg",
+  "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+  "result": {
+    "parsed": {
+      "brand": "Tag Heuer",
+      "model_family": "Carrera Calibre 16 Chronograph",
+      "reference_number": "CBM2110.BA0651",
+      "movement": "automatic",
+      "case_material": "stainless-steel",
+      "bracelet_material": "metal",
+      "confidence": 0.35
+    },
+    "raw_text": "{\"brand\": \"Tag Heuer\", \"model_family\": \"Carrera Calibre 16 Chronograph\", \"reference_number\": \"CBM2110.BA0651\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.35}",
+    "raw_response": {
+      "attempts": [
+        {
+          "id": "1c86c700-7c16-4104-bb03-74b08fcfcead",
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "logprobs": null,
+              "message": {
+                "content": "{\"brand\": \"Tag Heuer\", \"model_family\": \"Carrera Calibre 16 Chronograph\", \"reference_number\": \"CBM2110.BA0651\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.35}",
+                "role": "assistant",
+                "reasoning_content": "The watch in the image is a TAG Heuer Carrera Calibre 16 chronograph, black dial, stainless steel bracelet. Reference CBM2110.BA0651 or similar. The dial shows \"CARRERA\" and \"CALIBRE 16\" text and TAG Heuer logo.\n\nLooking closer, this appears to be TAG Heuer Carrera Calibre 16 Chronograph, ref CBM2110.BA0651 (43mm, black dial, steel bracelet). Actually the bezel has a tachymeter... Let me think. The Carrera Calibre 16 with day-date? There's a model CV2A10.BA0796 — Carrera Calibre 16 Day-Date Chronograph 43mm steel bracelet. The dial shows day-date at 3 o'clock? Hard to see. The image shows a subdial layout with what looks like small subdials and date.\n\nActually the visible text \"CARRERA\" and \"CALIBRE 16\" — the watch appears to have a tachymeter bezel and three subdials. The CV2A10 has day-date at 3. Hmm, in the image there's something at 3 o'clock that could be date window.\n\nThe newer CBM2110 Carrera Calibre 16 has a fixed steel bezel with tachymeter? Actually CBM2110 has a black ceramic bezel with tachymeter, 41mm. The image bezel looks steel/black with numerals 100, 110... tachymeter numbers visible around bezel. Hmm, tachymeter scale with numbers 100, 110, 120 - that's a tachymeter. The CBM2110.BA0651 has a black ceramic tachymeter bezel. But the image bezel appears metallic-ish with black insert? It looks dark with white numbers.\n\nGiven the image, I'd guess CBM2110.BA0651. Hmm, but the bracelet is steel with polished center links, matching CBM2110.BA0651.\n\nActually wait — CBM2110.BA0651 dial has \"CARRERA\" and \"CALIBRE 16\" text? Yes, the CBM2110 dial has TAG Heuer logo, CARRERA, CALIBRE 16, and \"CHRONOMETER OFFICIALLY CERTIFIED\"? Hmm.\n\nAlternatively, this could be the Carrera Calibre 16 Day-Date CV2A10. But that one has a steel bezel with tachymeter engraved? No, CV2A10 has a steel bezel with tachymeter... Actually CV2A10.BA0796 has a fixed steel bezel with tachymeter scale, silver. Hmm.\n\nThe image shows dark bezel with white numerals — likely black ceramic tachymeter bezel → CBM2110.BA0651.\n\nAlso there is a model CBN2010 (Carrera Calibre 16, 42mm) with... Hmm. Let's go with CBM2110.BA0651, confidence moderate ~0.35.\n\nMovement: automatic. Case: stainless steel. Bracelet: metal.\n\nModel family: Carrera Calibre 16."
+              }
+            }
+          ],
+          "created": 1790767603,
+          "model": "deepseek-flash",
+          "object": "chat.completion",
+          "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "usage": {
+            "completion_tokens": 754,
+            "prompt_tokens": 641,
+            "total_tokens": 1395,
+            "completion_tokens_details": {
+              "reasoning_tokens": 678
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "prompt_cache_hit_tokens": 128,
+            "prompt_cache_miss_tokens": 513
+          }
+        }
+      ]
+    },
+    "input_tokens": 641,
+    "output_tokens": 754,
+    "cached_input_tokens": 128,
+    "cost_usd": 0.0005297339999999999,
+    "cost_source": "rate-table",
+    "elapsed_s": 5.467,
+    "started_at": "2026-09-30T11:26:42.187471+00:00",
+    "attempts": 1,
+    "error": null,
+    "error_detail": null,
+    "served_model": "deepseek-flash"
+  }
+}
