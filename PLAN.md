@@ -36,6 +36,39 @@ benchmark measures has nowhere to land in the API yet. Separate task.
 
 ---
 
+## Changes during implementation (2026-09-30)
+
+Facts that moved since this plan was written, and decisions taken while building.
+Where this section and the text below disagree, this section wins.
+
+- **Location:** the bench lives at `D:\orapex\chronobay_ai_bench` (Windows), venv at
+  `.venv\Scripts\python.exe`. The Arch/`EXTERNALLY-MANAGED` notes below don't apply.
+- **Anthropic pricing:** the Sonnet 5 increase to $3/$15 on 2026-09-01 was cancelled;
+  $2/$10 is the standard price. Default Claude model is `claude-opus-5-5` ($4/$20).
+- **DeepSeek:** `deepseek-v4-flash-vision-exp` was retired on 2026-09-10; the vision
+  model is now `deepseek-flash` (legacy name still accepted). Images are capped at
+  **1,024** tokens, not 384. Prices differ by time of day (peak 01–04 and 06–10 UTC,
+  weekdays: $0.30/$1.20 per MTok; off-peak $0.15/$0.60); cost uses the rate in force
+  when each request started. Still `json_object` only → prompt mode.
+- **OpenRouter:** usage accounting is automatic; `usage.cost` is in credits (1 credit
+  = $1). Requests set `provider.require_parameters` so they only route to upstreams
+  that honour `response_format`.
+- **Scoring:** two scores. *Strict* = exact reference after notation normalization
+  (case; spaces `. - /`; Rolex `M…-dial` catalog form; JLC `JL` prefix). *Lenient* =
+  strict, or a reference in the new `also_accept` column (look-alikes a photo can't
+  separate), or the same watch on another strap (TAG Heuer, Breitling, Omega, AP).
+- **Dataset:** 100 photos checked online against their references; 12 answer-key
+  rows corrected. `source_url` is optional (none were recorded); `validate` warns
+  instead of failing.
+- **SDK calls:** Anthropic and OpenAI use `create` + own Pydantic validation rather
+  than `parse`, so the usage of an unparseable answer is still recorded. Gemini uses
+  `interactions.create`. OpenAI and Gemini direct are untested (no keys); their
+  models run through OpenRouter by default.
+- **Claude refusal fallback** is not enabled: it would attribute another model's
+  answer to Claude.
+
+---
+
 ## Decisions taken
 
 | Decision | Choice | Why |
