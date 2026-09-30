@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-09-30_112454",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 6,
+ "repeat": 0,
+ "image_file": "006_rolex_explorer-36.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_family": "Explorer",
+   "reference_number": "124270",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.5
+  },
+  "raw_text": "{\"brand\": \"Rolex\", \"model_family\": \"Explorer\", \"reference_number\": \"124270\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.5}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "f2bdd4ea-d7cd-4673-92c5-cc53982c3655",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Rolex\", \"model_family\": \"Explorer\", \"reference_number\": \"124270\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.5}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Rolex Explorer 36mm with black dial and 3-6-9 numerals. The new 36mm reference is 124270. Older 36mm was 114270. The image shows a modern Explorer with lumed 3-6-9 numerals and a slightly larger case—looks like the 36mm 124270 (2021 release). The hands: the new 124270 has same design. Hard to tell 36 vs 39 (214270) — the 39mm has the same dial. Case size can't be determined precisely from the photo. The 214270 Mk2 had lumed 3-6-9. The 124270 also. I'd guess 124270 with moderate confidence.\n\nNote the dial looks dark blue-ish but that's likely lighting; Explorer is black.\n\nReference: 124270 for 36mm steel Oyster bracelet.\n\nConfidence ~0.5."
+       }
+      }
+     ],
+     "created": 1790767499,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 256,
+      "prompt_tokens": 1071,
+      "total_tokens": 1327,
+      "completion_tokens_details": {
+       "reasoning_tokens": 194
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 943
+     }
+    }
+   ]
+  },
+  "input_tokens": 1071,
+  "output_tokens": 256,
+  "cached_input_tokens": 128,
+  "cost_usd": 0.00029543399999999996,
+  "cost_source": "rate-table",
+  "elapsed_s": 2.645,
+  "started_at": "2026-09-30T11:24:58.251065+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-09-30_112454",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 90,
+ "repeat": 0,
+ "image_file": "090_jlc_master-control-chronograph.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Jaeger-LeCoultre",
+   "model_family": "Master Control Chronograph Calendar",
+   "reference_number": "Q4138420",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.55
+  },
+  "raw_text": "{\"brand\": \"Jaeger-LeCoultre\", \"model_family\": \"Master Control Chronograph Calendar\", \"reference_number\": \"Q4138420\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.55}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "7cf58dc6-a925-400f-9f7f-bba03c57e2fc",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Jaeger-LeCoultre\", \"model_family\": \"Master Control Chronograph Calendar\", \"reference_number\": \"Q4138420\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.55}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Jaeger-LeCoultre Master Control Chronograph Calendar. The photo shows a steel case with white/silver dial, day/month windows, moonphase, chronograph, tachymeter scale, brown leather strap. The reference is likely Q4138420 (steel, Master Control Chronograph Calendar). The blue hands and blued steel hands... Actually the Master Control Chronograph Calendar ref. Q4138420 has a silvered dial with blue accents? Let me recall.\n\nJaeger-LeCoultre Master Control Chronograph Calendar, reference Q4138420 (also 1308420 older). The watch has a stainless steel case, 40mm, caliber 759 (automatic), triple calendar with moonphase and chronograph. The one with blue hands... hmm. There's also Q4138480? Let's think.\n\nThe Master Control Chronograph Calendar was introduced in 2020 (ref. Q4138420) with silver dial, blue hands, brown leather strap. Actually I recall the launch model had a silver dial with blue-tipped hands and a brown alligator strap, steel case. Yes, Q4138420 is stainless steel with silver dial. There's also Q4138480? Hmm, and a pink gold version Q4142420? Something like that.\n\nGiven the blurry image but steel case, silver dial, blue hands, brown leather strap, the reference is Q4138420.\n\nConfidence ~0.5-0.6."
+       }
+      }
+     ],
+     "created": 1790767726,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 379,
+      "prompt_tokens": 1073,
+      "total_tokens": 1452,
+      "completion_tokens_details": {
+       "reasoning_tokens": 307
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 945
+     }
+    }
+   ]
+  },
+  "input_tokens": 1073,
+  "output_tokens": 379,
+  "cached_input_tokens": 128,
+  "cost_usd": 0.000369534,
+  "cost_source": "rate-table",
+  "elapsed_s": 3.27,
+  "started_at": "2026-09-30T11:28:45.548650+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-09-30_112454",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 58,
+ "repeat": 0,
+ "image_file": "058_breitling_aerospace-evo.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Breitling",
+   "model_family": "Aerospace Evo",
+   "reference_number": "E7936310/BC27/152E",
+   "movement": "quartz",
+   "case_material": "titanium",
+   "bracelet_material": "metal",
+   "confidence": 0.45
+  },
+  "raw_text": "{\"brand\": \"Breitling\", \"model_family\": \"Aerospace Evo\", \"reference_number\": \"E7936310/BC27/152E\", \"movement\": \"quartz\", \"case_material\": \"titanium\", \"bracelet_material\": \"metal\", \"confidence\": 0.45}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "e1e6a96e-77ec-4d90-9d50-2acb85c0554e",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Breitling\", \"model_family\": \"Aerospace Evo\", \"reference_number\": \"E7936310/BC27/152E\", \"movement\": \"quartz\", \"case_material\": \"titanium\", \"bracelet_material\": \"metal\", \"confidence\": 0.45}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Breitling Aerospace (or Aerospace Evo). Titanium case, black dial, analog-digital, Breitling logo (winged B). Reference number for Breitling Aerospace Evo titanium with black dial: E7936310/BC27. Let me think.\n\nThe Aerospace Evo references: E7936310/BC27 (black dial, titanium bracelet), E7936310/C906 etc. The Breitling Aerospace Evo Titanium black dial on titanium bracelet: E7936310/BC27/152E.\n\nActually the newer Aerospace (2023) is the \"Aerospace B70\" — no, that has different design. The watch in the image looks like the Aerospace Evo with the black dial, titanium case and bracelet, orange-ish accents... The dial says \"BREITLING\" with wings logo, \"AEROSPACE\" maybe. It has \"100M\" text? Hmm.\n\nReference: E7936310/BC27/152E is a common one for Aerospace Evo black dial with professional III titanium bracelet.\n\nConfidence maybe 0.4.\n\nMovement: quartz (superquartz, thermocompensated). Case material titanium. Bracelet titanium -> \"metal\".\n\nLet me give: brand Breitling, model_family \"Aerospace Evo\", reference_number \"E7936310/BC27/152E\", movement quartz, case_material titanium, bracelet_material metal, confidence 0.45."
+       }
+      }
+     ],
+     "created": 1790767655,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 381,
+      "prompt_tokens": 1071,
+      "total_tokens": 1452,
+      "completion_tokens_details": {
+       "reasoning_tokens": 309
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 943
+     }
+    }
+   ]
+  },
+  "input_tokens": 1071,
+  "output_tokens": 381,
+  "cached_input_tokens": 128,
+  "cost_usd": 0.00037043399999999994,
+  "cost_source": "rate-table",
+  "elapsed_s": 3.621,
+  "started_at": "2026-09-30T11:27:34.422367+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

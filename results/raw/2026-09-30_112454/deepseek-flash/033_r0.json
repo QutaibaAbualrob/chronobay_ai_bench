@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-09-30_112454",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 33,
+ "repeat": 0,
+ "image_file": "033_ap_royal-oak-offshore-chronograph-42.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Audemars Piguet",
+   "model_family": "Royal Oak Offshore Chronograph",
+   "reference_number": "26170ST.OO.D305CR.01",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "rubber",
+   "confidence": 0.35
+  },
+  "raw_text": "{\"brand\": \"Audemars Piguet\", \"model_family\": \"Royal Oak Offshore Chronograph\", \"reference_number\": \"26170ST.OO.D305CR.01\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"rubber\", \"confidence\": 0.35}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "9877be63-a7e9-476a-b15c-a0a44bf6c117",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Audemars Piguet\", \"model_family\": \"Royal Oak Offshore Chronograph\", \"reference_number\": \"26170ST.OO.D305CR.01\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"rubber\", \"confidence\": 0.35}",
+        "role": "assistant",
+        "reasoning_content": "The watch is an Audemars Piguet Royal Oak Offshore Chronograph, blue dial with white subdials, \"Méga Tapisserie\" pattern, orange chrono seconds hand, on rubber strap. Reference could be 26170ST.OO.D305CR.01 (Royal Oak Offshore Chronograph \"Navy\" 42mm). Actually 26170ST.OO.D305CR.01 is the Navy with blue dial, rubber strap. Let me think.\n\nThe 26170ST.OO.D305CR.01 — Royal Oak Offshore Chronograph Navy, 42mm, blue dial, stainless steel, blue rubber strap. Yes, that's a known reference. Other options: 26170ST.OO.D027CA.01 (blue dial, hornback leather). The rubber strap suggests D305CR.01.\n\nHmm, but the dial here shows Arabic numerals 12, 2, 4, 5, 7(?), 8, 10 — actually the dial shows 12, 1(?), 2, 4, 5, 7, 8, 10 indices in Arabic. The Navy has Arabic numerals at 12, 2, 4, 6, 8, 10? Let me recall: The Royal Oak Offshore Navy ref 26170ST.OO.D305CR.01 has a blue dial with white gold applied Arabic numerals and orange accents. Yes.\n\nActually the newer version is 26470ST (2014+, 42mm) — Royal Oak Offshore Chronograph blue dial \"Navy\" 26470ST.OO.A027CA.01 with leather strap. The rubber strap version... The 42mm 26470ST with blue dial comes with... hmm.\n\nGiven the date window at 3 and layout, and the \"Méga Tapisserie\" pattern — both would fit. The strap is rubber with the AP pin buckle. The 26170ST.OO.D305CR.01 has blue rubber strap.\n\nHmm, but note the hour markers: this dial appears to have Arabic numerals — the Navy version of 26470ST is 26470ST.OO.A027CA.01? No, that's the Navy with blue dial and alligator? Let me think again: 26470ST.OO.A027CA.01 is blue dial, blue alligator... Actually 26470ST.OO.A027CA.01 is the \"Navy\" with blue dial and blue rubber strap? I'm not certain.\n\nI'll go with 26170ST.OO.D305CR.01, stainless steel, automatic, rubber strap, confidence ~0.35.\n\nActually wait — the 26170 was 42mm with \"Mega Tapisserie\". The dial shows \"AP\" logo and \"AUDEMARS PIGUET\" below center. That matches. Orange chrono hand and orange accents — Navy version. So 26170ST.OO.D305CR.01 seems plausible.\n\nLet me double check that reference: 26170ST.OO.D305CR.01 — Royal Oak Offshore Chronograph, stainless steel, 42mm, blue dial, blue rubber strap. Yes I believe that's the \"Navy\".\n\nConfidence 0.35."
+       }
+      }
+     ],
+     "created": 1790767576,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 755,
+      "prompt_tokens": 1349,
+      "total_tokens": 2104,
+      "completion_tokens_details": {
+       "reasoning_tokens": 677
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 1221
+     }
+    }
+   ]
+  },
+  "input_tokens": 1349,
+  "output_tokens": 755,
+  "cached_input_tokens": 128,
+  "cost_usd": 0.000636534,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.854,
+  "started_at": "2026-09-30T11:26:15.378545+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

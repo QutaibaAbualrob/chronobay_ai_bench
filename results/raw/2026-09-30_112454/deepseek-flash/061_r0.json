@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-09-30_112454",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 61,
+ "repeat": 0,
+ "image_file": "061_cartier_santos-de-cartier-large.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Cartier",
+   "model_family": "Santos de Cartier",
+   "reference_number": "WSSA0018",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.4
+  },
+  "raw_text": "{\"brand\": \"Cartier\", \"model_family\": \"Santos de Cartier\", \"reference_number\": \"WSSA0018\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.4}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "cb4a2e3d-9abf-4498-9aa8-9ba477e9745f",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Cartier\", \"model_family\": \"Santos de Cartier\", \"reference_number\": \"WSSA0018\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.4}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Cartier Santos. The dial shows \"CARTIER\" and \"AUTOMATIC\" and a date window at 3 o'clock. The case is steel with a steel bracelet. This looks like the Santos de Cartier large model, reference WSSA0018 (steel, steel bracelet, blue sword hands, date at 3). Actually, WSSA0018 is the Santos large steel with steel bracelet. The medium is WSSA0029. The large with blue hands... Let me recall: Santos de Cartier large steel WSSA0018 has a silver dial with blue steel hands, date at 3, steel bracelet with SmartLink. Yes.\n\nReference numbers: WSSA0009 (large steel, steel bracelet, silvered dial), WSSA0018 (large, steel, blue hands?), WSSA0029 (medium steel). Actually WSSA0009 is the large steel 2018 Santos. WSSA0018 is the steel large with bracelet... Hmm.\n\nCartier Santos de Cartier large: WSSA0009 is the steel model with steel bracelet, silvered dial. WSSA0018 is... large steel with blue dial? No, WSSA0030 is blue dial. Let me think: WSSA0018 = Santos Large, steel, steel bracelet, silver dial? Some sources: WSSA0018 Santos de Cartier Large Steel — yes I believe WSSA0018 is a large steel with silvered dial and steel bracelet (2018+). WSSA0009 was earlier version.\n\nGiven uncertainty, best guess: WSSA0018, confidence ~0.4.\n\nThe bracelet appears steel with the typical Santos \"screw\" links. Case material steel. Movement automatic.\n\nModel family: Santos de Cartier."
+       }
+      }
+     ],
+     "created": 1790767662,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 447,
+      "prompt_tokens": 1377,
+      "total_tokens": 1824,
+      "completion_tokens_details": {
+       "reasoning_tokens": 379
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 1249
+     }
+    }
+   ]
+  },
+  "input_tokens": 1377,
+  "output_tokens": 447,
+  "cached_input_tokens": 128,
+  "cost_usd": 0.00045593399999999996,
+  "cost_source": "rate-table",
+  "elapsed_s": 4.315,
+  "started_at": "2026-09-30T11:27:40.897175+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

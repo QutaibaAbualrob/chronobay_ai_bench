@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-09-30_112454",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 69,
+ "repeat": 0,
+ "image_file": "069_cartier_drive-de-cartier.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Cartier",
+   "model_family": "Drive de Cartier",
+   "reference_number": "WSNM0004",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.6
+  },
+  "raw_text": "{\"brand\": \"Cartier\", \"model_family\": \"Drive de Cartier\", \"reference_number\": \"WSNM0004\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.6}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "a3187ac2-93bf-4695-bdfe-a509113ee726",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Cartier\", \"model_family\": \"Drive de Cartier\", \"reference_number\": \"WSNM0004\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.6}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Cartier Drive de Cartier, with small seconds and date, in stainless steel, on black alligator leather strap. Reference: Cartier Drive de Cartier stainless steel WSNM0004 (small seconds, date, steel). Actually let me recall: Drive de Cartier references:\n- WSNM0004: Drive de Cartier steel, silver dial, small seconds and date, automatic — yes this is the steel large model with small seconds at 6 and date at 3. Actually I recall WSNM0004 as steel Drive de Cartier with small seconds and date. There's also WSNM0005 with... Hmm.\n\nDrive de Cartier large model references:\n- WSNM0004 — steel, silvered dial, small seconds, date\n- WSNM0005 — steel, black dial? Not sure.\n- WGNM0003 — pink gold.\n\nThe Drive de Cartier small seconds and date: reference WSNM0004 in steel. I'll go with that with moderate confidence.\n\nMovement: automatic (1904-PS MC). Case material: stainless steel. Bracelet: leather."
+       }
+      }
+     ],
+     "created": 1790767675,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 305,
+      "prompt_tokens": 1344,
+      "total_tokens": 1649,
+      "completion_tokens_details": {
+       "reasoning_tokens": 237
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 1216
+     }
+    }
+   ]
+  },
+  "input_tokens": 1344,
+  "output_tokens": 305,
+  "cached_input_tokens": 128,
+  "cost_usd": 0.00036578399999999997,
+  "cost_source": "rate-table",
+  "elapsed_s": 3.047,
+  "started_at": "2026-09-30T11:27:54.798987+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

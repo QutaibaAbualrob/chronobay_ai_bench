@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-09-30_112454",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 35,
+ "repeat": 0,
+ "image_file": "035_ap_royal-oak-perpetual-calendar.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Audemars Piguet",
+   "model_family": "Royal Oak Perpetual Calendar",
+   "reference_number": "26574ST.OO.1220ST.01",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.85
+  },
+  "raw_text": "{\"brand\": \"Audemars Piguet\", \"model_family\": \"Royal Oak Perpetual Calendar\", \"reference_number\": \"26574ST.OO.1220ST.01\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.85}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "ed2bb110-6fc6-4be2-9355-5ea28cb89734",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Audemars Piguet\", \"model_family\": \"Royal Oak Perpetual Calendar\", \"reference_number\": \"26574ST.OO.1220ST.01\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.85}",
+        "role": "assistant",
+        "reasoning_content": "The watch is an Audemars Piguet Royal Oak Perpetual Calendar. Blue dial, stainless steel, bracelet. Reference 26574ST.OO.1220ST.01 (blue dial perpetual calendar, stainless steel, 41mm). There's also 26574ST.OO.1220ST.02 (blue dial with... actually the .01 is blue dial, .02 is with diamond? Let me think). 26574ST.OO.1220ST.01 is the stainless steel Royal Oak Perpetual Calendar with blue dial. Yes.\n\nMovement: automatic, caliber 5134. Case material: stainless steel. Bracelet: metal (stainless steel).\n\nConfidence ~0.85."
+       }
+      }
+     ],
+     "created": 1790767584,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 228,
+      "prompt_tokens": 1377,
+      "total_tokens": 1605,
+      "completion_tokens_details": {
+       "reasoning_tokens": 149
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 1249
+     }
+    }
+   ]
+  },
+  "input_tokens": 1377,
+  "output_tokens": 228,
+  "cached_input_tokens": 128,
+  "cost_usd": 0.00032453399999999997,
+  "cost_source": "rate-table",
+  "elapsed_s": 2.561,
+  "started_at": "2026-09-30T11:26:23.161613+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

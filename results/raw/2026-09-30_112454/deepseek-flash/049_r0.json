@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-09-30_112454",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 49,
+ "repeat": 0,
+ "image_file": "049_tagheuer_aquaracer-professional-1000-superdiver.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Tag Heuer",
+   "model_family": "Aquaracer Professional 300 Automatic",
+   "reference_number": "WBP201D.FT6197",
+   "movement": "automatic",
+   "case_material": "titanium",
+   "bracelet_material": "rubber",
+   "confidence": 0.35
+  },
+  "raw_text": "{\"brand\": \"Tag Heuer\", \"model_family\": \"Aquaracer Professional 300 Automatic\", \"reference_number\": \"WBP201D.FT6197\", \"movement\": \"automatic\", \"case_material\": \"titanium\", \"bracelet_material\": \"rubber\", \"confidence\": 0.35}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "df1b43ba-009a-404c-b8be-a97da6d72d44",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Tag Heuer\", \"model_family\": \"Aquaracer Professional 300 Automatic\", \"reference_number\": \"WBP201D.FT6197\", \"movement\": \"automatic\", \"case_material\": \"titanium\", \"bracelet_material\": \"rubber\", \"confidence\": 0.35}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a TAG Heuer Aquaracer Professional 300 with a black DLC-coated case and white/silver dial with horizontal lines. Reference: WBP201D.FT6197? Let me think.\n\nTAG Heuer Aquaracer Professional 300 Automatic 43mm — black DLC titanium? Actually there's the \"Aquaracer Professional 300 Date\" with black DLC-coated titanium case, reference WBP201D.FT6197 — that has a black dial. Hmm.\n\nThe white/silver dial with horizontal lines (teak deck pattern) — that's the WBP201B? The Aquaracer Professional 300 with silver dial... Actually the \"Aquaracer Professional 300\" ref WBP2011.BA0632 has blue dial. \n\nLet me recall: TAG Heuer Aquaracer Professional 300 Automatic 43 mm black DLC titanium, ref WBP201D.FT6197 — dial is black with... Actually I recall WBP201D has a \"black gold\" or gradient. Hmm.\n\nThere's the Aquaracer Professional 300 ref WBP201C.BA0632 (green bezel). The \"TAG Heuer Aquaracer Professional 300 Date\" 43mm with black DLC titanium and silver-white dial — I believe reference is WBP201D.FT6197 with a black dial... \n\nHmm, actually I recall the WBP201D.FT6197 is the \"Aquaracer Professional 300 Automatic Black DLC Titanium\" with a silvery-white dial with horizontal lines? Let me think harder. The picture shows a black case (DLC titanium), black ceramic bezel with white numerals, silver-white striped dial with black gold accents, black rubber strap with horizontal ridges.\n\nI'm fairly confident this is the TAG Heuer Aquaracer Professional 300 Automatic 43mm in black DLC titanium with silver dial — reference WBP201D.FT6197. Actually I've seen WBP201D.FT6197 described as \"Titanium DLC, black dial, black rubber strap\". Hmm. But there's a variant with a \"silver\" dial... \n\nAlternatively WBP201D.FT6197 dial is \"black sunray\". Hmm.\n\nWait — the Aquaracer Professional 300 \"Night Diver\"? No, that's older.\n\nLet me consider other references: WBP2010.BA0632 (black dial, steel), WBP2011.BA0632 (blue), WBP2012 (green?), WBP2013, WBP2014, WBP2015, WBP2016 — the Aquaracer Professional 300 43mm steel models. The 43mm titanium DLC: WBP201D.FT6197. Hmm, actually I think WBP201D is the \"Aquaracer Professional 300 Automatic Titanium DLC\" with black dial and black rubber with... \n\nGiven the uncertainty, I'll give WBP201D.FT6197 with modest confidence, and note titanium for case material.\n\nActually there might be a reference for black DLC titanium with a \"silver opalin\" dial. Hmm, I don't recall. Let me go with WBP201D.FT6197.\n\nMovement: automatic (Calibre 5). Case material: titanium (DLC-coated). Bracelet: rubber. Confidence ~0.35.\n\nActually, wait — should case material be \"titanium\" or \"ceramic\"? The bezel looks like a matte black ceramic/steel bezel, and the case is brushed black DLC titanium. I'll say titanium.\n\nHmm, but note the bezel appears to be steel with black ceramic insert? On the DLC model the bezel is black ceramic. The case material field: titanium.\n\nCase size 43mm. The dial says AUTOMATIC 300m/1000ft, date at 6.\n\nFinal answer."
+       }
+      }
+     ],
+     "created": 1790767620,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 895,
+      "prompt_tokens": 1361,
+      "total_tokens": 2256,
+      "completion_tokens_details": {
+       "reasoning_tokens": 822
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 1233
+     }
+    }
+   ]
+  },
+  "input_tokens": 1361,
+  "output_tokens": 895,
+  "cached_input_tokens": 128,
+  "cost_usd": 0.0007223339999999999,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.973,
+  "started_at": "2026-09-30T11:26:59.374926+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

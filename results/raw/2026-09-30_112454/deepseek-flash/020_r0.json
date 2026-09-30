@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-09-30_112454",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 20,
+ "repeat": 0,
+ "image_file": "020_omega_de-ville-prestige.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Omega",
+   "model_family": "De Ville Prestige Co-Axial",
+   "reference_number": "424.13.40.20.02.001",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.3
+  },
+  "raw_text": "{\"brand\": \"Omega\", \"model_family\": \"De Ville Prestige Co-Axial\", \"reference_number\": \"424.13.40.20.02.001\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.3}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "13f480fd-cba5-484a-b1c5-d25057d04a71",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Omega\", \"model_family\": \"De Ville Prestige Co-Axial\", \"reference_number\": \"424.13.40.20.02.001\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.3}",
+        "role": "assistant",
+        "reasoning_content": "The watch: Omega De Ville, white/silver dial with Roman numerals at 12, 3, 6, 9 and applied baton indices, date at 3, \"Co-Axial Chronometer\" text, black leather strap, stainless steel case. Likely Omega De Ville Prestige Co-Axial 36.8mm or 39.5mm. Reference 424.13.40.20.02.001 (De Ville Prestige Co-Axial 39.5mm, silver dial, leather strap). Actually 424.13.40.20.02.001 is the 39.5mm version with silvery dial. The 36.8mm is 424.13.33.20.52.001 etc. Hmm.\n\nThe dial with Roman numerals at quarters and \"Co-Axial Chronometer\" — this looks like De Ville Prestige Co-Axial 39.5mm ref 424.13.40.20.02.001. Actually let me recall: 424.13.40.20.02.001 = De Ville Prestige Co-Axial 39.5 mm, stainless steel on leather strap, silvery dial. Yes that seems right. There's also 424.13.40.20.02.002 with blue dial.\n\nHmm, but the dial has a mix: Roman numerals at 12/3/6/9 would be... Actually looking closely, at 12 there's a Roman numeral XII, at 3 the date window, at 6 Roman numeral VI, at 9 Roman numeral IX. The others are baton indices. That's a distinctive design.\n\nActually I recall the De Ville Prestige 39.5mm with \"silvery dial\" having Roman numerals and baton markers — yes, ref 424.13.40.20.02.001. Hmm, but I think 424.13.40.20.02.001 has baton markers only... The one with mixed Roman numerals might be 424.13.40.20.02.004? Let me think.\n\nThere's the De Ville Prestige \"Orbis\" edition... no.\n\nI'll go with 424.13.40.20.02.001, confidence moderate ~0.3.\n\nMovement: automatic (Co-Axial cal 2500). Case: stainless steel. Bracelet: leather."
+       }
+      }
+     ],
+     "created": 1790767528,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 578,
+      "prompt_tokens": 789,
+      "total_tokens": 1367,
+      "completion_tokens_details": {
+       "reasoning_tokens": 501
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 661
+     }
+    }
+   ]
+  },
+  "input_tokens": 789,
+  "output_tokens": 578,
+  "cached_input_tokens": 128,
+  "cost_usd": 0.000446334,
+  "cost_source": "rate-table",
+  "elapsed_s": 3.942,
+  "started_at": "2026-09-30T11:25:27.064322+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}
