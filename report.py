@@ -107,6 +107,7 @@ def summarize(model_name: str, model_meta: dict, records: list[dict], gt: dict[i
         "wall_clock_s": model_meta.get("wall_clock_s"),
         "raw_match": raw_match,
         "n": n,
+        "images": len({i["row_id"] for i in items}),
         "passes": passes,
         "strict": sum(i["strict"] for i in items),
         "lenient": sum(i["lenient"] for i in items),
@@ -270,19 +271,121 @@ def unique_path(path: Path) -> Path:
     return candidate
 
 
-def write_reports(results_dir: Path, summaries: list[dict], gt: dict[int, dict], stamp: datetime,
-                  suffix: str = "", run_label: str = "") -> list[Path]:
+def write_run_reports(folder: Path, summaries: list[dict], gt: dict[int, dict], run_label: str) -> list[Path]:
+    """One folder per run: summary.md (all models, ranked) + <model>.md/.json each."""
+    folder.mkdir(parents=True, exist_ok=True)
     written = []
-    ts = stamp.strftime("%Y-%m-%d_%H%M")
+    if summaries:
+        comp = unique_path(folder / "summary.md")
+        comp.write_text(comparison_markdown(run_label, summaries), encoding="utf-8")
+        written.append(comp)
     for s in summaries:
-        base = results_dir / f"{safe_name(s['model'])}_{ts}{suffix}"
-        md = unique_path(base.with_suffix(".md"))
+        md = unique_path(folder / f"{safe_name(s['model'])}.md")
         md.write_text(to_markdown(s, gt), encoding="utf-8")
-        js = unique_path(base.with_suffix(".json"))
+        js = unique_path(folder / f"{safe_name(s['model'])}.json")
         js.write_text(json.dumps(s, indent=2, ensure_ascii=False), encoding="utf-8")
         written += [md, js]
-    if summaries:
-        comp = unique_path(results_dir / f"comparison_{ts}{suffix}.md")
-        comp.write_text(comparison_markdown(run_label or ts, summaries), encoding="utf-8")
-        written.append(comp)
     return written
+
+
+def _load_run_summaries(results_dir: Path) -> list[tuple[Path, dict]]:
+    found = []
+    for path in (results_dir / "runs").glob("*/*.json"):
+        try:
+            s = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            continue
+        if "strict" in s and "model" in s:
+            found.append((path, s))
+    return found
+
+
+def _run_time(s: dict) -> str:
+    return (s.get("rescored_at") or s.get("started_at") or "")[:16].replace("T", " ")
+
+
+def build_index(results_dir: Path, dataset_size: int) -> Path:
+    """results/REPORT.md — the one file to open. Rebuilt from runs/ after every run
+    or re-score; it only summarizes and links, the detailed reports never change."""
+    found = _load_run_summaries(results_dir)
+    rel = lambda p: p.relative_to(results_dir).as_posix()  # noqa: E731
+
+    # Latest result per model; a run over the whole dataset beats a smaller smoke test.
+    latest: dict[str, tuple[Path, dict]] = {}
+    for path, s in found:
+        key = (s.get("images", 0) >= dataset_size, _run_time(s))
+        cur = latest.get(s["model"])
+        if cur is None or key > (cur[1].get("images", 0) >= dataset_size, _run_time(cur[1])):
+            latest[s["model"]] = (path, s)
+    ranked = sorted(latest.values(), key=lambda ps: -(ps[1]["strict"] / ps[1]["n"] if ps[1]["n"] else 0))
+
+    out = ["# ChronoBay watch-identification benchmark", "",
+           f"Updated {datetime.now():%Y-%m-%d %H:%M}. {dataset_size} watches in the answer key. "
+           "This page is rebuilt after every run; the detailed reports it links to are never changed.", "",
+           "## Latest result per model", ""]
+    if not ranked:
+        out.append("No runs yet.")
+    else:
+        out += ["| Model | Exact reference | Incl. look-alikes | Brand right | Cost / image | Median time "
+                "| Errors | Images | Run | Detailed report |",
+                "|---|---:|---:|---:|---:|---:|---:|---:|---|---|"]
+        for path, s in ranked:
+            per = f"${s['cost_usd'] / s['n']:.4f}" if s.get("cost_usd") is not None and s["n"] else "n/a"
+            med = f"{s['time']['median_s']:.1f}s" if s["time"].get("median_s") is not None else "n/a"
+            errs = sum(s["errors"].values())
+            images = f"{s.get('images', s['n'])}" + (f" x{len(s['passes'])}" if len(s["passes"]) > 1 else "")
+            if s.get("images", s["n"]) < dataset_size:
+                images += " (partial)"
+            out.append(f"| **{s['model']}** | **{_pct(s['strict'], s['n'])}** ({s['strict']}/{s['n']}) "
+                       f"| {_pct(s['lenient'], s['n'])} | {_pct(s['brand_ok'], s['n'])} | {per} | {med} | {errs} "
+                       f"| {images} | {_run_time(s)} | [{s['model']}.md]({rel(path.with_suffix('.md'))}) |")
+
+        brands = sorted({b for _, s in ranked for b in s["per_brand"]})
+        out += ["", "## Exact reference by brand", "",
+                "| Brand | " + " | ".join(s["model"] for _, s in ranked) + " |",
+                "|---|" + "---:|" * len(ranked)]
+        for b in brands:
+            cells = []
+            for _, s in ranked:
+                pb = s["per_brand"].get(b)
+                cells.append(f"{pb['strict']}/{pb['n']}" if pb else "—")
+            out.append(f"| {b} | " + " | ".join(cells) + " |")
+
+        notes = []
+        for _, s in ranked:
+            if s["mode"] == "prompt":
+                notes.append(f"**{s['model']}** — {MODE_NOTES['prompt']}.")
+            if s["provider"] in PROVIDER_NOTES:
+                notes.append(f"**{s['model']}** — {PROVIDER_NOTES[s['provider']]}")
+            if s.get("price_warning"):
+                notes.append(f"**{s['model']}** — {s['price_warning']}.")
+        if notes:
+            out += ["", "## Read before comparing", ""] + [f"- {n}" for n in notes]
+
+    out += ["", "## What the columns mean", "",
+            "- **Exact reference** — the model named the exact reference number (notation normalized: case, "
+            "spaces and `. - /` ignored). This is the headline number.",
+            "- **Incl. look-alikes** — also counts references a photo can't tell apart (another size, the "
+            "previous generation — listed per watch in the answer key) and the same watch on another strap.",
+            "- **Errors** — calls with no usable answer (timeouts, refusals, empty or invalid JSON). "
+            "They count as misses and are listed in the detailed report.",
+            "- A single pass per image carries unmeasured spread; results from different prompts or sessions "
+            "are not directly comparable."]
+
+    runs: dict[str, list[tuple[Path, dict]]] = {}
+    for path, s in found:
+        runs.setdefault(path.parent.name, []).append((path, s))
+    out += ["", "## All runs", "", "| Run | Models | Images | Summary | Detailed reports |", "|---|---|---:|---|---|"]
+    for folder in sorted(runs, reverse=True):
+        items = sorted(runs[folder], key=lambda ps: ps[1]["model"])
+        s0 = items[0][1]
+        kind = " (re-score)" if s0.get("rescored_at") else ""
+        links = ", ".join(f"[{s['model']}]({rel(p.with_suffix('.md'))})" for p, s in items)
+        summary = results_dir / "runs" / folder / "summary.md"
+        summary_link = f"[summary](runs/{folder}/summary.md)" if summary.exists() else ""
+        out.append(f"| {folder}{kind} | {', '.join(s['model'] for _, s in items)} | {s0.get('images', s0['n'])} "
+                   f"| {summary_link} | {links} |")
+
+    index = results_dir / "REPORT.md"
+    index.write_text("\n".join(out) + "\n", encoding="utf-8")
+    return index

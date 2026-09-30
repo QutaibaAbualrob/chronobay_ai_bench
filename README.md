@@ -90,8 +90,18 @@ Notes:
 
 ## Results
 
-- `results/<model>_<date>_<time>.md` / `.json` — one report per model per run.
-- `results/comparison_<date>_<time>.md` — all models of a run, ranked, with the
-  caveats that apply to each.
-- `results/raw/<run_id>/` — every raw response plus `meta.json` (gitignored).
-  `score` re-reads these, so fixing the answer key never costs a re-run.
+```
+results/
+  REPORT.md                 start here: latest result per model, by-brand table, links
+  runs/<run_id>/            one folder per run
+    summary.md              every model in the run, ranked, with caveats
+    <model>.md              detailed report: every miss next to the expected answer
+    <model>.json            the same, machine-readable
+  runs/<run_id>_rescored_<date>/   output of `bench.py score`
+  raw/<run_id>/             every raw API response + meta.json (gitignored)
+```
+
+`REPORT.md` is rebuilt after every run and re-score. It prefers each model's
+latest full-dataset run over a smaller smoke test. Run folders are never
+overwritten. `score` re-reads `raw/`, so fixing the answer key never costs a
+re-run.

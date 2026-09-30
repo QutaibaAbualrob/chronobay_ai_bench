@@ -219,14 +219,14 @@ def _openrouter_prices() -> dict:
 
 
 def _measured_cost_per_call(name: str) -> tuple[float, str] | None:
-    candidates = sorted(RESULTS_DIR.glob(f"{report.safe_name(name)}_*.json"), key=lambda p: p.stat().st_mtime)
+    candidates = sorted((RESULTS_DIR / "runs").glob(f"*/{report.safe_name(name)}.json"), key=lambda p: p.stat().st_mtime)
     for path in reversed(candidates):
         try:
             s = json.loads(path.read_text(encoding="utf-8"))
         except (OSError, ValueError):
             continue
         if s.get("cost_status") == "complete" and s.get("n"):
-            return s["cost_usd"] / s["n"], f"measured in {path.name} ({s['n']} calls)"
+            return s["cost_usd"] / s["n"], f"measured in run {path.parent.name} ({s['n']} calls)"
     return None
 
 
@@ -404,21 +404,24 @@ def cmd_run(args) -> int:
     meta["finished_at"] = datetime.now(timezone.utc).isoformat()
     (run_dir / "meta.json").write_text(json.dumps(meta, indent=2, ensure_ascii=False), encoding="utf-8")
     summaries = [report.summarize(n, meta["models"][n], all_records[n], gt) for n, _ in models]
-    return finish(summaries, gt, now, "", f"run {run_id}", run_dir)
+    return finish(summaries, gt, run_id, f"run {run_id}", run_dir)
 
 
-def finish(summaries: list[dict], gt: dict, stamp: datetime, suffix: str, label: str, run_dir: Path) -> int:
+def finish(summaries: list[dict], gt: dict, folder_name: str, label: str, run_dir: Path,
+           rescored_at: str | None = None) -> int:
     print()
     for s in summaries:
+        s["run_id"] = run_dir.name
+        s["rescored_at"] = rescored_at
         print(report.headline(s) + "\n")
-    written = report.write_reports(RESULTS_DIR, summaries, gt, stamp, suffix, label)
-    comparison = [p for p in written if p.name.startswith("comparison_")]
-    if len(summaries) > 1 and comparison:
-        text = comparison[0].read_text(encoding="utf-8")
-        print(text.split("```")[1].strip("\n") + "\n")
-    print(f"Raw responses: {_rel(run_dir)}")
-    for p in written:
-        print(f"Report:        {_rel(p)}")
+    folder = report.unique_path(RESULTS_DIR / "runs" / folder_name)
+    written = report.write_run_reports(folder, summaries, gt, label)
+    if len(summaries) > 1:
+        print(written[0].read_text(encoding="utf-8").split("```")[1].strip("\n") + "\n")
+    index = report.build_index(RESULTS_DIR, len(gt))
+    print(f"Start here:       {_rel(index)}")
+    print(f"This run:         {_rel(folder)}  (summary.md + one report per model)")
+    print(f"Raw responses:    {_rel(run_dir)}")
     return 0
 
 
@@ -449,7 +452,8 @@ def cmd_score(args) -> int:
                 for p in sorted((run_dir / report.safe_name(name)).glob("*.json"))]
         summaries.append(report.summarize(name, model_meta, recs, gt, raw_match=args.raw_match))
     now = datetime.now(timezone.utc)
-    return finish(summaries, gt, now, "_rescore", f"run {meta['run_id']}, re-scored {now:%Y-%m-%d %H:%M} UTC", run_dir)
+    return finish(summaries, gt, f"{meta['run_id']}_rescored_{now:%Y-%m-%d_%H%M}",
+                  f"run {meta['run_id']}, re-scored {now:%Y-%m-%d %H:%M} UTC", run_dir, rescored_at=now.isoformat())
 
 
 def cmd_validate(_args) -> int:

@@ -15,7 +15,7 @@ import openai
 import pricing
 from schema import PROMPT_MODE_SUFFIX
 
-from .base import (API_ERROR, AUTH, NETWORK, RATE_LIMIT, SCHEMA_PARSE, TIMEOUT, Provider,
+from .base import (API_ERROR, AUTH, NETWORK, RATE_LIMIT, SCHEMA_PARSE, TIMEOUT, TRUNCATED, Provider,
                    ProviderResult, fail, parse_answer)
 
 BASE_URL = "https://api.deepseek.com"
@@ -86,7 +86,9 @@ class DeepSeekProvider(Provider):
                 return result
             failures.append(f"attempt {attempt}: {err} ({detail}; finish_reason={choice.finish_reason if choice else None})")
 
-        result.error, result.error_detail = SCHEMA_PARSE, " | ".join(failures)
+        # Both attempts ran out of output tokens (usually spent on reasoning): truncation, not bad JSON.
+        category = TRUNCATED if all("finish_reason=length" in f for f in failures) else SCHEMA_PARSE
+        result.error, result.error_detail = category, " | ".join(failures)
         return result
 
     @staticmethod
