@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 37,
+ "repeat": 0,
+ "image_file": "037_ap_royal-oak-offshore-diver.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Audemars Piguet",
+   "model_family": "Royal Oak Offshore Diver",
+   "reference_number": "15720ST.OO.A027CA.01",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "rubber",
+   "confidence": 0.45
+  },
+  "raw_text": "{\"brand\": \"Audemars Piguet\", \"model_family\": \"Royal Oak Offshore Diver\", \"reference_number\": \"15720ST.OO.A027CA.01\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"rubber\", \"confidence\": 0.45}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "eedfd401-5fd6-42ac-8953-d3ebebbc1da0",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Audemars Piguet\", \"model_family\": \"Royal Oak Offshore Diver\", \"reference_number\": \"15720ST.OO.A027CA.01\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"rubber\", \"confidence\": 0.45}",
+        "role": "assistant",
+        "reasoning_content": "The watch is an Audemars Piguet Royal Oak Offshore Diver, blue dial with \"Méga Tapisserie\" pattern, blue rubber strap. The dial shows \"AP\" logo, \"AUDEMARS PIGUET\" and \"ROYAL OAK OFFSHORE\" text, date at 3 o'clock, inner rotating diver bezel. This looks like reference 15720ST.OO.A027CA.01 (the newer 42mm Diver with in-house 4308 movement, blue dial). Actually the 15720ST has a date at 3 and the \"Méga Tapisserie\" dial. The older 15703ST had \"Grande Tapisserie\" pattern too. Both are similar.\n\nThe 15720ST.OO.A027CA.01: Royal Oak Offshore Diver, stainless steel, blue dial, blue rubber strap. The newer one (2021) has the quick-change strap system with visible... Actually the crown guards. Let me think: the 15720 has a crown at 3 and the AP logo dial with \"AUDEMARS PIGUET\" automatic. Hmm.\n\nLooking at the image: the dial text on the upper half reads \"AUDEMARS PIGUET\" in two lines? It says \"AUDEMARS / PIGUET\" then \"AUTOMATIC\" \"...\". The date window at 3 o'clock. The bezel is an octagonal with 8 hexagonal screws. Inner rotating bezel with numerals 10-50.\n\nThe 15710ST (predecessor) also. The photo likely is an AP Royal Oak Offshore Diver ref 15720ST.OO.A027CA.01.\n\nWait — but the strap appears dark blue rubber with quick release... The 15720 has the new strap interchangeability. I'll go with 15720ST.OO.A027CA.01.\n\nHmm, but the older version 15703ST.OO.A027CA.01 also blue dial with rubber strap. Distinguishing: 15720 has the AP monobloc caseback, \"MÉGA TAPISSERIE\" dial with a subtle horizontal pattern. The 15703 has \"Grande Tapisserie\". In the photo the dial pattern is a large checkered/crosshatch — Mega Tapisserie. Both have checkered patterns though (Grande Tapisserie on the Diver also). Hmm, the 15703's dial has Grande Tapisserie with squares.\n\nActually there's also 15710ST.OO.A027CA.01 (2015) with Mega Tapisserie. The 15710 and 15720 look nearly identical externally; 15710 has date and the caseback is solid with \"Royal Oak Offshore\" engraving... The 15720 changed to the new movement 4308 with better power reserve.\n\nGiven uncertainty, I'll go with 15720ST.OO.A027CA.01 and modest confidence ~0.4.\n\nMovement: automatic. Case material: stainless-steel. Bracelet: rubber."
+       }
+      }
+     ],
+     "created": 1791198789,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 721,
+      "prompt_tokens": 1361,
+      "total_tokens": 2082,
+      "completion_tokens_details": {
+       "reasoning_tokens": 643
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 1152
+      },
+      "prompt_cache_hit_tokens": 1152,
+      "prompt_cache_miss_tokens": 209
+     }
+    }
+   ]
+  },
+  "input_tokens": 1361,
+  "output_tokens": 721,
+  "cached_input_tokens": 1152,
+  "cost_usd": 0.00046740599999999996,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.201,
+  "started_at": "2026-10-05T11:13:05.877461+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

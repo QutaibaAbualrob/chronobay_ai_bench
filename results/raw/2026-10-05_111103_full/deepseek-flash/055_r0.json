@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 55,
+ "repeat": 0,
+ "image_file": "055_breitling_avenger-automatic-gmt-45.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Breitling",
+   "model_family": "Avenger Automatic GMT 43",
+   "reference_number": "A32397101C1X1",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "fabric",
+   "confidence": 0.6
+  },
+  "raw_text": "{\"brand\": \"Breitling\", \"model_family\": \"Avenger Automatic GMT 43\", \"reference_number\": \"A32397101C1X1\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"fabric\", \"confidence\": 0.6}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "d3c28047-ecd0-4707-bf22-898208e8e728",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Breitling\", \"model_family\": \"Avenger Automatic GMT 43\", \"reference_number\": \"A32397101C1X1\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"fabric\", \"confidence\": 0.6}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Breitling Avenger Automatic GMT 43 or Avenger II GMT. The dial says \"CHRONOMETER AVENGER\" with GMT hand (red arrow) and 24-hour bezel. Blue dial, blue textile strap with white stitching.\n\nBreitling Avenger Automatic GMT 43 reference A32397101C1X1 (blue dial, blue textile strap). Actually the Avenger Automatic GMT 43 has references like A32397101C1X1 (blue dial with leather strap?), A32397101C1X2 (blue textile strap?). Let me think.\n\nBreitling Avenger Automatic GMT 43: A32397101B1X1 (black dial, black textile), A32397101C1X1 (blue dial, blue textile strap). Hmm. The \"X1\" suffix typically denotes the textile/calfskin strap variant. For Avenger models, the blue dial is \"C1\". So A32397101C1X1.\n\nActually the Avenger Automatic GMT 43 was introduced 2019 with refs A32397101B1X1 (black), A32397101C1X1 (blue), both on textile strap. Yes.\n\nThe earlier Avenger II GMT was A3239011/C930 (43mm). But the dial layout with \"CHRONOMETER AVENGER\" text suggests the newer Avenger Automatic GMT 43 (2019+).\n\nCase material: stainless steel. Bracelet: fabric/nylon textile — answer \"fabric\" or \"nylon\". I'll say \"fabric\".\n\nMovement: automatic. Confidence ~0.6."
+       }
+      }
+     ],
+     "created": 1791198851,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 413,
+      "prompt_tokens": 1361,
+      "total_tokens": 1774,
+      "completion_tokens_details": {
+       "reasoning_tokens": 339
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 1152
+      },
+      "prompt_cache_hit_tokens": 1152,
+      "prompt_cache_miss_tokens": 209
+     }
+    }
+   ]
+  },
+  "input_tokens": 1361,
+  "output_tokens": 413,
+  "cached_input_tokens": 1152,
+  "cost_usd": 0.00028260599999999997,
+  "cost_source": "rate-table",
+  "elapsed_s": 3.458,
+  "started_at": "2026-10-05T11:14:07.694679+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

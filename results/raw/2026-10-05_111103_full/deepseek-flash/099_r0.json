@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 99,
+ "repeat": 0,
+ "image_file": "099_vc_patrimony-moon-phase-retrograde-date.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Vacheron Constantin",
+   "model_family": "Patrimony Moon Phase and Retrograde Date",
+   "reference_number": "4010U/000G-B330",
+   "movement": "automatic",
+   "case_material": "gold",
+   "bracelet_material": "leather",
+   "confidence": 0.72
+  },
+  "raw_text": "{\"brand\": \"Vacheron Constantin\", \"model_family\": \"Patrimony Moon Phase and Retrograde Date\", \"reference_number\": \"4010U/000G-B330\", \"movement\": \"automatic\", \"case_material\": \"gold\", \"bracelet_material\": \"leather\", \"confidence\": 0.72}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "c64df5a4-0c11-4336-9e12-4e4dceff2e0f",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Vacheron Constantin\", \"model_family\": \"Patrimony Moon Phase and Retrograde Date\", \"reference_number\": \"4010U/000G-B330\", \"movement\": \"automatic\", \"case_material\": \"gold\", \"bracelet_material\": \"leather\", \"confidence\": 0.72}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Vacheron Constantin Patrimony Moon Phase and Retrograde Date, reference 4010U/000G-B330 (white gold) or 4000U/000P-B108? Let me think.\n\nThe Vacheron Constantin Patrimony Moon Phase Retrograde Date reference 4010U/000G-B330 (white gold, silvered dial, black leather strap) — that's the one. Also 4000U/000P-B108 is platinum with... Actually let me recall: The Patrimony Retrograde Day-Date is 4000U. The Patrimony Moon Phase Retrograde Date is 4010U/000G-B330 (white gold) and 4010U/000R-B330 (pink gold)? Hmm.\n\nVacheron Constantin Patrimony Moon Phase Retrograde Date: references 4010U/000G-B330 (white gold) and 4010U/000R-B330 (rose gold). Caliber 2460 R31L, automatic. Case 42.5mm white gold. Yes.\n\nDial: silvered opaline, retrograde date along upper arc 1-31, moon phase at 6 with \"0 5 10 15 20 25 29\" age-of-moon scale. Movement automatic.\n\nSo: brand Vacheron Constantin, model_family Patrimony Moon Phase Retrograde Date (Patrimony), reference 4010U/000G-B330, movement automatic, case material gold (white gold — option \"gold\"), bracelet leather.\n\nConfidence maybe 0.7-0.8.\n\nThe dial is silver/white, so white gold version. I'll go with 4010U/000G-B330.\n\nActually, need to check: the white gold Patrimony moon phase retrograde date — I believe ref is 4010U/000G-B330. Yes.\n\nConfidence 0.7."
+       }
+      }
+     ],
+     "created": 1791199000,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 472,
+      "prompt_tokens": 806,
+      "total_tokens": 1278,
+      "completion_tokens_details": {
+       "reasoning_tokens": 398
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 166
+     }
+    }
+   ]
+  },
+  "input_tokens": 806,
+  "output_tokens": 472,
+  "cached_input_tokens": 640,
+  "cost_usd": 0.00031002,
+  "cost_source": "rate-table",
+  "elapsed_s": 3.123,
+  "started_at": "2026-10-05T11:16:37.487977+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

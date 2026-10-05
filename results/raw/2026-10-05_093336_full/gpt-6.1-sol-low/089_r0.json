@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_093336_full",
+ "model_name": "gpt-6.1-sol-low",
+ "provider": "openai",
+ "provider_model": "gpt-6.1-sol",
+ "mode": "schema",
+ "row_id": 89,
+ "repeat": 0,
+ "image_file": "089_jlc_reverso-tribute-chronograph.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Jaeger-LeCoultre",
+   "model_family": "Reverso Tribute Chronograph",
+   "reference_number": "Q389257J",
+   "movement": "manual",
+   "case_material": "gold",
+   "bracelet_material": "fabric",
+   "confidence": 0.84
+  },
+  "raw_text": "{\n  \"brand\": \"Jaeger-LeCoultre\",\n  \"model_family\": \"Reverso Tribute Chronograph\",\n  \"reference_number\": \"Q389257J\",\n  \"movement\": \"manual\",\n  \"case_material\": \"gold\",\n  \"bracelet_material\": \"fabric\",\n  \"confidence\": 0.84\n}",
+  "raw_response": {
+   "id": "resp_0bc8b330c733e7ee006ac36f3cb0c487d2818de047e21a72f0",
+   "access_programs": null,
+   "created_at": 1791192892.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6.1-sol",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0bc8b330c733e7ee006ac36f3ee26c87d2a46f37a6b4a04d67",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw29FyDP07HWIzNlZGAWDO_IQ9C9V1D1CvKKnSr9B8CRq9J0k2ef4g1DqIESqXu-A1md_0cDfSliHkAeKBAtwqXF20ojJxYty2LXc22aMTluEp5TWPtC4QjIL3IC-CApDU2gYpFD5MZ0tKUzuEByWsVn9tAdEShlrkLbidSHdNzXHjhavydbfM9_vpeQWpONRkp9Smlb8pjGRDkmPA_OPSqmRdKuPyPC139nQM09ElK4gfJwITw5u3ytkVF80-DHxjDs7DA15-CRPPodaIPsqxg0oN6-V_uBcdbsrYJvpMhNyifZVaQZ-C5Cyop7TDy7yYTkG5YQ0gD6nGuz_VCGWZAu8S9Ophx8KPO8bQiaG8vxeIBiO0_btPRleXo9otqwLCZGK6rjt5kkmPTF5zdjv9HYoLwHpzuJMgINKhQmwBDOWoQuE7xbW_4b7-8eOjPK11sb55iXuq0FuYbf1rCtLymm_cTP24xHTlLVuBdhqDPIhiEz9oXz7dwp3iOkHezyjoTXCKOHpPTybd8lQBWKIDfCBMvdjPFzWzeAQ3ZnqXI__IUze2pbMM002Xp6cP0z6QDR-BRUEym5wQjn0CHO-xQqATlWpttdLp-ZFzWiMJMZ8g1DKIinoAhTRzHlh9x2bRh9gCpi5Snx6UlxxXmbtsTfQVEzlZSPKELpVeRxE7DyCzwYVs6GmZCtG87QEyapfDvi3hLb4z5xUsnmmxfGANRFHBR6JULBAzP1hjVebMibjrQBWjGRuzNXjxs8pdYnTRtILYv-wvz2BevvFSmCHMbIO8SiEKte0llGMJqyXvFpm0ahCSjyyZup6Ji5oDp_xhmkH43aJLBINLyloP05PWZYEBd1GvKxQ6akZC7twReBn1mesegUAgxijkWoftYAxoh1tVhSgx7vPCwOWpI-f8g7ckZMTSJ4dQyYBHcOHElLwejBiQVJ7zyTA2sehyp5ZYhdS4KjOg1xHSnavR6Jc3OE_CjbJlOJpcUVpfssDEyx7TJVxuWvtTtKfFm3LTmxqDRZJgUOQLOXXLtRY6ehW0hyNJ_s4uF0ITszxjhEcLq8hGfBEEinuKZzJFDFzMV7DVdZl30HkMubHo2Rps4P7FnbFlFejqqTxRXRFNjG4mK01j9VeRpUkHFwU6rpXUPXdhoQQJf_btEKUYtZG3O-PlwT6fQNVeGKXLTbv8QvaCB_h9zN2B4BtzP0JjFjLraEza-z6bx1Ia4Eh0YRyxUsq_j6LSMgpKFxxHyNvnCxM6lQue-odMKuOwIC6JV_50DDc3bK-kqZGSqhHlQqzoBqBynN4YOJGNa78PM72AwZuDs94NQklPGbxVo3cp1eEPZRv8NvF0lNc-xzsmZsWb607k0gxz0f8yIWRksiboLpjJ2rKHgyaooRAWn6B7JxSWOWY_g-hZwYqLedhCxpA4gBxkdgmf60mG7cz6KTaXPw6bjIjJ9017kdgbnY5PV5rWOaJJvu4TSrABDp_ezDoYpXwhyGY7FcFi253QkWM1-dG2WDkt76Wm_krRkzPGh5-ZVooJ3-1KYQO8-yqQRH1iPDI5G4pck9n-j3exOUir5SKT5o0SYHugLfLqXZtVGqoTBIU9Jt3Iv16T2ajc-tURxJn9l0v2wjAKjiKYmPtDHB0AsKwosUKYT_t63t65DVm-64LSuBncVS7xeZAPyZdJTkXNp1FAfcIXnQh-0vM2HZcKFPHPz2NZ4TMCi59q2IsqlRC9yO0IgC-EPW5MdhX0BRN7-INwod5T6z_9-gOXqeHCdSFkbUyn6cOOEfKIbOGQCUQcmcSRbWHY6fFZ_8VXfjmRaQvPIIV__C0MGgj7uztDNZyqWXBtfxunWE-l6vJH9gWlDY2_3QDl-ejpuNBqRI8qIU5FnB2Bv7m8PeoRrE4ZKtI_lyA4g3Exsp-NOtazy-hlOywMZAKQ6YKBNg_QOjRkVCvfozBYCvOAe9J8RTqZUOig2la9PcTWJpsv4kzSYdYXvNlCUl0d1yiaemZH6CHzeed2Q=="
+    },
+    {
+     "id": "msg_0bc8b330c733e7ee006ac36f446fe887d2996d4edabf85cede",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Jaeger-LeCoultre\",\n  \"model_family\": \"Reverso Tribute Chronograph\",\n  \"reference_number\": \"Q389257J\",\n  \"movement\": \"manual\",\n  \"case_material\": \"gold\",\n  \"bracelet_material\": \"fabric\",\n  \"confidence\": 0.84\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192901.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 3443,
+    "input_tokens_details": {
+     "cache_write_tokens": 3440,
+     "cached_tokens": 0
+    },
+    "output_tokens": 252,
+    "output_tokens_details": {
+     "reasoning_tokens": 171
+    },
+    "total_tokens": 3695
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 3443,
+  "output_tokens": 252,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.009406,
+  "cost_source": "rate-table",
+  "elapsed_s": 9.272,
+  "started_at": "2026-10-05T09:34:49.995910+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6.1-sol"
+ }
+}

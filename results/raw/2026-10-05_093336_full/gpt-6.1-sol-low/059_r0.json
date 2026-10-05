@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_093336_full",
+ "model_name": "gpt-6.1-sol-low",
+ "provider": "openai",
+ "provider_model": "gpt-6.1-sol",
+ "mode": "schema",
+ "row_id": 59,
+ "repeat": 0,
+ "image_file": "059_breitling_top-time-b01-chevrolet-corvette.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Breitling",
+   "model_family": "Top Time B01 Chevrolet Corvette",
+   "reference_number": "AB01761A1K1X1",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.84
+  },
+  "raw_text": "{\n  \"brand\": \"Breitling\",\n  \"model_family\": \"Top Time B01 Chevrolet Corvette\",\n  \"reference_number\": \"AB01761A1K1X1\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"leather\",\n  \"confidence\": 0.84\n}",
+  "raw_response": {
+   "id": "resp_07456caec940fda1006ac36f1f94a887d2a56cc61ecc4abe25",
+   "access_programs": null,
+   "created_at": 1791192863.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6.1-sol",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_07456caec940fda1006ac36f221a6087d2a0b0146891446d3f",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw28ped_fvpB4_An8TUMQySDotag33KJm9Eaw4bjslC1Zm8lAns_j7560vR1uTPIW5Q8kXWcl2tWOV1E8AEv4G_3iYCvSvX-JJPRJ-AXmdX8P631K3u5p0hOmbacQWFngP3QirK8XcdrSdTGHiJSy7UlsZzzt0jtUNlZMz7bB1chDNeddJDJVDTTlpQJyNEAJwh4gey7DFDxEmHc06jS9DQFAemNC77lrX7heAT6QnO4OKXUE5G5ojKU79dRSWwsKrY-aim7UH2mjOEC7gdtezJSqKWzxC-ajQE-ahVM1CJORl8jv5lfeNdocU8S_gnasCt-lLK7dxXW7IbrreQa9nTcF9idGilppH-N2Yxj5vOt8TO3SmsF6cTorv_0_r3UztRQpFeK5XaorWIK3Stb9FweWCzJCdqCR2gmgFqiaX5JxFQiHCO9bY4Glxzj8A51aA7o4civmJVUQZYCltr7Y86NaTTARk_Q7m5zysJq6CL_kP9FKKTOx8y2diXfPKTNzFXIj99bT3e_Y2TDp2vGejIcVmUiD9FUYu0isl7e6yVMir7vWhE6mL1n9f60kNNcwHJThH-ycrSsUbXv5EfYhXcNZaNF-7ottO0fqY1u9QR5OoGldrMlv8W2qUFRxOy_582mTjPSc9q3pkfZV7XP86x4mh3wxnR2RJkdHHKr4k-XfnLNbCq6XKmtL4H7gy1SzAZZPwEYz46WQmIqwpws4w8rbhNCmTsZLDTjWxC0IpzWjc7IYDR-j9kSIk9_a-zPLop5jN-OtbvVr69m1ZTDjAF8EyvR7DgfwPuV1mhbV3dpPDiqbSgiZGQPZ1w93VcF-EBNCaXKwKkGSaybA-sHamyXWSx7FkTAhlJe5jxhJPNhH2PNOxgilw3OToGpvs9VAbZ2obFqSfA2r6GBOP7uHye5XeK9FYEN2tHFP6pv1GiY3Mxiy0XTcP3kRj6BwN8ZVkmDjZOcD07aIBNgcrpoochEX2VveFAWSqW9RPpRVq9SlhjhQZ_zwxouPm56-UoL59mOFyR3FtbGI9g11wglinM-Ve7pMJRKa6mRYA_avnTC764oOqAfR9-5zxu5oEZY_ZoIAg8EbxfALFfdZAuEr-HrbROwv_6y-WvxiPRfZEy29XVJE2CiAThFxUtfoc-apg6yN9OWOQgz0Q36nqQ7uWFSG8b4ZDDA7yT561wf2wfQP8Jwmqb87DyAEL-M1GPyGAPkSv3nXV0Y8FLiw7aNp373msdfG0KHG1LTv0CBR5gZSxYJIaXmlsNOqQ7bT9jTrSFhA-IhREM03HHnpceaC2luPFBhRIiDatjoAbRotycWjieM1dcllWGmKiUDFHJgVDRvkzKSkfRTrqRdMpgb7_RWlecjclVB5X68aVBTB0m2h9sDlzjEFtTum55sao_qe9TmzehxyBBMfQB-T860IAMiMOgtszJaS6Q9CLBfL9gFrlVV-PCVMOdqftbDFjkFJLW7YPmEMasFkZJzw2GjHV6qIjRkgXHVRRqilIIf9Udb9p0amkXL4VbnbRrFGFSmSof-ekrnPIjTL1CuZJDni83I90ON4H1CkJ7SV72-Q5akANvf4_GMBS8CSmirsMp4ZFf2h828UBZ4gIsEbwP4CyNDtR1VGh1yGY5iUZdSXj8zEKZO64ZA_jjlob3efudbDff_8Gb_niHek9GF1_L1Ursj7BGCTvLw0I6BBfFoV3M7YZNA84S7DAxtn8yGL8TvduZCbOT-qV7jdxeye_sxqUe7LUvsdftZX0dATzMdnv4GoQHVuxHZNKe_ufuq5Ym_Lzor8NyH_Fravh06h6qyheao8k_W8ywmX1UdSerR7lpzumKGJjaps2u32vfPeQ1UCJw3BxBdsg66zR4qLxSjElSzqInZpNIXqjGCYbB89wBDoIdGvWjEOFqUdhknCWgCXFgAp9D3uIcI2_nCat8v9LCg_YBAi1hdcfdRratQThm_Xgn6Jhd-R8uB3tyLXG9Jnn0OtRw_m7eUvz63cM93oe5fFWr4jhcY3S-HUtFAqt9o4Pebb3Liz80f_fAxGhuNkMjBwLAjz73MRNmsYGbkvKy_P_MSCBBtjuTtU4_egQsIPwvpm80ldX6peW1V32_bTRF30ZpPigBQzUu8ifRUXcFZGmFQIALvbu6HCN1B3855_VesNjCYhDA-8VSpJOPaTNJAmi7INgHpAKuAM_uuMEB635P8GLtJUk7RdtI_pum3eVgSNgsCqngN6gULDFWFk1ydDd1kR9wIkgfuPVDPqCq-c4G94A4IEvA23BZGIC6Yn9hfSQNk5e5L2noffNVWErOGjV0STpjjS16ni8GhOhgcmtGTDwaMCt022NMqwFJHz19xRAPtLAwUUiYznKv14WBVHWk1KsPzjAutHDK4_xvumpBplbnPHBO37fomX5q09QX0="
+    },
+    {
+     "id": "msg_07456caec940fda1006ac36f27de0487d2af7a51e6792ac832",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Breitling\",\n  \"model_family\": \"Top Time B01 Chevrolet Corvette\",\n  \"reference_number\": \"AB01761A1K1X1\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"leather\",\n  \"confidence\": 0.84\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192873.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 3443,
+    "input_tokens_details": {
+     "cache_write_tokens": 3440,
+     "cached_tokens": 0
+    },
+    "output_tokens": 327,
+    "output_tokens_details": {
+     "reasoning_tokens": 239
+    },
+    "total_tokens": 3770
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 3443,
+  "output_tokens": 327,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.010156,
+  "cost_source": "rate-table",
+  "elapsed_s": 10.069,
+  "started_at": "2026-10-05T09:34:20.882557+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6.1-sol"
+ }
+}

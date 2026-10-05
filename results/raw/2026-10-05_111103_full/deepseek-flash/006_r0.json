@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 6,
+ "repeat": 0,
+ "image_file": "006_rolex_explorer-36.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_family": "Explorer",
+   "reference_number": "124270",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.88
+  },
+  "raw_text": "{\"brand\": \"Rolex\", \"model_family\": \"Explorer\", \"reference_number\": \"124270\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.88}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "228b6d19-9e7f-4117-819c-b6e61b6fb877",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Rolex\", \"model_family\": \"Explorer\", \"reference_number\": \"124270\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.88}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Rolex Explorer 36mm with black dial, reference 124270.\n\nCase stainless steel, bracelet Oyster steel, movement automatic (cal. 3230).\n\nConfidence high ~0.9."
+       }
+      }
+     ],
+     "created": 1791198669,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 107,
+      "prompt_tokens": 1071,
+      "total_tokens": 1178,
+      "completion_tokens_details": {
+       "reasoning_tokens": 45
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 175
+     }
+    }
+   ]
+  },
+  "input_tokens": 1071,
+  "output_tokens": 107,
+  "cached_input_tokens": 896,
+  "cost_usd": 9.3138e-05,
+  "cost_source": "rate-table",
+  "elapsed_s": 1.788,
+  "started_at": "2026-10-05T11:11:06.526654+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

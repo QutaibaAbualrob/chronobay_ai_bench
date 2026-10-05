@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_093336_full",
+ "model_name": "gpt-6.1-sol-low",
+ "provider": "openai",
+ "provider_model": "gpt-6.1-sol",
+ "mode": "schema",
+ "row_id": 12,
+ "repeat": 0,
+ "image_file": "012_omega_seamaster-diver-300m.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Omega",
+   "model_family": "Seamaster Diver 300M 007 Edition",
+   "reference_number": "210.90.42.20.01.001",
+   "movement": "automatic",
+   "case_material": "titanium",
+   "bracelet_material": "metal",
+   "confidence": 0.79
+  },
+  "raw_text": "{\n  \"brand\": \"Omega\",\n  \"model_family\": \"Seamaster Diver 300M 007 Edition\",\n  \"reference_number\": \"210.90.42.20.01.001\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"titanium\",\n  \"bracelet_material\": \"metal\",\n  \"confidence\": 0.79\n}",
+  "raw_response": {
+   "id": "resp_0afa275cc15d46a5006ac36ef88b9487d2a82475faddacd15c",
+   "access_programs": null,
+   "created_at": 1791192824.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6.1-sol",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0afa275cc15d46a5006ac36ef9824487d281993ec275e9817f",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw28Biubx3T1Hpr780Pcbsqm1Oz75I9lMadSUD-7H7eafkYwCffwmAWm2RMrcvOH_gZD_Zogxw0HihlRmD2U4IDEtmlfnizKckjmSvnCG8BKbKO5viG-gT7B0gNwFEgLNSy16G658ICqU2JUus-FMABejBjT6xzJDaCTJZZpD9x9JDYONVjEkTUHzuVoER9fer03uscAd88HSsZRYwhniIANlP6CHzYcLgUyL-a1hFG_PEajZe7J4PkZ3kGdruDl-dEZBTx7YID-Q3jbNevdkoHancKpTy-G_MifN52XZYZnN5UrTdRI6s-SxNT3uOqwWtWyeAoaCY-4jjiRuwo6Kwv9urKM43U_Aq38kAqWua-cGCSdLcNRHJIcxZzX4XHYd9ejsBLrcOketDQamrmu4Z-iRmp5u94PL8jJQpx7SDDrL0OUIDjI95TLy4UglWj3toz-f0rO-dTxmyBHbEqNyZNu441sqAB0mvJJAHu6Au1swL6du6VSu_sO-VXh3wQetF5OiXaB74bgLNS9SXv1q9bPQ0nbsCIc5zVLXT66ObcIIpZvDxNaxk4LHSxKFpY2EWQs97dwbUI4x4fnAxRWsC77rAGBSKZsDLGJmmL5FwLQwECjBRlnIcF1yO_TsxsTDK7zoWQdFc3zexVOyne-h8SUnwbOturunPhrkpBrjmrllfNxtKGeR4E9ddCwUfnbzViqBeINlauj10sbFmqRZ5s1uAJTWtJ90dDRwsI9CLUEEh_TfFfML5fKrY4DRDdc65VOmNy30CjPF0wrfXu5jx7yS5ylR0G9u-L3-py2u9x0Ix62UWO9xmhz9zG7YPDlcrgeNx7trHeA1AAk3yo5IPQAx9Zsk_rOrR6e_VolCu1DHCUzpm0x3zl8goBMgDP8jKpVgXWW2wisTjqkMXwap1TMhFeyvrMm98cdempueYeiA3pb1K2Uk2F3awOAfyer357YXAxRB0iBG54HKsF7Zzu78IJW0s-C1u0KofPr41g083VJStC4KwC27Kotd1nKSoA34n2V1_FiLu6NgbppIhjSKj2v9TF_XBTkCtJFqRNiKH9GvqyX-wNUMNWTCwzaYihiR7xwm0mngHCZ4FlwzGqso_plIYKLsuG7OKFjCeloKVdiWPIj66NC-qYePbiLH6SMhFnF_eq_q4-2NYuDYLI7JHJquNEx-G8HidTDzv1A6N1jRSfhWlzEyrkED8MYXwBNevjXg7kumCFzAjBUYU1WaZwmYZf5K-g9ZfKczE0aSRVeu_4G_HdlduO33XbIXq3O9Ye1DphI8Z5GWE_mJUZY372OAkJcMNM7--FJ1co5h_cf5Y0eVGAgV8gS5hnIcPWC7AKJ7hCh-AWyp65Js9lAA4nLRPmAomNuEphS4QHuCezBrYRBlOg_pEOPjWkwMozCkADQqPfHOqZfbxqK7cqXO6xr9Djjf990lhQ5IKt_tdwm3TMrKAQ6s6Y7J70sjwWALw4vpFCA4TKWEszbsB8easRsBXKdlr9UPUNWl7ctRq_LURe_k1sKJ0sndMg-C25b9EHtdCiwC8IApSnC1GfPbM-_A_B9kR2iEGjxDOXiQiKu1Lm6lsb39CctIQQiuPXzTf8qLTnNnQKAXtNKqHBJuZRjNwqd-iR-UmDEQBLfYFfu1OCSskeTgkXf3GvZCJjt9lt7KPR1hcalelOoZO4s_Yzh-bzDW23YE0xNNHORGfqMiPlStSeZCt5cIOdFrCMKewiN_tAKCFCJLrRJ1ni_oE6dyU7dYXMaQcARSCIiUMEdUJW2kh8EUnt78ljsd6otF0ybmolHoSP9UPEFH3YMkC5nwrqVqP_tPJEqCg3HUzPD5nVA21vc3v8Jss5nAVD09YZNebNdoBPB6WTi6kvAGVVTfVp-P-Bhc2qd_nNI5UiVzkaUxb2Cvyzrk2kbVDOzL2Ef1zJjsbJHi5rB6ip-eOjG6xX4VkeQ20K46ObaZlEOqEkYSchc6GnnnIwpHolOXiH1Y6vWzrczOvmz8Y96V-tm7dwcVBQt6_LCR5Mn0c2wx5m3c9O7p3etar9tf2qacekzXMl6_Ya1nKVzGrh6s4paQTri2Cn-5MvjgX0QIbel1g06cd5a-oOURrDHO4i-3yfenC_V0WBMhBua9xIFsplzMzepvacxIonYdQ9S0csPoIwZ0o7in6sQGRVhHXuleY3-U6mIa51f-rR81ZTJ7J9rsel_WkURInsP5ztuPYBMxwzwy3aH5nZ89a2Tb16ND6OfFAl15Z5NxZM_OkomwJdCm6Alokw4uIOA0w34qt3hYu-NJyzBle4xKVYLaZ3kRkbWmXMihYl6NCutGChaIZ8hmJeXLRpo5ibKQqCawYEq4fhtgniitNEctt7oZjA1FrPSu3pZI_t0Lrp804D-4HEJpyYrf1CahstrteF8DCRc="
+    },
+    {
+     "id": "msg_0afa275cc15d46a5006ac36f0051b887d2a3092616964ad220",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Omega\",\n  \"model_family\": \"Seamaster Diver 300M 007 Edition\",\n  \"reference_number\": \"210.90.42.20.01.001\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"titanium\",\n  \"bracelet_material\": \"metal\",\n  \"confidence\": 0.79\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192833.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 839,
+    "input_tokens_details": {
+     "cache_write_tokens": 0,
+     "cached_tokens": 0
+    },
+    "output_tokens": 321,
+    "output_tokens_details": {
+     "reasoning_tokens": 231
+    },
+    "total_tokens": 1160
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 839,
+  "output_tokens": 321,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.004888,
+  "cost_source": "rate-table",
+  "elapsed_s": 9.359,
+  "started_at": "2026-10-05T09:33:41.900421+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6.1-sol"
+ }
+}

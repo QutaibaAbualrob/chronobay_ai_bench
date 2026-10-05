@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_093336_full",
+ "model_name": "gpt-6.1-sol-low",
+ "provider": "openai",
+ "provider_model": "gpt-6.1-sol",
+ "mode": "schema",
+ "row_id": 30,
+ "repeat": 0,
+ "image_file": "030_patek_twenty-4.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_family": "Twenty~4",
+   "reference_number": "4910/1200A-001",
+   "movement": "quartz",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.95
+  },
+  "raw_text": "{\n  \"brand\": \"Patek Philippe\",\n  \"model_family\": \"Twenty~4\",\n  \"reference_number\": \"4910/1200A-001\",\n  \"movement\": \"quartz\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"confidence\": 0.95\n}",
+  "raw_response": {
+   "id": "resp_0e267c75d44c1b80006ac36f06580087d2a126b270fe0ad6c7",
+   "access_programs": null,
+   "created_at": 1791192838.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6.1-sol",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0e267c75d44c1b80006ac36f07d85c87d29c1271e6caee3c96",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw28Lyb9z5FsUQLDFSxxgjt-6V8W_gRd4zW-0-H30g-BfeohUT8BlUS87DqoxJ_mmytvYa5RpCUo96c01Y_7VCbYbIbbikSF2ayTyZOEC9TLjEfeK6_WPQJ7nolrPx5JmYSxDFMyR2_mVz1pkcDzTCmwA-4AylSppezW0mCrz19nNxhDakVrcGM6l75J4niwi2P5QT1Iv4xvnxF84jKel25iElwnk2etID4caN7jlNZDI7aLp7eKTbzQsU0orSsB4RML4MxwmDEBBof6-McC31TuDBZKcm_ws8zriHvOn0JC2AZgj11BkEEuHGSU_8kSINzdY4nbSdkTbup8L2zviUxy1zN3oHxDsHPdGDJNKHsaKJ1-ncDBbCsTtSmOVQgOI8d3YXxY03CXC409wOSjTftILyCAr7dSjVw8BGvhRFmcJlxXKqMoskfaZUNX7JTuj4SUS1HMnNMEv7UPdGrcGRPTNX3FcjeXIl4igxWBv7mI3Hp4a3d_k8JY25qGBapFf-EJ8uGeHbgcVRFzcS7pFrAAr7THIAs_Rln9PieAw-uh0AsxglPEXk6dJMe5OT3yr7j-PENmtLFo6xMULdjDNmukzgdp5sVpUb22lmiS1NTD33Fh3C7DnLn7xBooWO6ULaKeMuJkCnUl4cb1NoDszahi9EZBYtmwkXgjOIzuD8KIh2FpYWM2dwEC6cbhLxWlHrEn57JJ-gvw4Be3IoQMgnyAQ2Kp_A6_BKIovCsxWtS3PLOuO9TmebUB3_4JEQGmqz7DuHyR-z32XB2Kf6WcCKnWwa4UYnwPRO_RxPLnw7ccdxCGOG6PmnvLnfqPaH3BqnvRx8YsWEgIoT_0j9qEtMVv_rc6H9luD8YyNtLWNfTZ6HyxJB1bG8yUuPYDfWP0RWxfzx4-b_UPkN5S8z_NfbKyvSUFt_rc1IphAEtS23m5GtWvKHFKZVSpoD06vEtwyjaj_rEloSqqbQZHDFzIIQJhA4CE7aGTJ4R7JzNOx7o3V-OaQui27KuTfWFxS7XtuHTgOLFB7ejKRkMTQHKxeVk-YY99jUA6N4AAFxvIlMNZ0d8TTaGG_yG9jVCR4lFanExZEv8LbCtJmpkF9ARbxkyRM-RXqKJVwtzd0GBZhoACMr3mpY47crsf_jUO-CnBoaZyomUsMsl3nOErAg7-O1ckqU3NCgEY7qp5u9XhvbfcwpEVrChXrCLkiRYwM7ePEexYob7LuJBQLuHaYVcXN8pMUe4lrzJlsoln5ad74Ga95v1mFKpgc7kbEESoPcL9SIn8xQoZ_xFWg_klCGa_H8LuCo-Rj6hM4c6_7D1cHyYZqZ_w2M4dEq0Hhqfc2bQa1yC_obRpYzA-7CO_uaRPv8NCbieaLBG_Upv9AwiiuVhy0eaqrGfK72XzdKgtVt3lW32L6ScJu9y0b_ctJdwUs9Iz5Cw=="
+    },
+    {
+     "id": "msg_0e267c75d44c1b80006ac36f0a4de887d2b1dc32a06992ace7",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Patek Philippe\",\n  \"model_family\": \"Twenty~4\",\n  \"reference_number\": \"4910/1200A-001\",\n  \"movement\": \"quartz\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"confidence\": 0.95\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192843.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 1271,
+    "input_tokens_details": {
+     "cache_write_tokens": 1268,
+     "cached_tokens": 0
+    },
+    "output_tokens": 150,
+    "output_tokens_details": {
+     "reasoning_tokens": 66
+    },
+    "total_tokens": 1421
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 1271,
+  "output_tokens": 150,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.004042,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.504,
+  "started_at": "2026-10-05T09:33:55.668449+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6.1-sol"
+ }
+}

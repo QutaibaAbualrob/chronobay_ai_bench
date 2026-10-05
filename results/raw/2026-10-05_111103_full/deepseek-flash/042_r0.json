@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 42,
+ "repeat": 0,
+ "image_file": "042_tagheuer_monaco-calibre-11.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Tag Heuer",
+   "model_family": "Monaco Calibre 12 Chronograph",
+   "reference_number": "CAW211P.FC6356",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.55
+  },
+  "raw_text": "{\"brand\": \"Tag Heuer\", \"model_family\": \"Monaco Calibre 12 Chronograph\", \"reference_number\": \"CAW211P.FC6356\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.55}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "f32c3e73-996a-4f88-8512-4e7e96c5796c",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Tag Heuer\", \"model_family\": \"Monaco Calibre 12 Chronograph\", \"reference_number\": \"CAW211P.FC6356\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.55}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a TAG Heuer Monaco, blue dial, Gulf-like? No, this is the classic blue dial Monaco with white subdials and red accents — reference CAW211P.FC6356 (Calibre 12, blue dial, leather strap). Actually the current Monaco Calibre 12 Chronograph blue dial is CAW211P.FC6356. The Gulf edition is CAW211R. The classic blue dial with red hands — that's the CAW211P (Calibre 12).\n\nLeft subdial shows date at 6? Actually there's a date window at 6 o'clock in a small square. Hmm, the Monaco Calibre 12 has date at 6. Yes, the CAW211P has date at 6 o'clock, blue dial, white subdials at 3 and 9... wait, here subdials at 9 and 3? The left subdial is a 24-hour indicator (at 9) and right subdial is running seconds (at 3)? Actually the Calibre 12 Monaco has seconds at 3 and date at 6, and... hmm. In the photo, left subdial shows \"24\" markers - that's the 24-hour? No, the Monaco Calibre 12 has a chronograph...\n\nActually the Monaco Calibre 12 (CAW211P) has: subdial at 9 = running seconds, subdial at 3 = chronograph minutes? Let me think. TAG Heuer Monaco Calibre 12 Chronograph: the dial has two square subdials — left one is the chronograph minute counter? Hmm.\n\nThe photo shows left subdial with \"24\" at top and numbers 4-24 — that's a 24-hour indication? Hmm, but \"AUTOMATIC CHRONOMETRE CHRONOGRAPH\" printed. Left subdial has 24, 20, 15, 10, 4 - increments. Hmm, this looks like a 24-hour subdial... Actually no.\n\nWait — the Monaco Calibre 12 has subdials at 3 and 9: at 9 a small seconds? Let me recall: TAG Heuer Monaco Calibre 12 CAW2111 (blue dial), the subdial at 3 is chronograph minutes and at 9 is... Hmm.\n\nAnyway, CAW211P.FC6356 is the blue dial Calibre 12 with black leather strap. Confidence moderate ~0.6.\n\nMovement: automatic. Case: stainless steel. Bracelet: leather.\n\nActually, the reference might be CAW211P.FC6356 (Calibre 12 Automatic Chronograph 39mm, blue dial). Also there's Monaco Calibre 12 CAW2111.FC6183. The current version with the \"CHRONOMETRE\" text... hmm, actually the Calibre 12 doesn't say \"Chronomètre\". The Monaco Calibre Heuer 02 says... Let me think. The Monaco Calibre Heuer 02 (CBL2111) blue dial has \"Automatic\" text? The Heuer 02 has subdials at 3 and 9 and date at 6, with \"SWISS MADE\" and \"HEUER 02\" ... Hmm.\n\nThe Monaco Calibre 12 CAW211P: dial says \"MONACO\" and \"HEUER\" logo, \"AUTOMATIC\" and \"CHRONOGRAPH\". Date at 6.\n\nThe photo shows \"AUTOMATIC\" and \"CHRONOMETRE CHRONOGRAPH\"? That's odd. Hmm, could be \"AUTOMATIC CHRONOMETER CHRONOGRAPH\"? Not standard.\n\nActually, wait — the Monaco Calibre 12 has \"AUTOMATIC\" above \"CHRONOGRAPH\". Hmm, the photo seems to show two lines: \"AUTOMATIC\" and \"CHRONOMETRE\"? Or \"AUTOMATIC CHRONOGRAPH\"? Given resolution, I'll say CAW211P.FC6356.\n\nThere is also the Monaco Gulf CAW211R.FC6401 with blue dial and orange/blue stripes — not this.\n\nThe 2020 Monaco Calibre Heuer 02 blue dial is CBL2111.BA0644 (bracelet) / FC6424? Actually CBL2111.FC6453? Let me recall: Monaco Calibre Heuer 02 blue dial reference CBL2111.BA0644 (steel bracelet) and CBL2111.FC6453 (leather). Hmm.\n\nIn the image, the crown is on the left, pushers on the right. The Monaco Calibre 12 has crown at left. The Heuer 02 also. The dial with red-tipped hands and \"CHRONOMETRE\"? Hmm.\n\nActually the Monaco Calibre 12 CAW211P has red-tipped hands and red accents on the dial (red squares at tips of markers). Yes, the CAW211P has red accents. I'll go with CAW211P.FC6356, confidence 0.55.\n\nHmm, but the \"CHRONOMETRE\" text... Let me reconsider: maybe it says \"AUTOMATIC CHRONOMETER CHRONOGRAPH\"? Unlikely. Actually looking closely it could be \"CALIBRE\" something. I'll keep CAW211P.\n\nModel family: \"Monaco\". Brand: Tag Heuer."
+       }
+      }
+     ],
+     "created": 1791198807,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 1216,
+      "prompt_tokens": 1368,
+      "total_tokens": 2584,
+      "completion_tokens_details": {
+       "reasoning_tokens": 1141
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 1152
+      },
+      "prompt_cache_hit_tokens": 1152,
+      "prompt_cache_miss_tokens": 216
+     }
+    }
+   ]
+  },
+  "input_tokens": 1368,
+  "output_tokens": 1216,
+  "cached_input_tokens": 1152,
+  "cost_usd": 0.000765456,
+  "cost_source": "rate-table",
+  "elapsed_s": 7.202,
+  "started_at": "2026-10-05T11:13:23.946888+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

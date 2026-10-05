@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_093336_full",
+ "model_name": "gpt-6.1-sol-low",
+ "provider": "openai",
+ "provider_model": "gpt-6.1-sol",
+ "mode": "schema",
+ "row_id": 79,
+ "repeat": 0,
+ "image_file": "079_iwc_pilot-s-watch-chronograph-top-gun.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "IWC",
+   "model_family": "Pilot’s Watch Chronograph TOP GUN",
+   "reference_number": "IW389101",
+   "movement": "automatic",
+   "case_material": "ceramic",
+   "bracelet_material": "nylon",
+   "confidence": 0.83
+  },
+  "raw_text": "{\n  \"brand\": \"IWC\",\n  \"model_family\": \"Pilot’s Watch Chronograph TOP GUN\",\n  \"reference_number\": \"IW389101\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"ceramic\",\n  \"bracelet_material\": \"nylon\",\n  \"confidence\": 0.83\n}",
+  "raw_response": {
+   "id": "resp_07b9053e0ad36a41006ac36f33222087d2bf08097854b36cb6",
+   "access_programs": null,
+   "created_at": 1791192883.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6.1-sol",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_07b9053e0ad36a41006ac36f34617c87d2b23725f86abbaf29",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw29BrZPFo3BVtxxlE3GljSfHTFwCBJbK3CsqT53WxyCdVab2OfOADc0OFxqyvM3Mdqti7gZ2NS9XhfvJgCgU_bq5jS70wfJITiqhln2q7-Bd4m2ILLRYSZWoBapz6SJMvEhycrQ_ujwwPFmbmC2yDFZkMMJzQegogBfvv5N8Tt3-UaBPtv6kj07qrakcGz4IUWeHPEOOfZqsmmvoXeERBivnLEhGqjQr1sYuYaf14mfS7QoU4HAftJRoDtEThm3w0VlYzN5puvUPfj1Ds-sFkdGnzDLMyHaZkKfOAzSMBA7DHFs024o63hWqIG1ireuCkAU4Sl0oaoCMeA-SpNCrY8TtFwS44tOup9uvnjPGzp1SgfpeeUX0cxPLByKW8tsmm7SDGLIRKlbwGp3_EmtSLDphPXWScqOKodtGq3UGTTfo-RRZBCiqUwssiL_Vf9n0U2_VGzyBZYHMMv5ZJGnDuOdolwkrBUNX1kD1bceESbe8GNg1ibbt5ROnHXfG67mYEo1VIX3Wh8NTM9RhIrF6-IEIdNDVoSpEVGLErubM96sCEjmktlEcPc84uQxERi_g3TKaMn78X8wMDMqifhqetIQoWDwdRcE03qzsTn3H-NgoQmTRbXxSvhlCLsOndUcq-wXIFOD-62FvWFsDWSIFJYGQ7kQsl0-htX7xj6aAHRXY3Spx7YdjI5LWmafW6GatTZJ2urSIcMevY12006lJPYaE3NUHbKGQ8egDHVf-5m7KPHOwfB5mJWQ6ox_-SmHOCQyx3ctQdP8BKLi0k2oKdwMIXb5bog1ZqlDdlOqhm0lyufsU9Imbm24U8uyVI5co0rCULav3zLhO-iFXaHIJ18dm8X-aaffkkzkGK3PRwrSsVVuvc4WTH_-VkXx5MvTHehm_j5tgDoqHqAg9cQsF54xG7ZbQTk9ADfrhenRmAM-rbcMvH7iHlVdNbfrx1xCiBJCtKPJjbdA3oYFhFpcwgiiVX6HVQ-JddDygR6_mmssR7tgQ_RpGG1g7z6rxxAYK5_37sYA17evBPE7tgrnEAK-gz1CKPwGMKc0z9VYsNrlWLMw7xuCU4cd6jSa-JUk41rdirdyPgwUaD_7_bJIaEmcVlr1bUlBX83U6gAsOMLjH1uxjhMkibTuuvR8HDeeWfjQclWu6hFkN7f1oLhAZzejBKklDOgSoH3ZMjiOs2EhvOLhkENEtvqR8yGnjd7P1LgAodBCGY9pfxsT6jPNlbJorHdyXf-q0xUTRC6VNWfK8kuXI3YRaA5MENG9TufkzKy_P2U4K4PAZ8rAQdvBUYq58XczUkJuWi_acrTEkFqm28uf4VUSOMDPGG-HfikkaeRHCaaBqBeObrl0XpvLwDI-5A3yFnyU4DR1mB559NIKq02QPHH9IYcEKY2_BdhXnjxwOHAco6rtx09DDzI-4vnhJCwqEjshhWOihnGz9m3OFvijGPz-5-7FYmexNB0ANmLompNBQlajS2_O-UgmG49OddqJql0zBma14PkvXznnBS2XaVI48fjtAgztfoAILNtIN_gEizvI1ctTxmpS8OL3qBhAEwlN5Iy6in2b4mDrdt8Z-RODJ2kXJHVV8Y7Swqy-nRDgmIvUM-JeLRBPeTSMjOGvk0bASpYhsSe2LKz7wePDOINm2fG95dT7j0vYRNMHmpo7TXdaerZOdSk5HGQn0eBJesodjqdhsPM2NAe-rW1r3758l7yLq4mpC814d3d7v6ih_gJpzr9U0xtf7Zrd-cicZZt8--hF7KtvBFw3TR3SqUkR5PDNmjpYKZUESPYm6B-Loc_0jTvIKoZmhSrEvZj9AFa1PY71u1yhhxswbkShMpzPaRjWew9n-nzvd7egtjbnVrphPjAgjc1dwCtR9t04gY8UJXTI0yOZXjjdpUQYAAcW1ZtVvcwbcLjiypKmMyT1nV_m9RJM8LYv-1m_4fDaYcxI24_8DcT-Mpbp7te22HV2opb0omDL5w9TgqhBxY6VR7cZ7QZ2IZJLHeR4cOcEi3cYy6-QFijDsdyArHZX_in_3eEDS14UjB0oXj4Pz7QbXep1jcuTI34lHSeizv19pHn3tT21BGW7S8aqX8QAJUWiwfOInP-5iXGLmGOpXJcfg6y0gZFZ_egz5O5pkADmAW1fhhg4FbZIVLk8gBgS7_YTFZHhjZSsjEFTvxYNEfJNEeMvG5_RizhDVaRWEio3mqR9c_vUlgP9cQfuUljBg6k1oNBb0Y_tHM7d8fthw4Pxs-dWFdrni5Tt6zotjETDfsmlmmBUZjBrOriFV-xI="
+    },
+    {
+     "id": "msg_07b9053e0ad36a41006ac36f3ee0b487d2beecf26a2d82a0b1",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"IWC\",\n  \"model_family\": \"Pilot’s Watch Chronograph TOP GUN\",\n  \"reference_number\": \"IW389101\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"ceramic\",\n  \"bracelet_material\": \"nylon\",\n  \"confidence\": 0.83\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192897.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 3384,
+    "input_tokens_details": {
+     "cache_write_tokens": 3381,
+     "cached_tokens": 0
+    },
+    "output_tokens": 330,
+    "output_tokens_details": {
+     "reasoning_tokens": 249
+    },
+    "total_tokens": 3714
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 3384,
+  "output_tokens": 330,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.010068,
+  "cost_source": "rate-table",
+  "elapsed_s": 14.689,
+  "started_at": "2026-10-05T09:34:40.410748+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6.1-sol"
+ }
+}

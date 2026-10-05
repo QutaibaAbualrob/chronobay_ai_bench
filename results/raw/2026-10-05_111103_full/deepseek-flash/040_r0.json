@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 40,
+ "repeat": 0,
+ "image_file": "040_ap_royal-oak-double-balance-wheel-openworked.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Audemars Piguet",
+   "model_family": "Royal Oak Double Balance Wheel Openworked",
+   "reference_number": "15407ST.OO.1220ST.01",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.42
+  },
+  "raw_text": "{\"brand\": \"Audemars Piguet\", \"model_family\": \"Royal Oak Double Balance Wheel Openworked\", \"reference_number\": \"15407ST.OO.1220ST.01\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.42}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "e7a6cece-1268-423f-ac39-422905c50658",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Audemars Piguet\", \"model_family\": \"Royal Oak Double Balance Wheel Openworked\", \"reference_number\": \"15407ST.OO.1220ST.01\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.42}",
+        "role": "assistant",
+        "reasoning_content": "The watch is an Audemars Piguet Royal Oak Openworked, likely reference 15407ST.OO.1220ST.01 (steel double balance wheel openworked, 41mm). The image shows a steel Royal Oak with openworked dial with gold gears visible. The 15407ST.OO.1220ST.01 is stainless steel, 41mm, double balance wheel openworked. There's also 15467 with chrono. The one with gold-toned balance and bridges — 15407ST has rhodium/grey-ish. Actually the 15407ST openworked has a dark grey/blackened movement with rose gold accents? The 15407ST.OO.1220ST.01 has an openworked dial with the movement finished in grey/anthracite with pink gold balance wheel. Hmm.\n\nThere's also 16204ST (newer, 37mm?) No, 16204 is the new 41mm openworked? Actually 2022 saw 16204ST.OO.1240ST.01 replacing 15407ST. The newer 16204ST.OO.1240ST.01 is the Royal Oak Double Balance Wheel Openworked 41mm in steel.\n\nThe photo: 41mm, steel, bracelet with the new style? The bracelet looks like the standard Royal Oak bracelet. The case — polished bevels, brushed. Hard to tell 15407 vs 16204. The 16204 has a thinner bezel? The 15407ST.OO.1220ST.01 is the most iconic. I'll go with 15407ST.OO.1220ST.01 with moderate confidence ~0.4.\n\nMovement: automatic (caliber 3132). Case material: stainless steel. Bracelet: metal (steel).\n\nModel family: Royal Oak Double Balance Wheel Openworked / \"Royal Oak\"."
+       }
+      }
+     ],
+     "created": 1791198801,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 472,
+      "prompt_tokens": 675,
+      "total_tokens": 1147,
+      "completion_tokens_details": {
+       "reasoning_tokens": 392
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 512
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 163
+     }
+    }
+   ]
+  },
+  "input_tokens": 675,
+  "output_tokens": 472,
+  "cached_input_tokens": 512,
+  "cost_usd": 0.000309186,
+  "cost_source": "rate-table",
+  "elapsed_s": 3.641,
+  "started_at": "2026-10-05T11:13:17.906807+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 8,
+ "repeat": 0,
+ "image_file": "008_rolex_yacht-master-40.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_family": "Yacht-Master 40",
+   "reference_number": "126622",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.85
+  },
+  "raw_text": "{\"brand\": \"Rolex\", \"model_family\": \"Yacht-Master 40\", \"reference_number\": \"126622\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.85}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "d34ceff3-b569-4c92-b5d2-957382797747",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Rolex\", \"model_family\": \"Yacht-Master 40\", \"reference_number\": \"126622\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.85}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Rolex Yacht-Master 40 with rhodium/slate dial and platinum bezel, reference 126622. The blue second hand, blue \"YACHT-MASTER\" text, dark grey dial, platinum bidirectional bezel, Oyster bracelet. Reference 126622 (40mm). The 37mm version is 268622 with blue dial typically. The rhodium dial 126622 is correct.\n\nModel family: Yacht-Master 40. Reference 126622. Movement automatic (cal. 3235). Case material: platinum (bezel) with stainless steel case — but options restricted: stainless-steel, gold, platinum... The case is steel with platinum bezel; Rolex designates it as \"steel and platinum\" (Rolesium). Options only allow one — stainless-steel is the safe pick? Hmm. The listing marketplaces often say \"steel/platinum\". Given allowed values, \"stainless-steel\" is the main case material. I'll answer stainless-steel.\n\nBracelet: metal (Oyster bracelet steel).\n\nConfidence: 0.85."
+       }
+      }
+     ],
+     "created": 1791198671,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 301,
+      "prompt_tokens": 1239,
+      "total_tokens": 1540,
+      "completion_tokens_details": {
+       "reasoning_tokens": 235
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 1024
+      },
+      "prompt_cache_hit_tokens": 1024,
+      "prompt_cache_miss_tokens": 215
+     }
+    }
+   ]
+  },
+  "input_tokens": 1239,
+  "output_tokens": 301,
+  "cached_input_tokens": 1024,
+  "cost_usd": 0.00021592199999999998,
+  "cost_source": "rate-table",
+  "elapsed_s": 2.72,
+  "started_at": "2026-10-05T11:11:08.316065+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

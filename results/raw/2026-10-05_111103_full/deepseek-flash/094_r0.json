@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 94,
+ "repeat": 0,
+ "image_file": "094_vc_traditionnelle-manual-winding.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Vacheron Constantin",
+   "model_family": "Patrimony Traditionnelle Small Seconds",
+   "reference_number": "82172/000R-9382",
+   "movement": "manual",
+   "case_material": "gold",
+   "bracelet_material": "leather",
+   "confidence": 0.72
+  },
+  "raw_text": "{\"brand\": \"Vacheron Constantin\", \"model_family\": \"Patrimony Traditionnelle Small Seconds\", \"reference_number\": \"82172/000R-9382\", \"movement\": \"manual\", \"case_material\": \"gold\", \"bracelet_material\": \"leather\", \"confidence\": 0.72}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "e36ea2ab-6d9e-42cf-9f42-d921c2180271",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Vacheron Constantin\", \"model_family\": \"Patrimony Traditionnelle Small Seconds\", \"reference_number\": \"82172/000R-9382\", \"movement\": \"manual\", \"case_material\": \"gold\", \"bracelet_material\": \"leather\", \"confidence\": 0.72}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Vacheron Constantin Patrimony Traditionnelle small seconds, rose gold, silvered opaline dial, ref 82172/000R-9382. Case material rose gold (pink gold). Leather strap alligator.\n\nMovement manual winding (caliber 4400). Reference 82172/000R-9382 is the rose gold with silver dial. Confidence ~0.7."
+       }
+      }
+     ],
+     "created": 1791198991,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 154,
+      "prompt_tokens": 1377,
+      "total_tokens": 1531,
+      "completion_tokens_details": {
+       "reasoning_tokens": 83
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 1152
+      },
+      "prompt_cache_hit_tokens": 1152,
+      "prompt_cache_miss_tokens": 225
+     }
+    }
+   ]
+  },
+  "input_tokens": 1377,
+  "output_tokens": 154,
+  "cached_input_tokens": 1152,
+  "cost_usd": 0.000129606,
+  "cost_source": "rate-table",
+  "elapsed_s": 2.059,
+  "started_at": "2026-10-05T11:16:28.417728+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

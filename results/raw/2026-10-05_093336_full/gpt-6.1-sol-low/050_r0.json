@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_093336_full",
+ "model_name": "gpt-6.1-sol-low",
+ "provider": "openai",
+ "provider_model": "gpt-6.1-sol",
+ "mode": "schema",
+ "row_id": 50,
+ "repeat": 0,
+ "image_file": "050_tagheuer_autavia-calibre-heuer-02.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Tag Heuer",
+   "model_family": "Autavia Heuer 02",
+   "reference_number": "CBE2110.FC8226",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.95
+  },
+  "raw_text": "{\n  \"brand\": \"Tag Heuer\",\n  \"model_family\": \"Autavia Heuer 02\",\n  \"reference_number\": \"CBE2110.FC8226\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"leather\",\n  \"confidence\": 0.95\n}",
+  "raw_response": {
+   "id": "resp_085def62b3c197de006ac36f172a9087d2a67a874a3cd04c38",
+   "access_programs": null,
+   "created_at": 1791192855.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6.1-sol",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_085def62b3c197de006ac36f1a602887d28cc209aead51be51",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw28dbSLRr5qk9BYNuGJa5eKIpsrkTuLNyYkcxo3NFXdHK_PLtZ7OOqpsaYQTU22W-cBHAIqgoiQokQwcIZYIT90EselEEHN0k_v30U8g8ej7hGecAdjXER47hzih6E9hkMUxJTmMqx57W-ty9yAahZRAPYGSv33JVS8xUEtKG3VB2KchJkYCJjtii4uBfQhJVno2MMPhHGKSqU7Awg6tJHn8wIN-YaGVEKzpeKkSb9JGy_9z8go2FyZhVpmctZFWw1YLwVmx-D-eFWyT8UXCQ7RpCECnX94kYFsBGdx8yAbhUWSnOrP_o8fkl2D4iH9bysiHjq6jcS3Ff1BlEjhn4tTHHSXJMFT73-76Gido90NBtuAf0fbrFWP7G7WzSaGyRapHApF4jzhCgKgOe0FWsg_ttrUA_RV-y4kr8NXJJKlWlQ8hWoR4X7Eqjd68skcWNrATQWP5PH9QfXwkINNh7-BQmWe6HUTWUB31JoIR3EBgvtiOvmUpz_eOWFdd0ke3tiyfk7IXf1UQPWhD7QPFzvt3StSbL0A0i2fEFHBIFviLQCxbycwnQG_3k7oCUCTBT8pHODaWO7ndqANUvJMSf2fJcBKboMXXCvPK3y9kvJrrGo1hu-HpxWLqTXn3M7_2n76qRoDzcT3Odg7yXhBCcv_CvFeGHYzR1RQvp9ZmRgyELTSvflLDWW7dmRjRWyPv5GHKFrCcUWY_mt_H9UU6RwNH2gcNxofWiYXaXK2zx0phhYtFq4h2vGh7lLNVhNIfvFSMfaCsJC6FjmQJ23hSar0lU7SMQfeaLmdXZsoZ39BjwjxO3aP-aUgbeyrPC2dxc3JmKKGl4yoqSF8zLazlTf2hu3UNffbbyDJYrO_-XcV8REHn5LvSpAcrV3n8UyzBsVfnkD2uxmE1wEK-ny1J60AprMaA4KI18Qcv3UprcU71ieoOGSgyS98smQ5ORyFNtFNmRWOhwlWck7d5yxtqQmVB4VUxx2AXCszfYIJ5dxDdNB7utmzqbB7g__DxxBV5dSCoXeTy6RXeecce8NyEWk4uU57rnTMJ0dXZPskuVAL_G7CJYP0vspEUdeM0d_ttGahO5jkb-izs2rGcbyJXfFiL7KLJux8X3Y_6ykIc5ISa8VflNDEKyU_ZWYbt9R9g7ZncMn_DhO9lOUoT_K-1784iTgyw46sd-dCu9nxkQe2NvIRwZ1NDPn7tply96sFQ5VXiA0qmJaVPHPK2D_s7Pl9lfSIaysvN3YDwtv7CW7SfDfPuE5HGAo52Pr5vB7J5EW_gwbVB2jN9NpPLT0w9zkJMUnoKLZwuCTDhD9jSX-HA9mE="
+    },
+    {
+     "id": "msg_085def62b3c197de006ac36f1bced087d29aeddadcbc47a0c8",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Tag Heuer\",\n  \"model_family\": \"Autavia Heuer 02\",\n  \"reference_number\": \"CBE2110.FC8226\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"leather\",\n  \"confidence\": 0.95\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192861.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 3399,
+    "input_tokens_details": {
+     "cache_write_tokens": 3396,
+     "cached_tokens": 0
+    },
+    "output_tokens": 123,
+    "output_tokens_details": {
+     "reasoning_tokens": 37
+    },
+    "total_tokens": 3522
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 3399,
+  "output_tokens": 123,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.008028,
+  "cost_source": "rate-table",
+  "elapsed_s": 6.594,
+  "started_at": "2026-10-05T09:34:12.349521+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6.1-sol"
+ }
+}

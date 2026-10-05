@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 44,
+ "repeat": 0,
+ "image_file": "044_tagheuer_formula-1.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Tag Heuer",
+   "model_family": "Formula 1 Quartz",
+   "reference_number": "WAZ1010.BA0842",
+   "movement": "quartz",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.4
+  },
+  "raw_text": "{\"brand\": \"Tag Heuer\", \"model_family\": \"Formula 1 Quartz\", \"reference_number\": \"WAZ1010.BA0842\", \"movement\": \"quartz\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.4}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "0a6d6108-c2e6-4b1e-bdf4-3e03cdbfa029",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Tag Heuer\", \"model_family\": \"Formula 1 Quartz\", \"reference_number\": \"WAZ1010.BA0842\", \"movement\": \"quartz\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.4}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a TAG Heuer Formula 1, black dial, with a large \"12\" numeral, date at 12... Actually the date window is next to 12? There's a date window at the 3 o'clock... Let me look: the dial has \"TAG Heuer\" logo, FORMULA 1 text, a large \"12\" numeral, \"6\" numeral at bottom, markers. The bezel is black with numerals 05-55 (minute markers) — actually it's not a tachymeter... The bezel shows \"20 25 30 35 40 45 50 55\" with 5-minute increments — that's a diving-style bezel? Actually the TAG Heuer Formula 1 with the numbered bezel is a \"Formula 1\" quartz with... Hmm.\n\nWait — the bezel is black with numbers 20,25,30,35,40,45,50,55,05,10,15 — that's a count-up bezel? On the bezel edges there appear to be rotating... Actually, the TAG Heuer Formula 1 quartz 41mm? But this looks like it could be the Formula 1 with a \"Calibre\" ... Let me think about the design.\n\nKey features: black dial with large Arabic numerals 12 and 6 (white), applied baton markers, date at 3 o'clock? Actually I see a date window at ~3 o'clock region (a white square in the upper right area at ~1-2 o'clock?) Hmm, the image shows a date window near \"12\" position? Let me re-read description: there's a white square at approximately 1 o'clock area showing \"19\"? Actually there appear to be two date windows? There's a small square near 1-2 o'clock showing \"19\" and another near 7-8 o'clock showing \"18\"? That's odd — perhaps this is a photo artifact/AI-generated image. Indeed the dial looks mirrored/odd: \"TAG Heuer\" text appears mirrored, the \"12\" appears upside down... The image seems to be a mirrored/rotated rendering. Note \"10\" appears at 1 o'clock position and \"15\" at 2 o'clock... Actually the bezel: I see 20 at ~11, 25 at ~12... hmm.\n\nThe bezel numbering looks reversed (counterclockwise), suggesting the image is mirrored. This is likely an AI-generated or mirrored image.\n\nAnyway, the watch: TAG Heuer Formula 1 quartz (or the newer Formula 1 with 43mm). The reference for the black dial stainless steel quartz Formula 1 with date: WAZ1010.BA0842 is the 43mm Formula 1 quartz with black dial and steel bracelet. Actually WAZ1010.BA0842 is the Formula 1 Quartz 43mm black dial with steel bracelet. That has Arabic numerals 12 and 6, baton markers, date at 3, black bezel with... Hmm, WAZ1010 has a black bezel with a tachymeter? Let me recall: The TAG Heuer Formula 1 quartz 43mm (WAZ1010) has a black dial with luminescent numerals 12 and 6? Hmm, actually the WAZ1010 has a black dial with \"12\" and \"6\"? The WAZ1010.BA0842: black dial, date at 3, steel case, steel bracelet, quartz. The bezel is steel? Hmm.\n\nThere's also the Formula 1 \"Calibre 5\" automatic (WAZ2110) with black dial. And there's the Formula 1 with a \"minute\" bezel — the WAZ1010 has a black fixed bezel with minute markers? Hmm.\n\nActually let me reconsider: the bezel with numbers 5..60 in 5-minute increments is typical of the Formula 1 quartz WAZ1010? Hmm, the WAZ1010 picture: it has a black dial with big 12 and 6, date at 3, and a black bezel with white minute numerals 5-60? I think yes — the Formula 1 Quartz 43 mm WAZ1010.BA0842 has a black bezel with minute markers. Hmm, but I recall the bezel having a tachymeter on some.\n\nAlternatively this could be the newer Formula 1 (2023) with... Actually there is also the Formula 1 Solargraph (2023) with a solar quartz movement, black dial, steel bracelet — reference WBY1110.BA0042? The Solargraph 38mm? Hmm, the Solargraph has a different dial design with no date maybe.\n\nGiven the numerals design (oversized 12 and 6), this matches the TAG Heuer Formula 1 Quartz 43mm, reference WAZ1010.BA0842 (black dial, steel bracelet, quartz). I'll go with that.\n\nMovement: quartz. Case material: stainless steel. Bracelet: metal.\n\nConfidence: ~0.4.\n\nModel family: Formula 1.\n\nLet me double check WAZ1010.BA0842 dial: black with large Arabic 12 and 6? I recall the Formula 1 quartz 43mm (WAZ1010) has Arabic numerals at 12 and 6, yes, with a small date at 3. Yes, images of WAZ1010 show big 12 and 6. The bezel is black with a \"TAG Heuer\" ... it's a rotating? It's fixed with minute numbers? I think the WAZ1010 bezel is black aluminum with minute numerals 5,10,...60? Hmm, some versions have hashes.\n\nAnyway, WAZ1010.BA0842 is my best guess.\n\nAlternatively WAZ1110.BA0875 (41mm quartz, black dial). But the big 12/6 → WAZ1010.\n\nAnswer."
+       }
+      }
+     ],
+     "created": 1791198814,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 1332,
+      "prompt_tokens": 1361,
+      "total_tokens": 2693,
+      "completion_tokens_details": {
+       "reasoning_tokens": 1260
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 1152
+      },
+      "prompt_cache_hit_tokens": 1152,
+      "prompt_cache_miss_tokens": 209
+     }
+    }
+   ]
+  },
+  "input_tokens": 1361,
+  "output_tokens": 1332,
+  "cached_input_tokens": 1152,
+  "cost_usd": 0.000834006,
+  "cost_source": "rate-table",
+  "elapsed_s": 7.954,
+  "started_at": "2026-10-05T11:13:31.149718+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_093336_full",
+ "model_name": "gpt-6.1-sol-low",
+ "provider": "openai",
+ "provider_model": "gpt-6.1-sol",
+ "mode": "schema",
+ "row_id": 10,
+ "repeat": 0,
+ "image_file": "010_rolex_submariner-no-date.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_family": "Submariner",
+   "reference_number": "124060",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.72
+  },
+  "raw_text": "{\n  \"brand\": \"Rolex\",\n  \"model_family\": \"Submariner\",\n  \"reference_number\": \"124060\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"confidence\": 0.72\n}",
+  "raw_response": {
+   "id": "resp_0545682f59bb4423006ac36ef746d487d295d247fe1d24891f",
+   "access_programs": null,
+   "created_at": 1791192823.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6.1-sol",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0545682f59bb4423006ac36ef8b40087d2938b4dc10d977d5d",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw279u5k678CWyfNDuB0V-hpA6AzTyfx-3qVF3Ym5S64vN4t0qDFsCBxebs0pHJG0CLKHfeqa05Bd45g3aFZC9FJmreNQTlxxLrYUpj3oGaLrUPC3cxtk1iIk75YiiXUSr9xrjVJ9DJrOFlUBO6acn2X9NUNNgcKIvr2xLH9rSzHZ6KrQNjQlOd1AKnzz8wKUl3w7q97TpJ-VAhz7Xkylla5EwzzD9yEvjIoBoZ4qf170c90ZgjKCVNRpkCvfI3GpHwhZx_5h_r3dSgW7eB0wt7rYQBnGXLTe3kopJOE161lp8UNLZKgjztxTjp7wxyjIsyLGvK2KPMy8MnlV3jF6MvcrHspx_Ber5Ai6Cmkx6yV4OTrI0wiD64HRaLfDTru5-i84MkdhyJXTGxnWbxN42YlDp8QHn_0BfWP-og4B_OmWPbv4B5tzSEcW4imQkg9UT_Z8gy6cP0qoabjDHH0TV3IB0KeoGzCRXC_VBxNrkSmfJ6J-6W3VFpm1gGqykOq8h8H2XNEYxuxnaYNxfSFTGZ5yRmfliujLAwxjaQ1pcu43iwYvWadg3T_qLodi-8j2E9iswy7xl_Trsksokwv0rFAta7kDFPeqNkDsJbdZOwsic8EobL5oDCSx43zxdHlsF-FyGKOwKCC8w11loRlGIcoO8spePfnGNNk2hnT5oUTdWn89XpPQ9k5Tsa0u-DjPKxrwC4uqBjMKn71DkLwdG_Y09SdubKzMKAb4BpxSMJe9rMroua3yDDoJtyi66SUssy_MrMDSE-NH3bfeF3z3QO4nc-BeB8Xp1wXjfCQmMLXc1PP5FREKeovPQr_ku8SbbMsp8fs7T_qGMy925zaaU-HsuiOTt3LmMlNHRuS1G9HGa4vBgKYLmdfpIoG1rPfeFK95GS0wGfZDnBGZthIa9h6HE17jIBpi-zKQfQpCG8L-BwFuv-vS6d72g0_pWBHvZfWXeGKN70xg6x1MSmugi6gPN7NexnPylUne-QJt_6BTkQvfK40KmlKFJdglDY6mUw0jlS1CoN9WQMAg302yZ7ENOJTdC2hzpez5xCmDz_OfPIYsobzHbyyBv5YyMeX07VGfMwws3TPpaaMo7Mj7fWzFV3r7bUDD9FkyfWRYWR2PJx59E_IBxCggQ4DriqVhNCv65TKSrV8cjPx9i96kmyVLYz68N2DR5q6fD7URJ3qQRK6Jz5VglSfzXzcsT3RJKVwXcLfDLDAx2M4sdWDQ8J_-ItvP3T-s7xdkVsdSxSZKcNAMUPAzVtQcROCk_zW3sd7C6EPPjv3JW6fVYMDHSsYioUKTKdXTa6joEWuB1sQ27Jab-E_C_AHMOJH-oXbMaasmKJ0W8ncBizUaat0gyJbSs32-FihIeAb9i1Y_UmF1b_sCAaZWm4Xk9Aj5HbHqNxLVYVXr4MXp2B9Mwqca0h3uLRHZab7srG5tFoTR0S5KPsmOpLCtGPfLHB63y6sjEraKft6-Q2zbLxbqDQfd6veIg-syiXWypb1YOC5PQfcldrg7gr7LwO5PyXscw4NyezymwsrCTkDJ6-Y9PYK6VLCYVn0P2d2kStgBTo1K46I6iib-Plv9m_zZdCQ3HbSl3j_irXii5vrVUv-WCrkc_rTyT13IWxUA7iIU67JezfVuDKA9B6uZjJfeXvAtmO113x9025xdQFjjPdzKNt27rpOy5b260llOEzOEmI2ljxjUF9Fg7n43DkVwAfuITZ0zQk9KRlwxwVltPYkPy7l5PfSuXmz70AIIY1cBT9uxygl8NYs="
+    },
+    {
+     "id": "msg_0545682f59bb4423006ac36efcbf7087d2a66c49c5fb28ab5e",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Rolex\",\n  \"model_family\": \"Submariner\",\n  \"reference_number\": \"124060\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"confidence\": 0.72\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192829.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 3345,
+    "input_tokens_details": {
+     "cache_write_tokens": 3342,
+     "cached_tokens": 0
+    },
+    "output_tokens": 186,
+    "output_tokens_details": {
+     "reasoning_tokens": 110
+    },
+    "total_tokens": 3531
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 3345,
+  "output_tokens": 186,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.00855,
+  "cost_source": "rate-table",
+  "elapsed_s": 6.915,
+  "started_at": "2026-10-05T09:33:40.588045+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6.1-sol"
+ }
+}

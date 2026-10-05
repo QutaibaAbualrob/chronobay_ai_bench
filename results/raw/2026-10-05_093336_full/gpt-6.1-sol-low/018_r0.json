@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_093336_full",
+ "model_name": "gpt-6.1-sol-low",
+ "provider": "openai",
+ "provider_model": "gpt-6.1-sol",
+ "mode": "schema",
+ "row_id": 18,
+ "repeat": 0,
+ "image_file": "018_omega_seamaster-diver-300m-007-edition.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Omega",
+   "model_family": "Seamaster Diver 300M 007 Edition",
+   "reference_number": "210.90.42.20.01.001",
+   "movement": "automatic",
+   "case_material": "titanium",
+   "bracelet_material": "metal",
+   "confidence": 0.98
+  },
+  "raw_text": "{\n  \"brand\": \"Omega\",\n  \"model_family\": \"Seamaster Diver 300M 007 Edition\",\n  \"reference_number\": \"210.90.42.20.01.001\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"titanium\",\n  \"bracelet_material\": \"metal\",\n  \"confidence\": 0.98\n}",
+  "raw_response": {
+   "id": "resp_0030429936cda8c8006ac36efe313487d2a2ab3e6cd8fd0c7d",
+   "access_programs": null,
+   "created_at": 1791192830.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6.1-sol",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0030429936cda8c8006ac36effbe3c87d2abdd4608ecc99acf",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw28Cb-ErPHtBEvWmdTE1Fjy9cNCuh6vlRJvofvMpEQLFR9fOVC-rVgHQBehQqkftHQIEBFevAgpWEhXMv6g8nH3FdTEhUEkuLoAOJ26gpumfc3pd3AEkB0LsblLNc4aKytLdi_PghMorcuF517MgbtQ2CQQPWYULt0mQmiOgqxt1NX9rRp3A3KsST8A0ayPaUceBaCLNhAeSRj8vJfNoXBr4U0QHCe5IGAbb3rNL8WVS2wboWiYKCVmeZJDVUGou-oW7X4br4MSaKrnhH_hnNjGJljfNaWl1O8ECmbLqpyWJG_wFf8fpYGlKLca2sVFv4mdnyxGcwVR8H4oLuRHXMyHd-them2HMCzecrSq65b4XRgrOzXIpRwQdV1JCRlXRoDHaMZlwR3o7yqPnXsXYYThzhB-_QSzcKD8CFNR9qVRlNybebGd61RHa7PRNDWhpNh7uX0vYlOZDaBmU49vUL1-j-oLHirBc0giIhigtigeph-esX0YHy2gFT8OjtzgxJq_qqEbUleL6T6n0HA7EtEMTfKtDH6PLAnS-TlKHSDA9VaqFm9OS2gNhyonNWDDr5j91sXEc-SRmnV6klHDreH3AjzJy6wKojJjGgFW-Kw46Cm8N4DsuIPIMMxSulZtrwUpyk4WVeGsYmS_KYMQwk4DC-gA2bLFKh0A_BEBCYW-5wKGw5btP4NL9X2jNq9e7hmqLQGdyCLjL9fBecylB_5VoEYigz5_QG_Sk8pll85cTgvOAyGwwUoq9JJ-144fR3f6AaSAkVvDL900arwRga_ZXVA5dWg1J_oCrjLE1wyfxbtaiKIkkaKLALlB5kVI9_YKe0RhXqOQ2r12Xz2R9Zu14zFXCjRRslYy7A-USkoKK6rLEwXO1XhoPwZWlnLZ_47fpJRNGUTID22b_w8gf6AtYc41lh9APy-2vGltXHHfQFasGeuMIRwzTug5dqNhPc5fiqTKjFzjXCXtRRRZB84QJt2k7_7-AwKBvF61N-5dJxzRXFDeoCd5TGxDo2qzEtw0_AmCY6Bek6P6MVT03dl-FKBwaLyuzTjWJw6JxB0YpNCA2S6IAaXfoDxyTNEiVb102tGapTMrhub7gf04FiIecI6mVcr4DkRoOBUKmmZrm3Mu9pR52NnJfOOaGPuXLSh56OC6IHJfzDrrJscbpv1VTw0nYqFAFB-0YdzlnETMqf0DAgp_A984gdjUgicrDLpHvdHiL9IE2-q8DXJGFiKba9BNlxtF3zIn4n9q_LE_1EGY="
+    },
+    {
+     "id": "msg_0030429936cda8c8006ac36f0091c087d286c6f178fba756b5",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Omega\",\n  \"model_family\": \"Seamaster Diver 300M 007 Edition\",\n  \"reference_number\": \"210.90.42.20.01.001\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"titanium\",\n  \"bracelet_material\": \"metal\",\n  \"confidence\": 0.98\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192834.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 1463,
+    "input_tokens_details": {
+     "cache_write_tokens": 1460,
+     "cached_tokens": 0
+    },
+    "output_tokens": 117,
+    "output_tokens_details": {
+     "reasoning_tokens": 27
+    },
+    "total_tokens": 1580
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 1463,
+  "output_tokens": 117,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.004096,
+  "cost_source": "rate-table",
+  "elapsed_s": 4.296,
+  "started_at": "2026-10-05T09:33:47.503426+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6.1-sol"
+ }
+}

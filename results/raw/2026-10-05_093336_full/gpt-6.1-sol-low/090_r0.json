@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_093336_full",
+ "model_name": "gpt-6.1-sol-low",
+ "provider": "openai",
+ "provider_model": "gpt-6.1-sol",
+ "mode": "schema",
+ "row_id": 90,
+ "repeat": 0,
+ "image_file": "090_jlc_master-control-chronograph.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Jaeger-LeCoultre",
+   "model_family": "Master Control Chronograph Calendar",
+   "reference_number": "Q4138420",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.96
+  },
+  "raw_text": "{\n  \"brand\": \"Jaeger-LeCoultre\",\n  \"model_family\": \"Master Control Chronograph Calendar\",\n  \"reference_number\": \"Q4138420\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"leather\",\n  \"confidence\": 0.96\n}",
+  "raw_response": {
+   "id": "resp_02339fb212d74b35006ac36f3fffb487d2aee5f2ff137847b8",
+   "access_programs": null,
+   "created_at": 1791192896.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6.1-sol",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_02339fb212d74b35006ac36f416f1487d28394103362642f46",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw29DVpi5cu-p1Ne1UmEsuU4BuuE6xtkyliYj3uAcEJ7hF4yPs6RWZfPtSev3rIbgO2ij0C2QkMBrKHgrwzpCa7_EqEvezC51zx5eevMf9vMEnJBzC7JjUBNfy0lmmXxogt2AMnJDbZIG54WaFW9laBDMR69zdb7TOPrJAJwbiedEJBwtLBGpBnzxmaDwtmBEo0IbqV3ZVzrfjD7-U5U8mFBPA_m1ZgYlmy3Ui7yoTTkHssf2NnxiwUQC8MWOvdf07jcrFC2nYUBgxEG0dSdFX3zDqZuYO9tqvgmmVJn8Amsq9ZmHn8KmERG-B8y9tb6mzMtjXAWTpBb92RkG60Zj9Drlc1oZA3FV7koqeRFPDIqpWvbcQ-4Xj936Rg-nMILnNnONgI6FcLPF90odOl6ORcO2KpxHJugk_AYSi3H0mN9O3Q8PSvQqMKHmypocsWNpQkIi1A5_T4IncjfclmrSih7WhKStJESI-Za2hIs6HiTgwn9DPD9cNhurAuWjz43ENnqjo1WV4QMF6sarBDDBtNc-EkfJX0tvV1MaKeK1SPwx4-f5oTUdgCxi39xN5UIloBNUUujCmkl9x-9bCrdzDQ7Tq8w4wdJNQLT2acRF0JF2PfS3RS5iAarovyaIFAH9GK0fBVQnl9gDE0DPt61X4aP5WxL1FnVh0yrkxsD4n52dLk5YUBhRwabkaJgnHQ0ZsFvrrF8_4ZvnOkxRxOIQlA1TtJWlN9gpHcYyFSeLWppc8eOja7NgjlsJikhzzct8buhwpSElyZx2_qASRpKrEgNB-LasZnm2g-Q1A0UiINoWxEJhMoF5gKHfsvbUkBUF01XsWGSiglda4raq32dppcc22qdTd9kH3at535pagSgBJ6DFx1rhu3S3kyJ-6fYwyj3EKHE1sAvziL2YUOwBVAtQ5fwOQIXmSjdVx45l2JEgvwbKxW5Kt0EXiELrThTd3jtX6X9zDX5d-syBu2oxVTfsaohoGkgSy6UZxqXcvCPKLwdguaXs2YGaRrAIr0GZVzbFTTGaOHCQzdieDwgXqn6SKzIlblwh0RA280YZp33mJ1R4_VVNNA29TVAvd5_q5VtbcGrhpZf10LU26RHO8bAHIHhnEpOoCkfSAM4dC9b3iULixz1FflzRUfMXKZAMpKzhYb2uUpk8qpPCjLJnu2FEFP4Js8mGQDMHGwKt0_mzdebhl5Aw19OS6E2izUwe3jGjJhwYYTmSTor5Eq3Jf0aRFupdAAGJSwz4RZLxEDyCp9N90FsSPjAZgVQ5rFksRxIOW0jGvV66PdfqvGdHhXacu_WwOPU0HhshJ6WdQudREWOhRmbUGEZ5hdTT_AkQoXx-"
+    },
+    {
+     "id": "msg_02339fb212d74b35006ac36f426f8087d2b741b4ec8a5ec639",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Jaeger-LeCoultre\",\n  \"model_family\": \"Master Control Chronograph Calendar\",\n  \"reference_number\": \"Q4138420\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"leather\",\n  \"confidence\": 0.96\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192899.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 1787,
+    "input_tokens_details": {
+     "cache_write_tokens": 1784,
+     "cached_tokens": 0
+    },
+    "output_tokens": 122,
+    "output_tokens_details": {
+     "reasoning_tokens": 38
+    },
+    "total_tokens": 1909
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 1787,
+  "output_tokens": 122,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.004794,
+  "cost_source": "rate-table",
+  "elapsed_s": 4.013,
+  "started_at": "2026-10-05T09:34:53.308894+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6.1-sol"
+ }
+}

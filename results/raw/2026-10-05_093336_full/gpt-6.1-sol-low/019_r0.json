@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_093336_full",
+ "model_name": "gpt-6.1-sol-low",
+ "provider": "openai",
+ "provider_model": "gpt-6.1-sol",
+ "mode": "schema",
+ "row_id": 19,
+ "repeat": 0,
+ "image_file": "019_omega_seamaster-railmaster.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Omega",
+   "model_family": "Seamaster Railmaster",
+   "reference_number": "220.10.40.20.01.001",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.96
+  },
+  "raw_text": "{\n  \"brand\": \"Omega\",\n  \"model_family\": \"Seamaster Railmaster\",\n  \"reference_number\": \"220.10.40.20.01.001\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"confidence\": 0.96\n}",
+  "raw_response": {
+   "id": "resp_0278a7e3de258043006ac36eff621c87d288448d7fff9164a3",
+   "access_programs": null,
+   "created_at": 1791192831.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6.1-sol",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0278a7e3de258043006ac36f00778487d2ad30a6bebc625c68",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw28DFs_afjbqOQrgcIPeiAR9U3zh5Ro6IxYuqEvU-63cFDQIIzdRSpLoZMjSPjnIPqIajLW8dhsHwnHbh-ayyBoguaf1W5wJTGOHfdGu3uTCAxpHTqUvUBgzX7y19u98vWUwFxDbl5mFkK49GGZsR6-x8qM3JToEyM82kRs7gAbWA0Ek7M2ywOsZ8m8k-VL48AZVQqZ5if4fn4nQNIx9YIXrJnmibQo0JmDNc2DjlPFI7MSF0losA_hvQpL32eIZ7w4CzrWEwvWzOjP9YFiLCO02Qi_b_n6n8TPv9H1wFxBPgbDel6X_7ieW--lBHjI_9v_CITNCEQJIS2w33R3eMKHoQAEAfJuwicKcIvY0Q0e52rGqKgS-Nl3nEzUT6kQWX6BV49uKRMFkyEGMdpF-PLnaqagNplkgZDNj_WOV3f6iQtJ7DkTGT2181TK4OVChGQDT3H-jSCHHKiB5W-uYn_Fb8JrPi8eXPKadzNS3o7uLZ7Dcq45_2fsrEZoZ_RzeUTYfpLSLT99OXAFyzFaYnbsOtNXuhM11GJ2Svj6XxuqMG7Pn9B4RmryUG5NqaXumPH4KrFaADN_wH-wYr-mpeUMVHXyY8GeWTt9Opnju173tcOfqQ9jinOjk9P8GiLD951xmJA-EJqPn5GsZOyHqCigg7clICSiM8_cxH25qfKzBPuk_ZeqBkgS_eivXK-FyW0QJCUFP60C-Dm92orO0LvyJvIZYQoryUEdO3yd9krCmdFlzbKcRZHJbTamltr8237BdfF-yg8xzZVt93cXdiRL4usBIN_jBVWdVV7QvsXkPv1Bnc2hBXUhvdEAuclZtPT17DbbObnZ6Lm4wJyPdjXyadZxzyGHOxQmum3EyyLfxZBK_4p_tjlqmdKosk9Mwyhp7uY8Z35xtm5kif8-hNBJ1CupGirbXI17VMdEYLaC9anG5cAxO46ujw_13LMCzL62ZWNhBqXSaULsK6rR5IPOa50O1iAq-DyPEnIGTHBPKbtuaq0JkUcI4gNeWFNfUDGYT9e5DEBuGNNgtdrUF-Tj81O2W-2AD7XXLpPSGjT24jl6_SRoCvcvhyQD-_0jehrK3Q5Uh_PmwZm9yr8-oDaDwO9CJ2JEd95pnX61kNyLAtaeuVYHALTWeI6vrkJImMPQVtNiQVHfnBLG63ww-AUoXCPuSDE2Ol8sC1KFqwLrRh2o6rSBsZJySP8vJxz-XNimHYnOO1CgaFV6jfpy_cgXnypLAfew_czOsBWj81KSH4Zf9lt4xu6EXX78pZ1f315-6VcSS9G4FSu_kPjxnwrlFZA15L_U9ASKz1F_5pUcxPUVZkNISsTwWRRhx8LanX6V3CMJ5tL_Weu0mMYScbgv8D6LPDSYw3tCkdLGK7vLjYDA="
+    },
+    {
+     "id": "msg_0278a7e3de258043006ac36f02455c87d2b1358546fdd6d80e",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Omega\",\n  \"model_family\": \"Seamaster Railmaster\",\n  \"reference_number\": \"220.10.40.20.01.001\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"confidence\": 0.96\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192835.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 2723,
+    "input_tokens_details": {
+     "cache_write_tokens": 2720,
+     "cached_tokens": 0
+    },
+    "output_tokens": 127,
+    "output_tokens_details": {
+     "reasoning_tokens": 41
+    },
+    "total_tokens": 2850
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 2723,
+  "output_tokens": 127,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.006716,
+  "cost_source": "rate-table",
+  "elapsed_s": 4.495,
+  "started_at": "2026-10-05T09:33:48.697487+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6.1-sol"
+ }
+}

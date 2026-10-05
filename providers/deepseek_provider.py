@@ -19,6 +19,7 @@ from .base import (API_ERROR, AUTH, NETWORK, RATE_LIMIT, SCHEMA_PARSE, TIMEOUT, 
                    ProviderResult, fail, parse_answer)
 
 BASE_URL = "https://api.deepseek.com"
+# Chosen, not an API limit: a 16,000-token run cost 42% more and scored no better (README, Findings).
 MAX_OUTPUT_TOKENS = 8192
 
 

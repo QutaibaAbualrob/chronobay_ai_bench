@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_093336_full",
+ "model_name": "gpt-6.1-sol-low",
+ "provider": "openai",
+ "provider_model": "gpt-6.1-sol",
+ "mode": "schema",
+ "row_id": 60,
+ "repeat": 0,
+ "image_file": "060_breitling_chronomat-automatic-gmt-40.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Breitling",
+   "model_family": "Chronomat Automatic GMT 40",
+   "reference_number": "A32398101B1A1",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.95
+  },
+  "raw_text": "{\n  \"brand\": \"Breitling\",\n  \"model_family\": \"Chronomat Automatic GMT 40\",\n  \"reference_number\": \"A32398101B1A1\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"confidence\": 0.95\n}",
+  "raw_response": {
+   "id": "resp_09540f033236f8f5006ac36f207d6487d2987d181cf180dd67",
+   "access_programs": null,
+   "created_at": 1791192864.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6.1-sol",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_09540f033236f8f5006ac36f21cb2887d2835496e94857548c",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw28lyjIAa8GHaFEKd2CqLhA6fBY6tuMUorgAF7KNzyCYXLH3zwYUSxJZdUPdCQmnjk0ucJspF9X47ulL-zTbMTy3OitavlVOs_hTPlfPRkMsgZrR1T45aLfznJCsfI1FZNdFaEPo5DLPYIqozGrP3VZYA44Cm7-p6oSA5jhgfFTKkmxcSn9Mgdod0Y-IfamsDLdPYq4P34CkMeYAEVjLXsPzDLlfISduzA6wf97Ys5h4awnLtVX0U7NIml1AHL-jVt_tL2ltmzYjaxBtExqtPocw_F3yWMMsRUGwTqB7TMQPu5zxdjn0782CSQsNTHQO2t_8DDKIx25epAf89c2-dGw3mR4uwK7le5YKJR9J8FP3N7p_gK1T_EJNbTwo7j74Jo0BHUs2Ha9Zr5sZbj17xc1xZSEt15WGJAiBboLRTVixbdpERC4hurCU8t1rKGfB2lPN509ojbnYhXxn0QOVq7Zkn7CZtnWxcBVWWyKiBpx7epE1fwu5u6rafIeslVPv-hMug6wPE3JAq52to0EwdKpJ5uW8z8uiEQxDcEmFdUmEnVfej1lK2vgDU_n9cS_uNjkZkZRKNcoFGZR8HrI3MxhznZ0pMbvJtsIJek-zyQS0y67Bp06TtJEtJ0PjlrkmDBt0fXdhemyV6jirh4cXDEj4BLgkCxoVC9iv-PEYj3qhMY7R7ZdjKyudLQ1Wf_s7KtTvm_4HNH4ceks8_kzRL9ljYQcJw20XiCok7S1Be81VOlsE8Fkwb2kwOmZ_ETJiAHmDm-a_gHkPgakRjJsOPLG-x5uFtc81Qz13qbPFGVtS3gj2u6uiowqVKg1uA9HHs4x8C76iD7QasG4A8Pdq4l2Oivf6S8TDQlGrwAmdLKe7PSI1qSUOuLct0LF4y7cEsTKZ8-oKYFm_T24EyRAuAajvxMuSuJzJ54lk3JCf8Y3VesHJDEJBEYZMp3EzH5WP7lny8-Zg80q4WqVcrfs7YzbnEAtEFdQqEeEJ1aPVsx7uIH4bLCLDf5eIDCnnBoWdWAyWbK4OghN4abfNMDsuthPZ1B5hFI8TiNYyYQXb-2jNtezW4jfPEm-z2gMNws5flo_Twsxr849ut8mz337KCxQkhmHsPJFjGHvxrS9eDhaMBwncggculLtUZb1S5VFOcSvTixDjVXYdwE9excmjiaO_5bwDyRmBc93DWgOyEENssbrnhMScIf6Jj71AuritxZUvdc319H3vXUhGPDhW9uK3hEY5khx7NXJV4TMf-kSnQgKX5n2MqqnNP3tURHYOj-0an9sopJDIVgRmOE3Ae01hrNkByVGkuSBX1X8elNwsdoqnWaNNFIrlMJutrC6NE2WsmdYeGdtXqKAbw_1k_WIOJTKiZoH5Qtp0c8S6Pox7Cjc="
+    },
+    {
+     "id": "msg_09540f033236f8f5006ac36f23f9d087d2a94a9bcbe6720071",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Breitling\",\n  \"model_family\": \"Chronomat Automatic GMT 40\",\n  \"reference_number\": \"A32398101B1A1\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"confidence\": 0.95\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192869.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 1830,
+    "input_tokens_details": {
+     "cache_write_tokens": 1827,
+     "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+     "reasoning_tokens": 59
+    },
+    "total_tokens": 1975
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 1830,
+  "output_tokens": 145,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.00511,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.066,
+  "started_at": "2026-10-05T09:34:21.800869+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6.1-sol"
+ }
+}

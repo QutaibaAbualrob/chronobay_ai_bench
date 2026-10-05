@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 30,
+ "repeat": 0,
+ "image_file": "030_patek_twenty-4.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_family": "Twenty~4",
+   "reference_number": "4910/10A-012",
+   "movement": "quartz",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.5
+  },
+  "raw_text": "{\"brand\": \"Patek Philippe\", \"model_family\": \"Twenty~4\", \"reference_number\": \"4910/10A-012\", \"movement\": \"quartz\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.5}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "ee85b93e-b758-4948-b604-49e5cc861dbf",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Patek Philippe\", \"model_family\": \"Twenty~4\", \"reference_number\": \"4910/10A-012\", \"movement\": \"quartz\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.5}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Patek Philippe Twenty~4, rectangular case, with diamond bezel, blue dial with Arabic numerals 12 and 6. The Twenty~4 quartz references: 4910 (steel, diamond bezel, blue dial) — 4910/10A-012? Let me think.\n\nPatek Philippe Twenty~4 ref. 4910/10A-012 has a blue sunburst dial with diamond bezel, stainless steel. Actually the 4910/10A-011 is blue dial? Let's recall: 4910/10A-012 is the blue dial with diamond-set bezel, steel. Hmm.\n\nTwenty~4 references:\n- 4910/10A-010: white dial? Actually 4910/10A-001 white dial, 4910/10A-011 blue dial? \nKnown: 4910/10A-012 — Twenty~4 stainless steel, blue sunburst dial with diamond hour markers? Hmm.\n\nCommon ones: 4910/10A-011 (blue dial, diamond bezel), 4910/10A-012 (blue dial? ), 4910/10A-001 (white dial), 4910/10A-010 (dark gray/blue?).\n\nActually I recall: 4910/10A-012 is \"Twenty~4, steel, diamond bezel, blue sunburst dial, diamond hour markers\"? The one in the photo has Arabic numerals 12 and 6 with diamond... hmm, actually the dial shows 12 and 6 Arabic numerals and diamond stick markers between. Hmm, wait — the photo shows white gold? The bezel diamonds and blue dial with \"12\" and \"6\" numerals — that matches 4910/10A-012? Let me think: 4910/10A-012 has a blue dial with diamond hour markers, no Arabic numerals? \n\nActually I recall the 4910/10A-012 has a blue sunburst dial with diamond hour markers and no Arabic numerals. And 4910/10A-011 has a blue dial with Roman numerals? Hmm.\n\nLet me consider the Twenty~4 4910/10A-010: \"Twenty~4, steel, diamond bezel, blue dial with Arabic numerals 12 and 6\"? Hmm.\n\nActually I believe: reference 4910/10A-012 — Twenty~4 Small, steel, diamond-set bezel, blue sunburst dial, white gold Arabic numerals 12 and 6, diamond hour markers. That seems labeled... Hmm.\n\nAlternatively the man-size Twenty~4 4910/11A? No, 4910/11 is the smaller?\n\nKnown Twenty~4 quartz refs:\n- 4910/10A (25 x 30 mm)\n- 4910/11A? \n- 4908/11? \nHmm.\n\nI'll go with 4910/10A-012 and moderate confidence.\n\nMovement: quartz. Case material: stainless steel. Bracelet: metal (steel). Confidence ~0.4.\n\nActually let me consider the dial: The photo shows blue dial, \"12\" and \"6\" Arabic numerals at 12 and 6, indices otherwise. The Patek Twenty~4 4910/10A-012 is described as \"Twenty~4 Small 25mm Steel Diamond Blue Dial\" with Arabics? I recall the classic Twenty~4 with the blue dial and Arabic 12 & 6 numerals and diamond bezel is ref. 4910/10A-012. Yes, I'm fairly inclined. Alternatively 4910/10A-011 with the \"blue dial, Roman numerals\"? Hmm, 4910/10A-011 I think is a blue dial with no diamonds? \n\nI'll say 4910/10A-012 with confidence 0.5.\n\nHmm, the bracelet looks like the Twenty~4 steel bracelet. Yes.\n\nAnswer."
+       }
+      }
+     ],
+     "created": 1791198713,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 900,
+      "prompt_tokens": 806,
+      "total_tokens": 1706,
+      "completion_tokens_details": {
+       "reasoning_tokens": 831
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 166
+     }
+    }
+   ]
+  },
+  "input_tokens": 806,
+  "output_tokens": 900,
+  "cached_input_tokens": 640,
+  "cost_usd": 0.00056682,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.247,
+  "started_at": "2026-10-05T11:11:50.167173+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

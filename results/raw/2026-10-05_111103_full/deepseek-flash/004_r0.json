@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 4,
+ "repeat": 0,
+ "image_file": "004_rolex_datejust-41.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_family": "Datejust 36",
+   "reference_number": "126234",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.62
+  },
+  "raw_text": "{\"brand\": \"Rolex\", \"model_family\": \"Datejust 36\", \"reference_number\": \"126234\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.62}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "ffb5fae7-b5a4-4a71-925c-13a54cf526bc",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Rolex\", \"model_family\": \"Datejust 36\", \"reference_number\": \"126234\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.62}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Rolex Datejust 36 with a blue fluted (motif) dial — the \"fluted motif\" dial in bright blue, on Jubilee bracelet, white gold fluted bezel, stainless steel case. Reference 126234 (Datejust 36, steel with white gold fluted bezel, Jubilee bracelet). The blue fluted motif dial variant: 126234 with blue motif dial.\n\nActually, reference 126234-0026? Rolex references for Datejust 36: 126234 (Jubilee bracelet, fluted bezel, steel/white gold). The dial variant isn't always encoded in the reference for Rolex — Rolex references end with a 5-digit number where the last digits... Actually Rolex reference numbers do encode dial/bracelet in some catalogs (e.g., 126234-0026). Hmm. The commonly cited: 126234 blue fluted motif dial Jubilee = 126234-0027? Not sure. I'll give 126234 and confidence ~0.6.\n\nCase material: stainless-steel (with white gold bezel). Bracelet: metal (Jubilee). Movement: automatic (cal. 3235)."
+       }
+      }
+     ],
+     "created": 1791198666,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 317,
+      "prompt_tokens": 1361,
+      "total_tokens": 1678,
+      "completion_tokens_details": {
+       "reasoning_tokens": 253
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 1152
+      },
+      "prompt_cache_hit_tokens": 1152,
+      "prompt_cache_miss_tokens": 209
+     }
+    }
+   ]
+  },
+  "input_tokens": 1361,
+  "output_tokens": 317,
+  "cached_input_tokens": 1152,
+  "cost_usd": 0.00022500599999999998,
+  "cost_source": "rate-table",
+  "elapsed_s": 3.275,
+  "started_at": "2026-10-05T11:11:03.248256+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

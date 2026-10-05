@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 70,
+ "repeat": 0,
+ "image_file": "070_cartier_calibre-de-cartier-diver.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Cartier",
+   "model_family": "Calibre de Cartier Diver",
+   "reference_number": "W7100056",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "rubber",
+   "confidence": 0.72
+  },
+  "raw_text": "{\"brand\": \"Cartier\", \"model_family\": \"Calibre de Cartier Diver\", \"reference_number\": \"W7100056\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"rubber\", \"confidence\": 0.72}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "e9c4c66a-29f3-4f5b-9f9f-2001d6648fbc",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Cartier\", \"model_family\": \"Calibre de Cartier Diver\", \"reference_number\": \"W7100056\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"rubber\", \"confidence\": 0.72}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Cartier Calibre de Cartier Diver. Black dial, big Roman numerals, small seconds at 6, date at 3, rotating bezel with dive scale, rubber strap. Reference number: W7100056 (steel on rubber strap, black dial). Actually the Calibre de Cartier Diver steel with black rubber strap: W7100056. The steel version with black dial on rubber is W7100056. Yes, Calibre de Cartier Diver W7100056.\n\nMovement: automatic (1904-PS MC). Case material: stainless steel. Bracelet: rubber.\n\nConfidence: ~0.7."
+       }
+      }
+     ],
+     "created": 1791198893,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 206,
+      "prompt_tokens": 819,
+      "total_tokens": 1025,
+      "completion_tokens_details": {
+       "reasoning_tokens": 136
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 179
+     }
+    }
+   ]
+  },
+  "input_tokens": 819,
+  "output_tokens": 206,
+  "cached_input_tokens": 640,
+  "cost_usd": 0.00015237,
+  "cost_source": "rate-table",
+  "elapsed_s": 2.284,
+  "started_at": "2026-10-05T11:14:50.140846+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

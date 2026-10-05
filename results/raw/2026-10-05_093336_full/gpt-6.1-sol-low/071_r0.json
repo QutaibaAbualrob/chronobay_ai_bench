@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_093336_full",
+ "model_name": "gpt-6.1-sol-low",
+ "provider": "openai",
+ "provider_model": "gpt-6.1-sol",
+ "mode": "schema",
+ "row_id": 71,
+ "repeat": 0,
+ "image_file": "071_iwc_portugieser-chronograph.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "IWC",
+   "model_family": "Portugieser Chronograph",
+   "reference_number": "IW371617",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.94
+  },
+  "raw_text": "{\n  \"brand\": \"IWC\",\n  \"model_family\": \"Portugieser Chronograph\",\n  \"reference_number\": \"IW371617\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"confidence\": 0.94\n}",
+  "raw_response": {
+   "id": "resp_0106edf7e285ef80006ac36f2be04887d2ab752dee26c53ecb",
+   "access_programs": null,
+   "created_at": 1791192875.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6.1-sol",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0106edf7e285ef80006ac36f2d668c87d285485f762318625c",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw28xHrBjJ11e8SUL-00sfrr1H1zLijdQnOjvPTodAAFbgOBBE7Wyojza_C0MBNjg9Qr9unyHu5cvoqZOwzkOzae1T1fJekjxRD6i2YlCxMcB_iaazqLzJbgzE6qoy8CIVsT8CXbY9v-jWO3GBVAYZRbYWuChqOYoKNUh8PzPK2-IXeZKNBwGRpkXPna2DVahc5pGHIxaO7PbUe2hE_9OwB9SfLRn_V5HMBHLItugC7ddWp1tdGmZZ-RsS_E_D9_L-dCriR35F2H_7ayDartw575dCyBpRxUl8I8e-obXAz4BI0aiWvDD-ecwB8FxUNzpnjgj7QaS13at3QGajRgQcssu6Iei-ChdTyqAflSi76zdqdZENKyDsYZujZF0et7ZjKTAnBDBtvEb1VI6Rcs1OuD95iDhnAPyFNqMmXWoRd8tFFUwn-ocMO4u2_bGuXxs1MGaJFA7yT1eruB600mItAhEpO2wgSDdESJh1RmJDGJv8hjxsRuk2JYsfAkq_EGEGys9YZfDEhXHWRZaCcQQwj5WJ-qYGLp7rRDEHHw7KjsAJpDPWytjLxUozETH3AJsHmEZXKzSPIFrnZ5FGgSmqFcboch96ZzKhBZkCJY0GDxhHA98xheNaCrbSCEI1ZoArBXMVrdSbt0myqQ42xq8kNphnsJ17Vti-LxV1aZIofYkiaDCHKux2yet2rP-2Ima7jfrkjk7gbg6jQGUMmhzsdKE-Pwur9YA-tQtdieXTd-EG1Fd4zKwV5LfAlRENEcAOAC43agAZIoCRnt1bz97dmH9c7Qw8N8i6-UozDVtOjoj4CmwiNNM7UmtiwQiQEKNsIiY66FAVT5VGLnRT2WDaIPUehOv6pTdjRY846MW-3csf67wDMEYDjZoKI5z4yXgtfAwcOU0dwK4SVqHht9p0h51UZjwK-U6lQy2-kkhqAvVDZrSSK4qYchZdngyiD79u3yeXK3u39ESCeDxdCCNQPxSfllA_lGr7yedvr9MDVSDDbA8qChMWa0NuHcmG8eGaJGh5ow96fa0PYLyjcgzg4MZO4_I1AAlVUFOSilIxduwCRGfMqQSaAAiPgPEhsRV5us8C0RSgqIG-EtDzw6baB0TqXGjSIkYhCLpRihzOi8NdefXEr-7cWKtEKPhcHHKR8OWBntVrklPUEJboInaTm4ZCNtucRPnuGdA3JdlwuaULe2megJ61WR8P5PCP_xN4IWifMKh1KQ_l5IPsdH5d9HF7xpjrLVf9h-MNFNvQ0Vv4EbEyWoVPaDaQRWEpcahl1yx3ksYyN-nRg4a80cA4VQ26QbPguNFviK13gxRklEVJ0FdMTlDgKCoqX6kuG_XOgEf9brm-A4PD7sHqu50tZDm6FlDi_CRyopbNNQS9UNRDQeVQ8Al9t7GppwXl-Rs-LgIieW9d-ru1R2_gAROh2IRb_4P0s-S4eM2TUD7xLSpVFktesjawdPZGnxohyMbGzTK"
+    },
+    {
+     "id": "msg_0106edf7e285ef80006ac36f2ff51887d29a952fa4e30f7ec1",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"IWC\",\n  \"model_family\": \"Portugieser Chronograph\",\n  \"reference_number\": \"IW371617\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"confidence\": 0.94\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192881.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 827,
+    "input_tokens_details": {
+     "cache_write_tokens": 0,
+     "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+     "reasoning_tokens": 65
+    },
+    "total_tokens": 972
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 827,
+  "output_tokens": 145,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.003104,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.562,
+  "started_at": "2026-10-05T09:34:33.226519+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6.1-sol"
+ }
+}

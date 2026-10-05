@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 78,
+ "repeat": 0,
+ "image_file": "078_iwc_ingenieur-automatic-40.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "IWC",
+   "model_family": "Ingenieur Automatic 40",
+   "reference_number": "IW328903",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.85
+  },
+  "raw_text": "{\"brand\": \"IWC\", \"model_family\": \"Ingenieur Automatic 40\", \"reference_number\": \"IW328903\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.85}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "9588d8ec-abd4-4819-a8fb-b380be1f609f",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"IWC\", \"model_family\": \"Ingenieur Automatic 40\", \"reference_number\": \"IW328903\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.85}",
+        "role": "assistant",
+        "reasoning_content": "The watch is an IWC Ingenieur Automatic 40, reference IW328903 with green dial. Steel case and bracelet, automatic movement.\n\nReference: IW328903 (green dial, steel). Confidence high ~0.85."
+       }
+      }
+     ],
+     "created": 1791198951,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 115,
+      "prompt_tokens": 985,
+      "total_tokens": 1100,
+      "completion_tokens_details": {
+       "reasoning_tokens": 48
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 217
+     }
+    }
+   ]
+  },
+  "input_tokens": 985,
+  "output_tokens": 115,
+  "cached_input_tokens": 768,
+  "cost_usd": 0.000103854,
+  "cost_source": "rate-table",
+  "elapsed_s": 1.85,
+  "started_at": "2026-10-05T11:15:48.413765+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

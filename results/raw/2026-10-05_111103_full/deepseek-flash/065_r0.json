@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 65,
+ "repeat": 0,
+ "image_file": "065_cartier_santos-dumont-large.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Cartier",
+   "model_family": "Santos-Dumont",
+   "reference_number": "WSSA0022",
+   "movement": "quartz",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.45
+  },
+  "raw_text": "{\"brand\": \"Cartier\", \"model_family\": \"Santos-Dumont\", \"reference_number\": \"WSSA0022\", \"movement\": \"quartz\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.45}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "ccf2ee17-12fc-4ee0-8f25-bae4e328c4da",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Cartier\", \"model_family\": \"Santos-Dumont\", \"reference_number\": \"WSSA0022\", \"movement\": \"quartz\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.45}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Cartier Santos-Dumont, small/large model, steel case, blue alligator leather strap, silver dial with Roman numerals. Reference: WSSA0022 (large steel Santos-Dumont with blue strap? Actually WSSA0022 is the Santos-Dumont large steel with blue alligator strap). Let me think.\n\nSantos-Dumont large model steel: WSSA0022 — steel, silver dial, blue alligator strap. Yes, WSSA0022 is the large Santos-Dumont in steel with blue alligator strap. WSSA0023 is the small model with blue strap? Actually WSSA0023 is the small Santos-Dumont steel with blue alligator strap. The photo shows a fairly large watch with two hands, no date, quartz? The Santos-Dumont large (WSSA0022) is quartz? No — the large Santos-Dumont is quartz... Let me recall: Santos-Dumont large model WSSA0022 has a quartz movement (Cartier caliber 057). Yes, the extra-large Santos-Dumont WSSA0022 is quartz. Actually the Santos-Dumont XL (WSSA0022) is quartz movement. The small WSSA0023 also quartz. The larger men's Santos-Dumont \"large\" model has automatic? Hmm.\n\nCartier Santos-Dumont history: relaunched 2018 with quartz movements in the small and large sizes (WSSA0022 large steel, WSSA0023 small steel). Actually the 2018 launch had two sizes: small (WSSA0023) and large (WSSA0022), both quartz. Then in 2020, the XL with automatic movement WGSA0021 (gold) etc. Hmm, the XL is 46.6mm. The large is 43.5mm x 31.4mm.\n\nThe photo proportions: appears large with two hands, no seconds, no date — consistent with quartz Santos-Dumont large or small. I'll go with WSSA0022 (large, steel, blue alligator strap). Confidence ~0.45.\n\nMovement: quartz for WSSA0022. Case material stainless steel. Bracelet leather (alligator)."
+       }
+      }
+     ],
+     "created": 1791198886,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 529,
+      "prompt_tokens": 921,
+      "total_tokens": 1450,
+      "completion_tokens_details": {
+       "reasoning_tokens": 461
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 153
+     }
+    }
+   ]
+  },
+  "input_tokens": 921,
+  "output_tokens": 529,
+  "cached_input_tokens": 768,
+  "cost_usd": 0.000342654,
+  "cost_source": "rate-table",
+  "elapsed_s": 3.738,
+  "started_at": "2026-10-05T11:14:43.525190+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

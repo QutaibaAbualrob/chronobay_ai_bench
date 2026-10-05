@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_093336_full",
+ "model_name": "gpt-6.1-sol-low",
+ "provider": "openai",
+ "provider_model": "gpt-6.1-sol",
+ "mode": "schema",
+ "row_id": 80,
+ "repeat": 0,
+ "image_file": "080_iwc_portugieser-perpetual-calendar-44.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "IWC",
+   "model_family": "Portugieser Perpetual Calendar",
+   "reference_number": "IW503402",
+   "movement": "automatic",
+   "case_material": "gold",
+   "bracelet_material": "leather",
+   "confidence": 0.43
+  },
+  "raw_text": "{\n  \"brand\": \"IWC\",\n  \"model_family\": \"Portugieser Perpetual Calendar\",\n  \"reference_number\": \"IW503402\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"gold\",\n  \"bracelet_material\": \"leather\",\n  \"confidence\": 0.43\n}",
+  "raw_response": {
+   "id": "resp_09ca8c0c154f3416006ac36f35592487d28a5f449f6587c86c",
+   "access_programs": null,
+   "created_at": 1791192885.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6.1-sol",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_09ca8c0c154f3416006ac36f36a89c87d2b42d8f7367387e67",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw29G-I4TB15IRuR2ZgeCvJG4zvDFQQU29uD896N0x5d4f1GETGxbtWlB2GfSeJazDOokF4_H12klhunUh5Eqyov1nV46rIaI--OvBtP_bp44hCt_6VEYJcMSwa7QfI2JGalpc5uq0fi7L3Dcy4i_gz8syAwfQv0_P-nnFCYg37Bgf2e82F0a_nZUKDtQK9NFR9B39IheruKMOEG68zYT1GwSz_F4qZ2ym3ZD3ws3aDMtmh20Zt-2EE02YX2ic1G3vZVgoZbJIo-5Wydxe5_COTBjy7zCCxV6vO0eoOwhxxNHRIr72yNdYlmZZ0g6chQqEVK2Ts1KrNUSNpz1YbfIwd8zKNaefvRkTstlHAMtzzWImDpejssIo7g5AUcZ7huFjJ48l9ajxanWsfFBm68cu52xewYPLdRmi4pqgzGdnFHtJneNcui1sgralgJoAbpN4kZiasGhEWm4mFjZDCqvMU7OOLaxMnr9fspd0DhcmOvRKbPzIhfgOYj8uZT0o_H9LL7TMDuq53VbcVXk2wK3KH5wIldEKVgmr4yjtwlg8vLHksZ9rWwEDUgfCW21JDw1zXIRo91EmNHz0UIQhZoj6gj-WarE9sCXW9rGKT9UvmSzcISBF8peQZl-OsVkfSA45-DQTZ_rgP7ShVJtopOjgeneDLn5KhpFdKBgjt-v-SZyDKIKujqxJVJob4xzamCPe2blMbF7_dyUN-ivKTpyBgxViNP3rJN87aayP_O6CoY3-sVDuP7LC9n-DlU4pPk8UzJtduhrGtLI9y1sK-UHtE3l52Xd6O6WKcDiO1TCKj6WCe4J-FOi_pZH_P_BMujib8PZBP1f4dgDP2DTIoL2v5uMrsdL54h7LpV6q_RWeuAWMmuKU_s6id5m_gV7TLeDWTdiMmOLOsrJaxXg_ix-8g6M6wiezGAze1PskocLpYfrVHiwveGpi8FzYB1x4jlixCJuYycizOrSc9h7JKm9B6NBVA8B0K_SGPEjNAAXnPdtYEGptVgrcYkOT6UnhdqlgMd2OXl9l_YmpnbM9-lHS5y_dKBwi_JwHTWf1lNkNhYLcFJVLTI5r-z6NNMTTLlkFeN-CCP2xJeEpYhUPRfKS42J0riCM176KQ1aRgr0Q7mKCfqbWpxR-P5XRMlN_YUFqczUFNtVlAeja0eG4U25LuazoqwjD-oRBwQwtmTg42b9TUhML-CNNgQnHWRyHZaBCBTtb4rfab8Ofsm8kbC2Igk0Pd9zNGM6z0XMhCFUXYlq4sdn80-CAi9YIEjEJ-skRTMkNj_5r67kbku3YtMK4glfSs1PeE8jhbms20w8H-8deI-IRNkY_tRcZZcGUlv1s6orgAmbSX_8lMH8f1qco0Rl6xIOpBo45W3PYSbokOt8CFFTWkPsl86g0YbUkqUo15-rK0S1JsY8c8RFH9SvjjjUfIn67gR1GsQ24BTuzKTNEwJjjSYNYul0b-ALmAJdZY-zMpIfUmu0WVZ8S4QTFEMzWQOSN3lUTewAoFyr9-ncJOxTjXUsn73Ba_mLVpLOjvFrsFjxbbA6wD6UvzY6yM2Xzx5DyhE8XaIyyW8kv5JP9UFzI83dUFhOlcgKnH5W7HUyonG2lc2Ppl5ZuiD0mDviZkhdnjN3WlAaWC8VsLHWkYCQ8SDTDlMz_LUTI_awp8mVAtG2V5beLnOdWWOd_n9e8kvXAm0j7AM_1u-cSv371bZiWWggNMsxq1OEWh1sfvRBGRX5hXpLSSPiLmPBDtt-wNvzoHfLqBhZkwJUN1fJpJ-LtG5MYRIZ7HEVYLaxpHMRP93xFhBq-fmiHZERNHXSgfZeqrDTlVMUd_hWxvwhh5K0x_nuDXDOH19AgsG0DyPXibU3mMkXnyBA_GLyMk2vbL9vlBrGsnsyMXQ8OIajNwRrYP9loplig6Y3-Aro3vaxZQSMOqrvfc-vFllEVSC9rDuL3jKsq2dNj9Mzvk8hRIjOv1FKfdX6z-0uaJqhKbpoa9V4eMFIJiJJEeC2g2pmLMJ4Lz5g_BkccU7dUNVV97mIvMZMwHoTE6IQNRxh4hZTIfOoAXazyBvRj58VvT51a9kIAiMkqTRNv8egt9i40ZudT-A_yZMVgNjG0cxC4kgh11pM5Jv4CSccxN9VCzLgfruRFL_Q60IDEa-_oasWKyQAcqiNXH-obAuNX21hV_sCXmszI0EJoUcOXQxEAxtFaooM2SIMZ4lmnDIq5SG0_Y9Od9GwFSKzWzJ3QoUpupRF_CHUiWhwhAgNEX7qa_FGyh8deq4fxSZPOxgwJfs9nkc8N9P4TpHVpB3g6XLNHcGte9I7hBvCu49b3pQHrTPkLhiNx9OruT0F7kBn35eyDO4bmnzLW6481enwdgI1evA8Xvwf9Q0A1q0CDCE2CSgkvRYeBtXO8riJOIXjwGLXk2sLLOskFTFGZ4taJncO1XNusqnp7nSWSR-QXlDGbrPw5JLZlWfWNPxDcQmlHPxerDku8xiEgHsxpaRGKAWlsiKqlS1MujSfxpbWmDnNGSlMXbdRtNQewKn1oBx1fEiUjZaJRkHeCMzfztNeDXNdU0o-zhXcELOTpjuVydUtMqOfgWmHYazK48DssaMg3CvDCz-haRpdm7jBZHh47Q4USNa742JzGOfYHNSmU8EPCnH-DER6pEM3iZus-FroJBoUhLDr3MZUqEukQyW7yriT3DWXW9xryPABvWWtHrOY9VZYGe_NTeM4KIDII08itGhauJDNXMvzeH_Rmcsa3-hsW3gAS7N2oyWaDj7TGrVXfv_sjl6fGhj0-zVdzQNWt3MECDS9MjK284zoOGDIpPv2HrXgBsdkc1NL6157l0owgfUd5efasz0QmPQWgCrD7zvDJSa1_T-Ea2KKIm1xzxZCCHt7sv-EDDyV96PmjymaYTPJA_yas-vDIcta6SK2ZSMnjbfrffyNvHNN-bXPquc24X8qOnYa1v4RbdBse-KKyYUgd4tsppaGy-pnTtD7lMSBq8RCfN2_BY3f9uAyNb_LdeNbme8Qy0GlAUtgSZ96znqtBCSP5_ciNwMGpbkKpgekcOnDJXaMPjbcbdN1TtjwQ3GCJJ7iFqi83bgKM5rY2cy1uyoQQSsNyy-TLmI0Eeij-zK61knO3Ev4uwhaUL0Y1G1IPbHY6lyudBhlaWPCQOP9o-Af76Tn_xa4TP9FIj9TX-aWlaNNsvGrNU6hd-CQev3JU_oVB1mUeLk4hfrCsxlLz9VCK3k89cr0Lv-acdF_tehjKTDEiRrM0uKTkKWXd9dVJZquICAtjWNBM8A0_tggmj2Hk83Kir5817VFNFlK7UmVAmLtaBKBB95GP5vdPvlsGZqOCdBaZ_RtCfILaWzw4ZjBbJDTwGqJx4Krv-TZpfsd8YHQzKnnX8iJ6FGRxiNWOWZOoxyx4nSXqegZOV1kpUkz6Zep0si22lyKmo-mP-rUMcAkic6OXB0fQpqoTyFPpNUxnEwatvGupPIEskY_jCqQ9j5IFOUQ-7IW3efCs3RjeGSq6CSOw2szBGotHKYwZZUyiKarVrE-pFodpbc_rKVbTk3T82lN00vn3nkYqT5MxLsGrcxBzZKjUv0kyZscqjQURmVDgILPi5hZ_nGhWPrSMFKcDD5xIHDZP4dNOrs="
+    },
+    {
+     "id": "msg_09ca8c0c154f3416006ac36f4475c087d2af42743ed4b6cd28",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"IWC\",\n  \"model_family\": \"Portugieser Perpetual Calendar\",\n  \"reference_number\": \"IW503402\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"gold\",\n  \"bracelet_material\": \"leather\",\n  \"confidence\": 0.43\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192901.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 1830,
+    "input_tokens_details": {
+     "cache_write_tokens": 1827,
+     "cached_tokens": 0
+    },
+    "output_tokens": 529,
+    "output_tokens_details": {
+     "reasoning_tokens": 449
+    },
+    "total_tokens": 2359
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 1830,
+  "output_tokens": 529,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.00895,
+  "cost_source": "rate-table",
+  "elapsed_s": 17.883,
+  "started_at": "2026-10-05T09:34:42.664032+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6.1-sol"
+ }
+}

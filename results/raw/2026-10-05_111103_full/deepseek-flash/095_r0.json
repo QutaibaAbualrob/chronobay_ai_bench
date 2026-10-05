@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 95,
+ "repeat": 0,
+ "image_file": "095_vc_fiftysix-self-winding.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Vacheron Constantin",
+   "model_family": "Fiftysix Self-Winding",
+   "reference_number": "4600E/000A-B487",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.72
+  },
+  "raw_text": "{\"brand\": \"Vacheron Constantin\", \"model_family\": \"Fiftysix Self-Winding\", \"reference_number\": \"4600E/000A-B487\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.72}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "e383210d-b628-4220-aedb-46c3ef45d8db",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Vacheron Constantin\", \"model_family\": \"Fiftysix Self-Winding\", \"reference_number\": \"4600E/000A-B487\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.72}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Vacheron Constantin Fiftysix with silver/opaline dial, stainless steel case, black leather strap. Reference 4600E/000A-B487 is the steel Fiftysix self-winding with silver-toned dial... Actually the Fiftysix ref 4600E/000A-B487 has a silver dial with Arabic numerals. Yes, the stainless steel Fiftysix Self-Winding with silver-tone dial and black alligator strap is 4600E/000A-B487.\n\nMovement: automatic. Case: stainless steel. Bracelet: leather. Confidence ~0.7."
+       }
+      }
+     ],
+     "created": 1791198992,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 206,
+      "prompt_tokens": 789,
+      "total_tokens": 995,
+      "completion_tokens_details": {
+       "reasoning_tokens": 130
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 149
+     }
+    }
+   ]
+  },
+  "input_tokens": 789,
+  "output_tokens": 206,
+  "cached_input_tokens": 640,
+  "cost_usd": 0.00014787,
+  "cost_source": "rate-table",
+  "elapsed_s": 1.886,
+  "started_at": "2026-10-05T11:16:29.047546+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_093336_full",
+ "model_name": "gpt-6.1-sol-low",
+ "provider": "openai",
+ "provider_model": "gpt-6.1-sol",
+ "mode": "schema",
+ "row_id": 68,
+ "repeat": 0,
+ "image_file": "068_cartier_tank-francaise.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Cartier",
+   "model_family": "Tank Française, medium model",
+   "reference_number": "WSTA0065",
+   "movement": "quartz",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.72
+  },
+  "raw_text": "{\n  \"brand\": \"Cartier\",\n  \"model_family\": \"Tank Française, medium model\",\n  \"reference_number\": \"WSTA0065\",\n  \"movement\": \"quartz\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"confidence\": 0.72\n}",
+  "raw_response": {
+   "id": "resp_0b8bdf040b1beca8006ac36f29575487d290a6c14fbe2e5437",
+   "access_programs": null,
+   "created_at": 1791192873.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6.1-sol",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0b8bdf040b1beca8006ac36f2fe5a487d299916486330d4c00",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw284lfZ3Q9l_RUoWDcg0pnFI-BVpOqR4QkXXJpZUc5YL2GlQE2pcBBL-kUsxs3la3sR3WqxfpZoja5o-2c0jQPKMI-GY6-vMOwj2A_0B3_AvjJIuA4-XVtKfX6Q0FLwxRtnFClqxDyH2a8xQcGvPQAm-Us4uI_tqTpT0Uc1OKWzfGJK4EsmfHzHiZnHRUXkpM1MXWJ9S4ljUysC249M2aU7Lr1Xmzlij5-qex8H6v-QZaknlt7mnKnMbrkLuZllQ8SQMtydS-bzkrj7vevv0zaDBCvjnVqT0fgtgYQG0JgyCcGl-ma2F9MMq9YOr1pDaesEgMDbxywGwwvpSmTQg1JYFBvfOB7XCbc3DC8S1ShCmvxt0BXQ7oaBawyMZ3Ohn3QOit1QFDydxnChzwCl4Ykv_D3OkA3T-NA9QUyzm_lKGJC6kK8hHRkmcuFDDmr6Kz0EhC_e0RzJEFQzv3ul57B5CC7z4MChMKw4j-ZGGYWbfgmG5kqCybZ8aPpCIQyIiYNI5BD2283dtgXBaoJEn_U3EvHtQxaieOVaHpZa_Mca-KP3YltKOuuNEA2eOGmhggy8aJN_PZokJp7vthlaK6wOmqFn548k0LCmtLxVAv4-ZAAsGPtlgGp7r8s10IiglvHriY79g-oLAYjSFBWfM-S-ERdTw1D7SrrnJb6fUxzeVsQgMQCfqDmY9qCjjJtA2Yx-WtQ1RcliicAR93kfNtO46f4enOGH5uf_hVC-Ty-Pci1uZH-EIhsSHib7r8Gb4ymWDPxsmK4yKPRIFpe522S7ZsOiiSH5-XRxTxl1gPA5K9W2XbrWkCmhU8QqRWoggAPF05l2v_zkEMa7jU5N-fexE3puB45SnVgZIhnwK2W51HdC5so5r8N5zilDIuTdr6zgk6-TJVophme8cQOZneLtPmyLNhwRxCTgYf41RXjbrBlcJ4FNo3oWTBk8kegauMe2b9rdtd9bzE2agpfm3rQR9bx1kdOIc9GcVYoWS3HzgLyB_iwPdFUGe9DSyYRQRoERCRC9HcZ8VQoUog8ay9IRFhUA3rzxion9oRGO-EjDwG6B83dxtfhAzhLfD7a0N-4GpeIUYOJTWtf9RByU3zR5a7JxeOJzg4x7x7ovhiPNONkefM2CDDOVDT5ntH167_mND3y9xiqm4goghNp7ONQikuqlpGLSpQjEEO7IFNeLjAI9WFiZwUlANN_eHlnRv5HzLEC94JaX_nMU8XR5q9zerSV_EPlSjlElSMLIv-puivVR9MDg7Erp5ZA96dwq7WinZ8xpucHfW3a2lHoMWd4-7C4IGnRHIWPNed4HOx_l0ltc9nXxZr9XE17ldJ81rJ0KiLUxQ5UW5F_LRXFwbsCSUreXpl8OMJ6ob1p8IOeldy8_Mfy9P8NZCiFSXOeE8FxyTSgjt1zwYdWd40AmlfNIA8LK9uF04KQ7QcY7iYS8XT3a3hIMPolxZ2jK8QiWDyYOQ78nyJh2wZQScEUGOspAVnz73TEPYzS_j3kO-8TMY-hcwhIwpqVo8HGXU2gIlkMiIy9fPHGi5iatMTrdk7qIYottLtLzpKuQV95y2qkyUMfwt5o8ZMX9f_iepLix3Ab0Wf-6jqbI-ZsGKUvH1qIczc_GgrnZxATwfadQ0CUNXSm2csGYoMGKqfyojzL4MGj9ElZwI9wQ56BA1W9LK0m1EQI928nAqOBQMM0PW2MYwqIPgxl8iOmcUD7QFglYUoU5sgJeDyYVaO7kKKPr0Io4WF-k-bFJseSqB1KhCkrew_ZXP2btisGnPZe4roBAOBNphNVLyOc65LpKHGOL08QdOuIlBZUZjTLJBXdHLnLNXyrQkIWrKXLgFI45tqseCkhDgtBBTXsp6t20KZpib6T__eYbDZKndf2_YoWZ63Y5TKVJkcLMbXlAOE_XEL495cHUsHEOPlKvilXZi1iT6BftaJf9cpx8eYhBnGzS1UqqXJ5R0dY5l6x97wRbXpp1_DJ08xO-lV66vuvjk7Uwnw8kFsaSvDN2Tyn3CUnML-HHfsq390_P8yqnNZ7_MhS5luQcX1eHRCQ3NkK01lnXkWXsUbiurMhNxkngaA5qo0ziY8f2r5Bbdcnepapp9e7QF14PwHj886oY59aWakTvB_NXwtFMYthbuY4X8QoQvF-mMnZ0="
+    },
+    {
+     "id": "msg_0b8bdf040b1beca8006ac36f37446c87d28f56e31bb71e9cab",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Cartier\",\n  \"model_family\": \"Tank Française, medium model\",\n  \"reference_number\": \"WSTA0065\",\n  \"movement\": \"quartz\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"confidence\": 0.72\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192888.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 3384,
+    "input_tokens_details": {
+     "cache_write_tokens": 3381,
+     "cached_tokens": 0
+    },
+    "output_tokens": 305,
+    "output_tokens_details": {
+     "reasoning_tokens": 224
+    },
+    "total_tokens": 3689
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 3384,
+  "output_tokens": 305,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.009818,
+  "cost_source": "rate-table",
+  "elapsed_s": 15.396,
+  "started_at": "2026-10-05T09:34:30.660808+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6.1-sol"
+ }
+}

@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_093336_full",
+ "model_name": "gpt-6.1-sol-low",
+ "provider": "openai",
+ "provider_model": "gpt-6.1-sol",
+ "mode": "schema",
+ "row_id": 2,
+ "repeat": 0,
+ "image_file": "002_rolex_cosmograph-daytona.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_family": "Cosmograph Daytona",
+   "reference_number": "116500LN-0002",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.94
+  },
+  "raw_text": "{\n  \"brand\": \"Rolex\",\n  \"model_family\": \"Cosmograph Daytona\",\n  \"reference_number\": \"116500LN-0002\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"confidence\": 0.94\n}",
+  "raw_response": {
+   "id": "resp_04bfa6c91866c92f006ac36ef36c0887d28ee1c44c1acf6901",
+   "access_programs": null,
+   "created_at": 1791192819.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6.1-sol",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_04bfa6c91866c92f006ac36ef4b68c87d29229163f0539a2d7",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw273rvPlfl-8s9sxWF6wQ1PW5QPxF2FsrVZgrNZXY2khPJjw98gTNfXG6q1PbCmcJTlzOIL-D48ZNpwIgGvgQs0oZxxL1yKi6JSxUQUhV6tJXctvaBDKpcNtzuDmVdoju2fSiCt0jc1n3eYuD9Qd2fcrQXgVhOsLy32o2znkL6xVqAlWjSw-ZekNaXrPKs3CYEUq-frt5x5YhT7Hk7hgSVekXsSby7nQPvvB4DnwFi9T0H_j-KXSJXHOgwMuL-srKKigz1CizkrBJS2x9-9hDvN1qBgGjJQrYEMcIEWaY4Xi1U3PYFjKKWi-hKoJeMirwhofkdFmLHC_879F4uryJ8v8NhTzpW5JOiDDYSolXcXI45HX3XxdGpR6TklUwQoqch15bnKg14Jg6ivat6xFfPU9kfHUv1XhZ3DtKbFQ9nKGyoTt56tI2XPY61VdLA-iUfYBZwgOrxnAe-VBs_qIJyZludFJGkUEAewcx5SvSTt8bEnyV1drUN431C3pcouNui5xbpAhLTJDQp9TgUR9deuiXHguHDZB6Jy-IzPK7geP_1W7RUjrRVSlCSZj-FvdaSc83KtiUHzLNhLXzwSrJl9h1n8GyPihWY0HmMed-2XwUyzjjU5RY0pVORjQDAdFQXQJUIFKcwTjp-HluEVCEL2CoJhqyRWpvUd65LVGCn1Two6P_SrBwKK_IAqktDtRLEYfoIp7zWzRq38zYl9WSp6ZzinNdhqsHR9FHcMM20TkaNP_4Eb9KSoxM2QV8HDSKq-iQDVA_PwhKrYCGtTiEmpJNSCzF7aBe9Kl6YtRBldkBNWrQUNtI2_Ey3xeGi9r0J8mVAxLkZb4GR4ria2QXnb7PBD1zUSrKxj-fTqE0dGElb_ISN7r7F4JNhfVyxuCjzlMgLAoFqU1adMd2p7kWYtQ87M1QfAwbPRZcg4E9eWL760fuZXZjsLpRTSX_TIh7FigsvTI0duzs7FoIX10qxxK31k0fSFU9yGvG7YTAhy0mV9RjpAzj9smnY5OaUlpI55eRGe4lDo6kr3ncklbOEIY0aLJv7uoxGaZAdgWDLZ1UOJci8EAFHGTOkNCA3iIy1Ve3B7RVqCHru6SMeAFUZX0YLPhW0xm9G0yHvFtgFkroI5YbBqhaI63wvNAY7MjdpfxVzPxmIGwTPaUdCfsyN7cxRNEX2xAc-hnd0NHz1kDUJwI6kr0QuaRKH1ojwjOcC2nYRMf0SZdvp-XCkUVTFxo8afQ4cBEAgHj7s2E35aECkvJefmmLH1cLQOhKlV2iatXFP5hBpkg8ev3EyKke7G_6OauA8-yYydPNeNYBzb9CMQhZeuYqx7Hb3YXn_CwIdUAktQz96t2E2DOuz81wJQyAn0UbKnU4emikEabOCy6RBb6Idzjn2dkyxSFFaeo4Neldje0khMqeCxFPwtsxI0kVFqTrFhWz8IcO4F1vAAw6GPmOzsjB9iZ4tR4StYrCKSj"
+    },
+    {
+     "id": "msg_04bfa6c91866c92f006ac36ef67a8887d2ad76f61e1dc6e038",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Rolex\",\n  \"model_family\": \"Cosmograph Daytona\",\n  \"reference_number\": \"116500LN-0002\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"confidence\": 0.94\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192823.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 3384,
+    "input_tokens_details": {
+     "cache_write_tokens": 3381,
+     "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+     "reasoning_tokens": 60
+    },
+    "total_tokens": 3525
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 3384,
+  "output_tokens": 141,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.008178,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.077,
+  "started_at": "2026-10-05T09:33:36.521277+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6.1-sol"
+ }
+}

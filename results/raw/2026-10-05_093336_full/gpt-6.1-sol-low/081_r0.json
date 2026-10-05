@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_093336_full",
+ "model_name": "gpt-6.1-sol-low",
+ "provider": "openai",
+ "provider_model": "gpt-6.1-sol",
+ "mode": "schema",
+ "row_id": 81,
+ "repeat": 0,
+ "image_file": "081_jlc_reverso-classic-large-small-seconds.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Jaeger-LeCoultre",
+   "model_family": "Reverso Classic Large Monoface Small Seconds",
+   "reference_number": "Q3858522",
+   "movement": "manual",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.55
+  },
+  "raw_text": "{\n  \"brand\": \"Jaeger-LeCoultre\",\n  \"model_family\": \"Reverso Classic Large Monoface Small Seconds\",\n  \"reference_number\": \"Q3858522\",\n  \"movement\": \"manual\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"leather\",\n  \"confidence\": 0.55\n}",
+  "raw_response": {
+   "id": "resp_0452aae87b68b41a006ac36f355e1487d2a6bd104ac4b3528c",
+   "access_programs": null,
+   "created_at": 1791192885.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6.1-sol",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0452aae87b68b41a006ac36f36481087d2b17717f843531371",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw2882ETWNqHURh7YKn8bCk6EJ8o8voaKTY5Kpxap49O_qLe7kTWwZpwNLGXZ1QIIrV-_4vT2ftSwJylZctfmjeYMzQm_iqbUqOTV-qFSVdpTnxfABM0Xwk8dIAFBKGgDuGMbE0KFEUri3M86WVNKjTSp9WN-bMlQQNssPIP_kDASthKxQK0ZptthnfcY_uyxVnUAV6hV38UAwzMai2uY8j6MHXDm3Yc1hSGsONXgAJhdfgLAOkoJtjXZ7qb0J9btCEgsX6gykYIxB7107CxFE_AD5rynA7PsCxcy1NrhJ6LOQKYCii6RXhDYdm5lfi0bP6A73Uhx_ynBWG8LAgcm0SFuaXnqM6-aB2Sd45C5szUoCk5XZmeqSaOUu1WUYyT8WjTz7-4tcEbWDOMF88KoirRkWNoV_35rbqV5jHzJ6ZfasR-HABOjS6zxJFOus7raie8gcL5mzR7Aim_HMDoxNvCfQPVyHycQoq-uS5U8GDNpIFEkdia7fbWD7nx4jJGc5YaM6EHjE4dCPN1IDwxCeaUmnz9dXnJ9aFA9uaZqsEB8WErXYnxRKuBpCpEG3GoSTh1rC215XY7CbQvYOu4ovoJQC5P2v4JLAObkOTMtyjM2hl6GniIgIfhmW7F4ejsv6UV0qTX6U2glCQnmt8LJkcnSPoSxnIFp8wF8ulnZ_q4bH63shzBz2t6Fk1FhWi83eLTfx5J64zrnvgOY8EgA8c-GY7iYDdQCn0Z1W6K2NqjBCMBEAiOysTGS1Uzvrj5ZTz5kyfbgUM5iJ_bPzCqFYd9U-V4xh4AC6sO6J1g9ieDq9PG3DN2X92iJjbvNU4Lf3i72Xm0UDiInNvjVPrzwnXN9R7gdDg-68sbvK--KzUiPZgIIHUeHNXQBgNyyfZ9h1FMFrPN19rVyqKMWJQrHUf8W7-vrjrc121hdbWBOZhApx9JjBCVxi8vPk-HcVDx-SyayZcXWzqfu0Df8vltGo_QahWdxGzh4al225bbfagj_UU80RSBMWLnxG3Vt6xaTB5vSK77i-xG_1pI5kws4kp_jXt2Ubvb6LTlWp1f9AFHRkxK01B3lRusxuWqe7vB2JzMDCx7Z4i1Y1CCmyzR62wAjnyM6KWpw33tfLoTTTBSEUFJSRMNBE7KnBt15a0I0P6K_6E94CzyB0_2BjNg68xbrfWh0bc27W4T7oMjU9yhCn3jJDQRu3aJZF4Qn1op1ZG1-nF-fQAVE7Ln1Eg8lr_tF4FQwR5oFolDzJy4hiMn9rQHA6NFq-nTxDrAVdZtBEgvEnHkc_k1DRkyNDQTNMiAC1guG_PILMjjdV6QvfxNZ_UtlRd3CgdGvX1S1eifbjQJPnw8KDT6nvR4aLOZ9xtL7Ex-u-E9oxibLAnh7azWQVuw6UnVANkWpnjckJydGi5mDnw2oUj4RGMuiejOiSXWvrrKgNc0s9rlHpTswznNqZNLgTYlOmm2kvLfS_SGL27rBBUluboe42YWUWdQPVZlMH8_HU4LUkxbwK4XIsiVRaNkqcK4puFIwc-0t-kAzpzX_KH5_MRX87EcoDSUjO8IOpGfZFNe_G-tiEzmgTi8bVMV8YmBt0aO-D0bqFxcNDiyhrG1rS4t1xdksDofHBThY9gJr9mHs6KZscR286a0gYO4fuRaFOZeMS1vXUBqTZWZm3m7aGN9mv05DMtV4mtpI0rF6egFiK5BSYujVzqq5JBaoy04C9DDvaaUgM9MPyLdWugKCIEQ-4BkbtzkzeyMFCnXe9yWNjeAOI5DMTkEJOOvAZEoShSG7Rtl7ewfqziu_qvahMGwdsCGebxVwiPIbMn2utC5osO_7H-onCCU2vRRMS_5BilyFr_XjW4GZc7PI"
+    },
+    {
+     "id": "msg_0452aae87b68b41a006ac36f3b240487d2a1032110e8c033c5",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Jaeger-LeCoultre\",\n  \"model_family\": \"Reverso Classic Large Monoface Small Seconds\",\n  \"reference_number\": \"Q3858522\",\n  \"movement\": \"manual\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"leather\",\n  \"confidence\": 0.55\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192892.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 2175,
+    "input_tokens_details": {
+     "cache_write_tokens": 2172,
+     "cached_tokens": 0
+    },
+    "output_tokens": 250,
+    "output_tokens_details": {
+     "reasoning_tokens": 161
+    },
+    "total_tokens": 2425
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 2175,
+  "output_tokens": 250,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.00685,
+  "cost_source": "rate-table",
+  "elapsed_s": 7.279,
+  "started_at": "2026-10-05T09:34:42.715919+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6.1-sol"
+ }
+}

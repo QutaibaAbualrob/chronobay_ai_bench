@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 49,
+ "repeat": 0,
+ "image_file": "049_tagheuer_aquaracer-professional-1000-superdiver.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Tag Heuer",
+   "model_family": "Aquaracer Professional 300",
+   "reference_number": "WBP201D.FT6197",
+   "movement": "automatic",
+   "case_material": "titanium",
+   "bracelet_material": "rubber",
+   "confidence": 0.32
+  },
+  "raw_text": "{\"brand\": \"Tag Heuer\", \"model_family\": \"Aquaracer Professional 300\", \"reference_number\": \"WBP201D.FT6197\", \"movement\": \"automatic\", \"case_material\": \"titanium\", \"bracelet_material\": \"rubber\", \"confidence\": 0.32}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "0846dd74-97d1-48d0-96c5-2ebf8e2c772f",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Tag Heuer\", \"model_family\": \"Aquaracer Professional 300\", \"reference_number\": \"WBP201D.FT6197\", \"movement\": \"automatic\", \"case_material\": \"titanium\", \"bracelet_material\": \"rubber\", \"confidence\": 0.32}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a TAG Heuer Aquaracer Professional 300 with a black DLC/titanium case and white dial. Reference: WBP2010.FT6198? Let me think.\n\nThe TAG Heuer Aquaracer Professional 300 Automatic 43mm titanium black DLC with white dial — reference WBP2010.FT6198? Actually the white dial titanium black DLC version... Hmm.\n\nKnown references: WBP2010.BA0632 (steel, black dial). The titanium DLC models: WBP201D.FT6197 (titanium black DLC, black dial), WBP201D.FT6197? Actually the \"Night Diver\"? No, Night Diver is WBP201D.\n\nLet me recall: TAG Heuer Aquaracer Professional 300 Titanium DLC 43mm, white dial — reference WBP201D.FT6197 is black dial. There's also WBP2010.FT6198? Hmm.\n\nI think there is a reference WBP201D.FT6197 (black DLC titanium, black dial) and WBP2010.FT6198? Not sure.\n\nActually, the white dial version with black DLC titanium: I believe it's WBP201D.FT6197? Let me think more carefully. The Aquaracer Professional 300 lineup:\n- WBP2010.BA0632 — steel, blue dial, bracelet\n- WBP2010.FT6198 — steel? \n- WBP2011.BA0633 — steel, black dial\n- WBP201A.BA0632 — steel 43mm\n- WBP201B.BA0632 — green dial\n- WBP201C.BA0632 — ?\n- WBP201D.FT6197 — titanium black DLC, black dial\n- WBP201D.FT6197?\n\nThe white dial with black DLC: I recall WBP201D.FT6197 is the \"Night Diver\" with black dial. Hmm, but there's also a version with white/silver dial and black DLC case — perhaps WBP201B? No.\n\nActually I recall the reference WBP201D.FT6197 being the titanium black DLC with black dial, and WBP2010.FT6198 being steel with black dial? Not certain.\n\nGiven uncertainty, I'll answer WBP201D.FT6197 with moderate-low confidence. Hmm, but that's the black dial.\n\nAlternatively, the watch could be the steel version with black PVD? The Aquaracer Professional 300 43mm steel with black DLC bezel? The case looks black coated.\n\nI'll go with WBP201D.FT6197 and confidence ~0.35.\n\nActually, is there a white dial titanium DLC Aquaracer? Yes — I believe TAG Heuer released the Aquaracer Professional 300 Titanium DLC with a white/silver \"teak\" dial, reference WBP201D.FT6198? Hmm.\n\nI'll give WBP201D.FT6197.\n\nCase material: titanium (black DLC). Bracelet: rubber. Movement: automatic."
+       }
+      }
+     ],
+     "created": 1791198832,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 739,
+      "prompt_tokens": 1361,
+      "total_tokens": 2100,
+      "completion_tokens_details": {
+       "reasoning_tokens": 667
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 1152
+      },
+      "prompt_cache_hit_tokens": 1152,
+      "prompt_cache_miss_tokens": 209
+     }
+    }
+   ]
+  },
+  "input_tokens": 1361,
+  "output_tokens": 739,
+  "cached_input_tokens": 1152,
+  "cost_usd": 0.00047820599999999995,
+  "cost_source": "rate-table",
+  "elapsed_s": 4.283,
+  "started_at": "2026-10-05T11:13:49.101486+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

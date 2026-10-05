@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 1,
+ "repeat": 0,
+ "image_file": "001_rolex_submariner-date.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_family": "Submariner Date",
+   "reference_number": "126610LN",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.78
+  },
+  "raw_text": "{\"brand\": \"Rolex\", \"model_family\": \"Submariner Date\", \"reference_number\": \"126610LN\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.78}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "d65cac4b-54eb-445a-b146-55ef773e51ee",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Rolex\", \"model_family\": \"Submariner Date\", \"reference_number\": \"126610LN\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.78}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Rolex Submariner Date, black dial, black ceramic bezel (Cerachrom), Oyster bracelet, stainless steel. The dial shows \"SUBMARINER 1000ft = 300m\" text on two lines with \"SUPERLATIVE CHRONOMETER OFFICIALLY CERTIFIED\". This suggests the newer 41mm Submariner Date 126610LN (2020+), which has the two-line text (the 116610LN had three lines: \"SUBMARINER\", \"1000ft = 300m\", \"SUPERLATIVE CHRONOMETER OFFICIALLY CERTIFIED\" — actually the 116610LN had the same layout? Let me recall.\n\nThe 116610LN dial: \"ROLEX / OYSTER PERPETUAL DATE\" at top, then \"SUBMARINER\" with \"1000ft = 300m\" below, and \"SUPERLATIVE CHRONOMETER OFFICIALLY CERTIFIED\" — actually the 116610LN had 4 lines of text: SUBMARINER, 1000ft=300m, SUPERLATIVE CHRONOMETER, OFFICIALLY CERTIFIED. Yes both have similar.\n\nDifference: 126610LN is 41mm, slimmer lugs, and the crown at 6 o'clock... The \"Swiss Made\" at the bottom with the crown between Swiss and Made is the 126610 (2020+). Yes! The 126610LN has \"SWISS [crown] MADE\" with the coronet at 6 o'clock on the dial. The 116610LN had just \"SWISS MADE\" without the crown. In the photo, at the bottom of the dial there appears to be a small crown symbol between SWISS and MADE. Let me look... \"SWISS ... MADE\" with something in the middle. It appears there's a small coronet. That indicates 126610LN.\n\nAlso the bezel numerals and dial text appear larger, consistent with 41mm.\n\nSo reference 126610LN, movement automatic (Calibre 3235), case stainless steel, bracelet metal (Oyster, stainless steel).\n\nConfidence: quite high, ~0.8.\n\nModel family: Submariner Date."
+       }
+      }
+     ],
+     "created": 1791198666,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 542,
+      "prompt_tokens": 1361,
+      "total_tokens": 1903,
+      "completion_tokens_details": {
+       "reasoning_tokens": 477
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 1152
+      },
+      "prompt_cache_hit_tokens": 1152,
+      "prompt_cache_miss_tokens": 209
+     }
+    }
+   ]
+  },
+  "input_tokens": 1361,
+  "output_tokens": 542,
+  "cached_input_tokens": 1152,
+  "cost_usd": 0.00036000599999999995,
+  "cost_source": "rate-table",
+  "elapsed_s": 3.932,
+  "started_at": "2026-10-05T11:11:03.247151+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

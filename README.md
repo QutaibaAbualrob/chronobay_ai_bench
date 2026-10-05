@@ -88,6 +88,59 @@ Notes:
   another model is deliberately not enabled: it would put another model's
   answer under Claude's name.
 
+## Findings
+
+### DeepSeek (`deepseek-flash`) — two full runs, 2026-09-30 and 2026-10-05
+
+| | `2026-09-30_112454_full` | `2026-10-05_111103_full` |
+|---|---:|---:|
+| Output limit | 8,192 tokens | 16,000 tokens |
+| Strict / lenient | 48 / 53 | 44 / 50 |
+| Brand correct | 93 | 96 |
+| Errors | 2 | 2 |
+| Cost | $0.130 | $0.185 |
+| Median / p95 time | 4.9s / 43.5s | 5.8s / 53.4s |
+
+- **Output limit: raising it did not help, so it is back at 8,192.** DeepSeek
+  reasons by default, and a few calls spend the whole output budget on
+  reasoning and return no answer. The second run raised the provider's limit
+  to the shared `MAX_OUTPUT_TOKENS` (16,000) to test whether that was holding
+  the score down. It was not: two calls still ran out on both attempts, the
+  score did not improve, and the run cost 42% more. `meta.json` records the
+  shared setting (16,000) for both runs, not the provider's own limit — this
+  table is the record of which run used which.
+- **The first run's two `schema-parse` errors were truncations** (both
+  attempts ended with `finish_reason=length` and no text). The `truncated`
+  label was added to the provider after that run.
+- **A single pass is not a stable number.** Only 52 of the 100 answers were
+  the same in both runs: 34 photos right both times, 42 wrong both times, 24
+  flipped. The 4-point gap between the runs is inside that spread. Use
+  `--repeats`.
+- **The 1,024-token image cap shows no effect.** In the first run 61 photos
+  hit the cap and 39 went through under it: 30/61 strict (49%) against 18/39
+  (46%). Opus and GPT-6.1 Sol show the same small difference between the two
+  sets.
+- **The misses are recall of the reference, not vision.** Counted from the
+  saved answers (the harness does not score these fields): movement 96/100,
+  case material 91–92, bracelet material 95–96. In the second run 46 of the
+  56 misses are the right brand with the wrong reference — typically the
+  previous generation's reference, the wrong case size, the wrong variant
+  suffix, or a sibling model. Of the 42 photos wrong in both runs, Breitling
+  has 7, Audemars Piguet, IWC and Jaeger-LeCoultre 6 each, TAG Heuer 5;
+  Claude Opus 5.5 got 30 of the 42 right.
+- **Its confidence is a usable filter.** Across both runs, answers with
+  confidence ≥ 0.8 were strictly right 18 times out of 23; below 0.3, 7 out
+  of 35. More than half its answers (115 of 196) carry confidence below 0.5.
+- **More reasoning goes with wrong answers.** In the second run the 25 photos
+  with the least reasoning scored 17/25, the 25 with the most scored 7/25.
+
+### Dataset changes
+
+- **2026-10-05 — row 12 photo replaced.** The distant wrist shot (678×452)
+  was swapped for a 1024×1024 product photo. Every run up to and including
+  `2026-10-05_111103_full` scored row 12 on the old photo, where no model
+  matched the key. The old file is kept in `dataset/images/_replaced/`.
+
 ## Results
 
 ```

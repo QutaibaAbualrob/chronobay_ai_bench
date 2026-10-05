@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_093336_full",
+ "model_name": "gpt-6.1-sol-low",
+ "provider": "openai",
+ "provider_model": "gpt-6.1-sol",
+ "mode": "schema",
+ "row_id": 25,
+ "repeat": 0,
+ "image_file": "025_patek_annual-calendar.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_family": "Complications Annual Calendar",
+   "reference_number": "5396R-011",
+   "movement": "automatic",
+   "case_material": "gold",
+   "bracelet_material": "leather",
+   "confidence": 0.88
+  },
+  "raw_text": "{\n  \"brand\": \"Patek Philippe\",\n  \"model_family\": \"Complications Annual Calendar\",\n  \"reference_number\": \"5396R-011\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"gold\",\n  \"bracelet_material\": \"leather\",\n  \"confidence\": 0.88\n}",
+  "raw_response": {
+   "id": "resp_07522fa865b60fa2006ac36f030fcc87d2baf7ab9c0d8f1e78",
+   "access_programs": null,
+   "created_at": 1791192835.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6.1-sol",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_07522fa865b60fa2006ac36f05afb887d28f17b54f4a7f4619",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw28H4rjejm5kFh-3FADf6qIhcVyB1HV96f2fqWstq2kVdQaLzfGNhBF2_gwo36Rk7ECAZ4sMnw3GLHVEJTBwqgyHgBrabTjkibjs4vIvMs9an7kp2akFKqTppczafm_pv9Gn4Z8ARswYLoJBqWkb9KhHZr3sJqoMMHh_l4iRRFhF7Q70q0hdHx-tZt-Naxt1qJf4T-RhVIzKHJC-DvjBef5AO0Jj_WgUP4YGdMnHya3rBeg-Fjtz80Eevlg32T9NJw_6Nq2D1mTU9w_00F2VzsIq0q__MgO0816iU57A9zAN2H-8JTiD6x6tZtMIQfJikDQioddPDPDDHUEIwQlc-wt8tmg2T5rsKkDeuCH78QKGCadt2cO9ZWuL2s_BNiBb2USI6f5w-0o61B6_hCn6UkFyPiTLPoWYq8e7Ya4of0yGA1wujDEfUl43D1vvPf74YsrT0eKHDLD5KK-wS97t2Kw02HY74u39XMSm0BFvvxQj9vzzR0n2A-6YFEbk9tQwsXQml1acLMO7i6b-VH_QoySOEYxQPyiQhz86wPIqXvdxYHlhZhi4kw9slV38Ib6IGtX3L3psZDEP-_qL5KQJJkSnh71LfGTfsET2_y7S70_7uWYavV4NdRHm0yhka8mu0vbWRIQLYCeikvzzYxPGhu4WaezWjqxM5muUp-pkpE766eOTcN35putP61udwIDxa_iY58RQlqInaR3BNq1Tabtt1u8yotSkJmzs3MdlMuJ6J6RtYSZNY-XXTZ9xOGSdHF3GJz677sVZafiXXbeqjzotG8Q9zrvUZqzX0zT_NXVCLcFooIqLOCtP_8RZaDW2jlPOkgJ1IeTCssOktLY977XtxYd8w2l8obzkEufGm7G1ep1ZZYlnXfTFAlzmYNHYOakqGVPxuySyR_wdk2o3GTpbCqBZxabFQusE8bMF8L-_WztbHFIXtecCjRsfH_IMSvVQ48xSkLlP08CECsz-9Px7WwYF-r4xx9NSn0Bq4dhoez1pBPQS0cxchVaNIv_qva0WIXqOqO8nFE5KmwUHyFuWrjvRcZ2CntyOj5m3khSvvUVJR_Re7Ll4wftZfS_CMCxa5HIntphhbbBAqEaktTYNsjHhHf4UUgo2BwrniIOUhPUOHTFIFvl9pD6o9IyyX2ImO8ZeEXaj6PZFn9OW4LOb-1r-Cnddx9GcwaWMBWKHzd_JpQol7mRM4gvxqrDU0d_B1QoQDejSzRrj159jvoSBKBCx5IJmckQrX31GRZ0eR57zkamiL8ELPvK8P3YyY87BvnEMHtZVT0oaRbSIsrKou9nVv5V1lnqv4a-_FZEzWFnQvOi4fjd-nZLY58qDFZ6m3QGqqRc22nxT4kqdRh7pKTtkiHuRQB-HaxhPrh4b1l-b-fai3RRaFW62B87oOET-lmFWuceTXuPl_gW1fRMWs7Wd3d9nKa4Of_sgsHvHRCpxv8cuCNkAGdCTq8rAzb5p"
+    },
+    {
+     "id": "msg_07522fa865b60fa2006ac36f06820887d28163f6f43d0a6784",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Patek Philippe\",\n  \"model_family\": \"Complications Annual Calendar\",\n  \"reference_number\": \"5396R-011\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"gold\",\n  \"bracelet_material\": \"leather\",\n  \"confidence\": 0.88\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192839.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 3384,
+    "input_tokens_details": {
+     "cache_write_tokens": 3381,
+     "cached_tokens": 0
+    },
+    "output_tokens": 147,
+    "output_tokens_details": {
+     "reasoning_tokens": 68
+    },
+    "total_tokens": 3531
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 3384,
+  "output_tokens": 147,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.008238,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.395,
+  "started_at": "2026-10-05T09:33:51.998516+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6.1-sol"
+ }
+}

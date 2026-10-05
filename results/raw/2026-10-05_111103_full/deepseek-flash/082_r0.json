@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 82,
+ "repeat": 0,
+ "image_file": "082_jlc_master-ultra-thin-moon.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Jaeger-LeCoultre",
+   "model_family": "Master Ultra Thin Moon",
+   "reference_number": "Q1368470",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.55
+  },
+  "raw_text": "{\"brand\": \"Jaeger-LeCoultre\", \"model_family\": \"Master Ultra Thin Moon\", \"reference_number\": \"Q1368470\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.55}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "f97a2cee-e1ee-4129-89bc-ac65fac28e17",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Jaeger-LeCoultre\", \"model_family\": \"Master Ultra Thin Moon\", \"reference_number\": \"Q1368470\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.55}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Jaeger-LeCoultre Master Control with a moonphase and pointer date at 6 o'clock — the Master Control Calendar / Master Ultra Thin Moon... Actually the dial shows \"AUTOMATIQUE\" and a subdial with moonphase and date pointer. This is the JLC Master Ultra Thin Moon, but that one has no date subdial — actually Master Ultra Thin Moon has date hand around the moonphase. Yes, the Master Ultra Thin Moon 39 has a moonphase + pointer date subdial at 6. Reference numbers: 1368470 (stainless steel, black leather strap). Also Q1368470. The Master Ultra Thin Moon ref 1368470 is steel on alligator black. Actually wait — the Master Ultra Thin Moon dial has a small seconds hand? No, it has date pointer on the moonphase subdial. The dial here shows a distinct running seconds? The subdial contains moonphase and a date hand pointing at numbers 1-31 around. There's \"AUTOMATIQUE\" text.\n\nHmm, but the dial also has a central second hand? Looking at the image, there's a long central hand — could be minute hand and a thin second hand. Actually Master Ultra Thin Moon has no central seconds; it's hours, minutes, and the date hand. There appear to be 3 hands visible... Hard to tell.\n\nModel: Master Ultra Thin Moon, ref Q1368470 (steel, black alligator). Case 39mm steel. Movement automatic (calibre 925/1... actually caliber 925). Case material stainless steel, bracelet leather.\n\nAlso could be ref 1368470. I'll go with Q1368470.\n\nOlder ref format: 1368470. JLC uses \"Q1368470\" sometimes with Q prefix. Confidence ~0.5."
+       }
+      }
+     ],
+     "created": 1791198966,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 455,
+      "prompt_tokens": 1335,
+      "total_tokens": 1790,
+      "completion_tokens_details": {
+       "reasoning_tokens": 384
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 1152
+      },
+      "prompt_cache_hit_tokens": 1152,
+      "prompt_cache_miss_tokens": 183
+     }
+    }
+   ]
+  },
+  "input_tokens": 1335,
+  "output_tokens": 455,
+  "cached_input_tokens": 1152,
+  "cost_usd": 0.000303906,
+  "cost_source": "rate-table",
+  "elapsed_s": 4.002,
+  "started_at": "2026-10-05T11:16:03.512341+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

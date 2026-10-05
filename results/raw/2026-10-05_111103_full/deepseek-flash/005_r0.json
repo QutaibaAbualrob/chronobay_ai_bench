@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 5,
+ "repeat": 0,
+ "image_file": "005_rolex_day-date-40.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_family": "Day-Date 40 (President)",
+   "reference_number": "228238-0003",
+   "movement": "automatic",
+   "case_material": "gold",
+   "bracelet_material": "metal",
+   "confidence": 0.4
+  },
+  "raw_text": "{\"brand\": \"Rolex\", \"model_family\": \"Day-Date 40 (President)\", \"reference_number\": \"228238-0003\", \"movement\": \"automatic\", \"case_material\": \"gold\", \"bracelet_material\": \"metal\", \"confidence\": 0.4}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "72a1f18d-d286-4d89-9355-ab1049e27a45",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Rolex\", \"model_family\": \"Day-Date 40 (President)\", \"reference_number\": \"228238-0003\", \"movement\": \"automatic\", \"case_material\": \"gold\", \"bracelet_material\": \"metal\", \"confidence\": 0.4}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Rolex Day-Date 40 in yellow gold with fluted bezel and President bracelet, champagne dial with baton markers (no diamonds). Reference 228238-0003 (champagne dial). Actually 228238 champagne dial with no diamonds — 228238-0003 is champagne dial with index markers... Let me think. Rolex Day-Date 40 ref 228238: variants include 228238-0001? Common: 228238-0003 champagne dial, fluted bezel, President bracelet. Hmm, there's also 228238-0042 for the new champagne dial (2023 with new movement 3255? Actually 228238 uses cal. 3255). The dial here is champagne with stick markers, non-luminous? They look like applied gold baton hands with luminous? Actually the hands are gold with... The dial is \"champagne\" with baton hour markers (gold, with no lume? they appear luminous in some). Likely 228238-0003.\n\nMovement automatic, case material gold, bracelet metal (gold President).\n\nConfidence ~0.4.\n\nI'll give reference \"228238-0003\"."
+       }
+      }
+     ],
+     "created": 1791198668,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 315,
+      "prompt_tokens": 1377,
+      "total_tokens": 1692,
+      "completion_tokens_details": {
+       "reasoning_tokens": 249
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 1152
+      },
+      "prompt_cache_hit_tokens": 1152,
+      "prompt_cache_miss_tokens": 225
+     }
+    }
+   ]
+  },
+  "input_tokens": 1377,
+  "output_tokens": 315,
+  "cached_input_tokens": 1152,
+  "cost_usd": 0.000226206,
+  "cost_source": "rate-table",
+  "elapsed_s": 3.342,
+  "started_at": "2026-10-05T11:11:05.502984+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

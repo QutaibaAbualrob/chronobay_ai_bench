@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_093336_full",
+ "model_name": "gpt-6.1-sol-low",
+ "provider": "openai",
+ "provider_model": "gpt-6.1-sol",
+ "mode": "schema",
+ "row_id": 56,
+ "repeat": 0,
+ "image_file": "056_breitling_superocean-heritage-b20-automatic-42.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Breitling",
+   "model_family": "Superocean Heritage B20 Automatic 42",
+   "reference_number": "AB2010121B1A1",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.56
+  },
+  "raw_text": "{\n  \"brand\": \"Breitling\",\n  \"model_family\": \"Superocean Heritage B20 Automatic 42\",\n  \"reference_number\": \"AB2010121B1A1\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"confidence\": 0.56\n}",
+  "raw_response": {
+   "id": "resp_0409f6197f5f0a2d006ac36f1da2c087d289947f168e40b6dd",
+   "access_programs": null,
+   "created_at": 1791192861.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6.1-sol",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0409f6197f5f0a2d006ac36f1fb32487d28dff091d7b8c08a5",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw28oSKZxXqzyLJ7nhJQW2x1ZfGVlIGEtoq6WTBMKVCksRs8wYO-jB4uroY_DRxp5VNp3TXWZ18iAdwthsWlVX0pK2oBt2v9xHZqRz3okr4VWr-gV8SBQr6dZtbjaO3wCJJ62GoGyyCqWxEWFHsA3XU3jT7WG6X18S_Ol7LhosI1N_wsNlopYKd6MpW8vqd4lZrgTueyJtGY3WxMRxtmeNg0QztARI9AQ189o6aegsJ0iIR-RyWzZrZRIxr_m68cmL-9Mb-B7Mg7Oq-0FZM3kKl9wTwOKR_K-aZ-FQNM3uEjqPTF9U6aBVWZrIdFLAdxQY0K8Wk0POaqVyeW4-MbINidvv3cc6XjVJArJ9BOCEbp-Fc8tWxVFBGjmPw4H4BE24YWG0TsUfz9-EBuHkGioq_ezKERHfo8RSEguAmttAngx83LLPYVzTN9_xZkoGa6jmmmmyIMs9K3_SnXqHUBMNjmb0BTfrIfocyngpeNRlwYhPhpkcRgrFNnEl6uTSLVdbt1XgtJ_u1e_BTgoTKCG0IJh_iGlHrUrtEcHXRj9tzo7vl2SGo0rPXl0pGPDcJ_nMeTB7ZzjsKSyVzSf3XuBk1kEIYH77vsGFR2zFuH1JPlqkorpurzB_RqL0TxGNdtfHrI-4uwz_3za244rewXCRMCWySRmArEcO6_0Tz6WjePNj91B7Z8tqR2nwkvqaYuJIz2TmnLtnViCoAoKOAKP0_pBK9r2V4WyBa9uOkeCfVwVsfU-XUugw272XL982YM9pgPSqiqE5znzuWJGBR76278DMfSa4W4CbjQr2-raAiSjTM0vDfdTp_YzJEd5xW-axRThey9MCkvvEA1oXiuTxk0MSqDeWpiX9pS7d8TVqL6WKDklAl3dFbrzb70XgfUFDIRLAecjfuuV81ZXFTJAa8_KPZvg86mUcnd8uURvNqi_-8taDyEzGE_K-YTd0j_5ALn5zKaSArYpHnvnfL3ZznzO2hu17RlLwAVdNxqSwnxLxsomLMBZFiht6gXYmLV1Lfpubu8Kq_-hwrsdHIqaLqas6MTiTsuHz-ahmHD_6GdFUIpQWcrxKyZ0L4sTz2sCidFbNNsTG--dLPmEAb6BwDio4z2ksnDprENaxVHhZCnWcd8o8rXyoo-mk4I2MAvhyyhrPHwy0vAjo9Kq3sSgWTfWxAvQ3VpRp_GfMQ9i_FbnA9G18ilcjlZVsi8A2N_TOPKa1Yg4kKQlrbrSBAde6q8iLSnRgzzWTjKQkD3Rab9fEv9KRbUfm28eYFPM2MzsOVwPuUBEtbC_lpM0ipdqs9107C1kPGdzgPzIYuqkLmHLMKGS2bZtUjs0dCgMs2JLCLLzb7-2jwQTLKDxicWQOs1n8raBFd1TBbnd_ABKH8GymLdt1H2_mjkX13JQxYY4tYgYg-XYZoxKSx-lYdzRU1wusDT9aEKKIL3CS6L8EvIu9W9koSyV_4gQoBOMcNVFD0BxHFHKPjQfigDxifrjGIs-IlZvuOYHMRbPx55EYvXlysfmdWVygcg6vBVWh48NLPIJI3c9whGQsUf4yXKoDw8mBgz8T6z9n3Ya_noYjql_b_knCh_tzUY6-Xh3VrHrsM7i4xNgIEoElJ0z5rdkZZQZC-pLtbVyZwhFjkDsGyHy51kQbTCepzjESN8DlAFvJe-LiHM2zaLgkF6g8P7djqjzWUIrGFx3441uJf0y5u3hk81Fgoq-3MT5nVhHbRVK2E2a1RaSK35ubmkMuju7Mm0CS85110L68Na5RjZqqBs45_lzugp-KY3eHS-xANJnCiDp4fR1_lweeqKW-Io4SZzLh62gwOcW6VHqtmS26WMPVOOqVgnuy8uEVPREIZ4W-UJY_1KQdSPxmNYydv2Nnvpd0R0zInPi0Htp8H1YHXkuaSl3qCNyqhtW_CUT1DE11XrJ4E7n2SxKm_nBRrLVjL3Og_v229_6D-pdIhkimIsTGAfYLrFuQM6M7NioXN6F86gGzDipekq_KijkavkKcdZewebWtQGRF5ZDwDnqEW09E7CnZpYlk9TrSgKp8ERVeuYHqjBb-iKkwEPMpvsC1Yl-sxcphcsJ6CQy3A2MgOb03h3QvOZ07ijrn0Z_zY49SWcOe3zbtbvt5j0xWJHuV4vZrisYgk4EoMYrrqA9B2rBmfdtVcKeEM-KqPTyBwTmRuQlLlxvTdReI-XkQmD6Ymut2NrfwXJfIQdVJNMp5kY91hiVSPT2r8TjCbNoAqPSwHvdpNnqepHxTGu8PRpLaT_hv17D1BC0k8GQ_eULYS-HSJ28OvJLX8pBWUFzO4W9Ozyc"
+    },
+    {
+     "id": "msg_0409f6197f5f0a2d006ac36f27654487d2ae74a7cc91ca741d",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Breitling\",\n  \"model_family\": \"Superocean Heritage B20 Automatic 42\",\n  \"reference_number\": \"AB2010121B1A1\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"confidence\": 0.56\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192872.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 876,
+    "input_tokens_details": {
+     "cache_write_tokens": 0,
+     "cached_tokens": 0
+    },
+    "output_tokens": 319,
+    "output_tokens_details": {
+     "reasoning_tokens": 230
+    },
+    "total_tokens": 1195
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 876,
+  "output_tokens": 319,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.004942,
+  "cost_source": "rate-table",
+  "elapsed_s": 11.716,
+  "started_at": "2026-10-05T09:34:18.944048+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6.1-sol"
+ }
+}

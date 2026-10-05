@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_093336_full",
+ "model_name": "gpt-6.1-sol-low",
+ "provider": "openai",
+ "provider_model": "gpt-6.1-sol",
+ "mode": "schema",
+ "row_id": 78,
+ "repeat": 0,
+ "image_file": "078_iwc_ingenieur-automatic-40.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "IWC",
+   "model_family": "Ingenieur Automatic 40",
+   "reference_number": "IW328903",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.97
+  },
+  "raw_text": "{\n  \"brand\": \"IWC\",\n  \"model_family\": \"Ingenieur Automatic 40\",\n  \"reference_number\": \"IW328903\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"confidence\": 0.97\n}",
+  "raw_response": {
+   "id": "resp_094cd84c5ba87ff4006ac36f32aa0487d2a95fe01b24684980",
+   "access_programs": null,
+   "created_at": 1791192882.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6.1-sol",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_094cd84c5ba87ff4006ac36f339e2c87d2aa0ed88925402fff",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw281_usO4ErOumMfF3TPcNaisA9sGjY1DbHJKvT4cyVB7RWdsNrMpwfPllBiJbw6bAd23T-WbZ8OUfYjImzlAXaFC22CTBoaEGDK5ECbmAo_iDcZVyHLt3D6SGKUfMBZvXhfJRuPkNxEXUU5Q2aisB2EjCybUbh0dcg4jLk7RgvajV-jMAYr6abexpveAjCKN5bu-RqSYAEi-rTKq9eAoTzAWdP82OB0APWYNTGB6SNqAHfzxBQl6YllC-4sy67GGHXE_7jx920qTAkkHviJNSCDyRH1sh4ZnFJrY1Go4JYxXn2beN4WlJLBDA5bW6NBG0xWb84wbdlTQJ-NqrbpsvERVvexnSp9eqtZ0WkWuLrNUyzN8HLMUUQprUYTn4XVp-h8eSGhj5LSiAu83MgoOnySCppVhDJYg5fTP06sVKCNHRsw196xn6T2ZRvlsPw9ZfWfaP8PLqlGo8b_aMP8sF3y7LERq4RJRb9w3IzgY39S-SM-MbipYOPKAk4nxaqV02cPBu216LebDwJ0cxSwkLJwb7Su0YcxzwQQPfLpt7P_EX7MPawdDu9d0uiuo0oVNNpb2M35kI9FRT74pRhnB7IXyBFdrsWhyd4lrux5TOY_D_FtOtDKxpW7acYux3CBHTZhzzqGL7yf5MwvHxDwBcN3oELAYPby2U7lMMeaAL8weoHY0K1BFWxy7vfuqaggYrgLKZcL-RV_-ee8r68vm0rKIuFRxlsGtroPi5glNbZG24kDEoF8FID5HifdqKodmX8p1NYVYNsg3pyDt2yaII4mClZorkYjGBWIohMs46GvGel7fGH4eabW78ut_MxwZxmmcx2lW5t5qqcc-HZAbGSLeslt1AGQ4z5XI-PM10CK7EYK2Pi9pnudIx3-VRjxbF3vdN514pLWQ7L5Yy9OVMJYhtpcsASGyacTW2Flcivlc_Emsct5hJ0u2SWBl37wqCcX4jlN__cxmsU3y5tPfTzpJdALS-a69FzxNIFkzTXQLzyHg5AAFquY2Pgq-zxBbMfz7lO3FVtqRTB7UejRYiIbmpX0qZD6LUEJKobfqzzRclxa8f8Mi1uypF0B1hLzjXaJQSp0lC1GYT-GjtHmegOG8Mj4fQqZgboWzosM21FvVQcCNFSVV9vEKjTtKk3AVkUCwM7g850x2_ASOlfz97_Qn_wdE44wtwvi4N8rucWkuk4UyHy2cWSH4lotXg5YknV3i6UGHdPtXAvu6mE32i5_tV_z-1XlQDoxfkGvNpve3GvLBXPTyXaEYpWizeZgh8OuUY5vq_q34Zcatf9VflIS7KlEZjafTCnuq2vjVaZ4svo="
+    },
+    {
+     "id": "msg_094cd84c5ba87ff4006ac36f34921887d2acf9ae6b778e70e6",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"IWC\",\n  \"model_family\": \"Ingenieur Automatic 40\",\n  \"reference_number\": \"IW328903\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"confidence\": 0.97\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192885.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 1695,
+    "input_tokens_details": {
+     "cache_write_tokens": 1692,
+     "cached_tokens": 0
+    },
+    "output_tokens": 112,
+    "output_tokens_details": {
+     "reasoning_tokens": 33
+    },
+    "total_tokens": 1807
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 1695,
+  "output_tokens": 112,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.00451,
+  "cost_source": "rate-table",
+  "elapsed_s": 3.421,
+  "started_at": "2026-10-05T09:34:39.995295+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6.1-sol"
+ }
+}

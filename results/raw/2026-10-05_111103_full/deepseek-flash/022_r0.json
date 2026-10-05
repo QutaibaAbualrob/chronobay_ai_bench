@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 22,
+ "repeat": 0,
+ "image_file": "022_patek_aquanaut.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_family": "Aquanaut",
+   "reference_number": "5167A-001",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "rubber",
+   "confidence": 0.85
+  },
+  "raw_text": "{\"brand\": \"Patek Philippe\", \"model_family\": \"Aquanaut\", \"reference_number\": \"5167A-001\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"rubber\", \"confidence\": 0.85}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "65398ff3-6f1c-4e8c-837f-f3a7265c9203",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Patek Philippe\", \"model_family\": \"Aquanaut\", \"reference_number\": \"5167A-001\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"rubber\", \"confidence\": 0.85}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Patek Philippe Aquanaut with a black embossed dial, date at 3, Arabic numerals, stainless steel case, black rubber strap. Reference 5167A-001 (Aquanaut 40mm, black dial, stainless steel, rubber strap).\n\nNote: there's a special edition 5167A-012? The standard is 5167A-001. Some also have \"5167A-001\" with black dial. There's also 5168G etc. Given steel case and black dial with the grid pattern, 5167A-001.\n\nActually the dial here appears black with the embossed checkerboard. 5167A-001 has black dial. Confidence high ~0.85.\n\nMovement automatic (caliber 324 SC). Case steel, bracelet rubber."
+       }
+      }
+     ],
+     "created": 1791198698,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 237,
+      "prompt_tokens": 1361,
+      "total_tokens": 1598,
+      "completion_tokens_details": {
+       "reasoning_tokens": 169
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 1152
+      },
+      "prompt_cache_hit_tokens": 1152,
+      "prompt_cache_miss_tokens": 209
+     }
+    }
+   ]
+  },
+  "input_tokens": 1361,
+  "output_tokens": 237,
+  "cached_input_tokens": 1152,
+  "cost_usd": 0.00017700599999999998,
+  "cost_source": "rate-table",
+  "elapsed_s": 2.261,
+  "started_at": "2026-10-05T11:11:34.954768+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

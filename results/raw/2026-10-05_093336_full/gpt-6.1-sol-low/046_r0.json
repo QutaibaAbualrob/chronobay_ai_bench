@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_093336_full",
+ "model_name": "gpt-6.1-sol-low",
+ "provider": "openai",
+ "provider_model": "gpt-6.1-sol",
+ "mode": "schema",
+ "row_id": 46,
+ "repeat": 0,
+ "image_file": "046_tagheuer_aquaracer-professional-200-solargraph.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Tag Heuer",
+   "model_family": "Aquaracer Professional 200 Solargraph",
+   "reference_number": "WBP1310.BA0005",
+   "movement": "solar",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.83
+  },
+  "raw_text": "{\n  \"brand\": \"Tag Heuer\",\n  \"model_family\": \"Aquaracer Professional 200 Solargraph\",\n  \"reference_number\": \"WBP1310.BA0005\",\n  \"movement\": \"solar\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"confidence\": 0.83\n}",
+  "raw_response": {
+   "id": "resp_0d308036855a606a006ac36f13649c87d2936956be9fd320f9",
+   "access_programs": null,
+   "created_at": 1791192851.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6.1-sol",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0d308036855a606a006ac36f1462bc87d293972b2c997115d0",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw28Z4hG8ywWNkBHCk9oPtfaTYDjfPCvAurgw9BtqDDf5RH39jNL7nUq-EjyV-T-oeGKWBxN5ZJEqIdgdHgF-cc7-JpPGTSyDiDCpjyVNPlkp41zmQz3ubKeYm-avUPGkQY2WarOzTrwok-1aWGyb_ovGLkrIPtKqJuhV-YVN_TKG1z0Y_qp_5eRmu9lEvtCzNRYFnEzYE9GtgufwSUIcIoV81SuruXByfR3Ojbhyo3p_jFKyvjU-RHQWKF-7azUlJYuw5Qvste8Dl5gOUWy0Lz_1SKEFiauNF94yOe0n6JzxQHvUKkxu3JMOwtRNn5PinBTJYks_F_Dk0ymQRrTWrGInSEq7Qobs9EUEvZWheoWPAsO3zW_IwB9gh5kMGNECdfU60fUMrsGroM7iZPb1N7JpXBPT3gW7VohxMLTYcr4equ0xNaf88YUhLUxVD4CLvoV6JKfNSfXUkeaXT6JN0YNspwzp1d-mvS2ja1xttyXBg0Cgy0KgayQH5kw0tFaNa6y0SBTJYF-aWg-R81_81zx362VQVnEA_JMNlOCUJ7saQaTRfeBaKQUezIJ3LjGNHQD2UUPqcBFRoz9zIvRiWaMOsO5bxluGeNPlYUSo2kzEvcOmsXea24Q-TqsRwyL4CtBh8ULY1WNMCvPWAoGCJIhVHdyySlgzCct9dZAyZ3nBBtwvvhY1dpx-pmiTn59Hfu5Ww2v5aDFqTLBida_p1_f2hRsPS2qqEwqvCJSTWOguYCJTfFMXkdo8dw2rr7TUuxbzTow-qQf-qkGDKNDud6aLNoL1m8IHsXZ5BxUALQyCVbmgeuuJIzY2Hc_c8RQ0c6ne5WemC1sETldnk24dA4IybtkVdtDqZ4Ng09xJXP-STJh5K59U_tolGNZg3C6-skEp6e9oCK_uRRVj39xGuVsRl3XpopmcQMcZ9ra3NJW8Wb-9eQU4BZkcDT2zmTopYdvP3Wh3M1SqEMhMzyOTaaiVL7rMiZijhkaU6J87BlPmwkIwZZ5Lx0O83aBG1vPnFq5M9zXSTM9jlQUE1Nis0M9yVPxRhCwiU7Gc9T9_NOLfZRcW167R0avCXW35QHPlxnsDq6nc-f504berMcoIOQISCo_7CEtRLtzK4wcXBSQmHfQRdHga-8kPJw613GiqNmbbh5DyDpfwEc5DjRmVKS-KlFWiUhDuQQFVv7fuaKTIa2VfBS4tWNbxkEfeuZMnaYnz8tEXWR-QmqqXVvIE8RCR1vWnGsfnXG7oz5jiL9WMNNQws3qjhTEFlDoulFDDFgNwP9Ae_DxStRiXP_ZA91Rs4Ch0q-S4kzv2i1_Ox2A6aG9r_WQppo84yMIzwo5nrxzcvkG3zAsBHYG2I2BOuyYvqq1Kt5ManceOvFNUj0RNmlfAm5AKQhMLL2EuSJhKaNP6DiVgB5D7NoRoYY_0q4Vx_sIglpdQu9d1FXrjOsfjBHwhKJbsXEJP7dFO5RFxLZSqz3kVnR3isQZQuMB7z1L65Rln-RdoVnl_i16J9LnVkYO4pjH-SFIbeOL5IIwds4MAs_KygCCy4d-iD9n8M_gl-YIdVun67BLDiGWFBqQnHcNMR5yUuhp8rJxyfM4fLQpAqunDhdaC2UkvDPGNqYhWxtFja0AC6ETe5x9aqWD80TZHbXpqbj8hiGwxrz1CVlhLisTfJq8lgbbXDRE0D7vfzyWFbUBr4M_C92SbXTLpQ6yJs1YCFekBqigbdjYN7JZBRQX2PDArdojS9LsJAtpPz6hCYMrtYukIVxEvc8S7Fo90lje3UdljxfOY_eCkMVpf12qO4-GGonMnnGp4438cPhzdonEc8gnZGsStj98SZ1yRGDu8jMxBjH_ETOuly_cDgp8467UT_EmRV3UWWByXlrTz1VlgonI9YzwxUS-6lM6C0d1gI5unV4yUP_-If5Mw"
+    },
+    {
+     "id": "msg_0d308036855a606a006ac36f18233887d2a2e237483e7864f3",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Tag Heuer\",\n  \"model_family\": \"Aquaracer Professional 200 Solargraph\",\n  \"reference_number\": \"WBP1310.BA0005\",\n  \"movement\": \"solar\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"confidence\": 0.83\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192857.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 2460,
+    "input_tokens_details": {
+     "cache_write_tokens": 2457,
+     "cached_tokens": 0
+    },
+    "output_tokens": 274,
+    "output_tokens_details": {
+     "reasoning_tokens": 186
+    },
+    "total_tokens": 2734
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 2460,
+  "output_tokens": 274,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.00766,
+  "cost_source": "rate-table",
+  "elapsed_s": 6.317,
+  "started_at": "2026-10-05T09:34:08.712747+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6.1-sol"
+ }
+}

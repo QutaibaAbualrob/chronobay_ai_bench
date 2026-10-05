@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 56,
+ "repeat": 0,
+ "image_file": "056_breitling_superocean-heritage-b20-automatic-42.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "unknown",
+   "model_family": "HydroConquest",
+   "reference_number": "L3.781.4.56.6",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.2
+  },
+  "raw_text": "{\"brand\": \"unknown\", \"model_family\": \"HydroConquest\", \"reference_number\": \"L3.781.4.56.6\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.2}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "91919e05-4043-4587-a8d9-83be88f65b23",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"unknown\", \"model_family\": \"HydroConquest\", \"reference_number\": \"L3.781.4.56.6\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.2}",
+        "role": "assistant",
+        "reasoning_content": "The watch: Longines HydroConquest with mesh bracelet. But brand options are limited to Rolex, Omega, Patek, AP, Tag Heuer, Breitling, Cartier, IWC, JLC, VC — or \"unknown\". Longines isn't in the list, so brand \"unknown\". Model family: HydroConquest. Reference: Longines HydroConquest automatic 41mm with mesh bracelet — L3.781.4.56.6 is the 41mm black dial on steel bracelet. The mesh version... Longines HydroConquest L3.781.4.56.6? Actually the mesh bracelet version could be L3.781.4.56.6. Hmm. The 41mm automatic black dial: L3.781.4.56.6 (bracelet), L3.781.4.56.9? Let me think. Longines references: L3.781.4.56.6 = 41mm black dial with stainless steel bracelet. The mesh... The HydroConquest with milanese mesh is relatively new. Possibly L3.781.4.56.6. I'll guess L3.781.4.56.6 with low confidence.\n\nActually there's a HydroConquest 41mm black on Milanese mesh: L3.781.4.56.6? Hmm. There's also L3.781.4.56.2 (leather?). I'd go with L3.781.4.56.6.\n\nMovement: automatic. Case: stainless steel. Bracelet: metal (mesh).\n\nConfidence: low, 0.25."
+       }
+      }
+     ],
+     "created": 1791198851,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 412,
+      "prompt_tokens": 609,
+      "total_tokens": 1021,
+      "completion_tokens_details": {
+       "reasoning_tokens": 342
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 225
+     }
+    }
+   ]
+  },
+  "input_tokens": 609,
+  "output_tokens": 412,
+  "cached_input_tokens": 384,
+  "cost_usd": 0.00028210199999999995,
+  "cost_source": "rate-table",
+  "elapsed_s": 2.746,
+  "started_at": "2026-10-05T11:14:08.814625+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

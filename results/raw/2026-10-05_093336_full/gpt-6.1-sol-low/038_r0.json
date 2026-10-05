@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_093336_full",
+ "model_name": "gpt-6.1-sol-low",
+ "provider": "openai",
+ "provider_model": "gpt-6.1-sol",
+ "mode": "schema",
+ "row_id": 38,
+ "repeat": 0,
+ "image_file": "038_ap_royal-oak-selfwinding-41-rose-gold.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Audemars Piguet",
+   "model_family": "Royal Oak Selfwinding",
+   "reference_number": "15500OR.OO.1220OR.01",
+   "movement": "automatic",
+   "case_material": "gold",
+   "bracelet_material": "metal",
+   "confidence": 0.82
+  },
+  "raw_text": "{\n  \"brand\": \"Audemars Piguet\",\n  \"model_family\": \"Royal Oak Selfwinding\",\n  \"reference_number\": \"15500OR.OO.1220OR.01\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"gold\",\n  \"bracelet_material\": \"metal\",\n  \"confidence\": 0.82\n}",
+  "raw_response": {
+   "id": "resp_05620f8b2713ab40006ac36f0cabd487d2b57f7e5e0aa0fd2a",
+   "access_programs": null,
+   "created_at": 1791192844.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6.1-sol",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_05620f8b2713ab40006ac36f0dabe487d2b5adba10e4ce2436",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw28WhCWl9db9Av8YSldPpD7VahBQzyCF0f4Zb5w8LGx13VlSo-a3UhSIIrSw8qxmu94FQFC8MXjipNURmfhIv0bNTJu_mlGwsW_C5CbAslEbsKu1XVgpAqsHhH0Tw9ikGqzKHmGuoC3Whu7xRrNplDhN0mw7Rljj5fu1u_gNuGd0zIuIU7DYClTTW7uW2Wuadz-J0UMX0cgyhnIV9Wn-YP8ARfqa0u_ncgw6n5ABDW8uucbqD2UCgoJXWGeAWdlC07ZtaVKVQex6UkdxhC9UOgG9VJGGUueYoGsQx6jczUK0rFLkuCnQhj952aXep3DDN-z17BmPDJqkZQSvgwWSukBX5VRUGf_SjNLo_bs-4bXMMxIGAwQTilYSwyEk4QxYNzwrjdhecl5EOdnodJq61274WYGLJu6La7jTwJTPosEEa-INeL8jkrXcUafq1UDpFuHQNyj1MZcmK0nvoQ1Lz7xfhiWBiMRt9D4sqZON6_2UAN7jDpYHrqGBksj9uisQIU2j4XUIwwk3knKn-WmkeKPb6awjZ29Uk-M3ej08XGPWJPAuPiZ3t5UlYGSPzC5ucul6K96mwg1FsFZmnLT8pRhY7ENWablBNgmibT0DChaggyd2j3JgM7UNk6npX4H-plnQAEHn8pGXM_ZSY_NsYizuNYLzPMknprTvOKqLklD87EU9o7fydNCfIVX1cTB3FL-8vRiS8gSiHh5MXwkdl19ifrd4ORkDmQHOIOygmGEyewUlehgfZaSX9GxiLMdQn5k4-JQWTrnC1EQhbqb-3Bj5tAw5FZcYlgVxgzonqJuECeixEuiWuU88i7_vf_XF_CUFxk9iKp4d6xRRozy9J94D6iA9tZG0bXgzbqIBQwFgDEcBhmyPUOiOctenN9NFTU34c2gtNMZ1jr-sGuGp-83N7qqRgMMnplsamCd5FWc85zXnI230r_SXElOPebsvoB3lddwp4AZ4q7w7kmGwaJAZs_gptU4fjkN6EKNHy0z315w856AqgLqR-G26d_0td3yUuNSPgCXUcdDA6g-PqzT_8P4nvKdBArzYVo_HVrWxXLEfEjTDqUoSZ-HtV1d3w_bJd5eQUosNdvc30AL6uzSCZJoX1y2j0qX5wh3Ht-bijeyHMHs4dRPxRtvIYh_lYC1bRefQ_iX1RZ-lOR4uPkSr8iv2eeJyOrZMIpr8zPbpwQ6CcDJN9O85n5ogblKMx16KEnqIpMtQI_qbxjgTkTk3l71lW-_gYIpCdccQGe1O0OPSDxJ2gMzqG6zByasHvaFVf0ArPC-InRfI1b4O3r-zRtiWlCeHd6ZM84WmVwt6A7DlioPhB1VT_H24ZoMGVPFvjuGio-2WFCddM2S_sHr07fkJO0jYjVSgfAeJ0T18ytLlH3gpdKbvNgFv6jvmslkCtAG_BLt6VVHaLJnH0fz59Ei2vrD0JYLYGHLDGQIXDY2r1E9DmJixRA5N6O7m3MmbbTmtwWBgt7PC4Im6nIOPSwVyFzjHqruLV4hybcaHOReCI5a8tkHknfBf2MfLknmLCxCUX5kd-Y0NQaNR9s0Hz6pZWxuXJD0KxUgjQXSuxT_JXiYdwv1v2pFLViGHzZdU-cW_eup7eOE52x4suZrOmOOTPrKfwFkPEc5chZqW4OEcpnxqJM9LzyxQudYoto6_zm4O_uJZjVB7VTp6JJ5AMMH15u5nyiuFCNJhuLsPeVUTueDC_IdrL3m-C2dZgg-shLMrHG6J_4PwSSeqc7CXXYRzOvsBZHJ3l5fa4kexVNDNWEvH0MfL_uoZDAcijnExof-uaD7sbekKReC2cvDX_TVK1PuzjAAl9QurkTVYUk3lngDeklIAEwJ3uCrOrNZfQJNJK89JwA9GQJbtx-ya2tUxnf58_HjMYWMS6ZaTOg2SVRP5zfuEaIT2kFuA_sOITAhQUi-ME2dvSh78ld1mH4OxYS-QqhKwKOkgGmKnMiE="
+    },
+    {
+     "id": "msg_05620f8b2713ab40006ac36f12f1a487d299983b512fc77bf5",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Audemars Piguet\",\n  \"model_family\": \"Royal Oak Selfwinding\",\n  \"reference_number\": \"15500OR.OO.1220OR.01\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"gold\",\n  \"bracelet_material\": \"metal\",\n  \"confidence\": 0.82\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192852.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 3323,
+    "input_tokens_details": {
+     "cache_write_tokens": 3320,
+     "cached_tokens": 0
+    },
+    "output_tokens": 255,
+    "output_tokens_details": {
+     "reasoning_tokens": 167
+    },
+    "total_tokens": 3578
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 3323,
+  "output_tokens": 255,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.009196,
+  "cost_source": "rate-table",
+  "elapsed_s": 10.002,
+  "started_at": "2026-10-05T09:34:01.990235+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6.1-sol"
+ }
+}

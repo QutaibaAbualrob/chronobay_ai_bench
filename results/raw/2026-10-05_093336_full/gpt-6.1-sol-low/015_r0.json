@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_093336_full",
+ "model_name": "gpt-6.1-sol-low",
+ "provider": "openai",
+ "provider_model": "gpt-6.1-sol",
+ "mode": "schema",
+ "row_id": 15,
+ "repeat": 0,
+ "image_file": "015_omega_constellation-39.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Omega",
+   "model_family": "Constellation Co-Axial Master Chronometer 39 mm",
+   "reference_number": "131.10.39.20.02.001",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.74
+  },
+  "raw_text": "{\n  \"brand\": \"Omega\",\n  \"model_family\": \"Constellation Co-Axial Master Chronometer 39 mm\",\n  \"reference_number\": \"131.10.39.20.02.001\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"confidence\": 0.74\n}",
+  "raw_response": {
+   "id": "resp_0452163758880e41006ac36efb817c87d2acc63e90499c6e45",
+   "access_programs": null,
+   "created_at": 1791192827.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6.1-sol",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0452163758880e41006ac36efce03c87d291a21e8f4b081709",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw28C4Cv2Tqcynfw4RBcEKLypwcPkFSrgXJETECWGTcTqpVgDjtwaQyNq-etzeFWzB_9m76aRrdCFdXEXFgzOw-uxc21ablcjCdiKl1Ue70D9Q_r1eQpuV5QtYQmBcVOermJkZX3fTvPUXWS2xmpfHqMKvzpBr8KfDJM5_nzbL_RV9UnmpTEJk6m8jBlaeR43ceMSozmIbceQZoqJlcbuK9u_bc1qXsz0ssWTTpwTfkpXP50kS7NT-t6TWi8JXWFkZkzLZLeG3iUDYZURnmmRExDgcqhTGzFeC2jM1OtLt7FFWcPEJ3DFn1ken7eiFMvfur6oC1TT-CNob2JZx-20ZezsnL7CjPBxlATMJccmjFxywXp67AHU7SvgHVb5vOjiZKAe8EExE80fjE8NGwGQtPZReXwEMLpKVe516FcxyzBjoueSQq2lGcAyXXaEW9e1z0hqOMzxC8I5W1uDr-mWSXvRy_-BgYpYAvi6uHUvpRHb1_Sqk_6Nj4Fzuywgc52m5YshnJrWyFSz8lQzi3rrU6bdlwWI_B3BXXNd2tgpo-i3AFDwDl8NxQZA9-QDEnu9BqRURhvg9hRQjHHXlwOxZwQeRjFWQsF-1xwzM-VEQt6Hjz11LtYspSna_BblLKqLtZw7HXwywG4gThDnkyVkeYNQ1se6JIjwyGPVOPJ3OVF7jxp-vIbsnuIy0gsJUDqthYjKrtbmgL6NRFNuPL1f5twoB8ZJz-dfXoLofYMJ-3WSTy15KhRkkCqas9j589L5B-q3atYz90Jpr-3Ks2FM0C1G_tWtl-7OZ4iKtLJg-179xGaPys65qknXApa5FN9iNoGsjlB7unhYZYjYyor5j9dVqiune1o6GTxhTS0N54aRjty-GEReQyFfElOCV0eWgTImCM6_wkaWA6SpCH16eMq04bz8XyXEAQK80NR2sthhaNmpOJ8uzYnHuohV8DZNHJV1l5JqIE75d7rpDdd-MDHxLBJqgC1Zk3fIfm9T8Mr6EZ-RnxziiI9aYIdPx7-JH3127YePxhb82PoS_PAnK0zl9j_gTQy4wliJ0mPrqjMn89UDZlxaZaVUcz6evPs8PZo2m_z3dsWmx-mLdS96U2Ah4E59IQTIDYDskhOD6G2Ih4q6_OKyWy7LEJgmC4aaFiPi64aHPdBGOyCgEsgIg_OzLgwaXhGC8wgdtruBYMRF0zvkFVKuMKNPG5D4TkOoAS_5etZmlWpdXFWVbO1dND2stH9fKrXiDrniMsSecYJ_CjvRr9NA2CJ866IIIOd6Yj2vqrgrNIor_J1FUCQROs_4X8CVFqmDOOz-Ku-hVEAYCEl_SNVPqj3DVrQ2WTfEYBb3vCX8VirArwuW95rRoGv_XCqcjcXtoxW5zeYa-6057Dltmv-ABPtQwJfF1L9YgGLJO9yzrRiYIfQWhwNWBgS5yeOrbZ_eAMx3BONajd0V9QJ2kJjsylBICiMyCKk9tPstjj177jDu2PQfuYncCaP3t3n7lHcDNn_rXG-defSPIwzB8_4qsP5Zasyf32IBIZsdNOYdLMh4NmcqxzXzalrC6IO-mi9kFQ2XaBNFj3sDq2Uv2vRIbdasTBqAN-cMStpfHgxfapt7T9ybUD02B00sle7cpYvlSV9iYpoSDBhtdkApN8XQMbIJH8Do8v_JAnC_5q1ZWJTKxMSHSngrMBLaqXKQHFMdk_JDNyM96u1htZM="
+    },
+    {
+     "id": "msg_0452163758880e41006ac36f00d5a487d288d39e66ec3a6845",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Omega\",\n  \"model_family\": \"Constellation Co-Axial Master Chronometer 39 mm\",\n  \"reference_number\": \"131.10.39.20.02.001\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"confidence\": 0.74\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192834.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 1307,
+    "input_tokens_details": {
+     "cache_write_tokens": 1304,
+     "cached_tokens": 0
+    },
+    "output_tokens": 232,
+    "output_tokens_details": {
+     "reasoning_tokens": 139
+    },
+    "total_tokens": 1539
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 1307,
+  "output_tokens": 232,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.004934,
+  "cost_source": "rate-table",
+  "elapsed_s": 7.158,
+  "started_at": "2026-10-05T09:33:44.840070+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6.1-sol"
+ }
+}

@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_093336_full",
+ "model_name": "gpt-6.1-sol-low",
+ "provider": "openai",
+ "provider_model": "gpt-6.1-sol",
+ "mode": "schema",
+ "row_id": 98,
+ "repeat": 0,
+ "image_file": "098_vc_overseas-perpetual-calendar-ultra-thin.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Vacheron Constantin",
+   "model_family": "Overseas Perpetual Calendar Ultra-Thin",
+   "reference_number": "4300V/120R-B064",
+   "movement": "automatic",
+   "case_material": "gold",
+   "bracelet_material": "metal",
+   "confidence": 0.92
+  },
+  "raw_text": "{\n  \"brand\": \"Vacheron Constantin\",\n  \"model_family\": \"Overseas Perpetual Calendar Ultra-Thin\",\n  \"reference_number\": \"4300V/120R-B064\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"gold\",\n  \"bracelet_material\": \"metal\",\n  \"confidence\": 0.92\n}",
+  "raw_response": {
+   "id": "resp_05e5fc495e402f5b006ac36f47400487d2a5e21297203f21ec",
+   "access_programs": null,
+   "created_at": 1791192903.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6.1-sol",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_05e5fc495e402f5b006ac36f485cf087d2b72d59f582e012e3",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw29MTjeozAvXFn8t7F08J_cKUhLZr2yonN-YqVvJvVDPR8Yst2Lvx0XkZWkBM9aOBtSj_I_JRpmNVzL6BdC3iHYNg_HacnquIAFLjGWSu_W5sJRBQe05Lna0fZEGuufCjU8vgGm-LeGo-zLYeBCjYh9fTHSvy4LwVi-KqjzbYa6yE1yPZcnmn1l2Zz2QNTf6SwTkVkkmuPmVaw9XBJSKCOmv84qPSWCXkgzF0TNNGOeiiZD2b9sIBY0c1k4zPNt9qy0pZdTiw7ZSokLm_ZPmxslP-YAvvnPRn3RjUQYBRHO00G4XrDjQEK73kn9Jy361COGj2LDQezOHGmrCrMhrYC4fXVoPXQLF026YUV7pEEMloaHmZcVnhfLfZi4AEWoLiASnfK4tMuPHMuf7DMM2L2_AQ8zOhFGRCe3gO6BqfaIXBtyPPji2z2pKoJ47Bz7wDFt_PO73EqKaCu-3reEF7I6e5yQakxlWUjURmf4R3Hmb8-qoVz9blYQ9h4mhcUAq88NhQx5AdEVSkZjvL0pzUf3EO87ojFhUEymNkVojd6NLnWsR6XD44y0bo6W9FgDcoQmdo0CXN1vZwuMXGwai3Qs8MDE7dgfov3s1gSHY3gxR3JlzxP-dZSfWGUU-f_rF46fNVr_eU4XhAqgHDh51fKvbjPOhjWH3D6g5Q1YkQN7uGDpNEIIf5rQsLAP9pD9hVAx8JZy4dmPMDR2k4FqusuhnldUbywrUEQKcy_G1U39PueI6mkOyE72TzKAobPfnFfUkGRWId4ENnDm9usROinMZeX77cKhgXVCixsPPLvSY2ngJKG0iSD2fD-c80e3fYZrPe8GPUGcjOsFq5uJN8TjIKsxazSPTt8nANmj5kWWQztoTSF31wNDw3LXx8WZ8GB5pwu73ncvpiISKsAbkwv6HvMvmN0--5m6dFeuy_xhcgoPqbOwiHurfIeX8zQz2xtbBFSCctcu-mZSuZar2AcDW6AVD_SCEdjbCRU7vwatR77UoNroP5XFFBBbEYyEOAhNswuQVbuQ0xQn9anJhqTh9AOHZe1shGAT7cICFAbzlwxOneVN5BjzfoXXAnz4Tgjh5yyVvp_N1lQO08O8wWfs5gYMzscPN3FBFKL5oiO064bD1-lIxCbGyG8KkjFoBJwfUg2onIzEDE6yYJ5JY-46tvhI8yGNwOD8-WXkPcbe9QgO0kGMpR_-AN4UwalMLbwKoPyOHTraYjhhc-lmXUf1wpYNDn1TtN84MBURoEY-QGAUeVc_X5ZqPodQH3oTAX7E2hQLap45EnxHEdFkvH6jLRAza3qLgomVM7muaLlkCQdFKG1AKUJMfSXxEioHzLo2m_a4qqk-07sqPYQK_cH3AFx_8LBkPdxcaUrfHZj4yaSwtRIhXNbjYuU9VYNbjn61pz_Y1s9h0fLES2d5A3cPOo7qiAx31z7g3jNrg_Q4VvzLzm2ahkqwlZX8dr_ensLht9YjfM7wAFzwIrd7tN6NAF6AwgbJjBmMp7mpJJ5ySvo9dNcS-xOghCkSvxp9P1bYlLERA8cPkMZWA_SxCIpw2FuPlw5INrONpLOI_n4vXWR-y51KEl8BxrUfwYPDCNFwk996A6twoitOLuD96l2qZF-H4DXZf4AudLk7pVuMhuSg="
+    },
+    {
+     "id": "msg_05e5fc495e402f5b006ac36f4aeeb887d29a0038d1dd1df88d",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Vacheron Constantin\",\n  \"model_family\": \"Overseas Perpetual Calendar Ultra-Thin\",\n  \"reference_number\": \"4300V/120R-B064\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"gold\",\n  \"bracelet_material\": \"metal\",\n  \"confidence\": 0.92\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192908.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 3443,
+    "input_tokens_details": {
+     "cache_write_tokens": 3440,
+     "cached_tokens": 0
+    },
+    "output_tokens": 210,
+    "output_tokens_details": {
+     "reasoning_tokens": 122
+    },
+    "total_tokens": 3653
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 3443,
+  "output_tokens": 210,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.008986,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.511,
+  "started_at": "2026-10-05T09:35:00.547411+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6.1-sol"
+ }
+}

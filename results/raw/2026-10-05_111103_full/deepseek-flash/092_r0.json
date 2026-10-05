@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 92,
+ "repeat": 0,
+ "image_file": "092_vc_overseas-chronograph.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Vacheron Constantin",
+   "model_family": "Overseas Chronograph",
+   "reference_number": "5500V/110A-B148",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.62
+  },
+  "raw_text": "{\"brand\": \"Vacheron Constantin\", \"model_family\": \"Overseas Chronograph\", \"reference_number\": \"5500V/110A-B148\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.62}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "5231a1a5-6d27-4e77-8d29-b821b4f391d7",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Vacheron Constantin\", \"model_family\": \"Overseas Chronograph\", \"reference_number\": \"5500V/110A-B148\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.62}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Vacheron Constantin Overseas Chronograph with blue dial. Reference 5500V/110A-B148 is the blue dial Overseas chronograph. Actually the blue dial version: 5500V/110A-B148 (blue dial, stainless steel, bracelet). The third generation Overseas Chronograph 5500V. Blue dial with steel bracelet — 5500V/110A-B148 is the blue dial. Silver dial is B147? Let me recall: 5500V/110A-B148 = blue dial. Yes, the blue dial Overseas Chronograph is 5500V/110A-B148.\n\nMovement: automatic (caliber 5200). Case material: stainless steel. Bracelet: metal (steel bracelet).\n\nConfidence ~0.7.\n\nModel family: Overseas Chronograph.\n\nThe dial appears blue with three subdials and date at 3 — but this photo... Actually the photo seems slightly distorted. Third-gen Overseas chrono has date at 4:30 position. Hmm, in this image the date appears near 3 o'clock. Also there seems to be a \"3\" ... Actually the dial shows subdials and a date window. Given the distortion, I'll go with 5500V/110A-B148.\n\nWait — the dial could be the 49150 (second generation) but the bracelet with the Maltese cross-shaped links is third gen. Third gen: 5500V. Blue dial: 5500V/110A-B148. Confidence 0.6."
+       }
+      }
+     ],
+     "created": 1791198989,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 392,
+      "prompt_tokens": 1361,
+      "total_tokens": 1753,
+      "completion_tokens_details": {
+       "reasoning_tokens": 319
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 1152
+      },
+      "prompt_cache_hit_tokens": 1152,
+      "prompt_cache_miss_tokens": 209
+     }
+    }
+   ]
+  },
+  "input_tokens": 1361,
+  "output_tokens": 392,
+  "cached_input_tokens": 1152,
+  "cost_usd": 0.000270006,
+  "cost_source": "rate-table",
+  "elapsed_s": 3.354,
+  "started_at": "2026-10-05T11:16:25.692782+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

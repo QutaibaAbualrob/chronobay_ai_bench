@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 2,
+ "repeat": 0,
+ "image_file": "002_rolex_cosmograph-daytona.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_family": "Cosmograph Daytona",
+   "reference_number": "116500LN-0002",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.55
+  },
+  "raw_text": "{\"brand\": \"Rolex\", \"model_family\": \"Cosmograph Daytona\", \"reference_number\": \"116500LN-0002\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.55}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "5375b012-8c1c-45a7-a789-1adc76254223",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Rolex\", \"model_family\": \"Cosmograph Daytona\", \"reference_number\": \"116500LN-0002\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.55}",
+        "role": "assistant",
+        "reasoning_content": "The image shows a Rolex Cosmograph Daytona with black dial, steel case, black ceramic bezel, Oyster bracelet. The subdials appear to have light blue/silver rings? The dial is black with what appears to be blue-ish subdial rings — this could be the \"Daytona 116500LN\" which has black dial with silver subdials... Actually 116500LN black dial has silver subdial rings. The blue tint may just be reflection. There's a \"Daytona\" text in red above the center? Actually there appears to be something red on the dial near the top of the subdial - let me consider. This looks like the Rolex Daytona 116500LN with black dial (silver subdials), stainless steel, ceramic bezel, Oyster bracelet. Reference 116500LN.\n\nActually the subdials look blue-ringed which could be a \"John Mayer\" Daytona 116508 (gold, green dial) - no. There's also the 116509 with blue subdials? The picture might show a black dial with blue rings — that's the white gold Daytona 116509 with black dial and blue subdial rings? Hmm. Actually the steel 116500LN black dial has silver rings; the light blue appearance could be reflection of ambient.\n\nAlso there seems to be \"DAYTONA\" in red letters — on 116500LN, the word \"DAYTONA\" is not curved... Actually the \"DAYTONA\" in red arc appears on the 16520/116520 dials? No. On the modern Daytona, the dial says ROLEX, OYSTER PERPETUAL, SUPERLATIVE CHRONOMETER, OFFICIALLY CERTIFIED, COSMOGRAPH. There's no red DAYTONA on 116500LN. Hmm, but some models have the red \"DAYTONA\" arc — like the 116520 had \"COSMOGRAPH\" in red? Actually, older Daytonas (16520) had \"DAYTONA\" in red. But this photo shows a modern ceramic bezel.\n\nWait — the 2023 Daytona 126500LN has a slightly different dial. But ceramic bezel with steel = 116500LN (2016) or 126500LN (2023). The dial in the picture shows red text arc? Let me look: there is something red vertical near the 12 subdial — that might be a reflection/artifact.\n\nI'll go with 116500LN, confidence moderate ~0.6.\n\nActually — subdial rings in blue: the 116509 white gold with black dial has blue subdials... hmm, no. There is a Daytona 116509 with a \"steel blue\" dial. There's also 116518LN. Let's not overthink; the picture's blue subdial rings could be the 126500LN? The 126529? Hmm.\n\nThere's the \"Daytona 116500LN\" — black dial with silver subdial rings. The blue appearance could be the lighting/reflection from ambient blue light in the room (there's greenery and cool tones). I'll go with 116500LN, confidence 0.55.\n\nBracelet is Oyster (metal). Movement automatic (caliber 4130).\n\nCase material stainless steel.\n\nModel family: Cosmograph Daytona.\n\nReference number: 116500LN.\n\nHmm, but with the red \"DAYTONA\" text... Actually, looking at the image description again, there's a thin red vertical line at 12 o'clock in the dial — could be the \"DAYTONA\" printed in red on a 116500LN? No, not present. Let me consider the 126500LN: dial has \"ROLEX\" and no red. Both.\n\nHmm, there's a possibility this is a fake/replica. The red line might be a reflection. I'll go 116500LN with confidence 0.5."
+       }
+      }
+     ],
+     "created": 1791198666,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 900,
+      "prompt_tokens": 1377,
+      "total_tokens": 2277,
+      "completion_tokens_details": {
+       "reasoning_tokens": 831
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 1152
+      },
+      "prompt_cache_hit_tokens": 1152,
+      "prompt_cache_miss_tokens": 225
+     }
+    }
+   ]
+  },
+  "input_tokens": 1377,
+  "output_tokens": 900,
+  "cached_input_tokens": 1152,
+  "cost_usd": 0.000577206,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.881,
+  "started_at": "2026-10-05T11:11:03.247622+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 93,
+ "repeat": 0,
+ "image_file": "093_vc_patrimony-self-winding.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Vacheron Constantin",
+   "model_family": "Patrimony Self-Winding with Date",
+   "reference_number": "85180/000R-9248",
+   "movement": "automatic",
+   "case_material": "gold",
+   "bracelet_material": "leather",
+   "confidence": 0.45
+  },
+  "raw_text": "{\"brand\": \"Vacheron Constantin\", \"model_family\": \"Patrimony Self-Winding with Date\", \"reference_number\": \"85180/000R-9248\", \"movement\": \"automatic\", \"case_material\": \"gold\", \"bracelet_material\": \"leather\", \"confidence\": 0.45}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "5a74c095-d3d2-4e74-a0f6-3a89ad525483",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Vacheron Constantin\", \"model_family\": \"Patrimony Self-Winding with Date\", \"reference_number\": \"85180/000R-9248\", \"movement\": \"automatic\", \"case_material\": \"gold\", \"bracelet_material\": \"leather\", \"confidence\": 0.45}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Vacheron Constantin Patrimony with a date, pink gold case, silvered opaline dial, brown alligator strap. Reference 85180/000R-9248 is the Patrimony Contemporary Self-Winding with date, 40mm, pink gold, silvered dial. Actually 85180/000R-9248 is the Patrimony Traditionnelle... Let me think. The Patrimony date self-winding 40mm pink gold with silvered opaline dial is ref 85180/000R-9248. Yes, that's a common reference. Movement: automatic (caliber 2450 Q6). Case material: gold (rose/pink gold) — allowed values: stainless-steel, gold, platinum, titanium, ceramic, bronze, unknown. So \"gold\".\n\nBracelet: leather.\n\nModel family: Patrimony.\n\nConfidence ~0.4."
+       }
+      }
+     ],
+     "created": 1791198989,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 258,
+      "prompt_tokens": 1071,
+      "total_tokens": 1329,
+      "completion_tokens_details": {
+       "reasoning_tokens": 185
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 175
+     }
+    }
+   ]
+  },
+  "input_tokens": 1071,
+  "output_tokens": 258,
+  "cached_input_tokens": 896,
+  "cost_usd": 0.00018373799999999997,
+  "cost_source": "rate-table",
+  "elapsed_s": 2.48,
+  "started_at": "2026-10-05T11:16:25.937176+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

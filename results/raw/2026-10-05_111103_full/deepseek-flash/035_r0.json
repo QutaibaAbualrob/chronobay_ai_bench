@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 35,
+ "repeat": 0,
+ "image_file": "035_ap_royal-oak-perpetual-calendar.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Audemars Piguet",
+   "model_family": "Royal Oak Perpetual Calendar",
+   "reference_number": "26574ST.OO.1220ST.01",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.65
+  },
+  "raw_text": "{\"brand\": \"Audemars Piguet\", \"model_family\": \"Royal Oak Perpetual Calendar\", \"reference_number\": \"26574ST.OO.1220ST.01\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.65}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "e054ffed-3aaf-4725-b3c5-76e968a12124",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Audemars Piguet\", \"model_family\": \"Royal Oak Perpetual Calendar\", \"reference_number\": \"26574ST.OO.1220ST.01\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.65}",
+        "role": "assistant",
+        "reasoning_content": "The watch is an Audemars Piguet Royal Oak Perpetual Calendar. The dial appears to be blue with grande tapisserie pattern... Actually, the classic Royal Oak Perpetual Calendar reference 26574ST with blue dial, stainless steel. There's also the newer 26579 with... Let me think.\n\nReference numbers:\n- 26574ST.OO.1220ST.01 — Royal Oak Perpetual Calendar, stainless steel, blue dial (actually 26574ST has blue dial? The 26574ST.OO.1220ST.01 is stainless steel with blue dial, calibre 5134).\n- 26574ST.OO.1220ST.03 — green dial? No, that's the 26574ST.OO.1220ST.02? Hmm.\n- The 26579CE is ceramic.\n\nBlue dial steel Royal Oak Perpetual Calendar: 26574ST.OO.1220ST.01 (blue dial, stainless steel) — actually I recall the 26574ST.OO.1220ST.01 has a blue dial presented in 2015/2016? The 26574 was introduced 2015 with a blue dial in steel? Let me recall: Royal Oak Perpetual Calendar 26574ST.OO.1220ST.01 — stainless steel, blue dial, calibre 5134. Yes, that seems right.\n\nThere's also the 26674ST (newer, 2024) with a new case and calibre 7138, but that one has a different dial layout with the week indicator... Actually the new 2024 26674ST has a different dial design with all four subdials and a \"week\" reading. The photo shows classic layout: month/leap year at 12, date at 3, day at 9, moonphase at 6, week number on outer ring. That's the classic 26574.\n\nThe dial appears blue with the grande tapisserie... Actually the 26574 blue dial has a \"Grande Tapisserie\" pattern. Yes, the 26574ST.OO.1220ST.01 blue dial has the tapisserie.\n\nThe photo shows the watch with plastic wrap — likely new. Case looks white metal — steel. Dial blue. Bracelet steel. So: 26574ST.OO.1220ST.01.\n\nMovement: automatic (calibre 5134). Case material: stainless-steel. Bracelet: metal.\n\nConfidence: maybe 0.7.\n\nWait — check the 26574ST references: \n- 26574ST.OO.1220ST.01: stainless steel, blue dial with \"Grande Tapisserie\" — yes.\n- 26574ST.OO.1220ST.02: stainless steel, black dial? Hmm.\n- 26574ST.OO.1220ST.03: blue dial? \n\nActually I recall 26574ST.OO.1220ST.01 (blue dial), 26574ST.OO.1220ST.02 (silver/white dial? no)... There's also 26574OR gold variants and 26574TI titanium (with blue dial? no, titanium with blue dial?).\n\nThe well-known one: 26574ST.OO.1220ST.01 blue dial steel. I'll go with that.\n\nNote the dial here looks like it has a tapisserie pattern in blue. Fine.\n\nModel family: Royal Oak Perpetual Calendar."
+       }
+      }
+     ],
+     "created": 1791198761,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 815,
+      "prompt_tokens": 1377,
+      "total_tokens": 2192,
+      "completion_tokens_details": {
+       "reasoning_tokens": 736
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 1152
+      },
+      "prompt_cache_hit_tokens": 1152,
+      "prompt_cache_miss_tokens": 225
+     }
+    }
+   ]
+  },
+  "input_tokens": 1377,
+  "output_tokens": 815,
+  "cached_input_tokens": 1152,
+  "cost_usd": 0.000526206,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.083,
+  "started_at": "2026-10-05T11:12:37.826961+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 90,
+ "repeat": 0,
+ "image_file": "090_jlc_master-control-chronograph.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Jaeger-LeCoultre",
+   "model_family": "Master Control Chronograph Calendar",
+   "reference_number": "Q4138420",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.6
+  },
+  "raw_text": "{\"brand\": \"Jaeger-LeCoultre\", \"model_family\": \"Master Control Chronograph Calendar\", \"reference_number\": \"Q4138420\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.6}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "6533a99a-a102-453b-b296-29bdcd6c8042",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Jaeger-LeCoultre\", \"model_family\": \"Master Control Chronograph Calendar\", \"reference_number\": \"Q4138420\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.6}",
+        "role": "assistant",
+        "reasoning_content": "The watch: Jaeger-LeCoultre Master Control Chronograph Calendar. Reference Q4138420 (steel, silver dial) — actually the Master Control Chronograph Calendar in stainless steel with silver dial is ref. Q4138420 or 4138420. Let me recall: JLC Master Control Chronograph Calendar, introduced 2020, ref. Q4138420 (steel case, silver dial). There is also a pink gold version Q4132520. The steel version with silver dial: Q4138420. Movement: automatic, caliber 759. Case material: stainless steel. Bracelet: leather (brown calfskin/alligator). Actually the steel version comes with a brown calf leather strap? The gold version comes with alligator leather. The steel one might have a black or brown leather strap.\n\nI'll go with Q4138420, confidence ~0.6.\n\nMovement: automatic. Case material: stainless-steel. Bracelet: leather."
+       }
+      }
+     ],
+     "created": 1791198986,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 271,
+      "prompt_tokens": 1073,
+      "total_tokens": 1344,
+      "completion_tokens_details": {
+       "reasoning_tokens": 199
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 177
+     }
+    }
+   ]
+  },
+  "input_tokens": 1073,
+  "output_tokens": 271,
+  "cached_input_tokens": 896,
+  "cost_usd": 0.000191838,
+  "cost_source": "rate-table",
+  "elapsed_s": 2.825,
+  "started_at": "2026-10-05T11:16:23.109009+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

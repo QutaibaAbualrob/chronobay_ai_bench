@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 88,
+ "repeat": 0,
+ "image_file": "088_jlc_rendez-vous-night-day.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Jaeger-LeCoultre",
+   "model_family": "Rendez-Vous Night & Day",
+   "reference_number": "Q3468490",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.3
+  },
+  "raw_text": "{\"brand\": \"Jaeger-LeCoultre\", \"model_family\": \"Rendez-Vous Night & Day\", \"reference_number\": \"Q3468490\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.3}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "defa3a91-9b9a-4f18-853c-2f3f309f5206",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Jaeger-LeCoultre\", \"model_family\": \"Rendez-Vous Night & Day\", \"reference_number\": \"Q3468490\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.3}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Jaeger-LeCoultre Rendez-Vous, with diamond bezel, night/day indicator. Reference numbers for Rendez-Vous with diamonds... The model appears to be a Rendez-Vous Night & Day, steel, mother-of-pearl or cream dial with Arabic numerals, diamond bezel. But the brand list given doesn't include Jaeger-LeCoultre... wait, it does: \"Jaeger-LeCoultre\" is in the list.\n\nReference number: Rendez-Vous Night & Day small, steel with diamond bezel — e.g., Q3468490? Hmm. Let me think. Jaeger-LeCoultre Rendez-Vous Night & Day ref 341.84.90? Actually JLC Rendez-Vous Night & Day 29mm steel with diamond bezel: reference Q3468490 (346.84.90) is the steel with diamond bezel and leather strap? Common references: Q3418490? Let me recall: JLC Rendez-Vous Night & Day 39mm (large) Q3468490? Hmm.\n\nKnown: Rendez-Vous Night & Day Medium Q3468490? Actually the Rendez-Vous Night & Day references:\n- 341.84.90 (steel, diamond bezel, black leather) — Q3418490? This is the medium 37mm.\n- 346.84.90 — large 39mm?\n\nI'll go with Q3468490 with modest confidence. Actually the watch in the photo looks small-ish, 29-34mm. The Rendez-Vous Night & Day \"Medium\" is 37mm; \"Small\" 29mm.\n\nAlso the dial here is cream/silverish with guilloché sunray pattern, Arabic numerals — this matches the \"Rendez-Vous Night & Day\" 29mm ref Q3468490? The cream dial with diamond bezel and black alligator.\n\nI'll answer brand Jaeger-LeCoultre, model_family \"Rendez-Vous Night & Day\", reference Q3468490, movement automatic, case_material stainless-steel, bracelet leather, confidence 0.35.\n\nHmm, though the case might be steel (white metal). Yes.\n\nReference format JLC uses \"Q3468490\" or \"346.84.90\". I'll give \"Q3468490\"."
+       }
+      }
+     ],
+     "created": 1791198983,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 570,
+      "prompt_tokens": 806,
+      "total_tokens": 1376,
+      "completion_tokens_details": {
+       "reasoning_tokens": 496
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 166
+     }
+    }
+   ]
+  },
+  "input_tokens": 806,
+  "output_tokens": 570,
+  "cached_input_tokens": 640,
+  "cost_usd": 0.00036882,
+  "cost_source": "rate-table",
+  "elapsed_s": 3.498,
+  "started_at": "2026-10-05T11:16:20.300956+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 62,
+ "repeat": 0,
+ "image_file": "062_cartier_tank-must-large.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Cartier",
+   "model_family": "Tank Solo",
+   "reference_number": "W5200003",
+   "movement": "quartz",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.4
+  },
+  "raw_text": "{\"brand\": \"Cartier\", \"model_family\": \"Tank Solo\", \"reference_number\": \"W5200003\", \"movement\": \"quartz\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.4}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "fb9b2a1e-fafa-4f35-949a-30e99f74497b",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Cartier\", \"model_family\": \"Tank Solo\", \"reference_number\": \"W5200003\", \"movement\": \"quartz\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.4}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Cartier Tank Solo (or Tank Must) with white dial, Roman numerals, blue sword hands, black leather strap, steel case. The \"Tank Solo\" has a distinctive case with slightly rounded... Actually the Tank Solo Large (W5200003) has a steel case, black leather strap, quartz movement. The Tank Must Large (WSTA0041) is quartz too. The Tank Solo ref W5200003 has a cabochon... Actually the Tank Solo steel model W5200003 has a smooth crown without cabochon? The Tank Solo has a beaded crown with synthetic spinel cabochon.\n\nThe image: rectangular case, white dial, Roman numerals, \"Cartier\" at 12, \"Swiss Made\" at 6, blue steel sword hands, black grained leather strap. The crown appears to be a beaded crown with... it looks somewhat plain. The Tank Solo Large W5200003.\n\nHmm, which one? Tank Must Large (2021) WSTA0041 — quartz, steel case, black leather strap, blue hands. Tank Solo W5200003 — quartz, steel, black strap.\n\nGiven the photo, hard to distinguish. The Tank Solo case is slightly thicker and has a distinct crown. The Tank Must has a slightly different case. The dial on Tank Solo has \"Cartier\" with a smaller \"Swiss Made\". Both similar.\n\nLet me guess W5200003 (Tank Solo Large, steel, quartz). Confidence ~0.4.\n\nActually, the strap appears to have a deployant/buckle... The photo shows a leather strap with a buckle? Can't tell.\n\nI'll go with Tank Solo, W5200003, quartz, stainless steel, leather, confidence 0.4.\n\nHmm, alternatively Tank Must WSTA0041. The Tank Must Large has a slightly narrower case and the crown is beaded with blue spinel. The photo's crown looks like it has a cabochon. Both do. I'll stick with W5200003.\n\nMovement: quartz. Case material: stainless steel. Bracelet: leather."
+       }
+      }
+     ],
+     "created": 1791198878,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 503,
+      "prompt_tokens": 564,
+      "total_tokens": 1067,
+      "completion_tokens_details": {
+       "reasoning_tokens": 437
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 180
+     }
+    }
+   ]
+  },
+  "input_tokens": 564,
+  "output_tokens": 503,
+  "cached_input_tokens": 384,
+  "cost_usd": 0.000329952,
+  "cost_source": "rate-table",
+  "elapsed_s": 3.606,
+  "started_at": "2026-10-05T11:14:35.267239+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

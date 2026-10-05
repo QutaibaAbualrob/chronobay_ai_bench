@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 50,
+ "repeat": 0,
+ "image_file": "050_tagheuer_autavia-calibre-heuer-02.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Tag Heuer",
+   "model_family": "Autavia Calibre Heuer 02 Chronograph",
+   "reference_number": "CBE2110.FC8226",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.42
+  },
+  "raw_text": "{\"brand\": \"Tag Heuer\", \"model_family\": \"Autavia Calibre Heuer 02 Chronograph\", \"reference_number\": \"CBE2110.FC8226\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.42}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "11b70069-2fc3-48d0-b3cf-62beb2d80034",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Tag Heuer\", \"model_family\": \"Autavia Calibre Heuer 02 Chronograph\", \"reference_number\": \"CBE2110.FC8226\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.42}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a TAG Heuer Autavia chronograph with Heuer 02 movement, black dial, three white subdials (panda-ish), and a 12-hour bezel with black ceramic insert, on a brown leather strap. The reference... The Autavia Calibre Heuer 02 42mm, reference CBE2110? Let's think. The TAG Heuer Autavia \"Isograph\"? No.\n\nThe Autavia chronograph with Heuer 02, 42mm, steel, black dial with white subdials — reference CBE2111? Let me recall: The 2019 TAG Heuer Autavia Calibre Heuer 02 ref CBE2110.BA0687 (steel bracelet), CBE2110.FC8226 (leather). Hmm.\n\nActually, the 2017 Autavia Heritage Calibre Heuer 02 ref CBE2110 had black dial with white subdials? The Heuer-02 Autavia 2019 CBE2110.FC8226 — black dial with silver/white registers, leather strap \"FC8226\". Hmm, wait: the earlier 2017 Autavia was ref CBE2110 (Heuer 02). Actually the 2017 Autavia was ref CBE2110 with Calibre Heuer 02? No — the 2017 Autavia re-edition used Calibre Heuer-02, ref CBE2110.FC8226 with black dial and white subdials... Hmm, I recall the 2017 Autavia had dial with \"Autavia\" and Heuer shield, ref CBE2110.\n\nActually there was also a three-register Autavia with Heuer 02T? No, that's a tourbillon.\n\nThe Autavia 2019 collection: CBE2110.FC8226 (black dial, leather strap), CBE2110.BA0687 (bracelet). Also CBE2111.BA0687 (blue). The \"Isograph\" versions had a different movement.\n\nThe bezel here: 12-hour bezel with Arabic numerals 1-12 and black insert — that's the Autavia \"Calibre Heuer 02\" from 2017/2019? Hmm, the 2017 Autavia had \"Autavia\" printed with Heuer logo, and a bezel with 12-hour markers. Yes.\n\nActually, this specific watch with \"HEUER 02\" text in the subdial is the 2019 Autavia Calibre Heuer 02 42mm, ref CBE2110.FC8226. Hmm, but the 2017 version had \"Calibre Heuer 02\" printed? Let me recall the 2017 Autavia: ref CBE2110.BA0687, dial black with white subdials, and the subdial at 6 has \"HEUER-02\"? Actually the 2017 Autavia had \"Calibre Heuer 02\" or just \"HEUER 02\" written in the 6 o'clock subdial. I believe the 2017 Autavia reference is CBE2110. Hmm, but there's also CBE2111.\n\nLet me be careful: TAG Heuer Autavia Calibre Heuer 02, 42mm, ref CBE2110.BA0687 (steel bracelet) and CBE2110.FC8226 (leather). But the strap here is light brown/tan leather — the FC8226? Actually I recall \"CBE2110.FC8226\" is black dial with brown leather strap. Hmm.\n\nAlso there's the \"Autavia Chronograph 42mm\" reference CBE2110 with black dial. There's also CBE2111 (blue dial), CBE2112? and the GMT.\n\nActually the 2017 re-launch Autavia was 42mm Calibre Heuer-02 with three counters, ref CBE2110.BA0687 etc. Hmm — but wait, the 2017 Autavia had a 12-hour bezel? Yes, the Autavia had the \"12-hour graduated bezel\" that could be used as a second time zone.\n\nHmm, but there's a distinction: the modern Autavia with \"HEUER 02\" in the subdial and 12-hour bezel is the 2019 Autavia? The 2019 Autavia \"Isograph\" was time-only with a carbon hairspring. The chronograph Autavia Calibre Heuer 02 came out in 2017.\n\nLet me just go with CBE2110.FC8226? Hmm, but the strap here is tan/light brown — I think there's a reference with a brown leather strap: CBE2110.FC8226. The pictures of the 2017 Autavia show a black dial with a black-brown leather strap... Actually the marketing photos show a brown leather strap with white stitching. That matches.\n\nHmm, but also the \"Autavia\" 2019 chrono ref CBE2110? The same.\n\nLet me give CBE2110.FC8226 with moderate confidence ~0.4.\n\nCase material: stainless steel. Bracelet: leather. Movement: automatic.\n\nModel family: \"Autavia Calibre Heuer 02\" — brand TAG Heuer, model family \"Autavia\".\n\nActually, hold on — could the bezel indicate the \"Autavia Calibre Heuer 02 GMT\"? No, the GMT has a different bezel. The one here has 12-hour markers.\n\nI'll answer."
+       }
+      }
+     ],
+     "created": 1791198836,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 1232,
+      "prompt_tokens": 1377,
+      "total_tokens": 2609,
+      "completion_tokens_details": {
+       "reasoning_tokens": 1155
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 1152
+      },
+      "prompt_cache_hit_tokens": 1152,
+      "prompt_cache_miss_tokens": 225
+     }
+    }
+   ]
+  },
+  "input_tokens": 1377,
+  "output_tokens": 1232,
+  "cached_input_tokens": 1152,
+  "cost_usd": 0.000776406,
+  "cost_source": "rate-table",
+  "elapsed_s": 7.189,
+  "started_at": "2026-10-05T11:13:53.384932+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

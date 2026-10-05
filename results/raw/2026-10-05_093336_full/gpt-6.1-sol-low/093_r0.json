@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_093336_full",
+ "model_name": "gpt-6.1-sol-low",
+ "provider": "openai",
+ "provider_model": "gpt-6.1-sol",
+ "mode": "schema",
+ "row_id": 93,
+ "repeat": 0,
+ "image_file": "093_vc_patrimony-self-winding.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Vacheron Constantin",
+   "model_family": "Patrimony Self-Winding",
+   "reference_number": "85180/000R-9248",
+   "movement": "automatic",
+   "case_material": "gold",
+   "bracelet_material": "leather",
+   "confidence": 0.9
+  },
+  "raw_text": "{\n  \"brand\": \"Vacheron Constantin\",\n  \"model_family\": \"Patrimony Self-Winding\",\n  \"reference_number\": \"85180/000R-9248\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"gold\",\n  \"bracelet_material\": \"leather\",\n  \"confidence\": 0.9\n}",
+  "raw_response": {
+   "id": "resp_0755c7279148e452006ac36f42364487d28422655dd81dde59",
+   "access_programs": null,
+   "created_at": 1791192898.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6.1-sol",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0755c7279148e452006ac36f43581887d28c13983572571daf",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw29HE0OpR6RFg-7IS_mhOUB7Q3EiP7wWxhjreFi9gMvXYQ8Ac7Mmzejlpbc3SnBP03clh367EWtYgVq6f8962k8noqRN98lArUG_q6y5EJ_hdR3DhUUy-p9RxjliI3vBPtmGVwFJZvnz9Cyo_-nT9-94MZN-z23NEYIxeOfbEP5oVJn7DdEiHhfoOFE42TB5xcEsYtRZBg6vi4fL_27mwBASvHOw_WUC_pfRz9TeXTNr14m-QR8LkDSR0wO5OmycrL20zqDJ676bGta8Eu1Bz1y4FfPEg7ZOVbLC7n9xsHhZyc30Pgs82dFFrptKtleTgEzOa_opoGttGeCuPSucjKgAfGfao8q6xGQymee6fqFF14EBDTpF6OwNQ2hyCtHTU6KTLBWS8xND5OrnSSLZczXJW2GhhRWmvJAKWaTwzPWuhP5Fzh3xhO0DEZvP1uJlZ14Iu3b_vsPdFpIysBl1JJ6E8M0yxekaAVs2znkiDp4SQ0s4N0BXFJ0IJpXVIL3xizb1b5-Yw4QYuTSRCgn2pXkZSINREAId88dwj-16vHyMAd_uBWLOj1RNJMWAYpVS0bMWCTN08FJP6Cuq-z6erZ07ITqNKrL5huF6G8jq_uhGLlVF572jlv3m0R2T5bl1IxSh4gQYYqHcWP_XFL9gAivx_sr8C3eXUbSJWeh4E_1k6nyTxRhK43cF-2j4ur-Y8d0PkVMLlB4h3NTqlp8yuRIHPWP6uqf9vjlMPIq75QlYvo68nAj0a7QeIhNqQWRnC-cFwWhUd4tFK-Gynw8TExb1FxRP3pDD1LTdZgFgilZE6xb3Snm2aL8wiYIF7WZjH4VF3X5DeZNkBpt9VG-AF_ckoo2oa-fe4VaRvMb8-CNgcfHX-4agJNcErlzOHsfUO86zlaaXtW7iNqpJ12xhPUN4qTAVEPiDedgnDXErgtWWhegMwEAzlFxxgQoAIbVr61GSbC_4KZuFPphKBsvJgUZ5Cg0Qc6SN-T8BqfHJKOnVB_bwgnr24fAxRhbp--_yalpeZ8pE0G4NjKcSC2HQcl9hrrqnTcQkMssglM9cYAAsLzdUTXKUKi5mMG7-U7LHs7vKOORLWvl4ZFtNu6e8e6jfUJQ83v6z_Nlh0FJxXgB8e1xUyO26EdGsHlK3YLJI92gQJafLFnf1GnJj-7balwETdUQCpYed4wJ9IqakZnMEuf8qUEvAeyqxMC19BuMTpB3DlXtO_ehjh2KM2Jk2BT_Li__nAshOOYlIKQ2I7N0tA_gC001EpVTvoGhQV_yrveG0nDKMQEQLdJhgijbBvMJ5nNrj9IlMxij0bQ6ltj9rK0DFOyCtWkSHrADaG228pJwuLMb9sB_cnezphYQlNKSqwkrEwcUBte7MtfdW_QueBlAguJnwXYPOn8O54MXno7e9bvTAkaC0XW6hBzOuJgwgMRJLjgCGZugOB6R47cNKJuQyNBqrNOhEYSEbIA075zUM"
+    },
+    {
+     "id": "msg_0755c7279148e452006ac36f45d84c87d2a19c3dcf8919d10d",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Vacheron Constantin\",\n  \"model_family\": \"Patrimony Self-Winding\",\n  \"reference_number\": \"85180/000R-9248\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"gold\",\n  \"bracelet_material\": \"leather\",\n  \"confidence\": 0.9\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192903.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 1830,
+    "input_tokens_details": {
+     "cache_write_tokens": 1827,
+     "cached_tokens": 0
+    },
+    "output_tokens": 165,
+    "output_tokens_details": {
+     "reasoning_tokens": 80
+    },
+    "total_tokens": 1995
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 1830,
+  "output_tokens": 165,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.00531,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.439,
+  "started_at": "2026-10-05T09:34:55.534685+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6.1-sol"
+ }
+}

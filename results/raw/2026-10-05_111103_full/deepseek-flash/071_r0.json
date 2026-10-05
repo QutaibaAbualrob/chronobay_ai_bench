@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 71,
+ "repeat": 0,
+ "image_file": "071_iwc_portugieser-chronograph.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "IWC",
+   "model_family": "Portugieser Chronograph",
+   "reference_number": "IW371617",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.7
+  },
+  "raw_text": "{\"brand\": \"IWC\", \"model_family\": \"Portugieser Chronograph\", \"reference_number\": \"IW371617\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.7}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "6dcbd881-199b-4b27-b120-220f06806143",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"IWC\", \"model_family\": \"Portugieser Chronograph\", \"reference_number\": \"IW371617\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.7}",
+        "role": "assistant",
+        "reasoning_content": "The watch is an IWC Portugieser Chronograph, white dial with blue hands and numerals — that's reference IW371617 (the \" Portugieser Chronograph\" with blue hands/numerals on stainless steel bracelet). Actually IW371617 is the white dial with blue hands and numerals, stainless steel bracelet version? Let me recall: IW371605 is the classic Portugieser Chronograph with silver-plated dial, gold hands... Actually the 2020 Portugieser Chronograph ref 3716 series: IW371604 (white dial, gold hands, leather), IW371605 (silver dial...), IW371606 (blue dial leather), IW371609 (black?), IW371616 (blue dial bracelet), IW371617 (white dial with blue hands/indices, steel bracelet).\n\nYes, IW371617 is the Portugieser Chronograph with white dial, blue numerals and hands, stainless steel bracelet. Movement: automatic (calibre 69355). Case: stainless steel. Bracelet: metal.\n\nModel family: Portugieser Chronograph.\n\nConfidence ~0.7."
+       }
+      }
+     ],
+     "created": 1791198895,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 301,
+      "prompt_tokens": 564,
+      "total_tokens": 865,
+      "completion_tokens_details": {
+       "reasoning_tokens": 235
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 180
+     }
+    }
+   ]
+  },
+  "input_tokens": 564,
+  "output_tokens": 301,
+  "cached_input_tokens": 384,
+  "cost_usd": 0.000208752,
+  "cost_source": "rate-table",
+  "elapsed_s": 2.594,
+  "started_at": "2026-10-05T11:14:52.425625+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

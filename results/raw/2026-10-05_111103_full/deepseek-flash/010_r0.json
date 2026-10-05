@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 10,
+ "repeat": 0,
+ "image_file": "010_rolex_submariner-no-date.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_family": "Submariner (No Date)",
+   "reference_number": "114060",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.45
+  },
+  "raw_text": "{\"brand\": \"Rolex\", \"model_family\": \"Submariner (No Date)\", \"reference_number\": \"114060\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.45}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "730f2254-0e5b-4426-8a2a-72e916f3ac62",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Rolex\", \"model_family\": \"Submariner (No Date)\", \"reference_number\": \"114060\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.45}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Rolex Submariner, no-date version (black dial, no date window). It has a ceramic bezel (Cerachrom), maxi dial with large markers, and \"Submariner\" text above \"1000ft = 300m\" with two lines. The no-date Submariner with ceramic bezel is reference 114060. The newer 124060 has the crown between \"Swiss\" and \"Made\". Let me look: dial says \"SUBMARINER\" then \"1000ft = 300m\" — actually in the image: \"SUBMARINER\" and below it \"1000ft = 300m\" in a single line? The text appears as \"SUBMARINER\" then a line \"1000ft = 300m\"... Hmm, on 114060 the text is:\nSUBMARINER\n1000ft = 300m\nOFFICIALLY CERTIFIED\n\nActually on the 114060 there are 4 lines: \"SUBMARINER\", \"1000ft = 300m\" on one line, \"OFFICIALLY CERTIFIED\" below. On the 124060, the same but with a crown between SWISS MADE.\n\nThe photo shows \"SUBMARINER\" and \"1000ft = 300m\" and \"OFFICIALLY CERTIFIED\". Bezel has thicker numerals on 124060? The lugs on 124060 are slimmer. Hard to tell from photo. I'll go with 114060 but low confidence... Actually, let me think about the bezel: On the 114060 the bezel insert has markings where the triangle... The 124060 has a slightly wider bezel with slimmer lugs. Hmm.\n\nGiven ambiguity, I'll say 114060 with confidence ~0.5. Actually many would say 124060. The photo: lugs look somewhat slim? The bracelet appears to have wider center links... Both have Oyster bracelet.\n\nLet me consider the crown guard and case shape. The 124060 has lugs that taper more. Honestly can't distinguish reliably. I'll go 114060 with confidence 0.45.\n\nHmm, the dial text \"1000ft = 300m\" — on the 114060, the depth rating is \"1000ft = 300m\" and on 124060 also \"1000ft = 300m\". Same.\n\nI'll answer 114060. Movement automatic, case stainless steel, bracelet metal.\n\nActually, could this be a Submariner 14060M? No—those have aluminum bezel with thinner font and lug holes; the dial has 2 lines \"SUBMARINER\" \"1000ft = 300m\" without \"Officially Certified\"? The 14060M has 4 lines too. The bezel here is ceramic (glossy, with engraved filled numerals) — the 14060M has an aluminum insert. This looks ceramic. So 114060 or 124060.\n\nI'll go with 114060."
+       }
+      }
+     ],
+     "created": 1791198672,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 707,
+      "prompt_tokens": 1357,
+      "total_tokens": 2064,
+      "completion_tokens_details": {
+       "reasoning_tokens": 641
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 1152
+      },
+      "prompt_cache_hit_tokens": 1152,
+      "prompt_cache_miss_tokens": 205
+     }
+    }
+   ]
+  },
+  "input_tokens": 1357,
+  "output_tokens": 707,
+  "cached_input_tokens": 1152,
+  "cost_usd": 0.000458406,
+  "cost_source": "rate-table",
+  "elapsed_s": 4.834,
+  "started_at": "2026-10-05T11:11:09.139770+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 43,
+ "repeat": 0,
+ "image_file": "043_tagheuer_aquaracer-professional-300.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Tag Heuer",
+   "model_family": "Aquaracer Professional 200 Solargraph",
+   "reference_number": "WBP1110.BA0627",
+   "movement": "solar",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.55
+  },
+  "raw_text": "{\"brand\": \"Tag Heuer\", \"model_family\": \"Aquaracer Professional 200 Solargraph\", \"reference_number\": \"WBP1110.BA0627\", \"movement\": \"solar\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.55}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "9a5b9943-95f3-41a5-89df-54f1155e3bd3",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Tag Heuer\", \"model_family\": \"Aquaracer Professional 200 Solargraph\", \"reference_number\": \"WBP1110.BA0627\", \"movement\": \"solar\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.55}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a TAG Heuer Aquaracer Professional 200 Solargraph. The dial shows \"AQUARACER\" and \"SOLARGRAPH\" text, black dial with horizontal lines, date at 6 o'clock, black bezel. The case appears to be... the Solargraph is stainless steel (or titanium for some models). The reference for the steel Solargraph with black dial on steel bracelet: WBP1110.BA0627. Let me think.\n\nTAG Heuer Aquaracer Professional 200 Solargraph 40mm — references:\n- WBP1110.BA0627 — black dial, stainless steel bracelet\n- WBP1111.BA0627 — blue dial?\n- WBP1112.EB0238 — ?\n- The \"Solargraph\" titanium version: WBP1180.BF0000 — blue dial titanium with rubber.\n- WBP1181.BF0000?\n\nThe standard black dial Solargraph on steel bracelet: WBP1110.BA0627. Actually I recall WBP1110.BA0627 is the black dial stainless steel Aquaracer Solargraph 40mm.\n\nThe case here is steel colored with a black bezel. The dial is black with horizontal streaks. So WBP1110.BA0627 seems right.\n\nMovement is solar (Solargraph = solar quartz). The options include \"solar\" — yes, \"solar\" is given. So movement: solar.\n\nCase material: stainless-steel. Bracelet: metal.\n\nConfidence: ~0.55-0.6.\n\nModel family: Aquaracer Professional 200 Solargraph.\n\nLet me double check reference format: TAG Heuer uses \"WBP1110.BA0627\". Yes.\n\nActually, there's also the black DLC/titanium \"Solargraph\" — WBP1180.BF0000 with rubber strap. This one has a steel bracelet so WBP1110.BA0627.\n\nI'll give confidence 0.55."
+       }
+      }
+     ],
+     "created": 1791198811,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 498,
+      "prompt_tokens": 675,
+      "total_tokens": 1173,
+      "completion_tokens_details": {
+       "reasoning_tokens": 422
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 512
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 163
+     }
+    }
+   ]
+  },
+  "input_tokens": 675,
+  "output_tokens": 498,
+  "cached_input_tokens": 512,
+  "cost_usd": 0.000324786,
+  "cost_source": "rate-table",
+  "elapsed_s": 3.586,
+  "started_at": "2026-10-05T11:13:27.962358+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_093336_full",
+ "model_name": "gpt-6.1-sol-low",
+ "provider": "openai",
+ "provider_model": "gpt-6.1-sol",
+ "mode": "schema",
+ "row_id": 100,
+ "repeat": 0,
+ "image_file": "100_vc_fiftysix-complete-calendar.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Vacheron Constantin",
+   "model_family": "Fiftysix Complete Calendar",
+   "reference_number": "4000E/000A-B439",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.97
+  },
+  "raw_text": "{\n  \"brand\": \"Vacheron Constantin\",\n  \"model_family\": \"Fiftysix Complete Calendar\",\n  \"reference_number\": \"4000E/000A-B439\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"leather\",\n  \"confidence\": 0.97\n}",
+  "raw_response": {
+   "id": "resp_07d0ebe3b4534f78006ac36f48093487d2a5d3876b27adc503",
+   "access_programs": null,
+   "created_at": 1791192904.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6.1-sol",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_07d0ebe3b4534f78006ac36f49a0ac87d2b2c9729b5a044f66",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw29M970aQXttgNGomv8AZYfVu3UqXvHhhrURoUhHfwwrwn1groE8x5vGMblyXCzcx5XVtyMnKBycP8u0wWQdUF5UAkD_QUHKMJ02LTGctGp0PkqJDB3CekejHuLn_iHU9Q4unhen9pJQLPv47Kji-ZTy41Mq_irYsTQaYWk9VyOlUorvJIY5-a8x6GfFZ6h-yLgr_vI1Pk5VcX8tiAn2_yzKmEhpKmgz0211bL6xQLWjCVMbRf_F2q0gX9CMT61rZhef8D6CJ5T_Mc9-hCum0vhOqX-hOACmofAaZEMIdCjz8C-Zp03NjwLlmPluwUscREMrYe4WrkaDQHrT1ToeLjrh5oKREmArHIpAFlIN0Kubyow-J9iiLO2a7H48zx0qYIzcCRfZ3Odvx69OtF27ji0lHei6S8UMinLoUYQfwkHAdyROfwY6jqfRwIYkWQSQjnno97uASA5wCKgsTNBgUb-2uA1iIbynGP_OBlzqx145ZdHB637GPdAGQ51I8h_UV9AXBkOFmfSGrUoCSD47fbsHxPuvZVMM20q1ayWXMXRu5S2de4A-x7j1HUHiF6jfemrm6k7kfa88KtwfCyBq_b3xnQISEmx2Y_2meOLSDwau93ZcRoC-rJ5HK0xjehiUW0NpQmRRWgWEsarUfWmG_-zf_ReiGlwCiVO6bmNtdTs_Lu-HDrGGe0GCO69-SBg0ZEEXKzNNv0hAVCFDVFraNQmot-XdBPbf-shUNE3GCwr5bOtdJxk1VucMn5T2lHMsPZgDZsDaHVKX4Cq_rBxNtSL-UTaKT7psmoqXQ5_Ott9UTKxbeEbcUJxP-BQks-4eUlT20Rp8vLt4HNgOQpB2d1ZlNQPfN2FF7gpDi9rTbbvkOxc3b-rzua6tEDfiU6GpLpWfkWNvwF1TbKlPZ9E06s_HNy29ELK6_zfOIwz2nU0bN7kRkhAlVCpKfscIllJtjoBwjfC68n12S6Z7Sh2Vj1nXPqkLa168Gdg4cPD1bBkywrMyL2lHKzCKCs88qDYxI5zRy6fMVRL-r9TH_MNrTeGc5Vbo3trUUzEG56K2IoBipaf8AHME0RZTBX_i_wEkNV5IexN_zAxqyMJGEzga7oR-PakyWllVkfgzw2MBMJ4dqZXRvUvotappzbmqHomOuA37kxzzM1scfhQZ1_EzqwgJzFyS6qpu3NbJRAUVpudaWed0DHfFwwtt0z8cvbKfbQeAx1hhM513bMXO8lT0f9ahKtHTitanJLic_9FR8wiQuxd5umOQDBS6ScH6wO6iWj2J"
+    },
+    {
+     "id": "msg_07d0ebe3b4534f78006ac36f4b36ec87d28830d6f4ad9ae40f",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Vacheron Constantin\",\n  \"model_family\": \"Fiftysix Complete Calendar\",\n  \"reference_number\": \"4000E/000A-B439\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"leather\",\n  \"confidence\": 0.97\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192908.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 2987,
+    "input_tokens_details": {
+     "cache_write_tokens": 2984,
+     "cached_tokens": 0
+    },
+    "output_tokens": 115,
+    "output_tokens_details": {
+     "reasoning_tokens": 28
+    },
+    "total_tokens": 3102
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 2987,
+  "output_tokens": 115,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.007124,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.115,
+  "started_at": "2026-10-05T09:35:01.317266+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6.1-sol"
+ }
+}

@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_093336_full",
+ "model_name": "gpt-6.1-sol-low",
+ "provider": "openai",
+ "provider_model": "gpt-6.1-sol",
+ "mode": "schema",
+ "row_id": 49,
+ "repeat": 0,
+ "image_file": "049_tagheuer_aquaracer-professional-1000-superdiver.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Tag Heuer",
+   "model_family": "Aquaracer Professional 300 Night Diver",
+   "reference_number": "WBP201D.FT6197",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "rubber",
+   "confidence": 0.97
+  },
+  "raw_text": "{\n  \"brand\": \"Tag Heuer\",\n  \"model_family\": \"Aquaracer Professional 300 Night Diver\",\n  \"reference_number\": \"WBP201D.FT6197\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"rubber\",\n  \"confidence\": 0.97\n}",
+  "raw_response": {
+   "id": "resp_075e0986c54a6f16006ac36f16b0d487d2a003ca67c6a7e8d3",
+   "access_programs": null,
+   "created_at": 1791192854.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6.1-sol",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_075e0986c54a6f16006ac36f1c6f9487d298cbc01e910c62ad",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw28g76qdTCEA0BXtjjr627LZoj1aFkocME7W2b9--RJNnwHNOM4Q8NAJTkogYqpxb_L8tbV84kCTU2Qnj_Z8kzGlP0eUHM8mWDPbF87JBeAB9mzzJCAHIY_A7uYfhs2JjDOtD8HL_1NwBzRiG8OfaISqtMxQDQLcmaxsfXqrrFeWymw_ChbXmQ5I7tQ6K9m9Iguv-5KJb15_LZ1VIG8AMwPdfcYSqk8ufMFeNhpd_iQMinNHT6kJXBi0HEapRIJ8esODa3iJEOGe-AAA7QY92fjUrcYUgTvM7EZhfvWVU3Q4jE2FG3EYmcpcSs6SS3CSEmITMeOCb_4pJZ-sK9gDhFiGwbvSHP9997YevwdpgLe2Qrckcv43SiTwK1hz0e5NudtKTsSMI-ZdynNco_ZQ0sN7KK3B2oRLWV61JCqGORA6SLvB5dH3bjy8u4p0mmcJpNxRHTj9821PoCkKpNQO0GU7ynQ6sC-w5c-Z7hxjgaVxIlhbNA8DZw6VyQPpvJxxNDa6l4pB8LOstwBQIFZi_MzhxtHLMRDEpJ0j7QxO84a89rdr9qBjQURaIRkXKBh0ctM4vui3qGtKkgZ3w95Kfqj8kB_ev80SMasOnjRT2TF0owo3kzIweRmPVC8TMh9VdSw7EN_7IPCQGEOoI7fgQbZNrb7ZSkhxQxdt65WtAvd1HfxvHo6rcWzOxIPtr8TdV1i1SWZ45ieIU5RlJ97AkwsgckGlkpjNuOyC-BzVOs1255e4g8BuecOOTHaUFS7Zn_GVIwWTFIKzMi5frLXF0Wkv3mcWVHhS65JR5Mi0Wv4UA6QNAgwgrrZGVMxxBPy990W0deTjAnrgEYOELRNHdE_BWhPAd19dtcgbklpwVQQCK4Fw5gVcS1ld2wtvnfeYuJ_2_-lVm0lVAt9rXtl_UtC3eDRon3zhCoekM_OF1TcAuKMXtkIamuyXsEzF8IEjdCkXOER_CsMc0rzwS1l_l_17uhlbp8CC0TDX3dBghm1BOK1aKVuzgrdRY1Afe2pUeq0CNts4V7E_jqr_VnHuzzSj5kgVoc8o_6LHx-lkesNZ2fZzDVgiXwpRynmrxULxoudubFgRi88iehjdxJP76i84SShxfgSps4EC2dCMFYp67yVpaQL9Y2Td90v6aDbveNn6BfOx0RUgrb2bu4xbDgs5i45RhC9bipKRUe5zPsIgI6OCYLNG1tjSg7LMEvLH81lgvZwaPGPAAE8S3koe-M9EXUWxLl5X1s_PpvMjQIYzAto9lFwXSHija6mkLj4J4qdAaoJWijxgEOJeE6CUcl2qrGW3Urt4ZdvYU2F1YOlk8RH9IL6_tPMEtzXwVJpaFtx4h-3mzmLHAXtYDXWXrfcpIQ=="
+    },
+    {
+     "id": "msg_075e0986c54a6f16006ac36f1e621087d291b0230de7032238",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Tag Heuer\",\n  \"model_family\": \"Aquaracer Professional 300 Night Diver\",\n  \"reference_number\": \"WBP201D.FT6197\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"rubber\",\n  \"confidence\": 0.97\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192863.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 3443,
+    "input_tokens_details": {
+     "cache_write_tokens": 3440,
+     "cached_tokens": 0
+    },
+    "output_tokens": 133,
+    "output_tokens_details": {
+     "reasoning_tokens": 44
+    },
+    "total_tokens": 3576
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 3443,
+  "output_tokens": 133,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.008216,
+  "cost_source": "rate-table",
+  "elapsed_s": 10.663,
+  "started_at": "2026-10-05T09:34:11.993256+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6.1-sol"
+ }
+}

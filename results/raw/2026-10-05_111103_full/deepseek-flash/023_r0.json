@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-05_111103_full",
+ "model_name": "deepseek-flash",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 23,
+ "repeat": 0,
+ "image_file": "023_patek_calatrava-white-gold.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_family": "Calatrava",
+   "reference_number": "5227G-001",
+   "movement": "automatic",
+   "case_material": "gold",
+   "bracelet_material": "leather",
+   "confidence": 0.2
+  },
+  "raw_text": "{\"brand\": \"Patek Philippe\", \"model_family\": \"Calatrava\", \"reference_number\": \"5227G-001\", \"movement\": \"automatic\", \"case_material\": \"gold\", \"bracelet_material\": \"leather\", \"confidence\": 0.2}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "c687ad6b-907f-4d00-a03e-f4affbbbbbaf",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Patek Philippe\", \"model_family\": \"Calatrava\", \"reference_number\": \"5227G-001\", \"movement\": \"automatic\", \"case_material\": \"gold\", \"bracelet_material\": \"leather\", \"confidence\": 0.2}",
+        "role": "assistant",
+        "reasoning_content": "The watch: Patek Philippe Calatrava with black dial, date at 3 o'clock, stainless steel case, black leather strap. Reference 5196 doesn't have a date. A Calatrava with date at 3 and center seconds... The Calatrava 5227 has a date at 3 o'clock but with a \"hobnail\"/officier case... Actually 5227 has a hunter caseback, glossy black dial with date window at 3. The 5227G. But steel? Patek Calatrava in steel... Could this be a replica — dial text \"PATEK PHILIPPE GENEVE\" printed somewhat oddly.\n\nThe Calatrava 5227: 39mm, automatic (324 SC), date at 3, black lacquer dial, white gold or rose gold or yellow gold. Reference 5227G-001 (white gold, black lacquer dial with date). Also there is a 5196 (no date, small seconds). Hmm.\n\nAlso consider the \"Calatrava Pilot\" no. What about reference 5127? 5127 is Calatrava with date at 3, center seconds, 37mm, automatic 315 SC. 5127G-001 white gold black dial. 5127 is discontinued. Case looks like 5127 style with the straight-ish lugs. Actually 5127 has a distinctive case with slightly curved lugs.\n\nThe photo appears to be a replica (Seiko-based?). But we should give best guess. Given date at 3, center seconds, thin bezel, black dial, this is likely Calatrava 5127G or 5227G. The bracelet is leather, case material looks steel/white gold polished.\n\nLet me think about 5227: it has a hinged caseback with a \"officier\" style, and a distinct smooth bezel. The 5227 dial: lacquered black with applied gold baton indexes, date at 3. Movement 324 S C. Reference 5227G-001 (white gold, black dial).\n\n5127: dial has painted... 5127G-001 with black dial. 5127 case 37mm with a rounded bezel and downturned lugs.\n\nThe image's lugs look fairly slender with straight edges — looks more like 5127 or maybe a fake. Hmm, I'll go with 5227G-001? But case material: Patek stainless steel Calatrava exists (e.g., 6006G is rose gold). Actually the 5127 was available in steel? Not typically. But a steel Calatrava would be unusual — could be the ref 5196 in... no.\n\nHmm, the case material here appears stainless steel (grey, cool tone, no gold warmth — though white gold is same color). Given the lighting, the case looks like steel. Patek Calatrava in steel: 6006G-001 is white gold with... Actually there's a \"Calatrava 5212\" etc.\n\nGiven the dial printing appears to have a fairly thin font, and the date window at 3 with white disc, I'll go with 5227G-001 white gold. Wait — but the case looks steel. There's a Patek 3800? Hmm.\n\nAlternatively this might be a fake \"Calatrava\" with reference 5296G-001 (Calatrava 5296, 38mm, date at 3, center seconds, sector dial for the G-001; actually 5296G-001 is the \"Sector dial\"?). 5296G-001: white gold, silver dial... 5296G-001 is the sector dial version (grey/blue?). The 5296 has \"Calatrava\" with date. The 5296G-010 has black dial? Hmm. Actually 5296G-001 is the \"Sector Dial\" (steel? no, white gold) — it was the 2006 launch with a two-tone sector dial. There's also 5296G-010 with... hmm.\n\nLet me consider 5296R-001 (rose gold, silver dial). 5296G-001: white gold, sector dial. 5296P? \n\nThe watch in picture: black dial, date at 3, thin printed \"PATEK PHILIPPE GENEVE\", dauphine-ish hands, applied baton markers. That matches 5127G-001? Actually 5127G-001 is white gold with black dial and date. I think that's the best guess... Hmm, but 5127's dials: 5127J-001? The 5127 \"Calatrava\" 37mm: references 5127J, 5127R, 5127G. 5127G-001 = white gold, black dial? Something like that.\n\nGiven uncertainty, I'll pick 5227G-001 since it's the well-known modern Calatrava with date. But the 5227 has a slightly different dial with the date at 3 and a \"PP\" signature. Actually the 5227 dial is lacquered glossy black, and the \"PATEK PHILIPPE GENEVE\" is printed. Yes.\n\nHmm, but 5227 case is 39mm with a distinctive \"officier\"-style with the hinged dust cover — from the front, it looks like a round Calatrava with a stepped bezel. The photo shows a fairly flat bezel with the crystal slightly domed, no stepped bezel. Given the picture, I'd guess 5127G-001.\n\nConfidence low: 0.2.\n\nCase material: white gold or stainless steel? I'll say stainless-steel based on the appearance? The question says give one of the enumerated values. The case appears steel-ish; but Patek Calatrava with black dial in steel — 5127 was never in steel; but a replica often. Hmm. Blue-ish grey polish suggests steel. But white gold looks the same. Safer: gold? I think visually steel. Many fakes of 5227 in steel.\n\nHmm, the fake aspect: this looks like a Chinese homage/fake (Seiko movement). But we must guess. I'll answer case_material: stainless-steel? Actually for the resale pre-fill, better to give the real watch's specs. For Patek 5227G — white gold. Hmm, but \"gold\" is the option. I'll say gold (white gold) with the reference 5227G-001. Hmm, but the case looks steel in the photo... Visually indistinguishable.\n\nLet me decide: I'll go with reference 5227G-001, case material gold, movement automatic, bracelet leather, confidence 0.2.\n\nWait — is there another Calatrava with date at 3 and center seconds and steel: the ref 5196 has no date. The ref 5227G-001 has date. The ref 5296G-001 \"sector dial\". The ref 5127G-001? Let me recall: Patek 5127 was introduced ~2006 as \"Calatrava 5127\", 37mm, automatic 315 SC, date, and it replaced the 5127... it came in J, R (yellow/rose), and G? I believe 5127 came in yellow gold (5127J-001, white dial?), rose gold, white gold... Reference 5127G-001 with blue/black dial? There is 5127G-001 black dial? Hmm.\n\nI recall 5127R-001: rose gold, silver/white dial. 5127J-001: yellow gold, black dial? Not sure.\n\nThe 5227 is 39mm and has a much more famous presence with lacquered black dial in white gold (5227G-001). The picture watch appears smallish; but hard to tell.\n\nI'll go with 5227G-001.\n\nActually, another consideration: the date window shows \"6\" with a white background, typical. And there's \"SWISS MADE\" at bottom. This is consistent.\n\nFinal: brand Patek Philippe, model_family \"Calatrava\", reference \"5227G-001\", movement automatic, case gold, bracelet leather, confidence 0.2.\n\nHmm, if it's a fake, listing pre-fill with steel... I'll go gold for the genuine reference. Fine."
+       }
+      }
+     ],
+     "created": 1791198699,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 1863,
+      "prompt_tokens": 1357,
+      "total_tokens": 3220,
+      "completion_tokens_details": {
+       "reasoning_tokens": 1799
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 1152
+      },
+      "prompt_cache_hit_tokens": 1152,
+      "prompt_cache_miss_tokens": 205
+     }
+    }
+   ]
+  },
+  "input_tokens": 1357,
+  "output_tokens": 1863,
+  "cached_input_tokens": 1152,
+  "cost_usd": 0.001152006,
+  "cost_source": "rate-table",
+  "elapsed_s": 11.292,
+  "started_at": "2026-10-05T11:11:36.493626+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

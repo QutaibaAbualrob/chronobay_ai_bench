@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_093336_full",
+ "model_name": "gpt-6.1-sol-low",
+ "provider": "openai",
+ "provider_model": "gpt-6.1-sol",
+ "mode": "schema",
+ "row_id": 20,
+ "repeat": 0,
+ "image_file": "020_omega_de-ville-prestige.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Omega",
+   "model_family": "De Ville Prestige Co-Axial",
+   "reference_number": "424.13.40.20.02.001",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.77
+  },
+  "raw_text": "{\n  \"brand\": \"Omega\",\n  \"model_family\": \"De Ville Prestige Co-Axial\",\n  \"reference_number\": \"424.13.40.20.02.001\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"leather\",\n  \"confidence\": 0.77\n}",
+  "raw_response": {
+   "id": "resp_06335a4a67110e86006ac36eff90d087d2a4ede0460a5c5d06",
+   "access_programs": null,
+   "created_at": 1791192831.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6.1-sol",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_06335a4a67110e86006ac36f00a61487d28ec050da285bd0a7",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw28FWGOqjxYObr5irj2Iz5wULsadnhd5Mmfc8sPTkZvP3EtM6F3ge8w91bonpkqRJF7itGqQrd7-sssrTBCnp1atlQlFeYTBEOMaHbT0GLW0mXrDLyzKMFu6maM3g2-j07zuaZ7BAvlxsGR-MX2x0AWvHR1QkZiDh2zZe0EUzmYqTWW4s2DAyCK9suukMan9T3F0Yzeeu-CA_vSFUkGpb9W9BlpDeX23PgZQGqYyMMLc0rfpiNRcpq2z4rb7Xx0o442GS1qYKBXAjmPDITfhTw7Lltb5CQpyZOk_-cTZ1L3qnu6gFP32j3SD7MRhxTa4Utots34nCYuOt_yjHRqmk0UQvGC9hw-UEUut0VX_88kck_KJF0MAU7mYsZ3dAgxkYdDUdyHMIQ4FyjyDWItLHX8ca4rlOedKGgV_7qyAC2wSSyuoTzzsu3yOqOgKWvk6xeuSzS1SFmf4-6kz3_NuhQVblrdY8gkfwgGIDpfkSkHb0lRWChDvs-crIZaArmowiRyWA9DZAP0HtI2-L9BC6mWBRt6welvY77JAIauhrnpRMPG7tQj7ybcl_LtXGJVm234sGtI149DQqrUUUVFrzA8AuC7b_ooH2i0L_o0q5xUzCXFsmmkcvznW4Sg3z1qPjn7K4Jo_fV2qVgR0DZaw34yLxyuSkNHoZAcnxSncaZsRR-wgsj8k8AoNxZeRsHe5P3QYdLaJVNkhldtpz9i2U7aagT8MGOCFb9QLDh55DtyiCz_L_UHCRZ8Nh5_VkoXBhTJI5dlenf9aY05n8jmL98BvUPFZY7geTze7ghWOvQrsqWdYZ-meZ0-R2jhZVSTEPErKY73pcBkYA52t-kxTW9QodINR-kzLDWppMth8WSoDfdXqpI6VRa3eKGqA0XLASabMnH-Y7TASFx6wyjnZ7rwwCTlk3vIssnotk38ruW6IhXsWCjLwD7-aUa7xnxrIiY1BG4MtFVrkMAT3pqFvg9aymeY3KO0UGMnMZQ5tpt3RP8FfbJr7oG7b1-YuwyNpH-OttwUVCrvrL__1HZKW_OUWqSxSBObTjbZ8Rpm-N-N-TxGq-0-LWzsFZhYvki0z2QfWFSExyWggcNzAZuDac5TcvGUk1XdzThxozZjNYyXU19Bioizlz10RvgVf_WD3W_Mpdwxnndg1oA_MRWopfpcWSXfPOCVgfbzzANGzgs92zw4hEATAZF9mWWnGv7l824aEo3dk4QWzRKFKKpNyqMv1CRQKmb2eXiyoRrRW6p90yqsM5IHQA5bAtojMtz2dhODNH3PwZ0CjWPOB9vS_dul_81bmQbahKwJCCU1Ip-AktPz2NMVgeH5aiUTqLXJqr0loBig7Nxj-5Yp_XXx9nZ8sIzgdIK7nfg7nAH-4rVC4zcAnuhreYU6xADmg9l-1ORQL0eYwXXca__nWUPU9Vr4BRNFoMhEVdbfQJij7NE3WP3HkLGTrOdd5JBx0ArhuhWrwy101WVKxnd4XT2iy7eVMROafEmQH-2SIl1hfrMcQSel615haUf7Q7A2W3vOIu-hECxYcrMjGyhcz3GFCyo0yw38Jx9CvL_GW9bDZCHk_85TjCBF4EAQQBD8sgUUemc5ef0U1DwCFbyVdJ57i6cwfwk1OuqjczNaxSgNzpJdsIcf1FG0yjoIwVCZDbYJRAJk_F_2E7ewrqW5UqUqNrV5wbEEDgove2snKORnO-lLB0Aq5tvKmcRXhCo6u9rjzbanh"
+    },
+    {
+     "id": "msg_06335a4a67110e86006ac36f041ac487d291f98b8d178223df",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Omega\",\n  \"model_family\": \"De Ville Prestige Co-Axial\",\n  \"reference_number\": \"424.13.40.20.02.001\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"leather\",\n  \"confidence\": 0.77\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192837.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 1193,
+    "input_tokens_details": {
+     "cache_write_tokens": 1190,
+     "cached_tokens": 0
+    },
+    "output_tokens": 218,
+    "output_tokens_details": {
+     "reasoning_tokens": 129
+    },
+    "total_tokens": 1411
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 1193,
+  "output_tokens": 218,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.004566,
+  "cost_source": "rate-table",
+  "elapsed_s": 6.162,
+  "started_at": "2026-10-05T09:33:48.883533+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6.1-sol"
+ }
+}

@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_093336_full",
+ "model_name": "gpt-6.1-sol-low",
+ "provider": "openai",
+ "provider_model": "gpt-6.1-sol",
+ "mode": "schema",
+ "row_id": 14,
+ "repeat": 0,
+ "image_file": "014_omega_seamaster-planet-ocean-600m.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Omega",
+   "model_family": "Seamaster Planet Ocean 600M",
+   "reference_number": "215.30.44.21.01.001",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.83
+  },
+  "raw_text": "{\n  \"brand\": \"Omega\",\n  \"model_family\": \"Seamaster Planet Ocean 600M\",\n  \"reference_number\": \"215.30.44.21.01.001\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"confidence\": 0.83\n}",
+  "raw_response": {
+   "id": "resp_0da72c792cf07b59006ac36efa926487d2b412a365360a89fe",
+   "access_programs": null,
+   "created_at": 1791192826.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6.1-sol",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0da72c792cf07b59006ac36efc1fec87d2912b6c0897215315",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw27_Iyj3CgMVwrXwPzPUmxGtdThTH9FWCHTzjwt9RkD9-uFElKY6bNy_vCDBEqaxXf1mBhjgN2daov4yfV3USMhP06Xepc0RQyDpYe06m4jVA7wcmJtJBWxdIw6uXjvWRXUYr-_WndVzRWOfVnXU2le7oEjdc3PkJu9XY7XOBs_jSbobVH2oXXqAIjyvlVVxJJiDrVF-PtS_vggVuonFinOzmgf2IZCRzdBkpyoHriNzHV6crBziOC7xoZG17dux2aRAx7SE4sxxTAeQcXLoOfwG7OW5fPimuR5qQViDcTJKt1xvcysOBozLhFjkOkKNaXdb5TvLPr6yKIJoSYm02PkqLWwTw3cRh7Q7q8LTfzcTcste9EMvzk71rLtH1qaXKUB9ckdaby_bF1gOKcV8-6zr8fnmEzxjdNBAwtYVL3b6t6Tj5zA5ZMAigFUhBukNEqBr9GeKr1Md-1v5avxw1GonI6rUmFhLJrAWFZ6wla9OnnlqiSRvPrt9lwcj1thKZKfYLnFPUvzHFKxQgfvBR8eYieiRLVPkoNnJoIw8kIKhdJKBtYdKSgGWNakuE1GqZbqbKJcbzqGSjGkO-bj0XmjccYqXZdVnfzGdmmHNW6DiOIQYOgv5f_EkrIKJdXvn1fP7XGB29-UqGhd0cnkmzDNkgOP_HCYnWDM4XLdpFdjBd3Mm59Kg-Rz3i1msk76Li77VhHrBp3zw3aE4lss4PERBKNdoIxTBBMj6_g1KNJD0LfDnmitVk0mjHBK5m-h3zqJGg_Vw-8mrArA8XGUUejTbYdh6He47sd_3jJ2r-TvvK_Gc-EiysSdFhGY-4S4Q929fdujwvd0wOQk-PpmMMeZ_0pSOqXUNyHomAlpuNa214QaWitvS-FLfZdDXmXZ6j7fpRCXfYKR6QlXz-7eKJw3BNmDzR96N56Zjlsl-aNcsWZooL3Sasuo6ef-BXdlAOAmXvLVBpFu7719OhkxsUgiL3165rPbvqJ3mZkHByOI9nxml5dFFQJm8LUzbXSwzg1yAWWESeuaOvZH1o4NXWcZw_BgZ8xnsSfW77qeIHJng9n_JzsFA5RCOwPn040Kj9TjJyEllnLy9FlmlAHGZqPEwip16fRUh8akH_U2jg32DAUgO70FuA2xR5RfeO0wiuJr_mfFDIazBPAkOEQA3_m8pUWhSU8YC4oVb60BJNouD4fTW_dU1fuynzQmGyYQ3qjhBLIebIaUaXQygMtlxm2Jni0LlVivPmEkKX4Huc0H8EWxD8XrOTBr-ctRO96iNagYNI_ltVEd6onhoUQb2qI5ZHtym5iP08sDkWO6yjvlZwpgCyqTH_fWbtAkV2oxnfWokt3Mc_PrlHFZE9uB887nVpP1tIY31xU5bK74dhgu4JEL7781XmXQqlyxFIdwifWMd4S6ragGMSHuT03zSbPlCpQ=="
+    },
+    {
+     "id": "msg_0da72c792cf07b59006ac36efdf0a887d2aeb42cb490d2aaa1",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Omega\",\n  \"model_family\": \"Seamaster Planet Ocean 600M\",\n  \"reference_number\": \"215.30.44.21.01.001\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"confidence\": 0.83\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192831.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 3443,
+    "input_tokens_details": {
+     "cache_write_tokens": 3440,
+     "cached_tokens": 0
+    },
+    "output_tokens": 161,
+    "output_tokens_details": {
+     "reasoning_tokens": 72
+    },
+    "total_tokens": 3604
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 3443,
+  "output_tokens": 161,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.008496,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.363,
+  "started_at": "2026-10-05T09:33:43.520319+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6.1-sol"
+ }
+}

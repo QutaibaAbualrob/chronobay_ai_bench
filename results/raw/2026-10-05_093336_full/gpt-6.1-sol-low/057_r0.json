@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_093336_full",
+ "model_name": "gpt-6.1-sol-low",
+ "provider": "openai",
+ "provider_model": "gpt-6.1-sol",
+ "mode": "schema",
+ "row_id": 57,
+ "repeat": 0,
+ "image_file": "057_breitling_navitimer-automatic-41.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Breitling",
+   "model_family": "Navitimer Automatic 41",
+   "reference_number": "A17326241B1P1",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.78
+  },
+  "raw_text": "{\n  \"brand\": \"Breitling\",\n  \"model_family\": \"Navitimer Automatic 41\",\n  \"reference_number\": \"A17326241B1P1\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"leather\",\n  \"confidence\": 0.78\n}",
+  "raw_response": {
+   "id": "resp_010782e5b1276f2f006ac36f1e610087d284b4f98e3c064f4e",
+   "access_programs": null,
+   "created_at": 1791192862.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6.1-sol",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_010782e5b1276f2f006ac36f22779c87d289543a6ff58b41d2",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw28o8NS9xH1EyqJwXow9eLjRFzExRQ6U6laihP14NKZGuFEJGONzV3Oz8O4J-k8J6iI91bcnzx__U66QTcKJjt9QP1D6jmQevZLWMXNOVeGJUdDaKI8BYorI5JEJdHm3n-8JQBm05ITfjH70oVvo1CKW2sB0MGiRZyxoLwZiW_MxmU92afe8BVp8LiBFWAdNfY2tEcmcXRwec-r39BNogjsB38VCDz7by52FDrN4UiMQgQsPX44RzbpItwqc0Exhm8tUE-JbrJPjJAqyaJcxTxlZ7PiTXcf6MfDaLPaLfLgxJiLb3BP3TPW8cuDh876IyT-30m3Wbk4kI9dFA2nmS5Pyb5LDxMWWecPWMutCX2uyeoBhxn2edizmM3fWGcIkOWocHNAY8rG_aHEhceHT3JxGyKW-uwxUGJJOrQ2xsj-vIC_puDIwZZ1MCAtuyizxJJmYQsrLovIGOveJhWzTHAZA9-chignvfVB5GPujpwMBj5wyKb0FNrqR_Ug9Af0GL3sjMrko4b1jSgrwTWQwQOpHnp0RXNQZQNepfY6x4xzyFDbJU4Zlh87ba0gooN4VUWPyOvrd4o2OK-3FYijhgzPTjVb_bMwd-PpXqqiZ28nfCmr_VSg1iK7TfoHYosqvcaSIzEuMtuP4xw6gB9NY_aBUDXFrasy5zxb3My3r3tQX-FV6LXxTtxzr1HVChj2AEsqsz9WqrZaFSsXnnPCgHA0meRrpRo6Pqn_uf_SX9xtiV0IXc7q9zlmIkdHBY7YO2Y7ni4M7A462yAl8bNoaeL66EhX3HOdXIfVTrt2vEJJVz5vbha1DJzkj4Guzsj_eTWZUHa-fKNsi5D2p0TqczIVWhGKfXcQsRe_j0bzVniJrvN38UbDSE_wYUmKmpWHwKozkzN7VtEXqXBpxplDS97nvyyjkra1jRNoO07Nk-XAinwfW-cKm3ZL8YUO1XkbMqIcltojm-F9Av3EhfckUmpKBzMdnth4pNtE8BB9dkKDTXowqnsVsz3myW2uz0Yk3sSGcZDrhMhslqJ_Xn6CZpnUQHb7qmY7DruYROtYZ7k66J4OEoo6CUiONsfax38PGTjC0ttN1-Ea4dG5CdYMegCIwSPhj9-IWPW1P_mPt2wT6uSen2Qd7kQkLf1gxwXo1TAbY4o3RmlvaZKpec3TxYwzdbxpWt4WcXTTXqNZKgAGPfnbGCe1RIBBs1Te71I3Hp2YNGCrAa9uPIX-Gh4D7hQoJoCpOL6GMtgOgs9scN8R0NQ_iWT6s-W-vt6Yr09x1Hh6FC0Xyb2IoOlvbPjKgZ-rx56II4NzOXYYVNcSd1woEdg0xAi9a2bbiBgzRsH02XHSEbHrFzu-BreMPAKe9KYPDT5txTg85u7Ew7UR6T142xFF4pStx7qOSpgQbRjHAkRKqHKChzo5ybruzlChAmRn5J4dZzYnHqLXd8yCjmooq6BtEiFqD3iDsJd4XPJJw-rp8sOx7O8rskQOmHUARhJI1vWYNTrvdgSNeE-8P9cjjZGPd0Fxxm6DkZ1MkGBGzUGEOO1nl_zIE7mndnD1IBcN2iYlBLyN_6xy0b4QxL1ASOOcHEriPNakPEyo6GfSFuXZ5oQw2DNgZu63e2fusBsGkc98PPz3m-7N12h2A-wXxgs8Hi_r3ROsVTpm5LjQkRqX_xQY2BmqeiQldcrr2i0Ec1ukv-ApSTsYTCYzgA_EchaKLRFwCUmUtb-QQbkDEsxwg7e3gqg_f8t1miTqNPEJPby1rwqlvR30neI-Tytg8yv0RFEf1_pUXJMhIKUkDhu0VgW_8XxltU_DZCREpacioOn65shKDNisdY6sKlN9e9p7oUqq6uyvE1dX64VEU0wVu6nU3ekvfNmdZv_gxzXJBh6lHJMUEtELsXlHJmOo_H-VN5sPDRYA8kDO8K0vGygvyinirdHwxmrKeilFJMHrBAUBwREHHHl07jyBh3zSOvY4qhl3ThoXQH87BaCGJ3ZEY"
+    },
+    {
+     "id": "msg_010782e5b1276f2f006ac36f27b1a887d285b8618eb87c6112",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Breitling\",\n  \"model_family\": \"Navitimer Automatic 41\",\n  \"reference_number\": \"A17326241B1P1\",\n  \"movement\": \"automatic\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"leather\",\n  \"confidence\": 0.78\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192872.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 3443,
+    "input_tokens_details": {
+     "cache_write_tokens": 3440,
+     "cached_tokens": 0
+    },
+    "output_tokens": 291,
+    "output_tokens_details": {
+     "reasoning_tokens": 204
+    },
+    "total_tokens": 3734
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 3443,
+  "output_tokens": 291,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.009796,
+  "cost_source": "rate-table",
+  "elapsed_s": 10.928,
+  "started_at": "2026-10-05T09:34:19.695656+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6.1-sol"
+ }
+}
