@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_092041_full",
+ "model_name": "gpt-6-luna-xhigh",
+ "provider": "openai",
+ "provider_model": "gpt-6-luna",
+ "mode": "schema",
+ "row_id": 27,
+ "repeat": 0,
+ "image_file": "027_patek_aquanaut-chronograph.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_family": "Aquanaut Chronograph",
+   "reference_number": "5968A-001",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "rubber",
+   "confidence": 0.94
+  },
+  "raw_text": "{\"brand\":\"Patek Philippe\",\"model_family\":\"Aquanaut Chronograph\",\"reference_number\":\"5968A-001\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"rubber\",\"confidence\":0.94}",
+  "raw_response": {
+   "id": "resp_0e6db775ee5daa11006ac36c3f224087d295a83e5ccbb93768",
+   "access_programs": null,
+   "created_at": 1791192127.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0e6db775ee5daa11006ac36c40240887d290280355fc704799",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw2xCFOG90Pg9zOXX02lKthsnGmqNyysCMnpYEfzZzxZsoVhvz-Tp6wsNxuhjDWqXD4Vo7JQ7WmFrDyDk5kb8XyPPaixIbt7s1V_x0zr9MklJqv3mIu7k-zpqgX1WCbSWy-h4xQF2Rr6zwsjv7uRWrr1dDACC98riaPH8Nkk6IFa-DwoOcEt5_V-ONknWYIX_YPPWKstcdmGm5rSidzFMPae2zpbTZUtVE0Yai_y1UPIP-iAorfwccu8rD9H5PSNYpdl7UCFMh0hVbucDl5QV_cB860z5NnNYw6HQjqOBJP6aPWXJef5WlUutm7skOW4zwF_kMTpx8td8-cWEa75_yHZM57_Re5RHnYEpfohdfOsuWiMcuk_pnznMTYkDeNJKXQLft8NnUrqiU9dk1Eub2pOthG3lo6zotHro2hmZmE2IqodxN6KeDaCXNl_LITQGKNgazn78AsJ9mDYhaailLiJRjcdZrp_D7sAqDG8mqnrWAWtq26YbflTtXPY-pBvRcl3WfkZzlQaZ2F9Qv3VmwhXXXuy0kimRQot5j3_ANhY7gSOHqrla2mQHD6qPkFmwfNhhG3d9n4f5dPN8DBqaHb-50xlXItlzk8YrtywVvw9i2cMxjyMG89qxeYX4Cxxtfj-ywVTID7J-yPAtm37eGkjle71SOkl1xyO5WXSZXIQA0eXvxrMNO-a6ORJrDsnKhgQbWgxuzu-sr1aAoao2HjsGD4VqTVC5YAs12W0QDQs0hCV1M-oj5GpzvjsXoZ0DPF5BvsIHNGGOct009uKEPGoIQfW4uwJ8rbksgO8Nl_y73kYkCg01_6MpL5Br4kX3FEfm_Q3sbs6rqfyFEQSl0fAJqkg9YK6EmwvNwAD0EW0vVSXSdeAjFaX95VRsY9fM6Q15w-2zUk0uTLcxR2D--BQ0nukM8oywvxuWMEwNhM3DGfovrFOhjJy6zzm11K0mqTWmH4mvNd0ggioeZE0LhLetD-uegCTgfSU23V3bWlghituzVNKjBXv_d0yzDr9s6Yfu0w1c83ozFBwAFzrRIalot2ucqs169fv2WFYprpAthcyMexUP4mT5PUEVernQE1PRi93MxL8jdKPp0SnVq8mzQ5IKQyPv_eX_lFoNPACk0BjtcelkyVs8Kl_xifA7ICi2An7__eMM1ElLKy16LNY6cJpwK6CPdPc9uJhHh6UwkDP48jVwJ2K_8BIPBI7CZ-GyrnK5FX4VcxrIRU3CXBHRkM1-6K2QA5fV1zsNPBdwKn0aM1l0Pkp2pgvjB8-tiNVTmiNZHB3w56ZuzttHG9EirPYy21P7hkg9w5CeLvii0qYk0vHTBb7ROIxsYp3sb5HCTy3sLXxFjw4-S4OhE03A9zY9f2CLqIULWwhlOq9ZjPlUaf6pVPVldiS3WpUVrx8lzyVLjgzIN-f9NaskE655PC8vOBgrHw5T7gpPDOFt2hmWlBHOIFFbVhM8LyLj_gUxQT9j7KrjP5RQMGhq6wD4R0dG7qirFjsKhoExqiDrcr2FWppwPQ3ysByIkYil6O1QYn2W7jCkZT-d_hJgLHuSPdKcan_beTisnzymrDhr8ZueCO_7sXk1ZlLYNKE0gFPLgSJjmtKcpcz8h8sTsfyvnvv79RtdzkL47VtroUkfYdQrgfg6RB-6L4WmQMdiEcLhGS9KIwlMe785ZFcfnBjjWU1rQ7FzEiXZgR560CyqmWO7S15Ro-0fl9Am-bOLD2vwkXNRs2uQ5AXy2O83AmYBLYvH1SmX1ga3kpN1x8HwtKB0NGYeafh28NSZVRgT14UsudwXPTEGfuvCJBz5eyOxA2_PYphKVeIuL1ClQuUJWvF7wYDgzE8Cu60GE24I5yFE"
+    },
+    {
+     "id": "msg_0e6db775ee5daa11006ac36c41b1d087d2adb0ff78bd151f00",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Patek Philippe\",\"model_family\":\"Aquanaut Chronograph\",\"reference_number\":\"5968A-001\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"rubber\",\"confidence\":0.94}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192130.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "xhigh",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 3323,
+    "input_tokens_details": {
+     "cache_write_tokens": 3320,
+     "cached_tokens": 0
+    },
+    "output_tokens": 186,
+    "output_tokens_details": {
+     "reasoning_tokens": 125
+    },
+    "total_tokens": 3509
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 3323,
+  "output_tokens": 186,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.00042530000000000004,
+  "cost_source": "rate-table",
+  "elapsed_s": 3.733,
+  "started_at": "2026-10-05T09:22:04.454789+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6-luna"
+ }
+}

@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-01_100948_test-3img",
+ "model_name": "gpt-6-luna",
+ "provider": "openai",
+ "provider_model": "gpt-6-luna",
+ "mode": "schema",
+ "row_id": 11,
+ "repeat": 0,
+ "image_file": "011_omega_speedmaster-moonwatch-professional.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Omega",
+   "model_family": "Speedmaster Moonwatch Professional",
+   "reference_number": "310.30.42.50.01.002",
+   "movement": "manual",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.78
+  },
+  "raw_text": "{\"brand\":\"Omega\",\"model_family\":\"Speedmaster Moonwatch Professional\",\"reference_number\":\"310.30.42.50.01.002\",\"movement\":\"manual\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.78}",
+  "raw_response": {
+   "id": "resp_083862f0b097be5e006abe331851c487d2927f0205fdb9fc49",
+   "access_programs": null,
+   "created_at": 1790849816.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_083862f0b097be5e006abe3319a61087d2860b4e31a631ffb4",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqvjMeHO0kSuRhY4y6dCvseVWHXaAwIkJ2UN8jkUGgW0HEQDQfdUqzk77qckAz0aTVbTHjmcp6cCTSdXhsD6Lh4yJn3heWvAZMehahiajEDWhS5L3q_8GJpTR6C0Yn5UziKIJq90HaJwhKXzmKP6XFbs2SUfo8oFghy3giglzqc6eplbAAoVornhD96nbsRFeWSxOqNiabrtVr4bkZbljRiUAfnuFqcA-GrnYfguuKeV3yHFlwEthL66f1YSeNDZi-TnUm0_fjLYFPnBD0aqlb5Qzax8kQc27LHFe9pxMbYDtDbBoniV8x6FD9pKeWjk4kbJhQ2K5kkZ4Q9t2B6va5ak-1vg1bayv6GW-b-iZ8Oyb0QYKRW2zbkFRqGMxDMlR0NbTrzkvQzNs-wOTw-s9TjDmak_yehWurtSHKylN5N2g_uXqBaYm65nvJom2ABJoOyCkKAlVIBuzSicRKozf26XpPwd5hePeIYlr4ZtLB8Idh5m6aQEZra7ZFhTiinP5O8se1ldr_EY8de0oXeMUj13qn2LO7Wm9LVGHt9r5x7SK2grz6Mul3A_dFTBDKW_LU9b_i0bkbFRab9ImTiMGP84mrRL66o-eBBGiR71pvxHaEyZOFqX6hlLPj_22XGv5BsSsjo5bhTPgJ8bOAgj3gsKvhlIGJvxE-jTfRzzHawHybDfqsi1LD7Xi4w0IqvzD_cgWRvG9qur6alYnoTdOwzlSZLiEVuhA7N3293kVEj_g6Fprm7dq4HFyFr4WOMYCFysiBHRNS_rcZCVMegWWfzsnhGdbnxAFon1CC8Hbhgl8ohHgClDaD-QLJpOrBjLgXS1CdnLkOEFpt6rk8V-AnX1vdl0-cAskjUbcMaWr7_DkjyHrG3VxZvCnGQn_vDdnQTT0kHPsbrFMWAcWYDRUnGB4AfpWeNL92Irj5bMvrHqpSz7FdiG51oDL9YWeHSG47cc86jaIl685_AAiVnSpUAY_ua7_svDxc44vQ_vXz_QUeNte3_xrm4YnRa5hiI2mWNz__kLZM9hzwV9qlq3kf7xyxYS4umCWBVjm9nQDbg7Oe41oRjd4AQeekHcEJ0O_dg4NdV-9VBCLpZqhRBJ3mFFX7X5vIx4YtyFnSMh4HYCVI_QajCVgusXsduz0HQhPFR7tlb2obbb4fNjH3vMQx8h5-CO3OaSTz0gQfmCyDykW0pf3BF0YHF7X-sVg4oeYLWhlnMFoRViQFaLXsz35gs_BJftCRt_hFSKg6r2QB9hWYowL_DUVUCxYLgw_Th3zR-ZtEY_kzoSmZ2vdtvfkRLwjXXNjHh8Yjtb9rLHE_3lf75L0IeaLtkcnzsTcX7yJmBhyys2POHW9xqGx74FF-KOhjn1wndf0_DevtKaWw3F__1BdNjlY9te_zkV82FALmWyZcAnrTPoYaa1Z3vvxcV_V4v8jy05iDgLewNpBMDD_u2BgS1uzFp03uvU8-s9MRpoj8waUuXTkPw589E7Tg9j5O9m3pEksnMocG4UkgUwSPat5RWbmkF6SeJnTGsSNdMXpgrAhKc-vNCExjkRoPTk9yRIx6zC2aJ8HUb4d3Hpw-2PNkdfXEqKEvXdk9tD7cuZAouyD7A9aoDJZUnLTE2mUa6YesrZkF3zM4jpp5c6Rexkk_bPYUcsKq-57n1rvjwnF-s3QI_pNhBvQoObWoxXIu_gpI5_CT9q0-Y5qBJ0bqqinrtgsYY0NVXmp_QH1ZMFsZaw8ZHBzYgWQnYh8G_Cqm1g49Zn4qk4dEfXZ40xsQoy0fpvWDOSXG3f0_NYXMTPinj17iw8LsTJJPgaDM0bFsEjCPU474BSAKQHSQ9N5EbL_Ob_Q2j96Fr-wJ1XiN2eZDYTGDxxJfyzyBRcPblw-kv3Iyl2-oMCaD_zOhFisbGC5Zw9nLUyss5XSJQn1k5taDyMJeBE0pjcHaSuzfyHwwVkNfGpV0pvy_T9VOKAqo1k9QYwOI838TVzYq6xV4eqcABmDDI0oVlAULvn-FxoJjDa5EiWxhEJCJD901OpcJgq_QroODHbNHi2cIdbI9mDghdnudOWtUGSR2JCYyAeQazmzdqEckqA9CaOOEKzw2A_2YJ6AluiJ0y5KHwequIc9RnejKMAkwHPaK1RQCgqgfR9CWnoQ-h4Nf9LcvZgIxO4lM40WQzZo0pjvRWEq0O-DTvnOKALz_1O6LPKggV6uQItiixWMMsZr0UobbdUBQdnoKdOQABqGLZgq4i8o6jcqdnRqXHlJRq9TG8DyxWBAQiY0uWzJ2zBGjBs8wxFf3aujWcOb_sXJywfk4Aohmu7zV_u_1v5MEHUcpURF-dZMDH10fkeQMWsuVxT94fxheFBgvCf7FZYYYaPfgyh6rjdL8z1DmbbaMP2o6_qJR8nWkzspFYDLtJn4TTdZrrcpNxDpzyft1dPkxIhG-oEyH09XH_aO5Jbz_PujoLYZgBomzBxwFB3sS4yeDnu0DmYJsDN_9BFOwmspY1aR-90oGl8kfNjQ0-ZlajBAXHcpswT_FxFgjGL0c2aEaUliD5Yv06Mec_CYQrWk0BPlXuJ672Oe-a1Y90D1bpJg_KwXl1XG4I6gzC_arJXW-gHgNknX8QcqiHZUGq7lwOIqNDmPM6WzWfNeEGaEx2TtdZfOaErvz-6SJGDuFuL4drTTTocgHL-7I0EU_T-yGkiCz1ui4nrNMmTBRKfjiwvFiUvNhIsobWx5U8WKLRdYCog2u_TNb1On4uUSTI1IAh6DhwLWsif5yyQIzoB3YCYxtm94ZSjqLZqimv25rwbnHU_ARTgaJCbujs1BQBUB_tyPlqxRKt4r7RwmMAbErC09E3g92NDki5Us0y1ME9KnGm71m-fpN2Lsk5m2lHd6j-vXOH7pMUhCQNfoaoEpzZgHHWcOPdulvv4Vwe_oCVZ3nWc1OukLdnVRt9dx4jJZFIklAkbVzoRB4C3nr3cKv5Z83GQJF9v_sd-h5NIW2rzIwFMucuJRVjYuwSU31UaoWeQk8S4dE0XQVGXgl9oWFT_6pPbBu34raBaVVXwGHobCk7Zxs9G444bfc3AXAl6aKAw9SiDkv-S2JweoZZ6PFaAOdd3PoPFVsTrjJyVuYEUS6GlFh20QUG6j094xwbFwTsH0Qrsi-Yn307otq8HZ1Z3N8joQJ8YmrIsQSMA57CUEVkWIoSkYgoeR2ezfKabugh7zih4b0DyvdLgO-N_io56Ci5kJurZ0jMPKPlwVUWlIB78a6KH_TI_3iaCTbWC_-Fq9IP-6TY6VpgRIXzwn0mCpv4NmNwEjuENECE5S4IolkiQWTAK--dDHtiY1kQw7KD9CTD3BjcTiN3prmtyjHj93jkbxayADhwOIdyVMUXEoOZda4qDH6gXc="
+    },
+    {
+     "id": "msg_083862f0b097be5e006abe331dd2c487d2a2f22b3233c588f2",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Omega\",\"model_family\":\"Speedmaster Moonwatch Professional\",\"reference_number\":\"310.30.42.50.01.002\",\"movement\":\"manual\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.78}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1790849822.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 3384,
+    "input_tokens_details": {
+     "cache_write_tokens": 3381,
+     "cached_tokens": 0
+    },
+    "output_tokens": 465,
+    "output_tokens_details": {
+     "reasoning_tokens": 401
+    },
+    "total_tokens": 3849
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 3384,
+  "output_tokens": 465,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.0005709,
+  "cost_source": "rate-table",
+  "elapsed_s": 7.735,
+  "started_at": "2026-10-01T10:09:48.187856+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6-luna"
+ }
+}

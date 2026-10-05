@@ -20,6 +20,7 @@ ANTHROPIC_WORKSPACE_ID = ""
 #   provider: anthropic | openai | gemini | openrouter | deepseek
 #   effort:   Anthropic only — low | medium | high | xhigh | max.
 #             Claude Opus 5.5 always thinks; effort sets how much (API default: medium).
+#   reasoning_effort: OpenAI only - none (no thinking) | low | medium | high | xhigh.
 #   thinking: Anthropic only - "between_tools" turns thinking off on Claude Sonnet 5.5
 #             (effort high or below). Omit to leave the model's default (adaptive).
 MODELS = {
@@ -39,6 +40,10 @@ MODELS = {
     # "qwen3.8-max-prime": {"provider": "openrouter", "model": "qwen/qwen3.8-max-prime"},
     # Direct OpenAI / Gemini (need their own keys and a dated entry in pricing.py):
     # "gpt-6.1-sol-direct": {"provider": "openai", "model": "gpt-6.1-sol"},
+    # "gpt-6.1-sol-low": {"provider": "openai", "model": "gpt-6.1-sol", "reasoning_effort": "low"},
+    # "gpt-6-luna": {"provider": "openai", "model": "gpt-6-luna"},
+    # "gpt-6-luna-nothink": {"provider": "openai", "model": "gpt-6-luna", "reasoning_effort": "none"},
+    # "gpt-6-luna-xhigh": {"provider": "openai", "model": "gpt-6-luna", "reasoning_effort": "xhigh"},
     # "gemini-3.8-flash-direct": {"provider": "gemini", "model": "gemini-3.8-flash"},
 }
 

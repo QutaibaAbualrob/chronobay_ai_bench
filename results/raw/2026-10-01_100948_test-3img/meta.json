@@ -1,0 +1,38 @@
+{
+  "run_id": "2026-10-01_100948_test-3img",
+  "started_at": "2026-10-01T10:09:48.107631+00:00",
+  "config": "config.py",
+  "prompt": "You are identifying a wristwatch from a single photo, to pre-fill a listing on a luxury watch resale marketplace.\n\nReport:\n- brand: one of Rolex, Omega, Patek Philippe, Audemars Piguet, Tag Heuer, Breitling, Cartier, IWC, Jaeger-LeCoultre, Vacheron Constantin — or \"unknown\".\n- model_family: the collection and model name the brand uses.\n- reference_number: the manufacturer's exact reference number for this specific version of the watch (including dial, material and strap/bracelet variant where the brand encodes them), written in the brand's own official format — keep its dots, slashes and letters. Always give your single best guess; do not answer \"unknown\" here.\n- movement: automatic, manual, quartz, solar, hybrid, or \"unknown\".\n- case_material: stainless-steel, gold, platinum, titanium, ceramic, bronze, or \"unknown\".\n- bracelet_material: leather, metal, rubber, fabric, nylon, or \"unknown\".\n- confidence: a number from 0.0 to 1.0 — how sure you are that reference_number is exactly right.\n\nAnswer as JSON.",
+  "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+  "csv_sha256": "65354b93824d06ba145ace623dd3aa82db070854fb7d8c7366a98e94608e2bf2",
+  "rows": [
+    1,
+    11,
+    21
+  ],
+  "repeats": 1,
+  "concurrency": 4,
+  "settings": {
+    "max_output_tokens": 16000,
+    "timeout_s": 180,
+    "anthropic_workspace_id": "wrkspc_01D223cxPg61eamWZdjPMk9h"
+  },
+  "models": {
+    "gpt-6-luna": {
+      "provider": "openai",
+      "model": "gpt-6-luna",
+      "mode": "schema",
+      "options": {},
+      "started_at": "2026-10-01T10:09:48.187369+00:00",
+      "wall_clock_s": 10.03,
+      "price": {
+        "in": 0.1,
+        "in_cached": 0.01,
+        "out": 0.5,
+        "last_verified": "2026-10-01",
+        "source": "https://developers.openai.com/api/docs/pricing"
+      }
+    }
+  },
+  "finished_at": "2026-10-01T10:09:58.214778+00:00"
+}

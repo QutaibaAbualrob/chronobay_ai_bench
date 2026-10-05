@@ -1,0 +1,221 @@
+{
+ "run_id": "2026-10-05_092041_full",
+ "model_name": "gpt-6-luna-xhigh",
+ "provider": "openai",
+ "provider_model": "gpt-6-luna",
+ "mode": "schema",
+ "row_id": 89,
+ "repeat": 0,
+ "image_file": "089_jlc_reverso-tribute-chronograph.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Jaeger-LeCoultre",
+   "model_family": "Reverso Tribute Chronograph",
+   "reference_number": "Q389257J",
+   "movement": "manual",
+   "case_material": "gold",
+   "bracelet_material": "leather",
+   "confidence": 0.86
+  },
+  "raw_text": "{\"brand\":\"Jaeger-LeCoultre\",\"model_family\":\"Reverso Tribute Chronograph\",\"reference_number\":\"Q389257J\",\"movement\":\"manual\",\"case_material\":\"gold\",\"bracelet_material\":\"leather\",\"confidence\":0.86}",
+  "raw_response": {
+   "id": "resp_0e598c6605781e20006ac36cd5243487d2a54cffb00a5879be",
+   "access_programs": null,
+   "created_at": 1791192277.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0e598c6605781e20006ac36cd6414087d29387376bb09a0ffe",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw2ze3Ija5mK6WQC735e-UBMLKF5EGY-nlGFDLPVzMSTOOBh8-L-rqWWB-XrlG2NUgx-wWy1Re8OQBIHdWefEfxXtDreIs5EX5neVZtL0RjLH01zec4R-SqfEZ97KRDk2PWZteXsKEOdOayqGznrSlZ-G62MO7GlDu9Kg7OFajL_vWwPWqJaPCh-oSz64vZqY-HqJRK82v8sCQbBsY0XvA-xxom_i5YGiYC2CP5Q4n-PvgHZZMxXo7MYpKGcXSNoCxD2NFu1eMDZZRTq5f51uIlm0AxkNhrh6E9rSCwr1vHJ71-yGRuJl9b81vXdff7x9nk_D69DxlgNFuIDnznBgYPWSkv2CJtt97LLJt7HwL7ZIjxO17ASdLmtzqaeYyQTPzPWF8Ht57Chsc7Fd8ZXZJA7tqqHwWjl_8M4sxtJ95YnQcJ_MES6cyVerJEtE12PKuJPweD6pL_e3FEp0rep88M7J5ebFqsVtRxfVNERVTWU1vu9KikH976_bUgFRfiD4BrhBzErRkB8qHa9nYXYwD1R345w21rNT1NqM2sdA8UaNVJFOeVv9g9eLJOu1qYYNj-QhaYPYjcO2nv1yRoxSPTwRHCH0mQ0VML3qSZjpClR3cLfpAU_M2fbTuNYW2ThqjZ1iSKSmISdyMlDOBiB6DEDLtVYtrWuJ5baJObEj0lQ9aUjOO6NUVcC94s-0SsMFQL0k0SfG-Jnch5jBpqLCNk4Uu8XkSMGBZqw0dkfaFEHSGoj6DXpT3aPI06zCHZXiDYg7JN1PEV13eFLAYTWuVuYsRtrdwG6pmlOkG4NwG9au2Spe9D8Nv9LhFvrrptC-hA-luHOyYA16EUB9Wrc1bzv0lXwggHN7hPbVyiG61ESsyf8HO8seb2_mnet62tXLgS97Yx2ML-Wv_wb2ziK9n7dTjD5c2hGNK9CQ5kYwYraZqLpcOlK628L4Nn79zwNzF_slVkCK_5mxSbGWKGZUyIvEUYqCGB4wSGg5E8ozpKF1PyTO1lN7TZbXn9XC31qzadVIPfHKdUxa-U_sZ3hq5ehANxtRTO0fzpGwVdnQBk7qgiYQcVMy2VEoqiRjMF3YshmqajLqWkFuDdLsf-UbhHUtUq_F2AHz4SLEeoI34d6_XuGtXmT1AekWLXVEumExSsKSluTsDUsM82ndxedS22VVaKMd0sOwr8qOBc3HK-KXJQaIoUZYIDpXXS4aGE9RvxOQWmTngCWAeuCoboqetbrN6FZgW3VCRonVy8wZPeHN-an7f7gAzcXSrX2tiM8xSWu0HgDymSyDs7DaQQZBaihE-s-LQOb8_KM7yhz58shLkP2tu5nhd62AWoGWJRHyxWbZ2rP9xPRdCTchKWjbnIOov37rGLRdQEJuLrgdaZPHbRV_u7Ly8flA2MWD_uZ4vDUQkNnwaCv_gL9ZlfH86YrAacuzSiLXJ0n-x_vTPg_b0b7mOdvQZNpHhe-UxERIQi7U4pRWJ9hxUcrPegAxE-JCly_eriqCSPJf2k0PtBL93kH_lg2ai_n07wtOVBk0FEMczq9l1G1CLJljqgDjtrfaBLNaf2mL7sNipBi7z0sTziigYjYAGva5srpcw5WkulkeS3-aaLpEvcKgXfeKi83EbsvAlpyVu3odvI2oT8whdkAr7ckjwP2dmr21bH19rR3d5AZo_acvvqSRtoNXWEJt8kmBAIltofubT51sfmfMsxz0GASnI0nr_C8a8laUqpIZ3dyq_iar-eTopwXRCoqrhQ7kkL2Za7v3ja0kopfPSphlK5L2yURvEvLFbWe2v2KMX_WNqMbb3nXlwehtdrkTDoHihbDY9waQ5FsrByON0yAwSOTKw7EGy9XP8O4bVlZay95eznUhG2ZDuAIJCzxtn1BCf3E4uFmaPkbhTdbwNJ4xtgZVy6udlU2Q20S15MwKvUfAayJM5XxWH3Wk2uFB_EmzDjgAopuIjXFCtB5Gwj8Jldpb3kP1krjUWxPe1-NqUvo5uLiFwgcHYhlDWVwMx0NLcNpH0A4cWPVloMyLUxQj32yR0I45xmEqILR391TL0MC7mNZSP8rnXfv3zKXYCuMXC83OZmS3Z4GuhbxCORFAmaLmqv5DVNN0-2KPOY0aTA-A3iSAt0cTz-5UOCSGAQZIQQ9rrN_dEiJOlgs5ampbGUlodW-GWG_z-L7-Kad5CylzHtGVAEzBuTdqAcIgFraDHcusVFdyRFRjVI0C3RwddyKKTAI-reIeEUjFsNq3b01mUTwTgnH41RfKK1INy6bzCjaZJido9KqlzZbVJeMaC6LlC93vZvEO71gQmo2uG3tSYX0JJnD-RXLZryN-FBgo1XhnFgoWty_2X5ZGNdxOI_MEXQuCzjh09roz4mWgXyJogS7IFJ2_Wdfbn9uTnpS_bxOavTozTZ489QzymPS3xWIfNQr6FCqvBq2v8p64J-YdX_nuLspEuWudXCyMkk74AQJCki96_SD1QMMDZdjJoElGpxVAaLXGqYXFd0YOUmJXsq8kBmINF-lfDDsH0QdcO1C97S92uy0V4uFVNDL-H2RIpdtBsBc3LU5XeCd2V-DvX7n_7VwSGZ2pSFE-KWnNFaMugyb2BiWgGK0A141LrdMjbxz8ETLBy-tank0q3dsmLLChdgNv79PonPc9l87PQbfSO5EFP5IAPCLMAWcM5DluaLCQuObNdUN2r7q3JASPkeDLEHPrZ-yAX0H24Iy-Q1NL_ZqKEZf0j5Iy6Dr8KRnDybhx49e9zfF5tXi9opexxe7BNthiLudfv23Y2h_pyYaw_20sbETMIH8oJZOKx3Mj_GBlsKV7fIR-oS5QwuAVjaOoVfndpfeXXf6hm8MHSg9D9KBfBDjan_6TWsZ8FjrmTG8GDs9QY43a45d6uTsUPdQLGmBKZmq6t3UerLW8mi_0v3avFTKGJkf3vodoUfneh7Pyrh5CpEe1a14UzaxH67CppO2jpSfdHs-twoWYWjiAHVf3goRUfMbuHnWJwBGd6_YC-2fOht5x5GKecfhbgsBde7v9UiqI8CcTDTE1LsRdfrZS0iIeJx35qicdhcp93HBfF7z8zMV1vp_n9_GgsX6Z8l3wABT5uJgsToNyhZvy4P1Oca0yOgynxA5oKjNP83wXnNAkqgwcCypKVIbmF4aHn6lSpyy1nw9m2HEf_69IKEBX18OACBztcokRFbCgazH6KP4GgWqWVHmwg_nmEB9EmTqMtiif60r_Gvgf8avqVWxSgKR64BJhtNRr6pXRSs-PffGSBRzlxNmdBEmVz8kYA1IZImWp2LiPsqw-DAinEiVzWjdldBte0Xcs0T0EmsFG9ARyCpMxPKbbOL5vJb0-hXuNqzLQNQPkBNOCNVKRlJ7kJBW0m8p7xQcAaDtTjbhVt7KA6MGtvUYHEBd7YrNS51qKVq_Zv154P3DSBz7Nes4YmWwcnBY8d4GBeNZ6fqYFGrkyYjJetGy78zNYFzSR8pA7sOGNptaWJAmwTBZ3tHjKlwQhwj985H52g2QGLBwNP1TYJtLMZ9QmLCaepv-eNxMwH9V8LT8A4XuZY0TX7N3ozj4I9-wlGSu3i_13MTCjPIKNwiMq1MO7n_-KArRt-AMV2F4mcAomn1vIlF-xQmtC4829yjdxU22vWfp-O3mbsAmLzFmYbx5q6CV0gMs4YfBXMNbpjZSOU174zsR0wOp8dGVgLM3Ir8IVoo7JgsHxCYkHKLdzj3PTG0U2PDzeJSx_B5647-ZgVYiYMbrykXzmQH8oIiZ5JNJLP3wyq-fSfNoar7Nf77xaQJw725i6EY-ZaYHT0neAKBN9AF6SQ_dtxQtBi5aj_Sd44ClVym-goXTUvaOQcGdE50CYOvxsahEqF3pbRki-8jSzgJKoKoh2cXQTuw1rIL4e3QE89TQhtIe5Gc_ravyjc9rPjTwGM6hGRNkwtvBfmFA4XXx2MPsjktD7zvVA57egSdCpvH2rkLjk2Hid7Ye_z9QXUioHiz7VTC17RTRBg26nMnzvyMSTJOi8KGgewJbDSqatvwtojRA7TQSuz7kvr1hFRafeAr1Jb5c6QVfDNb89nBhuz6n1GnmITMag7OBJswPQBOwT_4wSdcsRtKWR5g1d4tQw6xj_-8eCTCdFymR9n0tuURL_s4XFM9yuLG6gBWEdwhcq9uGsNKRz9vzw8SEfLX1tN2iLKSkbqiLeAkr6AOnvR2PIzxNLa8vRZVechPh2e4zBkyiRmaArnxUL4QrDGp-DmWHcqvXEWWzq7w=="
+    },
+    {
+     "id": "rs_0e598c6605781e20006ac36cde49a087d2abf1dada90435490",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw2zeRMPqWikSjnY1ddUO77DBj7vN2E5mieOcWt4mI6TVmxa-D_f28pozHkoc8_TqQyonl6JncPW0bKzYgtwS-z2xdKCpbKiT5N2HZTyE2Vd1xTw1xYZzEo1IP-tcSOJBIrXi3LMP_3hGWnTi4yB03SgniibtBG0dfOWmb-m-bdVQGZxCq5XUw32Rkes34EJSFjqn7C5lyumt13mpJwO7-MFCeB2w0WYgl4YsNb9vj_Cs-yH301qs_T23TtI4W6NFZ0fvIvoeN9akXjSpF--gAdGWWjWkYAFcPhb08QLkLH6UsL0lf0rXDXqt8pDiUNHTwnhoOXaEuBd60Se-W_1pyahTYVbxa1ZiEVa5nrpvqIBbu41N48Tmf-PEtX5fW7kChM1lCnGstAeYpbIJnoJxQqtp--aa40OFNchc3CEup4IZB0AIsmqa60WoC8CELoW8AQVv8H-f0VRFd0C_N0OkQ9YJfp-nGI7j7SphYsAbVkwhNbL-e6kmPNZdIAcYRzr_05SPoL6xioIKKJjid_8tgO-j86dsbBuxG7D9r-Ft4lRtXte2HbZyijkyCQy58w5hTWEQ47fOM3iNBkp1L_72sD2EcPsd-YykInQ0G5KnsCRof1hxbqCSR9c6eR5SFmK14ZbxrFroofUdF-1P4QnI7MjuEkPlpWf1btawS5BR-L5Ss4pAgWstihw7s8DicdaFNoakZVTyhdS475cXgC966HIIGOn9d62XcQ26km1k7NKptMOmZ2EvGUO1MUF_TMXqN7INT3S2kdilm8aO72AjOPmF0krtHuXcjhMF41wRwdjczI7p6qj3jfsNvJP4IsTLUL5gWc0kDyb5oFdHT6PbWW5hPt_q-cLK7uCtxyhyAyV7f-e5ah-eeKlG-kOKdU91d9Baprm0dN2_cve6LZUIuMSvjUIWWQ04TCJB4N17e26pzWVwfUqJ79UcGeffmXFN1Z8I1eGgmq819PVqB2ln3Etrl3p_RZhPF45flKy9g3qx4_tY5wYH2FVo-pe7LOz90uhijK9zmcsxWxZEgUqTiDmFvRF6xCezecb5VBZEN61-cFehaBTT_l1RGWaPZvejMeCZYSYfAJqjUeDn7rbULU_IVHwYyq1FhB3DTXQfMpO3ifyx8C0i6ak_KOdLuFPCk-kFrjtidMhsCrOSVHyVEATEEpy8ghApmaY-QQXvfX6h00TwN8jAArS96ETjS_dY7pPATRRv9F5v7h8jRN7wmg2uymAlp962Hf_CLyTMh3kUsBBqqRXNHf7akR96MHeDxaLlBg2ikWlBgsTEPmQwVxPTRyjCJBm738lDLtBr-0h-2YUVU29rqwl_o5u7V993wsBqiZKI88_j5sM2SMN9YWZNOWJ39lbBLsQXJuxrE1mDLGyzTwHHOyREXBvsitOvpBbY0uYpmUezIJcPo7M4N6lHE8iXrKBlyQEFVonbFQgzNu0UohGaDG14KzEXyRjiefos"
+    },
+    {
+     "id": "msg_0e598c6605781e20006ac36cde5f6087d2a02b00721eb0f893",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Jaeger-LeCoultre\",\"model_family\":\"Reverso Tribute Chronograph\",\"reference_number\":\"Q389257J\",\"movement\":\"manual\",\"case_material\":\"gold\",\"bracelet_material\":\"leather\",\"confidence\":0.86}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192286.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "xhigh",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 3443,
+    "input_tokens_details": {
+     "cache_write_tokens": 3440,
+     "cached_tokens": 0
+    },
+    "output_tokens": 643,
+    "output_tokens_details": {
+     "reasoning_tokens": 583
+    },
+    "total_tokens": 4086
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 3443,
+  "output_tokens": 643,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.0006657999999999999,
+  "cost_source": "rate-table",
+  "elapsed_s": 9.92,
+  "started_at": "2026-10-05T09:24:34.470998+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6-luna"
+ }
+}

@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_092041_full",
+ "model_name": "gpt-6-luna-xhigh",
+ "provider": "openai",
+ "provider_model": "gpt-6-luna",
+ "mode": "schema",
+ "row_id": 29,
+ "repeat": 0,
+ "image_file": "029_patek_calatrava-yellow-gold.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_family": "Calatrava",
+   "reference_number": "5196J-001",
+   "movement": "manual",
+   "case_material": "gold",
+   "bracelet_material": "leather",
+   "confidence": 0.56
+  },
+  "raw_text": "{\n  \"brand\": \"Patek Philippe\",\n  \"model_family\": \"Calatrava\",\n  \"reference_number\": \"5196J-001\",\n  \"movement\": \"manual\",\n  \"case_material\": \"gold\",\n  \"bracelet_material\": \"leather\",\n  \"confidence\": 0.56\n}",
+  "raw_response": {
+   "id": "resp_0a562755c5b3a1c2006ac36c43c1fc87d2a1784a6a68c112d2",
+   "access_programs": null,
+   "created_at": 1791192131.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0a562755c5b3a1c2006ac36c44a70887d2aef2ce05b80379e5",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw2xJQfjGYGsLcrR8bnJTF9wSW551Gd05VN116EfTUeyq7gtKB0wG5tgDNgWCiHb9EEQKmMRKkiu-jw-Lejp96gchPGZSNHDxs1ix-Di0xdbJi__YuojH8tO-13zRKLjx880tophANj0Vt3-RCd9qPREaZtCnPce1LfaKtrnSKhkJbS3Ak_k3AN9nLyg8Sy3fahJPPXDF8FwrBCV7lTMSC25V8FTMaG5FBYfkMOvcQA-NzFIxVZyKjfBTLlTJZyA_wk4LYtoJiKUfg2Kc-W7LppGFuopM9PqkJ8Wf-wwU-yTm1_LfzFWdJOkiz5DskZzDx3c-DRdE6ulbtnMTeGUj2fqROv6K57D9eRFgqmzdRquySoaf8UACKOau73laJQWu9bGqFj8jnoqMOl_eNkHebgZhO4NUG9Ioci5Y_OdWU0KQga3yLqIew2fQWymDRD9X5O4cizTDpAUBf08TNheG_NAcQd1-BQQ_Qe2C2QK1WKUBwUvYYXK_UWv_mw9DDzsKpurB6MHbO7WPpttVoaybuXRj-X-a1IiJ4Tc0t4aWARzlcFqeLQNWsAoJnCy_cC_gKyKQD1dtopmob7AhOAJzY3ZorA2hK2qPQSjideFFfrFt3OpsFhE8Gl4qQ6omKBk7QK3j18DubTlgOzhwOZriy7PZSkcGsyXZJi3zdrgFVnj96zYxkRWPGYNFY94Nb6TkMDY99uJr5k2xz69NPhHqdpc_f5T6I-i-KBGdnS2yEdb-pv3naUHMxHR46Td7LqTwA5cPwecNiw-LREx3Abtq2Kd6EyNC0q2w_Nka0ltTI-WcSwJs1ORoMyGdOiICZVToZTRoXHHzT-bnL7C8aXMGobhBgOzyZRJECCHmIBa0pRT5hBNEw1FOxhzBsm4-SE0DT7vSoG9f5IG_kZOy3UY8AG7q7VMPXdk7BJlxDQNkOGXEgJwQwjUhRaju1QPUmhghv3J3l5mlDZApSiHhY2qSXhIZXRxT3w1P0i68vi2HSabp1gplgCtn_F_i8c_JWw9lZc_q9aOU3TrjSQjRWDpHSiPYsjGJxtJY4eS3i_fsTbbT3bP5QGO3VafmV1QRI1OuGy0IgHt60JqYIetsCDigkIKR60gRALSVrPimLnOJzqunfWAVJ6rDo38MDmSVprMEDfOCz_aO2pLMHtYvqF3eNIMdcOMdV0-IhXZisS7AxjfKsrQFl8k1G-JLXvONgt2WD6vQJZxmn52G0F-D1_ie4tyP30NSuMREHflWa6GZBjotFlafqf_Z72AlmVfC473B7PPq-VNkV22VoHK27xqCN65mr1sbcZgo9My02nF9j6livHWTmoeTi3wl3gFcKwT-WiRxDoU9mfDJofMeCAY2FCu6WTP3mozVPV1cYTD2vls1fbRdxfYXEF_exAnhIw2Bk3YYGxEe3r2xPZR_hDnx_BP_wTaRoT10xoxInTPEjUOooYDpCBLvi6EwEzokET5jYhjn1XYykd1HFrN-SZaQAsKVdJFO6IawR5Fr2q5j3wsHpxxQLtmTvRfdYBWZa__u-bJnoql7l4xRPnz9cEPOGZ_jqtPl6CJdvc64BiNllv6Di-EQBy-kMcgeLowxaSHDCObUlTEev5ClJpUcXiqVuYBiMPmcbjy8QPrtyhSIQppgSKertyywN5Z-53ciZASUsmmo5-yycFyhUuHhv5F-uUhD3nUeBt0ptFZCOBWd6i9fD-zZytfWxX_Jtm8wwboNFW7vJc-PERx-SAluzac1sPz8tajSb4MoiTA0ZiXzDzcSazUmJ24vQHLKe47bMHwnZOMAt_BWcNKXHPC6tHmSJH0TysrtGCi-1H2ll0vQqoIeMp9nntGBHskuWbjDxtXpIla2kzFqFHkOpGP_-fLcgUfxbRokgJjhAhIogKcK7yJVyPYEoAuPAiPZMppRdDxXx2TAdLPHRsvzcnsDHPNxsoTwKcjj7ZNW00ne6WBCclITnmHFuRX1hNlgvTnIGKSc7WUEQGxYZYNgom9EW_8FkMzwYlefbkobez05shcJDYUO4j7Qg0XYxqyStujtN1lM7jAzZRUlQB8_oHQ_8rO69HZapvCL407vAzeeWguCibY2uWRNxBe7_jntWWV92LZZeZ4Yp6atlGkiPzjfMMR7dbScXr_-0EXk3ig485B5ttKGhe3Q4G5hO6pl7Na_YeTG5X4WQWQcPDL4TLg2DaE-MsJKtoVrehsbJvqRhXDE7sk0CFOhi68TAmUsglDTReZ9LxyULaQ24-Ha5RSygdTFWaGXYQ=="
+    },
+    {
+     "id": "msg_0a562755c5b3a1c2006ac36c47691487d2ab33d4fca2d6e350",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Patek Philippe\",\n  \"model_family\": \"Calatrava\",\n  \"reference_number\": \"5196J-001\",\n  \"movement\": \"manual\",\n  \"case_material\": \"gold\",\n  \"bracelet_material\": \"leather\",\n  \"confidence\": 0.56\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192136.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "xhigh",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 1671,
+    "input_tokens_details": {
+     "cache_write_tokens": 1668,
+     "cached_tokens": 0
+    },
+    "output_tokens": 303,
+    "output_tokens_details": {
+     "reasoning_tokens": 225
+    },
+    "total_tokens": 1974
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 1671,
+  "output_tokens": 303,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.00031860000000000005,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.929,
+  "started_at": "2026-10-05T09:22:09.115239+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6-luna"
+ }
+}

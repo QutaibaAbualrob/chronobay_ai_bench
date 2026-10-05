@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_092041_full",
+ "model_name": "gpt-6-luna-xhigh",
+ "provider": "openai",
+ "provider_model": "gpt-6-luna",
+ "mode": "schema",
+ "row_id": 33,
+ "repeat": 0,
+ "image_file": "033_ap_royal-oak-offshore-chronograph-42.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Audemars Piguet",
+   "model_family": "Royal Oak Offshore Chronograph",
+   "reference_number": "26470ST.OO.A027CA.01",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "rubber",
+   "confidence": 0.78
+  },
+  "raw_text": "{\"brand\":\"Audemars Piguet\",\"model_family\":\"Royal Oak Offshore Chronograph\",\"reference_number\":\"26470ST.OO.A027CA.01\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"rubber\",\"confidence\":0.78}",
+  "raw_response": {
+   "id": "resp_0054f2aac88d7cca006ac36c4b0e8087d2afaff0308f5f2c3d",
+   "access_programs": null,
+   "created_at": 1791192139.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0054f2aac88d7cca006ac36c4ceb0c87d29fe08edb4ce155d0",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw2xTLkcPmiYEZEmOyKFqF5O0Zg-Ht_Lm96q-L0Mv21aqxJUV-arJNatty6cXL4FVNlFsM9g5W1Rn6i_OqHsj4suVXdI-bH5hJWuD345bCGHHCP2gYa7yf7TI34zOCzM4rBRwYX6taQnEpO1VRj1x7I7HJkkp3aKK2O8_r0miRJSdr-iXW9F6GxzzYkyvFlQQgPtStW2N9YFYlRb-AZ5vhp5UY0s7E5sPfFig8XAA_LTkDeI1SALkfHoXICjtTmDLWZ8Hh9uzmLXhZlxgPaiMy1pyLmTX-p59e3T-34NZMl72ayA0x3qBa-v-MSezbdTHlTnFb4aAGTYw-nDTPP91f6sl4TnlcU-9sOWzqvLoJYVf0C2C6rB9GYC0kOFnZxpIVNjO_2mC26ocEQrW06FyjcBqaWDKBsipOCt-xMAX2ftvFuo9OpSbHXVM4GKqc9rAAqOvsmq2d1jYbw_-K8NREbzjLtpcDSCcswO1Fd9dxAKeoD58_VPuKjhr-D6A9JXVZLdB3T3wMVdLDXlo7NVlmRR7FxSvyK3gPyZfNTibShY_gP8T624EiZLIuVOWCTr29fjAz2TmTPpAFDrTXr3IWw5UgrsYgdKM1p3z4Y62yNmg88pX-ngac3XHBpN681BKQ9nS81lOoFjo2_nff3etMaho8RiIwKmpAQ1eDKCxkDiF08y59qA0Vmw-s87JsQsV4jDHnL6xPAc2HogoEpF5dfYL9mhGApbtokBi8csFMNF-wJ0syB2JV_Bc1fuDbXjSl-h2HZKHc9E-c66CsAI_4xtDU0LIReizGr8Qf--ALhHtD8GVR0oe_0I2BfnivZ3ptUp4keoeGiDh1NCEq2ibNwEThY6XVmEbbvrv1VI1ueRpwtpn05gUCZX7f2_k60j5dTdEv6AUWUMMrBicv-AuW57j_a_4Nk95nl3NK-t2wvIFMsfRvxw0qLtfYGTdARprcLoTey_adEWuwyk1NC1mctHhC4eJ6Ge1GwS1enUJUVKTFQo52xTS71kqavaCyjUImmN_ONs39tH7U4DKWklzTkVmjg8S3KGvaEn8MMU7AXRAS-tfsFIWuKcJU2Ipk733szsDPKHW9dPDzDNfYzSGTkHp6-aJ2ZG6b_C0bMYdGp6k9D04hQRLv1qeN6liGgNLFHdlV9nQA6CcqbEzmg49jdg_UpjRVYjF7LnF8apqQFgzTrwm4a4_M9JdlXXZ8yxcF2Y9CDEar9pi4liEGr1A5xzLRyuXxLUoYI6OBVWF6Se9wC17Y9wOI742sccWcPyS3iBpOYImVTwb4AdcG-0ARCzhnHkM9D74Oohf7IMCZgNegG2DBnUJQdFEfuydilWLNkkSRxL6bB-zdgHH35gRxYHHQaSvwGvp3uCenHHsn9DUd1-8NMwqF_HX40Uk8msn-IO88RnWC4UolomFNLuknUHEybB1Hk6CXr_-baLttmdW5ofhr7bF_OKjusecKZfrli8puOZgyMRuaus1ZXxMWVofPJzX73uj7rSanTJUQ4T9k1MP4fiX-6-BFWW4NviwH49qWdbSmXhEqO0VaNYKNxGBOoR31VoCHtc0fnsuEFYKlRnt4Ec1JAHoHLfM381pwPL6hzaeYasAhX0LW0FNOPdQH3ui3GKL9RdosrRCDic266HCHgfSn0uQBx3gpwwBwYwr96iqAIrtThfE2wYxCepaN7UsauS-MAnV9kjgKylJe-uRFrXyT7IX2l1s3RFz_dYCjBbRdOKcMo5TYGUsdEkkvBTNgDRtQ-pw2z93_5VKBf7k39mEARf2MIOYjbJeVZTgu0f_5KI1MsGRwFw2atcSa3PPkd1A7e9GcFTwql4NgnOW3Git1AqwtEZtP8YLc-mQrz36DvI9wVmbb6R4ZdnwbW6lpNmhUV-Qois6G7uvNf8U3gpAdUNXDnjq9vpMPjVW2gG9AaJ3NFjZZX3oZdqLgMg9yqeW9Y9Az9eKpmoR2JsYheA-Ll-X7ZB90kReckPD9bv7UvDRzFeEG2qREnGn5fZgKf6K9jQzVFKVV19Gfi6pf9aks5zPprTc1O6wrqLYs9fCIo8LAq38B4BXRaeHjKPRDTXoJDK3WroxpNtHUQ2thRhutsiVS4Grnej1TEkXVbobMxZGXphIS7Skw2sVxnNsSo3w4gFX0HHqoDN0bGq_vJCYoNu2dBIxmHFqz4tmvwT-sDf0ZfsDcHbablJnDBj87IHQcoPkgZ04XUSayVqLiGcHhgrofAVA8ofnAW7CvPSfM8B8qdsVv-KEya_fXuk6O-73S1SpQTKwlPQuadGJsfm5T_weunV0_4C3uX0Q0mlv7FfAGwJGe8P0GscRBzL3MEYjLUR7gUE3GS8nh1MnllgYDJoqTu7Bv1_HYNXc5Uo0JsEr32yacjSHhHzjzjq7cH7E_Mifv9L3rzY-VPIE2NlLzVEjOR8S7iwOXlCdNuQxOVsbeEXNgNFoCur9klurQ5uXD3-cGDCO-QYZy1KUvt4GeaixnJEE0sdiNmf-rAbVYpgSbnh0Y1vLoYYohrR11LVEqdfSP7tt4M3iF7QLURTEdyxMNiKF_0bGyID-5KwMbqJYvKA3LPBVH3_oM9g8nNmTG5evcQpui9Boek0XWO3PKwQKN7ujqRuSyPkygvvDfjYUy3PdobVdLmvmshDQDUuc3EEo28mwy_f3Xz6NYRthLLTEHvLlNFMe8W579vxOaljNwLGdCLlHUQj6M__nkJ8wRMyyoYmngjZiobyXlPIbu07GZwIEWcAN79MCLjqrflhmvn0ZtOvuXG4GlzHa36rGvf0OVInyXjb1xqgpF4W6j_IIFVUGTWCeMUBBS9xW-NPPtKA5vgjcWRxCER8h5zZD6pn_jlHr2JQ-kj46X9e3itHwYSNvp--lDBluQvk4NL7Y7oVMCnWRFc_N3HdvRwaJb-7BY5MZi1WM9fuse56R8Rp_rQJnAFAfK95SGNf-VXiRBo2mLKBPY9YTOnF5FeQ4LiQ9fD3K7LTk_LY_G67_MXEdyTGSQiwzGI-c5T9so_Tj3OEKBGydzdyHb21T3Gz2TMapHku9C-1rC4FHpBsulwFNK5Qmy4E_lFUraS2yOPHWYV7xxKy18kRtaOHF9qSUVJEfXUAtBGvcqFDYa_ZMv9xzp50UUXdRKOg_OuNZcUqlghsz6d81-IP45xZwRU0UuvKxI0tpL5YD8poLnWfReRBz5HbLnRQ-BqPC5jHI-UDpY2dWZc4D_5mNaEH4Qs2KJPsmBMCAeJQCKBqDYSm3Oja3aBXnXp1Nfm_syZkZnDdm6LvrbqH3rBn3F9EPOWK1H80qGC1bEXQTKppoOXhb2JNU3Xgd1Ecj7ebBbwEx0dwnT4Js_MJ91RdOn_eSOhNtPWAEQuv37eAPZrm1pyTBUjuoiMxbifj8dVG1hG5g5EPliyryN56lq3f4-N5Bj7EUjOR_CdiDNwh44Lnf6e4CCEx_NdYF3lh9xAsGfcSPV3IvUZpITn6zpBhh41qJOj1Jggu5U6PaYeRzKoaxM9oonwtY-HjMC269XG8HGOJCA2NxJw1VyH9HdbFuL8jXrO3qYeHAi-tA_V7wApuGjlqcFFcusP5xQxCUTt-m4hSWdS4zfzHd4KymscRoBcjCySCPuubMd1xZAZ_X2VCqbM--VX6aukCDpVWTvzID"
+    },
+    {
+     "id": "msg_0054f2aac88d7cca006ac36c52a93487d2bd8703036bf4f977",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Audemars Piguet\",\"model_family\":\"Royal Oak Offshore Chronograph\",\"reference_number\":\"26470ST.OO.A027CA.01\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"rubber\",\"confidence\":0.78}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192147.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "xhigh",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 3384,
+    "input_tokens_details": {
+     "cache_write_tokens": 3381,
+     "cached_tokens": 0
+    },
+    "output_tokens": 585,
+    "output_tokens_details": {
+     "reasoning_tokens": 516
+    },
+    "total_tokens": 3969
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 3384,
+  "output_tokens": 585,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.0006309000000000001,
+  "cost_source": "rate-table",
+  "elapsed_s": 8.612,
+  "started_at": "2026-10-05T09:22:16.385905+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6-luna"
+ }
+}

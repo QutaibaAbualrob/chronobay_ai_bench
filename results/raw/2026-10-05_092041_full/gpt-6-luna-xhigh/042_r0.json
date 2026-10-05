@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_092041_full",
+ "model_name": "gpt-6-luna-xhigh",
+ "provider": "openai",
+ "provider_model": "gpt-6-luna",
+ "mode": "schema",
+ "row_id": 42,
+ "repeat": 0,
+ "image_file": "042_tagheuer_monaco-calibre-11.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Tag Heuer",
+   "model_family": "Monaco Calibre 11 Chronograph",
+   "reference_number": "CAW211P.FC6356",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.88
+  },
+  "raw_text": "{\"brand\":\"Tag Heuer\",\"model_family\":\"Monaco Calibre 11 Chronograph\",\"reference_number\":\"CAW211P.FC6356\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.88}",
+  "raw_response": {
+   "id": "resp_0b3a112fc9e6cb4a006ac36c662a2c87d28ee7f8f96b2221c7",
+   "access_programs": null,
+   "created_at": 1791192166.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0b3a112fc9e6cb4a006ac36c67b40c87d2bef476805d675b69",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw2xt97GEApw65gNcg6AiZT9UOo4mHeE4JSNeeFswMDSa90OaT8oVyEyRhKHtzCDb9Fm49H9G5hDSuerUv7BPLQne808cEsytQnEgG_kVARrd2g1VW8S95VmZ-3SFeXb9qH5_QAANSRrB7L4YJrLtE-bjay0RHmiwsiURcjlv6KDkVlIP9lwDAKrqDMXtzAzg3xCQFTtB6XOMcLZK0HL6Vq9BjNWpUaOKmlw_EqRay_-FIrPCkOPGGRD_2iehw3cslPedCRr53DMZS9cshVRpVpplDRjieDfPwCkoxwWnbbReGVOOACeKdqL0rtRUfJ-1WlZs0TOS4qdhaiT6XLglaHnf7B9xI_xdrKxK2kJ89rIstjl5O-YEZa9VQ-cFcEZoRLfipoc40f9iU9Gwl_XjdrkQ9kRfCJMSBRo91JeAqqp7p6bHVK3wykhRWiAPLGyw25-L4Hk3c__02qldS8UY8hS0BoZcn5h53MwHuMYG9xgGjcaC3u-8y1iavKVQgTzPUTuBi3hwv2COhO4aVJmec6KEBBp-jmcuXChgxHuNqjagM52yMd7tWfqrlhKBLymreXWiXXEWiKX8F2MW6nA4pkctrDWndXBpLs2QAa9q0bjgV9urx2edzjr9KCuSs23jYT_31gLVjlMzoVXRx9ugv7huClBeC2NLswvw3wODlm3ZCmfG1uwpa9bZYjaZ9Duzb1KBSM2jy1f-HXR0_7DaRVB_H4QCrFh-7OsAa4g_ReU4v0MAn7VXALKM0kvCBYfgP_NStGp_NnXWSOCfHNNFV11YsLtGx9hcOMtcRzgRQA7gFJal4A6JITYIFfoQWpCJv1FH7lWha_SaAbZ2eRVBLknRhHxLPquu1jlPzTxfIA6AH3dr7fdOJWivIL-1lWcWg5y-RJu9nrNU9vUaJJcX08Ccw8nC6kFblTp2LMUqF0njVRQdT1fAWV2Q5hY1uDhaKN1FSdSmfjIkaljVehXqU4PeJ0NVKYpJ7gLkpYc7hcSrvHKfWw4YmzxLjYBrsCFXDDlJedKBRckRhN_Lx2jX5PDOJ9KObKIwJE3UPsGMpnaStVr2S0VuGWAE0XYTDd4SPBWp0rYLUbbwKGHxxL_uTjuE_13rBS4gs1IkpZosYmTHd1D8NPb5PbKlLkHxkJWZ0r4_XqlndymWUmIcTx237K3wRQA-HhEsdHjYQoswz4FLdSQNUDaGnpvPfn_YniNY25u-dNjA0mp4F3D4FybVRbEo1fOJ8J_0A4M4v6EOaelOkPrVvjVjMAgrwwnzEYwfjHEHTO-mlwiTRvk-CBVpBfOGvJ8AhbVXKCW8g-h_5pqE0WH87JqXIyWbd4bOTHEYd4LT7IHvp6wCUxu6Rkug_NjNHvNK5fQ5qB7SgBZ7QuRT2AdCMbR8bkFjoe61tmarCO7oTTFqStcEEKzAbWapSPoF56jLeuhUt-2u3bEoH7BVAldi5ay_eMAIxkcrSqIwMFSg1AgFaFQBY66frVzm1apYpoGthKScmwf5vuMQqt6GqsJdmWVmTpaewJQCsP9JPZNYpzOdTv3BInYCB8OcjjoubzSuXTWzdybKAmIFS49gwITLv5uoEVwaieXbO31zYelhGHKWwK0cDqdyxQ-dabqZfvunWFVQ1Ot6cyQS5qbhA2Sv6ev2zV9_XZdeIz-sk-1WIzbbNCZ5xKXR9HgHPLDDh6cGMfTiUbVSXJgWvMU_ctjFKhoYMxehMNnWhRyFrXWPJJgDIFpmYHJNdDxrvsly3CyFPwN2nZe6fGQ2vsGRWToJf4vbGLq8tnPuI7sQhIC41tP9e42hjjRm7A_0R4heat3k4vQ2bFUEKmrabEs66Pvsc9sY8o120LRuKdtg4bRGkDCs1Z7gvyVcp7307ODRxKQzfiafKJw1W9VlfdUlEzL9zsigONGWVnEbJ8hoGE_4zBhbMeOg2hZwZaQu2DCFpPQrgAME5eD0aR6T0NstcTJhLwMnByD4NxLlq3qhspTh0zRc2ap6-VsMQILUA-T5g6T0yYEOl_BJpNqa-CSen05u3fg4hCtBIJ6aTQtW9PaAWogmkezZOOZ3DaWT32NdAZHh4Sq7yLimDTYyTurXCakp4IOtt8VM3Lo8-8YQfzKqEy5F5ajyu-GOXYiVQytRAOfiulRiCP9aCcr9HmuhIRvfyxnc7Vqhfl5WKv2qg8-VDld7bY0Lb1P6JtvlZoR7P5AtEH282AJBtnxDP2FTQdtUYyOMYm35ksGWyibVWlIBMvv4uKrPT3beMseUIQVIpt8K_V8VDh1xUdjVN_RPzYlZnV_DVZBDUznoe6Rwe2wFhaEZlhsEXk8EH8O3Jst-6zDwuUA3Fx_GdnqXtWiYQYK_DD4zSpEm5WJhfweUMpRhWTcU8CEKWVRbxp4TGAsDB2dq3rqr2gWYSrWEjJRUowNOMIWoANTfASCye1B1vHMjFiAtEo5beXZNLRJ1E7cZWj1JL_qJ6Z2CtAcaFF-PfXvQWlQq_X3Rqhm3B624A_KOSEVZTk9s8bwOvLq3jRE3YfOA799kEdxdOws84KRZmVaHLQkzpHNXfBxrqhA2MJ-pTB7xnjc4DBfCw08VQ8Xq1Q2WpZebd4wquWupcZYXwUNhRG9EII0PQF4Wjo36XjIx4xhlBpwZe8aZJV_EqmFAD1t6I426XEvBQ9_IROjXU9OqhxVP6yGIh6tCtPVgNMHJH7BQ6pb4BW6MYAEkgrU2W9ZN1oF2tT8b2EpVdtBFKSlwhoiSPYJ0ecH91QYShSbSbBDHiLqffH6n43P9LBkRAY9Y44TYljAzTF6U_-bSq5lbPpgGaKX64fcaW06ZyvrdCMyzdLNlHfNbvA0xQRRSZGxMkaWP_MYE9hrIBVMF22mlvRifSxudKW5PX4XZwqM9qWui0PW7o2-riY7mR4hqmupcb8P4qGQbwa3SKe1z8SVEkb9xKf6cItknHiDN7WM_dZW00EqZi1SCgnEzhAPTc3MpHeUCKBwtrHE_BsUbfxp_Aqfy1GbJGkerYG8z1Mnm3bCjqKVjV4kELJezJkIdhISJ0ZFtTSczLJb6xU0tqWOVKhwlVkGltEce1Fk2IMDONViO8byexFwHhXXFx7wULr2LiVI9mWvZS7U1edINEebyGAzPx-ATPyhL7kHbZD_GtQ9nRGsRPvTH5uZITsCasGbxzAow2IHi7AQGVBrP5mGZBMbE6QaBntO0DYmxe58t_aGfUeXHBXtgZ0NCPtgmiy88SP97dQjO9fLfs3zzFMacKeplqBFh-Fa3_3XXEUJn5Abrx6unsaUcEQ_U-T9vkrGOttfbyI2ZnoulBbOfckuDr76ETkc1zdcg2Z708oykl_uWVxZrjIxpU6cSDo3LK2jYyqmM__EV-cAiEja42TCe2w9JyBbn09nmDutn_xE1EQ7pJNTAkN9zZe-5JMiX8_FuiLMQlLfdZfNNpNeMe0TumVzCoYdb4dsnMp2K2rWq"
+    },
+    {
+     "id": "msg_0b3a112fc9e6cb4a006ac36c6c8a9087d28f04753f458ee1e9",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Tag Heuer\",\"model_family\":\"Monaco Calibre 11 Chronograph\",\"reference_number\":\"CAW211P.FC6356\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.88}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192173.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "xhigh",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 2723,
+    "input_tokens_details": {
+     "cache_write_tokens": 2720,
+     "cached_tokens": 0
+    },
+    "output_tokens": 512,
+    "output_tokens_details": {
+     "reasoning_tokens": 446
+    },
+    "total_tokens": 3235
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 2723,
+  "output_tokens": 512,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.0005283,
+  "cost_source": "rate-table",
+  "elapsed_s": 7.374,
+  "started_at": "2026-10-05T09:22:43.494175+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6-luna"
+ }
+}

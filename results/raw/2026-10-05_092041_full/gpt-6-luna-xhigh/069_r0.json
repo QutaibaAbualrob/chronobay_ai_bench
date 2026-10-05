@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_092041_full",
+ "model_name": "gpt-6-luna-xhigh",
+ "provider": "openai",
+ "provider_model": "gpt-6-luna",
+ "mode": "schema",
+ "row_id": 69,
+ "repeat": 0,
+ "image_file": "069_cartier_drive-de-cartier.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Cartier",
+   "model_family": "Drive de Cartier Small Seconds",
+   "reference_number": "WSNM0004",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.88
+  },
+  "raw_text": "{\"brand\":\"Cartier\",\"model_family\":\"Drive de Cartier Small Seconds\",\"reference_number\":\"WSNM0004\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.88}",
+  "raw_response": {
+   "id": "resp_035353a4926370a7006ac36ca09b3087d2af08308815806bb5",
+   "access_programs": null,
+   "created_at": 1791192224.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_035353a4926370a7006ac36ca1a3ec87d2818cade088691b85",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw2ymdXA2YmDnPHl7dKy3ve6zEsCYyD8hRJ0Pf3vydJ6pmu5z_E6z011oKfGaxXCw0eslgmjJM2YTIeQJVHhyj2fP9d2ycLd28JUVb7WXQEyGgfJ7PhOn_rWMAFXJmMNOLNMyo0yJ1LIa0sSy0SI__05wMUAQezxroXa6NWTEAtUxWEyzz-drDA7CHMi6Ssz89yv5Nw6ppV4U1x5RsKDIksmQKw6A9X45lMpGWvveamenJAs7c1ew-4o87RsAEv1tdnjKYP4jlWAkusM0GiBY18W4ga-Qk1o5ZS1C4cSoplNXNVWvvEoDBralXJ4Mi24w1qDPmNa3ayPyPUep9q0cxu75b9Mlu0nWp1CbCMGA2rj-rLDMo8QOHHs3DqF4Iu6ZW0NNGiA_6nb6gAy95XR8iqtsmd40IzbtffvoCfywcROZUGfNJsGMwujzy6U1E6lC58ijb26bde78CkqbOhw51MbZPgR2lhdT0e2WkjjFdycdt4GrUvPp6RLdtEx9Mct7fmH9ey8CANDnDgHXiAVMvwbOlKIEoePBPapTpGUuryN9QbtQHF6Rl5OsG1Z0qUami3EG_S8vN90SKcISoD6mxn4y33PYtlsl6IZ2_TSCt7GWieZ9UKOQ-1H5pg-e8lKNhh2VxL3vUNgtq8CgBMetNAeqRAfNT-fTCmudJy4SlO9HNhaY0Ph-4WI2hl4ZUf2EoWUsqXVNnfQ3LHBN724aVD4mHfpAPL__faPCNFfXxyApZ9zffWs3PzWiQLzRk9YlNhDKVzf0Gnhz4L0RRsbpL-gm96YFTho2O-gNqTAKqf7KpvaQuc0Yx_b2UerGHGpa26d-edVJlRzcfHRi6IeD-6XXeZEjtbL0N2E0D6musEt3DTcGdqV13N66qBN1PxbDNHeqoYixWwNfpp3iFIzGwRYqwBLX6ZepP6h_javjhLDC1MTXH8PIxBhO5zsAQk4ci2RUnFlwP6_6wnDF0Vl8giicGh2RGfytF-sNCF-yz0WaoGO-Ceq47FuhAjrrqXxAvY1g2E-O41JpjWx6vx4Dq8uTFvcbMNzWrpduhdqC_3QZteIzAOIGoRRfvXcnVDG_NpN-G-QKrKnI_QJ8pcLQxJHZWm3NJyi7K9H7S2E10Wu1phMyRZ3V4flmG9uREEtgGcL8erH5qXbYNHwtbokK-IOQx_owDo95DoYbco6vBQN4ObJN9E7KcZtvVcmKd23sM1sFxCWAUvo7PGYOti9GQHJlfVZThRzgsUxZ_s1KyqNHKVOAbp2ltg3tHUNdTLPpufjXJi-XJFpKNv1_LvtkowPu6CDC--esfTQy3POJmR9oMjuq-Npl3fsT-yim_zgvZTQ8-wILYFhCyWEZQd24udxXF1U7V9sc0CXExtxm_63m_gODkkSuD6SH4DMwfz57yHCLNChj3dKpSyQ6J1McmtYFt566kgBTrMnbVl_YAPD6_HNeqZYoXLY4OcJ-5D9u7R6zoIQtS2hqYu_njLROSn6k_xM7ATOXneJdgfQTnXKDjd76CGkZbTW1SEn-rvK5gYyGYdhQJ4vqjilXGmKwjkf8FWxStNBVe96xE3NRMwYfRBHPXX5R1ZipXcc6Q82DAfQ7AvwhwIO75kq1j9FBL7eWWNJ8ghB9YOY5Y2RzDoZgUq5bGlWG8PiPWDUcKUaBcp865O736v6QBTUS62p0h4ohS2qeRu8uRcFJJbOHw0iarUc29ichI38GzaxwZCYVv9jN4aBMfwnKPD-Qdh50pOOyNdFeJJ2BGzGsTpJC9OijY1r4wa11JJmWjUO9g8Yi-ZIURzK3g-Ftaluu9VALulSshXyORIANJnD4uBmz62VH_LvjcO-ymmWfpdAkg45pDjDJxi9--KFfQu3kyA5OTcfOBctvrB9YDNI_WYC2QVTzKSsuGtAem0XVR0Tbk8fej_v51ESpcP0oqY3Uw59EzZded_nYUL6ySg7BUz7ruWZDRZ1_FhDxnyQrLQMewetr0UAAJPD9eP9LYQVY-Oc7YMIMU4vIpjShPm0FIpgp-8Ff9cvCUIfJ1As-xlOrIa78Uw4k2CJ75nDH1GUCSgmPK0Bwi0SYiZEvOXhTARwGw1AGJibaJj0l7mh1-LnZJM1Y5_o3IsMBDxFlEicu6uq5mgjjz4_38Rts82nwVe2Sfgsr_pAjgzjm8aEoBbGW7PLZx7vuV70ZuRO4-FFYgkoY2vwTD6KOBqhZc7nyMWp4gNnCAkA-wOnsfx06NNAYIC0HD49yKdvZlRCbBEZOh4FdGLi4tcw1vtwMtEtUtOkLzwA0VADRhdZiD7d9VktdLJAZoxm_FRAOhBTMHCFGsunejUiqCMWoZRw31rJfNKFr22jscTRcECqSOPeCbXSvg_usjJNDyXl6XmjM0Gz3SUgtV5vu1HbxBY46Reajn4OSQB4WopxdsY0gMvrg6QyNxYc2ABMrKpqhAXgdEpkobx2-yvbHUpFI3bQOKJWiepYRmfF2vH1zDLysxrfVcmQDQp3z7JurqKyaf-b2SDJwXb_rXd0msT7P3t7Pc16xYLktQTR1DtQ7_7L-sewdjh63xFyca3fin0nvSrZYNqRxlw3vOxqkfLjUNBZkqstvbqrPlDTQyRz23AP04c7lq1CiuDqiAwNTSAx1xXZQXkTRjE9Z0q2wBZYljfgZsAIEo4AVM_pw-g4WCP-UQ0IV-HiP-NsVbymMQ5lv6xgklfU8vICf0nYF9ntt_cIOrYjXA8iW4Aqa5AFVqcjudrZIrdmjthSpw9dBHBJ7phWiOIokLySymr-bM4m0hpef3czssg2p7r-6RHX6AjeUT5hoOqnWFx_rsGqyi6-GCUKxkq8DhbvebnLQ9POChTgQYGvFPeziynTIQ7y-ugIYOi7p4vQCLD9EqfYlDKGT1eTb8miWfEi7RZ6ztgDATbY_-Cnkci9eYX0YpSYdKm3ZJiU6r6KYn_qhjDIcAFn3dYZGcnYhz-_79mupX-nWFNWYbHyGHKGLFOSLXIljGmsD6Nhl2NK7M7ymLmE1eI8G_h7iU-v3K_yEzM4uQLufDtwBAxVHlRUyDBR3jVReSJnd4h6ap4AJzs3g9F_pyn-KpQzMTR5tQ9D2azcbs4F54XJLxidXhTFUhoz9n3puR9Fely5THemOBoQQJDvRzfyhMEotokIgaDYEED6Bt2nRBqLDoY-k502UFgXOqh55Mgq7TPOfy9YKr0tZBOlo2-dqsr38SUfIzEGbigfDhcQHOo99KEJr0YyqaAjDbrNBP4mCkCYQZ2ulRPaY7qKgt0Zniy1jSsB8rNhN0S6QCOP_UxQCwnBybzi5Q5CDeJcuH3UgYR4pUidTv7Rx4rCGBLxG0j6EcgopS1uUFwNfFNjit5JgKCSek6moPmwUpt2lreS4yuUevtbGRhwlwFSyTfVKoGODGp-uYUnNQkbdvzKmqbp6FzXvcgF04htS_Yjq8AU78tDECIfnxtzvaUD_dVMu6oUTtviXmGzk4FK-WHREfjAHdytF_7lL_djvURiXFuYbM2EiZ_5S_zmdkqfXf7qKh1_8lvGMXBkAhuKN5w=="
+    },
+    {
+     "id": "msg_035353a4926370a7006ac36ca6086c87d2bc496306c7c7268d",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Cartier\",\"model_family\":\"Drive de Cartier Small Seconds\",\"reference_number\":\"WSNM0004\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.88}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192230.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "xhigh",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 3323,
+    "input_tokens_details": {
+     "cache_write_tokens": 3320,
+     "cached_tokens": 0
+    },
+    "output_tokens": 497,
+    "output_tokens_details": {
+     "reasoning_tokens": 438
+    },
+    "total_tokens": 3820
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 3323,
+  "output_tokens": 497,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.0005807999999999999,
+  "cost_source": "rate-table",
+  "elapsed_s": 6.445,
+  "started_at": "2026-10-05T09:23:41.907389+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6-luna"
+ }
+}

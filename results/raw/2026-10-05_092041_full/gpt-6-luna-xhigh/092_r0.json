@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_092041_full",
+ "model_name": "gpt-6-luna-xhigh",
+ "provider": "openai",
+ "provider_model": "gpt-6-luna",
+ "mode": "schema",
+ "row_id": 92,
+ "repeat": 0,
+ "image_file": "092_vc_overseas-chronograph.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Vacheron Constantin",
+   "model_family": "Overseas Chronograph",
+   "reference_number": "5500V/110A-B148",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.88
+  },
+  "raw_text": "{\"brand\":\"Vacheron Constantin\",\"model_family\":\"Overseas Chronograph\",\"reference_number\":\"5500V/110A-B148\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.88}",
+  "raw_response": {
+   "id": "resp_056a56cd37a041c3006ac36cdf63e887d2a2ee9449e68c8ab2",
+   "access_programs": null,
+   "created_at": 1791192287.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_056a56cd37a041c3006ac36ce1456887d2861419c8c78f2d0f",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw2zpClEKjFUN6bD7JZlbA-iMWhuTNyzEA5_zgVGTkiloPeYn1fc_GgTUqo-CKtU3mJHNu6fqwYcR4pLBgzUX7tl0RsbX3u6JQ2Phq_HJaiU6n4ZgHCTqx-Miok1mCro-ORcy0DNfS4Z1xoCkM-tDU27_D_l0pz-j75lpGZK0D0kryBYBXLhEnOQM-T5S3vhsup1Xbk43kYFPn6gqdl3r7ERWuCVmjHpuTgbspD4LojtZ5MHEhpSTnQaV7ezQzJHYKnwjwDAdZcBQw7DEAoxSBojLFwxlmlSmdbYrHiTAT-nez6W0qga0IR1AlrId3112JhNWmsgpMF0WqAJA_a99U0s7HgBYa7yrOt8qm_wBh4V9ztHGPRYPOu6nthqLH5-Xcpup7XUBhpjV4BYTkjt5jHW2Sik3a_EJfD_XOJPcdrPKcpFSuXtx8zRwkBTX2J9xmR1bE0TKQQxzDvyTo1wumB07GL-iB7eZl0YqWrYFl1FRQYWriS2Cr1w1Z1cc3fp6sOvb0yo_A0BarLLQ_dVzry_8YzD0WbPARgpKmFExsuDLnbLNPlZkkRtZxFnIBZhOwOkCxAdjFAf4sCAhcpkKdCZSA_Uf7HKqsKPwSz9RB_ACRlfNzibSTtQAnSBY7J1dGJZXs_zGhiJU6ldetpbvFmCEiR7hSfnRjed5sLzSM517xdX3dCzarnc7xbfkyfuFX-7FExqYWvIHXcgS6o7CBhf4zd4IBG-ZOj_3cIgyWiYoS8a8dNhDOKPw2X7MsCFcCW4IPbYWmr7xYMzxfO1piPeWufNfPeHzrAyMXHW7QG3mTGKKdsQ3Y-s8TBlbu7clk6fGatadrmWgUo2OB1Mkxtr_KpdRXMvediWY4KI--s9I2vRWSuEW5tpaOLu5WIoCyE0rNThJrnd0dITyd5yuw9MQWENUqPfJfTwlC6gKSW-5u6qwU8rcTZ2jpXDuR2-twFB3V01whLvjOVUzQ4qXAeTYpDXRa6VZyX27hGhK911BGYYZfeXLDLKJ3uj_AFf1GFrDztEnXbccDcj9cVE0eQkMLY3kkuFVAfNaqThuIqHfnWH5Ow11hK2TYQkQ9c5LKiS4NHsQHc4zQA94mFIX-T6cr0N_nCoPyE5dm5cBt9I19ult9s4jHaqj_xd1KRUsqEzkWz2b792rSWzKVoCCGDE96_pqZh0W0N_WcXUrOObVoypH8qPjqhWUnDBuwOfNZCdCHP-hYl_Ubh2Z9mINyoe9jnTzqRCZ69pSSSbTinfk314wvLmpiTxfG6j-16CLuLMSlIWvLgrcuUMpw6X5qfjbDgzFo_A2uEkI-SedYGu1aXj-g7YdK-IWMf2vmQbRxwNLU0Io9nAX1xgGurtrheNWTU9b0kK-sBBunlif0nzcxdOLNvzsj_BiS0dbFaEJvp3yT8wI3mbi0Vdm0FP3OXY9R1qfcrSN7QooOdiG4Q7yoyU25z1E-QcSuq0J1AA6smlZPoLVtyULreegjW-d24xit-4Kv7NNHEPcyYlooXkE_1k8Ge0HV7J3fwNYU-DzG-gK8jTzKhFmCjV4O3VWAcufWF2tpJOFGWWLL7XPozdRhP9xwk4RXzLn4HSETsLF9zMtWKUr45I98YJpC4tZotVruBjAJsBr6niINHhMlqZGsjWIE5RhguLZTNOAcPNtz2qCyqFJghx3AdKJOh-kw6ihKXMOp43wPthnKMPey4fYXTtnJrt7JYBKKLrlspDf6cPVH3q0yTlYNuhvjzQENg8vzwVIXLNe8P3IWFSdAXjHa2V_Y5UtrgOjfV5WqEUZ0n9D8DdFvkdZaIlZt0CrsHzAeLQlnTObVLvuZy2ft7tXcGG7lb3RH0iuW-Lw4-CC82Epnoe0UT9tVxoyjXn2BfUySM7auASGZCAOvav8gdq7Js6MwOYJsh2j2hLRlLdbunNDaWGFPjWc-NSfxd7HFUHq4iiD8ibX61D9oZATSCtKyKrXpejd1F0F-3QEYIQzHM712TiGoqGVZb_6GtnqbtQvjyruAOEZNHWfhc9iSCYD1oKYegpk9TcSGIGl0XAGuTwl7HyQeqiWg8-92WcuuYf6LBys31I7aeTUvi0z2VNnfe_zcHp0JKWGP3-ZYJAF2xlIGzA64XWlDMhAHT3IO7Iq59F6DnqxGYBPnrWLfmwxYPcJtwEMxRCbMDVgNxPV0biABmi3mhXxnkV5XF3eWD_WpPxDGP6gOU2_WHc4mLe_zniA7Y_id-X9SBe27Pv_AcuTCsyv80V7Rk8ZoaP8I_DMSH9xi2bPJtO7x9_cW1JoJworimKcin5cQuhhbM0fqUZEqOdgM5gdW6PCMCzfgce9n6iYYbnRGe-U8r78G3ZYg00kGGZ8h_atZ_qkWp1iGRwJ4hkEJ_qctXtNarv_L8vX1vfU5A_LGEo92BTgttvplPXJ0iG4IwSUIwP8kWlaVRI1HYX5Q5Ce2GINCothPBa9fyQijGK02O416h9UhZfY5nZPB8fvMFy_1ClyZYsacXK-Rr3cd-J0Gc5OLy4WIMTlvNaWJcQiu5kv3LI-i4UAYjP5_rJBgBpoQv6bfasK29to1j_GtOxxfFGyszajx5aTvqcCPV4bDuMFsPX2tvCkXf7N8eGolQcGSWNv7Eq1nLurJ2cNE6JWJ2d7j9CH8sIzyUr82gsGiFtNhnKqc0xVzpI8qhcBQNekXAOEMxip7VMCTGgtthwEUyVHx-Og3_tKnnm9B0T4b3b_Ly5GtsV5zkzNMcb4af889KcT9Ll4VrG5-ANMLWs4vyIzqDqBinbCp9e2Knyzv5DTndRWaApcYIoeBxx_6dG14ylzLZ8-h_3svU-effrBCPwNaR5JvnEO4DD3OylG1Z9Mk5bceGWfs1iJujamrH-SqvEY_mncklmIfwJP5YVGVuWgPPV9PSRMHtVvtgb6c44RLyY1s94yXiSTnLML4N5K-Cky5yzkf3elLkTuuqqc15DOPwNtv4N940HKBht0oAVQg8vmC18WfFPXR4PeLVFrVKLhCtfePIt2uZCtD_kynY9tIo0ENCPUp-yxNFookhXTPGu1X5sj24Z-e-9CAbYNsweadr7E8Abrla8h2BmgoTV1k9p-2YI9xn2MMaJ5nsSUGGkGQLnD4wYOwU89VnWV114wiluWzRLKN22mBRJiDNQpHqhqOmw5riFRCNy1l-yXya-qwMZVdWST5vwCFJSQPTMBoJ-9wXKnpx4rpZccXrAenomjNpaPcbrs1FQKAEcNj1l7u4XO-feBHCGBcLbL13dQlfr4kqGpvHm-7GehSsLO70jOR-AIiY76od7c_ceUIwf25bqK_bE="
+    },
+    {
+     "id": "msg_056a56cd37a041c3006ac36ce6325c87d28635e2705d3a8232",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Vacheron Constantin\",\"model_family\":\"Overseas Chronograph\",\"reference_number\":\"5500V/110A-B148\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.88}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192294.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "xhigh",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 3443,
+    "input_tokens_details": {
+     "cache_write_tokens": 3440,
+     "cached_tokens": 0
+    },
+    "output_tokens": 491,
+    "output_tokens_details": {
+     "reasoning_tokens": 427
+    },
+    "total_tokens": 3934
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 3443,
+  "output_tokens": 491,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.0005897999999999999,
+  "cost_source": "rate-table",
+  "elapsed_s": 11.243,
+  "started_at": "2026-10-05T09:24:44.392126+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6-luna"
+ }
+}

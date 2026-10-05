@@ -345,7 +345,9 @@ def build_index(results_dir: Path, dataset_size: int) -> Path:
         cur = latest.get(s["model"])
         if cur is None or key > (cur[1].get("images", 0) >= dataset_size, _run_time(cur[1])):
             latest[s["model"]] = (path, s)
-    ranked = sorted(latest.values(), key=lambda ps: -(ps[1]["strict"] / ps[1]["n"] if ps[1]["n"] else 0))
+    # Full runs first, ranked by accuracy; a model with only a test run goes last (3/3 is not "100%").
+    ranked = sorted(latest.values(), key=lambda ps: (_kind(ps[1], dataset_size)["kind"] == "test",
+                                                     -(ps[1]["strict"] / ps[1]["n"] if ps[1]["n"] else 0)))
 
     out = ["# ChronoBay watch-identification benchmark", "",
            f"Updated {datetime.now():%Y-%m-%d %H:%M}. {dataset_size} watches in the answer key. "

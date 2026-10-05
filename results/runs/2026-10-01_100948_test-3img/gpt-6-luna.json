@@ -1,0 +1,118 @@
+{
+  "model": "gpt-6-luna",
+  "provider": "openai",
+  "provider_model": "gpt-6-luna",
+  "mode": "schema",
+  "options": {},
+  "started_at": "2026-10-01T10:09:48.187369+00:00",
+  "wall_clock_s": 10.03,
+  "raw_match": false,
+  "n": 3,
+  "images": 3,
+  "dataset_size": 100,
+  "passes": [
+    {
+      "repeat": 0,
+      "n": 3,
+      "strict": 3,
+      "lenient": 3
+    }
+  ],
+  "strict": 3,
+  "lenient": 3,
+  "brand_ok": 3,
+  "cost_usd": 0.001603,
+  "cost_status": "complete",
+  "cost_source": "rate-table",
+  "price_warning": null,
+  "price_verified": "2026-10-01",
+  "time": {
+    "mean_s": 8.723,
+    "median_s": 8.41,
+    "p95_s": 10.025
+  },
+  "errors": {},
+  "per_brand": {
+    "Omega": {
+      "n": 1,
+      "strict": 1,
+      "lenient": 1
+    },
+    "Patek Philippe": {
+      "n": 1,
+      "strict": 1,
+      "lenient": 1
+    },
+    "Rolex": {
+      "n": 1,
+      "strict": 1,
+      "lenient": 1
+    }
+  },
+  "high_confidence": {
+    "threshold": 0.8,
+    "n": 0,
+    "strict": 0
+  },
+  "items": [
+    {
+      "row_id": 1,
+      "repeat": 0,
+      "image_file": "001_rolex_submariner-date.jpg",
+      "brand": "Rolex",
+      "expected": "126610LN",
+      "got": "126610LN",
+      "strict": true,
+      "lenient": true,
+      "lenient_reason": null,
+      "brand_ok": true,
+      "confidence": 0.58,
+      "error": null,
+      "error_detail": null,
+      "elapsed_s": 8.41,
+      "cost_usd": 0.0005537999999999999,
+      "input_tokens": 3443,
+      "output_tokens": 419
+    },
+    {
+      "row_id": 11,
+      "repeat": 0,
+      "image_file": "011_omega_speedmaster-moonwatch-professional.jpg",
+      "brand": "Omega",
+      "expected": "310.30.42.50.01.002",
+      "got": "310.30.42.50.01.002",
+      "strict": true,
+      "lenient": true,
+      "lenient_reason": null,
+      "brand_ok": true,
+      "confidence": 0.78,
+      "error": null,
+      "error_detail": null,
+      "elapsed_s": 7.735,
+      "cost_usd": 0.0005709,
+      "input_tokens": 3384,
+      "output_tokens": 465
+    },
+    {
+      "row_id": 21,
+      "repeat": 0,
+      "image_file": "021_patek_nautilus.jpg",
+      "brand": "Patek Philippe",
+      "expected": "5711/1A-010",
+      "got": "5711/1A-010",
+      "strict": true,
+      "lenient": true,
+      "lenient_reason": null,
+      "brand_ok": true,
+      "confidence": 0.76,
+      "error": null,
+      "error_detail": null,
+      "elapsed_s": 10.025,
+      "cost_usd": 0.00047840000000000003,
+      "input_tokens": 3384,
+      "output_tokens": 280
+    }
+  ],
+  "run_id": "2026-10-01_100948_test-3img",
+  "rescored_at": null
+}

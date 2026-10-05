@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-01_100948_test-3img",
+ "model_name": "gpt-6-luna",
+ "provider": "openai",
+ "provider_model": "gpt-6-luna",
+ "mode": "schema",
+ "row_id": 21,
+ "repeat": 0,
+ "image_file": "021_patek_nautilus.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_family": "Nautilus 5711/1A",
+   "reference_number": "5711/1A-010",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.76
+  },
+  "raw_text": "{\"brand\":\"Patek Philippe\",\"model_family\":\"Nautilus 5711/1A\",\"reference_number\":\"5711/1A-010\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.76}",
+  "raw_response": {
+   "id": "resp_04f735ef9af4b0c0006abe3318281887d28b59ec1575cc89bc",
+   "access_programs": null,
+   "created_at": 1790849816.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_04f735ef9af4b0c0006abe331b9d4887d2b98c95f8ea41cf0a",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqvjMgas1fGmXUICOktlyHBv3ZoUb8Iq4bZQQLO-sn1VYiBLn7T8r3YFDS7SSGm4emQPS8YS_nXbZvHsC7b51MNAiLlje8fEDmQqV2vfZZ4oX4qdOBv4CqWaO5kFFs2X_onPEXq9F1JbDEhisRx11di6qiN-b6AI77MD1dZVRDMy0SBsBJthTrhJbYrKpGWU02DJ26RT04wR8enG9jInLbpZWApBVdNoIEOmP0263wqWVccF5wSgHjQ-hNr9VSzWJfwDIaMXZAgBgpAxZcgeQl9ctiX7h8aSlZt3_3FMA9TAtdVxoEFdsDloH3VkgUVh9Zted3J7JfPfS4lg3E3wf53dAohHrE4TYezl8bNd3_irJMTYC7Yg34wKsce7Fc74D7Sp-n5NF8EC4zf1UGG2Krku8BK50OjozdhHzhkWKRk-YZpwWQqBa-qtFAXldmj4EQdzX-3uJgbiMbXmkDu8b42-9DU76gQ5v8yFoKudwiwgCQVS2aGMITorxqltLVnbP2oKOzbaRk75coCtvTRIpFKefJd8VL9xupfrIn8widzaPKfNwfX_COc_AL0wW1aeEbKjVE67MxeYJHkPxyxVnjrNIz7s7sOR3bQ1iVc0k_oNi8fJYl9h7XYolbF6rrbCG4sGOd2WqRN4k9bI5Uc34SEEX5R5ud-QKI4vwQPueYXrcbyEXlhIrXLCn5FjKRwAZt9depejxxombzId2UubIneM58xW-tu-P_NqsfY_6n6BJ6HGDzeINHS0bnlO55TFMMyI--rSRzg-inAvBN76ruM37FcZFCQ8qZVdkifHDEKyY8qVcRF23fomrKX83bkxCvTkf-83uREHyI_4V17c8bd41d2ppNCrvC-tMziByGD-d_IR0ABU02bw4i41MBYAOQ9gBpZ7DCw3natP9I8se_UMWLm0i2Eo3C9jimDm1gYTl8p2Dt0ZGtC1DtfB6rhokXkx9abGK0PNumjUDDzv1BP0LHjkM1QMBOrPeVg8bOrsFfgSInBY1erPHmOYiz4UxnsFZSpAQrwOxGiy8IPfJ2xk6vhrWqDI69Z1JPpgTtwRHj_wVKXeFN6szLe2egFtLfifq4XccgjW5mqP6KqLFh8xIdeyqvlgjIjAxztdNAc5zSNhRebsVUHCFNRQQU8eVWdKxR8GAeZ5cpldsxVs_nFIDLrp0STHkbQ0PSgybvlzmqlE6VbnHKze3ubpNG6UKnas5-7B_5xH4Hr2oj3ORXIux7bh8xXo0udVweCzjA3PBj747VMWWy1RUbjyqC1VHmiGQYTZGwsatq_j0KrDT8Z5TkAiBCISnthr1Q4qsMRfEha2ulQJPvRqsvZ0_hJWN5GRwErBp27F-SlizSB0usOoC7bqg5H7g2mrVEPI49GX9P3xmmO2a7ouUZhWO09t9F5PShPxyCPeSrI3hwOVRu_fpi7qKcR933JcNa3mjtVTEQ4krttiiVHe9ER0KPlID154f5_n5me3uteCs1XzyzvD8Kqyanuw51ZpWgwN0QkRRLlO-jgMw9av4pAxmCMzI7HpzJG6ohj0sjYszEBa-zkZKOwWaVfTCpaNp1chnh1w_oPwZccmWKHy47pmeuC7B1CLltz5Bym_1VF6fzpiaeElU7Wqy3Q2zJbnjPzdCxB09atcsEyODZ4GxTwZ7whIJXo3c9iXq2q7p-qjVeRl2ziVooEOxPzJLWkLXEZPhlg7llHeMI8StqgORohin3FeCvltge-wwXImwBBVgPO1vr-L8-PvS94CX-p_ItS6k1SwGgtJ5Bvv3v0GsutBIPHgIqTPy7RbgwLKgEQdFAonAEH6jF3Oat8Z1ma-6KuJj6Ivtv7fdkXEs7eEKrNvgW6hEJI901IfsetZBnqgdP9YRV0OFScboaThvRS7S0yAakfAVMLSxtCVaVYLkqLBI7WKxWDlgOyWWt9M8WO6xmy3GCBJGWL5esZN5ZSmmbB-kqPEdmXqbEar88qnoUf4e90jPa9pdxTiNSjTl-UH5O0Yr081h_0irA698b5Xn1EziLMTqbpNwJPty9hPTI5QJ0EHiscAr-W8CsOrGxn5s-Jd2uCsTDIyUjDLLDVDjUWWXsyW-XUSwG6JJTK67WeDrAbI8EVcxkP9-GW7hmN9rKjj63Amfcig=="
+    },
+    {
+     "id": "msg_04f735ef9af4b0c0006abe331ded4487d286ae8aee20b875bc",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Patek Philippe\",\"model_family\":\"Nautilus 5711/1A\",\"reference_number\":\"5711/1A-010\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"confidence\":0.76}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1790849822.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 3384,
+    "input_tokens_details": {
+     "cache_write_tokens": 3381,
+     "cached_tokens": 0
+    },
+    "output_tokens": 280,
+    "output_tokens_details": {
+     "reasoning_tokens": 214
+    },
+    "total_tokens": 3664
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 3384,
+  "output_tokens": 280,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.00047840000000000003,
+  "cost_source": "rate-table",
+  "elapsed_s": 10.025,
+  "started_at": "2026-10-01T10:09:48.188014+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6-luna"
+ }
+}

@@ -25,10 +25,15 @@ class OpenAIProvider(Provider):
         self.client = openai.OpenAI(api_key=self.api_key, max_retries=4, timeout=self.timeout)
 
     def _identify(self, image_b64: str, mime: str, prompt: str, started: datetime) -> ProviderResult:
+        extra: dict = {}
+        if self.options.get("reasoning_effort"):
+            # none | minimal | low | medium | high | xhigh - which ones a model accepts varies
+            extra["reasoning"] = {"effort": self.options["reasoning_effort"]}
         try:
             resp = self.client.responses.create(
                 model=self.model,
                 max_output_tokens=self.max_tokens,
+                **extra,
                 input=[{
                     "role": "user",
                     "content": [

@@ -1,0 +1,214 @@
+{
+ "run_id": "2026-10-05_092041_full",
+ "model_name": "gpt-6-luna-xhigh",
+ "provider": "openai",
+ "provider_model": "gpt-6-luna",
+ "mode": "schema",
+ "row_id": 36,
+ "repeat": 0,
+ "image_file": "036_ap_code-11-59-selfwinding.jpg",
+ "prompt_sha256": "4e521b100e26811f3d3077d2885bf3f6ed51151b220060abd1cf0d37faa67a59",
+ "result": {
+  "parsed": {
+   "brand": "Audemars Piguet",
+   "model_family": "Code 11.59 Selfwinding",
+   "reference_number": "15210ST.OO.A002CR.01",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.66
+  },
+  "raw_text": "{\"brand\":\"Audemars Piguet\",\"model_family\":\"Code 11.59 Selfwinding\",\"reference_number\":\"15210ST.OO.A002CR.01\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.66}",
+  "raw_response": {
+   "id": "resp_0cdde41d8c37d642006ac36c53db4c87d2a8c74bef5c226e63",
+   "access_programs": null,
+   "created_at": 1791192148.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0cdde41d8c37d642006ac36c55f75487d29ff409592bd2595b",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqw2xb2FNodHgqa7XTR94IEirSYgke4dRqkTFVD7CIArSTOs9RWSx0r21kalAGauf4jqeGVkE4pcdU4X4UBtLXl2eY-zbyf74qK3vUPrLp0EEEaE64paSo6YtgIzGjn8xCxyNaqZii4ldTV6xUIL7wKQuZC1IDFKXtn7E1WmKM9W6C6vZ6rE6RGK5aMRLP4vbyLLtemT4X1eXYhUHAmKnpxkjVd5_ZN5INnVJMAmwIg6X7agD6k5yzQH6jBefhOCxKj6lsV5TbjgiZg7EFstEC_4EgCAeH59ioIq79JmXc_9cPQMn7oiZY_eLquRcrZwrkw568h2SEplrGsPyaJ06ItVq0_2plXVuYq_yac321RGIEYAwhJgf49qmNNIUYWmztkURF_4dQqdxcNlWrlcKHmJHWwaQ8-cjUjkVNwan5dLP_Dc-aowC9pk-0ZH0SDNcSrRn0knVLlIEXyfcf4w_p899C7DpU6feojGASrPsw2Ae80-xu2pxBRh__aSBdTZXWw2tPqqVKxCd97OJwGlahauDvHukSStAa__wwDC96Lr6j8kLHe0ow7ebseuyc--JBagtNCyZBcuzuCbySxW_D45zfqEcNBe8R0Xm2yCjjxEPyOshCFWvlh4FSRuRo36V9fXknYorv4In99EaEJcoSc7Ug219GiB8Geye8S7be2WPU2rER4BCErGFrImrv94PoGEnwz4q0d8ddlttYr-JHn5RRsGKkW8tZv1ulOb1TST6jtVrJgdne64bH_k6x2fCQ2a8TDkeaZ_nMMWAccwDzQ5mgcSaYKXORQX_4qPcr7j4BUWb1CiOou6_ucA3T8e6K2NT8FMS2Jo5dxkJOj4z6G--5yqmBEzQKhmSYZM-vKb0UogH8Br6H63IAHJnHbDfNNoWKE2SDtKvRWN1KzI2xRqPLySoXy4Gq9vJ5_sh2ZSNIMKjsrprLOY0gbudzMUNMWeLB5gakKFIOf4S02BYw8lgOaESXWf-yBDy8MntUAWa9_4cSqlC-sE8u06wMNihwPWcVMDRc8fhMDyObh2ZPqd98l2pN7LeAoM6CkRAdqaLUi-LRn1oXMYdnPJewhVKiEaJ5pD8_oOyGugoUNfc5QCammb5DfgHrmYrohZ-TCsByNYDoGjiXoyg4hq91U4oYy2cQuzqeWoSFrEQtJZhwtuOJJRAEmZ-G_EmvH3jm9kI6T2oEfKxneWyOpcZQBEGwjKC3EFMbS5tyRJqH4Z-tISH2lvJXeD_KeGp9dW5cPSX_S08HGS8NXY8gCuwgJztyRpPscDy3aVNYCfih4ikf680JCbbwp05u-3BHMuZcEbJ-Xq0u8jxHEwtlDwxRzvwGfrYCqgkRH2wP-P3QuCCZC-N07Tt-4DOIt-GQY_jHIZ6UrClKj_97zbyYg6J83Hux6wLthucQbyBYI-YTsBVL-WZguQ-z1cIp6FWlD4_dGrzStmdq0qYhdmxvtCGCiEbeb2qhGSuBGDL60djiiMaYnQQtLlz4kn70hDAmouPS2FBmmqvKsL6pm_udLWWAgOAuCQAzBlD3r6_i1roI2NIlWdkALLME_8NY-pIN_QtiF462JHlk55XtNu_G9pUULOjMygqN7gKv72MaPgyjqT_8XG3Ennl2cK1uqAaDNGaKyJr_hIOuD8TTr4Mkcmg5j_2qxz0HOj2jMPKbJvhSRMe0zEhGMycZH8KnPddhvOsdpQUNRsIjFeY1tlmEn3uM3JY74mkG_6MRrCbtS18wp7r3o2F2txxUu8Gqhd8HhuFtTbg5q0yU93OPG-gPwU6U1Ez2PeqhOzLJ7Bg1WSwoTSFLy9J0qExRJkGwtkE85_7UrcXNVvzsS5yMr3nBo7YBxFawckq0A7_KDS-vgfXaaIA8CR_Npoj7lQGyWo6ILC96bcZ-L5M7kvr8tOMQ3fP-zr5BOW0K_kkMtVifTmqaYRZvbyvx7-DGGxpucSpYaUDnfRAwxyQsQs_7nMMLDfWgF0vFzavssDtpAnmPaFWZKlIhD5028wdFIg_4fRUEz75-eDo4FMbWzCEMDYvj9_z1_5jyYWGgluJo2SFe5FsZQl85lUiFqxDszJ0xYM3xLFxAs4kd_aCRC43JY10iWcrpwaJHsNx77-OlUW0m5odxmuXBXdC1nTm_Fr2zwFklmKN0P53vLSON06XjUvl-MDBcpLVp-S8Tgt9b2DeKKNjMh3EhIKAet8g4YWruiXvXdqYybAEeYv1UKy-Vj7TM7QXuwUrQQWUHmWL0O7GFl7bZeVIa8KoBBS_-UuqGMkWTER5SUV8zyHoIyT2VkKn6vOYMiqMpa-JBCPPSf_d-2sKx7hJDMp8MmAB5mt2i1fP1OX-QXV-9tOfohYrRxNN2NK_JlFMAyx7JRsmoo6vxDRBSn-pgNMvw3tmntD8K5ME9HM_QfWIkHgBwGAw0i8EDcDVpWGw7YHQfDVYxhbzm1OSnCuQtDq2bezFmjG1FhsbuJPteJCiTmhH8paMaP2MlJ43ORzrFVSWWxMOEH5Ln_26Z1hl_PVvvvSKShswdL9yk_eZ_PEIDzIJpXVBD6VrPY2P-1LQFtE1FagabZAZMK01h3FTWH-qyihZw8W5-qAqGSvWS5GFdbOA4ZfXtBg1xUHBIqgu5hDv87OY4dPv1n20RhGc1-nUDcfq1ng1swkI2VduIRHxSkezTsxRtvvuBvFibGM3n9th_bkZzS9NjoBysDlB-1RHfD03kbcPOWFejlapYqZX4G1tfxH7qK8Nv-p75kgmohwkDfp35A2grHNoNGfjJAx2vdDtm44SRy20kbmyq_qKulroj5a8XfU5qdeP48Q4wLDxpW7jHE47_ny-yIInHCVY61VJaFDzO1r-fssOaexeka2XVTFyJIEWf22AuiK98ZKEUomVe6RGa6juYij0gvNSjP6kQIRKZO0ywaY5HnMwmG7iGbrBp8FtgC0AWVfPXR4K3KXHdVQNrVusHFHz11JUH-HUF6AeqvCzXE0X2u0B2QvgtfrVHQ2-Mp4Lw4gHRVLEFsNu7TXgK8GDarm1YCFCaHzFEVyax0n13-JohnoqmIUfkKFL6qEk5L4AjQ17FJZr0Vqkj0cnTNafP15uWLrv6rn5NRD3s1OoXVXMYaEP_qaz4Fj6-DQq754oUe0nSbpPIXIpV9XSQTDGiPz6-xnL862BQdHt39ZmPgy20bzJV69KWE1lbO5aGdsLjoK0afn4ZRsEN_tM96bzLgCjw7O-wLQ=="
+    },
+    {
+     "id": "msg_0cdde41d8c37d642006ac36c5adef887d2a9e8def0e7b35174",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Audemars Piguet\",\"model_family\":\"Code 11.59 Selfwinding\",\"reference_number\":\"15210ST.OO.A002CR.01\",\"movement\":\"automatic\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"confidence\":0.66}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791192155.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "xhigh",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "\"unknown\" is always allowed — without it the schema forces a guess.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_family": {
+        "type": "string"
+       },
+       "reference_number": {
+        "type": "string"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "gold",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_family",
+       "reference_number",
+       "movement",
+       "case_material",
+       "bracelet_material",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 3443,
+    "input_tokens_details": {
+     "cache_write_tokens": 3440,
+     "cached_tokens": 0
+    },
+    "output_tokens": 499,
+    "output_tokens_details": {
+     "reasoning_tokens": 427
+    },
+    "total_tokens": 3942
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "input_tokens": 3443,
+  "output_tokens": 499,
+  "cached_input_tokens": 0,
+  "cost_usd": 0.0005937999999999999,
+  "cost_source": "rate-table",
+  "elapsed_s": 8.429,
+  "started_at": "2026-10-05T09:22:24.998832+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "gpt-6-luna"
+ }
+}

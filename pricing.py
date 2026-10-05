@@ -15,6 +15,7 @@ STALE_AFTER_DAYS = 30
 
 ANTHROPIC_SOURCE = "https://platform.claude.com/docs/en/about-claude/pricing"
 DEEPSEEK_SOURCE = "https://api-docs.deepseek.com/quick_start/pricing/"
+OPENAI_SOURCE = "https://developers.openai.com/api/docs/pricing"
 
 # DeepSeek prices differ by time of day. Peak hours (UTC, Monday–Friday):
 # 01:00–04:00 and 06:00–10:00, excluding Chinese public holidays — holidays
@@ -41,8 +42,12 @@ PRICES: dict[str, dict] = {
     # Legacy names, still accepted and served by the current Flash model.
     "deepseek:deepseek-v4-flash": _DEEPSEEK_FLASH,
     "deepseek:deepseek-v4-flash-vision-exp": _DEEPSEEK_FLASH,
-    # OpenAI and Gemini direct: add dated entries here before running them,
-    # otherwise their cost is reported as "unavailable".
+    # OpenAI direct (short-context rates).
+    "openai:gpt-6.1-sol": {"in": 2.00, "in_cached": 0.10, "out": 10.00, "last_verified": "2026-10-05", "source": OPENAI_SOURCE},
+    "openai:gpt-6-luna": {"in": 0.10, "in_cached": 0.01, "out": 0.50, "last_verified": "2026-10-01", "source": OPENAI_SOURCE},
+    "openai:gpt-5.6-luna": {"in": 0.20, "in_cached": 0.02, "out": 1.20, "last_verified": "2026-10-01", "source": OPENAI_SOURCE},
+    # Gemini direct: add dated entries here before running it,
+    # otherwise its cost is reported as "unavailable".
 }
 
 
