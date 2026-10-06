@@ -165,3 +165,24 @@ in the folder name, in every report title, and in their own section of
 latest full run, and falls back to a test run (marked "TEST RUN only") when a
 model has no full run yet. Run folders are never overwritten. `score` re-reads
 `raw/`, so fixing the answer key never costs a re-run.
+
+## Google Vision web-detection test
+
+`vision_test.py` is a separate experiment: it asks Google Cloud Vision's web
+detection about each photo and checks whether the right reference number is in
+the answer. It needs `GOOGLE_VISION_API_KEY` in `config.py`.
+
+```bash
+.venv\Scripts\python.exe vision_test.py run --limit 3                    # 3 images
+.venv\Scripts\python.exe vision_test.py run                              # all images, as they are
+.venv\Scripts\python.exe vision_test.py run --variant altered            # rotated, warped, cropped copies
+.venv\Scripts\python.exe vision_test.py score results\vision\<run_id>    # re-score saved responses, $0
+```
+
+Web detection finds pages that already host the same image. The dataset photos
+came from the web and a seller's own photo did not, so every number in the
+report is split by whether Google found a copy of the photo. The `altered`
+variant sends changed copies that Google should no longer recognise.
+
+Results go to `results/vision/<run_id>/` (`report.md`, `report.json`, raw
+`responses/`). The first 1,000 calls a month are free; after that $0.0035 each.

@@ -13,6 +13,8 @@ OPENROUTER_API_KEY = ""
 DEEPSEEK_API_KEY = ""
 # Only if your Anthropic key is not scoped to a workspace (the API says so): wrkspc_...
 ANTHROPIC_WORKSPACE_ID = ""
+# Google Cloud Vision (vision_test.py only): an API key from a project with the Cloud Vision API enabled.
+GOOGLE_VISION_API_KEY = ""
 
 # Models to benchmark. The key is the name used on the command line and in
 # report filenames; "model" is the provider's own model id.
