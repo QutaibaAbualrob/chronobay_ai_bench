@@ -42,6 +42,8 @@ written here may be forwarded. Write for a reader who was not in the conversatio
 | `FINDINGS.md` | Every finding so far, each marked measured, read, reported or inferred. Start here. |
 | `AUTO_LISTING_SPEC.md` | The current design (draft 2), with decisions, open questions and tests. |
 | `results/REPORT.md` | Latest benchmark result per model. Rebuilt after every run. |
+| `REFERENCE_FORMATS.md` | How 19 brands build their reference numbers, how variants are written, and which rules are confirmed. |
+| `results/DETAIL_STUDY.md` | How reliably models fill brand, model line and attributes on their own. Rebuilt by `detail_study.py`. |
 | `README.md` | How to run the benchmark, what the scores mean, and run-by-run notes. |
 | `PLAN.md` | The original benchmark plan. Historical; parts are out of date. |
 
@@ -56,6 +58,8 @@ written here may be forwarded. Write for a reader who was not in the conversatio
 | `report.py` | Per-run reports and `results/REPORT.md`. |
 | `pricing.py` | Dated price table used to compute cost. |
 | `vision_test.py` | Google Cloud Vision web-detection test. Built, never run against the API. |
+| `detail_study.py` | Field-by-field study from saved answers. No API calls. |
+| `reference_format_check.py` | Tests the rules in `REFERENCE_FORMATS.md` against the answer key and 90 outside references. No API calls. |
 | `dataset/ground_truth.csv` | The answer key: 100 rows, 10 brands. |
 | `dataset/images/` | The photos. Not in git; they came from the web. |
 | `results/runs/`, `results/raw/` | Reports and raw API responses per run. |

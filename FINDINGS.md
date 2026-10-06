@@ -40,6 +40,36 @@ What it shows:
   the same in both runs. `results/REPORT.md` shows the later run. The comparison is in
   `README.md` under Findings.
 
+### Attributes from the photo alone
+
+**Measured** on 2026-10-06 from the saved answers of every full run. No new model calls.
+The benchmark does not score these fields; they were compared with the answer key afterwards.
+
+The fuller study is `results/DETAIL_STUDY.md`, written by `detail_study.py` (free to re-run). It leaves
+out row 12, so its counts are out of 99, and adds: model line right 99 of 99 for the three strong
+models; brand, model line and all three attributes together right on 93 to 94 photos; when the three
+strong models agree on a reference (54 photos) it is right 51 times; rare values such as gold (16 of 16)
+and ceramic (3 of 3) are recognised, so the scores are not just from guessing the common value.
+
+| Model (run) | Exact reference | Brand | Movement | Case material | Bracelet material | All three attributes | All three, when the reference was wrong |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| GPT-6.1 Sol, low | 70 | 100 | 100 | 98 | 96 | 94 | 26 of 30 |
+| Claude Opus 5.5 | 79 | 100 | 99 | 97 | 97 | 93 | 19 of 21 |
+| Claude Sonnet 5.5, no thinking | 72 | 100 | 99 | 96 | 97 | 93 | 23 of 28 |
+| GPT-6 Luna, extra-high | 52 | 98 | 97 | 96 | 98 | 91 | 41 of 48 |
+| DeepSeek Flash (2026-09-30) | 48 | 93 | 96 | 92 | 96 | 90 | 43 of 52 |
+| DeepSeek Flash (2026-10-05) | 44 | 96 | 96 | 91 | 95 | 87 | 44 of 56 |
+| GPT-6 Luna, no thinking | 38 | 97 | 94 | 93 | 98 | 85 | 49 of 62 |
+| Claude Haiku 4.5 | 11 | 89 | 91 | 91 | 98 | 82 | 72 of 89 |
+
+- Attributes hold up when the reference is wrong, which supports leaving only the reference empty.
+- The strong models' few attribute misses sit in six rows, and most are not clear model errors:
+  row 12 (photo since replaced), row 17 (`nylon` in the key, `fabric` answered; the two values
+  overlap), rows 55 and 89 (`leather` in the key, all three strong models say `fabric`; to recheck),
+  row 46 (titanium answered as steel; a real limit of photos), row 49 (mixed answers).
+- Not measurable from saved data: dial colour, case size, gold colour and two-tone. The prompt
+  never asked for them and the answer key has no such columns.
+
 ### Caveats on the benchmark
 
 | Caveat | Status |
@@ -90,7 +120,15 @@ What it shows:
 
 Conclusion: reading WatchBase through search results can cross-check a known reference. It does not identify a watch, it is not licensed, and it is weakest on the one field a photo cannot give (case size).
 
-## 5. Rolex references
+## 5. Reference formats
+
+**Read, Reported and Measured.** The reference structure of 19 brands is written up in
+`REFERENCE_FORMATS.md`, with each rule marked confirmed, observed or unconfirmed. Two tests were
+run and can be repeated with `reference_format_check.py`: 180 of 180 checks agree against the
+answer key, and 155 of 155 against 90 references outside it (133 of those are real predictions).
+Several claims found online failed the check and are listed there.
+
+### Rolex references
 
 **Reported.** The last digit of a Rolex reference is the metal: 0 steel, 1 steel and Everose gold, 3 steel and yellow gold, 4 steel and white gold, 5 Everose gold, 6 platinum, 8 yellow gold, 9 white gold. Watches with the same reference differ only in dial and bracelet style; Rolex numbers those as `126334-0001` (Oyster bracelet), `126334-0002` (Jubilee), and so on.
 
@@ -133,6 +171,44 @@ Problems found:
 - WatchCharts API v3 is integrated. Routes in use: `GET /watchcharts/market-price`, `/price-1y`, `/price-1y/by-reference`. Responses are cached in `WatchChartsCache`.
 - Search and specs calls exist in the module, but no feature calls them yet.
 - That controller also imports no login guard. To verify.
+
+### 6.4 What the listing form asks the seller
+
+**Read** on 2026-10-06 in the mobile app (`mobile/src/screens/CreateListingScreen/`,
+`mobile/src/components/createListing/`, `mobile/src/utils/listingValidation.ts`). The web
+frontend has its own form in `frontend/app/create-listing/`; it was not read in detail.
+
+| Step | Asked | Required |
+|---|---|---|
+| 1. Photos | Main photo, watch face, case back, bracelet, side view; extra photos or videos | All five named photos |
+| 2. Details | Category, brand, reference number, model, year of manufacture, case material, bracelet material, movement type, case size | Brand and model |
+| 2. Condition | Overall condition | Yes |
+| 2. Description | Description, limited edition, watch gender, what's included (box, papers, extra links, service records) | No |
+| 2. Service | Last service date, service details | No |
+| 3. Pricing | Asking price, pricing strategy, negotiable; market estimate and price history from WatchCharts | No (the backend checks the price) |
+| 4. Review | Preview and terms | |
+| 5. Proof of life | A photo of the watch set to a requested time | Yes, when the backend asks for it |
+
+- Categories are `Luxury`, `Sports`, `Vintage`, `Dress`, `Diving`, `Racing`, `Pilot`, `Smartwatch`.
+- Today's auto-fill is a button beside the reference field. The seller types the reference, and a
+  sheet offers brand, model, case material, bracelet material, movement type, case size and
+  release year to apply.
+- The app keeps a `serialNumber` value in state but shows no field for it, and `Product` has no such column.
+- The form has a `caseMaterialIsAi` flag, and case and bracelet materials accept new values typed by the seller.
+- `mobile/src/services/referenceNumberService.ts` has a mistyped fallback address
+  (`api.chronobay.ae.ae.ae.ae`), used only when the environment value is missing.
+
+What this changes for the auto-listing design:
+
+- The model will receive five labelled photos, not one. The benchmark tested one photo per watch,
+  so accuracy with the real input is unmeasured.
+- A case-back photo is always present, so reading engraved text is possible on every listing.
+- Category, watch gender, limited edition and what's included are listing fields the design had
+  not covered.
+- Condition is required and cannot be read reliably from photos, so the seller must still choose it.
+- Year of manufacture is the year this watch was made. Today's auto-fill writes the model's release
+  year into it, which is a different thing.
+- The market estimate is looked up by brand and reference, so a wrong reference also gives a wrong price.
 
 ## 7. WatchCharts
 
