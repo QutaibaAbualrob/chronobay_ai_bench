@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-06_121718_full",
+ "model_name": "deepseek-flash-guide",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 91,
+ "repeat": 0,
+ "image_file": "091_vc_overseas-self-winding.jpg",
+ "prompt_sha256": "19a8ee09a088cf5eb5961e864d302a0e976cdb2370edf80e5121e18dfb5630b5",
+ "result": {
+  "parsed": {
+   "brand": "Vacheron Constantin",
+   "model_family": "Overseas Automatic (41 mm)",
+   "reference_number": "4500V/110A-B128",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.45
+  },
+  "raw_text": "{\"brand\": \"Vacheron Constantin\", \"model_family\": \"Overseas Automatic (41 mm)\", \"reference_number\": \"4500V/110A-B128\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.45}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "44d085e1-9a54-4971-9b08-2aa417d47c63",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Vacheron Constantin\", \"model_family\": \"Overseas Automatic (41 mm)\", \"reference_number\": \"4500V/110A-B128\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.45}",
+        "role": "assistant",
+        "reasoning_content": "The image shows a Vacheron Constantin Overseas (third generation) with blue dial, steel case and steel bracelet, date at 3 o'clock. Reference 4500V/110A-B128? Let's check: Overseas Automatic 41mm blue dial steel is 4500V/110A-B128. The third generation Overseas date 41mm steel blue is 4500V/110A-B128. Note the reference format: \"4500V/110A-B128\". Hmm, the guide says \"4520V/210A-B128\" is blue. 4520V is the newer 41mm Overseas with date (2023?). Actually 4500V/110A-B128 is the classic Overseas Automatic 41mm blue dial. 4520V/210A-B128 is the 2023 update with a slightly thinner case.\n\nA 2023 4520V has a change: the bezel with 8-sided... Both look similar. 4520V replaced 4500V in 2023. The image looks like the standard Overseas with blue dial, steel bracelet.\n\nWhich one to pick? The 4520V/210A-B128 blue dial is the newer. Hmm. The image likely is the 4500V/110A-B128 (Overseas blue steel). But guide example uses 4520V/210A-B128 as blue. Given the photo could be either, I'd go with 4500V/110A-B128? Note the strap code rule: \"Three digits after the slash: 000 strap; other values bracelet\" — 110A = steel bracelet with... Actually 4500V/110A-B128: 110 indicates steel bracelet. 4520V/210A-B128: 210 indicates steel bracelet too.\n\nThe dial of the 4520V variant differs slightly? Actually the 4520V has a slightly different dial — the date window? Both have 3 o'clock date. The 4520V is 41mm, thinner (9.9mm vs 11mm). Hmm.\n\nGiven the guide explicitly mentions 4520V/210A-B128 as blue, and this looks like a modern product photo, I'd guess 4500V/110A-B128. Let me think: many stock photos of the Overseas blue steel are 4500V/110A-B128. The 4520V exists since 2023. The image appears to be a rendered style photo of the Overseas with blue dial — likely from Vacheron's site.\n\nI'll pick 4500V/110A-B128 with moderate confidence... Hmm, but the guide uses 4520V as the example of the newer format. Confident that the reference is the Overseas 41mm steel blue with bracelet. I'll go with 4500V/110A-B128 and confidence 0.5.\n\nActually let me reconsider. The photo shows the watch crown with... In 4520V the bracelet has a slightly tapered... hard to tell. The case thickness in a front-on photo doesn't help.\n\nI'll go with 4500V/110A-B128, confidence 0.45. Movement: automatic (cal 5100). Case material: stainless-steel. Bracelet: metal.\n\nHmm, but a listing photo — the marketplace images might use newer. I'll say confidence 0.5.\n\nAlternatively, the reference number could be 4500V/110A-B128 vs 4520V/210A-B128. Either way model family \"Overseas Automatic\". Let's compromise: give 4500V/110A-B128."
+       }
+      }
+     ],
+     "created": 1791289402,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 837,
+      "prompt_tokens": 10203,
+      "total_tokens": 11040,
+      "completion_tokens_details": {
+       "reasoning_tokens": 762
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 8960
+      },
+      "prompt_cache_hit_tokens": 8960,
+      "prompt_cache_miss_tokens": 1243
+     }
+    }
+   ]
+  },
+  "input_tokens": 10203,
+  "output_tokens": 837,
+  "cached_input_tokens": 8960,
+  "cost_usd": 0.0007155299999999999,
+  "cost_source": "rate-table",
+  "elapsed_s": 4.91,
+  "started_at": "2026-10-06T12:23:19.649216+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

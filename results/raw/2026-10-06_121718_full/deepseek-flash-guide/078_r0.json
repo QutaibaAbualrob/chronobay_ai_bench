@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-06_121718_full",
+ "model_name": "deepseek-flash-guide",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 78,
+ "repeat": 0,
+ "image_file": "078_iwc_ingenieur-automatic-40.jpg",
+ "prompt_sha256": "19a8ee09a088cf5eb5961e864d302a0e976cdb2370edf80e5121e18dfb5630b5",
+ "result": {
+  "parsed": {
+   "brand": "IWC",
+   "model_family": "Ingenieur Automatic 40",
+   "reference_number": "IW328903",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.85
+  },
+  "raw_text": "{\"brand\": \"IWC\", \"model_family\": \"Ingenieur Automatic 40\", \"reference_number\": \"IW328903\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.85}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "edb65104-6e55-4672-bdbc-d213fe886393",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"IWC\", \"model_family\": \"Ingenieur Automatic 40\", \"reference_number\": \"IW328903\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.85}",
+        "role": "assistant",
+        "reasoning_content": "The image shows an IWC Ingenieur Automatic 40 with teal/green dial, integrated steel bracelet. That's reference IW328903 (green dial). The Ingenieur Automatic 40 launched 2023: IW328901 (black dial), IW328902 (silver), IW328903 (aqua/green). Yes, IW328903 is the aqua dial steel.\n\nModel family: Ingenieur.\n\nMovement: automatic (calibre 32111). Case material stainless steel. Bracelet metal.\n\nConfidence ~0.8."
+       }
+      }
+     ],
+     "created": 1791289348,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 182,
+      "prompt_tokens": 9827,
+      "total_tokens": 10009,
+      "completion_tokens_details": {
+       "reasoning_tokens": 115
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 8960
+      },
+      "prompt_cache_hit_tokens": 8960,
+      "prompt_cache_miss_tokens": 867
+     }
+    }
+   ]
+  },
+  "input_tokens": 9827,
+  "output_tokens": 182,
+  "cached_input_tokens": 8960,
+  "cost_usd": 0.00026613,
+  "cost_source": "rate-table",
+  "elapsed_s": 2.442,
+  "started_at": "2026-10-06T12:22:25.352391+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

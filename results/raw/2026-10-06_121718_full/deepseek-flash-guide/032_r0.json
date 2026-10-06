@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-06_121718_full",
+ "model_name": "deepseek-flash-guide",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 32,
+ "repeat": 0,
+ "image_file": "032_ap_royal-oak-jumbo-extra-thin.jpg",
+ "prompt_sha256": "19a8ee09a088cf5eb5961e864d302a0e976cdb2370edf80e5121e18dfb5630b5",
+ "result": {
+  "parsed": {
+   "brand": "Audemars Piguet",
+   "model_family": "Royal Oak Jumbo Extra-Thin",
+   "reference_number": "15202ST.OO.1240ST.01",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.6
+  },
+  "raw_text": "{\"brand\": \"Audemars Piguet\", \"model_family\": \"Royal Oak Jumbo Extra-Thin\", \"reference_number\": \"15202ST.OO.1240ST.01\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.6}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "441b7cb1-c7a4-4bbc-9a5f-14f6cb08f0a0",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Audemars Piguet\", \"model_family\": \"Royal Oak Jumbo Extra-Thin\", \"reference_number\": \"15202ST.OO.1240ST.01\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.6}",
+        "role": "assistant",
+        "reasoning_content": "The watch is an Audemars Piguet Royal Oak. Blue dial with \"AP\" logo at 12 actually — the \"AP\" applied logo is below center in this photo, and \"Audemars Piguet Automatic\" at 12. Date at 3. This is the Royal Oak \"Jumbo\" Extra-Thin 15202ST with blue dial? The 15202ST has \"AP\" logo at 12 and Audemars Piguet Automatic below. Hmm.\n\nActually the classic 15202ST (Jumbo) has: Audemars Piguet logo at 12, \"AUTOMATIC\" below, and AP applied logo at 6. That matches this photo — \"AUDEMARS PIGUET / AUTOMATIC\" at 12 and the \"AP\" logo at 6 above \"SWISS MADE\". Yes! That's the 15202ST layout.\n\nThe 15202ST blue dial reference is 15202ST.OO.1240ST.01. Yes, that's the Jumbo Extra-Thin with blue \"Petite Tapisserie\" dial, steel, 39mm, caliber 2121.\n\nThe 15500ST has AP logo at 12 and \"AUDEMARS PIGUET AUTOMATIC\" below it. So this is 15202ST.\n\nReference: 15202ST.OO.1240ST.01. Confidence maybe 0.75. But the current-generation 16202ST has same layout too. Hmm, 16202ST blue dial = 16202ST.OO.1240ST.01. The 16202 is 50th anniversary. Visually similar. But the classic listing would be 15202ST.\n\nI'll go with 15202ST.OO.1240ST.01, confidence 0.6.\n\nMovement: automatic. Case: stainless-steel. Bracelet: metal.\n\nAlso the rotor — 15202 has no seconds hand and thin. There's no seconds hand visible in the photo, consistent with 15202 (no seconds) — 16202 also has no seconds. Fine.\n\nI'll say model_family: \"Royal Oak Jumbo Extra-Thin\"."
+       }
+      }
+     ],
+     "created": 1791289144,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 543,
+      "prompt_tokens": 9631,
+      "total_tokens": 10174,
+      "completion_tokens_details": {
+       "reasoning_tokens": 463
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 8960
+      },
+      "prompt_cache_hit_tokens": 8960,
+      "prompt_cache_miss_tokens": 671
+     }
+    }
+   ]
+  },
+  "input_tokens": 9631,
+  "output_tokens": 543,
+  "cached_input_tokens": 8960,
+  "cost_usd": 0.00045333,
+  "cost_source": "rate-table",
+  "elapsed_s": 3.726,
+  "started_at": "2026-10-06T12:19:01.570611+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

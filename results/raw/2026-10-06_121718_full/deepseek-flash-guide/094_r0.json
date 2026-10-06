@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-06_121718_full",
+ "model_name": "deepseek-flash-guide",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 94,
+ "repeat": 0,
+ "image_file": "094_vc_traditionnelle-manual-winding.jpg",
+ "prompt_sha256": "19a8ee09a088cf5eb5961e864d302a0e976cdb2370edf80e5121e18dfb5630b5",
+ "result": {
+  "parsed": {
+   "brand": "Vacheron Constantin",
+   "model_family": "Traditionnelle Small Seconds",
+   "reference_number": "82172/000R-9382",
+   "movement": "manual",
+   "case_material": "gold",
+   "bracelet_material": "leather",
+   "confidence": 0.45
+  },
+  "raw_text": "{\"brand\": \"Vacheron Constantin\", \"model_family\": \"Traditionnelle Small Seconds\", \"reference_number\": \"82172/000R-9382\", \"movement\": \"manual\", \"case_material\": \"gold\", \"bracelet_material\": \"leather\", \"confidence\": 0.45}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "d62bfac0-77de-4e2f-b00f-33f57f5e73cc",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Vacheron Constantin\", \"model_family\": \"Traditionnelle Small Seconds\", \"reference_number\": \"82172/000R-9382\", \"movement\": \"manual\", \"case_material\": \"gold\", \"bracelet_material\": \"leather\", \"confidence\": 0.45}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Vacheron Constantin Traditionnelle with small seconds, pink gold case, silver opaline dial, on alligator leather strap.\n\nReference: 82172/000R-9382 is the Traditionnelle small seconds 38mm pink gold, silver dial. Actually 82172/000R-9382 — the Traditionnelle Small Seconds. Let me think.\n\nThe Vacheron Constantin Traditionnelle Small Seconds 38mm pink gold is reference 82172/000R-9382. There's also 82172/000R-9888 etc. Hmm.\n\nKnown references: 82172/000R-9382 — Traditionnelle Small Seconds, 18k pink gold, silver dial. Also 82172/000R-9812 (small seconds, slate dial?). The 81180 is the Patrimony. The Traditionnelle small seconds 38mm is 82172/000R-9382. I'll go with that.\n\nMovement: manual (hand-wound, calibre 4400 AS). Case material gold (pink/rose gold). Bracelet: leather (alligator).\n\nConfidence: maybe 0.5.\n\nActually there's also 82172/000R-B432 (new numbering). But I'll go with 82172/000R-9382.\n\nWait — could this be the Traditionnelle Small Seconds with a silvered opaline dial. Yes.\n\nAlternatively, it might be the \"Traditionnelle\" 38mm ref 82172/000R-9888. Hmm, I recall 82172/000R-9382 being the pink gold silver dial small seconds. Let me settle at 0.45.\n\nMovement manual - calibre 4400 is manual winding. Yes.\n\nDial color silver/white. No date, small seconds at 6. Yes, 82172 small seconds manual.\n\nI'll answer."
+       }
+      }
+     ],
+     "created": 1791289416,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 458,
+      "prompt_tokens": 10219,
+      "total_tokens": 10677,
+      "completion_tokens_details": {
+       "reasoning_tokens": 389
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 8960
+      },
+      "prompt_cache_hit_tokens": 8960,
+      "prompt_cache_miss_tokens": 1259
+     }
+    }
+   ]
+  },
+  "input_tokens": 10219,
+  "output_tokens": 458,
+  "cached_input_tokens": 8960,
+  "cost_usd": 0.00049053,
+  "cost_source": "rate-table",
+  "elapsed_s": 4.041,
+  "started_at": "2026-10-06T12:23:33.059696+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-06_121718_full",
+ "model_name": "deepseek-flash-guide",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 50,
+ "repeat": 0,
+ "image_file": "050_tagheuer_autavia-calibre-heuer-02.jpg",
+ "prompt_sha256": "19a8ee09a088cf5eb5961e864d302a0e976cdb2370edf80e5121e18dfb5630b5",
+ "result": {
+  "parsed": {
+   "brand": "Tag Heuer",
+   "model_family": "Autavia Calibre Heuer 02 Chronograph 42mm",
+   "reference_number": "CBE2110.FC8226",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.45
+  },
+  "raw_text": "{\"brand\": \"Tag Heuer\", \"model_family\": \"Autavia Calibre Heuer 02 Chronograph 42mm\", \"reference_number\": \"CBE2110.FC8226\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.45}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "1718f5d8-1d30-42ff-9bda-def0335e0ee3",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Tag Heuer\", \"model_family\": \"Autavia Calibre Heuer 02 Chronograph 42mm\", \"reference_number\": \"CBE2110.FC8226\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.45}",
+        "role": "assistant",
+        "reasoning_content": "TAG Heuer Autavia chronograph, Heuer 02 movement, black dial, three white subdials (12-hour, 30-minute, small seconds with date), date at 6, steel case, leather strap.\n\nReference: TAG Heuer Autavia Jack Heuer edition? The \"Autavia\" with Heuer 02 and date at 6 — that's CBE2110? Let's think. The TAG Heuer Autavia Calibre Heuer 02 42mm — CBE2111, CBE2110? Reference CBE2110.BA0687 is the Autavia Heuer 02 with steel bracelet, black dial. The reference format for TAG Heuer chronographs: C = chronograph, BE = Autavia, 2 = automatic... wait format: 7 characters, dot, strap code. CBE2110.BA0687.\n\nThe Autavia Heuer 02 42mm has date at 6 o'clock with three subdials — the \"Autavia Jack Heuer\" CBE2110? Actually the Autavia Heuer 02 (2019) reference CBE2110 has a black dial with white subdials, date at 6. Yes.\n\nLeather strap version would be CBE2110.FC8226? Hmm. Actually the Autavia on leather: CBE2110.FC8226 is a brown leather strap. Let me recall: TAG Heuer Autavia Calibre Heuer 02 42 mm ref CBE2110.FC8226 — black dial on brown leather. I believe the leather variant is CBE2110.FC8226. There's also CBE2111 (blue), CBE2112? Let's try.\n\nActually the Autavia Heuer 02 references: CBE2110.BA0687 (steel bracelet), CBE2110.FC8226 (leather strap). I'm reasonably confident about FC8226.\n\nGiven the strap is tan/brown leather, I'll go with CBE2110.FC8226.\n\nMovement: automatic (Heuer 02). Case material: stainless-steel. Bracelet: leather. Confidence ~0.45.\n\nModel family: Autavia."
+       }
+      }
+     ],
+     "created": 1791289254,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 533,
+      "prompt_tokens": 10219,
+      "total_tokens": 10752,
+      "completion_tokens_details": {
+       "reasoning_tokens": 453
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 8960
+      },
+      "prompt_cache_hit_tokens": 8960,
+      "prompt_cache_miss_tokens": 1259
+     }
+    }
+   ]
+  },
+  "input_tokens": 10219,
+  "output_tokens": 533,
+  "cached_input_tokens": 8960,
+  "cost_usd": 0.00053553,
+  "cost_source": "rate-table",
+  "elapsed_s": 3.982,
+  "started_at": "2026-10-06T12:20:51.497501+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

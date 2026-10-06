@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-06_121718_full",
+ "model_name": "deepseek-flash-guide",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 72,
+ "repeat": 0,
+ "image_file": "072_iwc_portugieser-automatic-42.jpg",
+ "prompt_sha256": "19a8ee09a088cf5eb5961e864d302a0e976cdb2370edf80e5121e18dfb5630b5",
+ "result": {
+  "parsed": {
+   "brand": "IWC",
+   "model_family": "Portugieser Automatic",
+   "reference_number": "IW500705",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.45
+  },
+  "raw_text": "{\"brand\": \"IWC\", \"model_family\": \"Portugieser Automatic\", \"reference_number\": \"IW500705\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.45}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "73f89385-4fbd-4b26-8ce9-b46de4d5b1c0",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"IWC\", \"model_family\": \"Portugieser Automatic\", \"reference_number\": \"IW500705\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.45}",
+        "role": "assistant",
+        "reasoning_content": "The image shows an IWC Portugieser Automatic with white/silver dial, gold hands and numerals, black leather strap. The dial layout: small seconds at 9, power reserve at 3, date at 6. That's the Portugieser Automatic 42mm (IW5007). Reference IW500705 is the stainless steel with silver-plated dial and black alligator strap. Actually IW500705: Portugieser Automatic, stainless steel, silver dial. Yes — IW500705 is steel with silver-plated dial, gold hands? The 5007 reference family: IW500701 (white gold?), IW500702 red gold, IW500704 stainless steel black dial... Let me recall: IW500705 — Portugieser Automatic 42.3mm steel, silver-plated dial, gold hands and numerals, black alligator strap. Yes I believe IW500705 is correct.\n\nNote the brand says IWC format: IW + six digits; version has no general key.\n\nMovement: automatic. Case material: stainless-steel. Bracelet: leather.\n\nConfidence ~0.5.\n\nThe dial shows \"AUTOMATIC\" and date at 6, power reserve at 3, small seconds at 9 — this is the Portugieser Automatic (7 days). IW500705.\n\nActually the newer 2020 version is IW500705? The current ref for steel silver dial is IW500705. Some sources: IW500705 Portugieser Automatic stainless steel, silver-plated dial, black alligator. Yes.\n\nConfidence 0.5."
+       }
+      }
+     ],
+     "created": 1791289335,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 401,
+      "prompt_tokens": 10219,
+      "total_tokens": 10620,
+      "completion_tokens_details": {
+       "reasoning_tokens": 335
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 8960
+      },
+      "prompt_cache_hit_tokens": 8960,
+      "prompt_cache_miss_tokens": 1259
+     }
+    }
+   ]
+  },
+  "input_tokens": 10219,
+  "output_tokens": 401,
+  "cached_input_tokens": 8960,
+  "cost_usd": 0.00045632999999999996,
+  "cost_source": "rate-table",
+  "elapsed_s": 3.127,
+  "started_at": "2026-10-06T12:22:13.109816+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

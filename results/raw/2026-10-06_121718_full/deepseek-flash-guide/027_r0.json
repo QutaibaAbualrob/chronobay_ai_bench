@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-06_121718_full",
+ "model_name": "deepseek-flash-guide",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 27,
+ "repeat": 0,
+ "image_file": "027_patek_aquanaut-chronograph.jpg",
+ "prompt_sha256": "19a8ee09a088cf5eb5961e864d302a0e976cdb2370edf80e5121e18dfb5630b5",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_family": "Aquanaut Chronograph",
+   "reference_number": "5968A-001",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "rubber",
+   "confidence": 0.82
+  },
+  "raw_text": "{\"brand\": \"Patek Philippe\", \"model_family\": \"Aquanaut Chronograph\", \"reference_number\": \"5968A-001\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"rubber\", \"confidence\": 0.82}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "d37d807d-2513-4495-9062-08070e989fd0",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Patek Philippe\", \"model_family\": \"Aquanaut Chronograph\", \"reference_number\": \"5968A-001\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"rubber\", \"confidence\": 0.82}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Patek Philippe Aquanaut — it has the cushion-shaped case, black dial with grid pattern, orange seconds hand, chronograph pushers... Wait, this is the Patek Philippe Aquanaut Chronograph 5968A? No — 5968A has an orange/green... Let me think.\n\nThe Aquanaut Chronograph 5968A-001 has a black dial with orange accents and orange seconds hand, on a black rubber strap. Yes! Reference 5968A-001: steel, black dial with orange details, black rubber strap, self-winding chronograph flyback, caliber CH 28-520 C. The date window shows 31 at 3 o'clock. The subdial at 6 o'clock is the 60-minute counter with orange hand. The case diameter 42.2 mm.\n\nActually, the 5968A-001 has an orange central chronograph hand and orange accents; the strap is orange and black included. The 5968A-001 comes with both orange and black straps.\n\nHere the strap is black rubber. The reference 5968A-001 is steel. Yes.\n\nBut wait — is there a newer version, 5968G (white gold) with green or blue dial? 5968G-001 is white gold with blue dial. 5968A-001 is steel with black dial with orange.\n\nThe photo shows a steel case (looks steel, polished), black dial, orange accents. So 5968A-001.\n\nModel family: Aquanaut Chronograph.\n\nMovement: automatic (self-winding chronograph, CH 28-520 C).\n\nCase material: stainless-steel.\n\nBracelet material: rubber (black rubber strap).\n\nReference number format: Patek 5968A-001. Format is four digits then letter, then hyphen-three digits. Yes.\n\nConfidence: high, ~0.85.\n\nNote: the strap on the watch — Patek 5968A-001 uses a \"Tropical\" composite rubber strap. So bracelet_material: rubber."
+       }
+      }
+     ],
+     "created": 1791289119,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 498,
+      "prompt_tokens": 10186,
+      "total_tokens": 10684,
+      "completion_tokens_details": {
+       "reasoning_tokens": 428
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 8960
+      },
+      "prompt_cache_hit_tokens": 8960,
+      "prompt_cache_miss_tokens": 1226
+     }
+    }
+   ]
+  },
+  "input_tokens": 10186,
+  "output_tokens": 498,
+  "cached_input_tokens": 8960,
+  "cost_usd": 0.00050958,
+  "cost_source": "rate-table",
+  "elapsed_s": 3.942,
+  "started_at": "2026-10-06T12:18:36.896015+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

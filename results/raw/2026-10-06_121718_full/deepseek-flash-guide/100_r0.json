@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-06_121718_full",
+ "model_name": "deepseek-flash-guide",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 100,
+ "repeat": 0,
+ "image_file": "100_vc_fiftysix-complete-calendar.jpg",
+ "prompt_sha256": "19a8ee09a088cf5eb5961e864d302a0e976cdb2370edf80e5121e18dfb5630b5",
+ "result": {
+  "parsed": {
+   "brand": "Vacheron Constantin",
+   "model_family": "Fiftysix Complete Calendar",
+   "reference_number": "4000E/000A-B439",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.6
+  },
+  "raw_text": "{\"brand\": \"Vacheron Constantin\", \"model_family\": \"Fiftysix Complete Calendar\", \"reference_number\": \"4000E/000A-B439\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.6}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "bb94e02f-4f78-4874-b0bb-223a2f5a1bde",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Vacheron Constantin\", \"model_family\": \"Fiftysix Complete Calendar\", \"reference_number\": \"4000E/000A-B439\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.6}",
+        "role": "assistant",
+        "reasoning_content": "The image shows a Vacheron Constantin Fiftysix Complete Calendar with silver/opaline dial, stainless steel case, black leather strap. Reference 4000E/000A-B439 is the stainless steel Fiftysix complete calendar with opaline silver dial. Actually, the Fiftysix Complete Calendar steel references: 4000E/000A-B439 (silvered opaline dial) and 4000E/000A-B548 (petrol blue?). Let me recall.\n\nVacheron Constantin Fiftysix Complete Calendar:\n- 4000E/000A-B439 — stainless steel, silvered opaline dial\n- 4000E/000A-B548 — stainless steel, ... hmm.\n\nThe Fiftysix Complete Calendar steel with silver dial is 4000E/000A-B439. Also there's 4000E/000A-B548 with a blue dial? Actually the Fiftysix complete calendar rose gold is 4000E/000R-B438. The steel one: 4000E/000A-B439 (silver dial). There's also 4000E/000A-B548? Hmm, I believe 4000E/000A-B439 is correct for steel silver dial.\n\nWait — but the format says three digits after slash: `000` strap; other values bracelet. Here `000A` = strap (leather), metal A = steel. Version B439.\n\nMovement: automatic (caliber 2460 QCL). Case material steel. Bracelet leather.\n\nConfidence ~0.6.\n\nActually, wait: the image shows a steel case with... Actually the Fiftysix in the photo has a steel look. But the Fiftysix complete calendar in steel — hmm, actually I recall the \"Fiftysix Complete Calendar\" steel ref 4000E/000A-B439 with silver dial. Yes.\n\nAlso there's the \"Fiftysix Day-Date\" but this has complete calendar with day/month/moonphase/date pointer — yes, Complete Calendar.\n\nmodel_family: \"Fiftysix Complete Calendar\"."
+       }
+      }
+     ],
+     "created": 1791289448,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 520,
+      "prompt_tokens": 10210,
+      "total_tokens": 10730,
+      "completion_tokens_details": {
+       "reasoning_tokens": 445
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 8960
+      },
+      "prompt_cache_hit_tokens": 8960,
+      "prompt_cache_miss_tokens": 1250
+     }
+    }
+   ]
+  },
+  "input_tokens": 10210,
+  "output_tokens": 520,
+  "cached_input_tokens": 8960,
+  "cost_usd": 0.00052638,
+  "cost_source": "rate-table",
+  "elapsed_s": 3.917,
+  "started_at": "2026-10-06T12:24:05.046465+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-06_121718_full",
+ "model_name": "deepseek-flash-guide",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 92,
+ "repeat": 0,
+ "image_file": "092_vc_overseas-chronograph.jpg",
+ "prompt_sha256": "19a8ee09a088cf5eb5961e864d302a0e976cdb2370edf80e5121e18dfb5630b5",
+ "result": {
+  "parsed": {
+   "brand": "Vacheron Constantin",
+   "model_family": "Overseas Chronograph",
+   "reference_number": "5500V/110A-B148",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.72
+  },
+  "raw_text": "{\"brand\": \"Vacheron Constantin\", \"model_family\": \"Overseas Chronograph\", \"reference_number\": \"5500V/110A-B148\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.72}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "7ef92855-faf4-4125-bb95-27cc7ecba2ef",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Vacheron Constantin\", \"model_family\": \"Overseas Chronograph\", \"reference_number\": \"5500V/110A-B148\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.72}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Vacheron Constantin Overseas Chronograph with blue dial, steel case and steel bracelet. Reference 5500V/110A-B148 is the blue dial steel Overseas Chronograph. Actually the Overseas Chronograph blue dial steel bracelet reference is 5500V/110A-B148. Let me recall: 5500V/110A-B148 — Overseas Chronograph, 5500V, steel, blue dial, steel bracelet. Yes, that's a well-known reference. The silver dial is B126? Actually 5500V/110A-B126 is silver/white dial. 5500V/110A-B148 is blue dial.\n\nPer the format: 5500V/110A-B148: before slash model, after slash \"110\" bracelet (not 000), A = steel, after hyphen version.\n\nMovement: automatic (calibre 5200). Case material: stainless-steel. Bracelet: metal.\n\nConfidence ~0.7."
+       }
+      }
+     ],
+     "created": 1791289407,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 276,
+      "prompt_tokens": 10203,
+      "total_tokens": 10479,
+      "completion_tokens_details": {
+       "reasoning_tokens": 203
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 8960
+      },
+      "prompt_cache_hit_tokens": 8960,
+      "prompt_cache_miss_tokens": 1243
+     }
+    }
+   ]
+  },
+  "input_tokens": 10203,
+  "output_tokens": 276,
+  "cached_input_tokens": 8960,
+  "cost_usd": 0.0003789299999999999,
+  "cost_source": "rate-table",
+  "elapsed_s": 2.767,
+  "started_at": "2026-10-06T12:23:24.560627+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

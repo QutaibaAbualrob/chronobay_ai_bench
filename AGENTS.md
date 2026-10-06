@@ -27,6 +27,10 @@ written here may be forwarded. Write for a reader who was not in the conversatio
   The strong models always get the brand right. No model reaches 90% alone.
 - **Main lesson:** models recognise the watch but cannot reliably recall its exact reference.
   A catalog has to confirm the reference.
+- **A format guide in the prompt does not fix that.** DeepSeek Flash given `REFERENCE_FORMATS.md`
+  scored 39 on the 80 photos the guide does not give away, against 37 and 35 without it. Almost
+  every miss is the right watch in the right format with the wrong digits, and those digits
+  follow no rule. Tested on DeepSeek only, one run.
 - **Design:** draft 2 is written. The model reads the photos and proposes up to three
   references; WatchCharts confirms which exist; code decides between auto-fill, a
   tap-to-choose list, or leaving the reference empty.
@@ -44,6 +48,7 @@ written here may be forwarded. Write for a reader who was not in the conversatio
 | `results/REPORT.md` | Latest benchmark result per model. Rebuilt after every run. |
 | `REFERENCE_FORMATS.md` | How 19 brands build their reference numbers, how variants are written, and which rules are confirmed. |
 | `results/DETAIL_STUDY.md` | How reliably models fill brand, model line and attributes on their own. Rebuilt by `detail_study.py`. |
+| `results/GUIDE_STUDY.md` | Whether attaching `REFERENCE_FORMATS.md` to the prompt helps (DeepSeek Flash: no clear gain). Rebuilt by `guide_study.py`. |
 | `README.md` | How to run the benchmark, what the scores mean, and run-by-run notes. |
 | `PLAN.md` | The original benchmark plan. Historical; parts are out of date. |
 
@@ -59,6 +64,7 @@ written here may be forwarded. Write for a reader who was not in the conversatio
 | `pricing.py` | Dated price table used to compute cost. |
 | `vision_test.py` | Google Cloud Vision web-detection test. Built, never run against the API. |
 | `detail_study.py` | Field-by-field study from saved answers. No API calls. |
+| `guide_study.py` | Compares plain-prompt runs with runs given the guide (the `guide` model option). No API calls. |
 | `reference_format_check.py` | Tests the rules in `REFERENCE_FORMATS.md` against the answer key and 90 outside references. No API calls. |
 | `dataset/ground_truth.csv` | The answer key: 100 rows, 10 brands. |
 | `dataset/images/` | The photos. Not in git; they came from the web. |
@@ -79,12 +85,20 @@ Windows, Python 3.14, virtual environment in `.venv`.
 .venv\Scripts\python.exe bench.py run --models claude-opus-5-5
 .venv\Scripts\python.exe bench.py score results\raw\<run_id>
 .venv\Scripts\python.exe vision_test.py run --limit 3
+.venv\Scripts\python.exe detail_study.py
+.venv\Scripts\python.exe guide_study.py
+.venv\Scripts\python.exe reference_format_check.py
 ```
+
+The last three read saved answers or the answer key and make no API calls.
 
 - A run over all 100 photos is a **full run**; anything smaller is a **test run** and is
   labelled as one in folder names and reports.
 - `score` re-reads saved responses, so fixing the answer key never costs a re-run.
 - Run folders are never overwritten.
+- A model entry in `config.py` can carry `"guide": "<file>"`. That file's text is added after
+  the prompt for that model only. Give such an entry its own name (`deepseek-flash-guide`):
+  its score is not comparable with the plain prompt.
 
 ## Rules for working here
 
@@ -142,6 +156,7 @@ Taken by Qutaiba on 2026-10-06. Do not reopen them without a reason.
 | 6 | Recheck answer-key rows 76, 66 and 98 online | None | |
 | 7 | Correct and rebuild the PDF report, adding the newer models | None | Go-ahead |
 | 8 | Test the pipeline on 30 to 50 phone photos of real watches | $1 to $3 per model | The photos |
+| 9 | Only if the guide question is still open: repeat the guided run, or try it on a strong model | $0.20 per DeepSeek run; $1 to $3 on a strong model | Go-ahead |
 
 Questions only Qutaiba or his team can answer: which WatchCharts plan and licence ChronoBay
 holds, and where case size should come from.
@@ -161,6 +176,8 @@ holds, and where case size should come from.
 - **A run folder is misnamed.** The Haiku run is at `results/runs/2026-10-1_125653_full`.
 - **WatchCharts `confidence` is about price data**, not about how well a reference matched.
 - **WatchCharts notation differs from the brands'.** It returned `126610` for `126610LN`.
+- **The guide prints 20 answer-key references.** A model given `REFERENCE_FORMATS.md` can copy them.
+  Score such runs on the other 80 rows; `guide_study.py` does.
 - **The dataset photos came from the web.** Any test of reverse image search looks better on
   them than it will on a seller's own photo.
 - **The current backend auto-fill cuts references.** Its cleaning pattern truncates every

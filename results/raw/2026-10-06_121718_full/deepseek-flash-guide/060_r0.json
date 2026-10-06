@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-06_121718_full",
+ "model_name": "deepseek-flash-guide",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 60,
+ "repeat": 0,
+ "image_file": "060_breitling_chronomat-automatic-gmt-40.jpg",
+ "prompt_sha256": "19a8ee09a088cf5eb5961e864d302a0e976cdb2370edf80e5121e18dfb5630b5",
+ "result": {
+  "parsed": {
+   "brand": "Breitling",
+   "model_family": "Chronomat Automatic GMT 40",
+   "reference_number": "A32398101B1A1",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.55
+  },
+  "raw_text": "{\"brand\": \"Breitling\", \"model_family\": \"Chronomat Automatic GMT 40\", \"reference_number\": \"A32398101B1A1\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.55}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "6b8a31fb-8b94-4291-adac-0c046010bb56",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Breitling\", \"model_family\": \"Chronomat Automatic GMT 40\", \"reference_number\": \"A32398101B1A1\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.55}",
+        "role": "assistant",
+        "reasoning_content": "The image shows a Breitling Chronomat GMT 40 (black dial) with steel bracelet. The Breitling logo, \"Super Chronomat\" text... Actually it says \"SUPER CHRONOMETER\" — hmm, let me look: \"SUPER CHRONOMETER\" likely \"Super Chronomat Automatic 38\"? The dial has GMT 24-hour scale with red arrow hand, \"BREITLING\" logo, \"SUPER CHRONOMETER\" text.\n\nThe Breitling Chronomat GMT 40 reference: A32398101B1A1 (black dial, steel bracelet). Let me recall: Breitling Chronomat Automatic GMT 40 — reference A32398101B1A1 for black dial with stainless steel bracelet. Yes, A32398101B1A1 is the Chronomat Automatic GMT 40 black dial. Actually let me think about the format: position 1 = A (steel), then calibre 32 = Breitling 32 (ETA-based GMT). Digits: A32398101B1A1? Hmm, that's 12 characters. Format is 13 characters. Let me count: A32398101B1A1 = A,3,2,3,9,8,1,0,1,B,1,A,1 = 13. Yes.\n\nHmm, but the actual reference for the Chronomat Automatic GMT 40 with black dial is A32398101B1A1? Let me recall. Breitling Chronomat GMT 40 references: A32398101B1A1 (black), A32398101C1A1 (blue), A32398101L1A1 (green), A32398101M1A1... Something like that. I'm fairly confident black on steel bracelet = A32398101B1A1.\n\nWait — dial code positions 9-11: \"1B1\" — letter B is black. And strap A1 = metal bracelet. So A32398101B1A1: positions: 1=A metal; 2-3 = 32 calibre; 4=3 chronometer; 5-6=98 model; 7-8=10; 9-11=1B1 (dial, B=black); 12-13=A1 bracelet. That parses well.\n\nCase material: stainless steel. Bracelet: metal (steel rouleaux bracelet). Movement: automatic. Model family: Chronomat Automatic GMT 40.\n\nConfidence: 0.6.\n\nNote the image might be an AI-generated/rendered image; but the watch appears to be a Chronomat GMT 40."
+       }
+      }
+     ],
+     "created": 1791289287,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 631,
+      "prompt_tokens": 9913,
+      "total_tokens": 10544,
+      "completion_tokens_details": {
+       "reasoning_tokens": 557
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 8960
+      },
+      "prompt_cache_hit_tokens": 8960,
+      "prompt_cache_miss_tokens": 953
+     }
+    }
+   ]
+  },
+  "input_tokens": 9913,
+  "output_tokens": 631,
+  "cached_input_tokens": 8960,
+  "cost_usd": 0.0005484299999999999,
+  "cost_source": "rate-table",
+  "elapsed_s": 4.177,
+  "started_at": "2026-10-06T12:21:24.579632+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

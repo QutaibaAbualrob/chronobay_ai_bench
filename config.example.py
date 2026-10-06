@@ -25,10 +25,13 @@ GOOGLE_VISION_API_KEY = ""
 #   reasoning_effort: OpenAI only - none (no thinking) | low | medium | high | xhigh.
 #   thinking: Anthropic only - "between_tools" turns thinking off on Claude Sonnet 5.5
 #             (effort high or below). Omit to leave the model's default (adaptive).
+#   guide:    any provider - a file in this folder whose text is added after the prompt.
+#             Give the entry its own name: its results are not comparable with the plain prompt.
 MODELS = {
     "claude-opus-5-5": {"provider": "anthropic", "model": "claude-opus-5-5", "effort": "medium"},
     # "claude-opus-5-5-high": {"provider": "anthropic", "model": "claude-opus-5-5", "effort": "high"},
     "deepseek-flash": {"provider": "deepseek", "model": "deepseek-flash"},
+    # "deepseek-flash-guide": {"provider": "deepseek", "model": "deepseek-flash", "guide": "REFERENCE_FORMATS.md"},
     # OpenAI and Google models through OpenRouter (one key, real cost reported per call):
     "gpt-6.1-sol": {"provider": "openrouter", "model": "openai/gpt-6.1-sol"},
     "gemini-3.8-flash": {"provider": "openrouter", "model": "google/gemini-3.8-flash"},

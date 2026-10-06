@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-06_121718_full",
+ "model_name": "deepseek-flash-guide",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 21,
+ "repeat": 0,
+ "image_file": "021_patek_nautilus.jpg",
+ "prompt_sha256": "19a8ee09a088cf5eb5961e864d302a0e976cdb2370edf80e5121e18dfb5630b5",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_family": "Nautilus",
+   "reference_number": "5711/1A-010",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.72
+  },
+  "raw_text": "{\"brand\": \"Patek Philippe\", \"model_family\": \"Nautilus\", \"reference_number\": \"5711/1A-010\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.72}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "c91cd856-dd64-4060-81e2-c300bfbe233e",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Patek Philippe\", \"model_family\": \"Nautilus\", \"reference_number\": \"5711/1A-010\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.72}",
+        "role": "assistant",
+        "reasoning_content": "The photo shows a Patek Philippe Nautilus with blue dial, date at 3, steel bracelet. This is likely 5711/1A-010 (blue dial, steel). Reference number 5711/1A-010.\n\nMovement: automatic. Case material: stainless-steel. Bracelet: metal.\n\nConfidence maybe 0.7.\n\nThe blue dial Nautilus 5711/1A-010 is the classic. Dial looks blue-grey with horizontal embossing. Yes.\n\nHowever, there could be a 5811/1G (white gold) — but case looks steel. Reference 5711/1A-010."
+       }
+      }
+     ],
+     "created": 1791289101,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 205,
+      "prompt_tokens": 10219,
+      "total_tokens": 10424,
+      "completion_tokens_details": {
+       "reasoning_tokens": 136
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 8960
+      },
+      "prompt_cache_hit_tokens": 8960,
+      "prompt_cache_miss_tokens": 1259
+     }
+    }
+   ]
+  },
+  "input_tokens": 10219,
+  "output_tokens": 205,
+  "cached_input_tokens": 8960,
+  "cost_usd": 0.00033873000000000003,
+  "cost_source": "rate-table",
+  "elapsed_s": 2.375,
+  "started_at": "2026-10-06T12:18:18.695659+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

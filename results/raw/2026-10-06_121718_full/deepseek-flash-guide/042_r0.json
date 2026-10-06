@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-06_121718_full",
+ "model_name": "deepseek-flash-guide",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 42,
+ "repeat": 0,
+ "image_file": "042_tagheuer_monaco-calibre-11.jpg",
+ "prompt_sha256": "19a8ee09a088cf5eb5961e864d302a0e976cdb2370edf80e5121e18dfb5630b5",
+ "result": {
+  "parsed": {
+   "brand": "Tag Heuer",
+   "model_family": "Monaco Calibre 12",
+   "reference_number": "CAW2111.FC6183",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.5
+  },
+  "raw_text": "{\"brand\": \"Tag Heuer\", \"model_family\": \"Monaco Calibre 12\", \"reference_number\": \"CAW2111.FC6183\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.5}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "e0bb2440-d625-423a-8af9-bfcc571d18c3",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Tag Heuer\", \"model_family\": \"Monaco Calibre 12\", \"reference_number\": \"CAW2111.FC6183\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.5}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a TAG Heuer Monaco, blue dial, on black leather strap, square case. The modern Monaco Calibre 12? Blue dial with white subdials, red accents... Reference CAW2111.FC6183 is the classic blue Monaco Calibre 12 with black leather strap. Actually CAW2111.FC6183 is the blue dial Monaco Calibre 12 with alligator strap. There's also CAW2111.FC6357. The 2015 reissue? The Monaco Calibre 12 CAW2111 is the \"Steve McQueen\" blue Monaco. The strap code FC6183 is leather (alligator).\n\nFormat: TAG Heuer format CAW2111.FC6183 — 7 characters, dot, strap code. C=chronograph, AW=Monaco, 2=automatic, 1=?, 1=steel, 1=dial version. FC = leather strap.\n\nActually the modern Monaco with the blue dial and \"Automatic Chronograph\" text... CAW2111 has \"Calibre 12\" on dial? The dial here says \"AUTOMATIC CHRONOGRAPH\" and \"MONACO\" — this looks like the Monaco Calibre 12 or the newer Monaco Calibre Heuer 02? The Heuer 02 Monaco has \"CBL2111\" reference with blue dial. Let me think: CBL2111.BA0644 is the blue Monaco Heuer 02 on steel bracelet. CBL2111.FC6453 is on leather? Hmm.\n\nThe dial here: no \"Calibre 12\" text, says \"MONACO\" and \"AUTOMATIC CHRONOGRAPH\". Hmm, the Calibre 12 Monaco CAW2111 says \"MONACO\" and \"Calibre 12 Automatic Chronograph\"? Actually CAW2111 dial reads \"MONACO\" with \"Calibre 12\" below center? Let me recall: The TAG Heuer Monaco Calibre 12 (CAW2111) dial has \"MONACO\" at 12 and \"Calibre 12 Automatic Chronograph\" text. Hmm.\n\nHmm, the photo shows \"MONACO\" and below \"HEUER\" logo? Actually the layout: \"MONACO\" at top, then the TAG Heuer shield logo below, then \"AUTOMATIC CHRONOGRAPH\". That's different from CAW2111 whose layout... Actually the Calibre 12 reissue has \"MONACO\" at 12 o'clock with \"Calibre 12\" ... I'm not sure.\n\nThere's also the 2019 Monaco Calibre 12 \"Grand Prix de Monaco Historique\"? Hmm.\n\nActually I recall the modern Monaco reference CAW2111.FC6183: blue dial, white subdials, \"MONACO\" script at 12, TAG Heuer logo, \"Calibre 12 Automatic Chronograph\" text. The watch in photo: white subdials at 9 (running seconds) and 3 (chronograph 30-min). Wait, in the photo, subdials: left subdial has \"12 3 6 9 12 15 18 21 24\" — that's a 24-hour indicator? Actually the left subdial shows 7,5,12,15,18,21,24 markings—it looks like the date/24-hour subdial? Hmm, it shows a hand near \"3\"? The left subdial appears to have 24-hour scale with markings 73? Hmm, that's odd. Actually the left subdial is a small seconds with 10,20,30,40,50,60? Hard to read.\n\nRight subdial: 10,20,30 with red hand — 30-minute chronograph counter.\n\nThe Monaco Calibre 12 has a 30-minute counter at 3 and running seconds... Actually the Calibre 12 Monaco layout: subdials at 3 (chronograph minutes) and 9 (running seconds). Hmm and the date window at 6. In the photo there's a date window at 6 o'clock. Yes! CAW2111 has a date at 6 o'clock. Good match.\n\nThe Calibre 12 Monaco CAW2111.FC6183: blue dial, black leather (alligator? or calf). I believe FC6183 is the black alligator-ish strap. There's also CAW2111.FC6357 with a different strap? And CAW2111.BA077? Hmm, CAW2111.FC6183 is the standard.\n\nAlso note this photo's date window shows \"8\" with a white background... fine.\n\nI'll go with CAW2111.FC6183, confidence ~0.5.\n\nMovement: automatic. Case: stainless-steel. Bracelet: leather."
+       }
+      }
+     ],
+     "created": 1791289212,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 1085,
+      "prompt_tokens": 10210,
+      "total_tokens": 11295,
+      "completion_tokens_details": {
+       "reasoning_tokens": 1012
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 8960
+      },
+      "prompt_cache_hit_tokens": 8960,
+      "prompt_cache_miss_tokens": 1250
+     }
+    }
+   ]
+  },
+  "input_tokens": 10210,
+  "output_tokens": 1085,
+  "cached_input_tokens": 8960,
+  "cost_usd": 0.00086538,
+  "cost_source": "rate-table",
+  "elapsed_s": 6.66,
+  "started_at": "2026-10-06T12:20:09.792393+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

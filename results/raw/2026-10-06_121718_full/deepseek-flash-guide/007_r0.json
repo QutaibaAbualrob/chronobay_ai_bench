@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-06_121718_full",
+ "model_name": "deepseek-flash-guide",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 7,
+ "repeat": 0,
+ "image_file": "007_rolex_sea-dweller.jpg",
+ "prompt_sha256": "19a8ee09a088cf5eb5961e864d302a0e976cdb2370edf80e5121e18dfb5630b5",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_family": "Sea-Dweller",
+   "reference_number": "126600-0001",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.85
+  },
+  "raw_text": "{\"brand\": \"Rolex\", \"model_family\": \"Sea-Dweller\", \"reference_number\": \"126600-0001\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.85}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "73af70f2-f0fe-48e1-a04a-8a2f478a24ac",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Rolex\", \"model_family\": \"Sea-Dweller\", \"reference_number\": \"126600-0001\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.85}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Rolex Sea-Dweller 4000? Actually it says \"OYSTER PERPETUAL DATE\" and \"SEA-DWELLER\", \"1220m\" (4000 ft). The dial shows \"ROLEX OYSTER PERPETUAL DATE\" and red \"SEA-DWELLER\" text. Submariner-style hands with Mercedes. It's the Sea-Dweller 116600 (Sea-Dweller 4000, 40mm, 2014-2017) or the newer 126600 (43mm, with cyclops lens and \"Sea-Dweller\" in red). The 126600 has a cyclops over the date and red Sea-Dweller text on dial — yes, ref 126600 has red \"Sea-Dweller\" word. The 116600 has white \"Sea-Dweller\" text? Actually 116600 has \"SEA-DWELLER\" in white? Let me recall: Rolex Sea-Dweller 4000 116600 (2014) has \"SEA-DWELLER\" printed in white, and no cyclops. The 126600 (2017) 43mm has a cyclops lens, red \"SEA-DWELLER\" text, and 1220m = 4000ft depth rating. Here 1220m matches both (both are 1220m). But the cyclops is present here, so it's the 126600.\n\nWait — 116600 depth is 1220 m too. Yes both 4000ft/1220m. But cyclops → 126600. Also 126600 has red Sea-Dweller text (this photo shows red \"SEA-DWELLER\"). So ref 126600.\n\nAlso 126600 has the \"Sea-Dweller\" red line and the date with cyclops. Yes.\n\nReference: 126600-0001 (black dial, Oyster bracelet). Steel. Automatic. Bracelet metal (Oyster steel).\n\nConfidence moderate-high, 0.85."
+       }
+      }
+     ],
+     "created": 1791289048,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 499,
+      "prompt_tokens": 9836,
+      "total_tokens": 10335,
+      "completion_tokens_details": {
+       "reasoning_tokens": 432
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 8960
+      },
+      "prompt_cache_hit_tokens": 8960,
+      "prompt_cache_miss_tokens": 876
+     }
+    }
+   ]
+  },
+  "input_tokens": 9836,
+  "output_tokens": 499,
+  "cached_input_tokens": 8960,
+  "cost_usd": 0.00045767999999999997,
+  "cost_source": "rate-table",
+  "elapsed_s": 3.547,
+  "started_at": "2026-10-06T12:17:25.131103+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

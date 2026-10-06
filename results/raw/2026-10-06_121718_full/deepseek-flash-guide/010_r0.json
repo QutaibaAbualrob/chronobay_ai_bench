@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-06_121718_full",
+ "model_name": "deepseek-flash-guide",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 10,
+ "repeat": 0,
+ "image_file": "010_rolex_submariner-no-date.jpg",
+ "prompt_sha256": "19a8ee09a088cf5eb5961e864d302a0e976cdb2370edf80e5121e18dfb5630b5",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_family": "Submariner (No Date)",
+   "reference_number": "124060",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.5
+  },
+  "raw_text": "{\"brand\": \"Rolex\", \"model_family\": \"Submariner (No Date)\", \"reference_number\": \"124060\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.5}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "d7e766ac-493e-4e23-8c7e-26c5e11d5588",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Rolex\", \"model_family\": \"Submariner (No Date)\", \"reference_number\": \"124060\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.5}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Rolex Submariner No Date, black dial, black ceramic bezel, steel. It appears to be the 41mm Submariner 124060 (no date). The dial says \"Submariner\" with no date window, \"1000ft = 300m\", \"Officially Certified\". The no-date Submariner with ceramic bezel is 124060 (41mm) or 114060 (40mm).\n\nLooking at the case proportions — the lugs look fairly slim, and it's hard to tell 40 vs 41mm. The photo shows a large watch on the wrist. Let's guess 124060.\n\nReference: 124060 (current). Rolex catalogue form: M124060-0001.\n\nMovement: automatic. Case material: stainless-steel. Bracelet: metal (Oyster steel bracelet).\n\nConfidence: maybe 0.55, since distinguishing 114060 vs 124060 is hard.\n\nNote: The bezel — the older 114060 has a thicker bezel with \"50\" etc. Both look similar. I'll go with 124060.\n\nLet me check details: The dial appears to have \"Swiss made\" at bottom with crown between. The hands: the hour hand is a Mercedes hand, the second hand... Actually looking at the photo, the hands seem unusual — the minute hand appears long white, the hour hand appears as a short arrow. Hmm, actually the picture shows something that looks like a white-filled hand pointing left-ish. It's a Submariner with Mercedes hands presumably.\n\nNot relevant. Output JSON.\n\nReference format: Rolex uses \"124060\" typically; catalogue adds M and -0001. I'll give \"124060\" or \"M124060-0001\". The ground truth references probably use the plain form like \"126610LN\". I'll give \"124060\".\n\nConfidence ~0.5."
+       }
+      }
+     ],
+     "created": 1791289054,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 462,
+      "prompt_tokens": 10199,
+      "total_tokens": 10661,
+      "completion_tokens_details": {
+       "reasoning_tokens": 396
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 8960
+      },
+      "prompt_cache_hit_tokens": 8960,
+      "prompt_cache_miss_tokens": 1239
+     }
+    }
+   ]
+  },
+  "input_tokens": 10199,
+  "output_tokens": 462,
+  "cached_input_tokens": 8960,
+  "cost_usd": 0.00048993,
+  "cost_source": "rate-table",
+  "elapsed_s": 3.832,
+  "started_at": "2026-10-06T12:17:31.630068+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

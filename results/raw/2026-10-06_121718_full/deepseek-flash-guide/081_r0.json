@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-06_121718_full",
+ "model_name": "deepseek-flash-guide",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 81,
+ "repeat": 0,
+ "image_file": "081_jlc_reverso-classic-large-small-seconds.jpg",
+ "prompt_sha256": "19a8ee09a088cf5eb5961e864d302a0e976cdb2370edf80e5121e18dfb5630b5",
+ "result": {
+  "parsed": {
+   "brand": "Jaeger-LeCoultre",
+   "model_family": "Reverso Classic Medium Thin",
+   "reference_number": "Q2548520",
+   "movement": "manual",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.5
+  },
+  "raw_text": "{\"brand\": \"Jaeger-LeCoultre\", \"model_family\": \"Reverso Classic Medium Thin\", \"reference_number\": \"Q2548520\", \"movement\": \"manual\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.5}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "6800df11-0ddb-4793-806f-14280c95bae9",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Jaeger-LeCoultre\", \"model_family\": \"Reverso Classic Medium Thin\", \"reference_number\": \"Q2548520\", \"movement\": \"manual\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.5}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Jaeger-LeCoultre Reverso Classic Medium Thin, steel case, silver/white dial with Arabic numerals, small seconds at 6, leather strap.\n\nReference: Q2548520 (Reverso Classic Medium Thin small seconds, steel). Actually the Reverso Classic Medium Thin ref is Q2548520 (steel). Let me think.\n\nReverso Classic Medium Thin: 254.8.62 — reference Q2548520? The Jaeger-LeCoultre Reverso Classic Medium Thin (40.1 x 24.4 mm) small seconds steel: Q2548520. Yes, I believe the Reverso Classic Medium Thin ref 2548520 is steel with silvered dial.\n\nJaeger-LeCoultre format: Q + 7 characters: 2548520 → first three digits 254 model (Reverso Classic Medium Thin), 4th digit 8 = steel, 5th digit 5 = leather pin buckle, 6-7 digits 20 = dial version.\n\nSo Q2548520. Confidence moderate ~0.5.\n\nMovement: manual (Jaeger-LeCoultre Calibre 822, manual winding). Case material: stainless-steel. Bracelet: leather.\n\nModel family: Reverso Classic Medium Thin."
+       }
+      }
+     ],
+     "created": 1791289351,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 333,
+      "prompt_tokens": 10081,
+      "total_tokens": 10414,
+      "completion_tokens_details": {
+       "reasoning_tokens": 262
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 8960
+      },
+      "prompt_cache_hit_tokens": 8960,
+      "prompt_cache_miss_tokens": 1121
+     }
+    }
+   ]
+  },
+  "input_tokens": 10081,
+  "output_tokens": 333,
+  "cached_input_tokens": 8960,
+  "cost_usd": 0.00039483,
+  "cost_source": "rate-table",
+  "elapsed_s": 3.018,
+  "started_at": "2026-10-06T12:22:28.585076+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

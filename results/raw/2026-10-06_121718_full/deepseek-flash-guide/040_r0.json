@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-06_121718_full",
+ "model_name": "deepseek-flash-guide",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 40,
+ "repeat": 0,
+ "image_file": "040_ap_royal-oak-double-balance-wheel-openworked.jpg",
+ "prompt_sha256": "19a8ee09a088cf5eb5961e864d302a0e976cdb2370edf80e5121e18dfb5630b5",
+ "result": {
+  "parsed": {
+   "brand": "Audemars Piguet",
+   "model_family": "Royal Oak Double Balance Wheel Openworked",
+   "reference_number": "15407ST.OO.1220ST.01",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.45
+  },
+  "raw_text": "{\"brand\": \"Audemars Piguet\", \"model_family\": \"Royal Oak Double Balance Wheel Openworked\", \"reference_number\": \"15407ST.OO.1220ST.01\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.45}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "dfa0ba8c-71ba-4be5-aace-e909304ce3a8",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Audemars Piguet\", \"model_family\": \"Royal Oak Double Balance Wheel Openworked\", \"reference_number\": \"15407ST.OO.1220ST.01\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.45}",
+        "role": "assistant",
+        "reasoning_content": "The image shows an Audemars Piguet Royal Oak skeletonized watch with openworked dial, steel case and bracelet. Likely the Royal Oak Double Balance Wheel Openworked 15407ST.OO.1220ST.01 (steel) or 15407ST.OO.1220ST.02 (steel with... ). Actually 15407ST.OO.1220ST.01 is the steel openworked double balance wheel with rhodium dial. There's also 15416CE ceramic. The image shows a steel case and bracelet, skeletonized dial with golden balance wheel.\n\n15407ST.OO.1220ST.01 — Royal Oak Double Balance Wheel Openworked, steel, 41mm, openworked dial. That's the best guess.\n\nMovement: automatic (calibre 3132). Case material: stainless-steel. Bracelet: metal.\n\nConfidence ~0.5.\n\nAlso the hands appear golden/rose gold — that's typical of 15407ST. Model family: Royal Oak Double Balance Wheel Openworked.\n\nNote: there's a possibility of it being a replica/fake, the dial looks a bit unusual with what appears to be a large gear. But go with 15407ST.\n\nConfidence 0.4-0.5."
+       }
+      }
+     ],
+     "created": 1791289207,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 344,
+      "prompt_tokens": 9517,
+      "total_tokens": 9861,
+      "completion_tokens_details": {
+       "reasoning_tokens": 264
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 8960
+      },
+      "prompt_cache_hit_tokens": 8960,
+      "prompt_cache_miss_tokens": 557
+     }
+    }
+   ]
+  },
+  "input_tokens": 9517,
+  "output_tokens": 344,
+  "cached_input_tokens": 8960,
+  "cost_usd": 0.00031683,
+  "cost_source": "rate-table",
+  "elapsed_s": 3.235,
+  "started_at": "2026-10-06T12:20:05.052784+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

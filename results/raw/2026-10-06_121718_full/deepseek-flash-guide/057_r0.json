@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-06_121718_full",
+ "model_name": "deepseek-flash-guide",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 57,
+ "repeat": 0,
+ "image_file": "057_breitling_navitimer-automatic-41.jpg",
+ "prompt_sha256": "19a8ee09a088cf5eb5961e864d302a0e976cdb2370edf80e5121e18dfb5630b5",
+ "result": {
+  "parsed": {
+   "brand": "Breitling",
+   "model_family": "Navitimer Automatic 41",
+   "reference_number": "A17326211B1P1",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.55
+  },
+  "raw_text": "{\"brand\": \"Breitling\", \"model_family\": \"Navitimer Automatic 41\", \"reference_number\": \"A17326211B1P1\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.55}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "a6f095e8-9536-45e8-bc9a-52934547a2b0",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Breitling\", \"model_family\": \"Navitimer Automatic 41\", \"reference_number\": \"A17326211B1P1\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.55}",
+        "role": "assistant",
+        "reasoning_content": "The image shows a Breitling Navitimer 41 with black dial, steel case, black leather strap with white stitching, date at 6 o'clock. This is the Navitimer Automatic 41 (A17326...). Actually the dial says \"CHRONOMETER NAVITIMER\" with the B logo — that's the Navitimer Automatic 41, reference A17326161B1P1? Let me think.\n\nBreitling Navitimer Automatic 41: references A17326161C1P1 (blue), A17326161B1P1 (black leather). Hmm — the codes: A = steel, 17 = calibre 17, 3 = chronometer, 26 = model (Navitimer Automatic 41?), then 16? Hmm.\n\nFormat: positions 1-13: 1 metal (A), 2-3 calibre (17), 4 chronometer digit (3), 5-6 model (26), 7-8 case/bezel finish, 9-11 dial (letter colour), 12-13 strap.\n\nKnown reference: A17326211B1P1? Let me recall. Breitling Navitimer Automatic 41 A17326211B1P1 — black dial, leather strap. Actually I recall A17326211B1P1 is the black dial with black leather strap. And A17326211C1P1 blue. Hmm, also A17326211G1P1 silver.\n\nWait, the reference A17326211B1A1 is black dial steel bracelet. Actually the structure: A 17 3 26 21 1B1 P1? Let's parse: A17326211B1P1 = A (steel), 17 (calibre 17), 3 (chronometer), 26 (model), 21 (case bezel finish), 1B1 (dial: 1B1 → black with... the letter is B = black), P1 (leather strap).\n\nThat matches nicely: A17326211B1P1 = steel, cal 17, chronometer, model 26, finish 21, black dial, leather strap. Great.\n\nBut is this the Navitimer Automatic 41 or Navitimer 1 Automatic 41? Photo shows date at 6 o'clock — yes, Navitimer Automatic 41 has date at 6. The 41 with date at 6 o'clock is the \"Navitimer Automatic 41\" (2019-present), ref A17326...\n\nSo reference_number: A17326211B1P1.\n\nMovement: automatic (Calibre 17, based on ETA 2824/Sellita SW200). Case material: stainless steel. Bracelet: leather.\n\nConfidence: 0.6.\n\nmodel_family: \"Navitimer Automatic 41\" — brand uses \"Navitimer Automatic 41\". I'll say \"Navitimer Automatic 41\".\n\nNote: There is also A17326211B1P2 etc. I'll go with A17326211B1P1."
+       }
+      }
+     ],
+     "created": 1791289273,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 730,
+      "prompt_tokens": 10203,
+      "total_tokens": 10933,
+      "completion_tokens_details": {
+       "reasoning_tokens": 656
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 8960
+      },
+      "prompt_cache_hit_tokens": 8960,
+      "prompt_cache_miss_tokens": 1243
+     }
+    }
+   ]
+  },
+  "input_tokens": 10203,
+  "output_tokens": 730,
+  "cached_input_tokens": 8960,
+  "cost_usd": 0.0006513299999999999,
+  "cost_source": "rate-table",
+  "elapsed_s": 4.558,
+  "started_at": "2026-10-06T12:21:10.798795+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-06_121718_full",
+ "model_name": "deepseek-flash-guide",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 66,
+ "repeat": 0,
+ "image_file": "066_cartier_pasha-de-cartier-41.jpg",
+ "prompt_sha256": "19a8ee09a088cf5eb5961e864d302a0e976cdb2370edf80e5121e18dfb5630b5",
+ "result": {
+  "parsed": {
+   "brand": "Cartier",
+   "model_family": "Pasha de Cartier",
+   "reference_number": "WSPA0009",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.4
+  },
+  "raw_text": "{\"brand\": \"Cartier\", \"model_family\": \"Pasha de Cartier\", \"reference_number\": \"WSPA0009\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.4}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "34b4f0ad-3bd9-41fb-afca-cc51ebcf30ac",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Cartier\", \"model_family\": \"Pasha de Cartier\", \"reference_number\": \"WSPA0009\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.4}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Cartier Pasha. Steel, steel bracelet, automatic. Dial: white/silver with Arabic numerals, blued hands, crown with blue sapphire cabochon. Cartier Pasha de Cartier 41mm steel on steel bracelet — reference WSPA0009 (Pasha de Cartier 41 mm steel). Let me think.\n\nCartier Pasha de Cartier 41mm steel: WSPA0009 (with steel bracelet), WSPA0013 (?), WSPA0014... Actually the Pasha family code is \"PA\" → WSPA. The 41mm steel Pasha with silver dial and bracelet: WSPA0009. The 41mm steel Pasha with leather strap: WSPA0015? Let me recall.\n\nCartier Pasha de Cartier 41 mm, steel, steel bracelet: reference WSPA0009. Yes, I believe WSPA0009 is the Pasha 41mm steel on steel bracelet with silver dial. WSPA0010 might be the 35mm. Hmm.\n\nKnown Pasha references:\n- WSPA0009: Pasha de Cartier 41mm steel bracelet, silvered dial.\n- WSPA0010: 35mm?\n- WSPA0013: 41mm steel, leather strap?\n- WSPA0014: 30mm?\n\nActually I recall WSPA0013 being Pasha 41mm steel on leather strap. And WSPA0009 steel bracelet 41mm.\n\nThe dial here has 12, 3, 6, 9 Arabic numerals with the \"12\" styled, and 41mm-ish look (the crown with \"Automatic\" text). It's a Pasha de Cartier 41mm.\n\nI'll give reference WSPA0009 with moderate confidence ~0.4.\n\nCase material steel, bracelet steel, movement automatic.\n\nConfidence maybe 0.4."
+       }
+      }
+     ],
+     "created": 1791289324,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 476,
+      "prompt_tokens": 9553,
+      "total_tokens": 10029,
+      "completion_tokens_details": {
+       "reasoning_tokens": 408
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 8960
+      },
+      "prompt_cache_hit_tokens": 8960,
+      "prompt_cache_miss_tokens": 593
+     }
+    }
+   ]
+  },
+  "input_tokens": 9553,
+  "output_tokens": 476,
+  "cached_input_tokens": 8960,
+  "cost_usd": 0.00040142999999999993,
+  "cost_source": "rate-table",
+  "elapsed_s": 3.84,
+  "started_at": "2026-10-06T12:22:01.307847+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

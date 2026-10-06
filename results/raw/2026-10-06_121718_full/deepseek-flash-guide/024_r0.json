@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-06_121718_full",
+ "model_name": "deepseek-flash-guide",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 24,
+ "repeat": 0,
+ "image_file": "024_patek_nautilus-moon-phase.jpg",
+ "prompt_sha256": "19a8ee09a088cf5eb5961e864d302a0e976cdb2370edf80e5121e18dfb5630b5",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_family": "Nautilus",
+   "reference_number": "5712/1A-001",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.88
+  },
+  "raw_text": "{\"brand\": \"Patek Philippe\", \"model_family\": \"Nautilus\", \"reference_number\": \"5712/1A-001\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.88}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "b0f6743a-de64-4ae4-890e-150af9903e21",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Patek Philippe\", \"model_family\": \"Nautilus\", \"reference_number\": \"5712/1A-001\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.88}",
+        "role": "assistant",
+        "reasoning_content": "This is a Patek Philippe Nautilus with a black dial, moonphase, power reserve, pointer date — that's the Nautilus 5712/1A-001. Black-gradient dial with power reserve indicator at 11, moonphase with pointer date at 7, small seconds at 4-5. Yes, 5712/1A-001.\n\nReference format: 5712/1A-001. Steel case, steel bracelet, automatic (micro-rotor calibre 240 PS IRM C LU). Confidence high ~0.9.\n\nWait, but the dial here appears black/dark grey — the 5712/1A-001 has a black dial with horizontal grooves. Yes.\n\nModel family: Nautilus."
+       }
+      }
+     ],
+     "created": 1791289105,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 225,
+      "prompt_tokens": 10186,
+      "total_tokens": 10411,
+      "completion_tokens_details": {
+       "reasoning_tokens": 156
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 8960
+      },
+      "prompt_cache_hit_tokens": 8960,
+      "prompt_cache_miss_tokens": 1226
+     }
+    }
+   ]
+  },
+  "input_tokens": 10186,
+  "output_tokens": 225,
+  "cached_input_tokens": 8960,
+  "cost_usd": 0.00034577999999999996,
+  "cost_source": "rate-table",
+  "elapsed_s": 2.139,
+  "started_at": "2026-10-06T12:18:22.708838+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

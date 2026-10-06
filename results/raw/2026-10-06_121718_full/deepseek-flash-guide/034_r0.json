@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-06_121718_full",
+ "model_name": "deepseek-flash-guide",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 34,
+ "repeat": 0,
+ "image_file": "034_ap_royal-oak-chronograph-41.jpg",
+ "prompt_sha256": "19a8ee09a088cf5eb5961e864d302a0e976cdb2370edf80e5121e18dfb5630b5",
+ "result": {
+  "parsed": {
+   "brand": "Audemars Piguet",
+   "model_family": "Royal Oak Chronograph",
+   "reference_number": "26331ST.OO.1220ST.01",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.42
+  },
+  "raw_text": "{\"brand\": \"Audemars Piguet\", \"model_family\": \"Royal Oak Chronograph\", \"reference_number\": \"26331ST.OO.1220ST.01\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.42}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "14b3991d-66aa-46b6-a6b2-f15464ca50b3",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Audemars Piguet\", \"model_family\": \"Royal Oak Chronograph\", \"reference_number\": \"26331ST.OO.1220ST.01\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.42}",
+        "role": "assistant",
+        "reasoning_content": "The image shows an Audemars Piguet Royal Oak chronograph with black dial, steel case and bracelet. This looks like a 26331ST or the newer 26240ST. The dial appears black with a \"Grande Tapisserie\" pattern, subdials at 3, 6, 9 with a date at 4:30 — that layout (three subdials + date at 4-5) matches the 26331ST (selfwinding chronograph, 41mm) or the new 26240ST (with in-house chronograph from 2385? Actually the 26240 uses the new caliber 4401 with date).\n\nHmm. The 26331ST has caliber 2385, date at 4:30, three subdials. The new 26240ST (2022) has caliber 4401, date at 4:30 too, three subdials. Both look similar. The 26240ST black dial reference is 26240ST.OO.1320ST.06? Let me recall: 26240ST.OO.1320ST.01 is the blue? Actually:\n- 26240ST.OO.1320ST.01 — black dial? \n- 26240ST.OO.1320ST.02 — blue\n- 26240ST.OO.1320ST.03 — silver/white\n- 26240ST.OO.1320ST.04 — ?\n- 26240ST.OO.1320ST.05 — green\n- 26240ST.OO.1320ST.06 — blue?\n\nI recall 26240ST.OO.1320ST.01 being black \"Grande Tapisserie\" with... Hmm. The 26331ST black dial is 26331ST.OO.1220ST.01 (black), .02 (blue), .03 (silver). This is the classic 26331ST.OO.1220ST.01 black dial.\n\nDistinguishing 26331 vs 26240: the 26240 has a slightly different dial layout — the subdials are slightly larger and positioned slightly differently; also 26240 has a \"AP\" logo applied. Hard to tell from photo. The 26240ST has the subdial rings... Both have date at 4:30.\n\nA distinguishing feature: on the 26331, the hour markers at 12 o'clock... hmm. Another: 26240 has the minute track with numbers? Both have same.\n\nThe 26240 case is 41mm with 2022 new dial. The bezel on the 26240 is slightly different (thinner bezel?). Actually the 26240 dial has subdials closer to center.\n\nI'll go with 26331ST.OO.1220ST.01 (black dial, steel bracelet). Confidence moderate ~0.45.\n\nMovement: automatic (caliber 2385). Case material: stainless-steel. Bracelet: metal.\n\nModel family: Royal Oak Chronograph.\n\nReference format: 26331ST.OO.1220ST.01.\n\nI'll answer."
+       }
+      }
+     ],
+     "created": 1791289191,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 737,
+      "prompt_tokens": 10186,
+      "total_tokens": 10923,
+      "completion_tokens_details": {
+       "reasoning_tokens": 660
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 8960
+      },
+      "prompt_cache_hit_tokens": 8960,
+      "prompt_cache_miss_tokens": 1226
+     }
+    }
+   ]
+  },
+  "input_tokens": 10186,
+  "output_tokens": 737,
+  "cached_input_tokens": 8960,
+  "cost_usd": 0.00065298,
+  "cost_source": "rate-table",
+  "elapsed_s": 4.894,
+  "started_at": "2026-10-06T12:19:48.286595+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

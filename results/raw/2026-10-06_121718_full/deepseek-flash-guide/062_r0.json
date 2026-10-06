@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-06_121718_full",
+ "model_name": "deepseek-flash-guide",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 62,
+ "repeat": 0,
+ "image_file": "062_cartier_tank-must-large.jpg",
+ "prompt_sha256": "19a8ee09a088cf5eb5961e864d302a0e976cdb2370edf80e5121e18dfb5630b5",
+ "result": {
+  "parsed": {
+   "brand": "Cartier",
+   "model_family": "Tank Must",
+   "reference_number": "WSTA0041",
+   "movement": "quartz",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.35
+  },
+  "raw_text": "{\"brand\": \"Cartier\", \"model_family\": \"Tank Must\", \"reference_number\": \"WSTA0041\", \"movement\": \"quartz\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.35}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "90fc9d0f-96b3-4167-8a3c-a06997f3f233",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Cartier\", \"model_family\": \"Tank Must\", \"reference_number\": \"WSTA0041\", \"movement\": \"quartz\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.35}",
+        "role": "assistant",
+        "reasoning_content": "The image shows a Cartier Tank (Must de Cartier Tank, or Tank Solo/Solar) with Roman numerals, black leather strap, steel case. The dial says \"Must de Cartier\" it seems. Actually the dial has \"Cartier\" text? The visible text appears to be \"Cartier\" with a small emblem. The case is rectangular with a beaded/rounded bezel — the Tank Must. Steel case, black grained leather strap, Roman numerals, sword hands, no date.\n\nCartier Tank Must (2021) steel large model: WSTA0041 (leather strap, steel, large 33.7 x 25.5mm). The Tank Must large model with steel case and black leather strap is WSTA0041. Also WSTA0052 is the steel bracelet version. The solar version is WSTA0067 (Tank Must SolarBeat black leather). Hmm.\n\nTank Must Large steel, black strap: reference WSTA0041. Yes, I believe WSTA0041 is Tank Must Large steel on black leather with Roman numerals.\n\nBut the dial here appears to have \"Must de Cartier\"? In the photo, there's text under 12 that appears to be \"Cartier\" with maybe a small script. Actually the old Must de Cartier Tanks had \"Must de Cartier\" logo. Hard to tell. The case looks like a Tank Louis/Must with rounded lugs and beaded bezel; the crown has a blue cabochon.\n\nGiven the reference formats: Cartier current format is W + metal letter + family letters + 4 digits. Tank = TA. So WSTA0041.\n\nMovement: quartz (Tank Must is quartz). Confidence moderate ~0.35.\n\nCase material: stainless steel. Bracelet: leather.\n\nActually is it possible this is a Tank Louis Cartier (gold)? No, the case looks steel/silver colored, though it could be white gold... it's more likely steel Tank Must.\n\nReference: WSTA0041 for Tank Must Large steel on black leather strap. Yes."
+       }
+      }
+     ],
+     "created": 1791289298,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 492,
+      "prompt_tokens": 9406,
+      "total_tokens": 9898,
+      "completion_tokens_details": {
+       "reasoning_tokens": 426
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 8960
+      },
+      "prompt_cache_hit_tokens": 8960,
+      "prompt_cache_miss_tokens": 446
+     }
+    }
+   ]
+  },
+  "input_tokens": 9406,
+  "output_tokens": 492,
+  "cached_input_tokens": 8960,
+  "cost_usd": 0.00038898,
+  "cost_source": "rate-table",
+  "elapsed_s": 3.968,
+  "started_at": "2026-10-06T12:21:36.017495+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

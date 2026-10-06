@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-06_121718_full",
+ "model_name": "deepseek-flash-guide",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 98,
+ "repeat": 0,
+ "image_file": "098_vc_overseas-perpetual-calendar-ultra-thin.jpg",
+ "prompt_sha256": "19a8ee09a088cf5eb5961e864d302a0e976cdb2370edf80e5121e18dfb5630b5",
+ "result": {
+  "parsed": {
+   "brand": "Vacheron Constantin",
+   "model_family": "Overseas Perpetual Calendar Ultra-Thin",
+   "reference_number": "4300V/120R-B547",
+   "movement": "automatic",
+   "case_material": "gold",
+   "bracelet_material": "metal",
+   "confidence": 0.35
+  },
+  "raw_text": "{\"brand\": \"Vacheron Constantin\", \"model_family\": \"Overseas Perpetual Calendar Ultra-Thin\", \"reference_number\": \"4300V/120R-B547\", \"movement\": \"automatic\", \"case_material\": \"gold\", \"bracelet_material\": \"metal\", \"confidence\": 0.35}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "f606c50c-0af3-419e-9c44-ba97d9d776d2",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Vacheron Constantin\", \"model_family\": \"Overseas Perpetual Calendar Ultra-Thin\", \"reference_number\": \"4300V/120R-B547\", \"movement\": \"automatic\", \"case_material\": \"gold\", \"bracelet_material\": \"metal\", \"confidence\": 0.35}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Vacheron Constantin Overseas with perpetual calendar, rose gold, on a bracelet. Reference 4300V/120R-B509? Actually the Overseas Perpetual Calendar Ultra-Thin is 4300V/120R-B547 (rose gold with bracelet, blue dial?) Let me think.\n\nVacheron Constantin Overseas Perpetual Calendar Ultra-Thin: reference 4300V/120R-B547 (pink gold, silver-toned dial, bracelet). Also 4300V/000R-B064 (strap). The 4300V/120R-B509 is pink gold with blue dial. Hmm.\n\nThere's the Overseas Perpetual Calendar 4300V/120R-B547 — 41.5mm, 18K 5N pink gold, silver dial with moon phase, on bracelet. Also known as \"Overseas Perpetual Calendar Ultra-Thin\" launched 2020.\n\nActually the well-known refs:\n- 4300V/120R-B509: pink gold, blue dial, bracelet? \n- 4300V/120R-B547: pink gold, silver dial, bracelet\n- 4300V/000R-B064: pink gold, silver dial, leather strap\n\nHmm, the dial here looks silver/white with moonphase, day-date, month, leap year. It's on a gold bracelet. So 4300V/120R-B547.\n\nWait, let me check: 4300V/120R-B064 is the pink gold with... Actually the older Overseas perpetual calendar 4300V/000R-B064 was pink gold, silver dial, leather strap. The bracelet version: 4300V/120R-B064? Hmm.\n\nVacheron Constantin Overseas perpetual calendar ultra-thin reference numbers:\n- 4300V/120R-B547 – pink gold with silver dial on bracelet? \n- 4300V/000R-B547 - pink gold leather?\n\nActually I recall: 4300V/120R-B547 is the pink gold with blue dial... Let me think more carefully.\n\nThe Overseas Perpetual Calendar Ultra-Thin was introduced in 2020 with references:\n- 4300V/000R-B064: 18K 5N pink gold, silver-tone dial, leather strap (actually \"4300V/000R-B064\" is the older thicker perpetual calendar).\n- 4300V/120R-B547: pink gold, blue dial? No.\n\nHmm. Let me recall the 2023 release: Overseas Perpetual Calendar Ultra-Thin 4300V/220R-B509? Hmm.\n\nI recall that 4300V/120R-B509 is pink gold with blue dial and bracelet. And 4300V/120R-B547 with silver dial? Possibly.\n\nActually, the well-known: Overseas Perpetual Calendar Ultra-Thin 4300V/120R-B547 — 18K 5N pink gold case and bracelet, silver-toned sunburst dial. Hmm, I'm not fully sure but B509 might be blue.\n\nHmm. There's also the \"Overseas Perpetual Calendar Ultra-Thin\" in white gold 4300V/120G-B547? Not sure.\n\nGiven the silver dial, I'll guess 4300V/120R-B547 with moderate-low confidence. Actually wait — the dial here shows a moon phase at top and months... The silver-toned dial with pink gold markers. Yes.\n\nHmm, but which one is the silver dial? The launch 2020: 4300V/120R-B547 rose gold with silver dial? Actually I believe the blue-dial version was 4300V/120R-B509 and the silver-toned one is 4300V/120R-B547. Hmm, I'm not certain but I'll go with 4300V/120R-B547.\n\nHmm wait, actually I have a memory: \"4300V/120R-B509\" appears as the blue-dial Overseas Perpetual Calendar Ultra-Thin on a pink gold bracelet. And \"4300V/120R-B547\" as the silver-toned. Yeah, I'll go with B547.\n\nActually, let me reconsider. I've seen listing \"Vacheron Constantin Overseas Perpetual Calendar Ultra-Thin 4300V/120R-B547\" described with a silver dial... Actually no. Hmm. There's the reference 4300V/120R-B509 which I'm fairly sure is the pink gold blue dial.\n\nLet me also consider a possible different model: the Overseas Perpetual Calendar 4300V/000R-B064 (pink gold, silver dial, leather strap). Since this is on a bracelet, bracelet version would be ...B064? No.\n\nI'll go with 4300V/120R-B547, confidence 0.35.\n\nModel family: Overseas Perpetual Calendar Ultra-Thin.\nMovement: automatic.\nCase material: gold.\nBracelet: metal.\n\nBracelet is gold—but the options are leather, metal, rubber, fabric, nylon. So \"metal\"."
+       }
+      }
+     ],
+     "created": 1791289432,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 1155,
+      "prompt_tokens": 10203,
+      "total_tokens": 11358,
+      "completion_tokens_details": {
+       "reasoning_tokens": 1081
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 8960
+      },
+      "prompt_cache_hit_tokens": 8960,
+      "prompt_cache_miss_tokens": 1243
+     }
+    }
+   ]
+  },
+  "input_tokens": 10203,
+  "output_tokens": 1155,
+  "cached_input_tokens": 8960,
+  "cost_usd": 0.0009063299999999999,
+  "cost_source": "rate-table",
+  "elapsed_s": 6.823,
+  "started_at": "2026-10-06T12:23:49.500057+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

@@ -385,6 +385,10 @@ def build_index(results_dir: Path, dataset_size: int) -> Path:
 
         notes = []
         for _, s in ranked:
+            if s["options"].get("guide"):
+                notes.append(f"**{s['model']}** — given `{s['options']['guide']}` after the prompt, so it is not "
+                             "comparable with the other rows. That file prints some answer-key references, which "
+                             "the model can copy; see [GUIDE_STUDY.md](GUIDE_STUDY.md) for the score without them.")
             if s["mode"] == "prompt":
                 notes.append(f"**{s['model']}** — {MODE_NOTES['prompt']}.")
             if s["provider"] in PROVIDER_NOTES:

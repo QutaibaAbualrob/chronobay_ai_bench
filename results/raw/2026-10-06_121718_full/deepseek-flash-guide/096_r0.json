@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-06_121718_full",
+ "model_name": "deepseek-flash-guide",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 96,
+ "repeat": 0,
+ "image_file": "096_vc_overseas-dual-time.jpg",
+ "prompt_sha256": "19a8ee09a088cf5eb5961e864d302a0e976cdb2370edf80e5121e18dfb5630b5",
+ "result": {
+  "parsed": {
+   "brand": "Vacheron Constantin",
+   "model_family": "Overseas Dual Time",
+   "reference_number": "7900V/110A-B334",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.72
+  },
+  "raw_text": "{\"brand\": \"Vacheron Constantin\", \"model_family\": \"Overseas Dual Time\", \"reference_number\": \"7900V/110A-B334\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.72}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "3945b6e9-7bdc-4ee4-80a7-58c09b6dc416",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Vacheron Constantin\", \"model_family\": \"Overseas Dual Time\", \"reference_number\": \"7900V/110A-B334\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.72}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Vacheron Constantin Overseas Dual Time, blue dial, steel bracelet.\n\nReference: 7900V/110A-B334 (blue dial) — the Overseas Dual Time 41mm steel with blue dial. Vacheron references: 7900V/110A-B334 is the blue dial steel Overseas Dual Time. Let me recall: 7900V/110A-B334 — blue dial. Yes, the Overseas Dual Time blue dial is 7900V/110A-B334. Other: 7900V/110A-B546? Actually 7900V/110A-B546 is... Hmm.\n\nKnown Overseas references:\n- 4500V/110A-B128 blue dial three-hand (bracelet)\n- 4500V/110A-B483 black dial\n- 4500V/110A-B126 silver\n- 7900V/110A-B334 blue dial dual time — this is the one, stainless steel, blue dial.\n- 7900V/110A-B333 — silver? Actually 7900V/110A-B333 might be silver dial.\n- 7900V/110A-B546 — black dial? Hmm.\n\nThe reference format: 7900V/110A-B334: \"110\" bracelet, \"A\" steel, B334 version. So matches.\n\nMovement: automatic (caliber 5110 DT). Case material steel. Bracelet metal.\n\nConfidence ~0.75."
+       }
+      }
+     ],
+     "created": 1791289424,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 380,
+      "prompt_tokens": 10203,
+      "total_tokens": 10583,
+      "completion_tokens_details": {
+       "reasoning_tokens": 307
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 8960
+      },
+      "prompt_cache_hit_tokens": 8960,
+      "prompt_cache_miss_tokens": 1243
+     }
+    }
+   ]
+  },
+  "input_tokens": 10203,
+  "output_tokens": 380,
+  "cached_input_tokens": 8960,
+  "cost_usd": 0.00044133,
+  "cost_source": "rate-table",
+  "elapsed_s": 4.023,
+  "started_at": "2026-10-06T12:23:40.985999+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

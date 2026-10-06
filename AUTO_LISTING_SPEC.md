@@ -104,6 +104,12 @@ What this means for the design:
 - **Self-reported confidence is not a safe gate.** Only Opus was reliable at 0.8 and above.
 - **No model reaches 90% on its own.** The catalog step below is what has to close the gap,
   and that is not yet proven.
+- **Telling the model how references are built does not close it.** DeepSeek Flash was given
+  the reference-format guide (`REFERENCE_FORMATS.md`) with the prompt. On the 80 photos the
+  guide does not give away it scored 39, against 37 and 35 without it. Its misses were already
+  in the right format; the wrong part was digits that follow no rule. The model needs to be
+  told which references exist, which is what step 2 does. One run on one model; see
+  `results/GUIDE_STUDY.md`.
 
 Caveats: one pass per photo; the photos came from the web; answer-key rows 12 and 76 are
 probably wrong and not yet rechecked.

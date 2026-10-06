@@ -39,6 +39,9 @@ What it shows:
   output limit scored 44 exact and 50 with look-alikes, and only 52 of its 100 answers were
   the same in both runs. `results/REPORT.md` shows the later run. The comparison is in
   `README.md` under Findings.
+- `results/REPORT.md` also has a row named `deepseek-flash-guide` (52 exact). It is not an
+  eighth model: it is DeepSeek Flash given the reference guide, and 20 of the answers are
+  printed in that guide. See section 5.
 
 ### Attributes from the photo alone
 
@@ -131,6 +134,46 @@ Several claims found online failed the check and are listed there.
 ### Rolex references
 
 **Reported.** The last digit of a Rolex reference is the metal: 0 steel, 1 steel and Everose gold, 3 steel and yellow gold, 4 steel and white gold, 5 Everose gold, 6 platinum, 8 yellow gold, 9 white gold. Watches with the same reference differ only in dial and bracelet style; Rolex numbers those as `126334-0001` (Oyster bracelet), `126334-0002` (Jubilee), and so on.
+
+### Attaching the guide to the prompt (DeepSeek Flash, 2026-10-06)
+
+**Measured.** One full run of DeepSeek Flash with the whole of `REFERENCE_FORMATS.md` added after
+the standard prompt (run `2026-10-06_121718_full`, model name `deepseek-flash-guide`), compared
+with the two earlier runs on the plain prompt. Full tables are in `results/GUIDE_STUDY.md`,
+rebuilt for free by `guide_study.py`.
+
+| | Plain, run 1 | Plain, run 2 | With guide |
+|---|---:|---:|---:|
+| Exact reference, all 100 | 48 | 44 | 52 |
+| Exact reference, 80 fair rows | 37 | 35 | 39 |
+| Including look-alikes | 53 | 50 | 57 |
+| Brand right | 93 | 96 | 91 |
+| Calls with no answer | 2 | 2 | 6 |
+| Cost per image | $0.0013 | $0.0019 | $0.0021 |
+| Median time | 4.9s | 5.8s | 6.4s |
+
+- The guide prints the reference of 20 answer-key rows as examples, so the model can copy
+  them. The 80 rows it does not print are the fair test: 39, against 37 and 35.
+- That gain of 2 to 4 is the same size as the gap between the two plain runs, which gave the
+  same answer on only 52 of 100 photos. One run cannot tell it apart from chance.
+- Nine rows were wrong in both plain runs and right with the guide (six of them fair rows).
+  Three rows were right in both plain runs and wrong with the guide.
+- Six calls ran out of output tokens twice and returned nothing, against two on the plain
+  prompt. Each cost about $0.01, so they are $0.06 of the run's $0.21.
+- Input rose from about 1,200 to 11,400 tokens per photo. DeepSeek cached most of it, so the
+  cost rose little.
+
+**Measured: why it did not help.** Every miss was sorted by the kind of mistake
+(`results/GUIDE_STUDY.md`). On the plain prompt, only 2 misses per run were a reference written
+in the wrong format, which is the one mistake a format guide can fix. The guide fixed them: 0
+remain. The other 41 to 45 misses were already in the brand's format and named the right watch,
+with the wrong digits: the generation (`15202ST` for `16202ST`), the dial or version number
+(`WSSA0023` for `WSSA0022`, `B487` for `B442`) or the sub-model (`IW500705` for `IW501701`).
+Those digits follow no rule; they are catalog entries. With the guide 37 such misses remain.
+
+**Inferred.** A guide tells a model how a reference is built. It does not tell it which
+references exist, which is the part the models get wrong.
+Not tested: a stronger model, a shorter guide with only the rules, or repeated runs.
 
 ## 6. ChronoBay backend as it is today
 
@@ -303,6 +346,8 @@ At 1,000 credits a day, shared with the price features: 1,000 listings checking 
 4. How Google Vision behaves on these photos (test ready, not run).
 5. How any of this performs on real seller photos. No such photos have been tested.
 6. Whether the model plus a WatchCharts check beats the model alone (79, 72, 70).
+7. Whether the reference guide helps a strong model. It was tested once, on DeepSeek Flash
+   only, and showed no clear gain (section 5).
 
 ## 11. Next tests, cheapest first
 
@@ -314,3 +359,4 @@ At 1,000 credits a day, shared with the price features: 1,000 listings checking 
 | Google Vision on the 100 photos, original and altered | Free tier | Unknown 4 |
 | Re-run row 12 on every model | A few cents | Fixes the stale row |
 | 30 to 50 phone photos of real watches through the pipeline | $1 to $3 per model | Unknown 5 |
+| Guided run on a strong model, scored on the 80 rows the guide does not print | $1 to $3 | Unknown 7 |

@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-06_121718_full",
+ "model_name": "deepseek-flash-guide",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 49,
+ "repeat": 0,
+ "image_file": "049_tagheuer_aquaracer-professional-1000-superdiver.jpg",
+ "prompt_sha256": "19a8ee09a088cf5eb5961e864d302a0e976cdb2370edf80e5121e18dfb5630b5",
+ "result": {
+  "parsed": {
+   "brand": "Tag Heuer",
+   "model_family": "Aquaracer Professional 300 Date",
+   "reference_number": "WBP201D.FT6197",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "rubber",
+   "confidence": 0.35
+  },
+  "raw_text": "{\"brand\": \"Tag Heuer\", \"model_family\": \"Aquaracer Professional 300 Date\", \"reference_number\": \"WBP201D.FT6197\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"rubber\", \"confidence\": 0.35}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "20e74c31-3fb9-4e62-8389-158a9f778307",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Tag Heuer\", \"model_family\": \"Aquaracer Professional 300 Date\", \"reference_number\": \"WBP201D.FT6197\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"rubber\", \"confidence\": 0.35}",
+        "role": "assistant",
+        "reasoning_content": "The photo shows a TAG Heuer Aquaracer Professional 300 with a black DLC-coated steel case, white/silver dial with horizontal ridges, black rubber strap. This looks like the \"Aquaracer Professional 300 Date\" in black DLC — reference WBP201D.FT6197? Let me think.\n\nTAG Heuer Aquaracer Professional 300 with black DLC coating: reference WBP201D.FT6197 is the \"Aquaracer Professional 300 Date\" 43mm black DLC titanium... Hmm.\n\nActually, the black-coated Aquaracer Professional 300 with white dial — there's a \"WBP201D.BA0632\" or similar. Let me recall known references:\n\n- WBP201A.BA0632 — steel bracelet, black dial, 43mm Aquaracer Professional 300 Date.\n- WBP2010.BA0632 — 43 mm.\n- WBP201B.BA0632 — blue dial.\n- WBP201D.FT6197 — Aquaracer Professional 300 \"Night Diver\"? Hmm, actually the Night Diver is WBP2010.FT6197? The Night Diver has a black DLC case with black dial and... \n\nThere's the Aquaracer Professional 300 with black DLC case and white/silver dial — I recall \"WBP201D.FT6197\" being the Night Diver (black dial, black DLC, steel bracelet?). The Night Diver ref is WBP2010.FT6197 with rubber strap, black DLC titanium? Actually the Aquaracer Night Diver is WBP2010.BA0632 (bracelet) and WBP2010.FT6197 (rubber).\n\nHmm, the white dial version with black DLC — there's a 2023 Aquaracer Professional 300 \"Date\" in black DLC with a silver-white dial, reference WBP201D.FT6197. I think WBP201D is indeed the black DLC with white dial... Let me reason from the format: W (three-hand), B? Actually positions: 1 = W three-hand; 2-3 series \"BP\" = Aquaracer Professional; 4 = movement type 1 quartz/2 automatic; here 4th char is \"2\" → automatic ✓ (WBP201A). Then 5 = size class, 6 = metal, 7 = dial version.\n\nWBP201A: 4th char = 2 (automatic), 5th = 0, 6th = 1 (steel), 7th = A (dial version, letter). Hmm, so the format is W-BP-2-0-1-A: pos1 W, pos2-3 BP, pos4 2, pos5 0, pos6 1 (metal steel), pos7 A.\n\nSo for a black DLC version, metal digit would be different — maybe 2? Hmm. TAG Heuer Aquaracer Professional 300 DLC references: WBP201D? That doesn't fit the 7-character pattern W BP 2 0 1 D... Actually the 7th position is dial version, which can be a letter. So WBP201D: pos6=1 (steel) hmm but the case is DLC steel which is still steel base.\n\nActually I recall the Aquaracer Professional 300 black DLC with white dial: WBP201D.FT6197. Hmm, but wait — the metal digit 1 = steel, and DLC-coated steel is still steel. And the dial would be... \"D\" hmm.\n\nAlternatively, WBP2010.FT6197 is the Night Diver (black DLC, black dial). And there's \"WBP201D.FT6197\" which... Actually the 2023 release: \"Aquaracer Professional 300 Date 43mm black DLC-coated steel, silver dial\" — reference WBP201D.FT6197? Hmm, I'm not certain. Let me think about TAG Heuer's dial version letters in Aquaracer: WBP201A (black dial), WBP201B (blue dial), WBP201C? (green?), WBP201D (white/silver dial?).\n\nYes! I'm fairly confident: TAG Heuer Aquaracer Professional 300 — WBP201A (black), WBP201B (blue), WBP201C (green?), WBP201D (silver/white opaline dial). And the DLC version would be... hmm, actually the black DLC case.\n\nHmm wait, there's also the \"Aquaracer Professional 300 Night Diver\" WBP2010.FT6197 — full black DLC (titanium? no, steel DLC) with black dial. So the pos5 might be size class, pos6 metal. WBP2010: pos5=0? Hmm WBP2010 = W BP 2 0 1 0 → the 7th char is \"0\"? That breaks the pattern of 7 chars.\n\nActually WBP2010 has 7 chars: W,B,P,2,0,1,0. Hmm. And WBP201A is W,B,P,2,0,1,A. So pos7 is the dial/version code, which can be a letter or digit.\n\nOK anyway, the watch in the photo: black DLC-coated steel case, white/silver dial with horizontal lines, steel... rubber strap. TAG Heuer makes \"Aquaracer Professional 300 Date 43 mm\" in black DLC with white dial — I'm not 100% sure. There's also a black DLC version with a \"silver\" dial called WBP201D.FT6197? But FT6197 is the rubber strap code for the 43mm Aquaracer (FT6197 = black rubber strap).\n\nHmm, FT6197 appears on WBP2010.FT6197 and WBP201A.FT6197. So the strap code for the 43mm Aquaracer rubber is FT6197. Good — so our ref would be WBP201X.FT6197.\n\nActually, I now recall the model: TAG Heuer Aquaracer Professional 300 Date, black DLC-coated steel, with a \"silver\" dial with black hands — reference WBP201D.FT6197? Hmm. Or is it \"WBP201B\"? No, B is blue.\n\nLet me think about other options: There's the Aquaracer Professional 300 with white dial and black DLC — I believe it was released in 2023 as part of the \"Night Diver\" theme? The Night Diver has a black dial though.\n\nAlternatively, this could be the \"Aquaracer Professional 300 GMT\"? No GMT hand.\n\nHmm, there's also the 2024 Aquaracer Professional 300 with black DLC and \"silver-white\" dial, ref WBP201D.FT6197. I'll go with WBP201D.FT6197? Actually hold on — there's also the \"Aquaracer Professional 300 Date\" in 43mm with black DLC and white dial released as WBP201D.FT6197... I'm not confident about the letter.\n\nAlternative: the black-DLC Aquaracer with white dial could be the 41mm \"WBP2010\"? Hmm.\n\nLet me consider: TAG Heuer Aquaracer Professional 300 Date 43mm references:\n- WBP2010.BA0632 (black dial, steel bracelet)\n- WBP2010.FT6197 (black dial, rubber)\n- WBP2010.EB0213 (?)\n- WBP201A.BA0632 (black dial 43mm? hmm)\n\nActually the code system: WBP201A is \"Aquaracer Professional 300 Date 43mm\". The \"A\" might be the dial/version. WBP2010 might be a different variant.\n\nGiven the metal digit rule: pos6 = metal; 1 = steel. For a DLC case, pos6 could be \"9\" (titanium?) Hmm, the reference material says \"8 and 9 are titanium on the 2026 Solargraph references.\"\n\nI recall now more specifically: TAG Heuer Aquaracer Professional 300 \"Night Diver\" — WBP2010.FT6197 — DLC steel case, black dial. And there's a white dial DLC version: hmm.\n\nActually! I remember: The Aquaracer Professional 300 with black DLC case and white/silver dial is reference WBP201D.FT6197, launched in 2023 as a \"Night Diver\" variant with silver dial? Hmm.\n\nAnother thought: it could be the \"Aquaracer Professional 300 Date\" WBP201D.FT6197 (2024) — \"black DLC-coated steel case, silver-white dial with horizontal grooves\". I have moderate memory of this. Given the guidance says give best guess, I'll go with WBP201D.FT6197.\n\nHmm, but let me double-check whether the \"D\" is instead used for the white dial version on the standard steel case. There's WBP201C? Hmm.\n\nActually, maybe the watch is a regular stainless steel Aquaracer that appears dark due to photo lighting? No — the case is clearly matte black, while the crown looks black too; and the bezel is black. The dial is white/silver with black-framed markers and black hands (with lume). That's the DLC case with white dial. I'm fairly confident this exists: TAG Heuer Aquaracer Professional 300 Date 43 mm, DLC steel, \"Silver\" dial — reference WBP201D.FT6197? Some sources say WBP201D.FT6197 has a black dial...\n\nLet me search memory: \"WBP201D.FT6197\" — I believe this is the Aquaracer Professional 300 \"Date\" 43mm black DLC steel with silver dial? Hmm, or is WBP201D the \"Night Diver\" 43mm black DLC with black dial and rubber strap? I recall the Night Diver reference being WBP2010.BA0632 / WBP2010.FT6197.\n\nHmm, another candidate: WBP201D.FT6197 — \"Aquaracer Professional 300 Date 43mm, black DLC, white dial\". I'll go with it, confidence ~0.35.\n\nMovement: automatic (dial says AUTOMATIC). Case material: stainless-steel (DLC-coated steel). Bracelet material: rubber. Model family: Aquaracer Professional 300 Date.\n\nConfidence: 0.4."
+       }
+      }
+     ],
+     "created": 1791289242,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 2363,
+      "prompt_tokens": 10203,
+      "total_tokens": 12566,
+      "completion_tokens_details": {
+       "reasoning_tokens": 2288
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 8960
+      },
+      "prompt_cache_hit_tokens": 8960,
+      "prompt_cache_miss_tokens": 1243
+     }
+    }
+   ]
+  },
+  "input_tokens": 10203,
+  "output_tokens": 2363,
+  "cached_input_tokens": 8960,
+  "cost_usd": 0.00163113,
+  "cost_source": "rate-table",
+  "elapsed_s": 12.293,
+  "started_at": "2026-10-06T12:20:39.785705+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

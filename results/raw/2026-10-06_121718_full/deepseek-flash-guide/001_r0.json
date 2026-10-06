@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-06_121718_full",
+ "model_name": "deepseek-flash-guide",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 1,
+ "repeat": 0,
+ "image_file": "001_rolex_submariner-date.jpg",
+ "prompt_sha256": "19a8ee09a088cf5eb5961e864d302a0e976cdb2370edf80e5121e18dfb5630b5",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_family": "Submariner Date",
+   "reference_number": "126610LN",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "confidence": 0.85
+  },
+  "raw_text": "{\"brand\": \"Rolex\", \"model_family\": \"Submariner Date\", \"reference_number\": \"126610LN\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.85}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "0a542794-f427-4cde-89f2-2a45109f547c",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Rolex\", \"model_family\": \"Submariner Date\", \"reference_number\": \"126610LN\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"confidence\": 0.85}",
+        "role": "assistant",
+        "reasoning_content": "The image shows a Rolex Submariner Date, black dial, black ceramic bezel, steel Oyster bracelet. Reference 126610LN.\n\nModel family: Submariner Date. Reference: 126610LN (41mm). Case material stainless steel. Bracelet metal. Movement automatic. Confidence high ~0.85.\n\nNote: the text says \"SUBMARINER 1000ft=300m\" which matches 126610LN. Actually 126610LN says \"1000ft = 300m\". The 116610LN says \"1000ft=300m\" too. The proportions — 41mm case with narrower lugs suggests 126610LN. Note the crown guard and lug width. I'll go with 126610LN."
+       }
+      }
+     ],
+     "created": 1791289041,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 223,
+      "prompt_tokens": 10203,
+      "total_tokens": 10426,
+      "completion_tokens_details": {
+       "reasoning_tokens": 158
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 10075
+     }
+    }
+   ]
+  },
+  "input_tokens": 10203,
+  "output_tokens": 223,
+  "cached_input_tokens": 128,
+  "cost_usd": 0.0016454339999999999,
+  "cost_source": "rate-table",
+  "elapsed_s": 2.691,
+  "started_at": "2026-10-06T12:17:18.841841+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

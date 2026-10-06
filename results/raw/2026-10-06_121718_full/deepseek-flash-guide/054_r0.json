@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-06_121718_full",
+ "model_name": "deepseek-flash-guide",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 54,
+ "repeat": 0,
+ "image_file": "054_breitling_premier-b01-chronograph-42.jpg",
+ "prompt_sha256": "19a8ee09a088cf5eb5961e864d302a0e976cdb2370edf80e5121e18dfb5630b5",
+ "result": {
+  "parsed": {
+   "brand": "Breitling",
+   "model_family": "Premier B01 Chronograph 42",
+   "reference_number": "AB0118221G1P1",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.35
+  },
+  "raw_text": "{\"brand\": \"Breitling\", \"model_family\": \"Premier B01 Chronograph 42\", \"reference_number\": \"AB0118221G1P1\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.35}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "c5520445-82fd-4303-b097-5032cfd4a72d",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Breitling\", \"model_family\": \"Premier B01 Chronograph 42\", \"reference_number\": \"AB0118221G1P1\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.35}",
+        "role": "assistant",
+        "reasoning_content": "The image shows a Breitling Premier B01 Chronograph with a silver/white dial, rose gold hands and numerals, brown leather strap. Text on dial: \"BREITLING 1884\", \"CHRONOMETER CERTIFIED\", \"CO SCREW-LOCK\" (?), actually \"CO SCREW-LOCK\" ... Hmm the dial text says \"BREITLING\" and above \"CHRONOMETRE CERTIFIED\". The bottom edge says \"CO SCREW-LOCK\"? Hmm, actually Breitling Premier B01 Chronograph 42 with silver dial reference AB0118... Wait Premier B01 42 has reference AB0145...? Let me think.\n\nBreitling Premier B01 Chronograph 42: references AB0118 (steel), AB0145 (steel with 42mm? no). Actually Premier B01 Chronograph 42 references: AB0118 - e.g., AB0118221G1P1 (silver dial, brown leather strap). Let me recall: Breitling Premier B01 Chronograph 42 Stainless Steel - Silver Dial - Brown Leather Strap: AB0118221G1P1. Yes, I believe AB0118...\n\nFormat: A = steel, B01 = in-house calibre, 3 = chronometer digit, positions 5-6 model = 18, positions 7-8 case/bezel finish = 22, positions 9-11 dial = 1G1 (G = silver), positions 12-13 strap = P1 leather. So AB0118221G1P1.\n\nHmm, but the watch in the photo has \"1884\" — Breitling Premier. The dial shows a big date? Actually top has a square date window with \"8\"? It appears to be a date window at 12, chronograph subdials at 9 and 3, and center chronograph hand. Hmm, there's also a small dial below center? The image shows subdials at 3 and 9 (30-min and small seconds?) and maybe a date at 12.\n\nActually the Breitling Premier B01 Chronograph 42 has two subdials (bi-compax) at 3 and 9 — yes, that matches. The date window at 6 usually. Here the date appears at 12? Hmm, in the photo there's a square-ish aperture at 12 with \"8\". Hmm, that could be a date window. Breitling Premier B01 has date at 6 o'clock. Actually no — the Premier B01 Chronograph 42 has the date at 6? Let me recall the Premier B01 42: subdials at 3 and 9, date at 6. Hmm.\n\nAnyway, \"CO SCREW-LOCK\" text at bottom seems odd — that's a Navitimer thing? Actually \"CO SCREW-LOCK\" hmm. Maybe it's a generated image with garbled text. Also the dial layout includes a tachymeter-like scale with 100/200/300... numbers around? Actually there's a scale on the outer ring with numbers.\n\nGiven garbled dial text, this might be an AI-generated image. But still, best guess: Breitling Premier B01 Chronograph 42, reference AB0118221G1P1.\n\nAlternatively Breitling Premier B01 Chronograph 42 silver dial AB0118221G1P1. I'll go with that.\n\nMovement: automatic. Case: stainless-steel. Bracelet: leather. Confidence ~0.4.\n\nModel family: Premier B01 Chronograph 42."
+       }
+      }
+     ],
+     "created": 1791289259,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 839,
+      "prompt_tokens": 10203,
+      "total_tokens": 11042,
+      "completion_tokens_details": {
+       "reasoning_tokens": 763
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 8960
+      },
+      "prompt_cache_hit_tokens": 8960,
+      "prompt_cache_miss_tokens": 1243
+     }
+    }
+   ]
+  },
+  "input_tokens": 10203,
+  "output_tokens": 839,
+  "cached_input_tokens": 8960,
+  "cost_usd": 0.0007167300000000001,
+  "cost_source": "rate-table",
+  "elapsed_s": 4.928,
+  "started_at": "2026-10-06T12:20:56.949020+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

@@ -26,6 +26,8 @@ variables. Pick the models to run in `MODELS` in the same file.
 .venv\Scripts\python.exe bench.py run --all                        # full sweep
 .venv\Scripts\python.exe bench.py run --all --repeats 3            # 3 passes: mean and spread
 .venv\Scripts\python.exe bench.py score results\raw\<run_id>       # re-score saved answers — $0
+.venv\Scripts\python.exe detail_study.py                           # field-by-field study of saved answers — $0
+.venv\Scripts\python.exe guide_study.py                            # plain prompt against prompt + guide — $0
 ```
 
 `run` validates the dataset first and refuses to start if anything is wrong,
@@ -134,6 +136,35 @@ Notes:
 - **More reasoning goes with wrong answers.** In the second run the 25 photos
   with the least reasoning scored 17/25, the 25 with the most scored 7/25.
 
+### Reference guide attached to the prompt (`deepseek-flash-guide`), 2026-10-06
+
+A model entry with `"guide": "REFERENCE_FORMATS.md"` gets that file's text after the
+standard prompt. One full run was made on DeepSeek Flash (`2026-10-06_121718_full`).
+The full comparison is in `results/GUIDE_STUDY.md`, rebuilt by `guide_study.py`.
+
+| | Plain, run 1 | Plain, run 2 | With guide |
+|---|---:|---:|---:|
+| Strict, all 100 | 48 | 44 | 52 |
+| Strict, 80 rows the guide does not print | 37 | 35 | 39 |
+| Lenient | 53 | 50 | 57 |
+| Brand correct | 93 | 96 | 91 |
+| Errors | 2 | 2 | 6 |
+| Cost | $0.130 | $0.185 | $0.211 |
+| Median / p95 time | 4.9s / 43.5s | 5.8s / 53.4s | 6.4s / 80.1s |
+
+- **No clear gain.** The guide prints the reference of 20 answer-key rows as
+  examples, which the model can copy. On the other 80 rows the score is 39
+  against 37 and 35, a gap the size of the spread between the two plain runs.
+- **Format was not the problem.** On the plain prompt 2 misses per run were a
+  reference in the wrong format; with the guide there are none. The other 41
+  to 45 misses were the right watch in the right format with the wrong digits
+  (generation, dial or version number, sub-model). 37 of those remain.
+- **It costs output budget.** Six calls ran out of output tokens on both
+  attempts, against two before; they are $0.06 of the run's cost. Input rose
+  from about 1,200 to 11,400 tokens per photo, mostly served from cache.
+- **Limits.** One run, one model. A stronger model, a shorter guide and
+  repeated runs were not tested.
+
 ### Dataset changes
 
 - **2026-10-05 — row 12 photo replaced.** The distant wrist shot (678×452)
@@ -146,12 +177,14 @@ Notes:
 ```
 results/
   REPORT.md                 start here: latest result per model, by-brand table, links
+  DETAIL_STUDY.md           how well models fill each field on their own (detail_study.py)
+  GUIDE_STUDY.md            plain prompt against prompt + reference guide (guide_study.py)
   runs/<run_id>/            one folder per run
     summary.md              every model in the run, ranked, with caveats
     <model>.md              detailed report: every miss next to the expected answer
     <model>.json            the same, machine-readable
   runs/<run_id>_rescored_<date>/   output of `bench.py score`
-  raw/<run_id>/             every raw API response + meta.json (gitignored)
+  raw/<run_id>/             every raw API response + meta.json
 ```
 
 A run over every image is a **full run** (`2026-09-30_112454_full`). A run over

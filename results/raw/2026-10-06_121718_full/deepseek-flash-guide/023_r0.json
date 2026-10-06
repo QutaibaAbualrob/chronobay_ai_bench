@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-06_121718_full",
+ "model_name": "deepseek-flash-guide",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 23,
+ "repeat": 0,
+ "image_file": "023_patek_calatrava-white-gold.jpg",
+ "prompt_sha256": "19a8ee09a088cf5eb5961e864d302a0e976cdb2370edf80e5121e18dfb5630b5",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_family": "Calatrava",
+   "reference_number": "5227G-010",
+   "movement": "automatic",
+   "case_material": "gold",
+   "bracelet_material": "leather",
+   "confidence": 0.42
+  },
+  "raw_text": "{\"brand\": \"Patek Philippe\", \"model_family\": \"Calatrava\", \"reference_number\": \"5227G-010\", \"movement\": \"automatic\", \"case_material\": \"gold\", \"bracelet_material\": \"leather\", \"confidence\": 0.42}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "d8426ea0-135d-477b-b735-cedb1db6cc20",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Patek Philippe\", \"model_family\": \"Calatrava\", \"reference_number\": \"5227G-010\", \"movement\": \"automatic\", \"case_material\": \"gold\", \"bracelet_material\": \"leather\", \"confidence\": 0.42}",
+        "role": "assistant",
+        "reasoning_content": "The photo shows a Patek Philippe Calatrava with black dial, date at 3, white gold case, black alligator strap. Likely reference 5227G-010 (white gold, black dial, date). Actually 5227G-001 is the white gold with... Let me think. Patek 5227G: 5227G-001 (white gold, ivory lacquer dial?), 5227G-010 (white gold with black dial?). Hmm.\n\nPatek Philippe Calatrava 5227 — launched 2013, 39mm, with hinged officer-style case back. Dial variants: 5227G-001 (white gold, ivory/opaline dial), 5227G-010 (white gold, black dial?), 5227J-001 (yellow gold, ivory), 5227R-001 (rose gold, ivory), 5227R-010? Actually 5227G-010 is white gold with black lacquer dial — I believe that's correct. There's also 5227G-001 with silvery opaline dial.\n\nHmm, but the pictured watch looks like the case back... can't see. The dial has applied baton markers, dauphine hands, date window at 3, \"PATEK PHILIPPE GENEVE\" printed, SWISS MADE at bottom. The case is 39mm with a smooth bezel. This could be 5227G-010.\n\nWait — but is it 5227 or 5196? 5196 has no date. 5227 has date at 3. So 5227.\n\nWhich 5227 has a black dial? 5227G-010 white gold with black dial — yes I'm fairly confident. Actually let me recall: 5227G-001 = white gold, ivory dial; 5227G-010 = white gold, black dial. Also 5227G-012? Hmm. There's also a 5227G with \"black dial\" — I recall 5227G-010 black dial.\n\nActually there might be 5227G-001 (silvery opaline) and 5227G-010 (black). Yes.\n\nMovement: automatic (26-330 S C, earlier 324 S C). Case material: gold (white gold). Bracelet: leather (alligator).\n\nConfidence: 0.5.\n\nModel family: Calatrava.\n\nLet me consider whether it might be 5227G-010 vs 5127G. 5127 is 37mm with date, older. The bezel here is flat and the watch looks ~38-39mm. Hmm. 5127 has a black dial variant 5127G-001? 5127G had silvery dial. There's also 5127/1G with bracelet.\n\nHmm, hard to distinguish 5127 vs 5227 from photo. 5227 has the distinctive hinged case back. The lugs look somewhat... The 5227 has slightly curved lugs. I'll go with 5227G-010.\n\nActually, wait. Let me reconsider — 5396? No, that's annual calendar with day/date/month. This is time-only with date. 5227 is the best guess.\n\nAlso possible: 5296G (sector dial, black dial 5296G-001?). 5296 has date at 3, sector-style dial on some. 5296G-001 is white gold, silver dial. There was a 5296G-010? Hmm. 5296G with black dial... The 5296's dial has a crosshair/sector design. In the photo, the dial appears plain black with baton markers — could be 5296 or 5227. 5227 also has plain dial.\n\nThe distinguishing feature is case size: 5227 is 39mm, 5296 is 38mm. Hard to tell. Lugs: 5227 has the hinged back which creates a distinctive profile. I'll go 5227G-010 with confidence 0.4.\n\nGiven the mission is to give single best guess, I'll say 5227G-010."
+       }
+      }
+     ],
+     "created": 1791289103,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 950,
+      "prompt_tokens": 10199,
+      "total_tokens": 11149,
+      "completion_tokens_details": {
+       "reasoning_tokens": 886
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 8960
+      },
+      "prompt_cache_hit_tokens": 8960,
+      "prompt_cache_miss_tokens": 1239
+     }
+    }
+   ]
+  },
+  "input_tokens": 10199,
+  "output_tokens": 950,
+  "cached_input_tokens": 8960,
+  "cost_usd": 0.00078273,
+  "cost_source": "rate-table",
+  "elapsed_s": 5.94,
+  "started_at": "2026-10-06T12:18:21.071576+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}

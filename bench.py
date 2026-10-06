@@ -240,7 +240,6 @@ def _anthropic_image_tokens(w: int, h: int) -> int:
 def estimate(models: list[tuple[str, dict]], rows: list[dict], repeats: int, prompt: str) -> list[dict]:
     from PIL import Image
     calls = len(rows) * repeats
-    prompt_tokens = len(prompt) // 3 + 300  # prompt + schema overhead, rough
     dims = []
     for r in rows:
         with Image.open(IMAGES_DIR / r["image_file"]) as im:
@@ -249,6 +248,7 @@ def estimate(models: list[tuple[str, dict]], rows: list[dict], repeats: int, pro
     out = []
     for name, spec in models:
         prov, model = spec["provider"], spec["model"]
+        prompt_tokens = len(model_prompt(prompt, spec)) // 3 + 300  # prompt + schema overhead, rough
         measured = _measured_cost_per_call(name)
         if measured:
             per_call, basis = measured
@@ -300,6 +300,19 @@ def print_estimate(est: list[dict]) -> float | None:
 
 def _sha256(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
+
+
+GUIDE_INTRO = ("\n\nReference material: how watch brands build their reference numbers. Use it to write "
+               "reference_number in the brand's format and to choose the variant codes that match what you see "
+               "in the photo.\n\n")
+
+
+def model_prompt(prompt: str, spec: dict) -> str:
+    """The shared prompt, followed by the file named in the model's "guide" option when it has one."""
+    guide = spec.get("guide")
+    if not guide:
+        return prompt
+    return prompt + GUIDE_INTRO + (ROOT / guide).read_text(encoding="utf-8")
 
 
 def run_model(run_id: str, name: str, spec: dict, provider_obj, jobs: list[tuple[dict, int]], prompt: str,
@@ -396,11 +409,18 @@ def cmd_run(args) -> int:
         options = {k: v for k, v in spec.items() if k not in ("provider", "model")}
         provider_obj = provider_cls(spec["model"], api_key(cfg, spec["provider"]), options, settings(cfg))
         print(f"\n== {name}  ({spec['provider']} / {spec['model']}, {provider_obj.mode} mode)")
-        records, started, wall = run_model(run_id, name, spec, provider_obj, jobs, prompt, prompt_hash,
+        own_prompt = model_prompt(prompt, spec)
+        own_hash = _sha256(own_prompt.encode())
+        records, started, wall = run_model(run_id, name, spec, provider_obj, jobs, own_prompt, own_hash,
                                            run_dir, args.concurrency, images)
         meta["models"][name] = {"provider": spec["provider"], "model": spec["model"], "mode": provider_obj.mode,
                                 "options": options, "started_at": started.isoformat(), "wall_clock_s": wall,
                                 "price": pricing.lookup(spec["provider"], spec["model"])}
+        if own_prompt != prompt:
+            meta["models"][name].update({
+                "prompt_sha256": own_hash,
+                "guide_sha256": _sha256((ROOT / spec["guide"]).read_bytes()),
+                "guide_chars": len(own_prompt) - len(prompt)})
         all_records[name] = records
         (run_dir / "meta.json").write_text(json.dumps(meta, indent=2, ensure_ascii=False), encoding="utf-8")
 

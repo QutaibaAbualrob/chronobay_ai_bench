@@ -1,0 +1,70 @@
+{
+ "run_id": "2026-10-06_121718_full",
+ "model_name": "deepseek-flash-guide",
+ "provider": "deepseek",
+ "provider_model": "deepseek-flash",
+ "mode": "prompt",
+ "row_id": 84,
+ "repeat": 0,
+ "image_file": "084_jlc_master-control-date.jpg",
+ "prompt_sha256": "19a8ee09a088cf5eb5961e864d302a0e976cdb2370edf80e5121e18dfb5630b5",
+ "result": {
+  "parsed": {
+   "brand": "Jaeger-LeCoultre",
+   "model_family": "Master Control Date",
+   "reference_number": "Q1548530",
+   "movement": "automatic",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "confidence": 0.5
+  },
+  "raw_text": "{\"brand\": \"Jaeger-LeCoultre\", \"model_family\": \"Master Control Date\", \"reference_number\": \"Q1548530\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.5}",
+  "raw_response": {
+   "attempts": [
+    {
+     "id": "636c64a2-1f9c-4bbe-add9-ccba2cd466fe",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "logprobs": null,
+       "message": {
+        "content": "{\"brand\": \"Jaeger-LeCoultre\", \"model_family\": \"Master Control Date\", \"reference_number\": \"Q1548530\", \"movement\": \"automatic\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"confidence\": 0.5}",
+        "role": "assistant",
+        "reasoning_content": "The watch is a Jaeger-LeCoultre Master Control Date (or Master Ultra Thin?). Silver dial with Arabic numerals 12, 9, 6 and dart markers, date at 3, blue seconds hand, \"AUTOMATIQUE\" text. Steel case, brown leather strap.\n\nThis looks like the JLC Master Control Date ref Q1548530 (Master Control Date 40mm steel, silver dial, leather strap). Actually the Master Control Date 40mm is 1548530. The dial with mixed Arabic numerals at 12, 6, 9 and baton markers with \"AUTOMATIQUE\" — that's the Master Control Date (2017+), ref 1548530, steel, silvered dial.\n\nReference: Q1548530. JLC format: 1-3 model = 154, 4th digit metal = 8 steel, 5th digit strap = 5 leather with pin buckle? Per guide: strap 4 leather with folding clasp, 5 leather with pin buckle. Hmm. Q1548530 has 5 = leather strap. Actually the Master Control Date ref Q1548530 — let me check: 1548530, digits: 154 | 8 | 5 | 30. Metal 8 = steel, strap 5 = leather, version 30. That matches.\n\nAlternatively Q1548420 is the older Master Control Date with bracelet... Actually Q1548420 is Master Control Date 39mm steel with black strap? Q1548420 - Master Control Date, steel, leather. Q1548530 is the newer one (2017) with 40mm case.\n\nThe dial here: silvered, with sector-style markers, blue seconds hand — that's the Master Control Date Q1548530 (40mm). Hmm, but the 1548530 has a silver dial with blue accents? The 2017 Master Control Date has a silvered dial, blue seconds hand. Yes, that matches.\n\nConfidence ~0.5.\n\nMovement: automatic. Case material: stainless-steel. Bracelet: leather.\n\nModel family: Master Control Date (Master Control)."
+       }
+      }
+     ],
+     "created": 1791289357,
+     "model": "deepseek-flash",
+     "object": "chat.completion",
+     "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+     "usage": {
+      "completion_tokens": 517,
+      "prompt_tokens": 10203,
+      "total_tokens": 10720,
+      "completion_tokens_details": {
+       "reasoning_tokens": 447
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 8960
+      },
+      "prompt_cache_hit_tokens": 8960,
+      "prompt_cache_miss_tokens": 1243
+     }
+    }
+   ]
+  },
+  "input_tokens": 10203,
+  "output_tokens": 517,
+  "cached_input_tokens": 8960,
+  "cost_usd": 0.00052353,
+  "cost_source": "rate-table",
+  "elapsed_s": 4.12,
+  "started_at": "2026-10-06T12:22:34.752178+00:00",
+  "attempts": 1,
+  "error": null,
+  "error_detail": null,
+  "served_model": "deepseek-flash"
+ }
+}
