@@ -1,0 +1,36 @@
+{
+ "row_id": 84,
+ "image_file": "084_jlc_master-control-date.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Jaeger-LeCoultre",
+   "model_line": "Master Control Date 40",
+   "dial_color": "silver",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "bezel": "smooth polished steel",
+   "case_size_mm": 40.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "Q1548530",
+    "Q1548420",
+    "Q1548470"
+   ],
+   "confidence": 0.6
+  },
+  "raw_text": "{\"brand\": \"Jaeger-LeCoultre\", \"model_line\": \"Master Control Date 40\", \"dial_color\": \"silver\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"bezel\": \"smooth polished steel\", \"case_size_mm\": 40, \"complications\": [\"date\"], \"movement\": \"automatic\", \"printed_reference\": \"\", \"references\": [\"Q1548530\", \"Q1548420\", \"Q1548470\"], \"confidence\": 0.6}",
+  "input_tokens": 1705,
+  "output_tokens": 1075,
+  "cost_usd": 0.000825486,
+  "elapsed_s": 6.879,
+  "started_at": "2026-10-06T14:11:31.891709+00:00",
+  "error": null,
+  "attempts": 1,
+  "tidied": false,
+  "served_model": "deepseek-flash"
+ }
+}

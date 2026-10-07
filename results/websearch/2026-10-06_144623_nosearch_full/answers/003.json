@@ -1,0 +1,287 @@
+{
+ "row_id": 3,
+ "image_file": "003_rolex_gmt-master-ii-pepsi.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_line": "GMT-Master II 40",
+   "dial_color": "black",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "Blue and red Cerachrom 24-hour bezel",
+   "case_size_mm": 40.0,
+   "complications": [
+    "date",
+    "gmt"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "126710BLRO"
+   ],
+   "confidence": 0.97
+  },
+  "raw_text": "{\"brand\":\"Rolex\",\"model_line\":\"GMT-Master II 40\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"Blue and red Cerachrom 24-hour bezel\",\"case_size_mm\":40,\"complications\":[\"date\",\"gmt\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"126710BLRO\"],\"confidence\":0.97}",
+  "input_tokens": 3782,
+  "output_tokens": 283,
+  "cached_input_tokens": 0,
+  "reasoning_tokens": 188,
+  "token_cost_usd": 0.0005197,
+  "searches": 0,
+  "page_opens": 0,
+  "tool_calls": 0,
+  "queries": [],
+  "source_domains": [],
+  "elapsed_s": 6.007,
+  "started_at": "2026-10-06T14:46:30.896221+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_0a58d860ba64df5e006ac509c7662887d2ba290eec02847d1b",
+   "access_programs": null,
+   "created_at": 1791297991.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0a58d860ba64df5e006ac509c9267087d2aa09dbe63cddcc04",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxQnMyC2plNhOB9E0j0doswLsNetKR-RoICyEK5e8FIFeyQTWCCROE2TMtthrVPVxK19RXOZ7lzgFSssc5lUU9nuKiNPayYoH8dBP9BxvaltrdGCM6snOH5y68eGmmKMyLcKnwI5Foqdg0jEouoXHDuEZ1hkGrxo4uv6DiBcyG1IXqEbIzeXgfiQl0UaDmeilVmHM1-luqmfJZqrYzl-1vRNayOiziq0gPg_LloUbY9UAKNKLDpr2ikEf09w0-JzffhzIlOHboiwqdTC6gMkytNC6LleV-aUiZxY50-4hUupXPHcVGuHJRCWdnwwLjTJ5isEMmRoocqNGHt6_vEtRIxSzrUhk7mfQ1i6DyUxQy6riUpFsyicDgnUtl8MAPPYZuRUvdesWI-3i6vWMO_AAW0r1GSK3qIvFQ7LRS2_CE58QDoG857bLyBwh2A8j_vMGytX-Il8kNZOjoCES55m2pbop-EHX5MSzT4igB_GUTxQ8T9yj8Vr2Ers2ExpqPXdLCceeAaQDeUTtdTjkG0ELtd5zF_Jlhndss7nkrFEWoyEyb-9lrrw3t0Gb6VXLFu_KSz_JN8GywV-jZoaLYDRW_CMqyKRTmp-WHvQVsNa6SoALmC6VdPxZugjK3LXsYzy44L9PIbKbaoyq6nPVfGuAXdtV4j4gfc1gqdJb_RgoDnaGKy0XsVXxCfTxALKAv0kHB3Zy242heuB34p2n_L3h7gejgJ4iAlgnLxa8FDUJmUzeDT8ciQPoZOZI4dsqG1yW4rAA0uufGAu-6Go0CngWwV1En9F4z7mhG4j2EV02ocW9HJ3vhTGYroXOyfr5l24XQcq_pdhYoF6KAcCTDkNgVNgqzqA1W7vTd9zn3-sNL9o77KEsR_5KTQsJWTg1wGK9mnzvbRwsRuSkFszeBDXyVOdsN8NvBkNxT7KKb2UJysIs_3zFPJBfZKOg6_eics70wKPVfk0Vu-UaiAxCHdgCsg2ksSr0_fdh2zvPhNPYJzjbL8g_CzELgZSBJMmNkq9D3W1TU1Im3zZk8qKFN_JJUYca2ToTuhNXH-ngF6_aEjeWCXJ5ev7HSZe9lS77H9LvaDpMv7qdNo0PxNjiKUXqwvoVjoLzIPl8QcDKOTw4I5n548XxQplz7GrKUjwfQKc7O9KXhtpkaFzI78gYOhrrHZPBP43KhASU6UyDts8jj3KSWg74h41YcNowxA8GhqM0wwnugOoaTo5xGoctSKDQ9JyCj24OGhmmc_HyIu7z1W6ryc-LBiZYRUyExRpLMH4jbVDSz7KrizCB663rMQGPNVFqKQukQzO7mh_qM9QXFhwWP14JpfdJii3fJczEr0g0Hc5bHABVUTGO_ShJCG1mrCJXDSKsnU49k-GUlIrq4LX2bjnkzs2BNQaXZbg62K_lQRDPDxMEQ5SInajHNdCta0Ihs2NS7c_kH-6ZWRDStGbgvbGXVa0v-295jkC1dbkJKJ-CKi4vBIZZU7mkswmo8GDeyX-y2XHh4CjMRXhUXYKTTi1qTo0eQjvUowSMaLe2mCl7rFRILYAEUHEfrYj_NRBZp5c8ZaJBopbK9dog_6nf3RZ2wfwxSAdbr8f6ED44_wMhOw-9UpX8hqVD9D4z_vBJhdwwhm-6CsuE5tXtSp6lGeIo4iptNZgOlGXoTvndsCH4H9tFOIv9_vVq8Uoa9rAcmOzAyYav9uxbFJGs1t945EYrL_wn73GKSwoDeTiaoGgDawDW0tBmqflme6FNe8DHLlu-siGYlNVumZXUZh1a3q07c5DWFiIRbxWug9LBHHHmLz86hC8rFQcdQgbCkG46CQlrkwlgrjPkCgtw37kpMWF8rSCLpiLJ331XaMe3LOCRKEj__SltPJQLUsQO7I2raG5raDvHw21wSCUbxjEkoLX8Y0SRy_chwgIOnNChd1TsacoyqVad5sjkDyPe1PUcnHdRtIomFOeYpL1WqG8D_5eR0IqKNoUbsxhmLIi25Hyy3oc93m0z0rgfI9h1JQyG2bpcdEvdyYZVfoStrqSDP2s8lAS1lcWnurAUD76mG8H6SktPjm2rl5ntv7rV29PlApWi8W-6ccWmsONgIjVlMmROGx4rXU_wjyvLYdvBj5QrsdpPjNmaAyHOSJzSvXnP11bn9kfoWm2V-nt126psOcZJbVHg9CUnMQx33XHKWORbze_B9dxRE9j9XJfhSNPQDIee_xOKtoSKtYXCe22mtf4="
+    },
+    {
+     "id": "msg_0a58d860ba64df5e006ac509cbe62887d2bf73181b7c44b68a",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Rolex\",\"model_line\":\"GMT-Master II 40\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"Blue and red Cerachrom 24-hour bezel\",\"case_size_mm\":40,\"complications\":[\"date\",\"gmt\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"126710BLRO\"],\"confidence\":0.97}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791297996.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 3782,
+    "input_tokens_details": {
+     "cache_write_tokens": 3779,
+     "cached_tokens": 0
+    },
+    "output_tokens": 283,
+    "output_tokens_details": {
+     "reasoning_tokens": 188
+    },
+    "total_tokens": 4065
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "search_requests": 0,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

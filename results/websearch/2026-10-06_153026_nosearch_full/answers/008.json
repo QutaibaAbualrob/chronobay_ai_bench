@@ -1,0 +1,288 @@
+{
+ "row_id": 8,
+ "image_file": "008_rolex_yacht-master-40.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_line": "Yacht-Master 40",
+   "dial_color": "grey",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "Bidirectional platinum bezel with raised numerals",
+   "case_size_mm": 40.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "126622",
+    "116622",
+    "126621"
+   ],
+   "confidence": 0.91
+  },
+  "raw_text": "{\n  \"brand\": \"Rolex\",\n  \"model_line\": \"Yacht-Master 40\",\n  \"dial_color\": \"grey\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"bezel\": \"Bidirectional platinum bezel with raised numerals\",\n  \"case_size_mm\": 40,\n  \"complications\": [\"date\"],\n  \"movement\": \"automatic\",\n  \"printed_reference\": \"\",\n  \"references\": [\"126622\", \"116622\", \"126621\"],\n  \"confidence\": 0.91\n}",
+  "input_tokens": 2634,
+  "output_tokens": 447,
+  "cached_input_tokens": 0,
+  "reasoning_tokens": 315,
+  "token_cost_usd": 0.0004869,
+  "searches": 0,
+  "page_opens": 0,
+  "tool_calls": 0,
+  "queries": [],
+  "source_domains": [],
+  "elapsed_s": 6.6,
+  "started_at": "2026-10-06T15:30:48.755145+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_0014a18a72fee67b006ac514294ffc87d2b830a5d61e4474b0",
+   "access_programs": null,
+   "created_at": 1791300649.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0014a18a72fee67b006ac5142a79c487d2a3bbf918f493dd6a",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRQvyPlh5jFPqJFRt9XNjRX950vj19iUHXwi75hFdx3iD4ZhCWZDo4WnPb6FdQXUSOEQ8v_OokA_HkfKQPk20qCWK0OwYYtJtVtsALsHPTG1HGQ32lX-b6-E6eNIRO2v32304rof4ubP2ps37uz-VMBgo435DJTL_P3HYqWht0ftvH7BVUIYiNYvjgkfUi_DURbt7UsB_QhcS--_Tpv_vvPDWEIwrdDGNKjHZz2G9PAqEnVwe1MFb7ixGwcaDVjnqljtd_bu0E8_6EyzQeAsxX1x1YnJYWzT3Qd3Sgvl4C6bMlovOT3tuy270zkGDAQ6NZ6bQxNyQizzNEM3u5QV_3tG_Zzh8k2xOJxyz0Oi2Kw8yWn7YeltPY1DCJwuZcD1XCMNM3NC8ElZNck2d873l8cZu_KRpT12qCgQ7HIE7Q18CWXoVYJM3S6zUfZlVeWy86uw6CqJmrFXyGHwbQepbmaduQZBjkwWq_sm0aRdyHGlQRnxDj52PxmlWTW9BqmCDa_0iEg_vfWl86-SD4aOdQ77fpJu6thYytapoBGqjCNis6iE0z4KbwNJkOzEnkNCeIBwExcAYqrANihkJNqBIiI6kJPlZkoWZHFXquEz9efozl0QvmxU-oa0pXHKYeaevlMlbDbDNOQ1oFrhNyUVUF6MQbL--6x0tcZLJHGyv4DMxeTfS1LOj08q9BrlwqsPMU7wM-BKfL6m1YMDPGD4JMuOFm3I1RQCditE5x80SUt5ZhHs0CIEk-mktApWLinezkUFo8W3H4taaEa_FRxktMqD1FXsTW9rnF55DezkcAxq1HFNpMrQDfC2N8ALnp3ksNdnVce4HO3q-nzGaLekgrczzP6RmtnBU_rT7tIcrzxLpvfFKgt0_inyIicew4mRuqKdNrClCRnc7-RrQqTor8FCw6r-w10Yo38L7lqIB3s8i2UlkoSTaMcvjGJxrPyARxzeBClbO7WD-la8wZ1qyVCHHDp9qGgIwE-GL-q9pIrsbL0lvKhml_ly6ZtpPp8lFnYD2kTunvtVC0lKSOX10Vcx5Qvbfzb_1ncsrZ_2zaL86gIp2vYp2I6GyH-dSx4NSkT1Vl4u5hZuJRKNNgmPiZOco7UVNXeXxXjIakg69XOI74MsyrQ4m1NxywcxR0jFaBMP2l_nQqzVmLVPhk7wI0QLPMw9hiQTV9GxgG2uyXJt3u8Yc9RkBCaIhWTT9ilshs_rMTpsmyRZg3M4z3Zj-_6auLcPJ84nkkNTwlMUeoHpaqOXeflHKnP4gEBr0gclSjdhBCSwO_rKDPlILJpb3CKgGmfCRFIGMGDk8dN6tuTTNzF84SxOGXOgtqOesElzkmR1jKDMu2ltLE12z-vrG8AjG9ldMRxd_SG9UkEQS-Rmc4YiGhHitCFKeKyz58oxjHF-jPZeYsk_ZjtOR-JX3V3es9TkfbSIbGnMsMO4OWYJIpDM8qmGGrBkMqM4SHXY_MfVu-mRuURzSi-bh13oGrNtHlpVFdRh7tfauorUEgzoLir7N_e0059Js1FURFJ9WkzOYLqauebR_viUQ1B9Cejgy2luwBVtMhrYi0oj54XW8knQ83G1Ktxm1FL9UIlrPYzXjfFlz8-UrgkFvdc5ZxDObMith3UrZYczv4FPWAJVaz1dy9-jkv6uLjJDApPhVQuD5VzES_N35F7n8ZasMeEkiIFbgFT_J2oQs7YmxObvBGOIHe_JDSkulZVJCdV19GOFmmqM1Ea76wrce7rDd-ve5MayS7izObTf-h9_-aMpXaljkLPUwrdFS9RAaMWAuEGIRXFrk1s2fskWOfwZ0txPCL4TylDz0cu1udwQ4y7sumctPvYfTxCkK3U_ZOYZOmZ1sv1HoDZiIMzoXvxlj-CB12ntV9Ow2pAKQfuoxg09wL87Pggf8CSkplWAaqJWmuv8SKcSxSsLh0st5EV84fTUJE83o3eJ5ULOALRvUDDJjH-VVZkl82UW5f2uweKyVTUsVSxHTRYrNaspg4lffu4aDj8AnbSs4A3L7ie_oWTJlZpTEweXRWvYtb7sV86m2WC3nfVQIilZQrLAG-JYEjTrXpKUyJqE15z1l__H8ysKqZPRGq3nVYECFEoRJP_YwZ1WDrYgMh5BapwUwBCSxxFYv1US-DoVFtKqRphp0t0pggADinDGInpjJMdq-yzYWZXtWyeuDeDvK7Qlf9DJ1F4iKivUdyWV7rDdcdTApKVC496rCI2dXcF8NW62mrk6K9d4OBGwJT1MsvycRSQveu3RUGBIXFBJQyI3rSmzU1LW1nRIrNnUKns-VgvBlzyL7kolSLgvJtRP_OX5hv1uK6q4DDT49AqBxmwzMZPxCauFhaoGy-mRCYbOrV1z-jjcEXKje74Ix9zW6fl7j7flZx4aOts_5xhDHwDUuk03O8hc4QRDQ6B-q9LGeTRuDzRKjTwJ0Q_xuYoHf3PgxbLnECqMJe6c46kz-mDXZxfyE45_CEQX7DzM_RqZKIKEP21-3KGe3SweCpZjDfyAtPpGTDERl62wKJjIR33r7iTynp81YxK54vtEZy2QwvytllqzlOJQpX1e88PnIFFC5qadglPyiC1YP2KDZKEUev1WVGNb9W3tA0qYNrLqJDPz7HPVgkHmD8rVgDC665WLuk5uWQr8_TYjFsq5Mt8TlG-IMW50pFiZhpy5CH3sCl4OEGyfSNTFlN6_Rk77cx6DNlO5sL53kaTs3MEMI5attyEk4NG1-40_PY5DKzXwOSPxX4kGQIfboqvXCIcEk4aiRMQ8YeRCKK0jemGNVS7FgaUUBQq9oD4xIq_iUyeZiFhyA4GU4FkIlFTzBIOCLczyfAEJMaroq9YJJyc8ibL-XWe2jixiKrKLd7RB1bmMtALyPSgjmSvBhKgJ7s8cpSBwy-Sn0SOE6txPnzhyqCKszORS73b3D3k="
+    },
+    {
+     "id": "msg_0014a18a72fee67b006ac5142e65ec87d2b655f114ad8aa091",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Rolex\",\n  \"model_line\": \"Yacht-Master 40\",\n  \"dial_color\": \"grey\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"bezel\": \"Bidirectional platinum bezel with raised numerals\",\n  \"case_size_mm\": 40,\n  \"complications\": [\"date\"],\n  \"movement\": \"automatic\",\n  \"printed_reference\": \"\",\n  \"references\": [\"126622\", \"116622\", \"126621\"],\n  \"confidence\": 0.91\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791300655.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 2634,
+    "input_tokens_details": {
+     "cache_write_tokens": 2631,
+     "cached_tokens": 0
+    },
+    "output_tokens": 447,
+    "output_tokens_details": {
+     "reasoning_tokens": 315
+    },
+    "total_tokens": 3081
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "search_requests": 0,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

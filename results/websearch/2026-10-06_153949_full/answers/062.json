@@ -1,0 +1,839 @@
+{
+ "row_id": 62,
+ "image_file": "062_cartier_tank-must-large.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Cartier",
+   "model_line": "Tank Solo Small",
+   "dial_color": "white",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "bezel": "Smooth polished steel rectangular bezel",
+   "case_size_mm": 24.0,
+   "complications": [],
+   "movement": "quartz",
+   "printed_reference": "",
+   "references": [
+    "WSTA0030",
+    "W1018355",
+    "WSTA0053"
+   ],
+   "confidence": 0.72
+  },
+  "raw_text": "{\"brand\":\"Cartier\",\"model_line\":\"Tank Solo Small\",\"dial_color\":\"white\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"bezel\":\"Smooth polished steel rectangular bezel\",\"case_size_mm\":24,\"complications\":[],\"movement\":\"quartz\",\"printed_reference\":\"\",\"references\":[\"WSTA0030\",\"W1018355\",\"WSTA0053\"],\"confidence\":0.72}",
+  "input_tokens": 28987,
+  "output_tokens": 1051,
+  "cached_input_tokens": 4723,
+  "reasoning_tokens": 956,
+  "token_cost_usd": 0.00299913,
+  "searches": 3,
+  "page_opens": 0,
+  "tool_calls": 3,
+  "queries": [
+   "site:cartier.com Tank Must small steel reference WSTA0051 white dial black strap",
+   "Cartier Tank Solo small quartz white dial black leather reference 2715 official",
+   "Cartier Tank Louis Cartier small steel white dial black strap reference exact ref",
+   "Cartier Tank watch reference roman numerals white dial black strap rectangular steel quartz 2024",
+   "site:cartier.com \"WSTA0052\" Tank Must small",
+   "Cartier Tank Must small model black leather Roman dial reference WSTA0052 size",
+   "Cartier Tank Solo small quartz 2715 dimensions reference 24.4 31 black strap",
+   "Cartier official Tank Must small model reference black strap quartz WSTA",
+   "Cartier Tank Solo WSTA0030 reference dimensions official small model",
+   "Cartier Tank Solo WSTA0030 white dial black strap reference"
+  ],
+  "source_domains": [
+   "igi.org",
+   "authentiquelux.com",
+   "watchesofswitzerland.com",
+   "manoftheworld.com",
+   "watchtrader.co.uk",
+   "thediamondbox.co.uk",
+   "bigwatchbuyers.com",
+   "wristcheck.com",
+   "ebay.com",
+   "tourneau.com",
+   "thewatchmetrics.com",
+   "chrono24.com",
+   "reddit.com",
+   "cartier.com",
+   "dupuis.ca",
+   "en.wikipedia.org",
+   "cannesauction.com",
+   "am-s3-bucket-assets.s3.eu-west-2.amazonaws.com",
+   "treasury.gov",
+   "es.wikipedia.org",
+   "fr.wikipedia.org",
+   "it.wikipedia.org",
+   "int.cartier.com",
+   "helvetus.com",
+   "caratco.com",
+   "analogshift.com",
+   "watchcodex.com",
+   "the1916company.com",
+   "hourstriker.com",
+   "dialspec.com",
+   "bizakandco.com",
+   "therealreal.com",
+   "spiralmagazine.com",
+   "graysantiques.com",
+   "electronicsandbooks.com",
+   "chrono24.ca",
+   "everywatch.com",
+   "chrono24.fi",
+   "chrono24.ph",
+   "chrono24.co.nz",
+   "youtube.com",
+   "wwa.auction"
+  ],
+  "elapsed_s": 23.987,
+  "started_at": "2026-10-06T16:00:01.852895+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_010c985c9c238047006ac51b026cdc87d28412704b01602b81",
+   "access_programs": null,
+   "created_at": 1791302402.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "ws_010c985c9c238047006ac51b02f9f487d2aeba2405e3f4a2aa",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:cartier.com Tank Must small steel reference WSTA0051 white dial black strap",
+       "Cartier Tank Solo small quartz white dial black leather reference 2715 official",
+       "Cartier Tank Louis Cartier small steel white dial black strap reference exact ref",
+       "Cartier Tank watch reference roman numerals white dial black strap rectangular steel quartz 2024"
+      ],
+      "query": "site:cartier.com Tank Must small steel reference WSTA0051 white dial black strap",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.igi.org/wp-content/uploads/2026/01/Dorigin_Oct-Nov-2025_low-res_compressed.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://authentiquelux.com/products/cartier-tank-solo-ref-2715-w1018355-stainless-steel-white-roman-dial-black-leather-strap"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchesofswitzerland.com/collections/cartier-tank"
+       },
+       {
+        "type": "url",
+        "url": "https://manoftheworld.com/products/cartier-tank-in-stainless-steel"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchtrader.co.uk/product/cartier-tank-francaise-wsta0065-2024/"
+       },
+       {
+        "type": "url",
+        "url": "https://thediamondbox.co.uk/cartier-tank-must-33-7x25-5mm-wsta0041-stainless-steel-leather-2024"
+       },
+       {
+        "type": "url",
+        "url": "https://www.bigwatchbuyers.com/product/cartier-tank-francaise-quartz-stainless-steel-25mm-x-20mm-we110004-white-roman-steel/"
+       },
+       {
+        "type": "url",
+        "url": "https://wristcheck.com/us/discover/buying-guides/cartier-watch-price-guide"
+       },
+       {
+        "type": "url",
+        "url": "https://www.ebay.com/p/5051636598"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tourneau.com/on/demandware.static/-/Sites-Tourneau-Library/default/dwf000c265/documents/2024_Tourneau_exclusive_CorporateCollection.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.thewatchmetrics.com/watch-db-2/cartier-tank-must"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/cartier/ref-wsta0041.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/1f1aw4s"
+       },
+       {
+        "type": "url",
+        "url": "https://www.thewatchmetrics.com/watch-db-2/cartier-tank-must-de-cartier-monochrome"
+       },
+       {
+        "type": "url",
+        "url": "https://www.cartier.com/en-us/watches/collections/tank/tank-americaine-watch-CRWJTA0060.html"
+       },
+       {
+        "type": "url",
+        "url": "https://dupuis.ca/images/pdf/IMPORTANT_JEWELS_12JUNE2016.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1ssxg6c/wts_cartier_tank_louis_78086_paris_dial_w_box/"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Cartier_Tank"
+       },
+       {
+        "type": "url",
+        "url": "https://www.cannesauction.com/pdf/get/catalogs/309/260406-bjx-cat-newnewnew.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/1f9j71j"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/1gia7lh"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/16hscff"
+       },
+       {
+        "type": "url",
+        "url": "https://am-s3-bucket-assets.s3.eu-west-2.amazonaws.com/fellows/prod/documents/f144ef0d-2aca-ef11-834b-6045bd0f8a61/Fellows%20-%20Watches%20Watch%20Accessories%20-%2025th%20Sep%202025%205117.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.treasury.gov/auctions/treasury/gp/fy2023/3.21%20GP.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1ghxb5y"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1gspizb"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepWatchesEU/comments/1up98b9/cartier_tank_louis_22mm_qc_pls_help/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Cartier/comments/1gseo4s"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1e3h9a1"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Cartier/comments/1g3mp1d"
+       },
+       {
+        "type": "url",
+        "url": "https://es.wikipedia.org/wiki/Cartier_Tank"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepWatchClud/comments/1vbq7ib/af_cartier_tank_solo_26mm_quartz_white_dial_roman/"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Cartier_%28jeweler%29"
+       },
+       {
+        "type": "url",
+        "url": "https://fr.wikipedia.org/wiki/Cartier_Tank"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Cartier"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Rolex_Datejust"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_010c985c9c238047006ac51b08b7a487d2b59995b87d740839",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRsZC6dSSVp6JCV2A33gR5aNcrVpXgOL1I-DiOxXxAJWyyxw55g3R7FgO_Htss5NCr1m3TTpgeZ0WPuU5L3riB5OT43_dgrifsWBfWi-xjTgqTfdXLzeJjcG7csyKpcdWHqI82sl0iGzHbNV-gbXYg1-NTF8cIq_73hCkql5-x3bykWanyOfKI7Oe8jyXEfat_x8xMNzkkfaqlU_ShIXgkGINgl0RvvAuWLn4LwWj5M4C5LoyrDKGJ45mxdKeeexU7LkNZVr-niOgyuNQRck_abVf18UZsHhXMYgoLkDonvndZNP4jeP9AKoemSx_ODTN5GZK_zMJh9FOpMtTgf-rZPz7JdMK9OrCsoeVwLKSa6kD3TjZUPVugVJVVZll_OPDmhhcoa6wW9YR8ImzJoxQ5HKT3VacRu9Cs257XKRfC9NiUmQikKAFcUYtKuPD3VSQGxlkkn5cdFaiyljkLlvJw26fPSaV88WGElmc2EWmI3XvBNG0zYVojw0CfEcwq62KPEVjLgZ4ukKCFBBXDxad0ZRANlXMwrcFEYDAhkm3zLAUQV0oW60pw6XjnDjWtPKOL-C9ETv6onNI2jYtSMr2ZWCR8WxcQkT-faWG5FRHvqXDLEb8dKvLs3nCXYw-tNhDTvSXsNr_AtsSMlgSOzdEBui59sMwjkNbFtZmzh-Rdw3CEowJI-ZlOoxWt9PoCoC_m5VtaDP7s6FxPR_aK-PPvdUpoTOuuh1J0fRiAxztK2rLqxzlswNM5DtfgvCjYov2JzqI67nEJiu9h2ioCnGOIeMygLdbdJuv0Vs9FGE3qKQhtlTVuGiir_BlMheU_8pmok1_2DCRaESTq0BAGxZm8NuT4WA4gkUmNsQlo4QyjNCWNFjAmymjJTZtM9vQthSd8oYosSTdMZa7oW7AxcTVLB1Np-dpAr-z_D6ZCHjktF10VOKXyNScj_nwvB90uYXH9rozOmhGF25Vj5onAEapC__xonpK2LEBak2fL5s_WzanGIDHlL7xeQQkvYGFdCMjBl2j78dHUZ4hUcqmeIJQEO9yxYW-lD_FyL0PK3Bm7gUl5XdYdra8ZGir0YJq72xKE_1By_VNWanbOpAbbLmMW2IXFTsx1WHEnjkMF4JlcQuacpyw4F3fKwKNyyuVF9B0otgMJ8-qQ9zjMxOPjyjhVDBH9mvHImpAq-xvwp51p8RKO53Ukdv7sCU02-zsFcn4hbo884YHBN9dtSFyfl4BQQzc51y3_T1cimhVxvla0MbluqG4En-ffyxZ07e_FzqzTQ7tX38g6wpfduYWapD_URAhkGHw_QP9NI-gO44dEbdlRYn4VkQbuWE9yljonjuuprCqFLepdiFZM_OODFnmsLbNJqgHIky5sR8je7DjzQZIFUwN-ByhTFhUdryokYolAmfqz3aBKDGJTkvOmFLC_mvRLBYdnpNSu0CjsnY7Pb9Jb-N0o_DCqngdHGV97IeeJgE0J6MScLGp8Ldy1PKMN_3c17RoOa8DiU7aNks90ieVCFIeP5MlsWS_5ROiZU96AazspNB7dKIwh_rE0ldnKmmBDbqf8J4k1V8t6JKdcxlVMxBaDW8RwsWGr_DwCWqzISfctdxw6n9DLJF8mq0syqLs5MOXc2gX3UeH3MRKe29HjStr6qK79YzClRbfTcJrfs6yeGkQEwG4iBXxOZU5QZJukUhe3iwzMyrE5ugYJlyLgsp3oYK0yZZDIcTxu3kuGZtOpz5iySCp434ZAxGfEiBvlvttbCLd_P14FHLSJm07shZ5UQ2Ez-A8bXEjBPm0ergCLQOsHB4-g3jsjNLu40ZeqLbIgmr1U78O3T-pYQb5cQleOOmAtZ8ERtJ5v8D2twUxbgIH5hgUWN4Pv86e418hBtYuLTjiIg1ewja47ifMhLJnYqgO3ZkF_jcgI_7dyy6H_dbVSPtaUwlsyWrQ-3VuWqP20EOsEyFT_vSmf1m9Kg8KnF25DFoYl7JITQPWSjMecSM8f_07jX4Am8Eno-n5Pk2zM1VvOltUs2bchuUmaSd7GndutvVxC3Vp2wtetgD6ZkmeOcB5EO9grNG8yIz-QWjNc8iaeloeY25so-XqYgY9MbDDQZUgT6T7ddk6vI0ENb8U1nniTjrJjQpUlwFxzlJ68pnoqzJ9X5AUxaVPt7h533Bbt8_UbGKZ6w87g1O2nhxTgIfFu3qK6VC7bVB1Td_2PkhZx20pKkXPG9WsNd_gdjszGswLK54VKEA3LlAE9zny2ZzD88iIKscyN1DZwxsf4H2amLo0p7fNS4cB9NjutHoHD5ELuWoVrILjL6p"
+    },
+    {
+     "id": "ws_010c985c9c238047006ac51b096f2887d2ab0138cf2a26ccb3",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:cartier.com \"WSTA0052\" Tank Must small",
+       "Cartier Tank Must small model black leather Roman dial reference WSTA0052 size",
+       "Cartier Tank Solo small quartz 2715 dimensions reference 24.4 31 black strap",
+       "Cartier official Tank Must small model reference black strap quartz WSTA"
+      ],
+      "query": "site:cartier.com \"WSTA0052\" Tank Must small",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://int.cartier.com/en/collections/watches/choose-your-watch/by-bracelet-or-straps/metal-bracelets/interchangeable-metal/wsta0107-tank-must-de-cartier-horloge.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.cartier.com/en-us/watches/collections/tank/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tourneau.com/watches/cartier/tank-must-small-model-wsta0071-CAR0220277.html"
+       },
+       {
+        "type": "url",
+        "url": "https://helvetus.com/blogs/cartier-strap-guide/cartier-tank-must-wsta0135-straps"
+       },
+       {
+        "type": "url",
+        "url": "https://www.caratco.com/products/wsta0071"
+       },
+       {
+        "type": "url",
+        "url": "https://www.analogshift.com/products/cartier-tank-must-as09505"
+       },
+       {
+        "type": "url",
+        "url": "https://watchcodex.com/qa/en/watch/cartier/crwsta0030/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.the1916company.com/watches/cartier/tank/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/cartier/cartier-tank--id48756694.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1bop1sl"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hourstriker.com/database/cartier-tank-must-stainless-steel-small-black-wsta0071-4134"
+       },
+       {
+        "type": "url",
+        "url": "https://dialspec.com/collections/cartier-tank"
+       },
+       {
+        "type": "url",
+        "url": "https://bizakandco.com/products/cartier-tank-must-de-cartier-small-quartz-steel-black-dial-leather-strap-wsta0071"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/12dw6j3"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/ul8cnd"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1r883r0/wts_cartier_tank_must_large_wsta0052_2950/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Cartier/comments/1hms0ce"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1qk24n6/wts_cartier_tank_must_large_wsta0052_2999/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/tosjy7"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/v0ltko"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wmsa9k/wts_cartier_tank_must_small_921_ref_wsta0110/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1jca8u0"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/CartierReplicaWatches/comments/1vx3qcp/f1f_vs_af_tank_must_small_detailed_comparison/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/1jcaccl"
+       },
+       {
+        "type": "url",
+        "url": "https://www.therealreal.com/products/72064576/appraisal_report"
+       },
+       {
+        "type": "url",
+        "url": "https://spiralmagazine.com/wp-content/uploads/2022/07/Issue-192.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.graysantiques.com/download/18416"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Cartier_Tank"
+       },
+       {
+        "type": "url",
+        "url": "https://www.treasury.gov/auctions/treasury/gp/fy2023/3.21%20GP.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://electronicsandbooks.com/edt/manual/Art/Auction/MonacoLegendAuctions%20MC/202110%20catalogue_0026.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://int.cartier.com/content/dam/cartier_dam/catalogue_assets/Change_Strap_Guide/Userguide_135x60_SANTO_TANK_RONDE.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://fr.wikipedia.org/wiki/Cartier_Tank"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Cartier"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Cartier_%28jeweler%29"
+       },
+       {
+        "type": "url",
+        "url": "https://es.wikipedia.org/wiki/Cartier_Tank"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_010c985c9c238047006ac51b0ef90487d2bf8677c1bee53ef4",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRsZ90DINailtfFpqq7yrduY2OVXXik_-BPG-vSjIW-DiOEBTa2d-zGqldx04wrQ5Wk5e1lB6PwS_v7YcQ1shR0qYel-VU2MMHZ3uAGl2XxX4fqJ75tz7UimyApxTtBKjftaVlz1uj_UJhdJ7tOnyeA8fRD-btGlJRienKTLJe9Xmv0Sy1X2YXKWlYzIOK4vJt6CPQakxkyC5adOTWnol-lf_SVQEsICkxpuWBb7mSsgFsLBTwZBIgDrD8sc_N7aqio3ZOY0WwvUykQakh3-7nnN3-mCSEAz2b3jHvwp-QkMSLIdAY6oYhTEWlnPKVyEZORtNkjemFWtYscD1FImOTWo3I_QpL0_xQazGy_1AbyK4NW9sHiQirIhFxBhIqFR86gaLx5I83hSmrMs5r0NxBs6-k3bTScZNIv8n3tbdKbzXhHuxsjd1SHbScBzEQrD_y8p7hziogNqqagtak8DXtJEe66LZmkwlCyHoR30iaSlH7BHsB92AQOpPxFvckbl0eWqf0MUz-eyPieZKDEMcYmiaDt_xwOtNdhNZB2seVFoFelt7k5isDSyf5fLNqoLarZk4r-Kolo9yv9xQEHPRnZBgGOYTO5nmoszWnNu6VsxyLPp3_C35HwkDguDO_WgW5I-zG8wL8QYgQowzTbwTez_v7tcNhB3QTV0wpdgcXxhgzfUBvzyiTl-gobG8E-Kkxgj4q0r8SM97acO0zomHypqa8EzA5lkT38ErVUlN2vRoGckT1OLReFoLOULE6hOY85zAXEJv-25RFRga6z3arL7qNHSRCWcFsCnRYjz-07D4hdxtQL8b4etjBzrW3DLapRaIkLiqXag92UCqO7MKexndrJg7cRc_kF4HR8OEwsjikfLJAjFCI14xNhLTC3jqgZe1D3nNipq2RJP7uoJZFzosr-U-zdiZN7Rl9JEW_d_ffWyWqGEteAot5tv2YS0A1nSEMxd2UmA4cqQe5BAu5K_3nuVzUbI5YqdDkbX8JGjob7CwyVMxGzOUe8Mz62sqqS5RqGK950IhxoyEOeazwYZ8z95uB6Q5WS8xNK1tr6f7M0IZ-ZTm3rUdYQWK0bm4walzPmhM3NJgBWCIIC1bS-a0sMdlEaIlqfCO-oJXwcEQl5GIDgxT0beXkZELXnv9yFhf00dkOIhtGNFnHxUS-HcKRm1YOmvzHwDLA0UJCk1Jwzbz9STE9nSwDwjFP47WLIUuNu44qns7LCyER-PDzM-cPhoEqOr-Qv7ljBFJE5hFsRYMmypRileGyaw0wTx9WwaNspnCOvaj24mNBzV5fTWo_HeKWRwKp-KQM-Fm5gIUZ0Y_gsOyVv18MugKQvMdXTRMYyYopTdvxw_uOxBxnfmZBUzbo_wAkvaY4bRklzZSS2NagZUCh59G5qMogCjt8MU61cNvVrj2FGgAcg2Wguuyd32VM4kns-EP-PlTqURpquXu_dxnvFmZemnAZY9LzgQNJnKqdjLU0j6gZZCzI-N-DGVBuQkWwJ6kxx_jA6U2AYiKjZPVdo9b6G_KpWtgkkj0Y6QJzRXyxXKsx_nfaEFbko5cO7Yf98jTU-3hO-657x-aMGeAdtxFmHIWHo35Nq4pTVpx-qwpYCey1d6QVyN3szZTa6RcSG3UDz9U9fRqwAKYs2GSmnuuh7KSt0ZzkDBpac90oYFa7ntl0E1qc1CJ0L2A8odMF717L9IACekV_-UUALvEGWWQOShHI_N7NpdVFBCkdMCrlK8RTpgRbABx2k4Qynq3_3qsmwEIqVXB6nDODX6J4xPfjD6OnHeAWZbeU1OhODfC6qq92-RwDiDXWUsHzrVt5AAiFTvBsP-xXuQzIIjJ4DnlvCWnlDeYOc_vgbXv1oHCdXUi99WJd22np3p39Il7OLZYIczjPhehJks2QQIXlkTs6yGmfyZ7f2y314jhea8ML8YM6hPhL7gTyH7yc1g0gJVlE86mWlExUO_cmTA2W_vZdu8lmRO86lh5fMF8IUybJqGoGIhUOWLlg=="
+    },
+    {
+     "id": "ws_010c985c9c238047006ac51b1007e487d29ad51a228a262c49",
+     "action": {
+      "type": "search",
+      "queries": [
+       "Cartier Tank Solo WSTA0030 reference dimensions official small model",
+       "Cartier Tank Solo WSTA0030 white dial black strap reference"
+      ],
+      "query": "Cartier Tank Solo WSTA0030 reference dimensions official small model",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/cartier/ref-wsta0030.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.ca/cartier/ref-wsta0030.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.ebay.com/itm/188971001230"
+       },
+       {
+        "type": "url",
+        "url": "https://everywatch.com/cartier/tank/wsta0030/watch-33964067"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.fi/cartier/ref-wsta0030.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.therealreal.com/products/watches/strap/cartier-tank-solo-watch-mhhwj"
+       },
+       {
+        "type": "url",
+        "url": "https://everywatch.com/cartier/tank/wsta0030/watch-15545989"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.ph/cartier/ref-wsta0030.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.co.nz/cartier/ref-wsta0030.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://everywatch.com/cartier/tank/wsta0030-3170/watch-34260904"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/cartier/wsta0030---id40871303.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.ebay.com/itm/198195454598"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1shpn1s/wts_cartier_tank_solo_31mm_steel_quartz_silver/"
+       },
+       {
+        "type": "url",
+        "url": "https://int.cartier.com/content/dam/cartier_dam/catalogue_assets/Change_Strap_Guide/Userguide_135x60_SANTO_TANK_RONDE.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1so7149/wts_cartier_tank_solo_31mm_steel_quartz_silver/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.igi.org/wp-content/uploads/2026/01/Dorigin_Oct-Nov-2025_low-res_compressed.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1satfmc/wts_cartier_tank_solo_wsta0030_31mm_steel_quartz/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=aj9PJkQf3Tc"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/1vx4wp5/qc_cartier_tank_solo_af_from_andiot/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/tosjy7"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepWatchClud/comments/1vbq7ib/af_cartier_tank_solo_26mm_quartz_white_dial_roman/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1t02qjc/wts_cartier_tank_solo_sm_24x31mm_w1018255_full/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=TambwjeN4pQ"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1iy6mi0"
+       },
+       {
+        "type": "url",
+        "url": "https://www.therealreal.com/products/25456168/appraisal_report"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/17qxjvr"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1eyzrc6"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/17wl4ph"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/1v9rr4g/qc_af_cartier_tank_solo_first_cartier_would/"
+       },
+       {
+        "type": "url",
+        "url": "https://wwa.auction/wp-content/uploads/2025/03/20250227result.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tourneau.com/on/demandware.static/-/Sites-Tourneau-Library/default/dwf000c265/documents/2024_Tourneau_exclusive_CorporateCollection.pdf?srsltid=AfmBOoqub880GirctZ2bsd5qtY7cIDnM_esW5wpQPdPtfQj2FK_iL2f6"
+       },
+       {
+        "type": "url",
+        "url": "https://am-s3-bucket-assets.s3.eu-west-2.amazonaws.com/fellows/prod/documents/f144ef0d-2aca-ef11-834b-6045bd0f8a61/Fellows%20-%20Watches%20Watch%20Accessories%20-%2025th%20Sep%202025%205117.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Cartier_Tank"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Cartier_%28jeweler%29"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_010c985c9c238047006ac51b1726e487d2a5442ba7dede7d11",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRsZqChO0inoOEPnowrOYkX3sxj208DJvonaHmf0nSdJPqoW6QHDJFxpBHKMqu0_2GrOaDG_J7D9Bj39iI52ivqpWrV48A6rgQhEccUd-W2xhb2oQaaP9gOPdKr_puYsBxOecBluwRGhehv60DOPUOaguFdhHbIjJolbERQ5cWlElujS5Pf7woff9dYinJgtt7XuS9A_LQDx9NMY2IEZ0zO3rW6Ex8c23b2aJw1rCxGYGWWSf1tWsbcQssWMLhX-XyHlO_ToiYodrhvDms3yxRaqLUPm_cs27aRSt_rF2i__5uRW0-LXNyiGakvFYnC2AQ3gsXDz2bHdAXQO12oeFSDjMceUDqAKBN2f3DIkWQQfmf9rlxavmNZQIrmIgU5wDUfejAJmxXM0DHxmLVvTWMQ85JSiawk9KMX1Ja9vCA2ZQL730DGd_tQ61m40bGBx18TbRpY8hVoltM7EiubylScK_hhIbXqbg9kXXmAMCe0Uh67EaS3BV0fFsnFqmG1rbzoilw9gd_fAh8uoj7harW1ar7kl2G3oChwR9YmloqUQ9x7P_FSM3tcrDR1fWuUMHLD-N4RoHmuSu3zdQnkzXueCEP59yMF7RrJVxyLyv3HsO5vhSzSbHMpX1R2ksiMgOz6Urp_Zh0Gime22M9wENTTjY_neUg0aOh6Y5TCGreSaQ5000oK7jNO-NGkY4Yx8bGlK242SM1I8K2CSbW-rmmeMIaFOFFXfXGInaHJKrjrZBICCa5DqOCSzhO3XY69wCllJaL9XvHb2liM7t1Xn4ymFapfBrStC9th_qpsvs7C3PCxwi34v-mTh4T3HoM9NpPU3Sojs6mS-dT8oAAEahldGCy3rjp-J3GiJQAsMaXpufhC5tHWIBUcFUIFTRqptLZBeQ68dM1xxz5_om7tS6CLSmtzABZxpW6DN-NJ9G1ZNmLaYXeGgPEzSq7rmp2JMBc0y-3C55NzozRF2glpZr5-tyfN80pxazAqTz2pbtuF4vyKxJM5IpswoowGdytlDU6CHAdjiRx9GJID8iRlpabgke93_dUeYaksFjc3Z43OGLvoiwM28cyUmLfOlGMmRU8Q-pgUt3lg2f92x5d0Rx1NjsvISw8AIrmXDmhiDdkjx0fiveW5AqgDzxsp8cewTcbwTWitbnhkyvoqzeYwpj8JxgfLT2Cle9AlLHajj2s8rf5S-45NUjD-sDmpl18QxjsUaLpUqYliKOsTMHOINFIzY0P1_bE20n12c46C88e1lk-6FuF6Brn0SNzMdKuVoh12Ae_Wrgc4fLjpf44uBp9d5Z48XARRLxwXWzyb7hytwEBwo65S02jsbDUrYs0FQsxwBXNqAxCD9ql43tL_0dMYihdV-aFZpqysWA_YHwbZYeXc70U1wVDC4QpPWF6oR-eOjsYXR57Jtiw37uz7QrBk8NmeuTU8_yWATWjXydEt6elu-XI0IOSPGbITsUFRQKvz58oYag9s1Qc2s9Yi19bKy_v2XjLIsSByvw4If81xNGW18Q27QEIWKiPvv77p6nWyA-MQiWuwHS443MW7QrUrvpLc6LHFW6m6hfaEiNBg_oAdqStFFHIja6fUrnuhX-NcrA5TYwNpCYKpaicRFFuqsyIZD9zoGuJ8mP2Ttmg0t5KQKzu6wD8jHB-Fyz0OBZ5xxTt2gnxHdXVDLfP9YhHRhiJLwnZwspFM9bc5SByI6_7BnxgzS-sf1CkJPJg1nCBBX7pO8i5g-DPhrWwVOA0pxA2Q3Ad_I5NcPuRNNoI2bHiyFC8Zo9N1M5s-KRrAs99OKBIiTh4s9J9R_YoaOomZNDO7WJKDzZjTebANkRq2s8LYRIN7LS9LVPXCTnwnegnYl3yCgU4rDJYOQX2gyTf6AE9Fp7_EmPPRcxw32F77qkCZ92xH4AxWSHl9ifPbMbCgMB-wc7_FlXm6wjPw_AaDEj_vZJhXO0TD1MA0zqemQe4YVUcE4pEcsSJ9ZfHrI0QpuUs9OFlt884fHjOtQkaaKotnD-3_GU03co18vWRQuqesd8ypgHanPIMmjyDdhUhYxXsQYY34SYWPlppf-UAzGtSL7zqjXu5U4uBo6W9SpvSyoGQNatAfSKC8wSp9IaCqUGTdTg7uAYnzQpXerOq776m9MOKC22S6N8TLwIJls8dyTWxpymrbExShOMAUbDXVzTSkik8gqDQtckOPQJBmX2eao9R6V5mN6eaIsG2rjFhYbkNslgjtxuFtIVWtBco5T1MPzFT_jfGmDXlIaKgXDshk8sWubZ4DeLyGKrMLfAdK76M8JzshdWKwq7TduDg3TAvtDcK4jrkBCh8o1mZzIg-G9EtLB38s8FrTw51EHmxV1dAHOVeet0-IhKfbTFzQQt_s2b8q1sltWfaZypqgSsYFkbFr6SSfXLVWR4zIKX3Ta9By7uO5W814NgqhV9OYp3Xq0MXp9tfD7tHPHlr-OMuWkayPVqGdBAmwMfNo3zaeAQ9eWy0jVX4Ffug8uF5mLzreob9J1rwEFMSeNe7o9USQN5TvJPb8rQP8MgbRet1NqRCxJjTfneVz7jxs2C8h5xLYB_Amw1jUUgNXaV_8TKb0ufPdK6QNaznLQKSWgMzMwpaMNz5JugvzaFfrAPqK0fPRZUIYsi0GPZGQyY7r8ip6ijc4r935xIyOPW_SsyHnnEIg5W_ismsM_a2bQRVn1B8TDAjrXOnHsipdTJQqX1rY2CSwojA8JSqqYL5K2OfCyw04vtwQzEf-PuYxJoM_ruWml6z4ElQCs1m_wca1GUz-ERRm3JBTLXZJIKp-fcFHunaaNbXPK_r7FPq3pu8dRTLrsT9jxwNY7aBetq3DoNRIGPYhWf0Dz3eG_3zPQ1voG7Aq7kltKjWpzK8jgCtY9TVfu60oOST0suYRb6O98kB8g-4rlIBumOhRcWZKOnIiP9CIs4xCC7E94F9GkpCwa036zjtdAlzkkJCzkcKbFKJQEpebkb20Py-cjb74gi6vAPuKOaOl-ow6lGGIAKR5jifT5XFDi45dIa0EeqISr46fVVEeKBToz5GA_A6QG-hTEpLSR5Eef7Gk3uilz4KRlAao6axSYXYab-OiYKLWlDPWpGjNozPp4eJsXt-PB6sxoV8h-WOiNuRhCDcc1CzLNRNuWIAzHDJMGxowqMsre0KApdb6FC8ot8BwUQ8RydNL515rjfvFQ3KGVMRtew4vOT0lRDbVjVQaXEbkU2jiHakZXaCA1Y5VTVzuOFQKJxl1QziRn2_kSmt5UrJfvcCSbdsCkiidhMbOjmrfKgf8MIeRxNnig90DRmjXyBNHMgPzU9HkMBBSJvVTRpT6TsEjR9sFMnWWUN6X-ImsWVusogpxyGs4frY7kwKh4zJs34Pz7xrCqmeTtk_1CL6FKzIYEZaZp6VaLhdTahj0cPMGDsHLEK2ll9eHgNNhtibHrGIRE62VeyEApPV-BxsiGx3fBEObqaLNNjF9sXZsRHTwD_OSKn5-Z5LEgn4BEosIWgVqt8RpZnia29EFlLm0HofgDI6BJ8bX7mMQzj5gnRVDhnw=="
+    },
+    {
+     "id": "msg_010c985c9c238047006ac51b187d0887d286c63060e2309607",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Cartier\",\"model_line\":\"Tank Solo Small\",\"dial_color\":\"white\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"bezel\":\"Smooth polished steel rectangular bezel\",\"case_size_mm\":24,\"complications\":[],\"movement\":\"quartz\",\"printed_reference\":\"\",\"references\":[\"WSTA0030\",\"W1018355\",\"WSTA0053\"],\"confidence\":0.72}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791302424.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 28987,
+    "input_tokens_details": {
+     "cache_write_tokens": 880,
+     "cached_tokens": 4723
+    },
+    "output_tokens": 1051,
+    "output_tokens_details": {
+     "reasoning_tokens": 956
+    },
+    "total_tokens": 30038
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 3
+    }
+   }
+  },
+  "search_requests": 3,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

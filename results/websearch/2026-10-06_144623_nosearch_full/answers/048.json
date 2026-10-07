@@ -1,0 +1,287 @@
+{
+ "row_id": 48,
+ "image_file": "048_tagheuer_link-automatic.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Tag Heuer",
+   "model_line": "Link Calibre 5 Automatic 41",
+   "dial_color": "black",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "smooth stainless-steel bezel",
+   "case_size_mm": 41.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "WBC2110.BA0603",
+    "WAT2110.BA0950"
+   ],
+   "confidence": 0.83
+  },
+  "raw_text": "{\"brand\":\"Tag Heuer\",\"model_line\":\"Link Calibre 5 Automatic 41\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"smooth stainless-steel bezel\",\"case_size_mm\":41,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"WBC2110.BA0603\",\"WAT2110.BA0950\"],\"confidence\":0.83}",
+  "input_tokens": 3843,
+  "output_tokens": 460,
+  "cached_input_tokens": 0,
+  "reasoning_tokens": 356,
+  "token_cost_usd": 0.0006142999999999999,
+  "searches": 0,
+  "page_opens": 0,
+  "tool_calls": 0,
+  "queries": [],
+  "source_domains": [],
+  "elapsed_s": 10.245,
+  "started_at": "2026-10-06T14:49:26.919503+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_0b60cd46e6993e50006ac50a775ad887d29428da922525a1cc",
+   "access_programs": null,
+   "created_at": 1791298167.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0b60cd46e6993e50006ac50a7a3d4c87d28d5696dd09a78e20",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxQqB6TpCq18r1ViWP4lnpf7xCi_A2O73dSwSCFA-_eFLtvW3_hgAt0IPKi2LJZpAcY17siq0X2IVgAqsTM2bku_5sd8q8dfj6GOiVRIfziE3MnWPj4ksOsYair971rb0oz4U7MhmwxW2sRsgIkGB3RCI2686D1i_1usdZsCWRUgJir3QgJfw4FnrWHmeMgZnVH8ecbBpQWRLMtj_XK7rPq1C1DM3sBZilljJdQjepPBRuJGJX6tdn4jGLElAGuXloMMKZiNdl8Wzvk-mInrbnWiHsISbXZwafzUAjnDl-7B4J1WJsK27S_ayW_LlHRg2ZkULyDkEmKFpfZrcWCICi14TD05UQHTBmfBdErk6YhUsmjAeakyHpjddb-HYC_lVfPk3mw7DM-v85fPVg_IVMlicbWCetRuXN1bhvUF4P7TpG16umuTXjmlEv1riqWYg2eeaQtylEdFmGmsOK4ToR7SgbMUIqs_sXAxzRe4EIN0zGyG0I_TWPC4BwyJtLySZ4IjgBgCECZ14MNZGZeW4ZWbk2nWAr8J5EiMjoLSr1i9rlk0CnLIlq3BW0i28p725ISRUQVF0kFMIqOqeq6gLDDL58YKX_MCXCdR3PZztyjNK5DTkciQ00RbFPCgSWTFaTFkZC5BYd_s8illv_X-4cYnNoDf1Q6c3E2uIZWh_jNV7n1wciMox_OBY-YPqZLrBu_YmebfcfoigzDzIy6MB74xb0vuWaJsj86AR76K4r_Y2pSwfTQ2a64jzmv75FDbDTobUzEo5iGmGg9bi_COR3HoX7m63uu4-bRWwfrOguqhNvXB9AB0IdjD5DbXXVObQpcN55Dx4XPLYR8H_nlQx3aj11iYjIdpco2HS05QK4UEtIDcxwnhll8XdVT1oGPZSGfiz5aMwr_Va8WApRcLwcm_orOPUcgEh-M6YidxMqNtIWWUPMVy_nLX0DgolAZu8KD1AxvJShBIpTKob3qj94cXRNvK55MJ-l_n2c2JVSAVA-nTdpZqwnPCv1I-Y2yto3LCw0GbVLzyTcnNhpCC9Ho8aXKeW1mhK1hgqIhH9OsCvtrNLct8MFQOJfFbFBAI8NNCnZZKS1hmjfmZKH8MgTYnzKx8aoh6uXbSFHhcEzMIroTczbOJYk3k07ru65e4gEyjUdQn8Gm2cDcqHawzBAkmLJTj4uH5zsqZojt9wqzm304M05di27uBiMoVSEf_he6Xg2gPghvFiZjcvCROVwVyiUhILkcZMCrFUB_a8rBMmy6DqISG6k1cO2sTLhuTlYrVKM5TQ4o5IY5TEklOpSG10gPhYTbpfxeLrpRBUawFI_ePSmVaNooLN8R9tsS1nnvrEY0EVWzmdI34NrAdVwQ4bJ-iCZogynB8v3Zh8Ll6Vh9k_-nHiwoqFuns8jwby2ChSREjS_fEHB-KNGZ_id62JhtxRt_ZFfrk37WBLzdyzR19g4niAsTWs7GdyNe_a-Qb7cbo4zsiy_GgIZf-8-lu13-u9g0jbN9Z8Q1wy4WDj1g6KIg3R_t9JSaS2pYvZdcvpLABNdHVC5uqtTWAKsp0N1pmmB-NK7Qiliwrt23d-RKW7fQfIbapC1405AGaWpv5rL56KrHXLU4pvqNqsy9IYHbg2LWK2a_s4b0GYZn-pf8q1rB9c-HDUdUHI84hyFEGbIjqm8VDKDoSsiOqGMFETkN8PPCa4kcjJj2d985Zniq9h1HmeZNnp9Ic-hfm0_qOrIb08HURnXpqjkhcWB5HKHlMozxwMnuM5c33Dkp9fijESN1bTt-klivgcftnP1y60BCEYN9uWD2ZEJrAfXRHwSOf5-AkewC1daBlAWbNiW4xkKeram38YNbn3VaHEvEcdqZ7E0w46YMMNFVPp5YyNkjriFCHWmXlA86dr_-yC5wTuGbt3KLNaySx4RgBr43L074JyclQkjSt1k9EWNF6UCWqGwmFjish5ZiW3onnC-l-iqDWGX__4RXiBIHS0NS-T3p8Xx-zLDSHs0-UGnnHYXO9PhuTmYqVgas9W_41DsCJFgT-44KBbCzHJks4DIc-eUiiTx1KsJYCoY2oK_o6ZvGWtX4dc5_jB4xDBbveSa2cFMKa3tDajcE8tLdxDdwmiXMY5MSJSDFigpT68Pop3qLd-SFVU7OfE6XRCxTsBpS5kSZ7ItCoFlfKhkRhXLRfHT8SVYPA-p2LkKI7Hp_CpYIVNLWxZQ-g929Vg88jp2sipG36MizwZfDLgMwUpCCYiS20r_vWfYbNV0OlSboG6jcrnl9UmyG_EAy9MHbbCAEdIA03iAmfY44ioaIS2ipof2kdH3A2mu6B8SouUIbeBgE4RIejTsi1hn0RbO16dLAUWhN_N2gdJCtbkG3bdfd1Mdb63FsCv4y2ULSt2KlIaleuzGaNyWt6E7IuGkfyVpkiLIAzB4BWSUG5UuHI7aLlS0qLCdFyV8X85OJWbdlyOysRiMqyp1AOcksRLqcSnTkbyfhMssVywonKhIBe3OfIsMw9pqKQWZlbfYDIitCNKJ69X-8bnAYZYJ_iYt5NWjd7asiwntxIOt3IlPQIW48oj-RLJBl1fPGTXpPIX9azPMV4xot07SmiPhphD7FVNB_qvAhHl0sdMIMttxhhuSO3HIqLtFYy-i5qlVW2mOAI9t2AQgIyJ6I64ln6Ydwrw_ySY02G2WjLJ0Fkb32IIQ_0Cy7BtB6wOfKvASUFXIqx3ER_S9ecfk1OaiYxkw_2oPYUXH7LCsUTznbcgWs3eQqFdxSb7hktLnAa8QeRdfrPK7BCouNwqRWpcxI72Kt_ikpTk7jJcc5Z4gI4ztiOwfY32lOjorqeNLBSccat-vTeCaHZUKcmCHWFhOvr4v_zkF_ygpooJWfahLfATL0DI6lcCmpd7NjLuneN-UC73xLeDZv5MaP6Z6edGSbtriWWfHisRrAMn7mWOlTP39NE4FLVP"
+    },
+    {
+     "id": "msg_0b60cd46e6993e50006ac50a7e9ce887d2934653c0a91e1b37",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Tag Heuer\",\"model_line\":\"Link Calibre 5 Automatic 41\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"smooth stainless-steel bezel\",\"case_size_mm\":41,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"WBC2110.BA0603\",\"WAT2110.BA0950\"],\"confidence\":0.83}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791298176.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 3843,
+    "input_tokens_details": {
+     "cache_write_tokens": 3840,
+     "cached_tokens": 0
+    },
+    "output_tokens": 460,
+    "output_tokens_details": {
+     "reasoning_tokens": 356
+    },
+    "total_tokens": 4303
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "search_requests": 0,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

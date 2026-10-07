@@ -1,0 +1,854 @@
+{
+ "row_id": 45,
+ "image_file": "045_tagheuer_carrera-date.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Tag Heuer",
+   "model_line": "Carrera Calibre 5 39 mm",
+   "dial_color": "black",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "Smooth fixed polished steel",
+   "case_size_mm": 39.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "WAR211A.BA0782",
+    "WAR211B.BA0782",
+    "WBN2110.BA0639"
+   ],
+   "confidence": 0.96
+  },
+  "raw_text": "{\"brand\":\"Tag Heuer\",\"model_line\":\"Carrera Calibre 5 39 mm\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"Smooth fixed polished steel\",\"case_size_mm\":39,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"WAR211A.BA0782\",\"WAR211B.BA0782\",\"WBN2110.BA0639\"],\"confidence\":0.96}",
+  "input_tokens": 28255,
+  "output_tokens": 945,
+  "cached_input_tokens": 4723,
+  "reasoning_tokens": 929,
+  "token_cost_usd": 0.00287293,
+  "searches": 4,
+  "page_opens": 0,
+  "tool_calls": 4,
+  "queries": [
+   "TAG Heuer Carrera black concentric dial date at 6 steel bracelet reference automatic",
+   "site:tagheuer.com Carrera black dial date 6 automatic bracelet 39mm reference",
+   "TAG Heuer Carrera Calibre 5 black dial concentric circles date 6 WAR reference",
+   "TAG Heuer WAR211A.BA0782 black dial date concentric 39",
+   "TAG Heuer WAR211A BA0782 bracelet reference official",
+   "TAG Heuer Carrera WAR211A.BA0782 vs WAR211A.BA0782 watch",
+   "site:tagheuer.com WAR211A.FC6266 Carrera",
+   "site:tagheuer.com WBN2110.BA0639 Carrera date",
+   "TAG Heuer Carrera WAR211B.BA0782 black dial",
+   "TAG Heuer WAR211A.FC6266 black dial Carrera 39 official reference",
+   "WAR211A.FC6266 TAG Heuer Carrera black strap date"
+  ],
+  "source_domains": [
+   "tagheuer.com",
+   "watchesofswitzerland.com",
+   "watchanchor.com",
+   "hourstriker.com",
+   "masterhorologer.com",
+   "asiatimepiece.com",
+   "reddit.com",
+   "watchcharts.com",
+   "rolexforums.com",
+   "ashford.com",
+   "chrono24.com",
+   "aaronjoyeros.com",
+   "johnpass.co.uk",
+   "en.wikipedia.org",
+   "wallpaper.com",
+   "t3.com",
+   "es.wikipedia.org",
+   "arxiv.org",
+   "youtube.com",
+   "thewatchagency.com",
+   "watchwarehouse.com",
+   "chuanwatch.com",
+   "thewatchmetrics.com",
+   "tagheuer.io",
+   "wewatches.com",
+   "hollandwatchgroup.com",
+   "graysantiques.com",
+   "tourneau.com",
+   "fr.wikipedia.org",
+   "righttime.com",
+   "ebay.com"
+  ],
+  "elapsed_s": 27.04,
+  "started_at": "2026-10-07T06:59:09.132773+00:00",
+  "error": null,
+  "tidied": false,
+  "rate_limit_waits": 0,
+  "raw_response": {
+   "id": "resp_0ad5ea9ec5e30a01006ac5edbfab2087d295c0d29adf869314",
+   "access_programs": null,
+   "created_at": 1791356351.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0ad5ea9ec5e30a01006ac5edc08a6c87d2ad1deed93c922347",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe3aCa4tZTcdiIrxX2bHXIbHxFGLZoVrHadH7FGRX8repEHr92GCbNuyuAfi9tC3aChNIHHUtOKjLVivqRN-67tMalGRqoo5bnqrqo6xSeO0ewOn1ukgADVmtYHPsI_yEyVAWXcNytfCccBD8l1uaN6TTRJEjZQLNBog34d1rCg100IYv41KegMylZ_IUSjQVBQnsgu4N-0VGiuk5WJQs6EEs8MM-0KjE4IJH2Le9co35SWl9vSuz4U-gmWe__NvavzBqFP7PxMcStbHJjtkkt5WrvXLnz9dAbAd0LHpzYvnNIwKUsZOYz7JPj92xgUwYRynIFG5cHBkECD47aWCjyXmrarZL5ZbpmMPhBhmcg8_CTHRs1O8vG5uCiaJXSQCEQchemrg1MDdxHa-1ju_QfD9TBT99fc0x6v6-oUFv2jeRJm4L7Zw8RXZl7O-QfFkXvX9I0xG92YLSu-RrJGJoI-vEk3dd2ghQzELznMESF1thhCxkBMCDY1nQwLL03Io-38CmIqfIyXpYdB1xFv0vpPQ8OFWJZS3Qzs8rEmMyMeqEf_jFXAJ2MZCfKSjRFH5Rn9IADW6Zzj6rtEU2RLLs62X8T4gTjZ5gdBHnSD-YeX7dS1_MiBYrnnvycZZs3T3M_R-QCm3P-5gOPsaskNhyjfeMRVo_MUmErHBj6e74wfED6JlvydNeZJBMP3pT8bYV5MZkKcnSBfbJR_N36Gi-rz8DMWG0qlMyISO939tTgl1V5TAoY_w1QnvILtWF0Ig_QuCxR8FX83EZpm61BeNXgBCb5wcKDxHAefp9-BkwSdyDWFMXS9kqaiGPrtWH1wb0pzf_-Go8CUXTeulOMYwV6Pd6igkfAYsx7ILoR-t-Q17bNnDtEPPCr8MgeMcfD8SfM_kMtahhRuDhfXRhrfB-lYxandQauvfTmv3UiqNiwAsfPb9O3g0wZ1FR_SdSisy3zA3Ix4x1TLKeIlDOYxI948b9Veibf4rdHBBlF5RYQeg5xtKHraFSPhphM8ShNfJqAvvts7tuoCu3T6sayME67-wE7MEn1rSzQPrEMsFtApcFAqHZaxFLcOgKD5wRkcmXb5GeKXR4cxlClbZEc8EHg3MBsZxPXR-uzX95CprPxc3qndWPZVrIM9-nEBdO0nmiz2y6OMa4Cj_sEcVVL0frpHEmwdkhLzXn2SZXRRqOkIkiimwf5xGg8eHPzMWmSHu5RHzXEFuJR_7dftGJqf-mIB57y3LTeSE9LCNmAUoez9KhjXUiYZXSlSqabYF3VxlQ0-9q-Aw-0kTf_RCptP3sZTZ0r0XQoGxauhrEJJL8K2u3h2R2e5ddIqLF6L2xEyANt1l0eyKp5B9MWqstqRY_FiTlZAZYCfzdxfwAQAGtWVTQ4_GJnFYHdtNZTpuUr3UKFilWgmnxVyWJp_h5nLwSTW6QvHGIZefX2fgRoVZZ-DD4oYKhBlEZq_0PhiKHFf1rZhCYxQMGd1XPWCi316RGoUI557yQTL8E5J9-osi8s22U00ixG21UdtN9UdyTjgPb70-Aq4Lxz3kFM3JY_cOCcfdO-WAJ_jEZAzkbokZ7VLlSrC1z_XvTx0kd9LvggY3JIl8wckNGBhvVgSgYvjRUrsmnH1jOTzDpZjY2x9yhedNiybDBJmBhh_KMiyH5fJAyi7uCxcXCnVoNMq_q9veULwDgZjADnzi6Pnw7xF2meXOHBgT-l7zoUWUQCjHXqKH9UlF4tA-t137oTZXx_PRBBtV8YFhNiPCc1VW7TNJLNkmWrD8Jm11n7cuoDcON7UkDxFRjYAgLrUl4wc0o_ewq74zW8M4WyuK1Yjz_WNtUfC3XH_4MhDDqToajkNVI02GllfIaDEZDVwrZa94TQQOwJ1oKOLM8qguMbsetH9o-JRsgy4QNc4mYQWTP3iI_onRHJAwB6HY2YsRrMDT_Lylpun3sykPPdFP6QpooMP4aw90deLJWAUyU08vs1iIO-kOqcPby63pgbfh3GQfnXYMzaZincA0wB-WA7Q259fz3NlHAAs="
+    },
+    {
+     "id": "ws_0ad5ea9ec5e30a01006ac5edc29ee487d2b6dd7c653d389fa0",
+     "action": {
+      "type": "search",
+      "queries": [
+       "TAG Heuer Carrera black concentric dial date at 6 steel bracelet reference automatic",
+       "site:tagheuer.com Carrera black dial date 6 automatic bracelet 39mm reference",
+       "TAG Heuer Carrera Calibre 5 black dial concentric circles date 6 WAR reference"
+      ],
+      "query": "TAG Heuer Carrera black concentric dial date at 6 steel bracelet reference automatic",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-carrera/39-mm-calibre-5-automatic/WBN2110.FC6623.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/assets/brochures/tag-heuer-carrera/TAG_Heuer_Carrera_Day_Date_%26_Date_Twin_Time/2025_04_Brochure_EN_WW_Carrera_Day_Date_%26_Date_Twin_Time.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchesofswitzerland.com/products/tag-heuer-carrera-wbn2110-ba0639-17381955?_pos=2&_sid=c7f7277a5&_ss=r"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-carrera/36-mm-calibre-7-automatic/WBN2311.BA0001.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchanchor.com/watch/tag-heuer-carrera-date-wbn2110fc6623"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hourstriker.com/database/tag-heuer-carrera-calibre-5-day-date-war201afc6266-22721"
+       },
+       {
+        "type": "url",
+        "url": "https://masterhorologer.com/2014/04/04/tag-heuer-carrera-calibre-5-automatic-collection-date-day-date-models/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/assets/brochures/tag-heuer-carrera/TAG_Heuer_Carrera_Polychrome_Tourbillon/EN-Mobile_Brochure-Carrera-Polychrome-Tourbillon.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://asiatimepiece.com/products/tag-heuer-carrera-calibre-6-was2110-black-dial-on-bracelet"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1sbqz8y/wts_tag_heuer_carrera_chronograph_44mm_cbn2a1b/"
+       },
+       {
+        "type": "url",
+        "url": "https://watchcharts.com/watch_model/429-tag-heuer-carrera-calibre-5-day-date-war201a/overview"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1ocm2su"
+       },
+       {
+        "type": "url",
+        "url": "https://www.rolexforums.com/showthread.php?t=534184"
+       },
+       {
+        "type": "url",
+        "url": "https://www.ashford.com/products/tag-heuer-car2110-fc6266"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/tagheuer/carrera-caliber-5-day-date-war201cba0723--id38782360.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/assets/brochures/tag-heuer-carrera/TAG_Heuer_Carrera_Date_%26_Precious/2024-BR-04_Carrera_Date_WW.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/tagheuer/tag-heuer-carrera-caliber-5-day-date-war201aba0723-41mm-black-dial-012020-12542u--id48098472.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://aaronjoyeros.com/wp-content/uploads/2026/01/Catalogo-31-de-Ene_2026.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1uqgfse/wts_tag_heuer_carrera_heritage_calibre_6_ref/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/1afgn90/does_anyone_know_what_watch_hes_wearing/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1kd4sty"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/1pu8qkv/tag_heuer_carrera_calibre_5_41mm_of_factory_first/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1l92aze"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/u_ndoyp44/comments/c1j54o"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1j4ev1s"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/assets/brochures/tag-heuer-carrera/TAG_Heuer_Carrera_Date/2025/2025_01_EN_Mobile_Digital_Brochure_Carrera_Date.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/16egatu"
+       },
+       {
+        "type": "url",
+        "url": "https://www.johnpass.co.uk/images/pdf/john_pass_brochure_dec_2016.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1v05fy7/wtswtt_tag_heuer_carrera_calibre_5/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/1u1wcsz/tag_heuer_carrera_calibre_5_41mm_of_factory/"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/TAG_Heuer"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wallpaper.com/watches-jewellery/tag-heuer-carrera-chronograph-x-team-ikuzawa"
+       },
+       {
+        "type": "url",
+        "url": "https://www.t3.com/luxury/watches/tag-heuer-introduces-a-new-generation-of-the-carrera-chronograph-sport-i-might-like-it-more-than-the-original"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/TAG_Heuer_Monaco"
+       },
+       {
+        "type": "url",
+        "url": "https://es.wikipedia.org/wiki/TAG_Heuer_Monaco"
+       },
+       {
+        "type": "url",
+        "url": "https://es.wikipedia.org/wiki/TAG_Heuer"
+       },
+       {
+        "type": "url",
+        "url": "https://arxiv.org/abs/1011.3706"
+       },
+       {
+        "type": "url",
+        "url": "https://arxiv.org/abs/hep-th/0408122"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Rolex_Cosmograph_Daytona"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0ad5ea9ec5e30a01006ac5edc8502087d2be3685d9ebf4129e",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe3a_WhV4s9Fp83Rjfzkvpy3k3MM8bvNcSLMxxuixEZ4eO7HlNh3FqlpzlAscWTERtSLe165mFxCyhigF3pOdvu1-G7BJzDzzmxhn6Pj4xK2Tq049_CSu2PQEGXuU2owr5YCvGHW_DCAZlnygvTnaHFeDfZJxFUsuDF5WbxlxHUP4dd1Qs8UbRSzyczAKLvGtc9HJoce2_PeB7cS8QYbAPfxy8RSNfikuwqHutvQOAmF-WXZAK18wB-ZvOUH7eaappdM_6LhiuIvtFmAD-t42N6Ukm7bCh6nx2fBjBfYXAwLPBBdC1AtAI5XUAojmBkQENYKkqR5vx8AnFIpZLJWyGbTypJfgpKoQf8QCSQlEyfnc7A32iNAZNsJrKdL0gelvHwmG_NLhWONdOiyymVlxTeF91AVDyOzmvZL3mWE9V8TSSaKNRAs_I-FG_FpgsPnY_ISmxol-UQuJ3RdYat6joKxGumRx1YrYPfL38inGDl6PIinYYRdhLjr_okuoCAH-A-pZZHZ2icHtl7QVRK6B1RysIctAEfHA71EhOEKlVqSt-jE2bcz6HtsCwA4X-mZKsFfgc2EVtFbmU9ynk0rJL1Czo9aeHcCadpYJa6HICGOExhtoAr2itggPetV5idNf0_d3hhKePbS9_kM_iaDwuEtqzpP5EkFaDvdYIKfuSZVSoWCEwkJczzE_uXZgABtHTz7-ZhrKozyk3m24s0YtVa5nYiH1xsQbkv8Wvz-nmmI2Xp75ExRWMrE_o61WK586VOd_9pfKKfeMDudjk6k4TQB2Ni3EHpkTnXjV75RjJ4lFKiFkPYBAY2oIHEM3PUr3vP_ghwmTHvq12sy241Y69GMp44G2mjF4jPxLTqpwrOYVKLFwWcBcZVpxn4AnkJZjI7SZR52iZTzreQ9yY6pyilq2M_22JdHSU3wrMP8uNlC1bqxd_RfSvOfhlsiFen64TrRNbC-hd1tdGlkabBEc2cCvQS5qFa-vjlkE9-4y8HGen6kgR4wAV_2ayntMMjX_aMjVoxpsd4BZC_WOj_Jhb-Tt1UzIDF5ItMXZNaKF7083J1JXpMrwVtXYomWGd6WpQZgTsZVduECAt6Y_lByIz1952cfTxuTQ8xxTsIpDAjV-ivXGm1jRtTyKhRav7PZIlXsnpr2ZLik78enyv-SgA_3UebLcpJ9Up7-8JqU1j1HhhwBa3OBQ3VeCHlijmNDR9rcgyTPpKawFz7P4dH7eaTOsQhS3lR7_q9U3RDMkNf-ZN3vcmhTS2R77HvO3HGjSQUmeeRJu-H9xTYDl698LSh0KZZj5RUmefmSihAcXAaS2eAl7odrKW2tG3NGF3IcjRr1wl6Tx-OzrYdwtjIKh_iYymJuoqlwAwVFAw-57LToYvk="
+    },
+    {
+     "id": "ws_0ad5ea9ec5e30a01006ac5edc86a1487d298c274049d041c6a",
+     "action": {
+      "type": "search",
+      "queries": [
+       "TAG Heuer WAR211A.BA0782 black dial date concentric 39",
+       "TAG Heuer WAR211A BA0782 bracelet reference official",
+       "TAG Heuer Carrera WAR211A.BA0782 vs WAR211A.BA0782 watch"
+      ],
+      "query": "TAG Heuer WAR211A.BA0782 black dial date concentric 39",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/es/es/relojes/colecciones/tag-heuer-carrera/39-mm-calibre-5-autom%C3%A1tico/WAR211A.BA0782.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-carrera/39-mm-calibre-5-automatic/WAR211A.BA0782.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hourstriker.com/database/tag-heuer-carrera-calibre-5-war211aba0782-43561"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/nl/nl/timepieces/collections/tag-heuer-carrera/39-mm-calibre-5-automatic/WAR211A.BA0782.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=P_xBNvPezFQ"
+       },
+       {
+        "type": "url",
+        "url": "https://www.thewatchagency.com/tag-heuer/carrera/war211a-ba0782/47127"
+       },
+       {
+        "type": "url",
+        "url": "https://watchwarehouse.com/tag-heuer-carrera-black-dial-auto-mens-watch-war211a-ba0782/"
+       },
+       {
+        "type": "url",
+        "url": "https://chuanwatch.com/products/27275-tag-heuer-carrera-calibre-5-39mm-war211a/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.thewatchmetrics.com/watch-db-2/tag-heuer-carrera-cal-5-war211a.ba0782"
+       },
+       {
+        "type": "url",
+        "url": "https://www.thewatchagency.com/tag-heuer/carrera/war211a-ba0782/1390219"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.io/pl/product/mens-unisex-tag-heuer-carrera-calibre-war211a-ba0782-replica-watch-black-dial-automatic-movement-4/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wewatches.com/es/enciclopedia/tag-heuer/carrera/war211a-ba0782"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hollandwatchgroup.com/tag-heuer-carrera-satin-finished-polished-steel-bracelet-ba0782.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/tagheuer/comments/1kycdk6"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/tagheuer/comments/1ox88yv/which_model_is_this/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/tagheuer/comments/1lm2z9e"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=cCYHmvNccsk"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/tagheuer/comments/1kua2oz"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/irjdvp"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1l92aze"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/tagheuer/comments/1htvq1h"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/tagheuer/comments/1kser7n"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/iw46a2"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/1qks71p/tag_heuer_first_watch_purchase_of_the_yearo/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1pch0vj/wts_tag_heuer_carrera_calibre_5_war211aba0782/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/ohka54"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/assets/brochures/tag-heuer-carrera/TAG_Heuer_Carrera_Day_Date_%26_Date_Twin_Time/2025_04_Brochure_EN_WW_Carrera_Day_Date_%26_Date_Twin_Time.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/assets/brochures/consumer-catalogue/B2C_CATALOGUE_2022_EN.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.graysantiques.com/download/20027"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tourneau.com/on/demandware.static/-/Sites-Tourneau-Library/default/dwf000c265/documents/2024_Tourneau_exclusive_CorporateCollection.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://aaronjoyeros.com/wp-content/uploads/2026/03/Catalogo-17-de-Marzo_2.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/TAG_Heuer"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tourneau.com/on/demandware.static/-/Sites-Tourneau-Library/default/dwc3d8b593/documents/Projects_Brand_Corporate_Emails_2018_DigitalCatalog.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://es.wikipedia.org/wiki/TAG_Heuer_Monaco"
+       },
+       {
+        "type": "url",
+        "url": "https://fr.wikipedia.org/wiki/TAG_Heuer"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0ad5ea9ec5e30a01006ac5edcea0f087d296f4f85225ad4deb",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe3aSLO-tH0GG6MrGNJrPqT3zGB2XwX7HM77R1rlSP0-0EMF_hZ68xbIkKprgeLGe59bvCRRRQVa_HZkCvvzh4k2IQKwVXX6M_DAABoDdmwhUMz7rP3dybDGXhf8t2S6LpYI3O9bugE9c5KAjWRjUlUcqr2lFtTZahaPqZP42Qh6hm3CUljvo7BkQ4jKjDQS6jW2BF3q1hibWijHr-iCNXFmFDnt7cnQtTA235Sj70D7wv4Bjb1iWU_DU4kxMpk6W1UNbIp3alJsUgRusdoPALZp9qcGH90yH_Wffat-WaXcG18k33C0VSoveuibvkMwd3xLtm56ssXJW5jkfadTxruW57THT431Ym_v-I2sC-9KoB0e1av4TZ4XKsl2sVYUMEUtSjamsQN42SI1UyXP0fP4YVmn3RVedL9Y4t9FLZpM4EUWOIoJgkOf2PzASrl4ItHiBMvKuH7C6yei7Dnfvr6gSOEM4CvwRbkusHSus5ic7m54Zl8M2YZBkWGgsHG90fzJjEgr8OuB32JhenepcOJ9ST6__n2LZRU1XJJnOrbksyhN0B_u44Paz1nLiEnnRgqbfl4IAtth9esBW77wbHOxPVcnYIDyEP3LBlE9TJIK82PbZhjzSgdKv697dVQstE1gs_ulJdNELuxHXZ32bG2kBOJxdp9Fn22sPVFZ8lmO5LSV6oMo20ZYFqkuCjTUju9PSDEDgvRSmRgZZ0tBnJtVZjFOoFSbAGZ5tmJapHzfkRFY1pZiTX4Hy7gGexfgPtDkAzn3l5xDkcegEpnn_fB1txhzBjBDK4rdnbidSlYuLx7qJ6MKcoOBURUVytpLcCbFT0yvrHC1E1D_39T5ckSJkZqGLGYEjClJEEyFcRAp_DwZ5Jmyv47CjiQecnGYpatBsPPrjDJFyPH5FHhwCg6ux0GT7KZNg9DU-Qegu9ZuJPlGH5b8fa62W3O20TaWBLAKuBoai83fw9VJN1u7lqiGzt-fZsyixjrzLFxgMd5TrpqkRLq-ouUzumudaqQamdvPM0ttzdAPgeJiDDr6KQU89t6vxjNrMK7xBESA3IxAfDfE_FO0oS03PLlv-_Xzu7FmT3cqhjXovkg2rFdYMtNafMG3nH872WIirFotfZJ7aCNitwwGx2klBGlrxXOD7AG1rEgnheieOBSYCJePEQ9WqZLldK6BCgzAMsLASwZbDw-IUMBpCrDJOxr9CsUgzjfx3Ul2NM7qgBy_tiJi7Q-GUgezNlkAd3aXVe7Q45ENiROQO2FIKJjbZW_2I0gS1xEc4bBzH5ln7jySB-BkwpbAP_VuXw1h1ZfbKbhLhWMl9D9znD_UexGxFfzIbI5vZBCY7ee4oIYsb0oZ7KDkmbhhQcZTON-OCQsF5hbkMgqJPmykainybU_kB0L7w3HxhfFHUBes0EdEn6yQWXgruLDgshhxUFgSUBU-vzWh_U4a_7LCIifSTgTB5KOC74nN964H2YEw2QwiLJpYM6pCtasYfi3SPyJxCtQjYpSwiH3334AsWuxO53NYvKyMH6LUuGhUXlpjjs3xSmBB2bnopRFhEIc2jSMsuZLiAxjTtwgkxE97x0a_gxgr6HcsGT6WbqvbF02buhFnJSYPtJnoOpqCHKJfOyyKZJjVAgSXpH-vJwap_hERzgOnqX8YVdVaYBvUXgXBfkSxapujVB6Fr5qlKM4I4a50wsllmP5FLDfZZb11KcGVcYSL63xj6PaKiNQdhLuhvuRN75qhmFOmKXoaMuUUHQvf0BVbk0VEW1KxucAD_MT6YhPOMEXcxjSvsRSmL_AxtUdahhjIhSJznHj8qQ_G4RKw3C7W6WiMasG82wCQ_BTYUhBoFEvhsNp7RC7K6AEfskba3Ig9kXKp8IxsSEZTliTVMEAy1rs5fRPeELxiTT765oPBzhWrJlAbazrYMC2S0yhPArGGPHp3_esl-0ddhnLU1J8nBZq_C-aybmMkf_TVsSR1NyZrY2xi45CYO3RPxseImOUHJoGJ6BJooZYOZE3Fd_ReEvB8J7ExsMr746mJnlJnPdrdlNRpz8nAzh7VRvlDK0AM86FwudSulXS-LRrydgtXchKprwNp_Ql80Hs50O5EBwOFfhyQzROlXqPHsnMh2TIaN7CcdRgrARzJ0V3PV38AeGrgn2bDp2a3gcFhPfHepZqPljEel17oZMYGFTd_njwRO67WSu6QlqeuqCyntGSLKRjg9ySFUHLxPvrkGRrWiV3iyEFBTrUZBbK3kAd3F4lRqwB7uzWOosnnfKDsKvxGLZ2cuJHLwbNTODKC0vRX43tSjGzp-I3nBVGpEm8vGEgTQ_hR1LmTZ_LWE6HcbR4XflzOxF6ZRgaSugaevAASZfwB2QOTwppE17o9Std5N665WEYuazBqLRaxELya-59Igfux_mEydLSIJdrWeaeSp78yZJ9Mrv4qGFmUzdimvuO743uS_U7eA-HgeqRkp8vU4JsiaItAObAa8q5CiPswc_5d9TCsIPf13V17tjWgfmoSiJsgyx6dgCdmK7eGvSePKaguX8TSAADjMCO56danz3TEsSn6CtO7"
+    },
+    {
+     "id": "ws_0ad5ea9ec5e30a01006ac5edcf79a487d2acc1c5e0ef279ab1",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:tagheuer.com WAR211A.FC6266 Carrera",
+       "site:tagheuer.com WBN2110.BA0639 Carrera date",
+       "TAG Heuer Carrera WAR211B.BA0782 black dial"
+      ],
+      "query": "site:tagheuer.com WAR211A.FC6266 Carrera",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-carrera/39-mm-calibre-5-automatic/WAR211B.BA0782.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/es/es/relojes/colecciones/tag-heuer-carrera/39-mm-calibre-5-autom%C3%A1tico/WBN2110.BA0639.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-carrera/39-mm-calibre-5-automatic/WBN2110.BA0639.html?sc_intid=WBN2110.BA0639&scid=scplpWBN2110.BA0639"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/us/hans/%E8%85%95%E8%A1%A8/%E7%B3%BB%E5%88%97/tag-heuer-carrera%EF%BC%88%E5%8D%A1%E8%8E%B1%E6%8B%89%E7%B3%BB%E5%88%97%EF%BC%89/39-mm-calibre-5%E8%87%AA%E5%8A%A8%E6%9C%BA%E8%8A%AF/WBN2110.BA0639.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/lb/ar/timepieces/collections/tag-heuer-carrera/39-mm-calibre-5-automatic/WBN2110.BA0639.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/us/en/timepieces/discover/watches-for-men/39-mm-calibre-5-automatic/WBN2112.BA0639.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/it/it/segnatempo/collezioni/tag-heuer-carrera/39-mm-calibre-5-automatico/WBN2110.BA0639.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.righttime.com/rt/pre-owned/war211b.ba0782.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.ebay.com/p/14043776624"
+       },
+       {
+        "type": "url",
+        "url": "https://www.ebay.com/itm/336685399069"
+       },
+       {
+        "type": "url",
+        "url": "https://www.thewatchagency.com/tag-heuer/carrera/war211b-ba0782/47129"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=4DV9jEyItcI"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/tagheuer/ref-war211bba0782.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/1bo762c/tag_heuer_carrera_calibre_5_39mm_any_advise/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=P_xBNvPezFQ"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/ebjz33"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/assets/brochures/consumer-catalogue/B2C_CATALOGUE_2022_ES.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/1cd0qhr/tag_heuer_carrera_thoughts_on_tag/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/assets/brochures/consumer-catalogue/B2C_CATALOGUE_2022_EN.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/17p9eo6"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/1qks71p/tag_heuer_first_watch_purchase_of_the_yearo/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/17luyb5"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1j4ev1s"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/tagheuer/comments/1vgiq9d/recommendation_request_similar_watches_to_this/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/assets/brochures/tag-heuer-carrera/TAG_Heuer_Carrera_Day_Date_%26_Date_Twin_Time/2025_04_Brochure_EN_WW_Carrera_Day_Date_%26_Date_Twin_Time.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/tagheuer/comments/1htvq1h"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/TAG_Heuer"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTime/comments/1pmran9/firsttime_buyer_help_choosing_between_two_tag/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1kd4sty"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/tagheuer/comments/1s0lb4f/advice_choosing_between_two_tags/"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0ad5ea9ec5e30a01006ac5edd61bb487d28e2c31120d533fac",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe3aZcJA_iXsNiiJ3g526J7sIlCWAaG7nJUoIpRkM6BfV77TKA8LvRpiy9-Df6bICmaWlK7X1RuCiKavZOgmGGKO4r3dwk4uGiX-IWpLPWvBYS0dneOzs4w9GB6V3puPEdiOJ4p_byIuUPBJ8CjnJsnTDJs2Vqwp5nb7viVRZjdVGVl2FN0_K1TqzE6n3iDbfUH8yx6LRkgv7_H0fCCtJJwwO0t_4LEvzOWGchGx_YI2VebirnVBcwwNsc7dZIFaFpqQaDloAsqhyqqruh8qxtpHzOJhMjA57Eq5BYv8zbaYNwLaciU3S_Lb2oNaZ3seyQpLsYC1D1YY8pG3WvOOk2VrQFhyvLqfof5yOtCnf5gDzCgHEX1jbjpQ-n_hbsI_0CwBs-nZGnYCENChIskMaAJ3F3CqCEWAOPXErmFqql9oOiGGS1vCO3g1-HIXW1kmE9caf21ZzAOMR-YdcgJmTB90h5Ay5K2rdfwoYRf_V0qYcSBt6Dhin-ZSaIAgTDGS_i_o5daedWLGD5FWnsq-AoM_MTqts45jusK1kYMtdFkUQnC3Hlnqh-GYqDvj9hzRYLXLNqixTDnkoEDdqADrHPO1bv5nWf1ZrA-7vUZZzSR9cOM0c6C0LpbUtryBGLEiLe3qLS0RzLZHUJu65gBUtgW7dq2rU8cmlVFPq1rMIkmlSQtkpuAizaIRyrttXjOl6H2YI5SvGJ-gRlwHJY1NewbzNypxTU_pDrZZxGCyyTDAFS9Tydl-2NEcIBHl7wZ0AlF9fqzllAJYBwXeaDsrRs6RMEkh7v-T0RFm3MerTglYfKYS0kOXm5_rDc9NqPbbuTvS7C6Het04Gq1BNl0fq8NSXjUQGqb4XE2VOI4Kxq_r2AIngLsAy_nxcQ_geqqw_TwagxXMqXJ4JirY1pTeGxbu8jwDM0WZJCwdYlBf3mvvkGF6_bX-LVagD2h2QDqlboulYK8LMXZpRfsOuljq74gntE8scctJAcxWaRE3BUwtSIQDkB3JKyJnPwAbyWiShKFW-MdVq8coRfHotwc1wy8UPSr_JXk5bfy-62wvUBN-f3OkiuFOISzWn9trCq2mFdREKX2ZiotNAxCMo5MJppKiNcaPc9NxwLJROpl581d08qlG1LZn4EvFbponmfWz5Z3Nj9gitUrQmyiJunGXP-AsAbBwoDQxocKRSK8_lEXm4EvZikeimZk6-L8JPY3LyFESG3sOtvK7BFCh254VRhyAtVn-Y_beUEACX88ir8Sa4kglD4hcH36baiezzqBIuas0EtuseA24fSAnknY9nDmpPQa2a_ikx1CCDnTDrQp-DN51evfvplQtXYJBxv_nqWgQdjPhkiubZLCB9bMciCmF74bU_Vnn9o5cmhFHrPWY1FyBHyQkBc_N-LkoEa38zNnMcNts1vSIK_LoVg9DYTFWBCYGXiZL4kdCaxdWCqjqubR6Af0cmnRM7dzpNIE1B6yZ5QNagNH69pZtaF7kPXgoqzobLomOmXebsa8LnEzH4BVFvFeBE1u7zqQm2Lieh8vszBl-omY00hXrWAtLanNRejT1z_e_yQZHONp0YrzoCwDIswIN2XZvzUjVgW8K4GBnhbYaVcTNq03UA5P-u-TCNZi4N0AJ-3YQaTcl60r4veW0offNGckHSlT6df7JKbYJ8Xpi8U-euB_ed6PGXHw0lQ=="
+    },
+    {
+     "id": "ws_0ad5ea9ec5e30a01006ac5edd6c7fc87d283a5fe10d1a949e2",
+     "action": {
+      "type": "search",
+      "queries": [
+       "TAG Heuer WAR211A.FC6266 black dial Carrera 39 official reference",
+       "WAR211A.FC6266 TAG Heuer Carrera black strap date"
+      ],
+      "query": "TAG Heuer WAR211A.FC6266 black dial Carrera 39 official reference"
+     },
+     "status": "searching",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0ad5ea9ec5e30a01006ac5edd794b487d28f5b751453aa4bdf",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe3a62hUKPfmpkPznnpj_8NUOwZYMF-GEBqn5uu1mb259imy5fInh7ALZAqY6H6iG_CSKxo9RRgz5nNS35mVfdu12PwMWwWwkuZxXJrtIEa4vD8e-c-ZRMvggrPszKplzCL8QUQUo_HrjYcXmoRHYjaIWTt-wXzbO4d1DXGMk0AFtTIb7ZoU5CLiVoP2PPvDdGkSsdmEfM1KOTHMj2oxTE3ZmljKqKkF8jD5LZtfsL3ndHcixspEMiPwQwEkS-qeCUvktoLFNyhbWbiaaYdqFapPzI5Pcv-rrG4GQvHzvPI59MxlLjw7_c7n0_v_eLGmPSsQMd4d-cIroLXf0psLszbEn6xTo2C6H7bpbymuN9ghEYd7a5fiPE3ku1e8sXVKN_uA3RXEWKVOAZ8mna6OQC5OS8q4AkVeyTHSu8AcMJfOsg-INcnWmpLMWEaTYowzfUXRdpRUqCbtTaj0Cwny5WtTwAYqUC8Bt8BDL_LqQ80EvmOvux6mfMTpbqmE3KI3CLCpcLKYGJblKel9v9ArdZMQHYiUqwMASh7N39N3zyQT8gN974atFABkooPUlmsCUudWnOHiSBsXAQH5R6pXfQNWlX9zoKNbwtScHVeBy273d1QOCgO14nB94EtWBYodi8ibH_vG_uD6mYz7CEGeRz8YzA9xaOtor7483-zzYbTm8hkrtOvp22rFQO1bhopM-V8ZGLtoQoRr5oCCEdstsHh6pW4vUrck1SVPsWf8bi82VI1t5TpicW7nGcRiyu8phQcg9MfkcPoBjwRG91TcD-pmrLCBnflOkeHKUUTxA_iNnYG-O5KlRnPE0I5lO8RHPS4x6LjigiVM0Jk6Of88E4l5lsYfSCHenJ9jtYXLGIqs5xFSvN42-U4PkNgXuowOlTz2tN_NUS9pRi0p7O6Wen1rOzzwH_QC3u0mA85iezLHDubDR-q9j5fPnAzyKU6fAUUe_FJXG55AIjSRqcNiNDT0vkeuQAq1511mSkljoy91I0Uj4XhSFa_D8qsXxlC8fOobbx8yQ_2vbQ6ebMlPwx73QsYjwMxtIQ7_IZSrv3z6H2f4_UdCXi9OlCWs_VWTffMcCct5apuatjYA6k5ECNt6HCghFdFcRV45387rJ9HOPK2TG9X5SfgLdQyrEo33zJ8rpeI-AhnLTsxJvaY5vNX3DZRUC0T8_zf8E9mEA2AU-o4Ns-nMdh3jQuJNuLy1943ShdsxIs5uMbw2PXY0T5wUx0VdWhtR59WqKaNEXTrmb9nVU4JKLzeDwJvVkutBpg7uENIQipvC-WGi8fO3XG7LB715272kEPnb1yifFbHvE7CZm93VXBl7kVzYO0XmfLpbcvhxSCUGf-WO1MRt88UZcaYfokxr9dfQukZcCxptFwCXJHEYtgYk1YACrbeT0xQJiHgS_8RWZ9Gv671jZeFn75C8vAwijlaDA7777AsjXUhzpvgxISZQfzAPUN-PW85DVhDhAgDxzrZyFvgpp4fNnQLIgQcqLPJmhvRAnPXr_l6rXxCbJ7R0vtz94GwJhzMepK8FbdAPIx3-so4PBz0Kbizq9HacL41JYOP-tVaeAx4G7tak7wh8ceoU0P3eKHXm0LS6WCzR7gXSglWAZhOyaE2-JATGiwagnGM89buee4HvKdKp64Ge0FvHefpMFnjcjXmaVO0VgIs7rN75B7btX5DKWQCzeVKua9D863QVQmdXdGXTc_oYSL7JgVDK1KI_NB61WyF-46cXxkmQMb46iWi9ZejI0qxazR9OAJKcU1BZT3rT1rxj3BmbnlNA3WAk6xgNsZBpZUPhbcHCPZ1de9ObNb-MNoN6VvHZCo7dOjV8054fWijR4fhY1nRcjUbqnme9HilJMOwpFU4qVejJ9w=="
+    },
+    {
+     "id": "msg_0ad5ea9ec5e30a01006ac5edd8e26487d284a5db2b65ae7faf",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Tag Heuer\",\"model_line\":\"Carrera Calibre 5 39 mm\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"Smooth fixed polished steel\",\"case_size_mm\":39,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"WAR211A.BA0782\",\"WAR211B.BA0782\",\"WBN2110.BA0639\"],\"confidence\":0.96}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791356377.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 28255,
+    "input_tokens_details": {
+     "cache_write_tokens": 1937,
+     "cached_tokens": 4723
+    },
+    "output_tokens": 945,
+    "output_tokens_details": {
+     "reasoning_tokens": 929
+    },
+    "total_tokens": 29200
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 3
+    }
+   }
+  },
+  "search_requests": 3,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

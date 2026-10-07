@@ -1,0 +1,286 @@
+{
+ "row_id": 22,
+ "image_file": "022_patek_aquanaut.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_line": "Aquanaut 40",
+   "dial_color": "grey",
+   "case_material": "stainless-steel",
+   "bracelet_material": "rubber",
+   "bezel": "brushed stainless-steel octagonal bezel",
+   "case_size_mm": 40.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "5167A-001"
+   ],
+   "confidence": 0.91
+  },
+  "raw_text": "{\"brand\":\"Patek Philippe\",\"model_line\":\"Aquanaut 40\",\"dial_color\":\"grey\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"rubber\",\"bezel\":\"brushed stainless-steel octagonal bezel\",\"case_size_mm\":40,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"5167A-001\"],\"confidence\":0.91}",
+  "input_tokens": 3902,
+  "output_tokens": 366,
+  "cached_input_tokens": 0,
+  "reasoning_tokens": 273,
+  "token_cost_usd": 0.0005732000000000001,
+  "searches": 0,
+  "page_opens": 0,
+  "tool_calls": 0,
+  "queries": [],
+  "source_domains": [],
+  "elapsed_s": 7.393,
+  "started_at": "2026-10-06T14:47:30.028863+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_0162c67b292d3d12006ac50a03606c87d28e013afe1db5bec5",
+   "access_programs": null,
+   "created_at": 1791298051.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0162c67b292d3d12006ac50a04d7d487d29b60ed0df3142196",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxQoJg0BUgegB0SNq5RyLYkwxDbPosM47s-YqWpt8ppoDkTEzRUvSFwjQX-IZkT36_DZXkIyO1zC2JDxp_T1BuziZRIVsSby31YsCR66_Vc85invCCSITBiOyFmA-edbdFmgDQvnPzj6NfIBt4XZKJxs8TVJZbl7NLJNWxh6AgAIVlExocjWyOL1_k7Uiy7nTlo5ncWENT6OktFTPadTCdvqp3KUKmh2__5Riug_WsIUQNI4uVkLRUVJlOjOAW9cEeLE2Weg7fE1Oe5CeqBqvV8kueUMMEe_H4wYmqWAu2M384ROiZ4JCcifvISgUgZb7s-QRAFEW5WCvxxCELx_6xo_mBtF-BR7K-r5xA9HOdzRmrCC4SSWvpN3D0QkdwVB7uzwyJ8w80voSlJfK0vzCC8N-PlJNIezDF6IgSssyVak9MJHh6vsXICyilGdASBi7FgEfAD3E3Buo9hq3nfbcpSa0FxIJwUb-Fc48OduLLY_QtVnL1Jd30j7qFnIAadIzSRyykVaWU3O9hs0npMei5000RmlX2GRMeqjYYdk-nxvAvvnGqYpnOxcj1P02VVUzCvQob0Lu87x3tdRG0JO_K0IgeWIeH8SPkWlqWs1Hus1K3FVz-MQxpzZ0M2mtxhd9ARvCTvGyticEn4XGSxVBCf3I3XjP3hIoIboluiKFrh4S69c6M6DP_0RRTt0grZsFkV6ZsjNjM4GDM62Awee07etB8NGmGNd0fKghlDDye8WLVugCkpm6fRfsNnKXsoIO72IwhRYzaJ99Fw_1Bi-KJLJpVtIuGCbhhz8oa1I_JKjGLQduD0wsSmFHB9esdPp-fK0jwvLFKVfs3iLYLwfrE9kBffcnQIDFPg7aj1UdVu3A2DH3JAGpgY9N1-txG2ekm-PnANUrV2vFVocS1MYQNTB9Kyiz4TX3mu7_5OYHd39X71Bzd2DtIEfbd_z3H2hB6SX0fEqm_6qQSLqZ9DvuAb9csQowFfqXKI60lpXli6auyAoW5Nhbety9_NZcmlvpt0U8LD3iAg95vdiqbQ7l4XCJegmLzbA1AMva51ihMdyqiY3fq4n-o5a00pkZPpYeNNRFS7ZCaH68-PpakVJS_FjcJ5iehTxUFE9hAlTTG2VS510k9KDiDGbN9m7FLLWLc0huuzyl6keZizG7knY0XEGxs922SfKgscKStDCdyJj4Y88379Ad_NnAGSF9-SyxSFzN6FNE7HogmLpRLlWw7ifNlOIMpsgvdxCmK-Mz03WMjY_lN1mHVyZST-FQfTUpwUwSI_oqTCA6AmZ52I-Cen0EYaMzdFt6gCgBmzpn-BU-yBnUYN30Pr1P3wQrUCOyNKvjPXB4DIWodJGn5jhIt2foGSydYOkh9eHUioVse0v1c8DYzcynocuQOx3zVj0TnRr7Msy3F-KOg6VrhnFFTiuw-1o5AKgTCiiToR424anrGQwqlB87dEzVqsgCtjRQAI7GiCAyg6JkhKGeBCWyQl4XdkesDHHVwnZQYyRyCwZJCxe5nvLoP1HveOc006cHKTyZnPqSiMGsz61LtXHOp2QkHEqkY5ksoCGjclKhX8U62U0cXz4Xp_ZaQgqmlHalkemdoInHLq7UVe2MfvnRsZWnQF1dRaGsqFfi6LpbzOO-Jxvkohas-cMKEwW-itnW5-xjGboQxJE-ra3GMe_UlTvBn-ntLC6a0DCtf3PgfDu7iBI4E7U8mfvOwrju7_BGBymw17P6VpfKj3htkn4S069LTHXWxtF2Sls3UXoUtBrWvKcSPAq3lsgWhIW6AtugdGwdUImu5hgT_CsbIHK_0Gq0uiLrgJW1aAGJE1_TSQlBkxRbUJl09gk4TIk3Pv4ayqoyNGUhdJTJTUcf67ltfESS1oLaK2474SRCsKf9unHlAjsQhZPBCjdKb6pTR-_Yy3Xq63ORWHrVE9OqBRaO-6gw6TICYR6wTZl__gLCUAf67M5Td_ZZJ5R7YeX3rEjEIimJQa9q7YjZKNsJvOis5DKkUPVLlWQV7qtnQ9EMlU8A7MzMxz44ypcyXECNG1Un8cMxj51aLqytgFSXxYoYr8epjGuB44keXZkQksDrQKoZs3jPqBtstTXsv50X4DfGzkWEFMBpYgYiMc6FVhtYde-k_ubC6sHftWQ0cEzmNMPx9Vp75KLBeEAxol_-rqNBFOGSjL22p-JWVSNVrFx9MYov8a-g8Sd_892uGRJEjYnNVU1XsETTtXGiB2CY1R3DkLNDE6Xcg6i4IvP0Aa8pW41yWCWU1ciLHhXrNU-L9XBx9JSrEW_Seem111oF2tdzmYnCwuS0Ox7XVQ805fpGkFXMCEkBoe-H546zzatGRzuY0H2_tCvvVNkdMUV_qW8vhFzH7C1SKJQAaYkSXYmPOzKUvzZ6jC7aZU2o75ICVv1ThphKuuxY5V-t_WB3S8K5E5Q_AZQcJ-3evnhqxZHViEnBQVRqR8wZg_LN4WgpItxhfolT2fOGtAIh5Qgv6nwiKsD-jG6P-UIBAr15uwAzftRegknhFsCHVDZhoVHQbFPDs4kAkw4r7m9q9jNtVgsGd_IcKkPpKJykt_eThFfex2ECOP4Qix3apl5Ep30cXJKzQxbtaEgjzltmKJLghlmaHHDn"
+    },
+    {
+     "id": "msg_0162c67b292d3d12006ac50a088a2487d282f453d21118dd80",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Patek Philippe\",\"model_line\":\"Aquanaut 40\",\"dial_color\":\"grey\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"rubber\",\"bezel\":\"brushed stainless-steel octagonal bezel\",\"case_size_mm\":40,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"5167A-001\"],\"confidence\":0.91}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791298057.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 3902,
+    "input_tokens_details": {
+     "cache_write_tokens": 3899,
+     "cached_tokens": 0
+    },
+    "output_tokens": 366,
+    "output_tokens_details": {
+     "reasoning_tokens": 273
+    },
+    "total_tokens": 4268
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "search_requests": 0,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

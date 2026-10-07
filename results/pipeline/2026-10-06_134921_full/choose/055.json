@@ -1,0 +1,40 @@
+{
+ "row_id": 55,
+ "candidates": [
+  "A32397101C1X1",
+  "A32395101C1X1",
+  "A32395101C1X2",
+  "V323952A1L1X2",
+  "V323956A1I1X1",
+  "V323952A1L1X1",
+  "A32397101C1A1",
+  "A32395101C1A1",
+  "V32395101B1X1",
+  "A323951A1C1A1",
+  "A24315101B1X1",
+  "V32395101B1X2",
+  "A32395101B1X1",
+  "A32320101B1A1"
+ ],
+ "result": {
+  "parsed": {
+   "reason": "The watch is a steel Avenger Automatic GMT 45 with a blue dial on a blue textile-style strap with white stitching; candidates 1, 2 and 3 are all strap variants of this and are hard to tell apart visually, with the blue textile/Military strap favoring A32395101C1X1 or C1X2.",
+   "ranking": [
+    2,
+    3,
+    1
+   ],
+   "clear_leader": false,
+   "none_fit": false
+  },
+  "raw_text": "{\"reason\":\"The watch is a steel Avenger Automatic GMT 45 with a blue dial on a blue textile-style strap with white stitching; candidates 1, 2 and 3 are all strap variants of this and are hard to tell apart visually, with the blue textile/Military strap favoring A32395101C1X1 or C1X2.\",\"ranking\":[2,3,1],\"clear_leader\":false,\"none_fit\":false}",
+  "input_tokens": 6040,
+  "output_tokens": 141,
+  "cost_usd": 0.01349,
+  "elapsed_s": 5.256,
+  "started_at": "2026-10-06T13:53:03.908011+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

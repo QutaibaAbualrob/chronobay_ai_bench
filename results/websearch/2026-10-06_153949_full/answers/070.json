@@ -1,0 +1,667 @@
+{
+ "row_id": 70,
+ "image_file": "070_cartier_calibre-de-cartier-diver.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Cartier",
+   "model_line": "Calibre de Cartier Diver 42 mm",
+   "dial_color": "black",
+   "case_material": "stainless-steel",
+   "bracelet_material": "rubber",
+   "bezel": "Black ADLC-coated steel, unidirectional dive bezel",
+   "case_size_mm": 42.0,
+   "complications": [
+    "date",
+    "small-seconds"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "W7100056",
+    "W7100057",
+    "W7100055"
+   ],
+   "confidence": 0.97
+  },
+  "raw_text": "{\"brand\":\"Cartier\",\"model_line\":\"Calibre de Cartier Diver 42 mm\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"rubber\",\"bezel\":\"Black ADLC-coated steel, unidirectional dive bezel\",\"case_size_mm\":42,\"complications\":[\"date\",\"small-seconds\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"W7100056\",\"W7100057\",\"W7100055\"],\"confidence\":0.97}",
+  "input_tokens": 20967,
+  "output_tokens": 875,
+  "cached_input_tokens": 6250,
+  "reasoning_tokens": 764,
+  "token_cost_usd": 0.0019717,
+  "searches": 2,
+  "page_opens": 0,
+  "tool_calls": 2,
+  "queries": [
+   "Cartier Calibre de Cartier Diver black dial rubber strap W7100056 reference",
+   "Cartier Calibre de Cartier Diver W7100056 small seconds date black bezel 42 mm",
+   "Cartier Calibre de Cartier Diver black dial steel rubber W7100055 reference",
+   "Cartier Calibre de Cartier Diver references W7100056 W7100055 W7100057",
+   "site:cartier.com \"Calibre de Cartier Diver\" reference W7100056",
+   "Cartier Calibre Diver reference W7100057 W7100058"
+  ],
+  "source_domains": [
+   "chrono24.com",
+   "hourstriker.com",
+   "wewatches.com",
+   "chrono24.co.uk",
+   "therealreal.com",
+   "milanostraps.it",
+   "uhren2000.de",
+   "24diamonds.com",
+   "chronocheck.de",
+   "helvetus.ca",
+   "my-watchsite.com",
+   "youtube.com",
+   "reddit.com",
+   "marcelremusrealestate.com",
+   "dist.phillips.com",
+   "it.wikipedia.org",
+   "bid.gwsauctions.com",
+   "astagurubucket.s3.ap-south-1.amazonaws.com",
+   "myassets.theedgemalaysia.com",
+   "en.wikipedia.org",
+   "chronodesk.com",
+   "tourneau.com",
+   "watchcharts.com",
+   "chrono24.ch",
+   "userguide.cartier.com",
+   "am-s3-bucket-assets.s3.eu-west-2.amazonaws.com",
+   "orologiepassioni.com",
+   "arxiv.org"
+  ],
+  "elapsed_s": 42.166,
+  "started_at": "2026-10-06T16:03:44.230942+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_0b635e03c533db49006ac51bf5cab087d2aa4880d7fed236c7",
+   "access_programs": null,
+   "created_at": 1791302645.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0b635e03c533db49006ac51bf6de3487d2bc409ca784ce8e20",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRwKEdJsIWdUQJ_c6ISaB6aMD5DByft8M85SkFwXmbk1HKkb1gvGW-RjAj3MhpaCHmeaYRx7uVvZYCy_T26UxJtDH9AKKXrdOs8dODDb_ndGXoPJWMYI0nlSFdaw-bc6RUXLTMyLc085ZwF-rezNvj8r53ZG4EW7Kl2cvdI56boxU-7WrRcGYT35FJ8pFif7irBzL2SlnWy9g9XpvQwAG7-IzX1qbAG7Ilav7AIDXq2vs6gx1MjSggBQBwZWrxnNVu9_2Vjgc1u5K70zunu1rTT2LMxHsy0aVC0FBoYXVEbRVbLknhkZoiwp4d5eeqFFW3c2qKzziaBYWJfuqJRgxqmGVIsjceJ3xI5L2zh0tvCU-NB_JU8H-TH7DvMrBnqvbaCCZeZbl7M3vYW0MSMtBqjLoYqg7g7JpbZIPzS0JKxvpEWgTarrPJv_O8kBVPIDsYWq3A1wnxzPS5SCdAIoePq0KXro8qSv-48Lt7183jJc_GinXl42-VzWhYDFhAWOWRuDx24IzpWW1OIkHd1hBFaCVizxWFZOCNNtiIMkNvqG1sK22PaxfSFF_vkEeU6pumEXa762JwnOCrRUNGnay9pewFZ7Y4dlnN869ld3dRVBAVWiOwdSZTGPfXKkJ5nZPMQfuCBu5WhwVjOLTODCCkgrXnuWZ79bCgZSIZU8j4ONUoZhOjPdFKB_Q8bw0yC1EdT0_PRtzM3mKWA26PAFKWbxJd_Iz_UP3YpTSbXxXy9lRulxWCfoVEvYav1ZoPQTYqbqJqLH53TW4gKNJvYLGEvk3UcB5D89ZJvtr_q0NG2seFtLRST_fsTK3s3VtN1jg83yp9DbgWy067Ynf3te5UMpAoJV2x7nyZM2FAkJojDPV1LHTjO__JWgd3DVyYdyIW71x3gDc-U6egghLQXEU-r3C4oXrz-BpWu15H3a5yCymYFu29uRoL-KphSGUd_P5jrW-76rn7ANaOW6pm1M7kLEvFKQrXUc7-GkY3Zgd7tG-Hq0-hkG2PVW7T9PZ1Oi8NgXJbtLntghcTTn6ayf49oJasw1c1xyyGUw3_grlW4KqnBaM2v2DS42qqzF_uC6M4_b22s4nMpceR0vHRAlbYOr9eXhP5TQ_Zvm9datu8kMKxsIghtqfNDDyPzjpeCKRKoIFUE0KuQ-g5uTEIs02aPZNGnu1KAlPJnZ6EJr2Z8HN_3FpTH2tX6ri5POFBn6lhqKsuMtAiHEjuiBGjIg6p-Rfy6tBQAiaZ9piOiwHcIn24QnJJmIMPButYVb7ej8wxQk754pAsqY2bvTHlBJUl6LCb74l1SvGCmsJVmI7hCkwjFZfwiflbkI0lbEnqQLxH7_dpQhpHg4VGReakPRRSvx8BE0-0ZP85KJObNgfsGy-qov9I-_Kyz47LiP5MWklsEruYpQEftd-W9vRjNu-ZbYHq_k448BgMqPSG89UQJV8X1O08LzONh4DAQw9cORFzTVW2AS6Ft4YlPp9jT7BLvTY7pSlUy9HCKNrt4UV_KvTIAPL3Fc-LB5uniyWWDPhDEBW1knuz7YFd7u8oD812RjDg4dJbR41Yoo3EW7n8oadNLpG6rxszsgb7x1RQbeTnzQD6_bClN_aDnkk4YgwXjZxuLzGS43lIMdkX1RwCGIuX73jKxtIgJFFFpSOJTr0mdgHWngM_BDDwkIpfgdWfoRr6vuxSzskh1nYlMvFRnOu9c="
+    },
+    {
+     "id": "ws_0b635e03c533db49006ac51bf7eff087d28b93227fea5fca00",
+     "action": {
+      "type": "search",
+      "queries": [
+       "Cartier Calibre de Cartier Diver black dial rubber strap W7100056 reference",
+       "Cartier Calibre de Cartier Diver W7100056 small seconds date black bezel 42 mm",
+       "Cartier Calibre de Cartier Diver black dial steel rubber W7100055 reference"
+      ],
+      "query": "Cartier Calibre de Cartier Diver black dial rubber strap W7100056 reference",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/cartier/ref-w7100056.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hourstriker.com/database/cartier-calibre-de-cartier-diver-w7100056-44167"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wewatches.com/en/encyclopedia/cartier/calibre-de-cartier/w7100055"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.co.uk/cartier/ref-w7100055.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.therealreal.com/products/92630820/appraisal_report"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/cartier/braceletstrap-calibre-24mm-x-20mm-black-rubber-watch-band-strap-w7100056--id36491454.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://milanostraps.it/en/a/orologi/cartier/cartier-calibre-de-cartier-w7100056"
+       },
+       {
+        "type": "url",
+        "url": "https://www.uhren2000.de/en/products/cartier-calibre-de-cartier-diver-w7100056"
+       },
+       {
+        "type": "url",
+        "url": "https://www.24diamonds.com/cartier-calibre-de-cartier-diver-mens-watch-w7100056_28501.html"
+       },
+       {
+        "type": "url",
+        "url": "https://chronocheck.de/en/marktwert/cartier/w7100056/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/cartier/cartier-calibre-de-cartier-diver-black-dial-w7100056-3729-42mm-12707u--id48536716.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://helvetus.ca/blogs/cartier-strap-guide/strap-guide-cartier-calibre-diver-w7100056"
+       },
+       {
+        "type": "url",
+        "url": "https://www.my-watchsite.com/calibre-de-cartier/4794-calibre-de-cartier-diver.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=9rt4-LOA7a4"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=xtXeyk13TCA"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1svslpk/wts_calibre_de_cartier_diver_aka_cartiers/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1t297kx/wts_calibre_de_cartier_diver_essentially_cartiers/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1h5rggm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1gl0gd4"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1hadora"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1mmvd8n"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1jj3m3l"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1fgxlk5"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1dt23at"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1mj8z0o/wts_cartier_diver_w7100056/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1k0vtjg/wts_cartier_calibre_de_cartier_diver_w710056/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/113qcn3"
+       },
+       {
+        "type": "url",
+        "url": "https://www.marcelremusrealestate.com/wp-content/uploads/2019/09/MR-Lifestyle-15-1.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://dist.phillips.com/content/web/auctions/NY060123/NY060123_en_1.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Cartier"
+       },
+       {
+        "type": "url",
+        "url": "https://bid.gwsauctions.com/print_catalog/index/auction/112"
+       },
+       {
+        "type": "url",
+        "url": "https://astagurubucket.s3.ap-south-1.amazonaws.com/AstaGuru_The_Exceptionals_May_2024.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://myassets.theedgemalaysia.com/pdf/2025/20250728_M_SR_1585.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Diving_watch"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0b635e03c533db49006ac51bfd1e0087d29954338dceddd3c1",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRwKKF43SFTEg-TIfT1__zFZnpFU51DwheLsU3MAqczNbdb1vRz1WAIv0UYzIEGs01JOpKxhIkN68zbfOE8lmQJfO1e_UAfeg1uMp0KRjvAAAOpxylCxO2Z1IUYh_xnxkY58khRlfqitIPgTvv2Nj3WyZQkWiuxcNzr_czOrtHSBbKVyg7TorhvysNLqZ-1dIpYxLvpDVdTp8ZeVRY6oZdtoVbaafvPxweRn-Xh8uYflEnRAEIQkSgqtq4_TGZdK1XPa8KvmN4NYz-gpE4_IpSTKDDKIRuVJnc-tUMhfmXZqvROwrKdQnsqUSRo0QHCaPGpihBik_dRN6gKbFo5ETzTqqV0jbFInwVFv3hiSjvJU_3-Sm0kIyY_n99z5wuO1gSwS6ssiAOv2y0dof6SMe8KubqTeNXzBfV9c6kQJvPzHqhvTEKBG496isNcQMD1lW_-KUNdLfTjsNjQwl51sdot_Z3kaNgyLar0B49I62_f1N24U6aINIqyNXg9oAVLiGP-NKbeVPUWRTpylQdYwA9RUNzKZJYEG37drk93vjdxs5Gt2tLP-L5MFZLih4o0b1_VV1TNoGXP1YvuxFSfh_SSddEPzR3zoEvjzFfVZK6oKgdlh7VV8orT5gGhDZgW-GXCgXDv6UaOOTFyJG6nknlbqe5rAQj3_GbS0yTBzbSRUdj35Klb0RA1-_daqrikYHH1eaj65peFB2QyNFv8DLZ68cDMnI_5YRu-h3SrJNsHOQFaJiB2oa9VobPIQxa7Hl03CXp4ZDWineloNy-s8YHj2nuYzA_0EN3kM2HRybdcmOzXVMJpCdyzWrdwd0Qo8AzVI8VhvGLDkshxD6vj3L3ZFBLPQ91nQIxcMv3u3z-WhMekcyyMQSDKmclEaD7TErfNWZX2t-M1qe5A5LkuKEMHlhNTyiomTGIfChI5wavz6ZBcR0xAH3VSLHuOLY8fZh-AYnIVvQNlzQQIT_GDIHWRtUakLcc6P_kSDLddGGeQrz8R1pm70b2BVPaRdcyo3wzgzk0oOXqFUcnMs-e7rVGJhr0GqYr2yj09rNeD7IjO2ko0ujxcb6JgzUEqf_fQp9Mx9fepScbqFVOPGWIfN_GUDsB_e04m7Y5yl0vTkD3aKBn9LNOpelAfWBWmH8Dt0KG7HaqqLJfysTAnZivWixBh8DQpE047uEjgFvu0JhEx0Xc_XXglXSHtHZGHg-t3C-NTrhiYzK9j7snO-Dq6ST80NviY1-CpiXGgGYLkgeEEfzUaLrCBKU29p17CnHB-GtM5a731hH1OKRFTagV0GeGiJhXryon8LR9GqkPhpQSBNhL7Ht2b-W8ElsbuSUIrcBI5stFiAY1MyZcYeB7PMPAEHAa_HtsZGQVqEnn2zR4gGLK6OxxSxAEZIk79GrOjJ667zBkR5p-Su5ujkPzhkTaj12xLToC-Bp6FU9UGxPyQKqRqkP1ADSUlFMWKaU4bWXHUaFmgbwqGH6UKcpnWJ9OfTjbxpPVTQjj2KslYW3GZvdLpzeafLTdQ1gzBSzasAo3OhQfrE5Aj5pvLwKJi4OHNjWlJY-0niqD2Zg_rlfu2SlKjBZgWvAiDLLU9tE5c_aKQ2NjAGHBuavaElA-KZOlKLjA=="
+    },
+    {
+     "id": "ws_0b635e03c533db49006ac51bfdc91087d29def03a93b0ecb51",
+     "action": {
+      "type": "search",
+      "queries": [
+       "Cartier Calibre de Cartier Diver references W7100056 W7100055 W7100057",
+       "site:cartier.com \"Calibre de Cartier Diver\" reference W7100056",
+       "Cartier Calibre Diver reference W7100057 W7100058"
+      ],
+      "query": "Cartier Calibre de Cartier Diver references W7100056 W7100055 W7100057",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://chronodesk.com/watch-database/cartier"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tourneau.com/watches/cartier/calibre-de-cartier-diver-w7100056-CAR0120421.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/cartier/ref-w7100056.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hourstriker.com/database/cartier-calibre-de-cartier-diver-w7100056-44167"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/cartier/calibre-de-cartier-diver--mod2438.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/cartier/ref-w7100055.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://watchcharts.com/watches/brand_index/cartier/calibre"
+       },
+       {
+        "type": "url",
+        "url": "https://watchcharts.com/watch_model/6031-cartier-calibre-de-cartier-diver-w7100057/overview"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.ch/cartier/ref-w7100057.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wewatches.com/en/encyclopedia/cartier/calibre-de-cartier/w7100055"
+       },
+       {
+        "type": "url",
+        "url": "https://www.therealreal.com/products/76908637/appraisal_report"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/cartier/cartier-calibre-de-cartier-diver--id48794185.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.userguide.cartier.com/W7100057.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=9rt4-LOA7a4"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=xtXeyk13TCA"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1t297kx/wts_calibre_de_cartier_diver_essentially_cartiers/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1mt6tnv"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1svslpk/wts_calibre_de_cartier_diver_aka_cartiers/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1nz4i7d"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1k0vtjg/wts_cartier_calibre_de_cartier_diver_w710056/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/yqnlfm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1mz3p3h"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1mmvd8n"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1v8f9b0/wts_cartier_calibre_de_cartier_diver_w7100056_the/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1mj8z0o/wts_cartier_diver_w7100056/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1k5cj1y"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/yje76z"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Cartier"
+       },
+       {
+        "type": "url",
+        "url": "https://www.marcelremusrealestate.com/wp-content/uploads/2019/09/MR-Lifestyle-15-1.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://am-s3-bucket-assets.s3.eu-west-2.amazonaws.com/fellows/prod/documents/cc44ef0d-2aca-ef11-834b-6045bd0f8a61/5077.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.orologiepassioni.com/listini/cartier2011.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://am-s3-bucket-assets.s3.eu-west-2.amazonaws.com/fellows/prod/documents/f144ef0d-2aca-ef11-834b-6045bd0f8a61/Fellows%20-%20Watches%20Watch%20Accessories%20-%2025th%20Sep%202025%205117.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Cartier_Tank"
+       },
+       {
+        "type": "url",
+        "url": "https://arxiv.org/abs/1407.1057"
+       },
+       {
+        "type": "url",
+        "url": "https://arxiv.org/abs/1710.10726"
+       },
+       {
+        "type": "url",
+        "url": "https://arxiv.org/abs/1206.4728"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0b635e03c533db49006ac51c05a2d487d283fe4f67a7b9296f",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRwKheBunDlNUctQ9icILDjLQa4K_sBSd3hsnp_SmZNN-6qrBp0YdLIJsLFnSFv05ODnMXD9mEHcz887_nDxDBRdboEQUjlUV67p564B4D9lQComvSeT1kpY7mwvET32C1grSrqoP5BpcKYe6J42vfaFRo1zCTKzpf6MlmGM0zm2Sn0OOromChZXd7irpB7W7Qsfp3f1zH7uM079f2aPcb7c0_R7Rl8MeBMEs25itp5zP_K2ZHrsVoKLJ0eqJ4PrAciHZ0OqNlCiq8UzzIDkbd9b6OVU_el56dP70HIMHB9q4TqYAldBz9PvpjUomnZswRLJPKAV0GrmxuSbceloK_AIog4yfLfqsgyN8CaJQHfIVBR7cN33qQVPXeCpe0c5cyRT6F1ozgwjfn6Wr5j1Dq1H-0jCi9zdb3epOqcTi5_wx59KOdopY4GI1MJsnJlcDS9KabtTF5l2rF9UWR4KdaQhQulwbRdDoJtJtfZRsl7X-I4bLj4iYurL8tXY0lcUTB5n8HVekpK7wfL5XlSMdrIZhi5UqzzRPBoqWSXKj59w0u3ntb1COEWWM0sMdaEHU7dV27-LhNRZ3iz9QXV2jTTX97goe1a2PxwgObQ2sOvCGzSwApmHUvuGeGv4_T0pHTcHkMDsG-nslneP_uYKTsBFDyT2WFeNa176PdfiWn2uPO1_midFFFzUJ3qDIQqv6RiyDsHGuEuihg5n7Cs3aXD9athj-27GuaR9vTXgiW6T7hkNdMrGSoQ4OwhM2J1HRehM85yu-MdyJwFMyK_MQOWWQkx0QIxjg5LNPICUZ_D00xhKqmJ8LldJdZ-LfM-HmzNVQvffmq84urstXhOQD-ufJ1zhcJG28XQrYVohNyvYwygz6gNG1KM_kZzZj-_r6yjs5roZT81jDek8-5nFhGRzQC_XPwVSxY_0m4M5jMShWW56JbEXskYCnF4Z47AZxxEdeji1dYXeJuBufyBK6wNEDcGF4jjC1uu__VrJZaE356beUeThj8mcJBySArIFeGxbB5JYHmg-e5vZeKJMmCAASugvd-mECdPmwgDBoEnMSY4cULECOe42bFkzjLI1frneYjVPZPFjq2q3CJvAuoC_u7csh_6E2DeWMaX87nXGtvpScdeSQK4g9yiTgglS_PzyhG0Tt5axnkukwDQZz7rb0OGsUT-mKgH3VrzzFKFXAg8ooKKEzz_Vga3E0IIprbXtUWWVxd1AnAI4ofd_jHmPTA038IrGKYtRlA-gRi7ZLkFlunb9TyfC3chKQCjDB9dM5quXwDtRCeC5VPZwFPM1G37QTapwe-4F07DCRL5P6BBB313sySfXNRZYCBZkmbWx29xwH7vGpJMH1a9YJOl7lZvXBD3331onvxsxUql2mvm1uHNiVAUs3dupdS_93pTjgG6QBLUjZc6U641DWHuA5Bqvj-iXG7OJBkT6rIt3_-YOTWgN6lxE5SyH7npsLStQsNMoFoCr8-4MUpyIya6_XzPxv4V8gYk1Y9CPNB38Ejm2pQOdbK6iHm5h3S5mpyElXEbOGDnJToQ4FQ6lT0sRMv_NFnzIjF0U-tMkgOr1pfRuy-a0Hq0wnw0Zl3o4jEWC6pwpDx510y0pMoyVagkr8kpYSuh4qmgnI1b0jzQ9M0GZhHlkXK65RFCBYdjwrNtYm-_IH9s2owk4jaAy_BaZXfHsdunqWZ9qkEcs8fYKNrl1fmULjKsyGkVotB-1Vknfe5lBIY0NNjK50vexbwfGzPxf3J_6yJcX4Re69b9pVbWpz7QgOMOJZCoQJfcrrzWhYeQY00QEfCtokPlAcAAlmMcQjpsDD0ETHGZGnZdyv4ApXw18j6e3-7tnCTJjicl-7_1cO0fCEVnyEtSF_SmtQwLptFLnRkJM3Tf5FKVt44whDVUAy_Xz_5r8GTXKOypS3oGpmF9hhLaM3XENe22BeurgP_UQlp5bIAYXWVCYQctishT3p7zXGtlLfc5GGCJ-_Hvtq8uQ1xZ2Gu5ImipYdI7vTQlRN_f-rNr4n9fn8gGnpXqul-pS7IWMjxYTMEtniNxn0rgMdU-vTYSEhdg4w4BfujEui_IqGs8708gK02E2aVJ5cZ3Rg00ObKTO639JI7NO0wO4RtV2O_YwT1mz_eREA0gmeDQ6tVf40pcBdaiXwivy8jvdU90qRq3EIpYq5kftWcrlUOSgBxhyJ3lysczzFaJgdcH5YoHNo4WaPPaKjY7o8vrIHngoAOUI-rn6F4NXBrkYHz9_llq8kscq_O0tk0Eq_GfJdFBClvi3BEOBJxYi7iEkFJX1BdMABod58ot5vFDL0VyD6PjglsYXq5zchkVufZj5t4WA9fDA8CtpR3LKtqKLmL-vdsppSHGPjpJrbPfdY4nCq4Xny0IyQYkV0A9eh2RPCRM_XAPYmWLDo_TR72QNcV-JCYyfZr1rxSZUKlFeHjD_y7MRjExhyGhanXJjYmnfbTMN0xEDKJYOapTXMW1PojuTmm8a7dlYp_QP5y4LAEFVlKQZ94dAIAgRgW7dRi9LLRMX138HbuxJLTbRnaNJCCeUCMY1FH_6UILNOrlKvCUu_F4AX82D1jBn8nIeGczuxE3QFN39sve3l3v5ndBfWVtGsv79xiFUUPJxwp2NAMoauhBJlqOEfE86Y2Ka5PPNQei-NTomtshTfRVxrQloykFu-1kgq6xQnsaX_F-5ML9rGN2Dx_kBFRvzQk5KgZNMHEEVWRfRbIoV3kZ8c35KWaY8ZxajLD9Ad9_JFc4q7yOD-m5kE5b5tlfIXWZmCs0wfysRc7oC_q62d6xIk_0I6Rv5DcEA7tjII2xtiUdVamL6e5WFMNVajCa-s2uj4lBYavoE6D5LfQwP8OpvFppw7RjrJH7SogMZFyhwpUVSgz3BKnNBrjjtm5C47K4oOyiRRanhyvkcUby_5SarcML0sBPK5bjN5lMNICGKpnYN5_OpITQiwVsYUKdHM0556wrgbBafbQ_DPgTZImBc742Uqa-r2VgmDcQHzuR5K897ebur311DF8s-RHSVqkCz8Sdi7icn1s6eLDOf29Yg64r0nK4ZyKJJS5I6IbGKbquU-LQ5cylIoJAZbNtgI4ya_82OcdsId9afo9V9tYJnkWW01COIvYOzDqdH5vCrzyPgliF7srBvb2GHDMoxZqlYlnXE0vJAKnKOeLVL4VCmdsDF1mOwyAVKQITuK8kU0brUAJHce-Bh3se1_LXdat1_EHA9-DICcsGDIKeTaeMV7CRPfMMqtngDZqttANGyKigmpZhRs3NYfZfBLnO3yZbbPSoEVNJViKCuVCjgdVZGFPOKFKcKkKV6HRMSuf0dGNuPcs-2MWAFEOQIAaMIZYnwbWpppo1xOvwUTYZ98o_RfbchhJhz470Z3Rb5uG6yAZkKgSIeczaNrpcqQ-QG9wYVnBA9Ce6-qGBRtgmzXPnhcWIwJrZj5ItbUZxd4Lx99ypbb8jUp8HnmFlhZKMOD8YaMUb3QLDid4GoRKEDwI1NmqyOIcdKhfJqWi32InkQMEJx1usxfPcFrBChyH98DKSy5Y44oWYgOgm0CKXOvO_wZ05OKXCLC4AW2q8at5PZV2PpVZ55APlTgVnYgHPVyje3mb6QMk6kEes_-0SZuxmv4gqMEUHluSfg0ky7wZLj2DrmfswldfN7MtcUkYOsPNM6RhdtiDLpxEzzTGJT5b-DQOzyUTQsd2pExdO0RUNkA0KdkvLsIqp2PIzC3rrKK1NxbyEbcCrZUFqGjAqeGuBp9WckxULpu9BWdLugH_Pkc0HxrydbqpOViNGg76-8_7DSPy52bfAyxDf3FdmxryDsVimyFjOvIf0lSTxhzBtuUtQxXM7dzmH4aRdKLLMd49iSAXgOoccpKdcVJPLkwzDuYw0-WaNuJGZfBCc9OOnaBpRm6Wlxx5RXr8dkbXINa1DzkVLk9h5T96EtRQqNlmmJeqZw5So5ygaohw6q1yfQV_UGP8kHOXBTJNL62A=="
+    },
+    {
+     "id": "msg_0b635e03c533db49006ac51c08085887d2bf6a865ba816f5e6",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Cartier\",\"model_line\":\"Calibre de Cartier Diver 42 mm\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"rubber\",\"bezel\":\"Black ADLC-coated steel, unidirectional dive bezel\",\"case_size_mm\":42,\"complications\":[\"date\",\"small-seconds\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"W7100056\",\"W7100057\",\"W7100055\"],\"confidence\":0.97}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791302664.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 20967,
+    "input_tokens_details": {
+     "cache_write_tokens": 0,
+     "cached_tokens": 6250
+    },
+    "output_tokens": 875,
+    "output_tokens_details": {
+     "reasoning_tokens": 764
+    },
+    "total_tokens": 21842
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 2
+    }
+   }
+  },
+  "search_requests": 2,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

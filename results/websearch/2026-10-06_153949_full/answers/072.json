@@ -1,0 +1,653 @@
+{
+ "row_id": 72,
+ "image_file": "072_iwc_portugieser-automatic-42.jpg",
+ "result": {
+  "parsed": {
+   "brand": "IWC",
+   "model_line": "Portugieser Automatic 42",
+   "dial_color": "silver",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "bezel": "smooth polished steel",
+   "case_size_mm": 42.4,
+   "complications": [
+    "date",
+    "power-reserve",
+    "small-seconds"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "IW501701",
+    "IW501702",
+    "IW500701"
+   ],
+   "confidence": 0.87
+  },
+  "raw_text": "{\"brand\":\"IWC\",\"model_line\":\"Portugieser Automatic 42\",\"dial_color\":\"silver\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"bezel\":\"smooth polished steel\",\"case_size_mm\":42.4,\"complications\":[\"date\",\"power-reserve\",\"small-seconds\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"IW501701\",\"IW501702\",\"IW500701\"],\"confidence\":0.87}",
+  "input_tokens": 22898,
+  "output_tokens": 972,
+  "cached_input_tokens": 4723,
+  "reasoning_tokens": 867,
+  "token_cost_usd": 0.00235073,
+  "searches": 2,
+  "page_opens": 0,
+  "tool_calls": 2,
+  "queries": [
+   "site:iwc.com Portugieser Automatic 42 silver dial gold hands date power reserve reference",
+   "IWC Portugieser Automatic 42 white dial gold hands black alligator reference IW5017",
+   "IWC Portugieser Automatic 42 silver-plated dial gold-plated hands reference WatchBase",
+   "site:iwc.com/us-en/watches/portugieser IW501701 Portugieser Automatic 42 silver moon gold hands",
+   "site:iwc.com/us-en/past-collections/portugieser IW500712 IW500713 rose gold hands stainless silver dial",
+   "IWC Portugieser Automatic IW5007 silver dial gold hands stainless steel reference"
+  ],
+  "source_domains": [
+   "iwc.com",
+   "youtube.com",
+   "fratellowatches.com",
+   "tempuseuropa.com",
+   "watchesbysjx.com",
+   "timeandwatches.com",
+   "press.iwc.com",
+   "watchadvice.com.au",
+   "timeinternational.co.id",
+   "thechronoedit.com",
+   "monochrome-watches.com",
+   "chateaudivoire.com",
+   "reddit.com",
+   "en.wikipedia.org",
+   "it.wikipedia.org",
+   "es.wikipedia.org",
+   "everywatch.com",
+   "hourstriker.com",
+   "timetransformed.com",
+   "dmwassets.com",
+   "time-wire.com",
+   "masterhorologer.com",
+   "thewatchmetrics.com",
+   "wewatches.com",
+   "gregsteer.net",
+   "images1.bonhams.com",
+   "forum.watchlounge.com",
+   "therealreal.com"
+  ],
+  "elapsed_s": 17.803,
+  "started_at": "2026-10-07T07:01:13.210378+00:00",
+  "error": null,
+  "tidied": false,
+  "rate_limit_waits": 0,
+  "raw_response": {
+   "id": "resp_0e1d2cb7b89bb0b5006ac5ee3bcdd487d296accdb665a15821",
+   "access_programs": null,
+   "created_at": 1791356475.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0e1d2cb7b89bb0b5006ac5ee3c646087d29e4a03d2f6f33f71",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe5NGxE70g_bosvV7mz6z14bMtuPZ2kT9cXuUG3Q_X404ZMz73xrI5_E9aKw_DMmyhqFGjTxKn25LhTtqg7FkzQwJKpshkan2o90R6QOl_4QzJjYLVfSXACQDxZaK6J9gb7Fct4rdR42FJW6S77OPGRh2xYA4fu-URKfVGJ-_FcP3d3auF3P95G9kKpubn2o4bJEwk6F7MFAoxguHjCMDXPyON8N2EYamATnL4wnp-5_y1ubWuSF_6UR0s0vIR92w0rFuaACzt6Yrz0G52Cg8x67161VHKVvh0SO-pj4k_LGcQx5P_MNzxanBagpQqvyo6M4b7e7aYsgbq7o2st-CSX-tA2dfaHRIdPa-LUVQJclsDrglm7eRtykydvmohduD_Fec0d7DOFQL75JZdiKovE3MAu0OKa22OSfC3NE6DTLwGxKmN88Ufj27EvDGXZgCjcVVwIohv5_Vh0ica-h6zYBpmTL9HMudObuf-tS5RCIOBcJMYiKNMut2Z2iYobtSrvASKmfKlmj3HO9bCsEUHFmgtDsAAvNsQnqA60zcfonARS_3d2X02ZC2fSJ1TB9EFIVypdQfX22PbdlJvR6gTb_SjlH521lYqMtZ_JRnZHH66pugh6n4k8sbm2ut1RX4hYmmuL8cw6tbs0OOi-MosaL5l1iIpj-3QltzGj7QrZkD-_7IIdfyHagMLkM6Edo-6sWW5C_JPSOEsRpSu7WPBJxIls6-7c8OaDHbKRVG3ZPChE7i2ZFYONf9JP8MN7l7furF5qJgV093Qhx0T3fuAmTBUp0ZhbfL3UTojgFXqYQ3B9PSRctrYBvN-aBHqQpVNqWzYbfyz_BK9TSBx_ktsBRhn--Rs9a05-75snK4XVCMfEdbn6lf8O4hv4TVhWUb9mIj_beduvfU-1mhLrONP4J9JQRXdAbLwZ4v_K58ZYfJpFpkPVZDG8Vq_us5FcOgxd5pS6E9lXOPIhOJ92yKExqCwBWB8-2a0BjKXj_fTcmKEurszp_-FZpJWWuAitnk7JYUE8lK4LPzWGdEDQE7Fv__rZrozlvueYv39vlQoMdixBSW9vg5KUNAENH7Kcg1V9gtHDQ08SbTt-1V4HCl-UQz1zWR-Lph4kcA3853YnmunDA8HM-cs3GFmlZ_9gpHhDe4SfWUwpCFQZKjEjrVFZ8sFcIqHFUbKkWEzxAryaQffZ5VBjZD8rUyEzn2ljtgz2AqWSb1R4IKupLbWrA9CodpscPSrqmJETN5xvLJ-t2fs6soM8bcm4Y0FToqaBcf3T4WL1rTZERMbOKsJUGcOEWvYTyAF3wnLdamSbHVs6ZcqetcD_p1GRRwtjsw2NM9R_8ajrY5UYaicA0BUaT7M2Gb2HC_7fWnCF7OPEqbFnO2JLkJkKq6Uaraiftp1TR7nl5dSolFcNYoyg37Z39xELOBOOmB2DKxmGuJ5saZUkzczXxysZxutyS5u0yU3x4clJgHaKxEjTrIyqpYNTI9dDzY-ZJ2nhzIhNYv6P7OAaVJvzHq9T1qhfFEnNg71aixSyJj1X_LHS9xvdOg11yUIPocQdHqda30kYEr4UV5K6WqB31G3QH0z2vi4ffbT9B8GNX6qCrY14FO4uNJE6gESdPUz2qNgEc4uFvAgf4q-UX-YcPR0GQI4KVESKig8D7conkrblFaOUfeL9V8EMxvutslEN7BaGKXO8eAit9DwJr1Rz-DoGIbOBaHYzIjq_xvUQJZ7vZrxv28rJkZqrRD4qUDES8Xd1S48d1vfzM90f9_hSgM3GsvqAFh-pUgTluiYP7YGuWrUGusvnaNECBZWXawtVRZgzs7kBJHn1YvvlwegBU48SFI2DhHeKAa5pldQ8RFWNAS83wJUYNSJf40ypj__1V6R4cTSKElr0X3xgPCP8HDAxLZQ2nFc02Iq3sGvsxr6wLswHJOgLLCaKvQeAbinobBOokoDXxV0QJvZSyoOg="
+    },
+    {
+     "id": "ws_0e1d2cb7b89bb0b5006ac5ee3e47c087d2a8f7f506c16736a9",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:iwc.com Portugieser Automatic 42 silver dial gold hands date power reserve reference",
+       "IWC Portugieser Automatic 42 white dial gold hands black alligator reference IW5017",
+       "IWC Portugieser Automatic 42 silver-plated dial gold-plated hands reference WatchBase"
+      ],
+      "query": "site:iwc.com Portugieser Automatic 42 silver dial gold hands date power reserve reference",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/us-en/watches/portugieser/iw501707-portugieser-automatic-42"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/us-en/past-collections/portugieser/iw500712-portugieser-automatic"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/content/dam/rcq/iwc/19/60/25/3/1960253.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=FSHyNCvi-kU"
+       },
+       {
+        "type": "url",
+        "url": "https://www.fratellowatches.com/iwc-portugieser-2024-updates-automatic-42-40-and-chronograph/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=EiPVLSpun-U"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/hk-en/watches/portugieser/portugieser-automatic?product=IW358303"
+       },
+       {
+        "type": "url",
+        "url": "https://tempuseuropa.com/en/reference/iwc-portugieser-automatic-42-iw501702"
+       },
+       {
+        "type": "url",
+        "url": "https://watchesbysjx.com/2024/08/iwc-portugieser-automatic-42-7-days-5017-review.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.timeandwatches.com/2024/04/iwc-introduces-new-portugieser.html?m=0"
+       },
+       {
+        "type": "url",
+        "url": "https://press.iwc.com/it/iwc-portugieser-automatic-slimmer-case-double-box-glass-and-new-colours-it/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchadvice.com.au/39563/review-hands-on-with-the-iwc-portugieser-automatic-42/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.timeinternational.co.id/wp-content/uploads/The-Time-Place-Magazine-93.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://thechronoedit.com/reviews/iwc-portugieser"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/content/dam/rcq/iwc/19/61/47/0/1961470.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://monochrome-watches.com/2020-iwc-portugieser-perpetual-calendar-42-hands-on-price/"
+       },
+       {
+        "type": "url",
+        "url": "https://chateaudivoire.com/en/watches/iwc/portugieser-automatic-2"
+       },
+       {
+        "type": "url",
+        "url": "https://press.iwc.com/download/ec85248a-0726-4ba1-bacd-c8d5a816e62c/iwc_pr_ingenieur_automatic_35_en.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/content/dam/rcq/iwc/19/55/55/1/1955551.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/IWCschaffhausen/comments/1wadwe5/which_one_should_i_get/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/IWCschaffhausen/comments/1u96psv/1st_iwc_which_one/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vkwb1a/wts_iwc_portugieser_automatic_7day_black_dial_ref/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1w5ce23/wts_iwc_portugieser_automatic_7day_black_dial_ref/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/IWCschaffhausen/comments/1fgrnh1/bought_my_2nd_iwc_today/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wdijli/wts_iwc_portugieser_automatic_7day_black_dial_ref/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1rc4cb5/wts_iwc_portugieser_2025_like_new_8500/"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/IWC_Schaffhausen"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/slft02"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vqx8dw/wts_iwc_portugieser_automatic_7day_black_dial_ref/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wxhphp/wts_iwc_portugieser_automatic_7day_black_dial_ref/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1w8hxjs/wts_iwc_portugieser_7day_42mm_automatic_iw500114/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/wristrepculture/comments/1j4ocd2"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/International_Watch_Company"
+       },
+       {
+        "type": "url",
+        "url": "https://es.wikipedia.org/wiki/International_Watch_Company"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0e1d2cb7b89bb0b5006ac5ee445a8487d2852effb77bc03280",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe5NPt6eN2Biv_yGbyjdeiUpqbW7PxpKhJdOFcJfKFNXkfH8mME25T6rqckqciIYqoliNFZEoT3S1to1PINq60YeTuX2Y3Z5Z4r5yW9SWYcspp-Kz33Auh5TWOmPDjBgpk5NnMhsv3HB0wXK0CBr5sbNVj5UYtfbhMoW7xiONdmI58UTxIQ4Lt3gGKtr8UTSLBJTGhoPwWQlB02uy9bYaax7KRofwCfcIcp_1vzHfCR24BX0OVsx-3v9cGCP1TWwFSpYVn-_Z9A615V4SjpPISBYbC3hJUS6RaS_mq6tVvPedkjofWk34HwG7OWl5C3iltgF5CXPnR5z3mJ1vTWAMY6qzGQsF4el-KTRCmmxCFVDdH-0rLa_JxGcpp7vQtfqphxYmEs4O3TlVgt0lodAkX0tuMVAQwSlH6yw0hYsZxp03YLGgwAItX6CttZ2SkO0YS6R9f5Tk1XlaDzNxD07iik_EOYGsyMpQGQU29q8eeEy9PDD7Xl6tRktr7l3nSpBTIc_257DMu4i4c4c7rG55sXdIuhUCf_6vaHefj-wSCOZRUNXE86Lxw7kjvRmUw-lreOuDs1fQyZrjiBJn_5l8BjU5O40IJu2pBD-xz3IfzGcVMV-F_fED-vjGwFnl4cgI13tnqI29ZmH5mx3423lICUHocynP_nuUKzd5JlW87pcicytW76bbzS2XBBNNJL2g42903T_uS670r053ZsniIAInMX8mZe-g1a_CVhgjTU6orVa9iM392rKOitsoWcsuKGNyyYhtTFUYTjJtawO-LBT5n-hzhYwByGqBEQkjaArPafT-CPMCVxYuapOnkoKOn7kn0SprRYmqu0q6APbOcA5dJSVxUEMPvJdxsJC5OcqWgcRO9tqEKcxR7hIMwWBPRvaPN9Zh12vwLSD149OD1tEt32wIVCrbywrPQHi3NBc3JKC0WF-Qh9KFOqIKJqzfzpWDH2QQvOQQs0V-9yTF_7KI9TxRSfvPRSrTT1fUHxu59biz_Peqggez4gNONOlYHAy5RJ81gtUfgz47xhII88y2_spiGT4sT4LZWCiWZH4mb_P5T6OlFh1H-Dghhsr985S524R2QDyqZPU58vZHuXKc26o4oytAhrKR9b0L_LdVpY88rGZKRkYC41njfGjj-s-s3TOvDxF8jtHp_fLnL9cDT3lpFzgO2X0n6ziI0-cjHbzNg85CfN4skA_9vssppfcXJTGh0172kt-2lryeka23C0-RaR6Xv0Ut7005XCi9a1MamTMxBJnKo5PfHCwQ2fyfMR1eXdfFu8RdazRnpoNr7K9CB4Ogp-bOn5ZTkmTH76umyZ6gnipwwgPwKM_kY5U9eg7ICsk9r7aHSQzfvieGYAF3RIMEfopbr6KzJCOJYZIHXgUT0sTchRTs2XNhT1iWNq1n5SIRk8afDBgiQNe9AHlWZ8BWdEvEck_ru3g6z75L44xUmRMWkGNW-kWmKu4XZ8rvDFrqu9wxHniFBi33kZfEB5UdLC0h6Irzj2LqXJKpa96KEuI9ZzsYNkUTItKJSff-vRU7hMI6tfJlkE8bucIEf5cg8ZLA_5KjoEW-CB1CEgPl6VRCyVuBzVb4JLBbamUTVq87LiQ9lA2TJ_i8iepvMwJyr_F28TTk2S7IAj78Gq3MqUJa4Pha0lF6NVmZFJYx2zQ6hnDlE-5_NkghvVgH0l4qCEoCmUF4agvP3MmNW-wn9IufbTJvUr1EJHrJooe4hsTgWR3zaVFmvdnhtWbMBfq4kAxw8vwnw68S8yVmxTfJQg5Pm0_cUrp4Ng3zjfAVgm-mGzZaQJYoSPzmoaL4-xQTaj7MgNTzL4yyDTRbjR1KCWadXVHIp-_7meQW7Snn4Eggihc4RU3NBlCYbxd5wM9n_DtRl0nu9-HknoqWByMjJ4wbf50_GCr2Be6eiCuzEKUnQPotI0Q1HSpNB4GCjP6eAOcO_-5LGoNsZnpGf_6bETf1O28xgkX7hkvaXaoUTQBWThQhZRpO3H55LISBM-zRSzzRywSVKDPO6c8GbotN-a6eyCEIyxVvolAUOn9sxcl7xCpBTXdoGb6NIsFME7C2qOnlW_6o0QeUHZMqKAdivFWYG5Vw1ymFTeU"
+    },
+    {
+     "id": "ws_0e1d2cb7b89bb0b5006ac5ee450aa487d29683da090115374f",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:iwc.com/us-en/watches/portugieser IW501701 Portugieser Automatic 42 silver moon gold hands",
+       "site:iwc.com/us-en/past-collections/portugieser IW500712 IW500713 rose gold hands stainless silver dial",
+       "IWC Portugieser Automatic IW5007 silver dial gold hands stainless steel reference"
+      ],
+      "query": "site:iwc.com/us-en/watches/portugieser IW501701 Portugieser Automatic 42 silver moon gold hands",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/us-en/past-collections/portugieser/iw500701-portugieser-automatic"
+       },
+       {
+        "type": "url",
+        "url": "https://www.timeandwatches.com/2015/02/sihh-2015-iwc-new-portuguese-automatic.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/content/dam/rcq/iwc/19/60/27/0/1960270.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/us-en/watches/portugieser/iw501702-portugieser-automatic-42"
+       },
+       {
+        "type": "url",
+        "url": "https://everywatch.com/iwc/portugieser/iw5007-04/watch-1695453"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hourstriker.com/database/iwc-portugieser-portugieser-iw500707-43710"
+       },
+       {
+        "type": "url",
+        "url": "https://timetransformed.com/2015/04/09/portugieser-automatic-iw5007/"
+       },
+       {
+        "type": "url",
+        "url": "https://dmwassets.com/products/pool-iwc-iw500107"
+       },
+       {
+        "type": "url",
+        "url": "https://time-wire.com/watch_model/portugieser-2/"
+       },
+       {
+        "type": "url",
+        "url": "https://press.iwc.com/new-portugieser-models-iwc-en/"
+       },
+       {
+        "type": "url",
+        "url": "https://masterhorologer.com/2015/01/19/iwc-schaffhausen-portugieser-automatic-ref-5007-7-days-movement-red-gold-models-with-silver-plated-or-slate-coloured-dial-stainless-steel-models-with-black-or-silver-plated-dial/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=-FIfL4jRC3Q"
+       },
+       {
+        "type": "url",
+        "url": "https://www.thewatchmetrics.com/watch-db-2/iwc-portugieser-automatic-iw500107"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wewatches.com/en/encyclopedia/iwc/portugieser/iw5007-05"
+       },
+       {
+        "type": "url",
+        "url": "https://press.iwc.com/download/ec85248a-0726-4ba1-bacd-c8d5a816e62c/iwc_pr_ingenieur_automatic_35_en.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=BcgNhZPD0ck"
+       },
+       {
+        "type": "url",
+        "url": "https://www.gregsteer.net/IWC/Catalogue/PDF/IWC_Catalogue_2015-16_EN.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/replicawatchreview/comments/1h5g5po"
+       },
+       {
+        "type": "url",
+        "url": "https://images1.bonhams.com/original?src=Images%2Flive%2F2023-02%2F08%2FS-28031-0-1.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://forum.watchlounge.com/wcf/index.php?attachment%2F242248-portugieserautomatic40amp42-de-2-pdf%2F="
+       },
+       {
+        "type": "url",
+        "url": "https://www.therealreal.com/products/89324900/appraisal_report"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepWatchClud/comments/1v2imsb/mzf_iwc_portugieser_7_days_power_reserve_iw500107/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/IWCschaffhausen/comments/1fgzuyx"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1r0f6ez/wts_iwc_portugieser_chronograph_iw371604/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1u4547l/wts_iwc_portuguese_automatic_500107_complete/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vkwb1a/wts_iwc_portugieser_automatic_7day_black_dial_ref/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1ugquqv/wts_iwc_portuguese_5007_full_set_recent_iwc_full/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/15ic3eo"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vqx8dw/wts_iwc_portugieser_automatic_7day_black_dial_ref/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/150hqjb"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wdijli/wts_iwc_portugieser_automatic_7day_black_dial_ref/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1b33hwq/wts_iwc_portugieser_ref_3531_full_set_kleine/"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0e1d2cb7b89bb0b5006ac5ee4a0b0887d28faa19c118dc97b7",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe5NMgGBkIxv7-cfuQ_5RzzcvbAhbQ6M--lvFxd7LQHrP5QZSA2BIVz2cWMWde1DEiRCqLw9Wxhz82gG3dCpiLJlBHxoNJ6QK4Sq3t1TDqQj9lIYC4z1mPe_8nlVYEqmGXJuYwQtzAIbrMUWlKMqp-O37MHAso0qr3U8rZ6mx-XnwFkdIey87tPWixKu_1-niLnZE8SQJz5923lkY-HPXtpTayjkGA_YpSA4sRZUujQ5ZthEEIPo0MvqWH-kulNSONPD11CY_8cKRsqPXBkC_QURfMuDE2ARmngJuTQQiw__cDrpVPiPjTKU8GKKtzj_FG__foqOtVeCwdC0WtoWNdTEEylBppQowxKlhNHMwyjSXpnIlpBJenddt7LDeAd81cHg78YtLyt934VIm1ITMKlBH0U6_Pxl5dPfWIyJ1QUmkIqCuiQYjlzzWsQ-LOTeL9LxjQIqFVp3V93b_LHEeXz0I-PfL296XA60bvQNW5sBNsdYFlXqEpdAurDkiBBjl5EVK6TOxDpxLGQD3afvNptudu65cihZUQHM6tszdpRbfION5v3ms_c38IGvxaQR--XffqSb61TsPJd34Q8Mdwp9DgdShzjD0Jrdmu_NuQAEHqljNI_HpTVuqOJjRF98r2ysOqaMhTXGVmZGKXLkJVCOrNR9VgTHbOqSjowUSF_CL6FG35GBBsG9W5TtANVDJNPzm3ufSna0ik4B4Dh_Q7IzsRdikC_nPpb6WyLfyYB2oy7Nlq47C_U83aG15zXeQN1v15mz_5bcsYWQBzj-9bq_l38hmgBGhvk6tYkswN3UY_JkZRDfXvBgXnpf-BgMZqv8_JmdRkFR2pVy5lgDkzu92Z_wZIPIJ6If0Fsb63SNbHJJk9XUv1AylSNcUSc_4f7BboElFb4rZYXlMiyrvUKt82SjUYCS5pReZaItjCrAmZx_yLovc7leibEysVDM3cTTNbY5qkp5WNHEnscVNtyV2WL9uAwWKzFYWZMzE9VvFGNXORe-ADPJmKqukZ3SwQ471_K7hHhljLLfkvAPi5NPeOvKv4fLm_AGAt7ypUQDqZwv_RWjUcCFFHGwpXJEieOod37Ti1mIASg4pdI_VIOtbewt9m8VoAsEkxGdzuE1bSs1aFzJjmakJGyGt_LNoue4oRZNVLt-Nsz0tvl3ZdW-oh-mtE4NvbWJQi4ts2kyjgGDYQPk9ZdhMdH1J3nzsZz64Eg8c7r0jX-pNUaRaQEy1Hlzum5fx6OpsleERC-eRIw2r2c70d5J0szxZTXXbtHs6I3nZ2Ie5gbNmOk2f3-WMtfqhYA50ctRqZhvPbNd0eJTYe7WW6q3xSlJTI__BLm_JIfcFcRC7zfUnvdW3vPOBUhD7QCh7Eb_iCXSiWBDBkkqrz5x-EGaLcdPS_SDHGnHPLFMCshbsJvv0Sk-HK_b0qrTKbvEfWzNPyFV4FZ2AAwAe0MWLZT_kRB4Mq6m_Ecxp0ZuWen2rxLyLkSLUTgqjPOMyIiMoZ35JPoMeRas8mp_a-hGNAjr1aZLaK2CXrlZpwk6t6FYf7od4vbtKrBEr51StcyERNFm1749svn62jBoWw108ZSmu1KnEci52aoAu1zd5pFHBR_t0WbMn_54hqXuNghbop5CdMp6C1LKnZMapCGLo85BhwGwGP1L0WH4tSUALjAbJ3F64Rbg9O60kZ37Di6NxhdGjAUp6wPqcRM_CbpBkZZ0R7JdvRo0I38IqWr1pFbWuO1Xy4FpqlaU8R4ZePX5PNl1hx_KDOpNL-WY6f5bc6Y4K91xcSln5sr9CuFeTo8OZGokhR4-PJ0WZy7DlRF8mbkdyUxuYXQyxjGSSr31wwvkRRHvkdldSOkJ_bsNtImQ3RqyfHUsry2HDwGt6wv73FzyJwlB-FzPdg20XoORt7xdNdosYT_eJWV6IAx0M9B6yz1u_xS8ivl9_mxdB04JMufvnPeShBsxixrg12UvOrbzXqC00pxGLD460RQ4cx38kMGxUJ57rWLgqG5GZwHXuB0M4_zBqwgiHA2EdSVjycjcdYz135yG64x2kRQPDnWsk1wcldUkOck2BoD18ukqpuICu32BjPXzX97N_oVXT9FLsz2-mLS43dc98aTuQRezh25HZfyzdgUg5lNQlwtkW80p7PUJ0vfpKsS44wX-RGiW2AjnwwDhVL02THQNsvsiL3JYpN-bnL4l-_r6jF-9Liz-YbRKGcmCipbsJm2FAkP-DbVB80vijr0TIdRMLQP56CXqOfmeCNZ709vFaUoj_2L_KwmGZWnvI1-h3j_Gfa5TtB_-Td5Vmhtm-4XahEfQMh_mgFAgyZMZeeueba7cP0YFE_aARrUbJ9aqAvY5Lb2YwSNZpq6ROs9ehUESRQFt-MKXmXeMEEko-ht5qGoA5cBBTzmWgZlEMlicdJid1Lb-39oeE34qRasUi90WZr2JiF2VtPHaG358cJorEBw1rqklO51iVWYXX51lYwcF1W8IHQaAnPyrHfRmGqgysUN4pqmHCrt55p_N3kTi7lB_uUEVis33mKH41lHisUDgDYQoksU9LDl7bgqaHILkVgBYj9oFZH822sZFidIBQT77TznNZ9khwkRSWWDPu82n1C4PpagEVLi0zXF8iLiNpWfaPCQj7iUSpubh8x3GfpI_dquhgv4fG3aYcqw6x9GXGFeuZhr3gLvX85n77_Uq_S4-osas4eSRKOMJhVNAT6qOIg30JRs0QxUlv_YbjWWGC_0n1guNUr1Z28MTsOdQMJtf2_UvWEBjopURhv7XuE5DsdY3FA5IK75oklZ8AzQOTEWHr8SmMkm4hKfboLs56ornLvlbz5MDIC8PEBu6UZTnxCxW-cNTcvRU6OG2v33eilG8skshW-wh-1McwLNr6LphWAOU9moMvm-savHVfW0EWqZaryVqAHVdJlLpdZF0GoNhF8KKwaNJeXzhDZzIBFLptpE7BNpF3rrmsQ-6Ox3uykFGkC4TXJLqeY2EUMBjyfysQbGRgABFTalcy3y2MD1-wZLN6PuLG_ctBBrWoYjdNtxqysNhzVOG1rhy2DKaZqUoLivRb60ZgEdOI_am-wNzNf70mdxZHKz9uqKt4j2ZGJvUDUC0XZLQn_tOYa068pBFI1PG0fE9m6rW0jQouxkjAlhB5v9FxTlpm0yK2wp7gjAmevmtagjzxZdOYySaWzt2U_0nXrdRG3-_iZFRyqPm6dyK0qnK0NqlSe91vj84wBXz5C0TWsqVwQ4ROYnGY-ioeybwJbdjvEwr"
+    },
+    {
+     "id": "msg_0e1d2cb7b89bb0b5006ac5ee4bde3087d2a4ce5ad27bde139a",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"IWC\",\"model_line\":\"Portugieser Automatic 42\",\"dial_color\":\"silver\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"bezel\":\"smooth polished steel\",\"case_size_mm\":42.4,\"complications\":[\"date\",\"power-reserve\",\"small-seconds\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"IW501701\",\"IW501702\",\"IW500701\"],\"confidence\":0.87}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791356492.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 22898,
+    "input_tokens_details": {
+     "cache_write_tokens": 3571,
+     "cached_tokens": 4723
+    },
+    "output_tokens": 972,
+    "output_tokens_details": {
+     "reasoning_tokens": 867
+    },
+    "total_tokens": 23870
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 2
+    }
+   }
+  },
+  "search_requests": 2,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

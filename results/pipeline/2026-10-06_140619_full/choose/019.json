@@ -1,0 +1,33 @@
+{
+ "row_id": 19,
+ "candidates": [
+  "220.10.40.20.01.001",
+  "220.10.38.20.01.002",
+  "220.10.40.20.06.001",
+  "234.10.39.20.01.002",
+  "220.12.40.20.01.001",
+  "220.10.40.20.03.001"
+ ],
+ "result": {
+  "parsed": {
+   "reason": "The photo shows a black, vertically brushed Railmaster dial with lume-filled triangular markers at 12/3/6/9 and a fully brushed steel bracelet, which matches the black-dial 40 mm Railmaster on bracelet rather than the blue-dial, silver-dial, or strap versions.",
+   "ranking": [
+    1,
+    2,
+    3
+   ],
+   "clear_leader": false,
+   "none_fit": false
+  },
+  "raw_text": "{\"reason\": \"The photo shows a black, vertically brushed Railmaster dial with lume-filled triangular markers at 12/3/6/9 and a fully brushed steel bracelet, which matches the black-dial 40 mm Railmaster on bracelet rather than the blue-dial, silver-dial, or strap versions.\", \"ranking\": [1, 2, 3], \"clear_leader\": false, \"none_fit\": false}",
+  "input_tokens": 2137,
+  "output_tokens": 1032,
+  "cost_usd": 0.00093975,
+  "elapsed_s": 6.57,
+  "started_at": "2026-10-06T14:15:42.757685+00:00",
+  "error": null,
+  "attempts": 1,
+  "tidied": false,
+  "served_model": "deepseek-flash"
+ }
+}

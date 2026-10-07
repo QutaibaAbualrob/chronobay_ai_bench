@@ -1,0 +1,30 @@
+{
+ "row_id": 50,
+ "candidates": [
+  "CBE2110.FC8226",
+  "CBE2110.FC6485",
+  "CBE511C.FC8280",
+  "CBE2110.BA0687"
+ ],
+ "result": {
+  "parsed": {
+   "reason": "The photo shows a black dial with white (panda-style) subdials, a black rotating 12-hour bezel and a tan leather strap with white stitching; this matches the steel Autavia Heuer 02 on a strap (CBE2110.FC8226 vs FC6485 are hard to separate), while the bracelet and PVD/flyback versions don't match.",
+   "ranking": [
+    1,
+    2,
+    4
+   ],
+   "clear_leader": false,
+   "none_fit": false
+  },
+  "raw_text": "{\"reason\":\"The photo shows a black dial with white (panda-style) subdials, a black rotating 12-hour bezel and a tan leather strap with white stitching; this matches the steel Autavia Heuer 02 on a strap (CBE2110.FC8226 vs FC6485 are hard to separate), while the bracelet and PVD/flyback versions don't match.\",\"ranking\":[1,2,4],\"clear_leader\":false,\"none_fit\":false}",
+  "input_tokens": 4395,
+  "output_tokens": 151,
+  "cost_usd": 0.0103,
+  "elapsed_s": 2.575,
+  "started_at": "2026-10-06T13:52:59.738681+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

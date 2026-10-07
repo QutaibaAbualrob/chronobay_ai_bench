@@ -1,0 +1,468 @@
+{
+ "row_id": 74,
+ "image_file": "074_iwc_pilot-s-watch-mark-xx.jpg",
+ "result": {
+  "parsed": {
+   "brand": "IWC",
+   "model_line": "Pilot's Watch Mark XX 40",
+   "dial_color": "black",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "bezel": "smooth stainless-steel bezel",
+   "case_size_mm": 40.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "IW328201",
+    "IW328203",
+    "IW328202"
+   ],
+   "confidence": 0.99
+  },
+  "raw_text": "{\n  \"brand\": \"IWC\",\n  \"model_line\": \"Pilot's Watch Mark XX 40\",\n  \"dial_color\": \"black\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"leather\",\n  \"bezel\": \"smooth stainless-steel bezel\",\n  \"case_size_mm\": 40,\n  \"complications\": [\"date\"],\n  \"movement\": \"automatic\",\n  \"printed_reference\": \"\",\n  \"references\": [\"IW328201\", \"IW328203\", \"IW328202\"],\n  \"confidence\": 0.99\n}",
+  "input_tokens": 12588,
+  "output_tokens": 636,
+  "cached_input_tokens": 4723,
+  "reasoning_tokens": 502,
+  "token_cost_usd": 0.0011517300000000001,
+  "searches": 1,
+  "page_opens": 0,
+  "tool_calls": 1,
+  "queries": [
+   "site:iwc.com Mark XX black dial black calfskin strap reference IW328201",
+   "IWC Mark XX black dial leather strap IW328201 reference",
+   "IWC Mark XX references black dial leather strap IW328201 IW328202 official"
+  ],
+  "source_domains": [
+   "press.iwc.com",
+   "hourstriker.com",
+   "wempe.com",
+   "hodinkee.com",
+   "iwc.com",
+   "bezelga.com",
+   "caratandcaliber.com",
+   "royaljewelers.com",
+   "teddybaldassarre.com",
+   "reddit.com",
+   "youtube.com",
+   "aaronjoyeros.com"
+  ],
+  "elapsed_s": 9.464,
+  "started_at": "2026-10-06T16:05:03.240697+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_0ef9e43e02b8329e006ac51c2fde3487d28e24b766ee0d9d51",
+   "access_programs": null,
+   "created_at": 1791302703.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0ef9e43e02b8329e006ac51c30ffb887d2b0ffc3f1f202dda4",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRw40vI2aCbusZ1-F45WhPLqlRBn2M2cG9pTUxIzOyhG28Aae-xHE7YS1Ry6kuBHyutpmvCKe_UJfw9AyD9E3Tbd2Uo_Padpd_hFIVrGAb1EBDom98wZ5lWI4OhvcgyZ-_S_lVyaWlV7SECDw3Ag-8by8etvEeF54N67ACLmOJRanLGaI_96gWAq71yaTZr2IG1EZyjHwZYxu48Jr4Nr35aKlX4RRTrbnH9qXEgJz0iFbgGhS6bMkbFuewFE4gQI0NcJG8PrWZ7ZXSQ7fHzO7EXB_EFNoiLtxKA6RUJ-Gi_vQpnuhNj6-imnMRj019GaIdAcvErbfLbNP97HWrTAlcUHbMiVY95Ao6sPrZLBBn_tWTBjN9mTVT20C5OygvsdJF0VfTFwYMGDP96csJbxBYeSOagsTucK617C4-d1PXHt256mvOyr82m6moa3hyX2YVvE0tNcu3vLeuzvfsSlmmFvFVJEr-VusFkaz-gOB1w95oE6gWvQ2t3kbE9dYNx-bbN3tzsbJweuUWZ_sPIMmEsEfJ-dlg2fWKp3QkDXWCHC7vPflu_3YZxLgPZ3YvAzQQr0z7cW5a2tpDzPSA9OMJ5NMjogrcpbwjpZRAkmAOh2vql7veg8DvEE1iEYN6toGhDI-yL7QbfSBzCShLFgpLlkgezU_ueS_1l50NWFQ94KfuggIPWEWaTsZmRV3Tg8uGNgrNDNGCfNNdR9mpUwqzj4-kr0krDJSt37yyAqaQSEjlR-KCh8vs_0jOvwkbnhPaxjZA0m4AWttVIVigZRXvAw0qLbobzlxYnOEYTkrMBTDty3M6j1JlOR9g0wt5s0_baNoGiPaVKdGxrp4-FcSt-9TPOJNtj90OADr1X2TZ0QBF9V5bBb136xwjhHlkQ9uiv7rHpiGNcBuOMCKmgqhEKfLRs2Ex0TKyLpWYGipP6lZeR83Tj-34Qw8qvpGVP1Y6rseW5jOX4QZL9UQntcUexbA_eevbSgJkymqyYMZS3IQAjD48qRcVoff7Nl4hFh6Lk57B_gFrystSuqUKwZaYRpOzIyAxFTn4O1ChgslEB6J-iY1zspr4dse-g6PDvPHe0Ljh29sj-rB_fHLT5w8wlzPctnQJGk3ZtivsRKn0x2ztf4Oz53woROmVrW1AZab0YKjgll6dNp2kzsCXKo1lBLDpwQLvRNZqI0mhy2eB1t7-CwjsHzpqDmIneN-1RUF1818ZgucGM4ftgQUdHDp53zd6s9bhiu3FeFoPXDLo-wNmMu1WuhrXPVnCjRJNwP80YarOXcNDntl-i7Eyn2En4tQcjJW8omeba9FWHjZuN38wWn06Z6FTOt1_nHRhzSiqcR9tWOJFpRH-dTOSj7BdZhGybyGLeAcZBThJ2jGDqaYM2PgzsMRKknpeFftIF66dQ-tFddehY2aXWK0qvDuJJN4s5KNNeyvJtGvIz7PPKelhYwo3PrQtHts1EYx_qdjUyV2236q7oreI20-0Hyncr9woaTjndsb8kxgzZwuyPdokbzHnJ1u_yryZ5RvlwuDc0H6r9NPlTcNsdY2QfdRr0FQqU_UMpShdBWY_y8RCsHajYUttArYur0DUKbvafc3fERro7GBajf6qGmNy8KcpAGB10a7Fo8qoeLN33WwfvEg789_lu5iSeI4UzQVeLAxk-dj1fqyaK7y2_OfGGTd5_wDcCP5mhtSlOT7AWZMfOAy0U="
+    },
+    {
+     "id": "ws_0ef9e43e02b8329e006ac51c3244c887d29d4c8ffc18646548",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:iwc.com Mark XX black dial black calfskin strap reference IW328201",
+       "IWC Mark XX black dial leather strap IW328201 reference",
+       "IWC Mark XX references black dial leather strap IW328201 IW328202 official"
+      ],
+      "query": "site:iwc.com Mark XX black dial black calfskin strap reference IW328201",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://press.iwc.com/iwc-schaffhausen-completes-the-pilots-watch-mark-xx-collection-with-four-new-models-en/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hourstriker.com/database/iwc-pilots-mark-xx-iw328201-255"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wempe.com/en-us/watches/iwc-schaffhausen/pilot-s-watches/pilot-s-watch-mark-xx-iw328201"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hodinkee.com/articles/look-up-iwcs-new-mark-xx-watch"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/eu-it/watches/pilot-watches/iw328201-pilots-watch-mark-xx"
+       },
+       {
+        "type": "url",
+        "url": "https://www.bezelga.com/watch/iwc-pilots-watch-mark-xx-iw328201"
+       },
+       {
+        "type": "url",
+        "url": "https://www.caratandcaliber.com/iwc/pilot-s-watch-mark-xx-iw328201"
+       },
+       {
+        "type": "url",
+        "url": "https://royaljewelers.com/products/iwc-pilots-watch-mark-xx-1"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/eu-es/watches/pilot-watches/iw328201-pilots-watch-mark-xx"
+       },
+       {
+        "type": "url",
+        "url": "https://teddybaldassarre.com/products/pilots-watch-automatic-mark-xx-40mm-black-on-leather-strap"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/us-en/watches/pilot-watches/iw328202-pilots-watch-mark-xx"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/ch-de/watches/pilot-watches/iw328201-pilots-watch-mark-xx"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1sz6z3u/wts_iwc_pilot_mark_xx_40mm_black_leather_iw328201/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1sqtdsh/wts_iwc_pilot_mark_xx_40mm_black_leather_iw328201/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1thpriq/wts_iwc_pilot_mark_xx_40mm_black_leather_iw328201/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1t6g0xd/wts_iwc_pilot_mark_xx_40mm_black_leather_iw328201/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1kypizj"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1kt4lk2"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=Cxp293hH8Eo"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=a3c6JHDjcds"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1v278hz/wts_iwc_pilots_watch_mark_xx_2024_40mm_black_dial/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1w8g7w4/wts_iwc_mark_xx_black_dial_3950/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1weygev/wts_iwc_mark_xx_black_dial_3900/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1ww8jw2/wts_iwc_mark_xx_black_dial_3800_shipped/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wwtioh/wts_iwc_mark_xx_iw328201_black_dial_cal32111/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepWatchClud/comments/1v736l2/mz_factory_iwc_pilot_mark_xx_iw328201_black_dial/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/content/dam/rcq/iwc/16/51/84/3/1651843.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/content/dam/rcq/iwc/19/59/08/7/1959087.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/content/dam/rcq/iwc/19/22/68/2/1922682.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://aaronjoyeros.com/wp-content/uploads/2026/03/Catalogo-19-de-Marzo.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/content/dam/downloads/IWC-Catalogue-2017.pdf"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0ef9e43e02b8329e006ac51c36e86887d2a7082dd9bea19384",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRw4ivFLjOtGJLRQEBbq02t_GzIG5aX864GQwyjiZS7BNWlG5FpwiTG2MSjLjAcb5ltkK4g8Hc91mIoYhY-MZiUVGJ1iWamH5EvzE_kPoMNaGqMZI_z890_h17DjUZ9bxvmR_Vkajx8OCcZIOCGwKfWCXhFA5s4Ieh0wAq2bfPxv3H__HmOVBo0aCCxIrOlirhuwevdnnokX9Fn9WDHAtNKzrhUVUdrr0_4kUf9R_cGlirtC2Q8uroOEHK1T-PHhLWDhV646q64YWEHL3ypGRWzG6cQlchzTLkuQ1O7aSKGEmkMSLp0hsNmGCxJdMSvkyXcwz1BGxsopuSPVUTcsFA1mA6_RIAIZwXBzrg_3JCEUNcJdFJurUtIENYb4BmJTgYhoOtpb0Wv2mb3xfF7hyTWtsU2gH6_DWwlYuG9kf7UXC6Y_vHQh_wb2xpIz8Dm5aJp12KOR8kFO28IihNtyy3uT9D9824OIoPTKYyk_COTkD5eeJYJ_c8NU3UINobL6ewHaZsly4ongvc7HOBOSjGbE7ljCztiTT_b5wTFndGWrYKyA63IlWE-pmWq_IulQ5vKjEzXE-8VI2Ptq8eTtdHyeRBO0xnWIYApRmQyf6M8TSkpVr7ZGmV4xFIZuYrHz0WZl5cuf3eyYkCFqlZH9PS7xea_vzGzP-SxFosVNoJq6ydZTkkRmNnNFhv8bE7_rKqxwzDA4w7aKpg_OEehCF5eSEMm-TWDQ4CgzAGvxioto-JbfRMPkYFYGrVhnWVtM6Pj9KyCfzPnKk6rQSfVt1Ut_KPzAGXNDXSFSWba3PrOaghGhJBA8qsdjgkSjMjPbQrB8e8o6am1PO4RxB25GDRVCpV7a6cIMPHDj8VtJM1IjyIXVFFNuFBg6qEYcNLh8tkGPvlUUnun8r_UmUzbE1g4gAj4_Sy-1-co4eI36tWl4dbCYSOxW_JnoDNwZm3uaJxHOKbONv2WPMm7HsemAdm_FxRRsl9HAetIYWXEtc9McXM8yYLw_gz5dbKLqbJH_vOtLyOf5_awzkb5T8NShyQzvtkJX1JJR8fy2JNNOEcY04CDt4RcSc1jOP3OnbLgbqt0n18ipEksoVJAaHg2ILMhBn_IZmiQzNiasXEMsvtu3gA9pYZcypEMcEVwL4wxKSDmtoSE_cyrKRanf0bLyY2lzqtlt0BtzFrYsCEZtUhhKLfZYB_8AxY6k6FOn1ILlmOa1gWTWClzYAf_B13i1J7YRi4LHZL9SNBamUUDMOyxO9e8Rxw84E8yAIcjvRZ1uRIFBDcD5DFENk-4hoZqC1jbKM0saa5FawC2m5jEogsNCLOx792_S3sxgRHAeqIsiNYllF8MgqEJpxI-_qiVV6W4ouCkz1QAXZq4n_MzGZ325uSXbrr6RgZcAFHqnIWEJq1hxjLA7-udK9W9jnzvjY6E3IcJ5LnQ5e6YCbv1DhuDHLkmBireSeAZXDId-QiXZWNy7gDNsimcFPahE46r8YVIez0Pny9e93X6MmKTgyKxhh9s6luMhGYwt37IrHnzvqvR98FKRdbHIJmf3DtBq1kgg5AsCX3u9b8XJu1C30mH7rxw2a_2sGkomz_lhPjZpd4I5zysjBbCi1H1WAoCltF4z3UvmKAaY2o3VhpaGW6CVYAktVwiz7UmkcpVRNJ2JRXtSFn2zWMKeWgJo0XL7Ke9HfwBrEyHCqe0v6EgRKvBDy_pmoexPuYPlvymAlkSaB2kJIOkYr7JdoNnObtWu4tG1Ywu3C85RcltZMvqLMUyDIlVIYd7vxrmcyy7mhSlrchZpfGcTfU_Dy73iFEDYocZm8aeY-w5xRWGmXUZWccC9ovXXmZ9YXCO3eKeMTpm0-RnNPh8xY77eX6pc3i_ABCHjGfjOBbHKU03ur80ibRu0KBjOze0SrTwaAOaVLKD0HZYtnOzLm56zu3FWL-Q7kmXhHtuiuftLPJOWGStzvPaYHWVAqCyqh9YBjuNzGWOeeKKLfWRXKmLBjho5T4L8wE1_1-aR5-N-oFhe7Qd9Clmt5QhQ3njqy2rEhhVoYcjrh04FnIFA0pqIeoO0QCMqyYusf_rCsTXve1rX_GZdlenzxj4KJRnHgs3kHg4bJHAw0sdPUXIRN1ByqE2jGlizXKSahmn4XspptMDEhoJtdk1za9K5JMFMmhSnkXOcYVjo1F7L_E33i4s60dZcE9X-E9epg8VkP0cw9yVlvz6WZLaX4IRM1-mBhbHKiV-H-VpB1wkHFBdAvM3B8k-BFMaml7LkVRLzaQ4GN3W6oaVDNfx_QcxazJPJMzI5-38oVLijl6v66wYpapnToAuy7oT8SAFPgOC5r2LCRRoZz8Th03hWjsS1i38Yxo2txsqcKsQ6UPmNvgk_-gDCKPEOcusnTwf0w40RBemx80oU_ekUcCOrRc8FNHeQ_tuOINg5coKEJ86ojOb-E0Jat506N6vqg6j0_7AoUgT1O1O2hAf7bokjYEQ1INiBLSpunaD8aoC4S3FBZnqb_mdJgqkGofyI06tQCuVhuuTUU58fRim7iK6WlLu_IjAFyQakEmbRab5BQCGmWl7EQDnNV12rDepaRHwb1KKAbiGNhl8GKQSuglmn9T1bvCHrml3pyMroR-ZLBgG-hhv8pJ2rI8jA1qmhiDvWQ6wgZjRj6knccrHy2JePlaIcx-qgz8sQQxdwDQ1P7DWxy3a5VEWc5AWkYLsGfw9Px-i2ue44US9h3N4K4pksqYaUrvgC2A0Zy3alBloxfFPS7lqIQed9Ljvacx50cFdtQOncCZNAE6HO6yT7QQh6zPWxN5ht9aXJXOfp5mO7KNlUv-OeoPCsWXbAO8H_UYqzW5-gKNXR12I6KipRh7EQsu9_UZYuJPK2Z8LfWElNSUVdQoHLIRw0akNjKp9317LgXgk0XU4xvKtuWCHLt0o7L879Z3KiWLgImc6OumXq3KBKXPqDUHH2xK6_erZOMG4wc5QC_SJb4sAlM3LgrjPejMx70ysbvCxB49cfsrc1BaiTA4I5jcScEpRJVKc5-NSqucJbAH5aowFclklQbvWKv0AdVfpIs3g70CYL8a8dymxdCECR64HndJ4sUrAxLd2rrSM-95Bg52FPA7D5nSIBPIq6uZkVmN66Q0ufS4U6SKP-gIAUYZpBGMIzXc2qrH91e3X1Z8TFvd50l3jX1fi5EG1Mnt8veAZ9ByVhaYIyyLn7NEBOjdM2oIojACh14_49ZahMQuptL9YVwY7Qb4QAianA2r0_py08upCLvxVnLAKVUOdLY9M8ThdCHoW5j7gCfdS0hjNch_F1U6Y7T7oerZ9XYhBh5mP4xrvya0RgnY2Iqi8Vs_6KNt5wnMqwcz79gXx-jHqAOfVi8BxOGt8TNAI="
+    },
+    {
+     "id": "msg_0ef9e43e02b8329e006ac51c37e9cc87d297f5b03be2fddf06",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"IWC\",\n  \"model_line\": \"Pilot's Watch Mark XX 40\",\n  \"dial_color\": \"black\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"leather\",\n  \"bezel\": \"smooth stainless-steel bezel\",\n  \"case_size_mm\": 40,\n  \"complications\": [\"date\"],\n  \"movement\": \"automatic\",\n  \"printed_reference\": \"\",\n  \"references\": [\"IW328201\", \"IW328203\", \"IW328202\"],\n  \"confidence\": 0.99\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791302712.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 12588,
+    "input_tokens_details": {
+     "cache_write_tokens": 3379,
+     "cached_tokens": 4723
+    },
+    "output_tokens": 636,
+    "output_tokens_details": {
+     "reasoning_tokens": 502
+    },
+    "total_tokens": 13224
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 1
+    }
+   }
+  },
+  "search_requests": 1,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

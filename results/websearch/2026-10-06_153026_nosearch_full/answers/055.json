@@ -1,0 +1,296 @@
+{
+ "row_id": 55,
+ "image_file": "055_breitling_avenger-automatic-gmt-45.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Breitling",
+   "model_line": "Avenger Automatic GMT 45",
+   "dial_color": "blue",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "bezel": "Brushed stainless-steel bezel with raised rider tabs",
+   "case_size_mm": 45.0,
+   "complications": [
+    "date",
+    "gmt"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "A32395101C1X1",
+    "A32395101C1A1",
+    "A32395101B1X1"
+   ],
+   "confidence": 0.86
+  },
+  "raw_text": "{\"brand\":\"Breitling\",\"model_line\":\"Avenger Automatic GMT 45\",\"dial_color\":\"blue\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"bezel\":\"Brushed stainless-steel bezel with raised rider tabs\",\"case_size_mm\":45,\"complications\":[\"date\",\"gmt\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"A32395101C1X1\",\"A32395101C1A1\",\"A32395101B1X1\"],\"confidence\":0.86}",
+  "input_tokens": 3902,
+  "output_tokens": 806,
+  "cached_input_tokens": 0,
+  "reasoning_tokens": 687,
+  "token_cost_usd": 0.0007932000000000001,
+  "searches": 0,
+  "page_opens": 0,
+  "tool_calls": 0,
+  "queries": [],
+  "source_domains": [],
+  "elapsed_s": 10.914,
+  "started_at": "2026-10-06T15:34:25.182869+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_02224550c6a181a9006ac51501be4487d28e90e18dcb04698c",
+   "access_programs": null,
+   "created_at": 1791300865.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_02224550c6a181a9006ac51503090887d29f0e1f8a5651a89a",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRUMyNiIo2yD3DqBhsLh7uWkDgRuYjOXXwZH0nCVNE-lZj2pcTrmGGxG6IJsDLvX0UhaU-rtSbPMeLkRLIi5n1gS0s7-64K-MIMha-6Zy7OXc3RT7jjfH36sOSLt6k3l1z3kSDXWoZtMJ20lNqL9kQKuHbNTx0y9YNCala00dpVgLYU6LDN1RqwTH4tUKDQpbMqm0dpI6MznhfhC0csfhxlUWsfWN4Citt0uu13BCL1T3FZcuhxYjG9A67BxnfWEtIRb5zsuZBxoyFzu_pFcqfwwaoCT5qgSEH8JsUc-TlDgocC3etQyDJzkRDuJLi-tym6LsUbFX1AJuRgDslIsyLGq1dF3EsHTUCU8hxQxV-NZIphTD3lGS3ZXhAX87qBuNNg_NGbisXzv744FmAXom3hPwB515ZKue0XRVHTqm6DEqcQiaQCvGG-YtQaIOmDoyTyLHTvaOUf1IG8jdUIlyeStIeSUO54sI58uICX9F9i6jfb4C4y0AH46v5wjMZuIusU8mruwjTX0Drg0-aCXkO7A0A8VW12fUSOwKnWvO6yixHeiFFGK7LNbW4lnSWkFOli5iYT4G40k96jqkY2w-4-sUMoHY4hEjQEvTQ41d-4PaCnkGTDz-ckpnBWDnHS0IWKrxarkr2g5uqguEWYGRa-p9H_QS3FgUk4lm9Ttw6XyCS9RpbJrCUM-cSlenfiVSG9fABFOgxkMiN6d2LhL_pzY29BZFsknI8JyUyBcwMxSVzkA3tsk_aE8fRUVacmhMuzZs71hAOh8CkBITYvKWOZT_nqHmk7ClByBH3lXC9nZUeVo4wrX8sNeJyfnvrub6TjmYPOGu4yutPi3ydqlVmr49EK2XIORGuLUiUWEfd9t7i9DCe996bNEp0oD2R7LsE2o6fCKg3pylVOSc_FOTCqpq_GBL3NpWo--D-Jl2VQ1K8pQ0WWCzL_qy9lHP34rqKcpy1U5w7IJpm3Dazdg9rA76_hionurlGzDUs_IWHg9IvCmYisJGPLW0yYrOOfPRJnVysiJfGn0-CgaKSfmlDgq9pnrfi9q3e0tl121eyRHTgozTgVo-WT4h5UDjN_Wf8SeWPHGxI8JpSgD6SvCZYZIp7Le3r385B2bwTavCuBElO9HXiOcg8yjmrDxC5v0c8v4H7cZWQ0tzCsqNAMMaACm8MZ1wUx-FEYltMW8BHJWA23O67EDMzyZqrn7xBx7yt6pGhebsFBqIqKh7T3WiRKbPqoxjeF6pik6KzTBbrNoWXTjkta2FhzeToZgqTG4fHC7b8wvZJJoGq5Um4F9V4CwfGZtukM8_2qwXYj1yR0nnkXYMJ8SmZ-1ReJdK1XeNOHiCeEB7fC2fmuStiyx0AMCs8XrnHycIvnvvsfeKD6YdLYkj2GtGIxoZ-Q5L-gCGw-ivA5yrHQneU6dktHxkaRQRQiYq6jU_tfdssDLCF2foIs21K01S3YuRW0UfGFszzITfZREe2BopUpc5ZpB8MV2D-ZuYkAjdT6NIdYOgiv9lkerpDExpaLxJeuAFvtVVlkGC1SQX2z72WeAFpQYwdR4B2SOd-3vtlEQMDwi347Dg0jnuhNI1NBy1wTxg2xl7hYg1Er7delx09rRH496Sj__AgnHV5OccUcJdItW7bDMu30BGNjmsLDC6OSghOCLeT2w2cNKOaVNlF0x8FCRybMZ9JFcukxSqk_CPaLVnCtsIgXhWU4GNPI1w9HOSHthCrZrEaE3lACyQiBHFyuAcxdGeob8Md903zsqtROV5vg2IulKVijYIpjLHx69R4vx52bXENN9YC29pR_GTaqsw1qUFziNLCyXIImwq79Rkm7jlNVYBq-gktpK1EYudLKvUZkAE2qvgeCLT1kuPmoSFyJTlrdTai1LB_s6CHtDIhPOPj2nvp9vVZEF4H2ItjqOwJ1nIY3Lne5Pf_3B5zLla-_yIu9h9iJ_kTqykO2VG7hBE_CJrz1IsTOz3UB2X8GWZT9Xnj5As5HLjVFESxBQRi4SZkWG8HjmgwCMLsm-gJ1lDtiPL_d36Qe1uZOQdAIr9UA3g8GG4QkqcbLOijaY-WjxdQgfYMKa0YySc5pRWZP_N7Gmxpz6i66okzIh3Gb9Qg2xwvYXQp6x2NXllAn0VuZT7oc4Xc5L3cO1v1CqQY2EZTPjAANCVf07Yk3n8v5inM0x1vzV-Dv3NB8baDqpbM1Y-COnPjv6SqwdhzIqRKoQKvH8vBYNLd7NO2YsqskaQ4JF806nkMtQvtfTEeHofnayydNV2urXC_nuTICoPsZSIw4z1vzBlw4FiDB2hI1L7cuo2UvGVOZN9wPMoBl3H9r4z7ToXMdxdMtnoTbgp2WdQ51qLrTaGdfrpfbNHPOadYtOn8PL_oy9TCufJy_J5QR_mb8l5p9XATjkjVIdTQ2ZYHKYcSFcApDn9x6zNflE1XKROaFr_LC7sHq6KwiA7xnJJQawA2I-qjfpvd_WpwgTWmpOPvyzcWdYjT46KmpL78_TYQzJGx3TOsvA6BviAoaQYSiw1bXgKDjMCWDIt5UEsDDWNMBcOBkA8a-UohbYEfb11_T63jNh-5kkiZsnm6-QkOWbukWi0nXehT-nJZZ2OEiHY2GAcLIIxW0nWtVSS1rEoM9N8o8eWGotQ_erifQoh2be0zz4165o6QQAC5RqyzLtRo5TzFfvix0anzOVCQgEfYmzuHm-UeBoX06kXunmLI5Uimlge2meEjnlWAhLJ_d_4wlVTmtIU6BbxfcOLeXAapLDVlRPwFrSz7sc3aafvvarlIBQ8XfOBtaUa6AvH1BHbHKQR-VEXxxPVMDA2D77fcA2npU8mOgJUCVUQW36YadpJEjdbEzUgvwRtn7l_s7foRMr8xKyTp-6kEyBzw29_EpNDmue3pgrP0eVPRxvsVksCcibNUo0YxbuKavrOpAGfLiJpDsAV7OOVeGH12RurADwGwa22mSU8ismHS0Mfojp_Kr7cyep52UO5fFdP-b-PxLnPr0h5LwH5uXeM2GyuKcb3h3BRFEJ2gzndwYZBd0ObaQL1b78PuFVdqZTz-VfRLHmzq4RQgfQXghZNJiD55ZTAcZn5DNFmfN-WnY6O4cl65Ckbr-By_GvXdWmp2xDmeynDR0T-b8uXb5-Gip0pgPcAagqeJKfRWXbRpbNs_pJRztLinpQ6HUHwAeQgZa9A8ek-2PlHibW6ehkQ7xkN8BW00xi1aZp0Z7ikaexP_VGX3ATnS-oG7znIfcwVcVJ9Cy-tqG-PGnmcbbyBNcytvGsWcIPd7ZbCXMgEpNjJV_yjf5iwSduUt3v04y4rzZqBmJByxnUbR43nzSp8nVJlM7RJ7ZfxAmkL693tt3-U8AjQU4zAE3249DwpNWIcHPP059t_rgPFWBHNcS8EfJisCyq5HQhdY8l7MQZybYAl2DRPvn6A-4o7KTbKSGmn_MaQj53KVEi77LmqVZC4xUT3wlHMHZNsd4q4SLbAaEcxT7xQugefFlVxcvnCOoxKqUfIGthOs_PEf4oyOKu4YSSn43vGUtWhPIbR7oY-4FlttSGK1VqQtvhHNZhcjeJlkIkGKJjGGVa-kfq_6UH7-dYqwSZ9IEG-kdIgs43OQ9sPSl326HoqGYmBH3RR-R05OMmduNsUAAMITNePHu7G8-R63ujYqaty3qZW3Pa3YNeeY4POwEq7Na35ny_qufEWZq6aJ-OmcTh-bLuiki-QB9f0YhixfdPRoBZ_t4cyd3hwFNPr4-iCIu8ZEonlz3Jcl8I5n1L8CkESat0rGN5uPJdZC0lPOVhzOem4IFpNsruZ8jUHG96TSkybGgr4alg7oT61CshYn3tN271vSU3TZm1v2RkS4cjK518_Ob6BxCnLbg0sidG2l2fqzS7choH_-0lHTgRz_4Yu3ces4xPFcVzoBJkRqNWZDDjQ6BFzjDdmd7lYPNV9sfZgVbx87PNFopG4ZRUEahGKpcphZO5KKSx"
+    },
+    {
+     "id": "rs_02224550c6a181a9006ac51509385487d2b42067f3d358d8c0",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRUMTNEs4TKJ-GLwUhR3mezOBKd5j2hA8EyMM9LJdi2yTTZdv3q5TIhHfIwocKOKVg6e2_Id8G6tQ6Rpoyhg3iUK2yf7QzPDFpPKRsWiUPV_zb7Jh6z2kvL4OrxqtnxAdkJtYUUsLOMl_kAdB2tTsXHVWMTf76_dEzlqAfj3YdKf9DRZhLvq--CcbcrD3H12HOoL0Ll4WCtGl5QDXYEqzChebzQJslttyREdXV6MoEtpMs4P9LKPzYMhg676scCQAGzkYT1MJBbpisBZbjWafcV0bkVHUcAcdTObzZKmUkR_e3E9x1IR5srBt133d8Q9GxHEnlLUoRhRLSm-JmEzUR69fdO5in6qcC4looe97j-C-2VOwGZnDnfWRbij22qAr3987Zy3BT2P8GScJMqnMhvCMQ0md6qAJ5h_s6Yr2_CNYL5poex2HS6WKfUG687K9-fSzJysFSB48A9_3Uw9kuOpeNvH64XbjLPoIC8agQgB521H3BMxmCDyGohqtOVmlc7BbxVnjmJLpJBFLBjUPu4CVX2OmZKLXI6C6oP9UUzGJGKH_dBK1HorMOsGCHnFz42LOzeYKyYVqLVrxJXZcKnXdKkYXs6x5u6Byf3CqTLSxtvhsjBIh_ZIOqCaEsLWURm6iywzuKl-ht7xHwsYsVJki8vUOWyj2YGzsWKXfriT2ukkBBy_SsYwYkRl-laPxpVp8cnlZFD1TG2LVG2P2VnfeiiU2sQxyRjXZqeoq-EQP4qQPl_DPiHQJBvr8LBBADCJuT1dawqzjxH1Uzz0UQ4s8AgayUB5Gg9Sq9MVtUmT3Rpg96LvbU9Oe_svGGXzEQTT76-rk_vWgbStyip56r5AU2B8QF_XGu7Q2tidvj9NywpLezMYzsmTRP7JRb3jgEm2RVgoMSXnncVRxwOIBesesSX2LNS_i_Alz6CvjxaKECj4f-KPtB6rqmvfbvw-f1-EMxhFbIeiLchVCQRh-7gFRkEldSWr53QUFrP6W4AxE_vRcKwHRwxW94yQAyAuAPaB708bG1zEnkZCgMFpZLOhxbsnmZ8MnJvE3bQw5rxRkaf3nIz5Dms4Ngj6nCvlFHwjXnbJC4Tdi6uPFBQDAMz5vpsi2OoyaZknHmiL01otqWsoLbKiqOEhC7iv951rK8CHM7iw3pZOxdQQrj84RcXlWlvVViXclwtoCSGnuVLljlGANVKd3SzQarP1aaZFieNv8EZ4HKmOCODBaCtSs-lSqAF4yyoMXai9AAgnm2BICNpWA_IGBxdn_vKWh2H6atCuQopI41AjTXdwGVVZJQdcl1wn6f3BPaSIfcNoYKNCZ-aJxQyjLL8h9xj0jBIWVfp-c6wzFL7MMlPY4e0nIMiKpEgsCQE1Tx_svAk5hiDRHIl7DAmZ0r6XlwBTpnU4Y6gscjQEE8hV1atHAqIKEfVxyCIXiZvNtGsHRO3Ey8OSgy1eN97x4sd2tYkvLoIUo9dEZT9EAkDc0FLIbz_82pPuJzPnu3iFEKUwfRjo4Xbx7cCWnDIHawuB2OSdZ2kpCe4amfpdCULoeqDxTo9w5bz3Y7oobGs-QsD-UUjjMG9wXWy3GBTRO7q9LWG2h3kgWrYS8-C8Lc7T5kggF9W6wg7ih3lAw6se5mTel0pyxfNkxcd7LNE8zNJaYwlB1qx-hHrqa_oaoRTp-_XJ8YtxIT3L6itdnY8J-5XO7BZi98J8G5aGSA0fGBC5vCntqxN6MXYHuAAO0n3QSNn-NmYzHg2-yQR1yNVwkPki_tdVbvE8pydyI4vf0O7xti7bxHmJBA5kCE6QSqsA3XGDTCZf0VKHhnCIiV8IAiJvSdXW6mhod7akEHT5pT7NgpuJITtrTlMmRcNF2e7FNRzEmSa6OfL-vCrry3hjvBp1OqpL_jXtcIpvZqSzxvwV-j6_WDmbK25B8IozrgfaYLI9OWfNU3tQZr4DZdzCIKNhNeFcpKKS-T6eMplHDs9h37c1ACpFsJfMFdJk7tqmxjObmAK_HxWRTJGxIBqpu1VCUHqepDUKv_bl4NJdPb0vZB8bPrxb6BhEeT82a7wDyvXw5QXWFm8Kag=="
+    },
+    {
+     "id": "msg_02224550c6a181a9006ac5150b1a7487d2b845c37c7cbd3ca0",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Breitling\",\"model_line\":\"Avenger Automatic GMT 45\",\"dial_color\":\"blue\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"bezel\":\"Brushed stainless-steel bezel with raised rider tabs\",\"case_size_mm\":45,\"complications\":[\"date\",\"gmt\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"A32395101C1X1\",\"A32395101C1A1\",\"A32395101B1X1\"],\"confidence\":0.86}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791300876.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 3902,
+    "input_tokens_details": {
+     "cache_write_tokens": 3899,
+     "cached_tokens": 0
+    },
+    "output_tokens": 806,
+    "output_tokens_details": {
+     "reasoning_tokens": 687
+    },
+    "total_tokens": 4708
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "search_requests": 0,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

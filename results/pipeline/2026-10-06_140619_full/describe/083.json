@@ -1,0 +1,36 @@
+{
+ "row_id": 83,
+ "image_file": "083_jlc_polaris-automatic.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Jaeger-LeCoultre",
+   "model_line": "Polaris Automatic 41",
+   "dial_color": "blue",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "smooth polished steel",
+   "case_size_mm": 41.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "9008180",
+    "9008480",
+    "9008170"
+   ],
+   "confidence": 0.45
+  },
+  "raw_text": "{\"brand\": \"Jaeger-LeCoultre\", \"model_line\": \"Polaris Automatic 41\", \"dial_color\": \"blue\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"bezel\": \"smooth polished steel\", \"case_size_mm\": 41, \"complications\": [\"date\"], \"movement\": \"automatic\", \"printed_reference\": \"\", \"references\": [\"9008180\", \"9008480\", \"9008170\"], \"confidence\": 0.45}",
+  "input_tokens": 1701,
+  "output_tokens": 4988,
+  "cost_usd": 0.0031726859999999996,
+  "elapsed_s": 23.866,
+  "started_at": "2026-10-06T14:11:29.335846+00:00",
+  "error": null,
+  "attempts": 1,
+  "tidied": false,
+  "served_model": "deepseek-flash"
+ }
+}

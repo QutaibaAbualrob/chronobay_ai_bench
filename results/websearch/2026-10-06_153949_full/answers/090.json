@@ -1,0 +1,690 @@
+{
+ "row_id": 90,
+ "image_file": "090_jlc_master-control-chronograph.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Jaeger-LeCoultre",
+   "model_line": "Master Control Chronograph Calendar 40",
+   "dial_color": "silver",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "bezel": "smooth polished steel",
+   "case_size_mm": 40.0,
+   "complications": [
+    "date",
+    "chronograph",
+    "moonphase",
+    "small-seconds"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "Q4138420",
+    "Q4132520",
+    "Q4138480"
+   ],
+   "confidence": 0.96
+  },
+  "raw_text": "{\"brand\":\"Jaeger-LeCoultre\",\"model_line\":\"Master Control Chronograph Calendar 40\",\"dial_color\":\"silver\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"bezel\":\"smooth polished steel\",\"case_size_mm\":40,\"complications\":[\"date\",\"chronograph\",\"moonphase\",\"small-seconds\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"Q4138420\",\"Q4132520\",\"Q4138480\"],\"confidence\":0.96}",
+  "input_tokens": 21498,
+  "output_tokens": 947,
+  "cached_input_tokens": 4723,
+  "reasoning_tokens": 836,
+  "token_cost_usd": 0.00219823,
+  "searches": 2,
+  "page_opens": 0,
+  "tool_calls": 2,
+  "queries": [
+   "Jaeger-LeCoultre Master chronograph day month moonphase pulsometer silver dial reference",
+   "JLC watch \"FOR 30 PULSATIONS\" day month chronograph moonphase reference",
+   "Jaeger-LeCoultre Master Chronograph Calendar 40mm pulsometer reference",
+   "site:jaeger-lecoultre.com Q4138420 Master Control Chronograph Calendar",
+   "Jaeger-LeCoultre Q4138420 silver dial brown leather strap reference Q4132520 Q4138480",
+   "Jaeger-LeCoultre Master Control Chronograph Calendar Q4138420 Q4138421 references"
+  ],
+  "source_domains": [
+   "jaeger-lecoultre.com",
+   "chrono24.com",
+   "chronotick.com",
+   "wempe.com",
+   "chrono1010.watch",
+   "bernardwatch.com",
+   "swisswatches-magazine.com",
+   "youtube.com",
+   "en.maier.fr",
+   "monochrome-watches.com",
+   "hodinkee.com",
+   "bobswatches.com",
+   "reddit.com",
+   "cambiaste.com",
+   "usa.watchpro.com",
+   "uhren-muser.de",
+   "aaronjoyeros.com",
+   "gazette-drouot.com",
+   "it.wikipedia.org",
+   "en.wikipedia.org",
+   "t3.com",
+   "fr.wikipedia.org",
+   "ru.wikipedia.org",
+   "watchprozine.com",
+   "chronobuyer.com",
+   "timeandwatches.com",
+   "hourstriker.com",
+   "thewatchpages.com",
+   "dialspec.com",
+   "watchprosite.com",
+   "watchcie.com",
+   "watchvault.com.au",
+   "dist.dev.phillips.com",
+   "orologiepassioni.com",
+   "hvmc.com",
+   "electronicsandbooks.com"
+  ],
+  "elapsed_s": 29.738,
+  "started_at": "2026-10-07T07:03:16.676120+00:00",
+  "error": null,
+  "tidied": false,
+  "rate_limit_waits": 0,
+  "raw_response": {
+   "id": "resp_0243abe24fdb7095006ac5eeb7407487d2a4476859becf4113",
+   "access_programs": null,
+   "created_at": 1791356599.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0243abe24fdb7095006ac5eeb9806887d2aa097c06ff279e51",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe7UGQ3tc5LhJfDExJisTYJkrgOkVtUiQo3xTC-Cj9DtodjqvTbph9UqvFn1KrJiuV6-errIGTveQpYk6YdIme2Ir3sbxWYwYCQBarDuPn4NC0j4o9SwwtA8wtOqayQR7gGLTVSnjH_YqU6yU8jv7hO1oLD_wDtyfv_9hNMwjoYnBCGktdwEmwwfoHmU0rpc5S6887Yx3cyXT-etdli1jFXvVXleK_phOwTJC9FVociryA-PlL2rsZyeoQZ-3D50d4qArQcf9JVZka3zPr4aBUOwdTGOUFAC7GaPrT-4mJaHqkIAl-e9jR0e4-q16w9TVoa3Om06zdwfmRjVtGmljlgeIsIdrjD_D04A-_74i6iiaiAsE5ZdVOLk9ZMQuhLgvdCAGY7r7MIwNwJJ4aajUMOyaBYELjfKgb878BA_mawOHdlbmMzr-XYoMfrFxLmHMpBDW3J69oaR57WSAuRVS9r_YoYB2YyoN3dtwLiikvLr80Q4k-koeykz81Eav7u8k5zUC1rAi8XB9TdWI_EkbWT17BwfgpIo4VdmNlP9vC_aN0y3T7STgeVzQqcH2a73eJ3PXajSVNwOK7KBkJ0d8X_c37efWqr00J602NpHKOwldUIHzJu8fW_qGCExMk0xH6W-wTywExCtp7LreaL37w-tM_X8AXRaFEb4UL0u-8CYE-mQiHYAf6lfxyMT0o0cbKRSI95nSmTItZA00AZbyp5mJQaTlPb1vK_hjvEu5LItQP1rKxsj4yN3i9e-ZhxBZwiGfJ_Sn03vBvngUUgLdoHBM-8Uw3W_IPXwheipDRWW3QxJVF42rmecckoNBTXUlm0V8w0p0wKngSK2ax6pIulSR63TtXt9z1iOvEQ5KWFj4-KCrwHu3XOa2_HdcbZpwR8jwfGM6FSgsUvLit1xPqHP0K6NozMR4KkGcjK4SNpzYGw7YpbjtHQgDF7AVEmquws0EfLIl_vck7jJCctrYE1y2WdJXoppoRlNSlwkQASW1t0BtfA3a8RO16nCBkCz82oVXlqH8fi-LRgBuCjndXMpdjHZBXq6oLO4hRs-YYJWsURjoj8VZLipseTXl5SX3w1op25lESRw6pJdd4zOt9KkaNB0_1FXtYdiR3_M1M-0kT6W9Sc0hvgcHlo6s5rAB3vL6OSsY279V4pzBH65CYc4LacNAg8iEA9mMwCpmnt5Q7fAaS0E0Awwda7gPLw08Zq3UrbWXEKUVsfKrY5Lnp14WJY7BNJ_gYBJHiGkHGCuDXXuRdJMem5ZR4sLXUo6aURsOwELA_ZeX8r88OO3nG_GydKEDDFaYSPYx9jDDCYnU-MuZ0mMVXTYTEew9GxzEiNIxiHjVILKhuB7NLa0Pop9GOY-Srciwg2dIrDTMMq0KwO_tPiritkA-KFDJyH-mXwklHIb3nLmdy0aH5f9hHvw4XK5OoiYS95qOQhNe4lQmqVOHZOt5ZVBKDjPw5wI7CuhiBrVS8FEl-SYHe78yJHoS9pIPEX6wkYTo_YKWGKwGMbQI4BGk5j32W_W8EX6E-DfXKsWksnjLCA5i2Sw24Zmu-hw2wHOhmkhnvS3Rgjn5b7tCJY1s6PfuEsdihFOSXRgJwd4hHtJw5Td1wHUoGxxv7h8_0wAsnRF8zJjVibpRGUCe5BNDVR6Dmaz5n67AQHwLklkGlpuC144F5WEToGHSwrgOYZ94vbAFASjlkHTJsqMEEifeMGKQM4RBTL9EQDVLD_8CEHxUej_104a-pjbbD6V1ETwQ1ltM8Q4weqpgkP3guxwT9gIBkR5PyZV-fvPWoYrOmFkLQVLsisLFb3WP25Pu8ySaTLiG-7D6ocaRrUIfoQe-J0gqCZB3-HQw-15vPhf3XklfnYrj0ZMnjgZXfLQXY55aKSl3XP-bISBhJRVVWIhypEy9VUZClbwLd1p"
+    },
+    {
+     "id": "ws_0243abe24fdb7095006ac5eebb010c87d2bf83c1fda65e8101",
+     "action": {
+      "type": "search",
+      "queries": [
+       "Jaeger-LeCoultre Master chronograph day month moonphase pulsometer silver dial reference",
+       "JLC watch \"FOR 30 PULSATIONS\" day month chronograph moonphase reference",
+       "Jaeger-LeCoultre Master Chronograph Calendar 40mm pulsometer reference"
+      ],
+      "query": "Jaeger-LeCoultre Master chronograph day month moonphase pulsometer silver dial reference",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.jaeger-lecoultre.com/gb-en/watches/master-control/master-control-chronograph-calendar-stainless-steel-q4138431"
+       },
+       {
+        "type": "url",
+        "url": "https://www.jaeger-lecoultre.com/ch-de/watches/master-control/master-control-chronograph-calendar-stainless-steel-q4138431"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/jaegerlecoultre/master-control--mod146.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://chronotick.com/jaeger-lecoultre/jaeger-lecoultre-master-control-chronograph-calendar-40mm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wempe.com/en-us/watches/jaeger-lecoultre/reverso/master-control-chronograph-calendar-4132530?c=6154"
+       },
+       {
+        "type": "url",
+        "url": "https://chrono1010.watch/de/watches-wiki/jaeger-lecoultre/master-control-jaeger-lecoultre/master-control-chronograph-calendar-stainless-steel-silver-q4138431"
+       },
+       {
+        "type": "url",
+        "url": "https://www.bernardwatch.com/Jaeger-LeCoultre/Master-Chronograph-Calendar/JLC487"
+       },
+       {
+        "type": "url",
+        "url": "https://swisswatches-magazine.com/jaeger-lecoultre-master-control-chronograph-calendar-steel-q4138420-watches-and-wonders-2020-novelty-news/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=vS9he4G6xBE"
+       },
+       {
+        "type": "url",
+        "url": "https://en.maier.fr/watchmaking-jewelry-brands/jaeger-lecoultre/watches/master-control/master-control-chronograph-calendar_q4138420"
+       },
+       {
+        "type": "url",
+        "url": "https://monochrome-watches.com/jaeger-lecoultre-master-control-chronograph-calendar-2020-hands-on-price/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hodinkee.com/articles/jaeger-lecoultre-master-control-chronograph-calendar-introducing"
+       },
+       {
+        "type": "url",
+        "url": "https://www.bobswatches.com/jaeger-lecoultre/used-jaeger-lecoultre-master-control-chronograph-calendar-q4138420-silver-dial.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vhgb9d/wts_2025_jaegerlecoultre_master_control/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1t4x9hy/wts_jaegerlecoultre_master_control_calendar/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wfi7c2/wts_jaegerlecoultre_master_control_perpetual/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.cambiaste.com/uploads/auctions/868-cambi_orologi_795_2022_11_eb.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1144lhp"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/hcm60b"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1szew8j/wts_jaegerlecoultre_master_control_calendar/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/10oebq6"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/JaegerLecoultre/comments/1qkh0yu/first_jaeger_lecoultre_master_control_calender/"
+       },
+       {
+        "type": "url",
+        "url": "https://usa.watchpro.com/cloud/2023/07/20/WPUSA-Digital-July.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1ko42dm"
+       },
+       {
+        "type": "url",
+        "url": "https://uhren-muser.de/catalogues/en/Crott_114_US.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wempe.com/media/pdf/art-of-horological-complications-2020-2021_en.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wz73pr/wtswtt_jaegerlecoultre_master_calendar_ref/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1rbsgvw/wtswtt_jaeger_lecoultre_master_control_calendar/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wlhs5j/wtswtt_calendar_chronograph_moonphase_rare_jlc/"
+       },
+       {
+        "type": "url",
+        "url": "https://aaronjoyeros.com/wp-content/uploads/2024/12/CatalogoXmas10.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.gazette-drouot.com/telechargement/catalogue?venteId=120618"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Jaeger-LeCoultre"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Jaeger-LeCoultre"
+       },
+       {
+        "type": "url",
+        "url": "https://www.t3.com/luxury/watches/jaeger-lecoultre-reveals-new-master-control-chronometre-at-watches-and-wonders"
+       },
+       {
+        "type": "url",
+        "url": "https://www.t3.com/luxury/watches/moonphase-watches-at-watches-and-wonders-2026"
+       },
+       {
+        "type": "url",
+        "url": "https://fr.wikipedia.org/wiki/Jaeger-LeCoultre"
+       },
+       {
+        "type": "url",
+        "url": "https://ru.wikipedia.org/wiki/Jaeger-LeCoultre"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0243abe24fdb7095006ac5eec6a15487d293062f5f699f500b",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe7UkpC5XOwm8rOVTgq_OFm1ocU-nrmaKH8De_dagGwWXPhuacTcIkcJo8rf-enPwvnAkSZsCOlLWcDOrdve00fA2qoQujtSi3-RQenYr9RqDRxETSZFDsDguI1EU1IskTVBWA2AMdtp6vYiSCPCLYhJXp9-dg4YLnhgIfxealssi3URTOho7VhWBPnbC-FqZnSret-DZEFISh7u_HHM5Xp0Uhf87wL95Ia--S7zF3GoV5XFAa5uherx88HzlX_52fpjmOWF4h5nzM_k-kukd_ir3aqCnsRLFQ-KQypKfPniVqRRVR4kFW18CsLfuaKmCJeUTe6xMKKJycU78D4iqRv5ZyURd6XmVo7ChExV1DKQ2mPUlYbHKA_OP4fnT5hmSSOgh_maYLsJd7Q0OAsjVhpRRyRz09hzKAgoV7nqL0kbDH689NMKyCy2maKfdt36yhjU0NuSAFMn0TpZr1fHrvuMwurJtLv38HM32QFIywbbLkPiznM2G7-nJO9owRIBVubZ07bsaXprxrurEwLltS5KKL-NvuoswafBZ_DLWHgbjbQo4ALSWvZC3lzgkXLXNDCkJij2Ga_md6SRzWK_eRTqo4Wn5grOtCdERPgqprHQpVEY4JLh5mzvYJ3b_zBtV6aS43Knt-2xuRoPaBj6TOOfGjiUSbRw9iVTu0sEmpO6ZC4En78qg4To4NASj3wcK7gzz7a5o2K1yKakuU5G8rxZJjOJF0B4nFDCovLEMWhddflBN-opZiv_ynqHeV7z6Hutj5KTkoGAUFZfcAof-oHzDFdt8_mWYfA0vaVPed50jmfGOCyE2ISw2wktGt0EzNqzAVcWPOsXqxJsgn57wRoz4mPkJkCg4hjNaQUPmLPLgnFSDeBNIkEbCZVipk7JdH83SSRTrsQVjurOTrRQGd22u1jGVWEK3usWT527uARu7FiCXPxJBc2BYHBz_rEPobqQILY_yhcdeslEzApWIoexAbKMiFkwI05vNKbSz7KauFwgeWDTIMmRCOcpj0TD15cyuZ-FW1pNuUBjdrtXQwLmSYwnUtRmaSqm8mTN-pJcopf4V1_thX-BfHvIpqxkndGo3U2G6920_6Phcu_6e7dFS04f9rASHyYCorcjfwHsy78AM6HoN0ocLidE9IWRt4N6L5eDIJgs-Vm2VWZbjaYfyEBM3rnWzRhF0WdVUXY8JKTlyFk2SEXwaK8v1OEh4ugHJiA9iYQLIQ3S6D6Vo5-2KEotwV1ftTwm3m41yRrSpjvW_Ug6z8ICGN3lrJX8VckXNP1Fnuhd_QnxBgqHfbaYGbDVgxDsXnh4LZp5uSUpxG1erFrj4l3z0cMXwOf6D41N2C-IR7DfNx8PMjOQ7JozWODCTLCnVjTPPp11lieesz-ak6BTjiNvkZ-RwjlfJGmXENXg_XQUKNZ3izMmUyRCD0XGl6rYpFeUc7xVuyF9vIeOq_FvMMiX6Xh5eyAtbTFdQAM23TFMQmT_ChrnnvlummL7cINgO7MotLG4hwND39rkwlnaZ1dBDKKnHnD7fgrlIo0YWIk9GBdeFnVEM3yQ3LBGUHlFERFYNFhqzGYP2YxW0mHYM1arPJ0I7PoBKWbzcNLrft-oL745Ufx1NM1-ttGNc5iUcv-U2zURYHKsmurxmYFzD1I_9BYgC4Es9mVQpjy6Vt895dmD8Qx2K_19Q0EAKmcRTR9ECGHeJN-Lj5-ZWstUc06J4yop-RVxoPvIRGDoHxMMogZqQALYw8UsnlXTYxYLZtetzuQYHvWJ_37piCjj6illtxCuLgxOIy1ifFzi2-BpG_qD1JN8LqTjLkAalda-pBQcC0hHo0XJgRZRTQyiaAdmNzU7ctiHO2QBWYPG-A_OUnKgUAKsxi7iQzTRuuvrZ2ztwpowSngFB12W7xeLAhNgOQKS_-XWViunSMeVJ7zgXcte3o8c97tPvqSFF03WHQe60AtbU6mPtbD5JGykHQpZQ3x8hY-qOrpyn-zO8jDNa45MaSgXBc37zg=="
+    },
+    {
+     "id": "ws_0243abe24fdb7095006ac5eec7e86c87d2b3304a1575dfdce7",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:jaeger-lecoultre.com Q4138420 Master Control Chronograph Calendar",
+       "Jaeger-LeCoultre Q4138420 silver dial brown leather strap reference Q4132520 Q4138480",
+       "Jaeger-LeCoultre Master Control Chronograph Calendar Q4138420 Q4138421 references"
+      ],
+      "query": "site:jaeger-lecoultre.com Q4138420 Master Control Chronograph Calendar",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.watchprozine.com/digest/jaeger-lecoultre-master-control-chronograph-calendar-specs/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chronobuyer.com/watches/jaeger-lecoultre-master-control-chronograph-calendar-q4138420"
+       },
+       {
+        "type": "url",
+        "url": "https://www.timeandwatches.com/2020/04/jaeger-lecoultre-master-control.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hourstriker.com/database/jaegerlecoultre/master-control"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/jaegerlecoultre/ref-4138420.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/jaegerlecoultre/master-control--mod146.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.thewatchpages.com/watches/jaeger-lecoultre-master-control-chronograph-calendar"
+       },
+       {
+        "type": "url",
+        "url": "https://dialspec.com/collections/jaeger-lecoultre-master"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchprosite.com/editors-picks/jaeger-lecoultre-master-control-chronograph-calendar/2.1644161.16772586/"
+       },
+       {
+        "type": "url",
+        "url": "https://watchcie.com/browse/jaeger-lecoultre"
+       },
+       {
+        "type": "url",
+        "url": "https://swisswatches-magazine.com/jaeger-lecoultre-master-control-chronograph-calendar-steel-q4138420-watches-and-wonders-2020-novelty-news/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchvault.com.au/collections/dress-watches-1/products/jaeger-lecoultre-master-control-chronograph-calendar-q4138420-2022"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=vS9he4G6xBE"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=cx087VJKeK0"
+       },
+       {
+        "type": "url",
+        "url": "https://www.dist.dev.phillips.com/content/web/auctions/HK080523/HK080523_en_1.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/uqxpm2"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1szew8j/wts_jaegerlecoultre_master_control_calendar/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/JaegerLecoultre/comments/1qjac1s/authenticity_check_jlc_master_control_calendar/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1r8lefe/wts_2021_jaegerlecoultre_master_control_calendar/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1u5qh5p/wts_jaeger_lecoultre_master_control_calendar_40mm/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1smey7r/wts_jaeger_lecoultre_master_control_calendar_40mm/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wz73pr/wtswtt_jaegerlecoultre_master_calendar_ref/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vc3iwm/wts_jaeger_lecoultre_master_control_calendar_40mm/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1unahub/wts_jaeger_lecoultre_master_control_calendar_40mm/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1tzkaeo/wts_jaeger_lecoultre_master_control_calendar_40mm/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vvf776/wts_jaeger_lecoultre_master_control_calendar_40mm/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1trgy32/wts_jaeger_lecoultre_master_control_calendar_40mm/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wempe.com/media/pdf/art-of-horological-complications-2020-2021_en.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.orologiepassioni.com/listini/jlc.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://hvmc.com/wp-content/uploads/2024/06/Montres_Juillet2024.pdf?no-js="
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Jaeger-LeCoultre"
+       },
+       {
+        "type": "url",
+        "url": "https://electronicsandbooks.com/edt/manual/Art/Auction/Bonhams/2016/20160622%20S-23511-0-1%20Fine%20Watches%20%26%20Wristwatches%20including%20the%20Collection%20of%20a%20European%20Nobleman%20%5B144%5D.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.gazette-drouot.com/telechargement/catalogue?venteId=120618"
+       },
+       {
+        "type": "url",
+        "url": "https://ru.wikipedia.org/wiki/Jaeger-LeCoultre"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Jaeger-LeCoultre"
+       },
+       {
+        "type": "url",
+        "url": "https://www.t3.com/luxury/watches/jaeger-lecoultre-reveals-new-master-control-chronometre-at-watches-and-wonders"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0243abe24fdb7095006ac5eecf138487d282a9499dbe09d69d",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe7UXjd2UGySSdcyKPa20htylxSD_7d8HyZvedbswE5lVJmd93NlZdhi8pqat2LYdPV3B7VdLEqvmXrLGKtbMzjvdbNKR5Hr6uF9CFNlps4nBK84qy1XNjzURI8Zh7KHqloPjrAcWRMaS-d_U7R-h7L6j_1K6toCFP9ps78mDSLKmg2NU1a4BB93gKxen_RheZLHJ207DxqqikrUvLatIwpZAei8ydywIuvCanwppdEYs6VS0Ql0LouT-O_tlqAG6BthsJYQAuKNCcGbFQT2Q3_iS0eZcatY5-YP_dHjDObnwiZS5G5vsE2gMNP3JUmYT8UcQkYtNCzDwKeziCtezYrFY-2AAeKGaB3ml2SLRYUHLhIY8AAS4y8I5BmFLxSqtkLgWAuvm-GGOIZKeClUzAcmius1rmcpD1Mug4L8VoV3cu2wJ4E9tPhmDMRR6cwjkBStCY_kTMTPsZzWjUBGBc85-mGwzd8uERyd-iNr3o8i0gWU5S_7ch7OK08asC_QgGzE-h8jd_rMlE1Czhy1XvP5HbUTHvarVUXUK6ZcZcBjmJJ5sG01pU8g6NQHxWWIKQXECLcuT-lmPMCKsO1WzvOfcZ_NTI6Yr2_kOCEDQvWPnJDFcbIxv9ovqhQnwtnNJd0RJr4vWnMBlTCTcJJgkspb0nY2zeZx-igPIOZ9ZJAYPd2BPJRQF40003pEyeJE1AVbAzlUTt_dY4mhHOvXIiyMEzI8Y8i5qf9qGPFx94B02eGMr3QQsSzvJVU8bqgmBpZPHvwQ0v4EBoMfKxv9c5hBDCsCx5mgfZzvmmPvMG85gH2dS5npyijlVPteBxFuq69rmEIqetos7hDLfWAuY8AWieCETTqMQKgfjxGw3qCzLh4X7vj2Oe6ykIdCjdy02e-ZzoQ-Msc0SUOKmKzkkhfaCz9hfP59BBUQ8MVbR9XLJD-8nLv0LODV7DrBS81nprTG_fnxQVuY8jpO9L_GZY9OL809qcSnvLKmKifGJW_TqUSFzA7dmf2L8BqZpgZ17OM4Ifr4AwnPjpi15cu2yj9ZUcI5VqzKgnkyzSnWP682Sc-2oRUuCiXTp95Z1H_XwVyIDvNb26Ly0mDVHSuVb28NlDYIxbI0G4TU4l3ShPx51gL22go5gSuVrF16jaiycJo6p0dgxthGxmw3gaPsLbqDIWfLIjxjLwOo7AjJjX26IADk96D7qCKwwt58A1xYD3QnwksOjGKTWhobhMGleRALAc6d4C9oKwB4Xz0ewNp3KIonh_VShU5HOxqKHDAU3Q0mk7WN87muB2BqYCJg_rQnQPpDhgEGfe41POo9Q1hF0x57LFm7yOsrndA3VSD97G25HchE_O7OA39C4hlmXOfg8E9t5ULk_vrm9nGTq-s0F0e_xCGU9qdSXrOFCuAASIazS4J_7cm_uKdU-ebCGk8BV0pyA_shWRPcd9-se6xh6JsXiZyAulXVpT-SCxlhOc8vgE8nt_X5bz5oFwAM2hmsD_Cxiilq5W6JuhpvMuTbny-33KYcvEof78PI6FryLPluXdvzsByx8Ta6o869aK83rFpSGTyZ8pnJzfeSkjaLAt05c7bGjCERuVv_lkW9h7ZouqItoJA7vcsQ0wqzuuoElbI2I3B0QQ32Wh9g2qAN4_EhzDfZn739gyzGIo1LGIJLmuYcDVKpQ7Wvq5VrwWXYQnw8yDkGlQHGudvrXrbmU_9omhczod36d7ImR193hkhP17I1nMVgFp-6UDcGZ0falwHOMJG64HynDTar-zDTpDsz9BIlUrNfwYV83TKzwbiCcIgalY7beGKAXYlBHbmTQfW-VT1wiy_1SkJhgLYxjYg-HJW1qURnZ-YsVsaCGxRqYpZCns5mKp978qwvLxeBIK2npvn1mdwuQKPT7F5o8614wQfF3PpCIfaS2VaYCvPCsCdDMwiKnyFK60BYbHOj6sT3nkvK14xgjTzd45g1krITOtkxAuTiNMb1uMSLjjytWZuKw-8LdKIQJpE0yNsZ3GxqvGTGui7O5d8jRuK8p2n-MXtAaFJNvSMUXiF-KpVzx66Eff4406qe3PYAD7so4jBEurCAeid_Ai8l-WfZ0_SjIOAFsTucGZPBaG_E_ZFKBZOH3Cf3vziI5Z6qgJp-72zmVgGlZsMq0k2lIhHQnajh2R2WwX1BLf7-thDJRFWgzyrd8sCmjY4lHju2JTjvzzCwgdD9N5MBOW_n-OLZa3WeSBWImQE6I57PhvFDoI8YDsmS8H5810706MOLpwtkNAXgTa1dmEzdsjJRPzn4Vmo20-dBcMcCsRDzus393vd3xTfWNYGLSEKs9Eq-hN82PXHL7P-XCOJG8Ir_8AYteM7BLoZrF3YgyM4jw-nLCzGEge0nYRvsVUV_6_PUcfuDVg2Fdx6yoR1803-8qXEDtBRhgF4WHjyMTCxOFgDMkhSHTOIL1jZDK1zwzoCaaowHbB4QwkJcZLeymsVPIE76nuutzVt4JxSCkweogRlbU59eoiCPk6H059v7KD6_tfQo6wKrpIpTI_vJmyq5Drc7tebatJX-So4fm4xy1TG-AwHqtFzjuAkreyQRj5hyRZTMS6RaCx_OIlUMa4Kb69c2w5kO2GFhlVekUWUALTJESDJdvSVbO3pInrnttxn0NQuJArxoQxIZ8N6bgseiAC1o1LtWuQj3Jur0VrAoaAWtuCn1rH_kiADjOozOwIX33GASMtADFbJYDpd9RwAW4XMmsoeEXs0tDkM374UMH4cLKyByJppgTRnJxRhbeRbzrF7eT8Ng-riHz2t4mJI5VJ45lGvLNO0ESePC5c8ykTIQphWdX6dzWIGZdwvCQnUr1_-WiGb0pr95opGVqcsd7LbOSMNJSMz4cU8z5L4f4vqejIfG5M9N2S2gR-IYX_tfvmaKRsB2NLleLX5I0BnyPQyiuRarIvI54GF3IdXpTMex6HzCVnG2woA1S4s76_kZlCu-5djIfZt0Nb2ZpGvPyYT6DNZ1mXadRrfJ0et36h62lCHIJR_xx1g6lPaurK21T0Xfsji9KOiroo9VVY7booc4pFfho_nIcMfqSNkRwui47urmOpRQfWWB4zW-RKF0PZIjFAOtyUOXQjzZFlvmkc2HrIC5x_kpWiKof4vi7v9YgRqOtL7m8c925j13Kzh0bJp-wXjZTYR5W5x5qQ5ygSmosrw3OQi6b4UkhhxiAHMBmveV1aB7AR_z5iOWivimSM-Mf24SPYfeTSapAXjcBalzkAkUkriw0GpsQH6mERylQrPbBe0d9P1XCYrLMmTPax4cnWYmWxn9RwlxC5YeNRiCQlszdC3hfPxxsWAxpHhbcAVlO-rI54gzFTBnD41V4Gv2auppHu4Rc7irlNQbQplFCwaHDgeYija2n2Gh9t_ohTltCbXsUD7xu4zFRLpLGLtU0i8TUHDjot5VJypuOz5RvXWe3F4ARowdS8fKVB-LP0pXCnf1FQco0wu2yVxMFqwaDyI61lUXbqW5xIMhFFmEhFpbO3-_ZBCRuoMW637teS9j9mRTwyX3NSiqOYH7simNcwThrX4NypeqSibNjgjHM6_8br7DIODl7tIeRn7k_YjKmigRKEBDwYZ-lA6_faxcXigtW9xcdC_yCbg_MAUAHWn_9QQDQtpwyCkCQyfecHlT"
+    },
+    {
+     "id": "msg_0243abe24fdb7095006ac5eed3389487d28978fabef7789b48",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Jaeger-LeCoultre\",\"model_line\":\"Master Control Chronograph Calendar 40\",\"dial_color\":\"silver\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"bezel\":\"smooth polished steel\",\"case_size_mm\":40,\"complications\":[\"date\",\"chronograph\",\"moonphase\",\"small-seconds\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"Q4138420\",\"Q4132520\",\"Q4138480\"],\"confidence\":0.96}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791356627.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 21498,
+    "input_tokens_details": {
+     "cache_write_tokens": 1959,
+     "cached_tokens": 4723
+    },
+    "output_tokens": 947,
+    "output_tokens_details": {
+     "reasoning_tokens": 836
+    },
+    "total_tokens": 22445
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 2
+    }
+   }
+  },
+  "search_requests": 2,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

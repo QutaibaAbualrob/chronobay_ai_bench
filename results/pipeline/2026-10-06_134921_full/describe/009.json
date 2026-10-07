@@ -1,0 +1,33 @@
+{
+ "row_id": 9,
+ "image_file": "009_rolex_oyster-perpetual-41.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_line": "Oyster Perpetual 41",
+   "dial_color": "blue",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "smooth steel domed",
+   "case_size_mm": 41.0,
+   "complications": [],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "124300",
+    "126000",
+    "124200"
+   ],
+   "confidence": 0.6
+  },
+  "raw_text": "{\"brand\":\"Rolex\",\"model_line\":\"Oyster Perpetual 41\",\"dial_color\":\"blue\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"smooth steel domed\",\"case_size_mm\":41,\"complications\":[],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"124300\",\"126000\",\"124200\"],\"confidence\":0.6}",
+  "input_tokens": 2512,
+  "output_tokens": 128,
+  "cost_usd": 0.006304,
+  "elapsed_s": 2.308,
+  "started_at": "2026-10-06T13:49:31.836551+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

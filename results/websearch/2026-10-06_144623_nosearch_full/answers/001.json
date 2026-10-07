@@ -1,0 +1,287 @@
+{
+ "row_id": 1,
+ "image_file": "001_rolex_submariner-date.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_line": "Submariner Date 41",
+   "dial_color": "black",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "black ceramic unidirectional dive bezel",
+   "case_size_mm": 41.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "126610LN",
+    "116610LN"
+   ],
+   "confidence": 0.76
+  },
+  "raw_text": "{\"brand\":\"Rolex\",\"model_line\":\"Submariner Date 41\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"black ceramic unidirectional dive bezel\",\"case_size_mm\":41,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"126610LN\",\"116610LN\"],\"confidence\":0.76}",
+  "input_tokens": 3902,
+  "output_tokens": 347,
+  "cached_input_tokens": 0,
+  "reasoning_tokens": 254,
+  "token_cost_usd": 0.0005637000000000001,
+  "searches": 0,
+  "page_opens": 0,
+  "tool_calls": 0,
+  "queries": [],
+  "source_domains": [],
+  "elapsed_s": 6.947,
+  "started_at": "2026-10-06T14:46:23.944624+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_0a228b11185dd975006ac509c0ab5c87d28435c049ca4d810a",
+   "access_programs": null,
+   "created_at": 1791297984.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0a228b11185dd975006ac509c2ae1c87d2ad4f48c3e559bbc6",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxQnG0S7OgymoQ7vgt-H2TfbWnWGWpAXLsCOYo54g6jocTyy2HQlzuTJ9P7prj43KlJk-9wqu1O2P3Xsq4yRwoJdm4M45mkynKnKWk8zpSHg4jHBeuFNc2fw_Kd689hv5QxiOUkup9d86IPisjBhKtjNdfuWR_-_LbQeYDx06SkHEH3tK4y35hLqfynCaMs9kCMnfioQzlLUe-k5p7RdZ_V_jaIMA0lMlQyBEd-Gapo0M6Y4csrrMBoLUtiDajeDrNi-qZKSm6AGnJDQw8CWfl3th_Ro9ehUPtkdvpN1ohuoMlXynRqMU8GUuLL4SLD_ioX8YAg6VKfvX60ouwQkmcHr976M1GxncXAU11I7Zs9aCKI0F66BDku73Z1_s3SASELsxTMcCR95QkolE5x3I4DSEZwsrk0Vm3cJj2YjtwkoYa0f-egnv7p_nb2qrAn1XHP7JM0oZmoMZ5ukTM7o2axgmXCtuLNAGf9VlZXhRbE4tYAAyL0gXOwZQCGCx4jUuFlBe-IXJAkV3SG7NUHg-bXN3bLv0DbOPV8oOjFRn7v9_FKjO9O75_3tXfdCtDceu0VU0RDqq1yJS9z_E3ckTchwOJsSfiREZX1Hq-C2DrGfLoaK3-6mLJMCbrWRBUNBh0OzsPUAwk4uDrNxmeE2xxaTwVMCKtGHLQzckYdM692cOqDzmj-gcAGHwP-f-KGsfRJndblrCF5A-wXNIg45k7RfG8AQ_PCtA1YNi9AqyfcXDNIRpTNyaAvX61yQrMfU46Ue7_1Vx4sBdAPOO2UfvRAUYJJh6i90SEMQNo9anPpkCJ4kflXqoJZcsqAtikLZzc_woWmdEhM_bGUAq6oRkcuDlKQLJNmYysymkO6osTg7D7XzYBlklACGzeGoC1n4G389eTELFUJIpf4h8gPr0RvMpxeXjy2WJityEF6Dcgzjdbx7vJJXqT4nNe6MInMh2IfS3iUNZdcf7XS4BLT0lCsE5t39LKR9kPdyIz_jyoWFnUSM2loMZ3WGiodI4TVjTftpusTnftDJn0vVjSfDtWvBlkFxh3vTFJHRxSXzZxHBoha4X6ATKsuNDpy052TTfhf6K7700GjBn7AQxnpTTNdo44xYcnf7PaChP2-sjWTaBNeYUYNN1M1EqMg46o0OwA009O55SKA0J70aed9ZvmIrOtIB5o32ruVwRF4gUH9V0QHqeelHLPSNJ2POrjhT4Qn8psX7dcsoNo1gpYiL8SB9Ct9DTR-blupNqGLGGC8V4QB4lPjYgV23ChAJrJ2P_a0F87752bnrPuuisEh6V7bY0boXUcXoE6G5RRPX-6jTp9GiRchNx7VMfKkC-XvQ5WG5g1WQTNdcmM-hgJu8wBtpMYIGH1WhxtFckjAtuyh_Zz4oFUJX1jG64ELlB3a5_0Ax1EdgY4d-0FgciDmZRajxpZYgsZXp3_w8dccWPEj_D_WVFYrA7AaSTvgA7zqSFoZV-3VG273wSkUaxdw3VbD9xBu69tCrZeYv4iSAHQNkv4Z7SYztF23y1xiu3pB3Q5C8Hckn9PO6u1jIcdBGKhr2uA8hvq6QdfQ-mjE4B74gdJjMri3PRHnUtLzuKthRRWssumMongL7sHDqHgPqFftyI85OYrl_qPBE2E_VcKQuQ29Q65mFPHPM_ruUFetZzvxgEHx6uHcpaXLMQNMp-m6NHaySEzEo9M8otX1l8gmcTfKLu9w970W6PEQOJyD6cQxA65zomxLZrpfrUJS_MZw2Yskw8La4BI0S5RN0dBC4JPa8Pzm7OywSo16D2ichhsBJc0nTFpolQjSPVkzCrNuHbIoyhggRKD0j3erCKdOanqe3KNdfb6F4kO24VO7_08oZO3RWiCcxr-cxcrk3U8vdsxRIwAnPKfJ0aaYijtM-5E-CQaHyuWcKIQm_R61Xw6zIWrRYhVyDo8l1oRDfHJKa-YJILnDHj0weOSiC4UtbZ_MSmN1l97KpBl0uUuThNEBiC5knax4tQEdG-x3-IXNj5pvnjamGUdHCc5zP7TNVzCrDl7m9MOVa-OFckJVetlD3m_u-Z8_XkUeq_sixaG8jKX2y8EoGquRazmmJxI7ZJ0a6a4RW-2aqey2wNNsN2OznK3nuT0pv5hQ2eOUdjtZvXHQnzDaO06-b4U8s8ORi4VL36NGKTrGsY7KP9-i8JloPuso-4KzynAYlZOD8Ksrzc6bjZcWDRCMlgSz6-yTRcyKDoy_62gGoGPH9yDxaBICPUWMrYWvY0SRpld_OLvR2G_YiH9q_A4TRqeg91SNhv5n2ax6OxIQ9ERIf2nO-pJ6iVE17Ghj8CN9Y8WAl2Q-yyWXN6HrGsuzTSi_N1WnP55DybeawVMGFvWZDnIpDlKmwzs407dO3w_7bFQFnO2yfojrHvMJKpSjsFuWk5hMJIGxZFP48b_3iik7lnqbC66pvU4SokY6zSW7YNVJ9LvGa9fGxtARG1n2kfGws7Z5P2N2gqwfCFOk7DlvaXaBU2bXzlzBQ324QP3BLlPqlxn-jNLA=="
+    },
+    {
+     "id": "msg_0a228b11185dd975006ac509c6070087d2bf7520ff605ab68e",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Rolex\",\"model_line\":\"Submariner Date 41\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"black ceramic unidirectional dive bezel\",\"case_size_mm\":41,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"126610LN\",\"116610LN\"],\"confidence\":0.76}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791297990.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 3902,
+    "input_tokens_details": {
+     "cache_write_tokens": 3899,
+     "cached_tokens": 0
+    },
+    "output_tokens": 347,
+    "output_tokens_details": {
+     "reasoning_tokens": 254
+    },
+    "total_tokens": 4249
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "search_requests": 0,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

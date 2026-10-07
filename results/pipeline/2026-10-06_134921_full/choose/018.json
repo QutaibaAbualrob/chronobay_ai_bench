@@ -1,0 +1,35 @@
+{
+ "row_id": 18,
+ "candidates": [
+  "210.90.42.20.10.001",
+  "212.30.36.20.51.001",
+  "210.90.42.20.01.001",
+  "210.93.42.20.99.001",
+  "210.90.42.20.01.003",
+  "212.30.41.20.01.005",
+  "212.30.41.20.01.001",
+  "210.92.42.20.01.001",
+  "210.22.42.20.01.003"
+ ],
+ "result": {
+  "parsed": {
+   "reason": "The photo shows the brown-bezel, brown/grey dial Seamaster 007 Edition (No Time to Die) with vintage-lume markers and a titanium mesh bracelet, which matches the 210.90.42.20.01.001 description exactly; the others have black dials, straps, steel/gold cases or different sizes.",
+   "ranking": [
+    3,
+    1,
+    8
+   ],
+   "clear_leader": true,
+   "none_fit": false
+  },
+  "raw_text": "{\"reason\":\"The photo shows the brown-bezel, brown/grey dial Seamaster 007 Edition (No Time to Die) with vintage-lume markers and a titanium mesh bracelet, which matches the 210.90.42.20.01.001 description exactly; the others have black dials, straps, steel/gold cases or different sizes.\",\"ranking\":[3,1,8],\"clear_leader\":true,\"none_fit\":false}",
+  "input_tokens": 3314,
+  "output_tokens": 142,
+  "cost_usd": 0.008048,
+  "elapsed_s": 2.782,
+  "started_at": "2026-10-06T13:52:34.272758+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

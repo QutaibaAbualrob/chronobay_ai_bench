@@ -1,0 +1,36 @@
+{
+ "row_id": 42,
+ "image_file": "042_tagheuer_monaco-calibre-11.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Tag Heuer",
+   "model_line": "Monaco Calibre 11 Automatic Chronograph",
+   "dial_color": "blue",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "bezel": "smooth square steel",
+   "case_size_mm": 39.0,
+   "complications": [
+    "chronograph",
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "CAW211P.FC6356",
+    "CAW2111.FC6183",
+    "CAW211B.FC6302"
+   ],
+   "confidence": 0.55
+  },
+  "raw_text": "{\"brand\":\"Tag Heuer\",\"model_line\":\"Monaco Calibre 11 Automatic Chronograph\",\"dial_color\":\"blue\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"bezel\":\"smooth square steel\",\"case_size_mm\":39,\"complications\":[\"chronograph\",\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"CAW211P.FC6356\",\"CAW2111.FC6183\",\"CAW211B.FC6302\"],\"confidence\":0.55}",
+  "input_tokens": 4431,
+  "output_tokens": 170,
+  "cost_usd": 0.010562,
+  "elapsed_s": 2.884,
+  "started_at": "2026-10-06T13:50:01.252022+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

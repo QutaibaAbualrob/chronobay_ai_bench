@@ -28,6 +28,13 @@ variables. Pick the models to run in `MODELS` in the same file.
 .venv\Scripts\python.exe bench.py score results\raw\<run_id>       # re-score saved answers — $0
 .venv\Scripts\python.exe detail_study.py                           # field-by-field study of saved answers — $0
 .venv\Scripts\python.exe guide_study.py                            # plain prompt against prompt + guide — $0
+.venv\Scripts\python.exe search_study.py plan                      # count the web searches a replay needs — $0
+.venv\Scripts\python.exe search_study.py run                       # make the searches not yet saved (1 Serper credit each)
+.venv\Scripts\python.exe search_study.py report                    # rebuild the search study from saved searches — $0
+.venv\Scripts\python.exe pipeline_study.py run                     # describe, search, choose on every photo (about $0.022 a photo on Sonnet, $0.005 on DeepSeek)
+.venv\Scripts\python.exe pipeline_study.py report                  # rebuild the pipeline study from saved answers — $0
+.venv\Scripts\python.exe websearch_study.py run --ids 5,15,25      # an OpenAI model that searches the web itself ($0.01 a search)
+.venv\Scripts\python.exe websearch_study.py report                 # rebuild its reports from saved answers — $0
 ```
 
 `run` validates the dataset first and refuses to start if anything is wrong,
@@ -179,6 +186,12 @@ results/
   REPORT.md                 start here: latest result per model, by-brand table, links
   DETAIL_STUDY.md           how well models fill each field on their own (detail_study.py)
   GUIDE_STUDY.md            plain prompt against prompt + reference guide (guide_study.py)
+  SEARCH_STUDY.md           can a web search supply the right reference as a candidate (search_study.py)
+  serper/cache/             saved Serper search responses (gitignored: third-party content)
+  PIPELINE_STUDY.md         describe, search, choose on the photos: every run side by side (pipeline_study.py)
+  pipeline/<run_id>/        both calls' saved answers and the run's report (its prompts/ folder is gitignored)
+  WEBSEARCH_STUDY.md        an OpenAI model with its own web search, on and off, side by side (websearch_study.py)
+  websearch/<run_id>/       saved answers and report of each of those runs
   runs/<run_id>/            one folder per run
     summary.md              every model in the run, ranked, with caveats
     <model>.md              detailed report: every miss next to the expected answer

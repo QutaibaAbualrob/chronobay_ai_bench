@@ -1,0 +1,956 @@
+{
+ "row_id": 59,
+ "image_file": "059_breitling_top-time-b01-chevrolet-corvette.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Breitling",
+   "model_line": "Top Time B01 Chevrolet Corvette",
+   "dial_color": "red",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "bezel": "Fixed smooth stainless-steel bezel",
+   "case_size_mm": 41.0,
+   "complications": [
+    "chronograph",
+    "small-seconds"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "AB01761A1K1X1",
+    "AB01761A1K1A1",
+    "A2531024/K1X1"
+   ],
+   "confidence": 0.95
+  },
+  "raw_text": "{\n  \"brand\": \"Breitling\",\n  \"model_line\": \"Top Time B01 Chevrolet Corvette\",\n  \"dial_color\": \"red\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"leather\",\n  \"bezel\": \"Fixed smooth stainless-steel bezel\",\n  \"case_size_mm\": 41,\n  \"complications\": [\"chronograph\", \"small-seconds\"],\n  \"movement\": \"automatic\",\n  \"printed_reference\": \"\",\n  \"references\": [\"AB01761A1K1X1\", \"AB01761A1K1A1\", \"A2531024/K1X1\"],\n  \"confidence\": 0.95\n}",
+  "input_tokens": 34051,
+  "output_tokens": 1231,
+  "cached_input_tokens": 4723,
+  "reasoning_tokens": 1190,
+  "token_cost_usd": 0.00359553,
+  "searches": 4,
+  "page_opens": 0,
+  "tool_calls": 4,
+  "queries": [
+   "site:breitling.com Top Time B01 Racing red dial reference",
+   "Breitling Top Time B01 Racing red dial AB01772 reference",
+   "Breitling Top Time B01 Racing red dial reference WatchBase",
+   "Breitling Top Time B01 Racing red black dial Shadow Rider reference",
+   "site:breitling.com/us-en/watches/top-time \"Shadow Rider\"",
+   "\"Top Time B01 Racing\" \"red dial\" Breitling reference",
+   "site:breitling.com \"AB01761A1K1X1\"",
+   "Breitling Top Time B01 Chevrolet Corvette AB01761A1K1X1 AB01761 references steel bracelet",
+   "Breitling Top Time B01 Chevrolet Corvette reference A25310 AB01761A1K1X1",
+   "Breitling Top Time Corvette A2531024 K1 reference",
+   "\"AB01761A1K1A1\" Corvette",
+   "Breitling Top Time Corvette A25310 red dial reference 2021"
+  ],
+  "source_domains": [
+   "breitling.com",
+   "bucherer.com",
+   "chrono24.com",
+   "therealreal.com",
+   "wempe.com",
+   "archive.watch.de",
+   "breitling.mom",
+   "cloneyourwatch.com",
+   "youtube.com",
+   "thewatchpages.com",
+   "reddit.com",
+   "thetimeplace.co.id",
+   "manuals.plus",
+   "cdnc.heyzine.com",
+   "it.wikipedia.org",
+   "en.wikipedia.org",
+   "de.wikipedia.org",
+   "wallpaper.com",
+   "t3.com",
+   "es.wikipedia.org",
+   "hodinkee.com",
+   "dials.co",
+   "watchanchor.com",
+   "cortinawatch.com",
+   "teddybaldassarre.com",
+   "waqt.com",
+   "luxurybazaar.com",
+   "myassets.theedgemalaysia.com",
+   "watchesofswitzerland.com",
+   "5dwatches.com",
+   "everywatch.com",
+   "timeinternational.co.id",
+   "classicwatches.bg",
+   "cyclingnews.com",
+   "chronocheck.de",
+   "chrono24.ca",
+   "hourstriker.com",
+   "tempuseuropa.com",
+   "chrono24.be",
+   "consul.ru",
+   "my-watchsite.com",
+   "forum.watchlounge.com",
+   "breitlingsource.com"
+  ],
+  "elapsed_s": 42.349,
+  "started_at": "2026-10-07T07:00:15.117130+00:00",
+  "error": null,
+  "tidied": false,
+  "rate_limit_waits": 0,
+  "raw_response": {
+   "id": "resp_028d580f81d844a5006ac5ee01a92887d2bc98587924e98204",
+   "access_programs": null,
+   "created_at": 1791356417.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_028d580f81d844a5006ac5ee027f1887d2958fa134e50b306d",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe4roc0CcJWo-0yLEnwgJiJCzObTa7gNvfQmi7phT26Qzg4TLf9qMQ-OKgLX1aOm7FjVvXGwtHymUTdlzifctKeZLtlSd2kZTPJDFVWG5ZjpehNDXI8S6MHueSMOZCj2wkkolevcI_V6yAVABJN8bbmigBwmLf7MWLsf3liNz4BzP-_r4qXqWAKEIGNFrYMnu3CTdgDMR1c-zMadtUzTi8OoQ8BjjJ9aG-wg9avc9G7tarBdxWTr10QiSY8o0uJNfZZn0YId8KKzaJpf24Givgj5ACKIVobjp2sefTPCXP8ul24lcdFs1fod9XGXBKpmVBitY7s0RKxdyeEP3E7MHxk46-FbMj9VqAiLcMHN6IfCGqCFfKM98nVUZ2hwgSQfQiV5bnGn56OBhxBsvGMRH6bdVoKNcE4xK_4O2Qfh4U87sSfmTBF3vaHDyUetnfTZwThMTF4nI0P8uTgi5SyjB0tj1Tuch_OyDVY4EXBwXR0GxqM35P6JeImnzuAa68pNXyjXDO0WhgceD2pzzhO6L4h2Tk2UZ3ZU2azEjwoButzGmOp5X2-zPfR5XxKM8UfR5aVS0yvn8jpLrXymarEPAepow78GYhP064ngbjZDBoiAYMSXnqtky4Ju2qO4VVEZHCnrePGD-m2P_ZubuRNt4APgEm1KgOxaoYAmEIjMoNiMMnFdz9vVgIVYcrjcPEGrz3MPF7E96jVZBxeJxVTpfKfCWj5vMUKJqBNB-7SBm4Uzs7DgAtbIvzNfVPCxKLmHH91pGlnxyiZqIh1y3gy1cIlD2tWhTuCnFWYU4qbigm_68k_nXls8Ja9RKd_KlOY7LIOJ_4Oh3cxd3HlJ9nmpu4N3NR4caJtMdtYilvrMmcuZhf2Lw3_Pl6e8XZdkDQcm8zui9tq6Fz13KuCTNH0mkkjeZxO4avH_9XpsEYRDyu_pL6uquY5tXIegDnjVSSr3iBJwC03lDKnylhJXaWP81VPUBSPnuWS0XVV_K9j5NHN3WzXmgHkLc3lE-14HhhCZnI9ixbzoMJc8tVfyLZ-szo41fSNn6ga3WTtQBMwzL8lqwp8jEw12-nZfwP9ch2RjPxsjn66pcTXmf30g-gu8-UeSdSF-OA2yO4mXLEPzgRm9NbH5LxBNnW5TJ5UoVIJV5Ya5Eq_wupWnw1_ULMMIcPiOOc0inH21RukGv_UPAliMZMDh779dNbja5EFaW6dxKPXW0Qlihn326PUweLQdkzpnlNlm_iOKmL6Np8ESAFzjiWFPKMbqXExRDmYeS8khrVkIacZR_aB4OWY00pXVVgecgkPj84IhwB22sRHK3-aUOVeWp-hsvElA467s29aJpiZ4xKW-OxK3nnteix3-72Fy0GugHDhmfapvk_z1fjeJ1-zBoEq92uuiqLnLOLyeZZnh0oBQf8mjv_RuD4BaZn-Azqf_veAqMlQl4qNA6P3DClO5fpi9iQ5Hf3qGlU1zFuXOqPazzdMsLm-2JmqGEJcS15vI3dmgTCLUWLRY_JQZ5nXUkbZC8tV7j75Ga5HkU5fzjfVLbbUhvpxEW_C7P2jbwQ=="
+    },
+    {
+     "id": "ws_028d580f81d844a5006ac5ee03983487d2a5709a981da0e50c",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:breitling.com Top Time B01 Racing red dial reference",
+       "Breitling Top Time B01 Racing red dial AB01772 reference",
+       "Breitling Top Time B01 Racing red dial reference WatchBase"
+      ],
+      "query": "site:breitling.com Top Time B01 Racing red dial reference",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.breitling.com/us-en/watches/top-time/top-time-b01-cushion/AB01772A1G1X1/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.bucherer.com/us/en/watches/breitling/top-time/1427-931-1.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.breitling.com/us-en/watches/top-time/top-time-b01/RB01761A1Q1X1/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/breitling/ref-ab01772a1g1x1.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.therealreal.com/products/96870603/appraisal_report"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wempe.com/en-us/watches/breitling/top-time/top-time-b01-martini-racing-ab01772a1g1x1?c=21796"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/breitling/top-time--mod1770.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://archive.watch.de/archive_english/breitling-top-time-b01-racing-ref-ab01772a1g1x1-86690.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/breitling/breitling-top-time-b01-racing--id48398803.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.breitling.mom/us-en/collections/top-time/"
+       },
+       {
+        "type": "url",
+        "url": "https://cloneyourwatch.com/more-brand/top-time-b01-racing-limited-edition/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=hA5E_dcm4cM"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/breitling/breitling-top-time-b01-racing--id48398802.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.thewatchpages.com/watches/breitling-top-time-b01-martini-racing-limited-edition-ab01772a1g1x1"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=P5FArJI_oV0"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1u7dshj/wts_2026_breitling_top_time_b01_martini_racing/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/1r3o8nc/breitling_one_of_my_absolute_favourite/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/breitling/comments/1t4qmsf/question_breitling_top_time_corvette_thoughts_on/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1rex51a/wts_breitling_top_time_b01_martini_racing_ab0177/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/breitling/comments/1wdiit8/joined_the_club_top_time_b01_racing/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/breitling/comments/1quwlun/racing_stripe_on_toptime_bo1/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/breitling/comments/1vzqeyg/opinions_on_the_new_db5_inspired_top_time/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/breitling/comments/1f2c1rn"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/1ofwzr0"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1mz0x8n"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1qbdmz9/wts_breitling_top_time_b01_chevrolet_corvette/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1hgexo8"
+       },
+       {
+        "type": "url",
+        "url": "https://www.thetimeplace.co.id/wp-content/uploads/63.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://manuals.plus/m/0df737c4c966aae0742216e59a7369ab0678df8ba3b404f54a62eeeeee0f8b4c.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://cdnc.heyzine.com/files/uploaded/f0bd7ae5b85b9400b22768fcb9aa7fec50f7d373.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.thetimeplace.co.id/wp-content/uploads/TTPM-88.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Breitling"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Breitling_Top_Time"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Breitling_SA"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Breitling_Chronomat"
+       },
+       {
+        "type": "url",
+        "url": "https://de.wikipedia.org/wiki/Breitling_Navitimer"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wallpaper.com/watches-jewellery/contemporary-watches/breitling-top-time-b01-chronograph-41-tribute-to-aston-martin-db5"
+       },
+       {
+        "type": "url",
+        "url": "https://www.t3.com/luxury/watches/breitlings-new-chronograph-is-made-to-celebrate-an-unexpected-sporting-legend"
+       },
+       {
+        "type": "url",
+        "url": "https://www.t3.com/luxury/watches/breitling-reimagines-the-aston-martin-db5-as-a-watch"
+       },
+       {
+        "type": "url",
+        "url": "https://es.wikipedia.org/wiki/Breitling_S.A."
+       },
+       {
+        "type": "url",
+        "url": "https://www.wallpaper.com/watches-jewellery/formula-one-watches"
+       },
+       {
+        "type": "url",
+        "url": "https://www.t3.com/luxury/watches/breitlings-new-navitimer-watches-just-brought-back-my-favourite-dial-trend"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_028d580f81d844a5006ac5ee0b4ec087d2ad8cc1725c15f0c0",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe4rTW3UYoDY9V1z_kMBcUY6A74lTePKyVClDloD99ZBfe9HL3MQyGMCZFQbeMgtkh0Z6GQFCJsxzxQCAHR5UeTZuRdx3vwAk0tq9yzexsw6vkEbA0vd3d3y6yh57CIM5z0V5tuxYm1NscQQZH7k1wFG6s7qTtvw7OcZLnKpzwKB_nH91VhYRTZoqa14cOSr9MzSPdxE4T0aBNhZVVU6qdhV2sMmhn2_qDtlXVmLdV4m5eauFtbKB9pzO2PMKjyQsyYNcST0XW6o2WDoQnppkOCBRTgKSHw-l-6R2f-DsEBSOua_ZKNB9-tQhYaixMmdQXfMvUUYaICwRG0klfvLBQ4yOSDJJw9LLAAkz5eIOt216etE13CScfmPxax3tVttQj8RaPFRSIak8yrW98ue0jiAM35m8rG0US46J07hWTj9cmZgYvN1E2fEz-YxTm7SntoFZymFGjR1Webjk3_CvxDiBl8HmAySzrmz_-6bVoQyXfjhnQ4fHpS_VIr45rSgrQ6zMsTOc0zneKaZQHFFKvqWXxmxbzNzmBzVzfE1RtRf9p2aV6Cir7DAVovBNAFumodJ_tEYokKks7Nnk0Hhsn922eo3fjTePmkrArHd5yXb_NFdpBacU0HhyVgQprqJ03lkVKjET_Vy0q_ifSmUNbVcNmQA6KloyPBeE01-0_WrU6yqAeXDGfrpCYNpmeOz5UVBvshIzhJBF5dKVF72Zj-7Ehk1jZtA326WDUP3CQo9JWe3ORx3KsY_Ezm5UbgcfQOqWKOqE-N785YEMJ7Shoq8g6JWe6S_dDluOQ0CIhrO3CyamkNe9_xjTSwJFFtNlZFfUk4-Q7U5271FXv9xu6s-K-seDd3t2erUtZswhmYT9Ai0QEgJsjCFhCAG_3CXK2Metq9e97F8Dnajfl7EKqRZ8dP5HcZOaNzGXXv3_Jw0GgSQ2i-iMRFzLzwrGKkHAJIULli-ofAcWBBd-FNRPC4gQ4v1L22KRqtRdK6Bhmt75xUINlOeS0Y8v3H-lAmcy-NJ5RGpozx6Y4vYM7tR3ZKDWPxFrM9WtGaWBrJjve1a2ClXJ9a6z1kOr7tGEoRgYe1EE8WEU8VhEGuoYzNuLTGRYKrWpy8wIotV-Qi9g1JXNV2-AkpG3_0wWuAKztR-MBTzwZhNXPORqRg5O9hZPA2PDv54KPQGWwoGiF1Kb3gXHtSy7LwUb417VtrcwFiuVk5qL1C7Lst58NnZKsATxR-x9GDfX2T4a8qOAYlTAcfeAPArli0R1sNgWIG3uQ_QhamKbKSnoL8XoZCx3y_kMOL9MAaW_lbPDqluCxW73fE9GPQctyHQvlvMOjD64hqOc8T_oWzt-UBOPDviE1Va0BlmMAcZPny4_BWW721swT0dFN2zfpHRb6yqiTOfX1F_bCndUKiiy6Pc5VUn0OqUdukhXR0DCIs5kwG7ArMTU4uKnFka2PJjvLWaxWzrpzqRMuBi_Mlu-oP328tychd3FjfM_UQ0IwEt_D4b7cDm4cmn66w1hsV7LE2KqXVTLpJDJK0UokIkSSFgJmnHX5INfUwdAvfmFRqcTidtPYE_bbPT_4_1_DpSPK6yFfaEIKIMV8hJKnCvxgb8NQFbVn_X0fVfjR8ya97fczYdWsqKIk95d2_svShAy7P9yDuJyu8kFvrYvIi3G6zdysKign-NoDWt6813kWZiorr4rjKjxScOyq8KuPCUl-4F8qdU_w0A6WFl"
+    },
+    {
+     "id": "ws_028d580f81d844a5006ac5ee0c19c887d29b7cbef558c21f49",
+     "action": {
+      "type": "search",
+      "queries": [
+       "Breitling Top Time B01 Racing red black dial Shadow Rider reference",
+       "site:breitling.com/us-en/watches/top-time \"Shadow Rider\"",
+       "\"Top Time B01 Racing\" \"red dial\" Breitling reference"
+      ],
+      "query": "Breitling Top Time B01 Racing red black dial Shadow Rider reference",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/breitling/top-time--mod1770.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hodinkee.com/articles/breitling-top-time-b01-martini-racing"
+       },
+       {
+        "type": "url",
+        "url": "https://dials.co/watches/breitling/top-time/ab01773a1b1x1"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchanchor.com/watch/breitling-top-time-b01-racing-shadow-rider-year-of-the-horse-ab01773a1b1x1"
+       },
+       {
+        "type": "url",
+        "url": "https://www.cortinawatch.com/en/news/gallop-into-new-horizons-and-master-every-second-breitling-unveils-top-time-b01-shadow-rider/"
+       },
+       {
+        "type": "url",
+        "url": "https://teddybaldassarre.com/products/top-time-b01-chevrolet-corvette-stainless-steel-red-black-racing-themed-calfskin-leather-strap-folding-clasp?variant=41093071634525"
+       },
+       {
+        "type": "url",
+        "url": "https://waqt.com/en/article/breitling-unveils-the-top-time-b01-racing-shadow-rider"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hodinkee.com/articles/breitling-top-time-b01-chronograph-41-tribute-to-aston-martin-db5"
+       },
+       {
+        "type": "url",
+        "url": "https://www.luxurybazaar.com/grey-market/2026-year-of-the-horse-watches/"
+       },
+       {
+        "type": "url",
+        "url": "https://myassets.theedgemalaysia.com/pdf/specialissues/lunar-new-year-2026_Options_20260202_M_OP_1612.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1o0zpzq"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchesofswitzerland.com/en-int/collections/breitling-top-time"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/breitling/comments/1quwlun/racing_stripe_on_toptime_bo1/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.5dwatches.com/blog/breitling-top-time-aston-martin-db5-2026"
+       },
+       {
+        "type": "url",
+        "url": "https://everywatch.com/breitling/top-time/watch-31981580"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1hgexo8"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1uuhlmn/wts_breitling_top_time_b01_chevrolet_corvette/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1hw3kqp"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/breitling/comments/1t4qmsf/question_breitling_top_time_corvette_thoughts_on/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1rex51a/wts_breitling_top_time_b01_martini_racing_ab0177/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/breitling/comments/1f2c1rn"
+       },
+       {
+        "type": "url",
+        "url": "https://www.timeinternational.co.id/wp-content/uploads/The-Time-Place-Magazine-97.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/1ofwzr0"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/breitling/comments/1wal3lc/treated_myself_to_my_first_brietling_fell_in_love/"
+       },
+       {
+        "type": "url",
+        "url": "https://manuals.plus/m/0df737c4c966aae0742216e59a7369ab0678df8ba3b404f54a62eeeeee0f8b4c.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1q88kti/wts_2024_breitling_top_time_b01_chevrolet/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/1f2dqfc/breitling_top_time_corvette_b01/"
+       },
+       {
+        "type": "url",
+        "url": "https://classicwatches.bg/media/files/avenger_b01_chronograph_45.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.therealreal.com/products/96870603/appraisal_report"
+       },
+       {
+        "type": "url",
+        "url": "https://www.thetimeplace.co.id/wp-content/uploads/TTPM-88.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Breitling_Top_Time"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Breitling_SA"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Breitling_Chronomat"
+       },
+       {
+        "type": "url",
+        "url": "https://de.wikipedia.org/wiki/Breitling_SA"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Breitling"
+       },
+       {
+        "type": "url",
+        "url": "https://de.wikipedia.org/wiki/Breitling_Navitimer"
+       },
+       {
+        "type": "url",
+        "url": "https://www.cyclingnews.com/cycling-culture/luxury-watches-of-the-tour-de-france-the-best-timepieces-weve-seen-from-cyclings-biggest-race/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wallpaper.com/watches-jewellery/contemporary-watches/breitling-top-time-b01-chronograph-41-tribute-to-aston-martin-db5"
+       },
+       {
+        "type": "url",
+        "url": "https://www.t3.com/luxury/watches/breitling-reimagines-the-aston-martin-db5-as-a-watch"
+       },
+       {
+        "type": "url",
+        "url": "https://www.t3.com/luxury/watches/breitlings-new-chronograph-is-made-to-celebrate-an-unexpected-sporting-legend"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wallpaper.com/watches-jewellery/formula-one-watches"
+       },
+       {
+        "type": "url",
+        "url": "https://www.t3.com/luxury/watches/new-breitling-watch-fuses-a-chronograph-and-a-dive-watch-in-homage-to-a-classic-model-from-the-brand"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_028d580f81d844a5006ac5ee15bcb087d29a38f898380f9e1e",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe4rAw5bDbCpvfT55cDiwC9RHYfsotzvcUlRlv33ap9p6xZ83xgsV7S_QxD7bnKVtvPi8MQXvlOXV-AdhExas34_aRlGRX_ypDeiP525eT2Lr3VCf6MrFUTbt12BP450UUi3h5EzAJawy_F25vnXZOfu3mRth1u6pGvy7KrOEgVFMVyY6utnTSDckKZ6ZiIDrBXhWzKcm-zm5QsWJ-G3gnWdo7d7gfFzKeyAV3ma_qaANEd1-bqDOFmfRelmpQY9NHNJ5U5g-JUT9na2OrJkvOCvAx-MLIEN_GqfT_NWGMsuOaXDHMVu7pqMwt9Nf0B-C-zWHLSAw6VIj915F06kewiVHk3rOVjJuAvl-69G1fhHAs1TL7q7fSncVlk9ZIH0gjOxOw4RUW-gYARxPrUsfdPGDU5t9SL0hm3zOtepfIMFIowHkCn0qOjsNSsT08w9L4o9BLyMdiI12Ge6kl8TfHFCpfBmkxkBsSqw9501ZJDWA8Cky1xoNKyAto6J6TL9BC0hQUu5UWYz7OIPWpYA7V9QfhUVuoq4VoPklFZlZ_9M73s4i8CV__S1HzqOiEuJRC-7KAIsAbbwZWxB1-u564N38TQEEQNQizrP3hBsE58DwfVUdrlVITGjgGufbEs3s36iZeNVUj2Xikj5xja9YfXlcgN8RCqDLU4vfi5Y4BCGdGpTBALtg9OuSb1KWQHJ9XIpn6cMXSlTxigg9QZQCJbE5cGhJ0qoRpk6hLzgH2QO_hmfY0w1j2x51fLC3KmNlniS0HNi7lS-3y3XVP6oRfEUSDD4FzsqB3_oQ5Th_ZorrQeIC7SASgleGvFtjDazaUeKZw78wqUWDYGWNVM1hFhi1Fxw4S3fsEYW_q5O_RVGR4r52S20B-ZSCXHP_DJT3wopHBq7-_69_916hmiylaPlpujWMyiupL_KX2_me8l2-UpnFBlYD8RC5FRIdv3RwM2JhU86IANXZjCcaEKxP1IKcaa7tQ7KE5zZs8XNZkgM6d3jvXUXSanAwOeThK3mCM0mni-_l_dXI1qhxId4D7YZvQHDk-WH2ILh6rLIl9KoXIpfqbLHu8KxMADl54xlE22zCpOjA_TcWnwnFmRwYpBYrpvzNrHqncTs4mnH8bnq8QYS5l2ReZPP6Ik3ILnRRUhUzibJ7Dlt_XO13hRiX8R-b3vYiRgnRhMZ5yhH8dkaHgsYT_g8PvKd8jDWZHxfkKHnjj8mwo6R9Pfu5vYNxoe5IHWqpUZlvOkmUNpo3bPUoUAIcrOX2C8AbCAySEDYXp9gt_uMJmEj_MIL6Lsd45fKN0OZrGwGERf0dNB22KRN-wqeTf5dOOlJEVHeJG6d4vlP3Iakqt4mNElFModuzBQiKYLQvDkdSQewYDxzlZkB3x6-e9VBvmU5QpT2tsnBKrsFcAqLfEc2NVvEYGz98SVfXotbvLMgVIcJOzXNq58P8HrLJtBWAvhcs3jHXIi897Z4JFWZaZDmdfV_aaUREmk3tWxuBiqxmGpPoMNgMIiGXTEYImZqZIPNbwgfY8d_4JA9vTa7fWQuIy2PvmG9kCfqnahHwnWQaW7gwvatEyQl5_CNhoLg_afLe8vVagUyi2GP2X5CKZAYrqMxiYCcPLb2NnQSLDrMzN5lb-kTFMCfe85ITbINEkgPiuIEyFLHijEXlYQijWOvApeJEwsupQVt74URFNE1WcbcTK7Wsnm5qcfvU3z4dFULrmyyOtTg8AdHhOedDKbGKZy3hNj2YB3WXw=="
+    },
+    {
+     "id": "ws_028d580f81d844a5006ac5ee16cfd087d2b5037850adeff94d",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:breitling.com \"AB01761A1K1X1\"",
+       "Breitling Top Time B01 Chevrolet Corvette AB01761A1K1X1 AB01761 references steel bracelet",
+       "Breitling Top Time B01 Chevrolet Corvette reference A25310 AB01761A1K1X1"
+      ],
+      "query": "site:breitling.com \"AB01761A1K1X1\"",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.breitling.com/us-en/watches/top-time/top-time-b01/AB01761A1K1/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/breitling/ref-ab01761a1k1x1.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://chronocheck.de/marktwert/breitling/ab01761a1k1x1/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wempe.com/en-us/watches/breitling/top-time/top-time-cars-b01-ab01761a1k1x1?c=21838"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.ca/breitling/ref-ab01761a1k1x1.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hourstriker.com/database/breitling-top-time-b01-chevrolet-corvette-stainless-steel-ab01761a1k1x1-5008"
+       },
+       {
+        "type": "url",
+        "url": "https://www.bucherer.com/us/en/watches/breitling/top-time/1370-997-8.html?redirect=tourneau"
+       },
+       {
+        "type": "url",
+        "url": "https://tempuseuropa.com/en/reference/breitling-top-time-b01-chevrolet-corvette-ab01761"
+       },
+       {
+        "type": "url",
+        "url": "https://www.cortinawatch.com/en/breitling/top-time/ab01761a1k1x1/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=Q9y_5VyiWrU"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.be/breitling/ref-ab01761a1k1x1.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.consul.ru/products/breitling-top-time-b01-chevrolet-corvette-ab01761a1k1x1?usercityid=2"
+       },
+       {
+        "type": "url",
+        "url": "https://www.my-watchsite.com/top-time/8400-top-time-b01-ford-thunderbird.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1qltfov/wts_breitling_top_time_corvette/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1uuhlmn/wts_breitling_top_time_b01_chevrolet_corvette/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=UyAVTVYKLFE"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1mz0x8n"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1o0zpzq"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1qia3va/wts_breitling_top_time_b01_corvette_full_set_2030/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/1mz15tt"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/breitling/comments/1t4qmsf/question_breitling_top_time_corvette_thoughts_on/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1r5s7ew/wts2025_breitling_top_time_corvette_edition/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1pj2u6l/wts_2024_breitling_top_time_b01_chevrolet/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1qegb05/wts_2024_breitling_top_time_b01_chevrolet/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1ppqv00/wts_2024_breitling_top_time_b01_chevrolet/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1q1yv6a/wts_2024_breitling_top_time_b01_chevrolet/"
+       },
+       {
+        "type": "url",
+        "url": "https://forum.watchlounge.com/wcf/index.php?attachment%2F601407-breitling-preisliste-01-2024-pdf%2F="
+       },
+       {
+        "type": "url",
+        "url": "https://www.timeinternational.co.id/wp-content/uploads/The-Time-Place-Magazine-88.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Breitling_Chronomat"
+       },
+       {
+        "type": "url",
+        "url": "https://www.therealreal.com/products/96870603/appraisal_report"
+       },
+       {
+        "type": "url",
+        "url": "https://www.breitlingsource.com/downloads/current_pricelist.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://breitlingsource.com/downloads/breitlingsource-pricelist-1996-2009.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Breitling_Top_Time"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Breitling_SA"
+       },
+       {
+        "type": "url",
+        "url": "https://de.wikipedia.org/wiki/Breitling_SA"
+       },
+       {
+        "type": "url",
+        "url": "https://de.wikipedia.org/wiki/Breitling_Navitimer"
+       },
+       {
+        "type": "url",
+        "url": "https://www.t3.com/luxury/watches/breitlings-new-chronograph-is-made-to-celebrate-an-unexpected-sporting-legend"
+       },
+       {
+        "type": "url",
+        "url": "https://www.t3.com/luxury/watches/breitling-reimagines-the-aston-martin-db5-as-a-watch"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wallpaper.com/watches-jewellery/contemporary-watches/breitling-top-time-b01-chronograph-41-tribute-to-aston-martin-db5"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Breitling_Aerospace"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_028d580f81d844a5006ac5ee21bcd087d28f3c36faf6d9b6c6",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe4rV133sOb7rECwPyYymS9c_CTgsEN0x8oUpSrTWhn4oGIlr1VbOEbwN4k2g_BWKD-Q-Uh9zEvLcBuYq2d_N9kYbTagZf3MIF-UCgRKNgYFXmQNiIbmAPkNL1xmv7O1noFPImShooKCFB5kkl-BMcu0M0m9pBkibj5Tmt4WWTnd55fqcZ5gH1KbnRQnTli97M_4rCoSOzg3XC2CbQAuqEPIUjBNiJ7RnbJqWkAx21eOrZ1sy5QbiWnSq9ER_Qc0H-oTJ_sBD0LXY1JIxL6wHvtaQK6WecNDSMPsfwKCOkq4YvmOrU8-hI3S1i_L-TsZqfSejwWzmFNW1005omBMNm6YehbEysEl4PNQpq8erkkr33XzHu35cEH5JIxTGxKQFcJVUZZpcsCDnlAiFUoTQfl4_zKFT27HTNe3U7MVXPbeS2GqD95StbEfPCo5IejMt6DnYQk5nv_bEQjzxVl0nk-UQqX9CzzQGEofIiTplM86kKJpcvy8ude2Sxl89znuy7-TPhtL9Uxqe_55ibo3vw2Ku98_X4TbsVlTyHZD7P96vCzVo4F0gLEoEtrHr_zqjX6p8u0LnL0Cd8Vc3a1tpPsMg8Wt-H01t9cJmvwHFC0N_IfiEoMf0NC_fx8LoMFVhaigSQkvH2cLzfKZ15Ko_tybnOPuYcrYKT6MfbmJR1YDLwD9-XyWhEHjdtCoNV_odd3Fe7c6RnA2JplxR28sEiOpRZmiRjqN1WAOnT1UzIOxV0BrWz-pzt_hSuj8_JuDAsGAMS44WZmFcpD0Z0Bk1s40Ng-eHhwi6a2dFN2YQAtURsw-_TQJaFJk03DzrTKG0641zeVm39Si_hSuktg_L_Sx-UxD_PlvXBUHxe37WGGXr2jgU_gihwKmXrIgLglMO6nuitd9bj8XiFarPrVCx-zckH9IEm62UmZv34PZyG7I91Gy-fp5MthPk-z5EXBKkr4gMUBugXTimMSE5oeUdD3Nfabgu8gb9sz3MJr-FgHS08gHLwDm4303Eu0BfvNrzavgyexhy21Cje4pySD1CDYpXedByPy9lQq4jo9GRrToY242hdv3GDbPYzSLrEV49LBACw2CaEeXL6m7jiiCkNMk1rhDsJUNmxiFMAhG3dhfYWqLzp3wxn289Em7ThF5_miPM0CBXnyPigsvlrucro-4AtTbMDeZOIxFyqNB4R0vHxMiQ39EciP05RKqD8_K-eNp3zmArSQMsD1MBWYPfKj2eUT46bz2hq32Dmz2vv8mhkBiVAdm0zzHKulCkqD7u6DYfTY9YGvLQJnIPPe8z0T31wS_krbn0JRT-4usAgskY4KqGvqh9aD5gyst0NShZytYdcRnqERhMIU_pbIomFRFtLn6WIAMojAgeAayoFlLA6Fr-OOJvKNKpp8RNyZZ-I36IMYK67llggfX3LP9Edny5Ag_KQueJ8PzrmD2RQfqsHNNQDaWgt2F7NR9zde0d1Rgr4omjMCPV1I1-HBgGsajm_0pw5Ol-Oq1Wz-tyhwXSSLlmJVLrUvMkwS8dDgc9ZgwTLua7q5PL-SgAnHjkivn-Mw2IcUB89LQ_pMmXf60ugwsuem-_RcOp85wdHRWFzh722mBRHaJQPLj71_YWOhQjF7wxlawA19QEUP0vcY66_5dHdeOsfZsjF_FyvDzVgJjm2c0rczJPNzBfUy4IlhFR4VwqPt8K0qmzPVwIxXAFJJaN6_ayKhbmK4f8bArbcuWVuKmbelVHqxjDR4DlXEUX3mdtZaxTsqaYelXWXHVibcIGi46uSDdSr3oZarW5R9zkYo0iiAgkxvtW0woSONYrr7zPHrn1yWp7kfZbGghaJ0xNGcnwVpqalnDMUOXsuHO"
+    },
+    {
+     "id": "ws_028d580f81d844a5006ac5ee22a62c87d288f689e8af3aab63",
+     "action": {
+      "type": "search",
+      "queries": [
+       "Breitling Top Time Corvette A2531024 K1 reference",
+       "\"AB01761A1K1A1\" Corvette",
+       "Breitling Top Time Corvette A25310 red dial reference 2021"
+      ],
+      "query": "Breitling Top Time Corvette A2531024 K1 reference"
+     },
+     "status": "searching",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_028d580f81d844a5006ac5ee23f58087d29dbab6efd68087d7",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe4r_eXvOmdzF_cwaS4dBoJf8MiCEB4rydzhtmIVtAeCgrqz4syZxZsJ4BOaqD_mYGBDGBm5WS3nqp1DTki_VxEW-uKGJtRwohBVgmqsKczfUXa0kky18cerezMtfoFiqTfYlmtjOzoBWRknR2lOZFueQsQ46Za3fBrIecT1ObVAbnOR-tAQx_6Kw3dOrod0wnL_Z2KYkqVkFgGKmENmx6vBs1elezH8kTkhSH4ZyUKS2UPzO1ymM_V3EL60JSNvt5QCbDkVK0PFUcpPf90iT2uRxsY1miCjKAzzkouxKxzcZlCC42eCuXtR0c5y9L4yJmKxVJyKGpMzKx8pHiY9ZnFKBjbaB2dzqDCsrY2rGFWt8T2_ILMV-_jlCxUXMTy52mACkqMHBVULv40l1PE0VAqpOcYYeX7PuY9T_QqO67FwjShREYbFF1xQQ2nfQZiXff7nRGnVDhJDr3FE-Gi7Ykda-dZl0vbxqeb8GUYWatfeFxDYANdw5NUxsBQkHUzRpSW5V4_9_sxwgdkHXJbO6NILKgnuqvmTxoiBigwx1gW2UnZXN1Mt_-8dsFm11orPhpSemzdJbQgSJl4NkSaPu_uVLVnLwLSfivqkdYRwv29CIze-Gwcx41hfRsU1j-ECJDJOVkIaRDHKPnX-eRKTm8U2oIfXDpFYamijVgMeRFstPrwZDcT6a9chl3CcBiPou4tmMsXSZCGpLeR8fFH3tCRCm21gFq-khKFt9Fu0WiqL5Bn0abSo1zTcch8wYoJJYsvYFZKYeTnX3FsrMkjmkCxl98UW7WMG4SljeWqelsIACJCoAYrOp5BcHhYRtX2uQxTFGF4hFRGqpTOtvu7nIB0_R9jNeRwPVSVaZP5vEazFYFlwyB1flLc3YTrx4omtCiVYUe27CIx9k4dwGTD9dEc4nrz9cq9PsHa7HycDd083z0eGeRcnpfug3BNyrVHw3k34anI9Nwa2k-bnaXtOcLUgKMm3LlC03TXsnSLuBVf4fWb-rLzNzcxK22PwQjwai3tGaU1j09CjwS6XbZpDqTfQC4WZKc7xLTPswLFHw6jBKiWj7P_L5YiLP6qiO8Pr87NSrxSoFUzhhcZNPhdtcKRRjvxlkCcJzMVo-2tdCIwWLueRUVkGTJit-CxpBoTLo8diEaE6n1Wkwk7q9NqLo2t8IssFZPDdUsE7nv4-2BxDXjvXr19TO12xUnuu8K0WskAOc6MnkAjLWVKOzhl29HZCkImMM9jjTT3l2oPfBv-BcwVIvApR-qLZ32S14aw5wrg6igNNlhWx_KZeMUsbJSIZIPND3NT2yeeRiZp27xwh9mblIAI4quuW6OBiv7CTSnmu8m-mdseCaVute5aOCgZYF_9ZAVg0E2A19Wn6327q-DW-RbNUWlafUfTx3HYAuIy4QYW84WWAwZDgCiv6QKKOp44mwzASbbQ6boknf6DK54nNfv1yRGWk9dqhjsmGHH6M9Be-AacterKahV0BUS_1cCjN_aNeax312X-xWT_xYUT_BydTvZid_5vwIzDji3YpWPUUY11NaJa2NnCLtRw3t3Jn5PBKjagN0W3thGYoMA9ucf4FoufJXsPt9oimnjsyMjAlG_gDblL3Chas7G36Jhg4eUnFrxejxWiC3qNrY5twlWsZP_o35g_B6P0_1OlGRtRRAujN7fnTWDAmBaXPslYuzduxbKKD2M6zic5RbULXKtd5v6kjxXbqUOR5UFaA5b-YbsdvzwHxt6eRhQLGOFjGP3RSoel4HSj_Vq75e6wxp3nDmJnBD5No0Ujmus-o8SHu2z4puME0qU6YrI-G83mQza-i3b1hrovzCV6igzLoS4kEqvLRuxfmJhOdMiaoE_hNhmYvteGp7KLmO2XyPj7wwkyJA652iJpq02lBRYYWDPyjaDYvR1Xr0eKwhyn8ZTr3LxBn1YiWfRUJOQ2f-YfubSvMFEnRPnyKwV92yrxYAeuO1-m3jciJKxqvw-16xw5wWM__v4KhVtApUWElGhNW9U1sc-v3DaVHVb0Y1j-D4toVTsk6TTTbao4aiW5c0RARdUBJFnYzdaXcsI9xRecJvCQ9NkoERn7ohFakT2nVfU1BZkKIjMr5bO2UH9RH55vLkEAXdaaHWFu09_P9SpsGGGy_ys9asXRWs4s7AhXJB1_rRsIO94bm9CPJ4xhYr6ffRZPVTxvItt6Vsa7hUuGHcPQ6ISqwL0ezG85mWC7PktDmDh6CEk_O_UE-t-WOKlYC7X8vNzmykImO4unLero4xl4ui0F6QvrM2CBoR-IGdmdyGmU0ApvXSZeudhVAgalzhFfNqHhjPXzXdjKCPP_nAprmWVOOIHPr1GQ74qAqGlSdu-mkhdMDpWHn16hYjjVI7VquJ08UjIrsSCgcrYSxClSnVfb4lU-ZNfHUY1d6YZI_p2wFxI2_VGekfVyNqDyY8hE6TK_kmk4HUzos-gFH1EhWAyDHsgdWZgcX39uXhT3ITc8M3NeYht0SsSvnK8LRRVaN5_gLsFSVB-dg2rjufUDQmgWAexLYI0CsgONWI5UiSIl0UHSof4fEUR0fAa4AoDRj5Bda7Io9vuy9Bpx7KdwvQ4cVi0QyJRSnpqzjhFMB3IOyKdFsOMOEkQr7NG7OuJy1_vK5VjCkpCwMCpx6RuRI5LicmvAgpdoy-BmQL7BR2KgG2KM0oQWenTp64isXlS22YEThtbffYVwxBWqKPRbCaASCfadIOfYSAYVWIVg3C-QiLTjNoQ3E4ft3Z-p_8O6gLedfE7kXnW1NlZBDjZ9hl0IJ4xqwRSRB1QgcJHoIBuHidUt9dxfYtIPgDIx-fChhn7CjP7OciRtgB9Nu20KeugjOxIZLcdvObViMkGDL7RpanvCM29vyhEqS_vb5kfvDL9PnGjb093JqxNKQYnEuTUg606-D950fg0ymEPegjb0O1W4iwtRf5QHXwzd6mvH7ce-vvNisavj8y3vQUqFLl5vrd4jlC5Fhi6sSIQW_F-LF3faaPCi1-C7vh6wT0O-_xpCGECv8_SkKf1wX9elnddSYJ7-gF7XhOje0f0vf4utXC0ugkMX2zsTK8g3TSOVvB2BSiyS3CSF3EiteZn2rRaEH5sfF_n_MfaNX9yJXMBvbOoVRMC0BP143QQf3ZKG8yWc_MAp6C1ysdbmjVTjWWjPX7Mb85zc_ZpDU54_1bz-CTdqx6pVXY1ZkeLeJN6ytQhUw-K-CB4wsRyGqHEMl-UesViM1d-E9phF1LPITYKo3If00hOsrUtGgN1XLFFc1V-f-JHJZR2UNMWz2w6m1HP_kuaADAbZ9VnTS9ghjhXpjs8flX4QfMZdYp8ZbNxYXdITfrq08SxuOterT1h1XabEidZ12JIxUkU7n3Z7HaRxyNpuyVijf4nih_8ijuAnAo_3UWdqZvm1wL3rjywoOw3Skd_AUr9VWSUw-c_UwMdpGtSHPzb-oFb6bHeiGtmUuKWhSwC-w-spxjIT-fKfaeNv8AD8N5_ceb9EgvxVwF-StRqiNdx9rUSXd_rK7WR3VCBvZN4VkZ9VasjtMfiv03e7mflSumDEWEPGepYc4ktzVNLYAnOViEnFl12FgEfT1ZWutfuz8H2tegI3Ft13Z7oh0L-1oM0VsmujNIRJmLF9bMw7qg9rjWFhPRa-AK5SSeWjISwkaq95lADqIyhuzO9IernbzObgMSU1c83ryqTRCnsgWFQ6xees3Nizp5XEJoxPbcVSIsgsJXHYkn1XAf7nUVxiqxGGbroh9S_7EXH2LFWAQH6p9PxkgKUuhOwZjOkVnPZf7gufWh4-WeYCLKRDsIi9lsA7rb0QiB5G_VaKqtT1mXfVFj5ouWlWFUd30xE0wApzFIUdfG58y6T_9CJPC_hm0R6i3_CRPjqysIR8X3lmk5AQQwKW_"
+    },
+    {
+     "id": "rs_028d580f81d844a5006ac5ee294a8487d2bf91f4945dcc918a",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe4rwk7feJNL6Hzw8bko_gEk3WuTKmyrXscGaUQWzFeGCXHr3s87K1WlKsIH6s4-ondQ9G4sr9XFPIpDt_HkmJx0VNEKql_a7Nc5LmzjozVB_K_zfIyGjfUwwTBTr6kTdNlHiaDxWnmXpH0ER0yDjx9C6tnv_m4hbskUS5YHcnPN1TGI7J3yTWN0jKg7yPw2M2dJ0N1fDLXk7G4ACnqmXP5rrIycffyl8Xu2-uoodbM5logFuNgmaDc-2vvGi1xePv2DkUrCF0g5v4Th5PhoPqLdV7rCSEyfUiJ5sxRtQhfp5D1hnwnvjwZ1rNwvraAEewh3k8hatgarfTnW_XSzb3zDtz4tWfvh1qsjr1sF82n2D9awrGj9DV-93oijv9_7DZPwkXbvAaOVffVPkzDHfiRqQu72N_PdiBW_0TGH_PGchv6IjCKikl0BJcA32wCxusDdfMrtURLNh0rImi_itM5qyHYI-47B3uWElXLK_pB01tRVV-aeYg9HL3mKCLSx5eMab89nv5nzl9IsLWYsFbnRadHhxNrNXLGss3t9QtzXl6I1-a478V4RQ7sn8wmgkqJ8TtU3zmWweLavcThTOdGt5s0cxylQWl_Uy4SEB3LJlGC3GctcS1z_4wd5_wJY_lsdsq1o0evg4BCe4vu_a38H-aKZsOq7FNXNuc701MESkO1er-mkhH01a1_8qmF7vNclzXUED80GzNeg4vTgB_8BuSq3FLazV2fQTw3SDmEAUMxrOi_0yWs_paCkG5fnMM4H_c9SmO9n_qa5vhHyiEEM_S8FX7KX6RUxrsM6r0mWnXdY9TMOYsL2m5TKEKVhvNBv_wnEHWFwbI1cpGTNpbuky7MGTYOIUFslvXyH0BY6qAtmEHOKBwWnDh6wg65qb2x98h3qmc9r4tmICaM53GrFiKtJTtevW6eDOkr7zEnwivuyKIgqpzEznzVnHWN8Qgt4qPTqV-RmYMHuBc1jAjrA8F65qMZ8pKnktHT6kwGQbRsjuPnlHwA5BlRDRC-mR9K1_buuEu-fyge5iICb7rThS_aMrRLRgV4RPlmUw2LBqmr6C82xkzzIW1urwxszVaQtmTpK0yKGtoZvRP68vHcN-pw7fv4J8IYbbKE0NdboV6MFga_fZRX-e3H4w4adUi4jlxTrSq0q7IBRV7RdAor9Qf_Y9Lsq93jEEiSDjni0kN8LGzxaz-RM2YyBleC3ARFQS81PX4uaQcdpoyNyLu2y6Hc9-Boy8XF9Jb118_cDgFFlGOWET5mNBY30j8xvrhHORTJd_TMdBk3u7vB2tApoR6tb0R5YY3TuTh2ymKnkHkkObVHvM9nGAozJqFky1hBg01lm399LPpTz0wkl3dKsMtmp2z2DyvxyuMu76_TbU9A286YjR1Qcr4yNnWd9e9PI1JXysnzEaEnN6lqJKJb9L2zMAsSMJ23DJEtSnp1wRFA="
+    },
+    {
+     "id": "msg_028d580f81d844a5006ac5ee29dc0087d2a03a207e086f4167",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Breitling\",\n  \"model_line\": \"Top Time B01 Chevrolet Corvette\",\n  \"dial_color\": \"red\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"leather\",\n  \"bezel\": \"Fixed smooth stainless-steel bezel\",\n  \"case_size_mm\": 41,\n  \"complications\": [\"chronograph\", \"small-seconds\"],\n  \"movement\": \"automatic\",\n  \"printed_reference\": \"\",\n  \"references\": [\"AB01761A1K1X1\", \"AB01761A1K1A1\", \"A2531024/K1X1\"],\n  \"confidence\": 0.95\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791356459.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 34051,
+    "input_tokens_details": {
+     "cache_write_tokens": 3615,
+     "cached_tokens": 4723
+    },
+    "output_tokens": 1231,
+    "output_tokens_details": {
+     "reasoning_tokens": 1190
+    },
+    "total_tokens": 35282
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 3
+    }
+   }
+  },
+  "search_requests": 3,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

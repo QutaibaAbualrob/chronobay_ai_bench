@@ -1,0 +1,36 @@
+{
+ "row_id": 50,
+ "image_file": "050_tagheuer_autavia-calibre-heuer-02.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Tag Heuer",
+   "model_line": "Autavia Heuer 02 Calibre Chronograph 42mm",
+   "dial_color": "black",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "bezel": "black aluminum 12-hour rotating bezel with white numerals and triangle marker",
+   "case_size_mm": 42.0,
+   "complications": [
+    "chronograph",
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "CBE2110.FC8226",
+    "CBE2110.FC6485",
+    "CBE2110.BA0687"
+   ],
+   "confidence": 0.55
+  },
+  "raw_text": "{\"brand\":\"Tag Heuer\",\"model_line\":\"Autavia Heuer 02 Calibre Chronograph 42mm\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"bezel\":\"black aluminum 12-hour rotating bezel with white numerals and triangle marker\",\"case_size_mm\":42,\"complications\":[\"chronograph\",\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"CBE2110.FC8226\",\"CBE2110.FC6485\",\"CBE2110.BA0687\"],\"confidence\":0.55}",
+  "input_tokens": 5317,
+  "output_tokens": 194,
+  "cost_usd": 0.012574,
+  "elapsed_s": 3.771,
+  "started_at": "2026-10-06T13:50:07.150317+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

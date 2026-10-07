@@ -1,0 +1,36 @@
+{
+ "row_id": 7,
+ "image_file": "007_rolex_sea-dweller.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_line": "Sea-Dweller 43",
+   "dial_color": "black",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "black ceramic (Cerachrom) dive bezel with silver numerals",
+   "case_size_mm": 43.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "126600",
+    "136660",
+    "116600"
+   ],
+   "confidence": 0.82
+  },
+  "raw_text": "{\"brand\": \"Rolex\", \"model_line\": \"Sea-Dweller 43\", \"dial_color\": \"black\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"bezel\": \"black ceramic (Cerachrom) dive bezel with silver numerals\", \"case_size_mm\": 43, \"complications\": [\"date\"], \"movement\": \"automatic\", \"printed_reference\": \"\", \"references\": [\"126600\", \"136660\", \"116600\"], \"confidence\": 0.82}",
+  "input_tokens": 1338,
+  "output_tokens": 490,
+  "cost_usd": 0.000419436,
+  "elapsed_s": 3.651,
+  "started_at": "2026-10-06T14:06:27.938155+00:00",
+  "error": null,
+  "attempts": 1,
+  "tidied": false,
+  "served_model": "deepseek-flash"
+ }
+}

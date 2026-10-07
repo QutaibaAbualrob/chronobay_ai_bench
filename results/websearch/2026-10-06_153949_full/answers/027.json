@@ -1,0 +1,482 @@
+{
+ "row_id": 27,
+ "image_file": "027_patek_aquanaut-chronograph.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_line": "Aquanaut Chronograph",
+   "dial_color": "grey",
+   "case_material": "stainless-steel",
+   "bracelet_material": "rubber",
+   "bezel": "Brushed and polished octagonal steel bezel",
+   "case_size_mm": 42.2,
+   "complications": [
+    "date",
+    "chronograph"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "5968A-001",
+    "5968G-001",
+    "5968G-010"
+   ],
+   "confidence": 0.99
+  },
+  "raw_text": "{\"brand\":\"Patek Philippe\",\"model_line\":\"Aquanaut Chronograph\",\"dial_color\":\"grey\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"rubber\",\"bezel\":\"Brushed and polished octagonal steel bezel\",\"case_size_mm\":42.2,\"complications\":[\"date\",\"chronograph\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"5968A-001\",\"5968G-001\",\"5968G-010\"],\"confidence\":0.99}",
+  "input_tokens": 16566,
+  "output_tokens": 558,
+  "cached_input_tokens": 4723,
+  "reasoning_tokens": 448,
+  "token_cost_usd": 0.00151053,
+  "searches": 1,
+  "page_opens": 0,
+  "tool_calls": 1,
+  "queries": [
+   "site:patek.com 5968A-001 Aquanaut Chronograph black dial",
+   "Patek Philippe Aquanaut Chronograph 5968A-001 official reference 5968A 42.2 mm",
+   "Patek Philippe Aquanaut Chronograph 5968A-001 alternatives 5968G-001 5968R-001"
+  ],
+  "source_domains": [
+   "patek.com",
+   "static.patek.com",
+   "phillips.com",
+   "wristcheck.com",
+   "chrono24.com",
+   "watch-wiki.net",
+   "wristler.eu",
+   "superlativewatchco.com",
+   "mywatchguru.com",
+   "chrono24.be",
+   "reddit.com",
+   "youtube.com",
+   "it.wikipedia.org"
+  ],
+  "elapsed_s": 10.297,
+  "started_at": "2026-10-06T15:45:29.083759+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_03dcc436991e969c006ac51799ba4c87d2ac050ac860262d58",
+   "access_programs": null,
+   "created_at": 1791301529.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_03dcc436991e969c006ac5179aa20087d2b99394c097d6a57b",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRejHv2nmM1NEqq_9lXcZ6ZB6aVPvXjyecrZfMV8uUBq6r1r-PAjqKW9tHavopmxPUdROJFUCagw0IC0Fn9uMWh5a7eve3fAferaBziEN_wq9Pmm51DWuNGEkCch4X_Uy_fz8EaabHsp8Ayg3nFYRZ3EiNdm5b74Usca1aoQ5-xOkh8OhZCyVt7mn3GBLtWZjjVVMIRuDEkk4LGPeJWrMsmCnDYFqI3JRt6D_v0j34TahBDWjXH23xZ3XsAYh19O5Udp2nuhfL8UMs4_eh2yggx0hgvPnzVGvs9hAkEoBd-eLx66qYpKuN1veHxP2FvxM20JLf4t9-qnMAu9s_teQu2NUgNYqHrYFAAHCEnxv2hPvQCAw6D0GUbWJqbvr_WaqGLabQVKcb47tN1yYGmctRKHip0D1UzI3XzrXgGqoBe_cytHXNjTgocqvRzmfZRtdeEI0ffJZ4XF7VejLGTtEvQFpDej3vxrMzfLf5Cm8FQyCSZQCk3U4wVnNe8PnhpJZOiDuavZlcItkD3_07JPqFEX6q8pxPqoIYwhRL-zWrUh5DUzke-dKhh09eNHvTS0Hgz5rxg9srzl04W7v8wG8NtNfMHZnOnE84-CdQm4d7w42kt2Uop4CRiYSEMetuvHlPTEvkqwN85Y6XhU_0bLEgWxDgx7gMRdqceq-Eoc7kQQy1swwKoxtwVay40F-1xxkhyFZ8AAGPurpQUM-BDlY0n1roRbO09ejg6dT29V1PucRYBX9ZdWPhklBMEgomW9CRGwzqp-eB5FSdmTVfddtM-QMZdhoO2D15ynEbNxmbPfGYaA1zfQvr4q39lP8rV9lmbawsyU_5OuTpNvvkDZejmAt0DdNx1fGf_eoJSoaLFneWjVP-LsDh23GdIFwmfUaTGYKxruaitL2oWPKOCAyDH8MQjEiahjZXbcuZfuwIX5u8mmILT-XI8fGXzw9iVkAQLHlcpussp7zyVbOkWRR4oqyUKbH1B9Ha1Y9KvghTr70XmIzcssPt84WJFS964yN5ILFhY-tV6Aji9r7ArDLdoFx6HWw0wvqWXw6nuXkkfS5pk4YjP3XzTjtb09hzS2dhFQzgKutEA2vqe8Vxj8TwB3MOCs8XtY3iqLkQxueU71Lf2KvTYadPgl-RYwfgHet8DeQxns9IE7zOLMNdNtX7J-6xFhbpEe2ECFlSNsounkblZQVYhfTLagU1t8pImELkhbYWJSvwPcjjG7Vo1iR5UwqVLgIyYqJk17oPgDLn9H_kUxQI1cZQf8AUaelzNv587QMNvMCJGEDr3C-qx3CWDQGIffDNDn6gozDtFXFOE2d9-hiqRMvAjOxuRqPYMzu1UNdoNIVKbGKtSDoXH8LWIhQTRN6PCTpurl9imm6nEdTgp82akVStBW5d8qcxNjocMdNKs2tglxZTIlF1DHez8TKSmXgJyoT42akZ7-5lrdpaPfE12wzazdVXxsonJMD5sCMLrzzCSgX_dudgQCLxEiiSktsjm9nCBwmLwSbOIbVgh8OIfUvI99Vi2dtqGwSLwUBz9enJtfDJOCVbsS_QSbsa20gPwf-WuzpYBQ8t-Cel0="
+    },
+    {
+     "id": "ws_03dcc436991e969c006ac5179b8a4087d2957de0349c636e30",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:patek.com 5968A-001 Aquanaut Chronograph black dial",
+       "Patek Philippe Aquanaut Chronograph 5968A-001 official reference 5968A 42.2 mm",
+       "Patek Philippe Aquanaut Chronograph 5968A-001 alternatives 5968G-001 5968R-001"
+      ],
+      "query": "site:patek.com 5968A-001 Aquanaut Chronograph black dial",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/collection/aquanaut/5968A-001"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/fr/collection/aquanaut/5968a-001"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/collection/aquanaut/all-watches?collectionType=current"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/catalogs/PatekPhilippe_Watch_Art_Tokyo_2023_Catalog_EN.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/es/2021_PatekPhilippe_New_Aquanaut_Models.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.phillips.com/article/117164099/the-patek-philippe-aquanaut-chronograph-ref-5968-is-now-five-years-old-how-has-the-colorful-chronograph-aged"
+       },
+       {
+        "type": "url",
+        "url": "https://www.phillips.com/detail/patek-philippe/189712"
+       },
+       {
+        "type": "url",
+        "url": "https://wristcheck.com/us/discover/buying-guides/patek-philippe-aquanaut-price-guide"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/patekphilippe/aquanaut--mod92.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watch-wiki.net/doku.php?id=patek_philippe_aquanaut_chronograph_5968"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/en/2021_PatekPhilippe_New_Aquanaut_Models.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/ar/2018_PatekPhilippe_Nautilus_Ref_5740_1G_Aquanaut_Ref_5968A.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://wristler.eu/insights/patek-philippe-aquanaut-guide-from-early-5060a-to-modern-references"
+       },
+       {
+        "type": "url",
+        "url": "https://superlativewatchco.com/pages/patek-philippe-chronograph-buying-guide"
+       },
+       {
+        "type": "url",
+        "url": "https://mywatchguru.com/articles/patek-philippe-aquanaut-buying-guide-references-sizes-and-secondary-market-pricing"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.be/patekphilippe/aquanaut--mod92.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/en/2018_PatekPhilippe_Nautilus_Ref_5740_1G_Aquanaut_Ref_5968A.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTime/comments/1tck05y/does_anyone_have_an_aquanaut_5968a001/"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/fr/2018_PatekPhilippe_Nautilus_Ref_5740_1G_Aquanaut_Ref_5968A.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1bd74mb"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1pdggpg/full_patek_aquanaut_steel_reference_breakdown/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=u4hVIwNvQaE"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1vkkt1d/whats_the_reason_for_the_5968a_steel_aquanaut/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=TnA9O3mZVIo"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/1qo5bbn/collection_8watch_rotation_would_you_swap/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1oltt67/need_some_help_choosing/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepWatchForum/comments/1vy27fx/what_patek_philippe_aquanaut_5968a_chronograph/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTime/comments/1wuaqp9/p1f_patek_philippe_aquanaut_5968a/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepWatchClud/comments/1vqsg9j/3kf_patek_philippe_aquanaut_chronograph_5968_blue/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1kn6jqc"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/PrideAndPinion/comments/x82vpw"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1ck4qto"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Nautilus_%28Patek_Philippe%29"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Patek_Philippe"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_03dcc436991e969c006ac517a1872887d28708f995747eb5e3",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRejZIcouSHNuezGC0MBjuAhhYAOTudMYcUa28sWvCDIeIvrjoAgo-Yf7KfLV-8a_4BFJKBck2sWT-G9WNGPehIvsJalG98NscZ6YKEyCVnZ3FN3E4Pax9o-CewDC3GMizptB18xMtIIZOT0ubv_y0TpczqUe3MmVqkOPmNHzrtQehHZ3sQtFh2Bv50sc2cuK3JWCZZS27aWqcy92qEN8d6Z23MNPKEEorgzRbGhhYOJ8F7O66uX--2OhdTG9HkA9uN6xUouo0rEuvgtfoQ4Aikz-j4gx0R6EzkbhIaP_6Jn8LU4LE-a7GsRVLFaDPFew5l8Yor_-u4Kk4U2w910t6IdvzBLTdRzS36i_ZIV5ohg2SQU3HpGGUF9znpWz605s2zwQawPQ31kLYFsiR--urrCMamUxkF633j1AMS5QPVNUnkTlDHRLQaf5slbHGt5IxiqwLcich15F1trOVFKMXa7El4dStnN6z1IAzBmZh0aaTJNd34xpqlAFi5GQrs9cwQ394gyY245OCxgvCp7tCYPrzCXY_wmMeHoIzvGDjnNti8LI4cvGgAxNvHCC6lHvS881bHuYuaWDrhB08POGl3VpeiNQ2D0FtPgrsX7JvvGXuuOIvOHXZPQbodrc_s4KIIuBxozZXOVwlYcJLUsZQ3Bz1BIkArIr7VZ-ltwqSghaF_EdNswCj5cH5QxzBW3HMk5pYp8wUcerdBVIzoh4alfDrYCEMUnhkksvLV3BQP4TnI_sF0k-utWKNl_GzEa2CQF4nz-oxmPsalNMDgGlD0By8rNw3LvBIflXlaCxbvqoMnLbG8gsQBq1q-WE7w9g_6KQarRdvFMZU-c_x2s6lht3p4zRctNALOpKeu_h_ABUnehsvzy0dyflMva_a-4XZRDSSRWIR7hNE9HN0oWL0Tx9BdelR4uNIeAmWtCn14CmmJmOZBrFF0InaU0fexfn8VJBnW1pBD9IHfeRK9qgAcWZACj5xqG0beRDlpCmk3KLNo9flT6jJoDX98CmPDGTPd94juY9QeU6P79AoA4n1PeWZbEBOnDpyb93l0hFelnouDejGXRK0aAllACip3VoT20sONIGNbSM01YdjLDbm0vSCFowuc1FFilH2qkuWnhQuhxfxjzLXuD73TJVGT2WOYMG54isEx0jnkqNeSeTxVw_Hfj8aazA7cZNIfEs3-FAYbar6b9s_3ZC4hvxXcmC3fcOIVWeHZHDQTzNwueqalWFHtwy1RJDuENSeulJpJgiRhNXn_G0E_Q4iOuB4IpJCGNqTEK4ekMEoRhyYWkJJ7dq8-Y_jDeH9Lyh0c3O-FRTmtGUa87eI41fMeQCs-QLV2ngFCC0zaJgiyjLDGjwikEXbxCdL78dV-UeximR6Knl4vYQAzBrg2ei6KcflZgT5qfT_txRdtgVoEKKlFneF49NXRpKZQbRFmPdSlmbhxXhh1eB8GAUXcPLerOVDOxU42JQ-OQ4HkxxIoYQ8CbK4Yo8gxuWXcHnbrLqlLzaZdKnBs01DJ2paz34fVxS-3qXz26Dr3GpDEGKNH2JO_XI4qKYrFGuS25tLCa7EtqOl3ddz7hzK5YvuBfIOsspdAuLnyG6oxbbAe2iq0m48guVhMiNj50S__666CLa_W1IZX9hTR0EbHmY4Zxi68eyQiivFK2j79x01ERAMmqHxpwuvQfgnq6fK10lFNoTbJNxbuOv9ekAQSA9RMOVtjzW5gy64ktym1YzLOJr9T3tac_c6m5oK7vpVjWsQXF6nyRBtXGTiTasYSRJA680qwgEKY16djS2Sc3nWsqDMEtraBZOcbJR5OLXfYp3R8Asew0bPJaMxUb2DJvNvVOk0cFwLtcJIFdXPPnTjkXBxOUutQASrxgseOQ_Z3BKBCwRTAG2FyRUL-ShybXEOQQQUpGqSW30_cOF-Pdro5RxawUE6-lJcU4Ni8F8O5aC6C02JLwGsHBwTRcGLxW_x77GdstHaKaVwQAER3fq_Yg5aa-s2JBGRjM6rpysYGwByy4zUV1MsJcrR0Th1mOHN7aY2E_sQrnX_lVnI2VwXZlGAIzs76jijjviz5PVG0_NmU0xyEM6jtWEO8A70SU393Systad-jBqBUCIRucFPa0W1IkyIz1QnBO6WHJGoyCqHO-BLtAnm65YLUD7J3yzNuNv4ayh4aoql185828iC9PNP6FEAlSMb5Mypakez_h0_qaajSsD_ki8uVDRHOyyOpx6et5J4RR08A_eCGA80h-NZdtC7ACGVj3F_R_ITS0aw7ZdF4dol35kRFD5ZCAXo5KTWD5fk6JBJhtC0YL95AAM3e3utyAk0Vjwa8GavFcoP__LIailLaCuOx6yBCVU1IqjS_Cv_PlfJQMVBD9l557Um5T47YiKnIQ7_ql2RxiH1v_hRZvr3i2rr3WYM47J2UDiXYgHeAFWwnmzXahKZs5onaJ7eRog2IloOi7jPeoQB98XWqmdZyQP14fmZG9eoS6SV3U_dv0u9nAfmLGTUMy_0tbCXXs5W18nwHFE-tMHozkRJmNgOTKcuO3tFVP8fLXnGZj1eko3nG1YEwKHnWRDxqZq2DsXWL20dpOnz1TPbb1zxMONiNVBVcivYP-9zravfaP4j31MDbGurkMSprHvT3WCeXgmqwsGzKKEgrDTbWUwe64NcLAOJY="
+    },
+    {
+     "id": "msg_03dcc436991e969c006ac517a2fdb887d2a58a9bb89290c401",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Patek Philippe\",\"model_line\":\"Aquanaut Chronograph\",\"dial_color\":\"grey\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"rubber\",\"bezel\":\"Brushed and polished octagonal steel bezel\",\"case_size_mm\":42.2,\"complications\":[\"date\",\"chronograph\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"5968A-001\",\"5968G-001\",\"5968G-010\"],\"confidence\":0.99}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791301539.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 16566,
+    "input_tokens_details": {
+     "cache_write_tokens": 3495,
+     "cached_tokens": 4723
+    },
+    "output_tokens": 558,
+    "output_tokens_details": {
+     "reasoning_tokens": 448
+    },
+    "total_tokens": 17124
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 1
+    }
+   }
+  },
+  "search_requests": 1,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

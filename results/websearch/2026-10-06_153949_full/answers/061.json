@@ -1,0 +1,645 @@
+{
+ "row_id": 61,
+ "image_file": "061_cartier_santos-de-cartier-large.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Cartier",
+   "model_line": "Santos de Cartier Large",
+   "dial_color": "silver",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "Smooth stainless-steel bezel with exposed screws",
+   "case_size_mm": 39.8,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "WSSA0018",
+    "WSSA0029",
+    "WSSA0030"
+   ],
+   "confidence": 0.97
+  },
+  "raw_text": "{\"brand\":\"Cartier\",\"model_line\":\"Santos de Cartier Large\",\"dial_color\":\"silver\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"Smooth stainless-steel bezel with exposed screws\",\"case_size_mm\":39.8,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"WSSA0018\",\"WSSA0029\",\"WSSA0030\"],\"confidence\":0.97}",
+  "input_tokens": 23694,
+  "output_tokens": 946,
+  "cached_input_tokens": 4723,
+  "reasoning_tokens": 844,
+  "token_cost_usd": 0.00241733,
+  "searches": 2,
+  "page_opens": 0,
+  "tool_calls": 2,
+  "queries": [
+   "site:cartier.com Santos de Cartier watch steel automatic date white dial reference large WSSA0018",
+   "Cartier Santos de Cartier white dial steel bracelet date reference WSSA0018 WSSA0030",
+   "Cartier Santos de Cartier medium white dial steel bracelet reference official",
+   "site:cartier.com \"WSSA0061\" Santos Medium steel",
+   "site:cartier.com \"WSSA0030\" Santos de Cartier blue dial",
+   "Cartier official Santos medium WSSA0061 silvered opaline dial dimensions"
+  ],
+  "source_domains": [
+   "int.cartier.com",
+   "cartier.com",
+   "shop.sandiegojewelrybuyers.com",
+   "tempuseuropa.com",
+   "bucherer.com",
+   "chrono24.com",
+   "jewelry.ha.com",
+   "grailatlas.com",
+   "tourneau.com",
+   "chronotick.com",
+   "userguide.cartier.com",
+   "reddit.com",
+   "majestixcollection.com",
+   "youtube.com",
+   "images1.bonhams.com",
+   "treasury.gov",
+   "img1.wsimg.com",
+   "device.report",
+   "electronicsandbooks.com",
+   "es.wikipedia.org",
+   "it.wikipedia.org",
+   "cartier.com.br",
+   "cartier.com.au",
+   "therealreal.com",
+   "manuals.plus",
+   "cdn.polyauction.com.hk"
+  ],
+  "elapsed_s": 19.653,
+  "started_at": "2026-10-07T07:00:23.345176+00:00",
+  "error": null,
+  "tidied": false,
+  "rate_limit_waits": 0,
+  "raw_response": {
+   "id": "resp_053a080b812b0b0d006ac5ee0a52cc87d2a0babdeb5c1e66a8",
+   "access_programs": null,
+   "created_at": 1791356426.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_053a080b812b0b0d006ac5ee0b2b5487d2b5c9f71cdad22b14",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe4cFif-Lt5JYYVqC4rPDITDk9OfH0_m4Uz7YSWH3k8CA17BlMXmf6CNERodD_Y8PS9MHucCwK369Xfq2AxYK-wLHUp0VKIZlL28bhrkZdgvpFVDG7MpyspUhNaC2D4bp2mu4COJCyEcPSxPmI_8O4LftEuADdm1ozpI1PaVnO4fPsqk-OfuVSbM3vetNw0xqEykr9uJyZZOE8uKt4BDXEsvL6UdkP3T5uxlYVkSHJi9rQsOQKhZmCcWuG4jcuu02Z9iqnP0pElBKK0XGLP-17BVpirW-Rm4MtrxFyR17eNzumkrDESJhUtP2DB6nd6B2NUcX9lZpR6UQkcUg5IOedIenMLfCjdJlRTaayFHoYvdH1BxReltTsBZZALN3LWlRcbGxKLwk7ko0li2fjw4wRARdSaIjHYMrvcQ-H31BhGRYprzaOnwuBNtX3aHBo-9TfmsParsLXS77g3-of6trW7jP2c_ptpp-qjKKyhGEBv-KwBkeC_uc54DsZRV5o0ZEvNY9kwn4RH3FgZ_cuG0k8_9Wp-0xZB-AnyqtxPo2lWQE8-emm7mqYtWEVn4S-wO25-ee2bOkB0dU1YLTxykzWRfMNSwhFeoYIGY3-L6b2SRgWtzEIMIjAwwAkui6razmfWy28uAbfUh2YSqlwuxRQ9WQsR4LEJ2w9vOfNrL6jpj3c5VbZBZRhbcWYlyoEYn4SOoRMDq8VMhkcxgfax7MLEOgNucmC6vqX8NEXz_Th9hbGK7KmXCkYdRLRTbkGsb337mPeROPqIT9yEixSbH4bHW2ScqkiY-4DKVmQG7GOSE84vHZjrJKLnD3I2gonApzHq4YgNl0wiHYIsvRtIeymZaPq5-HmdyacBVkrF9v-XZ_FxxAeMvpFkJ_gNb211ZckE-ZT7Toc1kZjNmso5iWWow-naIb9DNmLH7BVdNpT3kr_1nce1dYWuYKOPsrfruV9o6rfKYXGRV20g0UdI1Wf7vlMsOHCq-RVDJznk2djhVc94HJyoqAxF3uO8Kf9-Tv270_5u-Glx5gdt4Sqg1jKtZmhP017oTnAA-kVJkGOTKpQAhiRCnhdEf3xl1_3ooZzVZGwjKivbRRhdi50UG61GgAg8b5NkRexgLn-R-kRotULyUVpY7UFsJTWbjL0Eekah94_0mXKvLmUQm7l1Y-Zi2LXCHUXKsTnTnakTedZfJlIi2ipEngbUjT6C6Ue7uZl8uHn_j_2EeOji5QZgLHbh5HQD2_nBCmkvq4UrTGu3-WQSaUR_rnxS-5wHQPubnnS7LytGNWUc1ESKyvE-DiaNv19zT8jjI97Lq6LFvdVxHCD4ckqbNB_Imv3Q_6k-vlBDDNHzK1Af-04UXEoqcA2bztuwBx6U1Q2tSckkpOk3Pi1irUWZFt93UwnvIdCXdpMGCCeshsqdgzxlNI7JENHyNllhIKfAt4aOJbeYqXVhf4kl4pehZa1JMymqjIHuO-yvul0j1hK2aBk7c206_EaVkFRE2WOEp4odHLEODa4UUFCS3opMF3nl1w8sfIa4BtYLT6jmUn1FmHZoqDrJFPN8sW4yCD_NCNVnmpNYOHtyH4dH0U7kqr8HT05LeNafmAP9g5cqH5uhdj7eTV-FGDRiIf64eeIuDwTAid6UyDDDfRr7EIHx3NFUUTgb8xkm6_wshNkA3lYA4g8_xxrl79CezJtK895p6LgBwXGD5rvKicMoSywzv53hoEqavDN37P9tePm3-eoE3wteCtDkrLCqG7MeEfEHbqruTotXNVMwR7-GVxrzOeXh1jdXBQSvu3VixSW0kp2zJXhROVeMXDL6InRj0ndVO4V9tm7tCwTpcIso86hXH2IhsQKa2uSc6cWPe-QmM1NILKO_UoRH3FU6DTqdPyl_daMUJrV8O24Vk1aX3feEnrf1gbGnkYEAhh3jBSJGFnNtSHkrIN6hgGjfRgGXVEjwWY8SdialrNSEnpuPeJwSPwJDhdWGeV6PVdXmsU7Jpv1_QKzwf6sYiBijH52C6o8n90WlUpHMWhrU_mJ_c4WRsJxXqkdFbYLu5l0d4umkE4C9RikZo2u9HYQ8AupK-Cs5j_UwhQ3G_LoJcinT0twbuUv5iuFzd5wppjAivuyNKKcvHNsWykuU4wnr8WXTnfUbO0IVXsw-xfBL39JawocBLqprbyGp-WACQysWym4luoPbPqBhpxGSkeQ2hTI0AZfcvCCR-CJpWtoY81tK_gaxmg_s1ZB0Sfv_g58T5kApMYzlPLyRzCvtFQaF0GcKwxYjvRkSs6IdKwEdVPhhRpbs-gl8nPB-JqhXkkKOzwvzwvWg5udOlIwWOI9akREaQwQ7R6kD-_CTMMVy45jbYl2SVoG7ppciXT7kDsZm4MdRwd05MzTHGHsjEtFXHiDCtIi_ASda4GNbDKDbAA8VssPH3JST7SH1Ixczc9OnkodVZFA7hS7DJhTQRNXwEowmXfq9ClTVWyaIGmeEyrARDcR8jBNnWg4OW6ZiEtnDg9CNUNxxtD7QD-9ykLHCxZm49GFpLzlTd46-tRz7FwC8="
+    },
+    {
+     "id": "ws_053a080b812b0b0d006ac5ee0e06a887d2b76d56b36cc3d367",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:cartier.com Santos de Cartier watch steel automatic date white dial reference large WSSA0018",
+       "Cartier Santos de Cartier white dial steel bracelet date reference WSSA0018 WSSA0030",
+       "Cartier Santos de Cartier medium white dial steel bracelet reference official"
+      ],
+      "query": "site:cartier.com Santos de Cartier watch steel automatic date white dial reference large WSSA0018",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://int.cartier.com/en/collections/watches/choose-your-watch/by-material/steel-watches/wssa0018-santos-de-cartier-watch.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.cartier.com/es-ar/watches/collections/santos-de-cartier/reloj-santos-de-cartier-CRWSSA0018"
+       },
+       {
+        "type": "url",
+        "url": "https://shop.sandiegojewelrybuyers.com/pages/watches/cartier-santos-de-cartier-santos-large-wssa0018"
+       },
+       {
+        "type": "url",
+        "url": "https://tempuseuropa.com/en/reference/cartier-santos-de-cartier-large-wssa0018"
+       },
+       {
+        "type": "url",
+        "url": "https://www.bucherer.com/us/en/certifiedpreowned/cartier/santos-de-cartier/1517-532-1.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/cartier/ref-wssa0018.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://jewelry.ha.com/itm/timepieces/wristwatch/cartier-santos-stainless-steel-white-dial-ref-wssa0018/a/5592-54159.s?ic16=ViewItem-Auction-Open-ActionBar-NextLot-090315"
+       },
+       {
+        "type": "url",
+        "url": "https://grailatlas.com/reference/r-cartier-santos-medium-modern"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tourneau.com/on/demandware.static/-/Sites-Tourneau-Library/default/dwf000c265/documents/2024_Tourneau_exclusive_CorporateCollection.pdf?srsltid=AfmBOoqub880GirctZ2bsd5qtY7cIDnM_esW5wpQPdPtfQj2FK_iL2f6"
+       },
+       {
+        "type": "url",
+        "url": "https://chronotick.com/cartier/santos-de-cartier-large-398mm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.cartier.com/fr-ca/montres/collections/santos-de-cartier/montre-santos-de-cartier-CRWSSA0018.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.userguide.cartier.com/catalog.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wb5h12/wtswtt_cartier_santos_de_cartier_large_wssa0018/"
+       },
+       {
+        "type": "url",
+        "url": "https://majestixcollection.com/watches/cartier-santos-de-cartier-large-steel-steel-bracelet-gradient-blue-wssa0030/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=TcGcB3A2oUQ"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/19cfply"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/1wb5jjk/wtswtt_us_cartier_santos_de_cartier_large/"
+       },
+       {
+        "type": "url",
+        "url": "https://images1.bonhams.com/original?src=Images%2Flive%2F2023-02%2F08%2FS-28031-0-1.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1mj9sq3"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/1ie6uxe"
+       },
+       {
+        "type": "url",
+        "url": "https://www.treasury.gov/auctions/treasury/gp/fy2025/5.21%20GP.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=a4deVXbuqzI"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1r8mix9/wts_like_new_cartier_santos_large_wssa0018/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/12ditvs"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/16fto8t"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/154wvll"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1bi2alx"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wluqjj/wts_cartier_santos_de_cartier_large_wssa0018/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1l39331"
+       },
+       {
+        "type": "url",
+        "url": "https://img1.wsimg.com/blobby/go/a41f0240-bc98-43c8-84ec-b703f37d8bb2/downloads/c52daad2-3ec9-45bd-a769-7b8ddca48ecd/23rd%20November%20Catalog.pdf?ver=1762361380964"
+       },
+       {
+        "type": "url",
+        "url": "https://device.report/m/82c20ebc61cb439eb70c86445f3af4c0656d50bcc1033e07045480ed11dd36a2.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://electronicsandbooks.com/edt/manual/Art/Auction/Bonhams/2017/20170221%20S-24033-0-1%20Watches%20and%20Wristwatches%20including%20the%20Collection%20of%20a%20European%20Nobleman.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://es.wikipedia.org/wiki/Cartier_Santos"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Cartier"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_053a080b812b0b0d006ac5ee135e8887d2aaced2ac4ebef496",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe4cCdgIU4WgqjaF6A5hQYFIySegQDZVXzvmWZEhR611iWffvLGCiclTSh0PzO2cS7Sh3wtzT6JlXRu3hPdf3tDPMJ6yyLVx95I9IRg_lCim3ohdbnOh-PLK8pqgNri60BJOL7zs__mkz1L5aoKcXCvgECz0MjbUzvFT9I1-llTyQFurztduvaB43i__ryw93niE5tLWfOOPC4grn5ZCsocvG5kE2iZKO2agplJZ-OUuf2IBGhTBxn8XMgR7BgpSwwjv10Wm3P2xaQhp--8w7Px7fO7P5dy_UGCMwEDKr2QmJZ45xYc0nrCITjUfVHcyLva81TfEYKf1aYwb_FQI2miIDngnorbDXOIKf1mg3h1wihfH9zCc1VxGw14VgcEg8XHgR6VNndkqr_XHnTibxJlFw--l8e0EUYZcSwYXHlvHpIBlGjhoQO_smzWAPxHGuhl56UhTnqOCJuGbiJ_aIp059e5rWuTviBYcgIUR_pXmgxgusTJPz4PZrCYptZeeRBwLZ_82HaHhYProDVM3ZjWzcq28xmWTSOJ3Wldi08fasm_7bRFoSWVhA_e7bTQaBgBXVQX6EManntW1bFeUAEEnUqQAyA0ZwvQptn60GJ1f5gj1EeBg--v1-kAm478kd5MoS2vG3YFNEsc-2cRwC7knfFHtOHUrOUsHOZYZPY3rCYrJIm9bs02WmYJ7mcNDVyAx1hvJMPgMZySdQ8pTfn0f3A1zB6oOcdjK3P7scetmwhrx233roU2A1xjRcLlR0HvN8qY0-zEwlfDa_ts2bMKzR8tGZZkRiOGItddm-ZRFcX0lYv2PXo00uXZNo8kty7mMtAHg-7bgaiG1atWmRlWQNCfBIsMBFL4h8TKVyK-gyQo3gDwv3EY9btnmqszC7W4qTk9inwOsA90FAPGAzAKHRoO7QmRI6NaEBTt-gorjQv2YjmSo1bbGlXbQHjhOJPOzuqtiSbA72rCUB714PMHp77OwtczBWTZevCVAom15pNYU06aiEF7OhCKqZgcFiCFAkrMYDI3Mvcmv0vcnh3qjC67GurLdf7hoYslxFFeasIrUAOK9_VSBl7-_kpFGvJfGXD5HyyQ1eHj9qRKBXviEg-yCd6ljADfh66aLiav6NmSDp7MCf7DvES1qtAjOaddt173u1AhSGmcqTmPVs9UFGGYvw17_S8-Fys7e1wmKbOEAlN0z-TZG_y2fur_aaacfjwO8OEm8HAXwGKJRnrp8GvtUESLT0m9BwyQa23bsSW8qE0xPSC9HQW3WESsaIeZHpENXdd487uzq717XRff-L_IwYy_KSnYYMwwBR7J8xVReEuM8WByRenVkH_yRtpqgX88RHjT9Tvw4NPt-wYjOXFy87jEvF-Q5J2ADhL6sj-W89Z82QcxnUbPFsnQPIUMX_cPKSQ7gPwS2v3CEfjQr77df9AlMviB3rszShrYNXRZPJc7WAxZHm8NXIjQV4F7n1pJj04iSUXrr9amJLnb1pWfcfu7GNEUoM_Hv9apcaXOLaeO8FSFJ1hHql_vjqw1CJ1x_ir0J6yk2uTL5aXAXka8UqB4HRMJ3xO-UlZLa_fvA7p5SxMCZxokPMuwRNZCNM9RRTWBc7c-_3iTAPNBJ63L15K4Yeohszop3bGe8hWxifbwQljdiRgytLQiNeRoYBDdUhY7Qa9HCTkvPPIRmP9wTGikmcRG3iQGj4W8f0u9Xy_eoaAIsbjIn0h2XybOXQwKakz1VO3fr6D7shhxhKMVyasg2_HlVA5gFdIXBqQvJOvskxwbfxdwrtUSdwoCKMh5WYYIvqhN6X2nZPa2IXyb9ACrezoaN17l-bVKne7k1_RCp-NpiD_mTuvUChmomNs6IYrmKGqfGvfJRf4ME9sPZGKhwRvjBIZGYNsNHrgv1oowslH-xBAJL546y-iUR2UKP-owzYVYvLz_6EGI-zTYSUyNAh9bPk8Ig097ESiYq7UQV33aoHOALV9KV8pni8tVqT32PvuYlCnjXAlvFPUhnGFDhajxs13IkbSgFmoyBOz4v8yAOTHJfDNQjvemsYBeeeDZVIoEmfeKhgS0jJcYAQDx2Tmk2lZuR7BiKXRuqG1Zbhwz6-z5BoIUZEXA3zmNbQDwrk1P9-2sw9Iayr8Aou-LEwclkg3aaCU8fXpeAfmscr5cJN_PqeF-SHldbVIic6hfNmnJFFnWJl3P_19VEgK9gySOnfZDebhJxwC3WDuyTzCE333Gl55Vf1C0DG5flHSKnre7fl9_UBUQl5K2F5J99P7UXgLo6hWsbcDnwMUPzsLIqrFEE3aKI9iruQgcxurGaGVc8gxaPJ8hz0lsNndYiZJZb7SX3LdztcwodysJSJ8mjuhuB4Dd8D3XqpOwuwMT6pVt-eOaIXWD1fWh64Tm5T95ycF3RCPJLYTkGRUbh437896gEgOBNYHH8kElMfeO7KGa33Lk2F-IeoINpNsn7mjqEvCr_GzEKjq7-UXHxPgj3Ba_4TM9fjTTxuU_QXJlt996eZYLzuJ7-wRUOzyfZQeK0qMWl5nd2M-24cBZ00Si8ZwS2PXbZGXW81gYsOp9wHM1hKj3V5FWqceHpcSgTkfd1VobUF6FrQmTStfUw2rP7ITl2JZT5CIiFeDRvXg91Pg4a9-Gz4p4pWo27pu7FtjHfitYuXh6BqQYaJSvaAI8D938s2sfQWWgCpd4VfN4f0utv3EQsRJ_JvPn7YrR_nfLD2ERxeYNiPBM8BEtIRrsjLsgU_0HfAWnB-DNEPmYNA5iuaztWyFalx9-FsSFj3v7vPefuLNhBC4Q-PXJs4BM5NmGfm_3ofbOVF8O3k3FoI8P1uubdRpiVB7UI7PF1Vh7a6hJklB3EFqXMDg8GElTbRz3M9Qr1LyZcgdMXvv1AxVHaSbnUHooZvg=="
+    },
+    {
+     "id": "ws_053a080b812b0b0d006ac5ee14b8dc87d2b4cf20c7f1c1c379",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:cartier.com \"WSSA0061\" Santos Medium steel",
+       "site:cartier.com \"WSSA0030\" Santos de Cartier blue dial",
+       "Cartier official Santos medium WSSA0061 silvered opaline dial dimensions"
+      ],
+      "query": "site:cartier.com \"WSSA0061\" Santos Medium steel",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.cartier.com/th-th/%E0%B8%99%E0%B8%B2%E0%B8%AC%E0%B8%B4%E0%B8%81%E0%B8%B2/%E0%B8%84%E0%B8%AD%E0%B8%A5%E0%B9%80%E0%B8%A5%E0%B8%84%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99/santos-de-cartier/%E0%B8%99%E0%B8%B2%E0%B8%AC%E0%B8%B4%E0%B8%81%E0%B8%B2-santos-de-cartier-CRWSSA0030.html?lang=th_TH"
+       },
+       {
+        "type": "url",
+        "url": "https://www.cartier.com/en-mc/watches/collections/santos-de-cartier/santos-de-cartier-watch-CRWSSA0061"
+       },
+       {
+        "type": "url",
+        "url": "https://www.cartier.com/en-at/watches/collections/santos-de-cartier/santos-de-cartier-watch-CRWSSA0061"
+       },
+       {
+        "type": "url",
+        "url": "https://www.cartier.com.br/wssa0061-relogio-santos-de-cartier/p"
+       },
+       {
+        "type": "url",
+        "url": "https://www.cartier.com/zh-tw/%E8%85%95%E9%8C%B6/%E6%89%80%E6%9C%89%E7%B3%BB%E5%88%97/santos-de-cartier%E7%B3%BB%E5%88%97/santos-de-cartier%E8%85%95%E9%8C%B6-CRWSSA0061.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.cartier.com/fr-fr/watches/collections/santos-de-cartier/montre-santos-de-cartier-CRWSSA0061"
+       },
+       {
+        "type": "url",
+        "url": "https://www.cartier.com/en-cy/watches/collections/santos-de-cartier/santos-de-cartier-watch-CRWSSA0061"
+       },
+       {
+        "type": "url",
+        "url": "https://www.cartier.com.au/en-au/collections/watches/choose-your-watch/by-material/steel-watches/wssa0061-santos-de-cartier-watch.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.cartier.com/en-fr/watches/collections/santos-de-cartier/santos-de-cartier-watch-CRWSSA0061"
+       },
+       {
+        "type": "url",
+        "url": "https://www.cartier.com/fr-be/watches/collections/santos-de-cartier/montre-santos-de-cartier-CRWSSA0061"
+       },
+       {
+        "type": "url",
+        "url": "https://www.cartier.com/en-pl/watches/collections/santos-de-cartier/santos-de-cartier-watch-CRWSSA0061"
+       },
+       {
+        "type": "url",
+        "url": "https://www.cartier.com.au/en-au/collections/watches/all-watches/santos-de-cartier-all/wssa0061-santos-de-cartier-watch.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=tWcWY_IcqwM"
+       },
+       {
+        "type": "url",
+        "url": "https://www.therealreal.com/products/91609239/appraisal_report"
+       },
+       {
+        "type": "url",
+        "url": "https://manuals.plus/m/82c20ebc61cb439eb70c86445f3af4c0656d50bcc1033e07045480ed11dd36a2.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://device.report/m/82c20ebc61cb439eb70c86445f3af4c0656d50bcc1033e07045480ed11dd36a2.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://manuals.plus/m/3fa7e3702236a6fdfa93b2cb8b37e31916ca9aba0d406b2eb1567741c5e834e2.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tourneau.com/on/demandware.static/-/Sites-Tourneau-Library/default/dwf000c265/documents/2024_Tourneau_exclusive_CorporateCollection.pdf?srsltid=AfmBOoqub880GirctZ2bsd5qtY7cIDnM_esW5wpQPdPtfQj2FK_iL2f6"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/1fxu3p1"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1w5opeu/wts_cartier_santos_de_cartier_medium_wssa0029/"
+       },
+       {
+        "type": "url",
+        "url": "https://cdn.polyauction.com.hk/public-default/auction/sale/hkf2618-2_e6c0aae6-6a83-418a-b1fb-f0cbe20d9ac5.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/1vfxtb4/wts_cartier_santos_de_cartier_medium_wssa0029/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1cbmdhv"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vfxrq3/wts_cartier_santos_de_cartier_medium_wssa0029/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1lv3lf4"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wwrg5b/wts_cartier_santos_medium_wssa0029_bp_full_set/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1ss9kna/wts_2025_cartier_santos_de_cartier_medium_true/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vy92qc/wts_the_santos_that_deserves_more_attention_green/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1az7cmk"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1tmzimr/wts_bnib_may_2026_cartier_santos_large_wssa0018/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wmufmy/wts_cartier_santos_medium_wssa0010_box_and_papers/"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_053a080b812b0b0d006ac5ee1ac88887d2bbf589ca1a3423cb",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe4cSjMzBR2tf_rkOiZ7n29HpdXQhoHNCzZaIRbCby_WXuaK5xcTFCnzp79gi2bXdowH6ktGPSSKZWxKII1fZ-azs-zXzancIOqJFOiGjz8ts8MtXuFK7oILuM4ufWCmq_LBd-g9CkBBDpSeJY0qzxZLe-BmIFeUPUf_hsIcMqezKLa28SApoxhbCR9WqugAZGtX0VsdBv2ew-NhXlaCwVBki343X58VA8zVKwfWm-v9OXXI2AWjgmG0VeOa_tWJzDv7E1SwxHMym_yb9WPxt9P9ehFNa6M5F2aVyxh7J7ez_yiG7sxwKA7vV-dL2jcDt1H31VkstIJxdtyvwydie_Mjp0XNzVAN_keP3-1r-jM63WjokWPkLzQSlU2kEbLGio-PxgbNsc_5jOSrnNOWco6_BREg_K4quk3fdMKn8NtvsworahK_Hn1zitbL0BkTKBjWBQP_5M-hTY6POc9-pP3DDko4vTAP7_PYMHrVwLNUkKJWYSE6Fj5n3ZStFqeRKIvafBIXRoOcf-X_iid378_JaaGd-h87eZFjCyXu1DJd3X6RYTHdSkO69SWhf04DNpAMAdbIzxg7WjbBN5Y6EB-gP9SaUDyTI7hT1kNDTCxTgSYSixaF-Tz093Fa1OXYfdlWPzEeOpKCeTPVgDMN5RH4oxKAd9YPz7ETZVcTxP4BEl3boIzYURCC55qqdwglOlDDx--0m4qj-qCSlvoIOPH4XBcCHMVQakc2HIO6ZsJXawhTvwgfcY6uHRllXiu4qpODy6sKfB349LE2CqRm0SX2FXsEGMB9qLBTGQhmXfe0fQdk0kdUJ93_fY3brQYjDRWiNDdaRwLQO5ecVH3DeL2nQDp2JHCWi1tQlGy7-TVWRQpbfloccocR4dk4PR3A6Stf5aNgk14qIggMuDw9mbO_UeGP6vDRPWhvO33-9xZrP4ilTBYjelzKQW_mRbQK_ngTte-wgPgUZlijLG8FewWyT7nsNrtqqFVCrzZBwBmIeaT9wDNMg2UtBQvaIgYW18eh0GlQ35T4c_2ePOVvTT5QO4Hsu-C-4FgCHxkrUz47iAFYXS94tuC4Q6pI-V3BGAj2agYh4T_tJVWQWWPZ6xZVSg3cu2wCjm-7YXdQ-gZdkFv7NI2HxRqiZsq8VYGHXedXVWNSD-bnf9C5iCbCet-6I1TM0RSCzb6jqX-pmwImAC_6mKpVF5YvCE1SRzhZmfR1pf7o4PfYoE-OrjOoz512u1pZQ_glQwo9aON55jDlIuQ8gdVtDQjByo1ZbmR5ubH3TaIJUg9KMYZrnh2shWWQdLqZwISExW5_kBQcpcoPTqT9Dh_mDtEbq1iQO3bq65hDDOl6NNRIvBGCMTkcwh43-m14XjTgHNptgQMuGzqmAgCdOim5lLF6T0hcbFM79MyYeCvgIdbldl-LseOcrR1xVyfKwZxE1AXgKEWZ6BtyfBHaWTTrLGpbPHlmcZwsc4WfuOhoB6WMqCHb0pVUFQjAzG8b7nSXTdfnnJ5ocDQPXS7bIVFigo_RzdSplzJXj9XeTfcRgcjRzmsRc5qm4WZZeH-FlsAGi0LgRpd2iWoTzMMPDRRUk6lOOwIkNmtMtX6Jw0T-9jzTCafbTD_yQeosj4BnkPwD6qwY4Q8OrlkBie87hkHnNwsyh706DtBwC3oadnaxGaed5OpYCQiKem9N7ulUqp4t93z2RsdMtdFVcSQHhDLrSCc8w74Lw1oixU9EZ96yoFOpwZZnzs_3d-tBVEICVBdnn8pIrOvpbCjW9Cd2FtO9IkuOvxnoCepmXD-x63wOJTzFejMPrFMiCLgGrgJO9wTPHpTeURjlc_ZFNtgo1-3Jqe3XPGtOrkqq3WOEyRYptU2dYm6KSghggaUgCwKH46JqfFGZRARNE1zD2-g5Oo1rUXzVEE4BNepOZGZsHnowaSYN7TpQ9yqXojXZIj-yrAjyiu8NBHe-pGVdpPsLk5YNC6GM09utbZNu6zVQG05_cBp1JhFIwD04hvETZpA_i8zrkhpWBxMtcnO1PlleQ81r7aga3n0coNdOyd7M"
+    },
+    {
+     "id": "msg_053a080b812b0b0d006ac5ee1bcf9c87d28edbdf56e9f117a2",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Cartier\",\"model_line\":\"Santos de Cartier Large\",\"dial_color\":\"silver\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"Smooth stainless-steel bezel with exposed screws\",\"case_size_mm\":39.8,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"WSSA0018\",\"WSSA0029\",\"WSSA0030\"],\"confidence\":0.97}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791356444.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 23694,
+    "input_tokens_details": {
+     "cache_write_tokens": 3556,
+     "cached_tokens": 4723
+    },
+    "output_tokens": 946,
+    "output_tokens_details": {
+     "reasoning_tokens": 844
+    },
+    "total_tokens": 24640
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 2
+    }
+   }
+  },
+  "search_requests": 2,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

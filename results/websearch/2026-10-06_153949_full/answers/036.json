@@ -1,0 +1,672 @@
+{
+ "row_id": 36,
+ "image_file": "036_ap_code-11-59-selfwinding.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Audemars Piguet",
+   "model_line": "Code 11.59 Selfwinding 41mm",
+   "dial_color": "grey",
+   "case_material": "other",
+   "bracelet_material": "leather",
+   "bezel": "Thin, smooth polished bezel",
+   "case_size_mm": 41.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "15210CR.OO.A002CR.01",
+    "15210CR.OO.A009CR.01",
+    "15210BC.OO.A002CR.01"
+   ],
+   "confidence": 0.84
+  },
+  "raw_text": "{\"brand\":\"Audemars Piguet\",\"model_line\":\"Code 11.59 Selfwinding 41mm\",\"dial_color\":\"grey\",\"case_material\":\"other\",\"bracelet_material\":\"leather\",\"bezel\":\"Thin, smooth polished bezel\",\"case_size_mm\":41,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"15210CR.OO.A002CR.01\",\"15210CR.OO.A009CR.01\",\"15210BC.OO.A002CR.01\"],\"confidence\":0.84}",
+  "input_tokens": 25448,
+  "output_tokens": 1771,
+  "cached_input_tokens": 4723,
+  "reasoning_tokens": 1648,
+  "token_cost_usd": 0.0030052300000000002,
+  "searches": 2,
+  "page_opens": 0,
+  "tool_calls": 2,
+  "queries": [
+   "site:audemarspiguet.com Code 11.59 Selfwinding grey dial 41 mm steel reference",
+   "Audemars Piguet Code 11.59 grey dial Arabic numerals steel black alligator reference 15210ST",
+   "Audemars Piguet 15210ST.OO.A...? grey dial",
+   "Audemars Piguet Code 11.59 grey dial black alligator Arabic numerals 15210 reference",
+   "Audemars Piguet Code 11.59 15210BC grey dial black strap photo reference",
+   "Audemars Piguet Code 11.59 15210ST grey lacquer dial older reference black alligator strap"
+  ],
+  "source_domains": [
+   "audemarspiguet.com",
+   "watchguys.com",
+   "chrono24.com",
+   "time-minic.net",
+   "watchcharts.com",
+   "youtube.com",
+   "reddit.com",
+   "people.timezone.com",
+   "monacolegendauctions.com",
+   "en.wikipedia.org",
+   "cdn.vintagegrail.com",
+   "timeinternational.co.id",
+   "es.wikipedia.org",
+   "it.wikipedia.org",
+   "swisswatches-magazine.com",
+   "masterhorologer.com",
+   "watchtime.com",
+   "hourstriker.com",
+   "the1916company.com",
+   "timepiece.com",
+   "wristcheck.com",
+   "thetimeplace.co.id",
+   "spiralmagazine.com",
+   "dist.phillips.com",
+   "disco-legacy-data.s3.eu-central-1.amazonaws.com",
+   "wallpaper.com"
+  ],
+  "elapsed_s": 23.532,
+  "started_at": "2026-10-07T06:58:45.598151+00:00",
+  "error": null,
+  "tidied": false,
+  "rate_limit_waits": 0,
+  "raw_response": {
+   "id": "resp_0d5637b19aabe9e3006ac5eda85b9887d2b5d695716d53e824",
+   "access_programs": null,
+   "created_at": 1791356328.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0d5637b19aabe9e3006ac5eda9fbb487d2a0314c817822803c",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe2_uu8UF-zPDKmOBA5RuseFil-dmC4wi6uF7hX2XmQLWn_xSiW--_oNoU1fHQ4xy7-5M1iG-z_fcEnHEPaUOTojCd8WPDFrmdyN85-6BcGcMRAZ1WwItF_V9EdUSnYiY12wuJTHQ5WDXB0FAnF3SQ1RJVf2vNiVNSE1G5dvB0leNiAhou_37wQ1OLAGl0GKom7z4Tan-QrP0UpPL94e7v8BHx3sdRhwDtH7_IcuoG3bZ4PfmPT2sXJZqRyTNOITkHihqte88KPPfXQPkNNV2clnyKpOLYu34BE6SO4GoHHMtPwbyMWNEpR3PEVKY0PbJn-ShXeytiUE7YEIV19GpiQhj2VKh6o_nS0SkVBxSz96Bf-fOV8K3_5NNJKKvxK5gz9PUynV-gQjd4bJwjVwPvlP1WEU--RD9QDFoE5Bm5ZEjb6w7qz1A5XFo5hbVvT8rjIOiT16kUK6ka7hhQmnnlbwXkpHxWjlRqWCgKl09An_ryoQQXwvtBK3bt381I8l-OAXUBpe4wI74rpx_4cVm54A9Smk08VxCTmZ4HX_vpBCdXMcLfUtSG2GnTVwUH57xE7quUwMZqupNjjMBiWSgc_tYofqO8atZoNH_15Y7mYjTW5Dbx9Mgkt2K07hAIAcOuT7fZz1djFvHpbsAoJyAHWU9fch-le-Xwx6ne8yZ7vK0ardEAFtYIKO-MO30N8m73Nu_bdN_1UOIDXhdy9p1YzQWH3abEdOLKgW0mbUclEFQkt6ZAAZye5ExJZRGfVkUJzhKACdos8yu_kmiCMU_LMZf5k7RxwR8Yaw-KRroLDlu4C5917pDIoqB0yKaRSJqEYpGNGYi8IjvSk8-ve8RxZeE5_PgAAyVnFKjJGnjnXe---ZhmAUJCjXVpZESaKaYDEekDbd2gfUH2HVA51LdQ6LRsUTA7NTspOfDL-XTwxBG313q9P7IlonZU4TvB-chbAL1BYJWBC5iH-x3MQk1F0E2gs-QmmTnnRBCjN99Bs6VPO9EDCwx7Kt7SDEIa-sh5rFbc_LjFFUTDpoXaSdvVy8kTlGac76iM3W6ceugxRtp2c5fDkHCCLyTm6KuyOXeavyqZ2nforRfhySbXDZUyPfZsKMYg2HCAXqP2JjJzvuf0_1ed6XDcOTt0u0Ul2U0Co5yOe4tdYPogNTNX1QeK5VriAVXamKERf3MelWmqnNv7aCIwslG5Ytxh-O7c7tAt15NfjOLJGS8b9Qwec7zPiqRe3eaX4iD800xqhRVUqG_nQSxxkzDZDFR7Cecp3BYeHg1CP93P1HGm9oSmP8TZMWkyt7qgokftifZFKc5N5aiZemWDS5Pc_xnLZcvXpM9RQL36FHTSJXlhCSydiv2qMpVGSWt2ISkNQ1oRSd8qz_Vf_54Ngi46yPyfdGzj5XDtApqJnB0QfjUlMlrhZHu5mqZMgJJMRkY9sY11LylCNcy8WqOjwSQVVZtnqGerSE5hhapBirGM0gF442G3p8iZ_9LdAh2D3rPWxJXiybmIC8HT8t6XDMq07uWZUm5WSaJi5i7e6dyAczBq90swngrngLzM3IPcKlDOdBkYl1Ln2yasM2v_RA82Qp-8YON1VqaObUW5097CHd3TpRFW23PNUguo8ZxbQSBqUA2QkgSqLZIgioUlbcJg1K3gT7JcqBjUTfyHQmSukA7udHidx4E-CUihccCnB2EUdzf5V_Du5zrZgf_Y7Ao1Ope_ijKR1pPJAqnS4CtIh0hvUikPJzHszSQ-HOr-sxmp19Fu8TExXwEgGrAOmB5mvKyUCbEWUkrjEJ3Uh5I5w4R9D6mSVkuRJx6Xsu0XbRTtWzT2c8mrsajnQ="
+    },
+    {
+     "id": "ws_0d5637b19aabe9e3006ac5edabb2f887d2a6c81e210d824ca9",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:audemarspiguet.com Code 11.59 Selfwinding grey dial 41 mm steel reference",
+       "Audemars Piguet Code 11.59 grey dial Arabic numerals steel black alligator reference 15210ST",
+       "Audemars Piguet 15210ST.OO.A...? grey dial"
+      ],
+      "query": "site:audemarspiguet.com Code 11.59 Selfwinding grey dial 41 mm steel reference",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/hk/en/watch-collection/code-1159/15210ST.OO.A009KB.01"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/de/watch-collection/code-1159/15210ST.OO.A348KB.01"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/watch-collection/150-heritage"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/news/savoir-faire/code-savoir-faire"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchguys.com/pages/audemars-piguet-code-11-59-guide"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/de/watch-collection/code-1159/15210CR.OO.A008KB.01"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/watch/code-11-59-by-audemars-piguet-diamonds"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/watch/iconic-models?gclsrc=aw.ds"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/audemarspiguet/ref-15210stooa009kb01.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/watch/code-1159-by-audemars-piguet-grande-sonnerie-carillon-supersonnerie"
+       },
+       {
+        "type": "url",
+        "url": "https://time-minic.net/code-11-59-15210/"
+       },
+       {
+        "type": "url",
+        "url": "https://watchcharts.com/watch_model/45007-audemars-piguet-code-11-59-selfwinding-15210st/overview"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=pW9dJWSJhKo"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=cHzI0gSxh0o"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vrw285/wts_audemars_piguet_code_1159_grey_dial_15210st/"
+       },
+       {
+        "type": "url",
+        "url": "https://people.timezone.com/jmerino/23APULTRA.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vnhtt4/wts_audemars_piguet_code_1159_41mm_stainless/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1v876nz/wts_ap_code_1159_41mm_blue_embossed_dial_2025/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wze2te/wts_audemars_piguet_code_1159_15210st00a056kb01/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1v8728g/wts_ap_code_1159_41mm_green_embossed_dial_2024/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.monacolegendauctions.com/writable/media/auction/0033-0000/catalogue_0033.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/content/dam/ap/com/fragments/complications/1701_liste%20complications-SP.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1varphx/wts_audemars_piguet_code_1159_15210stooa056kb01/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vyvfud/wts_audemars_piguet_code_1159_15210stooa056kb01/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wtlbbp/wts_two_golds_one_smoked_dial_audemars_piguet/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wctnxj/wts_audemars_piguet_code_1159_15210st_18750/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vmjzey/wts_audemars_piguet_code_1159_selfwinding_green/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1tvpqe4/wts_audemars_piguet_code_1159_blue_mens_watch/"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Audemars_Piguet"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/1wtmgrd/wts_audemars_piguet_code_1159_15210crooa002kb01/"
+       },
+       {
+        "type": "url",
+        "url": "https://cdn.vintagegrail.com/uploads/page_cta/2025-07-16/grail-collection-mid-july-2025.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.timeinternational.co.id/wp-content/uploads/The-Time-Place-Magazine-92.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://es.wikipedia.org/wiki/Audemars_Piguet"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Audemars_Piguet"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0d5637b19aabe9e3006ac5edb1bcd487d2abe35a969f7afaaf",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe2_A1VKrLZMGFVhfpoUOpOTKfhbew9Z_rGegx4jZTU-ZoX4vzKZ44yJ1_wQfX4dnJ2seHX6tccUE-sxYJVEub_SIZ2Vpi01JrBOFPvGihvbkhqwHKQBETVfP_IWg5q_TjaU1TG1nPYc5mKyoeaDPAcboN3Wl09Cc4CwuaQxl3uFrqVqn6iT__v04oeh0LZI04BDzpiWuGKKAHEM6-g-E-AuPV6S3JYv8QJeNSGAPkWJvF5OywK74uEf7k7JdqcsG4UzIwUt71W8-iQ-LfJiy9LbQJrOeGo9V3oo3vnCDAOTVV8T5wy6BrQQKENlhmGa8qzOgPk4upMw73sYgBc7dMU1XEj6tUpfvku2HifcWoerm5DibpAakKakLZT2YoI6xcKUwDKTb-q9Zyt1JKLDyKvQIawKKiMxMBNydMkBbLhWfMMEghe-vtRC8PTbx_lolfCyndbyLmc-3ywb7t5LCIzyqiOdKfbCxIkLliFztGcvKlbeSMPBglryuIBZnPeozQWP95SNIWZmmS33HeMiQOG-IGLHJ9jLkmL2fLLvnPcUk4WPb7h2k0o2WS27Wj8jTY0dbMNcxnWO1zDwDO_3l4R_DqOSdE827zniJZRAXLuxzs40cb7GXrnoA_m6kPwV1B-tTiqbaQjyU75pJgFUPoOBUkqeo410w3hXEuxp6n5nzMWUqO4EHS5fcXjRr7z8CPK6y_tAn2AkKa3a29T0nCd53klPvTenQXB_8BhbaE7BTDyV1VxgLnlyR2Yprr-4fM3RKfXS9ml9lXk4kRB-yiR8h2j4hfzFd4sYWKL1sZuiELSjoHr81ppoG3EDJ7YatYaUtamq95bT0C6O0oglyD98nVwUZMbG5oITjni2-k9ck2rPf9zHtMuWZAtw3UkYU5W2ycAHetvHVdRZNj9IBWgAhF0PGWchLXmKUWo8I2z4NwYRhrZ6sBp3P_HSMB2DACpyzk-cb09XuvjesRNZFG-R7zpWMs_XnFMxtit1l-HHzuLwm4EPHLFxWHWNWDSDCQfjUDlRjOKug6n5HfXnmM1rF9tnXDe0AAM-Wnns6lkxhSXu0QtqQoibZwEXfsTBkGxFVd65m7szy-WrmQ__DhNdQyvZQu8eQwwaugCZAxSCugSWfuLf4VYc0qesqDH0W_q8F-4ihd09DNfeam_0g_26gRHeArRiW6eSQoKYHsiJZxMP9HTeGSlqFZajeKuBsolZQTO0IBX0M4uBO2KEapvRRX5QpeM7QafNy5Yp3vclQNAUYSaqYNY3mdUx-FK3a2c1jsTi8iAeo9YfJEKY2Zdzv-kOCQo3ykfwcR69opiQ7bISl0stTwXuyPsRrQP-lVMuQBTLFiEAjJ9YREaMmX59xLnP0jUIw0dEBEbUPbIMk9Xv_mn8exJqvDKcLv7YK83ZqQDgNMvSa8j_dhbPxBuzksd-SzR7mYcu5YsgHVNwiiBiK7qOVmzrx3-0L-tPObi-Lf2_jIsGdTP9RS9pI92_AhxdaeJo9pXEv2H2tnUblwcPmWbtZ7KQLHAv-mU4fpWBighoEaZcqUYShPlhZ3IlH5ZKBKKSa-y_uaLhIVDLk9GGwH7g0UvWnIcOlJN7YKdhtlVA-9i8xlX4xFj9j3HetEMZln9Pl_aKufFHwmL5cd50JPmh-vWoY4GS8ztQkssfLLFPFitqmw80wPeY4GOL1LvHFTH09rLGW4lt36METruOpN3XnCitr8ed_YO3V98MEjALbm8E4PGilyZ3rld70WoGXvwhDQi3RP7LjgVOW7rwtsXXh4jqq7I4uUPMDtugYESPn6zV10fQsEzPqw7rqsLR0mFojMWwi9PLbLDfDm0vChk8nEQml0V-WRuxeOXJjHl3e9mzSiEZlK81FViQXUPOmYPsuzZsSOgZi_d1OdMaJC_OqQAIIfo3NN3xdUJB0qQITfMHcrnfHTLjiZyQr-cQh3MZx6wVoDXdSikXI3ibDV1JBfjP-ezmVRmzJi6vCQWdicBUeVAUegTG-Mn6ZLpNR8C-WcVHSOZoDdiXVPC9d5-1HtJyr-xzR_KF6P036yyGNCnjUVwMgQ2Hck41MLJ6RbYDcONGrvzJdDrBNbse8aQ7c_0pGZhVDmNQtt-Nnt4FlsO82e4ab1U1hOJy671IiLr0OmrvY7RVIEGrJsUPWmxijji4WoKPHxYJMVSW0qMN0C7uDgWgJNP2WUDjrw0EWzIWYJewEvQaX1lOfd3XQQJmiS-g0FBbjxu0SW3TbhaxVRguP9hFB83o-jd7y3aalmgIBk_UDv7noLBCg6P1WuOnde0g98_zdL50jjFoS1ZN8bSpD3J5DBF-oFfFbp4WjFrIowSyXRfHjz2Hkpr45Wuazkx3MJdjrScCH14cppOU0kVPqvBwIBsu6425Og=="
+    },
+    {
+     "id": "ws_0d5637b19aabe9e3006ac5edb2e47887d2a6c7d0777a8d33e5",
+     "action": {
+      "type": "search",
+      "queries": [
+       "Audemars Piguet Code 11.59 grey dial black alligator Arabic numerals 15210 reference",
+       "Audemars Piguet Code 11.59 15210BC grey dial black strap photo reference",
+       "Audemars Piguet Code 11.59 15210ST grey lacquer dial older reference black alligator strap"
+      ],
+      "query": "Audemars Piguet Code 11.59 grey dial black alligator Arabic numerals 15210 reference",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/watch-collection/code-1159/15210CR.OO.A002CR.01"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchguys.com/pages/audemars-piguet-code-11-59-guide"
+       },
+       {
+        "type": "url",
+        "url": "https://swisswatches-magazine.com/audemars-piguet-code-11-59-automatic-chronograph-automatic/"
+       },
+       {
+        "type": "url",
+        "url": "https://masterhorologer.com/2020/07/27/code-11-59-by-audemars-piguet-new-self-winding-three-hands-with-date-and-self-winding-chronograph-models-new-for-2020/"
+       },
+       {
+        "type": "url",
+        "url": "https://time-minic.net/code-11-59-15210/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchtime.com/brands/perpetual-calendar/cracking-the-code-inside-the-audemars-piguet-code-11-59-collection"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hourstriker.com/database/audemars-piguet-code-1159-by-audemars-piguet-selfwinding-15210orooa099cr01-38953"
+       },
+       {
+        "type": "url",
+        "url": "https://www.the1916company.com/pre-owned/audemars-piguet/code-11-59/code-11.59-15210cr.oo.a002cr.01/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hourstriker.com/database/audemars-piguet-code-1159-selfwinding-15210stooa009kb01-33761"
+       },
+       {
+        "type": "url",
+        "url": "https://www.timepiece.com/audemars-piguet-code-11-59-automatic-silver-dial-mens-watch-15210cr-oo-a009cr-01.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.monacolegendauctions.com/writable/media/auction/0033-0000/catalogue_0033.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://wristcheck.com/us/buy/audemars-piguet/code-1159-white-gold-grey-dial-15210crooa009cro"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/audemarspiguet/ref-15210crooa008kb01.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.thetimeplace.co.id/wp-content/uploads/TTPM-78.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://spiralmagazine.com/wp-content/uploads/2024/11/Issue-223_A.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=mloyFGAjYjo"
+       },
+       {
+        "type": "url",
+        "url": "https://www.dist.phillips.com/content/web/auctions/HK080222/HK080222_en_1.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=ZNBbCKqPPU4"
+       },
+       {
+        "type": "url",
+        "url": "https://cdn.vintagegrail.com/uploads/page_cta/2025-07-16/grail-collection-mid-july-2025.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1gxns8y"
+       },
+       {
+        "type": "url",
+        "url": "https://disco-legacy-data.s3.eu-central-1.amazonaws.com/public/fuw/assets/luxe_fuw_sept2019.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/audemarspiguet/comments/1m744eb"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/audemarspiguet/comments/1klof6o"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/1u00kox/qc_ap_code_1159_chrono_26393_ss_blue/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/1wtmgrd/wts_audemars_piguet_code_1159_15210crooa002kb01/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wtlbbp/wts_two_golds_one_smoked_dial_audemars_piguet/"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Audemars_Piguet"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1r05av1/wts_audemars_piguet_code_1159_smoked_dial_41mm/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/audemarspiguet/comments/1mpz99d"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/1o29xhj"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vmjzey/wts_audemars_piguet_code_1159_selfwinding_green/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1tqf2fn/wts_audemars_piguet_code_1159_15210qtooa064kb01/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1mwsw14"
+       },
+       {
+        "type": "url",
+        "url": "https://es.wikipedia.org/wiki/Audemars_Piguet"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wallpaper.com/watches-jewellery/audemars-piguet-2026-releases"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Audemars_Piguet"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0d5637b19aabe9e3006ac5edb9cd6887d29de4a71c1509d69e",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe2_6MD5pWjzoQlSdozH6dr5NLWhiIJ-g1QsBk8RgwxHmoSIXXvDft1KrFpYqEqerQKA_aCfzio9etOD3LKGz12VMzm2EPsQlnHKofzOC3CbAtmnAjKsIMTlgjnzWpSly79_XixWgvP5qFT3zygJNPfehRmrbMTpLhNajnvMwRknYg8APdcPvdGFEZ-F4U-zLErzrNlfl6AYM6SCEfddQa6FMlTDjBLg6oEoTD2ziEw5Brsc9iWbwvflScYt3Ix44pYdw1c9Nvk2ajubiimUk0Ln2gtnMkL4H6BqrRa5pmNZJPeA2Ba-mHkTmCXKv7JspoydhimVjUZq1_PxRFDEm-mWpADFUzorIGil--Lhy41sP4FbOfaYsarGvBduPVWwimB178nTsDw2hbm3dZBKVGFiNW9P9yfVdJLQ3FgJvyxCzlaHR-fE4nRuwkMRnzQiyZ0TJwbAi2WdDjfyEueiDX2TZ3pfW68J3gvH7IcW9sfnnq3LDkYVTdlpkQp__G6a01qJR6m-mEYvd-sYRSMVBrbXBWDrQkJ8HXyEBkL8cD7gBo_72-IgtwXufBy2_bjN3qAIE2WNaPGoTeFJFRs8ZCZgwRrk5uFPRqCH4jGUZM7urthZrVQ-JVUzVWyxFxuXQ75GgPlNfeeapU7hnxKfDe6y5iAhOpxTvWpLdueopEfvWEIM_bkfJecg2AROfMxtyVTZz21CV3f2W2RtBC6fwJrqjsM7PBX91AjtPYbEpXvwGh8YtNWmhRPCRfGa1nqCTlEKt34-r09EOcb7qiUferM1KajTLsQkAzigZ-AEdMyXOkGD4Ps6qS5YRC0AMiP7sd0i3kgZtHj8mdjZrIqWNRGjnuf6s3AlJUhqeMfhuCSMT5s84CfEOEgx4ObZ4MS6dIunhRjFk3ErOwhgpsy3YFl7AErKHeAVja7hsaGf0uN66Ta1nYtk96jy5us3aMPDa8xZKOsIOcrApJY8qQX-vwPasAR_fDDA1Dr1ZGz5ulpqsGNP_afWYs3A-GcmrSDDI5Y3lAocfjVuLop9PRYapikEFyEa1yH6i4mk5PJyAQ4OR_Sd7UUpXBU5r88PLEzBEtRi1AxhNyl3W-65f_jYYSfcDYY82GNGhWsNo2fV2ZEMe92BtfK7gpL2F6DQPgq0Yy34oB7JkNCQYh4wYb8EYZUsvTMW3GFCHCO8_ozNyZblTF7ct-ZAH1spiJvf448UDDk_9SCdWnJdvHRxqsHJSbIDKdCsKxVBoVPwkNuVcAh41NOOYkTkwbd18ygQx-E0kbyspbSiWzvWUQMUR3IezN-SIocs-IJ0h03FKHJGCyw0dPTPKJXJQCFLDurEIZgUHoXDPXREv524D_Q8vAplsnBB19z9q2ZaLd8pAJ4LVNaBhtDA-2jDGGMAcbvcCrAvGXUxW1slwUu-23DbTwRZeQ1yCG8s6eU85FaJzj73obE5Lzo4zaNk62LCa-r-cvb7PFPQ94Zn0xZ5GpBG5oQj_iU_-zYNaz9SExRZxWVAR4qnBBxA8mKCRZjNDuxDJhXE3eUC2wSHqNAAlmbDrKvrrmqU1hHJB1hiyl40yfynHYA_Sjv415mSKu1f4YgbANHEHXjUSqcO7MJhtQvit4OoATY6b-bSWAPXqwPH7J0tbMd7u8Nr-iVx4jsZw-qKADI_2ax_iJWUzVSe5mxH95wOLFgGhm0qqWTxr3fSNkcrnK8-WmOea0ic9rDp4qaVfZlY5efe0ULXxcd_KaOq46Vr-fCXDTMKD2d4xorphICkZ6JC9w2q1ooSqX6q39xFOk2IQ0xCqLg0FU0gGjCUiIp3MkiWUf3b6pQQBhTmnQnWCFe5y4dBj-RWlqYklnXhZGruRjs2Ttx0KULrad3Db2SvLubGX6ys0V_VoPYCcYXpl7wO5RqzPchNtGsSIG6fcYm6BNkGpmhshO_UsfsAawD5uG_E-8KykK6a0ibAWh8LzAYbVDsQFJdZqmWlnJR1TFotGw_AIoV_1nJwLQGQ7lawKx4saIR_EiQV12I_vjuNOadGGj70QXwBj-w48t74ngYsQnWU2oBuYdAa2N5olKIjQIP7hX2JuiuIqETAKkglUN5JbFK3XbX0MTdoa-YMWBX1GfXAs3Blp4f3sBVjHtg_F1Y10boc9_my04rXdWk87HUzPfrLwdp0EZBqUk2EQL703imzFR-Uyg5zAuJyR9GrubaoHXXx02LYHCC8R6ac2vuuJTLEZt5iiVKznwCqtK-rwNXsVWOd-nizPbQOk4v0wosG2nZ5B7znRfCz42CYR8YEz8gNcUsafk849LGJk0Tg-AQ24mqeSNzLWF9oO79VfvGTqsqrcdxgf3-Yv2qlP7M0WkfpsUoyROB1LB-15e-mdFVnPqW-t_LGraoprd_8ilLxOfHtZ-asPXgNl36Qa9bStXxUZAjVQm_3UTe7dvWSy6CwKBCD10cfslhp3RCZy0wSlQEzvrb_jIaGp_9jKfu6oXI_NHp5tOi2dDgOyX5Blnjd_z7LxOH8kKCdTpBNM7DuUDAsN2pvyiYV9t3GYRUUyHJUVWmHNETxoRuX88ZYcwZ1cz95YqTNS4FLWQhoqjGKFLCX1SOH2cT3Jat1dzOnBP8Y9p3_S_g1e8Vjs8BUjLrLv64zwpes7KmO6zL78PsJt_mzYoMITvHfYB-JMLIPjaPvXres0nlvnzazGXVYT289Snh1WazqA9hjgf9LI5Zsvv9NeGdPl9pYoCZ4Anfl7eHo3sIzug9U-Q2HiyrNOoQCRcPJHIWMyBE3QtRQZoH8l_iK7XOfa_RzEgiR5A5ICkN2-UA4RSIOWulRIi7aSFPs0IZ5Y4Ze3xNTRMo5S4-sclCB-zuGOjoU_hCo-BAi0rVe895JqG1Nt3nudMpi2zc7NJTdcOV5U2RWIXEHrncGQkkTpZz9iVirdhFk0RB8lRTc4o8WUx8MJ9LWW4Ocacmbq4jsL-diGxr1z9mkc0fZ48l5PfVrkudYfNy4HbB5gTTzEYtIK6kyexi6BoJo0fIgADKRtp3LrTRnUuZqpKxMDKNMprAHyEQdtpb-QFFook1ic3Ii7YqaWBMnEpDRJWBJW6I7YKBr4NKfiedmARZsPJPtrQ-AgFavns6DU9rvgHRzDdu44Z2B9oznJgpUl_wdU4gOzRsH9PC9_-xASFaocjYTIGrzxQ27oFUUNhk9n2U6AncLiH8HpXcwk41VafbUBEhLrKhanBnmbYtAylteQ0Cr4r8pxCOehVKut283jvs4qnztzbq-deVq2ottd1mjPPNVEHDPlyZNj-ZLH10UnXEKduGKwe3xH0ioskUTmn5VWYs1PN_X8nunBytYfIOllav7rKxip4de2J3FlhGWOHjFGO0sl5PC17jGrcX0TQJDPr2x7aKRIdNYP6Y9ZkEU7LSjPq46mI2Cj8UbdP0ikr9CoXyjSxLAATj-B4vKrMvzQCtIMfCZBmNf8y6BYTP7lNMSSzUNYkWnZX_L7Koo1i4Pp8CZyNW5_eA_Jj7oFcSQZm7nRZAYNhysJn4M02jzGHq-QlyYou9i5TnyIwHEYhHUPurn-h5DM3DGQ5WmpDWmsqwDQEgVrzXXgg9DoFlARjmLN2tOdub3WT2T0kJvF2Z6-68pyDgONebTrq43UWyyDnTEagL2s3xZ2_MVmXK33vr18TkEWAcoozL-mIFy3XW8KfmfVJlXyEHYGd4DTonRlrzEOj_OTHqxeujQnYM9jSR6yUEir7-dhkumVY3yLqMCRP621eq4Lh2f5aWmcCjq1ZeVOwQCOTD7xZ5pX4MQ7ABzm3fZC-_Zr5C2H7paZySN1eo1COsKm-b12FLE4ziIsFUyvXM70M00-IG0ZGpNopyHsBdTWNHOAgQsI1WGFA=="
+    },
+    {
+     "id": "rs_0d5637b19aabe9e3006ac5edbca61887d2be868fa9dd8b54ed",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe2_gCJ6p6ERkKkcRqvfgS8Qjm1lAaja-gTwkQSGKPm_KSAiuR6KJjVB3vw25NYo58LxkW3mhA1PyPi58P6s8qwL07U_6zma-kqci1Q5aX488yMvdg4qV95ASpkvFhgjlCOFbXeL8H51i2IGjQaXV8nJyf9_vxYJEnS64Z_8U9sLHJq-l8IG5obMr0XFZtMVY07_Vxl2MwAaTbhwntVsGy5qYOx3n6cpxbEiYCI27R3a59bGij9GXqR92O1UHRb0ORoj3QUT67zu7rb2BEucN835hPcKX6AJwXcvHIWu0bXNNxsjUFfCPfDmkjIgRnZ7AZ06HqDAL5P4MqV5tzV94saW5pGzS-Th1KjWThvCGbvODMD8fReKY8L294GNzfykPpE8NyZ9sDQsZxfByWfBVzslu1LnkHMdzw7-6YyNYa-PyCjZpUzpxfjx27KLrJ8hOPhqv3YuWuzuWhLac6mW11CksrRaAHc_uK08cWcKu3kaTYkOEg5S1ikRNxGypLbP9wK7O0gIZ-w7b3fL8aHemeQwBnZSjlHDPlDtjH9G_w93oYq4eKwc0r38CmRAZYcwZ7xMd_c1W4xAM1vIF6q1kMc8xMGB241d8ikiMOOBo_ZZ8WzDd9fv8MnUO8rKJdbsxRSPP3-mvhkvu-hJxK4A95pV3tjJA8xTbQPFCpcfZjyYTGf0h73hxzOwnl-1jCDIf6iZAleAkKcFyt8J4nStFdKOZB9l2YAjrD4vkKWlKfAIx5_UZO26exxzJi2JnAhrnhfIThJfxDUTYwyJFxc2uTnjesZip3ReXVV_RJdoQVYaX9bq-lNMtcFH3OTQsxjYzIV3B2ag0tkkNj0qwhDPumIlzhhS0jrZPN9b-BNna0SE8yYE3fjQHwVEMy5uUqztiggNrdihN4ufPQIqwBHIOM-rKfRf5qrEBPiXCgmeDipabxLC8teGsETDK80hIxfC2B_4YXdES7qudR7NNQ1sFq_o-KO4qXhGVB8A2IKRnovkX5WbZk24zqROUnlM-ioOAz3fC_914DkWoFXm2zvP6hoeNGCWOdUUGKI-5KrPulkPudP-_4KErRaJpwHk1XVKcF7lVKunLBHzVt4cwDGhJ0NpJ_DWB6XgQhuGR4zpBTUBlzIWqM_wzA0HftNALmVLKfCfmMzLbrqhCFLiB9yS80H0IN-3e0DOmJzIweyzwrSbidxXkk11uHjUBNNg_LAnC01YiRi18MEEXMd3MH5CTx-l7gworg6lpmkCX3TLm--rK8O-NkBpJvpUbD_hZmRjxL8YEHhioZO-yflxQJOmoOzcxf8-zmECkLCakRw5UbXDwrc7BIWZjogNvHNyWLErqXbGyyqxc-SK7FwUJjiVIxRNypnlv5DDPgbVJDY2tiyCUWmOsxT84VCAwD4-U91hBIsFZ7b5tDpbJvpODrgFeYAoyFaXIGOUfz_N2Fdvt-Vf3KnglWlWQz0xpILRrDR4MljXO-JWLLI_AYdIFsSXqWwYhifes2yszbHiZLw9JKhXxpjeqRVCjuwEB3u74it1SYB4MB4Mg-WLH3TjJ5TXaLkfmMgxOPWPxtZ4DgqvnT0wXPVLeI6O9RGLIfY2NL2Gdlry_104jK5GUldbBOs_HHcSHEsjhlbq6_YPqNkd4zkbqob4LclmWmtRd0to0NgtQZLcAj1M0RG5SSqwS2utbtDJy2W4RoHoripLDik8kJMjHb_WiCYwHfaMFBU72ravfDRkoZe0wuU_VoChhzdtCZgs7h6Wr_rYFB0IIT0VyKL9LrTDAvGSX8wBJUE44_4zn6vpBfs3bSKYobU2RuePX8jAUNYJYsTa0oHFLKLjV3Nn95ihXNmErhDuvN8OoPu5C1oaEMjpR6Lyqf_lhT0TFbMwUnxKqnAHOI4CTX5O_OOY2MvoqTCRTI_0DKdKzvPVPWlhXwNdIrnDUQ-Lc0bzq-dso9ifFjR9vepYX_yfPki1KutmZO9V2ekCeGhnUti9JW8FUUFpyX_H9gohoyyQQidp5B0BLN0vOINd-1H0BFMfOoYXcDU9eLfMij7NcJvBV2EGoK1xLshHg6y7XVQqkd8EP5nW__HCZDTbazXx7n7ecWKZd99KOUpEOSXhe_h7DgNWY9_aNODQy_uJ7KpiHxvkCgyaaqPzQmmDtJoeh3lJpoTWdgs1m6MGrbpRdJcLtySgbZvvZqsYi6UckfafkDWbNsWWHUSk3ba0yQX-EUlR4LS4mYUGtEOfKGBt3XvRExOSwO7Y72GODGggVMJqCMlY2K48_-eRx_JeXHIo3T6T3wreAx0MRgbwAyglqjoVEOMPzxNFn5YPO73Xm2z91M6htSj_g-lmjfjPj_Z5TCRmMmmMB3u9qEscpt49YrG-YKBF8-hBrYA73li64CsMDjz9RdttPc6clOKa24tlmp-s32g4d4Kn1UAEQU7jqXl3AapJEb92NwsEGPVLI5_yTSWTXpyiRgqauTDTPqL1WE39ma8HZJnLDqxumj5WdWMqFBJpMDvDFgzqOfS379EOJ1d40aqPLf7sXuytRe_JZTqu0-XlaukzoC8ld3cZW7eczlKgwqtxrvoLsUaRrxjkLYageCkGxRDKUgEz5ALR1oqEKXOBiZ8JWxip1mjKYJrSidBbyp1ztYAsqjKxB2OjE4okQBn8C_4lzODbO2D3ikOsj55PZccEEIbP7qzqc5sZvLBTkDxlmo_pGOAQ3IsBfS8xkcXkaix3R6oxacCVJXOw5EtmUZHerOB9UcsugNZYiuiff_JTM7Bf0gIOtsHWG4KhCfCdHyKjZ2U7UfEKZgH5xY7VeeRWGylIEB9qmXS1u9FlcXPl4UznfMQDE5qAzoNt7_JcKGA0dqypIGTnzUtv_f0Oq6sRURtpViKI--o2RRXiq6fN3QoJtiwK1yZYFbJeslSvX8w2oO7cob6RGAMwRLdgBTm8aFswxv9Y3ohjXRIbPa5NvsItDNpRgJehOP8QIUcT989MKFCO2w4swxgDNqPwXEEZzMbV0CdABPZjoLEp3XOgwzBLwmXkyFPHADnb9Kdos38eN3c0rW_vGpXcqNUgH4CXsLG90pDoIXhHL1iXSschWo0cLn8rsnlpYrU_tainGwXm8hBWwiFtXUykvza1PYpKI3SjE2DqBsfBNzvOpfTXMZ3PMby2kO-cO0psTZaz2kFP8pTdgY3FkXDfBLd-Sg95woNWnkbwxlzQ1-Ajee37hsG4WQSbcaAf2lzrjbTbaGO4vtjFbUg0EdNnUOTpc-Eq6anHEyWBP9hZd7EVE8uNA3uYjOaPi3UH6YgD5cyefzWiR_k9f-uRtZ6MxrgjaMkg_SxeySTTlXhsz3gEbVCEeJI2eOKDgU8qJlZx5LZGIbCs4OzbjeZ5klwl1reUKKHF0kLVlWKifmdtVYdA__lQWj5wFFqkFol0Xzzji8X7inTTCPdicD_-nrphKPrnXNE1wp8iM8En2IdX4Mv_T3SdwwNd6xAuVuNlvb0S9fiqt-h04K0ndwnJBGdz538PQd9WbUisl-0ivBg22UDBDOzKx1svzEIRO2atr9RvuhLRMrAA6iqV63DQyA5xT8HrUGxf0eRmO5tOgd_8aaivRk2_VGLfF7GE2oKmFzTE_1Qz2PN-mOhfyK8YsXYYqTxHvbAJDzjKGhZVAOqgrbrAYfdk2727m_qRba8dYBiri35SS73SLY81dFAHuhi-Zn2E2pu2ZbAaGleqKdGaMyzmmSBqhVrnGwMp6idUzIAsHgWi46xYAdy7pR7TTu4x9Ytm4FsydtmtZDYEK9zeLhAAIRvx9Qj9X9RsS8iwHREJHyPp8MAYdBIGsLoSsDDec2Y3c4XvQ5-deIbiKmQJrAvQQnPRnRB9kYCNJZSr-PJM3N5cFoOA9cti7A6vtAe4zf-W9aVzAfrY8QPGzY9EPrGFHOemqdcHCjQu6Fc5vtK-vSDebYv1wXkYV3rt2cXNhgjrm_0g_CPMjaiQmy-afCT7k-kch4Zx2ek4GVUDO0trUY2o2sizeNdltQCkdnKk-WZy9nGb9a7L3fjZm9i4lxKzP-Ifl2jNw7i4ri2bw5n31DgmIPzkQ8foWL6j3Swwpf0="
+    },
+    {
+     "id": "msg_0d5637b19aabe9e3006ac5edbe5b9c87d28f77b98b11f80381",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Audemars Piguet\",\"model_line\":\"Code 11.59 Selfwinding 41mm\",\"dial_color\":\"grey\",\"case_material\":\"other\",\"bracelet_material\":\"leather\",\"bezel\":\"Thin, smooth polished bezel\",\"case_size_mm\":41,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"15210CR.OO.A002CR.01\",\"15210CR.OO.A009CR.01\",\"15210BC.OO.A002CR.01\"],\"confidence\":0.84}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791356350.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 25448,
+    "input_tokens_details": {
+     "cache_write_tokens": 3615,
+     "cached_tokens": 4723
+    },
+    "output_tokens": 1771,
+    "output_tokens_details": {
+     "reasoning_tokens": 1648
+    },
+    "total_tokens": 27219
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 2
+    }
+   }
+  },
+  "search_requests": 2,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

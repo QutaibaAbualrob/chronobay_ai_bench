@@ -1,0 +1,37 @@
+{
+ "row_id": 27,
+ "image_file": "027_patek_aquanaut-chronograph.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_line": "Aquanaut Chronograph 42",
+   "dial_color": "black",
+   "case_material": "stainless-steel",
+   "bracelet_material": "rubber",
+   "bezel": "smooth polished steel",
+   "case_size_mm": 42.0,
+   "complications": [
+    "date",
+    "chronograph"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "5968A-001",
+    "5968G-001",
+    "5968G-010"
+   ],
+   "confidence": 0.88
+  },
+  "raw_text": "{\"brand\": \"Patek Philippe\", \"model_line\": \"Aquanaut Chronograph 42\", \"dial_color\": \"black\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"rubber\", \"bezel\": \"smooth polished steel\", \"case_size_mm\": 42, \"complications\": [\"date\", \"chronograph\"], \"movement\": \"automatic\", \"printed_reference\": \"\", \"references\": [\"5968A-001\", \"5968G-001\", \"5968G-010\"], \"confidence\": 0.88}",
+  "input_tokens": 1688,
+  "output_tokens": 344,
+  "cost_usd": 0.000384336,
+  "elapsed_s": 3.067,
+  "started_at": "2026-10-06T14:07:17.777433+00:00",
+  "error": null,
+  "attempts": 1,
+  "tidied": false,
+  "served_model": "deepseek-flash"
+ }
+}

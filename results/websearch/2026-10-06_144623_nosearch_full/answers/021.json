@@ -1,0 +1,287 @@
+{
+ "row_id": 21,
+ "image_file": "021_patek_nautilus.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_line": "Nautilus 5711/1A",
+   "dial_color": "blue",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "Brushed stainless-steel octagonal bezel",
+   "case_size_mm": 40.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "5711/1A-010",
+    "5711/1A-001"
+   ],
+   "confidence": 0.76
+  },
+  "raw_text": "{\"brand\":\"Patek Philippe\",\"model_line\":\"Nautilus 5711/1A\",\"dial_color\":\"blue\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"Brushed stainless-steel octagonal bezel\",\"case_size_mm\":40,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"5711/1A-010\",\"5711/1A-001\"],\"confidence\":0.76}",
+  "input_tokens": 3843,
+  "output_tokens": 490,
+  "cached_input_tokens": 0,
+  "reasoning_tokens": 384,
+  "token_cost_usd": 0.0006293,
+  "searches": 0,
+  "page_opens": 0,
+  "tool_calls": 0,
+  "queries": [],
+  "source_domains": [],
+  "elapsed_s": 7.546,
+  "started_at": "2026-10-06T14:47:25.552882+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_07faa9376618b458006ac509fe017887d2a0b05f4f85f62b6b",
+   "access_programs": null,
+   "created_at": 1791298046.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_07faa9376618b458006ac509ff544087d298a5c9e55958ee3f",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxQoFqQr7jR6s2qAqII2M6soRasKLKJhJQZRWlC2AW0J1qDpOic8QkX95NsL5TWcZhkO6A2htuA9RYyeeRSVAfYwZeXitC4_4BNH3hPVDNG0A_5iNiYBoYRSM5fKle9DGiPjh5FpDknmtwZN5J9iiPLp2sqc8KraCd8JQy0HwHjmeotkcv9JBoMR9GSFaWj5GTYzOMngNxDews_JA-IaId_hpe1EfOk4uuV5xp0R3IsWMzNJB-lntYmPsV3g_1bSXeCckZ6NASlv19HJODl_hXrBow1elWub3Xwf4TRuA1soQ5Il8BzvR2mP--rTsl9aQEywcoRfJUbwkXmMP09W_Z7hj1stCSJuek3ABlgxoMbzSHLnAilaKqwjHniXbePw0KSK-r1uvuMa3FjEaB6e_CXOJGBfh93xq1tZASj0M7eq1G9krAvkxO1nZttiILbrM9wAlsHa3PEebxAa-uZEjpeZI_RNpQ7CZGqOwydLf7dD9n7ri-MZC5Td2jhYd7IYcOVC7FvVUrgFkGbZk7kEuFn4uY8ujDfi6samSM8RC1fzsH4UqQd1vSF_ClOx6pBeSSQyMxP8LDIFLDefbikLdU0YgsX4ZDh_ilaFuUnn-vIVA64Mls1aJ-xFkA9b46X_R_ZJtGJIfQp2931UdPoJtKHDxPxPz6K1NSU7VVSFgYD7NH6FTeSsAK32VkJvpPl8CH_uKB1rxyUhmOuhyOC91tzJPglXoQ5tvvnIACfIPalKbwdLiKxtiJqtLKN9ZrhlV-jvgR8DF51yq1n1oTqxEEiMuNs41HGyYEmER8PX2tjNcXiz_fhs1ynV2rLoZtSgiDy74ABCsIjxgRheiP0JZszFRbRxyQ5QpcvOBinWff_E8oEJmFVA4TtVzs4cCM5zSLExpSv5GAWeQrjvbD8uNg8SAocWHLokMEL3EH3L58A2d7trRs-hJkXHrC5nmamEj4UDPStNGlbDcx4w2V9WpW1h8LzBsxZl114fzATxtgL2IIe4yfrHQ5HkcFoaAkJ7e6Re-YrlSBR2ieshh27SrDmQbhYzC1HjwRU7NyjE97gUmuDGjDGJxejfOAsgg2-OTRqcTeu2P8s5UBpdSK2Uq3yUfnaiY_AG85uhPap8s3nTLVXhQkPYA26P02PPGmqY8Le-d35pxUVtBGCDD0lJSMrF7zFDC9jhEcGNcSACrRdD2UqjzIYx2GIN7qEdni3SmjKyZfQnyNmjzDFoLlHYSmgMgfrVEPA3xx0LU9W-UgICF0tkPGWDUt3z2pcrc_k7Qyp8hiKuvKWHiLci4Nv2EDhsj1g4pxqetckBveY60gIbTyywUg9lqamRy_phtnws9FQeW9IlAKOQyr4-3KXdftzq53SS1veUJL56tO3KNWW9ynveQ-bFbUA32CA4TNZYWyFnYCpxRUpTMZD4TDOXfFCvPEJc0fyfUmspLv1X01An0-uMl47R2R3p20mS5Apc2rR8xuOhFQahwgbsw281Nyj8f5OlR96QNUupM9ql5Ag6-9hPk5V1JQv5QO3HdFXrFmnTC4Lu-XoMqsTBaQVuLDTLts7YVL0WuDzqm5mfbXID6VzLuxIRNXHwJSQc3xQRf7dgz01t9TiiWtTtD8N8XlwpKhSZy93fWSDOvozPeqt4QQ0buQL8t7Yz1jdEwrJ68rD0qj2Nhd6LfWGCSCKNOUcd_4cpywdfDowSG4yn2o0AJsCw3gIsdyd5HLuQZ-PK3-VHltJompsq-DCJo4KyP3pH5uSPQVN5N57HHbYXB4YJknVdES3xLdjJy9lrrVBdW1GvqfWDiLnSKpqWGHH9oWwa5GokekGlT9vqRvjkAZndmUqGmMoDSgfczzxS4FRTvGMP0nMHpfvWsNgdEiZhOCmfdCcJcV8zIiS-jUdC5ATK7LLDEEsuFQ4KKa9ZE7yvxK6-9YdXzYUSxgfUdiEPc5yPt_ccL22D9S-3YGgh0qUPpHLTSGD_T3mnH1Ty6l8r_YyRKRC7t9-mL1LRc1yFlmvaBdSiarJZGFHz6WSbqMCMtKRJ5zkEX5HWZhT1dW4hU0q9wo_uQnDbqNdU9wOfyyAGqvmrZ12vpxkxc6hf8oPFi_jz0AI4LfN4ydNXF08fzlzycwmkflda3Pho7klFI99ejYqz9vKlYAJpFN3mx44lDCBbvwit0_pv2Tvo_AWmc4BWupY4y7HdMlMiCR5_Q1w5gmuZSNSScek-fiHUY60u255TbvxQfsArtMI-_dUnVXilbpteOotdZd2DiNZQXqZEXAQAXU2Hqb1RuM-caTlQqooV_nTGItguP--X7bzAddw38DzRHPhFXmSkVBy7kmUJWcJyce81_j7zdklQ9vNkpi9zi-e_mhQ1KgAAIzWxTOfF9f0Bs1Q8OcErMnpNpJlDUvbisKu3MfDX7vKsy05YBIKsmb9jOMF5MYhu5TdPVbuJt3dQ2iGjVcL8YlKikEPeDY-jVUS6zof01YoCxsVOB8S3FHllhneIRbhiN4Y_WslgkI9S1P4daSzbkAbXl16N1j5BlDWqNeob6SzeH7Q67f4TDXsuHkm6Tgm7ETcJGd2JN_K297Qy3gk_LQYtS_E0VPMdLJquqvQoOnUgclNpzxqHfb9ESSGhuAfZVapYWc3g2zsbt5gZKD_8h4SwSwA4OPL-tJFsjdpzv_ZAuJ34oN9nzy-A_xuU4qXruVCoBUbVQsoaUVTxRznawohSkF4gB_9QsjoypzG5ypdO-2gmBaji0Q_ikrKve5pKFZcQMihx3qBI8ukeJ_B35vMNUQ-v8pXLGcjlCO6tGinHOm_X_zU_uyYN8GNSJL0abPEo3NeSIIHS3Lpz5-em5JZFlPj9KsRxGqMSA-4nv0-dDa77KF5x0hzN9B3DU4MIrmj8-mRsSXGZa1pcXj3iAqg5NnFvOgnbtJaJxObzlccr0bKqM2lpYAt2al1Wa3fq1FcVA_u-oQAnxs0aVj9-5vvcsiQ5odVow6hdvhw4Qewgr7t6l3H0="
+    },
+    {
+     "id": "msg_07faa9376618b458006ac50a041cb087d2ae916ca685264722",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Patek Philippe\",\"model_line\":\"Nautilus 5711/1A\",\"dial_color\":\"blue\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"Brushed stainless-steel octagonal bezel\",\"case_size_mm\":40,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"5711/1A-010\",\"5711/1A-001\"],\"confidence\":0.76}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791298053.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 3843,
+    "input_tokens_details": {
+     "cache_write_tokens": 3840,
+     "cached_tokens": 0
+    },
+    "output_tokens": 490,
+    "output_tokens_details": {
+     "reasoning_tokens": 384
+    },
+    "total_tokens": 4333
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "search_requests": 0,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

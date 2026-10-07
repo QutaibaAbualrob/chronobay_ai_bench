@@ -1,0 +1,656 @@
+{
+ "row_id": 4,
+ "image_file": "004_rolex_datejust-41.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_line": "Datejust 41",
+   "dial_color": "blue",
+   "case_material": "two-tone",
+   "bracelet_material": "metal",
+   "bezel": "Fluted white-gold bezel",
+   "case_size_mm": 41.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "126334",
+    "126300",
+    "116334"
+   ],
+   "confidence": 0.96
+  },
+  "raw_text": "{\n  \"brand\": \"Rolex\",\n  \"model_line\": \"Datejust 41\",\n  \"dial_color\": \"blue\",\n  \"case_material\": \"two-tone\",\n  \"bracelet_material\": \"metal\",\n  \"bezel\": \"Fluted white-gold bezel\",\n  \"case_size_mm\": 41,\n  \"complications\": [\"date\"],\n  \"movement\": \"automatic\",\n  \"printed_reference\": \"\",\n  \"references\": [\"126334\", \"126300\", \"116334\"],\n  \"confidence\": 0.96\n}",
+  "input_tokens": 23113,
+  "output_tokens": 896,
+  "cached_input_tokens": 4723,
+  "reasoning_tokens": 770,
+  "token_cost_usd": 0.00233423,
+  "searches": 2,
+  "page_opens": 0,
+  "tool_calls": 2,
+  "queries": [
+   "site:rolex.com Datejust 41 blue fluted motif dial 126334 Jubilee",
+   "Rolex 126334 blue fluted motif dial reference Datejust 41",
+   "Rolex Datejust 41 blue motif dial jubilee 126334- official reference",
+   "Rolex \"blue fluted motif\" \"126334-\"",
+   "\"126334-0018\" blue dial Jubilee",
+   "site:rolex.com/watches/datejust \"fluted motif\" Datejust 41 blue"
+  ],
+  "source_domains": [
+   "rolex.com",
+   "assets.rolex.com",
+   "nexchrono.com",
+   "palazzowatches.com",
+   "royalwindsorwatches.com",
+   "reddit.com",
+   "superwatchman.com",
+   "chrono24.com",
+   "steelandcrown.com",
+   "modacommunities.com",
+   "bobswatches.com",
+   "watchledger.net",
+   "bizakandco.com",
+   "assets.rolex.cn",
+   "youtube.com",
+   "en.wikipedia.org",
+   "t3.com",
+   "prestigetime.com",
+   "24diamonds.com",
+   "ebay.com",
+   "watchchest.com",
+   "watchguys.com",
+   "watchclub.com",
+   "timeofswiss.com",
+   "ecijewelers.com",
+   "buzzufy.com"
+  ],
+  "elapsed_s": 17.069,
+  "started_at": "2026-10-06T15:40:00.686997+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_09553c07c7180d97006ac51651844487d2bc1a9c1e85a8b101",
+   "access_programs": null,
+   "created_at": 1791301201.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_09553c07c7180d97006ac516525c2887d288bc0bc5dfff5539",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRZhtJoyYNCjgB3eSp_VpucliQLZfjDoyeY8S8SgzMwsu-hQZM3KWzP1oo9qvRQZKkog5zvzGGw_ejVoelyz5XEcllhLwpKG5QiKEojB35sCl9wbkxXgXm72-kUZ5hp9wSuWBWlXYYWOkGpT2Jckv44ljbCrG57GIekoMZtqVVTm1KtulbFOeNtCg6hrZsBxAKOS4be5X43rIMmrBkl_AEhA6wibWFBEnacacYDtzKjzUx1Rzra9KZFczlIm7idRUbkXszP6ARhJgO107bvv7udijb-zh54-QZW5KPv0D6ZC5NAsB_-qgh0zHIeVwS4UI1a909wZhehMs2emAU_zLVQH7AGRlDyFzKK_GQ0Mpe1doNbIayoNZ-DuHR5STaxCj3x6y4BooprVpSfX8vZVA-RjptADF1JdZcEHzdHd4bqCMpxz1fMtpy6UiVZQa5tz2-c8rJdRNNqMwHu3q_0hC9zHUO-zd7r-HuQImXu6tAjnGNtfVH4CJEqIDxAfV_NURJ2yDNEIF8u_39CiClrrqH4ADTgqJJ_RGb_IgopGUWO0MJ2f48fynCYbirnTMw4Y7skEP-WA0-PCHQGIjFCodlcuwx4C3uo0g59a3R3GMoYkeKkXd2ICYLlkvNtgMcC8tcghDTn7lUxsJO_5aEcJU5Pi_UXjYXWQVmltP0SNejPEZopmDikIIy4EgYzY-I7tmUyQuYW57eNWSN38EI_VdpjGfOSsy_8eIeF8txSvxiCSc0-PJ5yNBpSN9Hios-o2pTbNrIs3YCHL2FawrpSsaDLHM1fvMqt3yHpauhQ5y2w3a41ohQj9FtSxuSiToYYaqMX44ZV5CLaj1Cf27uZLnM2bgZuurnfbJDtxJi3vR8MpBC3N18cfHC4jNF9Pb3TZLgzK_6bPWsi2TSUcbPZqsO_8p61WQAwVk97Wtxm-ZrCDQkK0RvrYmxoMyoXEpFdNya23dQd1uZZoP8sxNBY19-WYJUkmg1OP_etP2sbV7LJd34j7KxTGh9Jt6xjdyxFwFCWjtneInEl2diusKsDgVNrwFFY5qal4Sm2MoVPRenEX8a6uKL8cZFKXhHMWUju-_bFYrFz1kfTVfMZ3Y0lqPZRabN78gPxAvZV2ts7uD0aP-vMXNqLZ6okmA-yerKTOfTai2qQFuyqnnhfmlMRTc611BkrZutuzgkDHC9Li3BIf9shxKYVOrns5pTqY6_E0A_TUojzoR699sz5BuOqRUi-vNRwVhiCnesEWnwZ-_pqWU_tJFm0Ns38p7ATXkYbtUoK9JZYo0aQSCW01TK4cR_G4yr9ij1gVpigeZ0Gke0LDAScuxuB4rjju7qFf2GyHGyrRxCMcOvsSi_UpWVk5U7gkyFLn4_NKslKzF0_HfbFVg4Q-c0g812I8TyjtRg8NGUGhN35BW5of5XPVjDDjSW0Q-i3m7EY-Mi6ArzlRX4-f_lh0BsDGO9ykv9dLfh9oZPwzy_vJl3jMygEPUcScZ4FaBRQIZ6FH7JcCO3TwE6mHIV98-CWfyBx5VOGJzNnyYY38lQTgIRXiOKOgjjdWX1oCFTC6hXAvUhv4zl5hKhLoik6dRxNglWEo9CtHQrVzxHfCLnQRloKjdZDvLOWYKl5Dbum3LAUxsNxyAyUNUrm26cfnuRkuSgEAM0L6qbhh8TWo0iJwK0cGUbHpaKDwQvxXEUD5EQp3sqebYlsfQbgNXdVBmYL6Zb-QvY5L95-8l0BX6p5X4j9RxnS5NaO3XGQKT0a3qXL8KU8SIM2dslUEomPvUKBtcxOWwb2rysC6GfgPyBNHbUlgcrYdpBMDWj5LlWS31Leunx43_YDRVqeWCa20ELWANRuLS01Gw1zBnWxJzw0gz6c-A_qflo_OskNUMCUzqNLqT8BUsZm1-lml-eNoRYjKJGZJxZ4nH1Po753ujSYDZN1X7AUPuOVBZULWK4O6vXDU6ugv4ZarB_-I3kZz1hynmFYARXMGke2RCiMySMaYKhlgYC5PNxzSh-yGEU2tSbeweGLuLAz0MYrlcx82VIJbydr4JdGHA_sdtiiy"
+    },
+    {
+     "id": "ws_09553c07c7180d97006ac516541f6087d2a7648250d97a99ca",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:rolex.com Datejust 41 blue fluted motif dial 126334 Jubilee",
+       "Rolex 126334 blue fluted motif dial reference Datejust 41",
+       "Rolex Datejust 41 blue motif dial jubilee 126334- official reference"
+      ],
+      "query": "site:rolex.com Datejust 41 blue fluted motif dial 126334 Jubilee",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.rolex.com/watches/datejust/m126334-0002"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/en-us/datejust/m126334-0018.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://nexchrono.com/rolex-126334-datejust-41-guide/"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/en-us/datejust/m126334-0026.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/en_us/datejust/m126334-0014.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://palazzowatches.com/reference-guide/datejust-41-126334/"
+       },
+       {
+        "type": "url",
+        "url": "https://royalwindsorwatches.com/journal/rolex-datejust-wimbledon-buying-guide"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/en/datejust/m126334-0005.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/WatchURaffle/comments/1vp8slk/discord_scheduled_820_rolex_dj41_blue_motif/"
+       },
+       {
+        "type": "url",
+        "url": "https://superwatchman.com/rolex/datejust-41-stainless-steel-fluted-jubilee-blue-diamond/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/rolex/ref-126334.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://steelandcrown.com/journal/rolex-126334-guide/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.modacommunities.com/watches/rolex/datejust/126334"
+       },
+       {
+        "type": "url",
+        "url": "https://www.bobswatches.com/rolex-datejust-41-ref-126334-blue-fluted-motif-dial.html"
+       },
+       {
+        "type": "url",
+        "url": "https://watchledger.net/brand/rolex/series/datejust-41/126334-0001"
+       },
+       {
+        "type": "url",
+        "url": "https://bizakandco.com/blogs/editorial/rolex-datejust-41-126334"
+       },
+       {
+        "type": "url",
+        "url": "https://bizakandco.com/blogs/editorial/rolex-datejust-41-the-timeless-watch-that-defines-success-and-everyday-luxury"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/en/datejust/m126334-0026.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/rolex/comments/y3hfwx"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/repwatchbuyselltrade/comments/1wgpbxh/wts_usa_vsf_datejust_41_blue_motif_ref_126334/"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.cn/api/brochure/en/datejust/m126334-0021.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1w2my4p/wts_rolex_datejust_41_126334_blue_dial_stick/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=zwjEJqMWhlU"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=t1GZallctiQ"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1v2pm9a/wts_rolex_datejust_41_blue_stick_dial_fluted/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1twughd/wts_rolex_datejust_41_blue_stick_dial_fluted/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1tq8c6v/wts_rolex_datejust_41_blue_stick_dial_fluted/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/oscgz5"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1ssrdrp/wts_rolex_datejust_41_blue_stick_dial_fluted/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/1ehrc22"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1sf2l7y/wts_rolex_datejust_41_blue_stick_dial_fluted/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wmn6yf/wts_rolex_datejust_41_w_blue_dial_fluted_bezel/"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Rolex_Datejust"
+       },
+       {
+        "type": "url",
+        "url": "https://www.t3.com/luxury/watches/a-holy-grail-model-for-collectors-watchguys-ceo-reveals-the-best-pre-owned-rolex-watches-you-can-buy"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Rolex"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Rolex_Submariner"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_09553c07c7180d97006ac51658f5fc87d28a45eafb46f7130e",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRZhJI2ciGE87uf2pZ6qKRICGFI1J5wFX9Wj_KIYBT01GeJSFNtjKJKMD5BqObnlvX5zy5hA9xK7soK-4D0xN1Su9-tDXzpFfZ-BF_xw1zFQFUy2SNH8cFfqbRlx9L7Ljn6Hh1jY636_krJ0yfrAwsjyZZ1z89uaL-yu6JcwVnb7IogHxYIhLNkklW5AvdOo6mzLQm-pEi7p-NYLjbE3ddMxDm_sWj06cCSzQMpmn4pmqXeL_40CoQvjgDx5TTFgCith7A9phYcA3t4IyXqDx9y4kt--GHdAKbOhkHYXX2gwzTUrlc2WtLJPDyOGOvKfmNfbr5t-tK91-sGB24ajcIodJRMI7NAFiAF-gRlIALF8zvwZ1h9WGqIiKnrMSTGvBcytTFUQm5kWzvyIqk4P-ZDLF747dtbMWO8IXuasbMQtiMe-keqo3iWc2QLQDLPHOlhG1OdhHsKvAYcid5byTHMXA8JwbxQI4DoddnEPAIeSNb-FpDBOtJ8OYyItw22m5l4j7vcWJu02epoPVC7_G8-rk6V6XyAsRdrEgK05AIUWCUh_pcAatbcbCXkq7ekLHAtor-JM9_tfNbeeyJnfEX4lrsyLTg1-EYs24btWJRAJ3cM-c8FYQ3AmcVLETNOeexq8Y1wHtR5F_VTtXh-d-4Ggalx9cE9qZ_C5EpFEt_bMWSqTdN8K3PBF898v7EF_npz_Dz5UN5Khfwe3xNu0QPGLcuZbGboAM71MEVFk6jcsBz0ZZ6WRVCMT34tEFskWufHPLm1ZzUSzo0eayl_cyIcAUfNesIOLXspf-MFUQ_5vlqhreaXGuBWotYcfNr8S1dX3DeESrh5d76tnSHRvqNMwOyDcQ0s3Ka_IrWOD4wbR_IJoTr-dBHGC4y9bnoP2KqHs8GJMVF0U6ye7kRiv1vZ16TMrqYvm43AlCW3ShO7ZNvq7O-LbBWAuHsFdWpc9US0480bxXASn7UFtnuSqxWXhC1F8_m_Vhd5G-ZSBVdHg1HhxUmppNtGAaAIf7JBB1vZHfXRoavO7Ess7C55PEw-VOuP8ZWIm5yQ7htBEbaZe0SNYM-9IAPpT3jQT1R4l-rn5PPQfi1uWkIMnsdstvG-HvCaoufoThq0XEQ-7nwQtPupIm7A2ZdAV3cyWVisuPJ7Tk_YWdRfcfhi-LsoC7aTkXf2hzcKyRWubWqHpuqt5IGdY8AMVhNZcoJ16ziymWOj_pn4NuQ39gTv1ghHIhV90ZsMLceoUtv61fKiykScuGWSTLpDxzoQO30k7hhmrhoRZYbH9_5_RUoZHn97CXfpRbz4fn2KporWzeD4Vq4ACSd_6eUiJnODgXAGJM79E7H7D7Fuoh7XycPooymd23iJUIGyIzbO6kk6HDNf2w01drnq6cpJyZHp4ieYpqz2-IiQgsEpXmsNl1-X2EaRX9cwAFldWqVZT1D_yosSeP4UyGssREB0VZVkFX_OTZ6OWd5iUaHHfsuQ84aSd7O-2AgJzd5aVwzKiPgTVHZIUV8OCHV-QT2XZWaMCLR0UXAco4mU2jkgptcCFX8byPLx11wvlg2L4RhdXyGCefZ9OgH1PlNK9LuddGyG4S9FKakMCtRPPkNonuwAxE8-wGKYMjhxng9jJK_YhpRrwETBdUWpsWAPUWsqRcI5T__jpcERZoc-CNnX01RWmDd9nawgPbSmx2rVQQPWbBrPFybyieqUH5HrnmmJ-bGr0cGirk0ik_3VE_PRjbweZ6JbCHSPGZ0iqkmIeh5cx8uzzuftIAxrHsFGKEdEYFhPKfnQyZjuW_07ETQoN8VqOmA4JmgGdnMyWAu-ssR2w2XHX6eBqX8hpZlewEo69U03oTo7Qx7Z5p5K9GdtobYCdvw3IT06GRrP_7GYkMvZ25yq9VVFxuxVrX3ecjxtZCHu1HNieS_KL2ukzWqqZR_zUXGRxytG3cl7V53tH9PCcaAsub_x50rQQYuZtCDTGvFBCald1zgmDVeW_-k3LbwbLLMykw1ijIdWRXKeg_B83yGFl0q60VH8aANxCWyNW0pWnoLMym-FYM1SMoO0Fl64rwd5Z3JzzHPdwaQy1jVSpHYHXjQZcWmpCe6X82HOlAbvCCvqHiw-X0JQdvmZEr7IcE17aio8q4JDn4MuM9XHk72OeYNb7NTMzoH1UsQqGKhcCQ9l-covsRjWJ-WllI5bWLhpvycMxYpjSxCCfgDw95tRvnmq6pNU_n6XO1VuCh5E9rDBfSCw0hQ2KkXC3fQR5BreI3PvC5DcYt94OAiFJvpwtrmvuel6gfZ2at62c6B-lREb7SPCh45rZCxAZNurTAv__pNdXoWlGMA=="
+    },
+    {
+     "id": "ws_09553c07c7180d97006ac51659c23487d29f1cc26b91fdb0e8",
+     "action": {
+      "type": "search",
+      "queries": [
+       "Rolex \"blue fluted motif\" \"126334-\"",
+       "\"126334-0018\" blue dial Jubilee",
+       "site:rolex.com/watches/datejust \"fluted motif\" Datejust 41 blue"
+      ],
+      "query": "Rolex \"blue fluted motif\" \"126334-\"",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.rolex.com/en-us/watches/datejust/m126334-0018"
+       },
+       {
+        "type": "url",
+        "url": "https://www.rolex.com/watches/new-watches/all-models"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/rolex/datejust-41mm-126334-fluted-on-jubilee-black-dial-2026--id48335050.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.prestigetime.com/Rolex-Datejust-41mm-Stainless-Steel-126334-Bright-Blue-Fluted-Oyster.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.24diamonds.com/rolex-datejust-41-steel-white-gold-black-dial-fluted-jubilee-watch-126334-0018_31697.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.ebay.com/itm/375979410691"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/1i1hoj9"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/rolex/ref-126334.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/1h3if0e"
+       },
+       {
+        "type": "url",
+        "url": "https://watchchest.com/rolex-datejust-126334-0031-7592.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchguys.com/products/rolex-datejust-126334-blue-motif"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchclub.com/rolex/datejust-41/126334-newmodel-ref-126334-year-2022"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1h47u4c"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=t1GZallctiQ"
+       },
+       {
+        "type": "url",
+        "url": "https://www.timeofswiss.com/products/rolex-datejust-41-2023-blue-fluted-motif-dial-126334-1"
+       },
+       {
+        "type": "url",
+        "url": "https://www.ecijewelers.com/products/rolex-126334-datejust-41-mm-fluted-bezel-black-index-dial-jubilee-bracelet-complete-set-2023"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/rolex/comments/199wr7b/datejust_wait_times/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=X-Xl2eBWf1M"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/en/datejust/m126334-0018.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1tpg4ea/wts_full_set_2026_rolex_datejust_41_ref_126334/"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/it/datejust/m126334-0018.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/1aym9v5"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/1qowc1v/vsf_datejust_qc/"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/pt-br/datejust/m126334-0018.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/13xavod"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/1went2d/qc_vsf_datejust_41_black_dial/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/WatchHome/comments/1tvcxf2/in_stock_vsf_inventory_from_jun_watch/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.buzzufy.com/blog/wp-content/uploads/2021/12/Rolex-price-list-2022.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/rolex/comments/18feqxz"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/tr/datejust/m126334-0018.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/vi/datejust/m126334-0018.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/rolex/comments/1621awq"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_09553c07c7180d97006ac5165f460c87d2926b82b273062efa",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRZhNYJM7qpWRgyxUFPylCnKR6AzLySXUtAaEYHgWvVWnNkkvCYG3X2Fg6LJ54HLKZmEN7U78M66XrazcbOMsfSIF4a_Ugp7zokd29LCWEPzVD63t4vzeusBAhyf_rIyMHlq2LH2Yv20Q5bwgVBuwMbGOXO3alCdGFiTwBncy_uNYKs_wYNgtaTeZWVjqynu50bPXMT7taNkmX-u0Y4p64R1WtdolxOSYIsDLArhGVwlHStg0MD9A1ZjypRaWxZDtVM-HosCMyC9yGWfk8vUtpohmN51RfQOcV-DA55rsyR1zSae6ZNPpMqR7_s8WKb_zvFr200ZSxZznKloxAPxD2ZsODJ4DMUNh2e_SXWsH2Sa4XMam1Ek1lNy7_Pjqs_e4EnFQig1utF_3UhADEmhRgF39gniycAenXOr0u5V9JvWjra37ZVtwKCD3_9hk3x8-M_msMkLwW5Z1Fw9ko_1j0SYGfgPCCTEEGbj1JUiOwYa7QukohdMZojBiLwJ7L-ECgNu2JjqQr4rOEvy7DkVdfLfqmUsLFz4T-WiaQf3xZbxPx1Sn4gqVASnkEVUrZ2HcDhc2ZkB7aslVdHhrGwUYt06_7rap_b73XbzU0u1Tg_JRzrswLnUf7qTELeAuPcVAKa7aolo7hx5dyQ72_ymZM5Uexm-sy6F9wx1TbzIUEN4ilhtsezSDx-HRuyHqKXBym_moe4YRT_9x7SshiQ7WJdJgXGt0-4L_25KM34fdOTqgDMmzROcWGp4nLC4YfA21C_J5IBrCNcE3RGbeFX0GwHte5SZPi5PE7hrbvy-Zzlvv4BkU2iuvE12yv4NdvNwu7ZsheB5xTCZTXMX29MWup8K5xj8QKvkEyKhH79hMbkeNv3YU_DzoX9SZO4zrPeZRZxnukXeztK3tQ8wJJpBdiUgohS1wMXdml9yOOzc8FGU2FvQJvVn9-9dL5m6cmI1nvBAmZTHqUYwQMOKvLvatdJfLlLLRKaSSFD9qnUNt-NRuEORmPpr9BbRloSXI6BqRou_WJ4ok82jYDafZa9tyMZNs9vSboq6ty3fyGWXA7FMd-HvxVsGN4vMwrPt8wjIyPek7ukOqrksqZnsy4w52WnXjCXbqBZxoEXDn3L9qsswc2h0zaZjvSzMtz33sUtxyV5z48BuYu1xRdRQ6HkLfuFNd6o2pVR38Cm1opfobxSuCFSrF6-xd0VJZWFYzs1d87IxxoyUi8dGagiquW2v3GqKiaXBk_G5p867bkcnmybAh2c6dObyb-y9XOVGLlhl7wXa2aPDIVfo3g98K2z6_qihkw9Psw5x3y3zzXxCXOUmJkiKfg_z4ogenpYlydM7TpYz0XbLws3o0Dgg16x0We3fmWPKRIR_hTY1Y0RLGWMxw2RytDUim5yflar9B5xRzCbgJuRvg1rqYnfGYSjFyybVXjXw8O127MY51vv3dXbAsQ1g4yFxm9LWj-T6WtAc0vLmv4v8XGjxh_MVTE_S1i5NElU-Oej6W4wLNL9xD6VJKjw_cM9xpiec-ng-YvkW0L9nP0e5i9ZQfNBkRp5oBWJOiHbBILXogG4Rokky_c2ABVHYXRSrZkOeNtjmixWCDNmsVUripQMcrVyRZh1H9VrCEJMVmv1GHsCZYJYDlMhepOe3sT6gVok3WoY9HrZxrbu7Bw52Lluo5KUfhy57Ku60OJSvyFZ9sU8p-tyzDQvNqC3G3NbeQUlNUFyHkXgpty5f4z2SMH5-pUbvmdc9Jv82CFLmwPnLQdOnNlmKW2ZoW2AfN5Z3RCNX2x2Iw18YLHHIPZ6pM74LGB1t85f5O5bUd9v7NIox0VVZVe0ZAAPoOg7XqyXU6F_3luAOJkEdta2_UTg7h1ZsBWOZhOJNKoBGlwZqJvJ8LaIA8rvr_tb2y3z56H9BCfkPvT6lSc3xxQRpMk2hAN9sYw2dDuHUajn71lqwB3YN0WfB0W9pJIJ6Aw7SVYg01xAuPL0XFE2l2qqLxGfeWblSpYjjensIjuNCVvCiPhjs9vpLi_DpfbvhxNCon8mtfkXKaXyimUfEIcgnPkRaFNmvj9h1qLZVB1Q5_mDPGJ6notOL_92yWJzp62ucuDG79s8QbqMzeZnHN0ZqRKwHIqQAOsJLFonCMLNe83lEwJ2lHyVz0w7ueXEr6AhSwpz2rpVLsocZB5Vo3N8wruNjYUvPH_CaSPdMJPSCgci08_309QnJ6GbE8NdlEPAM7O2cuYpJwFqGXg15_SOFPeLtfTeOhoWObk-i_wuhGDAXhibeH3L1YHZ50T0t5OvapLY3IDy94ebTTO3GABDY2ElRpr9Yw3NdrnkeXTaLyy7gKerqI2Wih5udRzvZHEL5Voe2F-VFAcBrZHKW4MMOIA88NUSDX3zOg9WTXeDueYCARJ15tMUj44NF8_-D-M__9ZiwxTm9GVCZqRDrwHTPvuEQ4RuyspQcIOrvwKXBGbTs3JIQtz9oLgRo6FaCge2WofmpqP8mi_a-RtqV3N_ITftrtX36OiSdmx7Kta-dQvw0MgoO504Mr1qXPzaDjBs5RFn7H-KwotWCDTI1KgpdOfQnC2Mij9SYAAL5tsFCMT9RTKgvksYW9NYyFpzVTsX8NnCAc_LMgK3h1qZMt60Bofz9QZIV6aqZ1GU_Raz267gwEwB0IpmoewbnfQauJEZhylUyo_j8YoLq9ph8Oe8uZ32fYHxNZycCQ3rFL4O3I-8sshK3FjA84B3RQcLiE4XJ3B4TOGfjuVszOKmMoGABPj0fRcaZRNbVGTUr83WoEN4D4GbNmcZMTMoELyu41vLLle37ZDDH2dxoC2enxULjbP07jC84cnpxE4oIs4jmJ_b8w6JYH5aGC6gFXNUa9No="
+    },
+    {
+     "id": "msg_09553c07c7180d97006ac516602cb487d2b3a7b7efc9e3d1cc",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Rolex\",\n  \"model_line\": \"Datejust 41\",\n  \"dial_color\": \"blue\",\n  \"case_material\": \"two-tone\",\n  \"bracelet_material\": \"metal\",\n  \"bezel\": \"Fluted white-gold bezel\",\n  \"case_size_mm\": 41,\n  \"complications\": [\"date\"],\n  \"movement\": \"automatic\",\n  \"printed_reference\": \"\",\n  \"references\": [\"126334\", \"126300\", \"116334\"],\n  \"confidence\": 0.96\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791301216.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 23113,
+    "input_tokens_details": {
+     "cache_write_tokens": 3615,
+     "cached_tokens": 4723
+    },
+    "output_tokens": 896,
+    "output_tokens_details": {
+     "reasoning_tokens": 770
+    },
+    "total_tokens": 24009
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 2
+    }
+   }
+  },
+  "search_requests": 2,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

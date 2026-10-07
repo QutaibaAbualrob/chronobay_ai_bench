@@ -1,0 +1,38 @@
+{
+ "row_id": 42,
+ "image_file": "042_tagheuer_monaco-calibre-11.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Tag Heuer",
+   "model_line": "Monaco Chronograph 39",
+   "dial_color": "blue",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "bezel": "smooth polished steel",
+   "case_size_mm": 39.0,
+   "complications": [
+    "date",
+    "chronograph",
+    "small-seconds"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "CAW2111.FC6286",
+    "CAW2111.FC6356",
+    "CAW211P.FC6356"
+   ],
+   "confidence": 0.55
+  },
+  "raw_text": "{\"brand\": \"Tag Heuer\", \"model_line\": \"Monaco Chronograph 39\", \"dial_color\": \"blue\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"bezel\": \"smooth polished steel\", \"case_size_mm\": 39, \"complications\": [\"date\", \"chronograph\", \"small-seconds\"], \"movement\": \"automatic\", \"printed_reference\": \"\", \"references\": [\"CAW2111.FC6286\", \"CAW2111.FC6356\", \"CAW211P.FC6356\"], \"confidence\": 0.55}",
+  "input_tokens": 1712,
+  "output_tokens": 1301,
+  "cost_usd": 0.0009621359999999999,
+  "elapsed_s": 7.672,
+  "started_at": "2026-10-06T14:08:30.045161+00:00",
+  "error": null,
+  "attempts": 1,
+  "tidied": false,
+  "served_model": "deepseek-flash"
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "row_id": 10,
+ "candidates": [
+  "124060",
+  "114060",
+  "126610LV",
+  "126619LB",
+  "126610LN",
+  "126613LN",
+  "126618LN",
+  "126613LB"
+ ],
+ "result": {
+  "parsed": {
+   "reason": "The watch is a stainless steel Submariner with a black Cerachrom bezel and black dial with no date window and no cyclops, which matches the no-date 41mm 124060 and excludes the Date models and the gold, two-tone, white gold and green or blue bezel references.",
+   "ranking": [
+    1,
+    2,
+    5
+   ],
+   "clear_leader": true,
+   "none_fit": false
+  },
+  "raw_text": "{\"reason\":\"The watch is a stainless steel Submariner with a black Cerachrom bezel and black dial with no date window and no cyclops, which matches the no-date 41mm 124060 and excludes the Date models and the gold, two-tone, white gold and green or blue bezel references.\",\"ranking\":[1,2,5],\"clear_leader\":true,\"none_fit\":false}",
+  "input_tokens": 5153,
+  "output_tokens": 123,
+  "cost_usd": 0.011536,
+  "elapsed_s": 2.799,
+  "started_at": "2026-10-06T13:52:28.252230+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

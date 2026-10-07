@@ -1,0 +1,33 @@
+{
+ "row_id": 30,
+ "image_file": "030_patek_twenty-4.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_line": "Twenty~4 (Ref. 4910/1200A)",
+   "dial_color": "blue",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "steel bezel set with diamonds",
+   "case_size_mm": 25.1,
+   "complications": [],
+   "movement": "quartz",
+   "printed_reference": "",
+   "references": [
+    "4910/1200A-001",
+    "4910/1200A-010",
+    "4910/10A-012"
+   ],
+   "confidence": 0.55
+  },
+  "raw_text": "{\"brand\":\"Patek Philippe\",\"model_line\":\"Twenty~4 (Ref. 4910/1200A)\",\"dial_color\":\"blue\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"steel bezel set with diamonds\",\"case_size_mm\":25.1,\"complications\":[],\"movement\":\"quartz\",\"printed_reference\":\"\",\"references\":[\"4910/1200A-001\",\"4910/1200A-010\",\"4910/10A-012\"],\"confidence\":0.55}",
+  "input_tokens": 2847,
+  "output_tokens": 163,
+  "cost_usd": 0.007324,
+  "elapsed_s": 2.389,
+  "started_at": "2026-10-06T13:49:48.866455+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

@@ -1,0 +1,555 @@
+{
+ "row_id": 34,
+ "image_file": "034_ap_royal-oak-chronograph-41.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Audemars Piguet",
+   "model_line": "Royal Oak Selfwinding Chronograph 41mm",
+   "dial_color": "black",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "brushed stainless-steel octagonal bezel with exposed screws",
+   "case_size_mm": 41.0,
+   "complications": [
+    "date",
+    "chronograph"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "26331ST.OO.1220ST.02",
+    "26331ST.OO.1220ST.01",
+    "26331ST.OO.1220ST.03"
+   ],
+   "confidence": 0.98
+  },
+  "raw_text": "{\n  \"brand\": \"Audemars Piguet\",\n  \"model_line\": \"Royal Oak Selfwinding Chronograph 41mm\",\n  \"dial_color\": \"black\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"bezel\": \"brushed stainless-steel octagonal bezel with exposed screws\",\n  \"case_size_mm\": 41,\n  \"complications\": [\"date\", \"chronograph\"],\n  \"movement\": \"automatic\",\n  \"printed_reference\": \"\",\n  \"references\": [\n    \"26331ST.OO.1220ST.02\",\n    \"26331ST.OO.1220ST.01\",\n    \"26331ST.OO.1220ST.03\"\n  ],\n  \"confidence\": 0.98\n}",
+  "input_tokens": 22882,
+  "output_tokens": 833,
+  "cached_input_tokens": 8218,
+  "reasoning_tokens": 653,
+  "token_cost_usd": 0.00196508,
+  "searches": 2,
+  "page_opens": 0,
+  "tool_calls": 2,
+  "queries": [
+   "site:audemarspiguet.com 26331ST black dial chronograph reference Royal Oak",
+   "Audemars Piguet 26331ST black dial chronograph reference .02 .03",
+   "Audemars Piguet Royal Oak Chronograph black dial 41mm 26331ST black subdials",
+   "site:audemarspiguet.com/us/en/watch-collection/royal-oak \"26331ST.OO.1220ST.01\"",
+   "site:audemarspiguet.com \"26320ST.OO.1220ST.02\" Royal Oak chronograph",
+   "site:audemarspiguet.com \"26331ST.OO.1220ST.03\""
+  ],
+  "source_domains": [
+   "audemarspiguet.com",
+   "rolexforums.com",
+   "midnight-watches.com",
+   "chrono24.com",
+   "analogshift.com",
+   "shop.getbezel.com",
+   "europeanwatch.com",
+   "youtube.com",
+   "reddit.com",
+   "astagurubucket.s3.ap-south-1.amazonaws.com",
+   "ineichen.com",
+   "gazette-drouot.com",
+   "blackvenomwatch.com",
+   "therealreal.com",
+   "cdnc.heyzine.com",
+   "it.wikipedia.org"
+  ],
+  "elapsed_s": 27.717,
+  "started_at": "2026-10-06T15:47:52.761930+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_006405be2188c40e006ac51836a8fc87d2a442c978c997fc3a",
+   "access_programs": null,
+   "created_at": 1791301686.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_006405be2188c40e006ac51837629c87d2b47e777027f99d67",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRhEjdWpU_CmkTER30a5buLXH5hq-sl7Fy99u8h1r-IhG_32gEu94VawaLeeKZhG2sKJbSeSJEuwDzFR2HxNExl6Torjyn2yvg21ek9afqHhpcZvIb3A80uQPAdJcJ1D3A5A53UPx33Ap5U3steStIMq8gUS4-mSn6dD1Gef2KnoSwZH8zlFrZX41qCgakoxwS8ZfWLLd06mFMCuF6qQZGnKfsXq9mkQTn9cO-jNKaiK5f6moX1g-LMxyjtX9-ey9oJZClhVzqgq9V8mwVu_36h_d2YD5SKqjc-iSk6-229eMBG19ezVN47Yaam4TFq-lM9QpglITwC7h_RbmCR7CYTCxtFufw7QGRWwg5z1NZdPIYE9CIZ7YqD-Ph_Zu3k2y-IcNqk2la32U1x8TQKxOhLGcxwd9RPH_BwSg8eD865gxtbET1M74hiqYe91UGGJDrQAZRFwI_FNGumNqUR_ZeqFhIoJZj_cmJsF0lyPjLYGH7YFBO3mMoBZNPIjHRNsx8pFfl4quZBNh6RXCdsA9veIJG6T-M2x_UJSZZtnh55op557Xx_PS6E5bJ3fvjpJyHtlq59-OORgZPXYYBHeU3NcaWAFkWXjB-lp08qpa_JmZU5SlIiy5I8a2QGHyidY1GAcH9ttrUNlbuRrOQRXwHDqRIVUO0mOM2LZwFRJ-U8FS29SLYOHmUnGi0hFcHH98LG5rU8HrUFyySPTb6zbr1117Tk3-TOQmZ5O47BvvFrDQNaDDcSO63LDKTdS3wISD38qT2tF-tdSzM4XyiIW2qHo7l0Dsvys9BrrH9yED-Xne0HIljbWCdE452Vz48yfXbCPgvxbyMiscyxTrbLu0SW5K9zDIfG5PGkQRJfbnjuGnzXHWfR9sFCHPMl2GL8G0mAzhePmU2Hz9iA-9E-2C-LCvXxWeFLUMDxbGYiGDL3lJyO0uCZ5Z2X5f9eHbf1sO60X78YTo3nTLbbHqceW0uwcH-X8Q-e8acqRClIb0BGV1uRI4EJrDCAEzWb230uzCF7lay3_VV_CW9iKY_k-relc8R3pI3kfPoTAJqQD7xopKqcDU7nkejCR1X-2mcY1wWWEt20er1qzMAeDeyXHByteZk80mpHXS4diFvFWfRmNXT1CnuY_2coJuuol2gRpZMWnKVW8ABA9o2W1P28MEZsoN1V5EcfVUWQ_NmlImScK0vII0VqhjVNojZ56BSMKUSV7_C8B1efMPYNbB1DaLFRldWITdewi0QLyDO1rPXT5m3rNAYWdMQgngH0nZ836na0HynWJ6cS1ejRf0vRskw5n2Ak8xFsxCE2TdgM6FtLFRN6cOjo574apVyrsWCRttGbqB9GAe5AABTWS28sitEUaNPw741UnGV4xLywTtQ6nEWlc1ZLWBCxpCKcVzWQ4mIWJDWs7lmpk43b1_b8xgvnIyqr25iz-46FiUpizy3-xMbzzS0cdiEqCfz1co99SRH2seM2efYPNH_pEUqFA8OwTV1hcSjYpj_Fd5IiDpgOVdGrTT1WxprGqG-bwm3JdqsUjU5IFky9n7L5hQlyrwUmy0ESMhNnXjzEBKiH5531jQBE6dF1QIwD0zQz1VReC3qDgX6jO4gU3IPe2Nn93Sxbie50Xui-derwR4FeYnw0or_SAuN8yh6DHlKZ2KWqzwgfVdZWRF0ex491llSVtJC6J7HlYtRymjycT6KdTJEQkMZE="
+    },
+    {
+     "id": "ws_006405be2188c40e006ac51838843c87d29ba23eedcab733f6",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:audemarspiguet.com 26331ST black dial chronograph reference Royal Oak",
+       "Audemars Piguet 26331ST black dial chronograph reference .02 .03",
+       "Audemars Piguet Royal Oak Chronograph black dial 41mm 26331ST black subdials"
+      ],
+      "query": "site:audemarspiguet.com 26331ST black dial chronograph reference Royal Oak",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26331ST.OO.1220ST.02"
+       },
+       {
+        "type": "url",
+        "url": "https://www.rolexforums.com/showthread.php?t=543264"
+       },
+       {
+        "type": "url",
+        "url": "https://www.midnight-watches.com/products/audemars-piguet-royal-oak-chronograph-41mm-black-ref-26331st"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/audemarspiguet/ref-26331st.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/es/watch-collection/royal-oak/26331ST.OO.1220ST.02"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/audemarspiguet/ref-26331stoo1220st02.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.analogshift.com/products/audemars-piguet-royal-oak-chronograph-as06699"
+       },
+       {
+        "type": "url",
+        "url": "https://shop.getbezel.com/watches/audemars-piguet/royal-oak-chronograph-41-black-and-silver/ref-26331st.oo.1220st.02/id-787"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/fr/fr/watch-collection/royal-oak/26331ST.OO.1220ST.03"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/de/watch-collection/royal-oak/26331ST.OO.1220ST.02"
+       },
+       {
+        "type": "url",
+        "url": "https://www.europeanwatch.com/watch/audemars-piguet-26331stoo1220st02-royal-oak-chronograph-black-dia-30962"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/fr/watch-collection/royal-oak/26331ST.OO.1220ST.02"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=p_bzunbR_eM"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=bGQAnjqeuTA"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1hf69cs"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/lt6xgc"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1knd8ci"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1h9xcki"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1cim4fk"
+       },
+       {
+        "type": "url",
+        "url": "https://astagurubucket.s3.ap-south-1.amazonaws.com/TheExceptionalsOct2023.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/xpx767"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1w4ovam/wts_us_audemars_piguet_royal_oak_chronograph_41mm/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1g4e2zn"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wuv27q/wts_nov_2021_audemars_piguet_royal_oak/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1jf8atu"
+       },
+       {
+        "type": "url",
+        "url": "https://ineichen.com/upload/iblock/c94/2g1ncpg8uuh23ylnrkcaph5e9rqkkq4x.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.gazette-drouot.com/telechargement/catalogue?venteId=136084"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1amrmpm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1aq24h7"
+       },
+       {
+        "type": "url",
+        "url": "https://www.blackvenomwatch.com/upload/images/Black_Venom_Brochure.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.therealreal.com/products/37274473/appraisal_report"
+       },
+       {
+        "type": "url",
+        "url": "https://cdnc.heyzine.com/files/uploaded/3c09bf8aaab4ac1db6c4189c7b4e29902ad65def.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Piguet"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_006405be2188c40e006ac5183df53c87d28824fd7e8c119695",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRhECS4FMNLnqZPSr5I_WfccEt2t47N40wlpFKXA3Swg4HWDBHPpzEXZxanb3PRnvc5ByFBUEuv2VkIoD9rSz5uyc7_FLwO4B8GA32jgIrOPDHRIjuychczCIQUVdo5dOftgsq938IP004DaRWTl95DpzB-QrIUqp0FeBX_uhh8BHtPykUwc858qGZkrJ19IvjEQtusijNpKRD36-caHF56icfKbpowb82zHoXoGUMfyimCvbvOjz8d4afBLkH48IadU8ISIFKlFRxsBT83c_rLvnzovbOkygGLcibkWA41hlSB5N-WnEgVdhF2J8-f4w8WBKX4PBQQKagk_-gFpRGnsMOTMBBgOzWN2DA9ZicShV4_T9Cf-mKoc7AeMhsogZLSDHLbyRIAE0Z-OV63pKLqbk7-5Mimz9Iol_RS6gdCT8TODm1Ew1mQEJAOJaXewi5uBdaBn2IkIwxCd2l-M6ZJiWESg7yIA7-d-PlGJG-TAKZGLPYBQfDZf-K3UUsdNUghZ90yzb55EF6D0rte-C48-fsmrdy9qiKbXjOgmiEECWScsAXYYXY-cVrE79EY1Tw2XS69hRMtntptEk6fdbfWRJ6Epcg8zVbFxDdbGddI7wL_KRjHnJIwUcuRo4kfllWgJ8DU7BZWulDCM7BGc-tJ29DcbIXE9OnGSLp3Wvox1hKAMtmyp_SttWV72ONyt3-Up-GqifZ9QQ8LhWsTCN8AC12ohJQlHNykQOFQ47bAPf2mqBJzZE-_tuetTJEHhecreYy6yhQ72YYMs6YwxoXj0av1H6QJEOk8HjZsOlDS_xpHkA483x7-Mrqpa4jlg1gogo75I5BJR2Q4-pPR4oGq9xW09FXJpWJ_zp9QuIln-TqkHx3endGcmPiw2jP0b6HxNVb1Hk70a0Lp09NcaMsqxDUsLdYsvt_01AscCEsHrgazqpwgPf3mBipx-NhrUSq61Lk2xFf5sKhrua-64_vI2VZ-pfOu1Sf1wSBNt4ogMYVJQWxfhVIUrVzA9MQlqYHN7g5az79_nWd3RZR7Pgm27MuLsrP8Ui84tNc_ZFZbkXhdjt0Gm8HZ403ng4INA_mxL9nCQ5Cvkt83ZPWHoSpJdHbimhxsF_EnxNAkg0K5MuP_5ehI_TlTuGfMguZVEiAI_Ctbt21Pgy2K_f1VE9eGG67CuNvRRcdzT5Nah3qwSFKNRyHp9AkCL-DJWT8q32eKdBDlT-WLzkWc14Fe_b7FUFaCP8EJHnLEsHCfvhELN0KeBKMl3VGOpTYucblSO9foToLIQE1iZGHHM2QevIIt23-nIVCpREvHRustxX8qQyaOjPz-tph_T9jGn17w8LHbiN9Nm0Rx8LUwHe52ixXfTAf54cg7Mif2jy9krSoQBiE76pwO2nCdI50v17BlTgpqMwUXkIvyE7kBsNMeej4kiILKuV_yKYkIUkkOD88EsXac_5VUn_JnK6DGpoASWNNYR2l8eSZNnarnxSIbagJAH_rrSt5BxbQPWijuCMd0ezQQjISizyFiAGHU2McVkKNJH71qPQoyyALYL7_mgTjm_UqGObAfRWDy9_IhT4nHOsNlybF_IZZT8VdKjqQgNSxNP6MoMzSqb7fqZxB7V4wpEVa56VMBj6RKBpA6AbmqvWzRzYF72rJ6wJo0DX6D6WOCst4bJGftbaReYhtHsM8Q9sN5kcwhFGvT4oUKTlU86HcepPKal1RTxI3Rauz4bD9-dYYEGqNo0q9gYyHSGk5Q9XFhzKNmTcwTA3n5Lr0tlXyQBAksq4tcyyxbULEgaHet1"
+    },
+    {
+     "id": "ws_006405be2188c40e006ac5183faf4c87d28c88cbef7377486b",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:audemarspiguet.com/us/en/watch-collection/royal-oak \"26331ST.OO.1220ST.01\"",
+       "site:audemarspiguet.com \"26320ST.OO.1220ST.02\" Royal Oak chronograph",
+       "site:audemarspiguet.com \"26331ST.OO.1220ST.03\""
+      ],
+      "query": "site:audemarspiguet.com/us/en/watch-collection/royal-oak \"26331ST.OO.1220ST.01\"",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26331ST.OO.1220ST.01"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/watch-collection?keyword=diver&view=legacy"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26331ST.OO.1220ST.03"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/es/watch-collection/royal-oak/26331ST.OO.1220ST.01"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/fr/watch-collection/royal-oak/26331ST.OO.1220ST.01"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/de/watch-collection/royal-oak/26331ST.OO.1220ST.01"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/ja/watch-collection/royal-oak/26331ST.OO.1220ST.01"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/es/watch-collection/royal-oak/26331ST.OO.1220ST.03"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/zh-hans/watch-collection/royal-oak/26331ST.OO.1220ST.01"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/ru/watch-collection/royal-oak/26331ST.OO.1220ST.01"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/it/watch-collection/royal-oak/26331ST.OO.1220ST.01"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/fr/fr/watch-collection/royal-oak/26331ST.OO.1220ST.03"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_006405be2188c40e006ac51842716887d2a8c613ffadcb6a53",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRhEmIhAKDnqHfnRI_I73tEbxVoTsO9y-5A_iI9TS63TKdX1c3ahB-P2CcxL9kINqn22ipu9bxxyBXxuq-CqkUBe-XK_jKZJiSPpWKfI58zmA6KBq56bmcU09lUs_QntRtf-QpP5Yp6CI-prcCX_GrdcA1hplZz1EzpebHwEq8IOLpHTNIGLT01kWmotL2VJsFgvfc7NlF6Qkik2cW5yefkfWpu-sABJsIUvI2walWrhGROUb1DYGSIB6k2z0xcymRubBpUwlgm2TiDM8j-Z0EgF_t5FdRfawPCbivy1LhBQ1Xo17bpqW0ZUNDnJhN0LWrw_7SRLYBLR_XY4TimsngUHnOvyc2FhiXvYparg6LFOJGBYrqWP7alKBDc1uAvspPU4ZA8qm4XhcaTBWpeAvgHUboS3w5YAFhg0hnsdYAuCxLjx3N_udHIlU92wTY4D4HxcUkQxEnFXeGuqOL6Qm4FA0jNpEDCl0llYhAtlHRvJU2USNDY_3EyP5RTPs5H5J0kGwRWjCXORLJ6hgKThQDunFsbZyzaMCcZGEr5oL1cCXOBt9X6HV6o_FdO5Wy-WaMokKyRX7VjztNHM5fxWia7p0eosiOITr0VyZP8_3jelpbJK26Xm6MJaKgAoilH96jrK2EC-a9McfMyXr3huv0avNRHmlvsjbjT5EZtHgQoTobIJgh5FfK3TZYaBrReg-oAczOsGrRxXVG6i0Sy6LPMRHQ6ewUlnEasoTiFAJqbiW4McIhGpCZWzbtIa7X8v2KsH1gP-0IA1FdGr6cuX3WBEgnYOP5L-4heCpyKmKxmMqDjdNTVPtceAYQzA8V_XsXYLn_83rT0F2uIl2um3Y0I28mo56ey1IpyctGexQ2-LmQbirsNBZeShAtyR9NoxW84NAd4pCS1zzcLdGHnko5aCYTEi5u-8b5PGelhUBUMEOMHjpVWDOpFOZKvtXEeiwUr-Fd82Kb5e5SqDjszMP04wdz8unwnlMIO9sWcCT28EUmy6lqPgWNzp6apid-xPUfXbY_RBQ-03jtVruKBSbiC6IeKPBtD_ulPwXi9fWipKa0K_k2a17o6vHLgr6_UlQf7dX-bBp5uRwRBvHOIQ6BOLO_Y11bl-Ar-WxbnPIutIIXiaXfyoFoSp9HHyVVtEWiPAESWbOfk2p7jC0D_uJ_Km5bW47fypWCFuMLXZSDR9Z7gcG_SRaODA8hKDs1VoTRXtksljITjDNXVC9N7l-RbD8RKZvQboABveWqPbgTUTJ7v8Mm-mrZodtXGSqtxyYnNWmpOwEBzcP-n6s6PwzynhLhjMTyQ_Lp03Uc1CNRJHLNE_O-gUgHQyvj2r_KM7Jnp6taMjoUsuPW8Gx7YAmSRIwiY-te7Th0Rz76tsd3cwYpd9KAK6FxQVeLe2sPiotjRp_V4NKoyss4K0bO67OCQgB-K7YV7VMRrOuf5qa9UwNW7J9JHDkIX2qrcVoTtERlp3yj6ibc720E2z6yVEDV5CVO_MAooSw7ikm4iI6PnucDUBgQzGdT_kfN1BeoyXZpyhJxiWZW_Fh4l0JjriVEHHkz-crv2QoDW-_UINnoMgRx_KZAkZLgYs4c50qPjjD4dQHp-LYCOzA0mp5b_-RZ_T9kIavIndciUJI0FH3ALwiHzkutBwx_CHOwPlKEGMLBKqAk-7eDpCOCMmiumuNunP981rfUhiHfforEcDSFxKeDWP4_2vUKHUoSwrN7a8xa6KeoKD3nb7ybLO_yjMeP__HtsbcfI8kCsoanUSbGyvvodNMaMyEsHMjki5KqBt-mPfSXnnHN3s22rNH3jXLog4MFCUmwk6EJMzvydLdKrQOt_KoYwg6kszAD67GeiiiUN9bW8jr9Iw-BWFVODiSWjAILlqFbHOUaMZRpbH4NzmaCHmDDqmDd1lUSsZBwM6P35QA0XqATP0jQYam_XuXjqQhItEnXP9pO3dklZ1TBhIzapiqe-ct4ir5WQxj5XA6T09RxyZcFIX2mWE3jH2r-kF0KvmDRnEYL7WULvEPluOhMXRcwbDSJbPaEIlexc5StxsEcWKTZ4VHwC0Z1xK7QP4j0-fxL5sY9hA-8n9585DKrxD8zdaq4_bcj3NhpPHaiCgOjnRNIttqKfUV218sfScL8nDDBoY6c68qbV6f5wCvx_7tdYQXtp5yzjy_v5kUGk3VhJteDgMm8vob2yu-2lAcZl5Qfyvi9bfRhgRakJFlKH7iK0VSQILWhbZlnMmV-TqaEDmG5JbVM40fB0KRByNQSITwPlzbAmI_lDYpou9aZjqfcqSGUssu8tP8DZczVaJJ2o9kRFDmjoLO8S_FCGgOCFsvnq-dL9K_zRsR73FMC94CtIl5RoPLrb41qxAN-vIG1WKIXyn_Sdgx2YTZVNdWseMbJpAMp4egY4qLNk81Lp6lAd-P7qgg_2PcsmPy8leV_fLwSJioHyGXKKN8ivVa2hyGq_lgW6CrJt7Kh_PekrT80-iVPkANAWdKpIfMJZKup5Rr1Kuz3tCyOWQHW9MhzaPOt2V7FCNc8Fx47N783A="
+    },
+    {
+     "id": "msg_006405be2188c40e006ac51843e08087d298d5f936f671bad4",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Audemars Piguet\",\n  \"model_line\": \"Royal Oak Selfwinding Chronograph 41mm\",\n  \"dial_color\": \"black\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"bezel\": \"brushed stainless-steel octagonal bezel with exposed screws\",\n  \"case_size_mm\": 41,\n  \"complications\": [\"date\", \"chronograph\"],\n  \"movement\": \"automatic\",\n  \"printed_reference\": \"\",\n  \"references\": [\n    \"26331ST.OO.1220ST.02\",\n    \"26331ST.OO.1220ST.01\",\n    \"26331ST.OO.1220ST.03\"\n  ],\n  \"confidence\": 0.98\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791301700.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 22882,
+    "input_tokens_details": {
+     "cache_write_tokens": 0,
+     "cached_tokens": 8218
+    },
+    "output_tokens": 833,
+    "output_tokens_details": {
+     "reasoning_tokens": 653
+    },
+    "total_tokens": 23715
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 2
+    }
+   }
+  },
+  "search_requests": 2,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

@@ -1,0 +1,492 @@
+{
+ "row_id": 95,
+ "image_file": "095_vc_fiftysix-self-winding.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Vacheron Constantin",
+   "model_line": "Fiftysix Self-winding 40 mm",
+   "dial_color": "silver",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "bezel": "Smooth polished steel bezel",
+   "case_size_mm": 40.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "4600E/000A-B442"
+   ],
+   "confidence": 0.96
+  },
+  "raw_text": "{\"brand\":\"Vacheron Constantin\",\"model_line\":\"Fiftysix Self-winding 40 mm\",\"dial_color\":\"silver\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"bezel\":\"Smooth polished steel bezel\",\"case_size_mm\":40,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"4600E/000A-B442\"],\"confidence\":0.96}",
+  "input_tokens": 21579,
+  "output_tokens": 675,
+  "cached_input_tokens": 4723,
+  "reasoning_tokens": 578,
+  "token_cost_usd": 0.00207033,
+  "searches": 1,
+  "page_opens": 1,
+  "tool_calls": 2,
+  "queries": [
+   "site:vacheron-constantin.com 4600E/000A-B487 silver dial",
+   "Vacheron Constantin 4600E/000A-B487 silver date black alligator 40mm",
+   "Vacheron Constantin Fiftysix 4600E silver dial references WatchBase"
+  ],
+  "source_domains": [
+   "vacheron-constantin.com",
+   "watchledger.net",
+   "youtube.com",
+   "vericog.io",
+   "dialspec.com",
+   "tourneau.com",
+   "watchcharts.com",
+   "hourstriker.com",
+   "spacecitytimepiece.com",
+   "chronotick.com",
+   "reddit.com",
+   "laurentfinewatches.com",
+   "it.wikipedia.org",
+   "en.wikipedia.org",
+   "de.wikipedia.org"
+  ],
+  "elapsed_s": 12.157,
+  "started_at": "2026-10-06T14:40:19.537312+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_0715eb3eda826c0a006ac508546fdc87d28a575a569e537be3",
+   "access_programs": null,
+   "created_at": 1791297620.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0715eb3eda826c0a006ac5085514fc87d2bc34c2023d917ad7",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxQhf8XdU5_Rjn2deLt2a-lcJl7H_Cv_sceC29_SxK3Kky4KopXgY8TiRUFXHUiQmo5TCXzaCF0GST0UZN1Z0DeIXkjc6uMBvR0gFv5om7llgk5RHVuPeOjGdmHV6uOdeS88Qr2Hl8zft9HGnq8-YzM5XjpJGpPRueVs6nJ3hXzcj6VUbzwzaen7zpX0BKvx90iIYASHgygtOYdxZkENtTkS9xhK3byW0Epf2G2UOxwUH-Dtk2gZuPjGkenx8FJdTarnq3WyWxAMw86e9glyDPaXKiSdgC8wNish4wbX4YflyRMTapZsHenW_7gtJOnVFaZrxwllM2ezht5OkZm-97j94qXq5o6rA24q8uADUSxOGbX1WdscdWRoAdy7HSVocA11qRNxdcY8wPiSXvIQow9J5Mt_JamrsNeEht-zW_ZFCoWWp4dWBUfVAOWS1QFBhx27uniRmsOvttouMbxQznU4Mu52PgAXj0bKHgBVEJKstlZzKrSpT0_oX-QJAPMW11DntRebMunyyb2nthu8MQseb4er0vnu-fb2Bap3JBcwDG36HKK67kGoU4lpBjqFVX_JacoyiXiW9f_xtRBZxvzTksaNuAQ_EE5A8j87BePRCOFeaabgxxBmlVXxoZp2bAk-JmQizi3aKDStmdIsaLiWN8WCkNDPZzvM_Fos1UAvzBf6PugeZ7oOpAmp9EIbf0JCmVdyGuGiWxyWzVXjOyt94C68aaMD5iKe29Roi9mj98PEsMSgSfq_wFYjMb-_k1Z3cO52PGSYxrA3cz5JEkkPyZEqR1wWAPrbsUygHvheaBdcKbE-PMgKhaE4ID1rwHaNME7M4L1SSH-jz6uE7_v0OuKTBBEnVtmugFrRXaxa2Z9ftMFF2no3HNjoD0q-L7t-zjPTADcxpIBxQl8njOM1vZ9vJUWXCQT-iwDE0pOcBHVPqkmR0Ayti9rbV7r7ojuFC3k8KfvXI9w52UTwBTyTz1joJDW4hqsbAvkIUp4YLjJocc9VP6EBFTCx5df4KGpl1mXnRlKWkipZ_WCQau1OnMuYKpanm0afZpX9pE3lSgkur8MlbSoW-VmVU3esup-OEqkSAQNcvhQl_vvaAl9tDWx5kCJ8xi75LQC1hNApD5iR6pdfDa7YZt_hVYwoReGJr770bK8SGsAwRBqITLK7uaga6jT45Av9fs0DuYV6Ul5JgLgs_gLI1-NM7YVEFcyZWILbi_4rkSpR2EEmiPBnVgQLMLzf8liYybaX4f2ffZd1Hk4ySuL_9Ugozj6NuvCPqsrJroTJiCrPCzyF4k-Q9pRoJhR5TEkm0FbYFnYz4doElDR_g9WfwAI8-nNj2Q4gdojEuzJb2Xkcl5b06KM-_usvR0YCfKpICXxbx1tHc2e5PXmtrX0yublb5ZKmUlDdD9gNno_ZV1mbGXx39CJs_H8hdFhhuzKyu1AOqe0Dxk_61kxCnrWUpZ9fTfabRwmm_BHDM8J8n8iApeE8XoGBTyoMlj90rlMlP2LL-a9l18OE="
+    },
+    {
+     "id": "ws_0715eb3eda826c0a006ac508561c0887d2ab1b24ae71072a07",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:vacheron-constantin.com 4600E/000A-B487 silver dial",
+       "Vacheron Constantin 4600E/000A-B487 silver date black alligator 40mm",
+       "Vacheron Constantin Fiftysix 4600E silver dial references WatchBase"
+      ],
+      "query": "site:vacheron-constantin.com 4600E/000A-B487 silver dial",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.vacheron-constantin.com/de/en/collections/fiftysix/4600e-000a-b442.html"
+       },
+       {
+        "type": "url",
+        "url": "https://watchledger.net/brand/vacheron-constantin/series/fiftysix/4600E-000A-B487"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=Wl6qMahnmDU"
+       },
+       {
+        "type": "url",
+        "url": "https://vericog.io/watch-references/vacheron-constantin/4600e000a-b442"
+       },
+       {
+        "type": "url",
+        "url": "https://www.vacheron-constantin.com/ca/fr/collections/fiftysix/4600e-000a-b487.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.vacheron-constantin.com/ww/th/collections/fiftysix/4600e-000a-b487.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.vacheron-constantin.com/dam/vac/catalogues/Vacheron_Constantin_Catalogue_2025_26_FR.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://dialspec.com/collections/vacheron-constantin-fiftysix"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tourneau.com/watches/vacheron-constantin/fiftysix-self-winding-4600e-000a-b487-VAC0115289.html"
+       },
+       {
+        "type": "url",
+        "url": "https://watchcharts.com/watch_model/22921-vacheron-constantin-fiftysix-self-winding-stainless-steel-4600e-000a-b442/overview"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hourstriker.com/database/vacheron-constantin/fiftysix"
+       },
+       {
+        "type": "url",
+        "url": "https://www.vacheron-constantin.com/jp/ja/collections/fiftysix/4600e-000a-b487.html"
+       },
+       {
+        "type": "url",
+        "url": "https://spacecitytimepiece.com/watches/vacheron-constantin/fiftysix"
+       },
+       {
+        "type": "url",
+        "url": "https://www.vacheron-constantin.com/dam/vac/catalogues/Vacheron_Constantin_Catalogue_2025_26_DE.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://chronotick.com/vacheron-constantin/vacheron-constantin-fiftysix-self-winding-40mm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=rzLJVDJXpMY"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/VacheronConstantin/comments/1wp12z9/fiftysix_selfwinding_silver_dial_no_longer_in/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.vacheron-constantin.com/dam/vac/catalogues/Vacheron_Constantin_Catalogue_2025_26_ES.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/VacheronConstantin/comments/1mgbxm2"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wlo18x/wts_2020_vacheron_constantin_fiftysix/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/1wj8f0n/wts_vacheron_constantin_fiftysix_4600e000ab442/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.laurentfinewatches.com/watch-expo/expo-contemporary/pdfs-contemporary/Vacheron-Constantin-56-C-09-25-2017-by-lfw.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wdll1r/wts_vacheron_constantin_fiftysix_4600e000ab442/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1nttm0m"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wj8b8e/wts_vacheron_constantin_fiftysix_4600e000ab442/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wf9dl5/wts_vacheron_constantin_fiftysix_40mm/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1qhn3o8/wts_2025_vacheron_constantin_fiftysix_40mm_steel/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/VacheronConstantin/comments/19084j8/removed/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wl685h/wts_vc_4600e110ab487_fiftysix_2023_12500/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wpi5co/wts_vacheron_constantin_fiftysix_4600e000ab487/"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Vacheron_Constantin"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Vacheron_Constantin"
+       },
+       {
+        "type": "url",
+        "url": "https://de.wikipedia.org/wiki/Vacheron_Constantin"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0715eb3eda826c0a006ac5085ac8d087d2bb50f10d0c91040a",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxQhf4sdVcUaGmSdV-tFAE78wot8xVAVi3EofXAQBL1eEuzEBfPwnonkXIjA3x0rv7cBeRuFuyEgRre7_kKd-2kqcg0QWRj2dyBW8YRQ8KokRiOhdvCD06-o2UrI1IET3YdwyrsIERuJ0wVyUoOTnylqq697R3hrOZJDLjz2DBxCfnxQgzRziTPGE79RLqTvA8dAaze5R7ZEa36YzxioYU0wV9q4ud286FsiHyyZPFaeJN7DkpBSP7l3-cYqyAv64d4UeDOyyUBh09ko0Mr5o_QExTfo5Fflm4ewqB7rLoQreS4u9S5A28hdBRuVgpHAs1sQnRAtbsOlBbIidOX9Msmv_A8rt-3XbNxTZam5m5ZSj5PLZINgUo-nVgJibvK2_ogxPRB_-ktOuLezhjt3xF-U-_iUVLoS3heKb6EA9g6grS-f5q-1iQkCD7iOOC-ZflE8dC682ZcNNqXH9Ztlb5Gy2jaF6qisjdUYXiqF69hDJYy9ksqQ1A0e-CSH23NcT4G5ZTVi1LY4kXN4noHSgUwYuCe7lElcQqzecnZ3bzgm8OAwOVf5Qop8Lh9_sylsSi1ovm6w8dvh1oab4GpVAgeIO3jLmOCCjjXsdyIBSzVOsyaPL2_zbKM_xzV2THjdF7q9_1Odo_9-chcIsnvvY8m9oxWezVwQpPdc1O7z9O1ET5tktA5qyJ_5WjtR2w0gNWvbt9R5xAxrHeCuds17frGKNPEi2gw9ava_gn3p0kjoLSs4Y05nDB8RjwNu4BGspQOtOV7E_xD98gsJZkn1PDXNBQmPdOG_KaJfT8-_tNEYe89_AfOHv4y4aI2nnQemmxIHr4mV_XxDhJYWe27RL--mj0FZVd1NhKvZCyWhKGiOJOFQH5p_xaoFsUmXaMVleuAmpSxolQ-SmrjPKyvGZoeYGfBo-WVFX5uii3acuSeTlCCMkknVfTHNJjtHBal8Xrq8EAD7GfpmD4DQ2nD1lEp6uACRQyVLUBxn-xkjCexVVWiM-kCu8KeT2miK07zc_9KU44OM-NeWyySZQK-rE6Vty-7vqJZqBFxbwilTu0NKal1XsVgjxXPtNB8VP6FC7dbvYB2Hg4AQwBgn1RqtFHc8XPLFr7hhbG2kqxuXi1P6nvQOhxf5lur1y2nUSonRoR_fB_5jhcKgvFP-iizHAU1S--19A1z3sE_PiQhcl36m1Ehu-wTQmtbBRW7GdWD-W592BxCksjW4cQjN-Zi8aKUucQoLJwMXPokjv1yaDsv2BezfzT9OKefUOKo0I5bunfwFUU5FM3KTZGFe8YHde0h_aCwkSXhWz0k77XYoO83wLxtgbA3OVAkRXLet41Qq3yZb_dEiriz_GcACrYBo_2gxeGLKf68--FbYOCxsxw4ylTLzgxI7mvKqZeg2vRXghiSz4CtKtwJxPAWhF-gh3HcHffD2EAvPz9qdbvyRgQjrCyNFvt3ytrORDP4cHti21KqAf24SX3f4n-UJJa_af99-91FQ1AbupTDfVTuvNwaJw2W5eoRAsfkGNBub9acYZtYNInc_k1WUOjs-kVTonFMySFcbSppfokpIeg2pNCQzJrBhzW3fJguKCx7_gv6bKQZXflwt-Se5G2vgC5YZqKU_Kit-X9s9ZstZumf3XFbqWETjNJzZGwXn3vRdig4jVTQl0SIpNuUguqimrOiFBKh5Lm1olMkmxQzGsT04J4NpH6zlfMwOa60XaN9SKRwIS8mS1_kJwnMsarUWG3DXOrUMgXaJT5HePz2bwVdLTak25u6La5bElJbL1cGsmQ-Xxco4A3n9OA-LacC6JfQ6rYPAU8smYHh8Dgwknpr3mXZkmXPOdfGADjoAVTquYwC_E4RRkDBpkf-sagtYNWtq7oNIxGReT38b7MaQlr0om7foUryelQr8iJS_bgiU1Ebd9MrhAspLUWCAL437gBRlPVNM1WD6gTFY5XHIuzYh6FjMTenQY8k8TUdKJ3wXEN6Zxa6M3_R_KeVNfucbaLTl6Mv-IDgo3D7FI9EsjsCnTq2WeeZMQTqTDGWSYU8fUzKw44a15O6lDRmIOJ0ved6sBi_mAFImwOxc5C2tShSBPbR5x8t2hFwueTCBAlxqcdNjbPngX-571rqojzup0O7vT9QOsdiZ74KzawXkzoxzA-pGRTjmlz-k3udC5zu1vO20exDExqGXxdM0o_KHgsM85l4K6BhWtlzxRnJV-VBB9KvhwB-GI6tw32OVTSaP9Qlafjuh__vSMqBjxIS5IQpeDP2AMXKSUduUQsrOHDbaY218V8tYqPtjnA52xL1WMkeceIe0EP3DdgivZ-dknAPuaQZjrB5XGMdydn-ArqvLdZPnJkiKvTLm3Nunn92WwzTifZnnK01Gcmyq3I90DuvRoUcScRkqJs7d5fZF5M_bEoLEqOXjMk4fvcGsHMXdq44B33XsCGwIfXMqSQz1AG7EfQel46A=="
+    },
+    {
+     "id": "ws_0715eb3eda826c0a006ac5085b8a6087d2aac5216fd17aee5f",
+     "action": {
+      "type": "open_page",
+      "url": "https://www.vacheron-constantin.com/de/en/collections/fiftysix/4600e-000a-b442.html"
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0715eb3eda826c0a006ac5085cc37887d2bb9a6582eae538a7",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxQhfa1MmZfHs4wO87SMChXZutFChI7bhs5U43TyFfwUv5Y1puZ5Pp2UlKZRSRn0_kIw35d_TnkPCvtGL8Nht86V9pmC8frhwrgWBlfUbtH0OGMQJzKcdI1TddlNKVm6biLsyfewf4-dfZUP_l0_wyAM9zvxT_sScNqDNq4F_02cRMKn_6L-E6iK9inIMYRxjEzlzNtsXMFwqQn5D97OM0-W8vjF5XVvxxzpg4Yb6tCkGOmk_VSqRT1VZ0LhEvqVHu8de423lZBn5gfne1Y3gECd2FoQvA5-yn0pRb3-sHusKJTceClo0MA4_aDt0KQLR_XiG38gjQiwEgZTOXMT7BkQDBvjbx4FoCsZPl2_7NP153GEKY1IvmWeFZnNTOGit1d66fQ-SAyGyhmhdvqyZcf7mewwdPEjMnwe1e6t3GUI1lWsaKnBfppJBV8Vk13jOhKRekef8GOBqxufmJ-4uqOapI5LQdxEvltinRqhSbpke7AKzFA9xWr7IErFPn-VA37J9OhBbV1gVPf7leAcVPAoW4Gl71HfCJNx_7758M3E0ZPUarPiz7BEE9SKtufqpXhso1P2hvfZSAy7853pyfvPt2lwNWDL4gqoDaOFEUEnHmAkeuXpJG-_0r3NduQFf5d5oX8cE4_1eqXYcg38XiR9BTGF08T7jicGr0StbAEtU_GgILJm0YB17tROQT7un_sEZDFgiSEcfxjA6l2HIzA5gjqr_k8ApeHwtuH7wbrB19BdmkrO7_SFbF__-8Qw6W-D71KD79Qu1jQ_ssf7pnp16Tj9BkgxM8Qh6HaAX7y9eYDYz6GyP_42ajT0NOBZn-93_a7DPUtYjqvvaSjBlL5JWPKkMcucB6cTZpur5uOfq598T01J5PNtXwiHKGOoXmsxnn_Swi6__a3yL-ykiVKqZJ9DLtqK29s8TrdSopa9W_821gyloRqesmD0W13Au6IgiV3tcfsggK8Ipi4hOrkQahB1qcLmHPQEEZh_W2w8_MxU1-eGqSPIaVkmPT_mc-fl9vcVzjhCWBjTC-zSlterdlBYz0s_e8OY7lTb59uxfwUuLOJo2jsKg-hA6Xw0zPNH4iguVfe0JCdaTwUKRQfeYRJj-3MuaBAbxdjJSEeVBXJSu0ZekhaWpgDGFU0WLp7KkS5gidNkp66n0P6D-BCMFkEQarDRSqkb991zJ10SlCCDCqFhQfncOjDbOERIb5V5UIxz_fbZSjKvfwa3kmMt0_0CmTYoph274QQSXzlW8-c6zqtBLg5D7-hc96kLGJP2ibZ8XVQsDKh8azKPodi0XhX8mpF31jkQ27NDLK_AEv1pbh1zFJ3ohUptBpy6sbEc7dtsgX7j7OOrYjBIKb0ZE1It_W5i-5Hclosl58u7G9bPYJH6TA6BxzbZ_mugYCqcsnvq7LEgHxRwsis-ABxBmdPOcoz3qIrFOZW4ECyieyOGOu-pZ0Ikbafp_4lU6mtTkq6AvfW_4qnWi6zt3TYsCGeaqYVc8qNCEcV_TpyiT1QgM8KN2AzEb9jxcuXOQu700-EVj3e7GSPU1C8b8SGkWHAxVx7a-clxIAW1u7HbpBFsRONuLGdEaWRxlqRWrDiqr3RETqwiQkQNPZD4OoT6BjJS09tHEzHWupaucD2wtrjNFjoYRTte19oqVm4uegHxptoKaDQtaoOzar39VS6olPn7wwZXEERt13OC-SWpZ7n2p9wBwuTtJMp0OvAMNr3tbGNto2uK1M4U5N96fckf9h309HvE4GRRz29QhApESLfLe09zijHxItfJ-dU1IJ-Go2a1zoy_rPHBnFtGD0CWULSxNPh3GmMv-p3FBOhS9ItH9sIfZ43vPbxo46yzVq7X123oOz2wJ_NXd7D_U_ZlRKW4s-F3K7raV-vR1oiQqS13ZW4dLxJngdIJEmgXdsVb1Oig-PL01Rja8VgBlVOtzoHJlfBhF-dJU86Qz7tC0Yi4S67qvU9vVOAdstKPvMmxVwZNRjKzaIbarvVm2-5LPvWH8hsUEhi6iKHCfORfwYMOtXa-YiHRCfPmHt9lRNV4PDqrkVLHDJZTMUwGRItHuh6B1jLIxoDulPiVPrgEXpb8lwOG3PURM3asieEMcLk-1OZOnxdakysXHONVKuJ2M80GbwWtZzkYYiQwAJSVZTNdwT6WpCmbwb5ml0XLQVKmcw2nz7kGeP80KWVaPLAHpNnpBQ5k_abtQZTjuyp2oo1Mnorbfu0UsPK1Q-AYEYIXLkO7U-GCSo1WSq9N9dCEzp3DGPCeNyb75YArJp8RNOcGcGnKR6N34wfjC774KFrgCBz_reRBfxAZ9Qp85vMZu3zTeareDTUAmWCfXQrmeXJrvmp7trpGhQn3RTK3G6jj_Js5kTk-4kPuP17xrjiz00OqKJ9qW5TjtJz_dZEjwGSDkumtR93vTXnBjlWoWhLNmeUN3an2Iq-zcRAn8YHKuoWosSgWrDjM2dtraEPi4Zbw="
+    },
+    {
+     "id": "msg_0715eb3eda826c0a006ac5085eaf8487d29ad251f60373130c",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Vacheron Constantin\",\"model_line\":\"Fiftysix Self-winding 40 mm\",\"dial_color\":\"silver\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"bezel\":\"Smooth polished steel bezel\",\"case_size_mm\":40,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"4600E/000A-B442\"],\"confidence\":0.96}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791297631.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 21579,
+    "input_tokens_details": {
+     "cache_write_tokens": 1354,
+     "cached_tokens": 4723
+    },
+    "output_tokens": 675,
+    "output_tokens_details": {
+     "reasoning_tokens": 578
+    },
+    "total_tokens": 22254
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 1
+    }
+   }
+  },
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

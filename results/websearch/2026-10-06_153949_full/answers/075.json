@@ -1,0 +1,492 @@
+{
+ "row_id": 75,
+ "image_file": "075_iwc_pilot-s-watch-chronograph-41.jpg",
+ "result": {
+  "parsed": {
+   "brand": "IWC",
+   "model_line": "Pilot’s Watch Chronograph Edition “Le Petit Prince”",
+   "dial_color": "blue",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "bezel": "smooth stainless steel",
+   "case_size_mm": 43.0,
+   "complications": [
+    "day-date",
+    "chronograph",
+    "small-seconds"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "IW377714",
+    "IW377717",
+    "IW388101"
+   ],
+   "confidence": 0.93
+  },
+  "raw_text": "{\"brand\":\"IWC\",\"model_line\":\"Pilot’s Watch Chronograph Edition “Le Petit Prince”\",\"dial_color\":\"blue\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"bezel\":\"smooth stainless steel\",\"case_size_mm\":43,\"complications\":[\"day-date\",\"chronograph\",\"small-seconds\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"IW377714\",\"IW377717\",\"IW388101\"],\"confidence\":0.93}",
+  "input_tokens": 14191,
+  "output_tokens": 830,
+  "cached_input_tokens": 5771,
+  "reasoning_tokens": 723,
+  "token_cost_usd": 0.00131471,
+  "searches": 1,
+  "page_opens": 0,
+  "tool_calls": 1,
+  "queries": [
+   "site:iwc.com IW388101 blue dial leather strap Pilot's Watch Chronograph 41",
+   "IWC IW388101 blue dial reference alternatives IW388102 official",
+   "IWC Pilot's Watch Chronograph blue dial leather strap 43 reference IW377714"
+  ],
+  "source_domains": [
+   "chrono24.com",
+   "iwc.com",
+   "watchcodex.com",
+   "wristcheck.com",
+   "bernardwatch.com",
+   "hourstriker.com",
+   "watchstox.com",
+   "happyjewelers.com",
+   "chrono24.de",
+   "time-minic.net",
+   "reddit.com",
+   "youtube.com",
+   "insidesales.com",
+   "spiralmagazine.com",
+   "thetimeplace.co.id",
+   "en.wikipedia.org",
+   "t3.com",
+   "it.wikipedia.org"
+  ],
+  "elapsed_s": 104.172,
+  "started_at": "2026-10-06T16:05:12.707423+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_0c4eb59edf4608af006ac51c968aac87d2851c3149293ee6fd",
+   "access_programs": null,
+   "created_at": 1791302806.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0c4eb59edf4608af006ac51c973af887d28bec231d98685a16",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRyhofSGGUkMip64tBf0S7FWsz5e8bQ6bw8hOl-4AtYanVdzgaR9e6BJy6WOIN1wd_xdyRQcBtZVWRgR7H8LPgPByzTciWbTynjawDv5x8wLeRWEKcMQK3F7D1dIEd8H4a193NstAFyKlb-Ws16pVWH6bdWtYzb2mqBFRB2FBp_p9-jLnQm0FsCrdB9PVWejBwqQMVax5aFtwrcQWn4LmZZQN5nMh72pTywCiofHJj5EiTT7fz6RXBSbGt_1yLoZItvv4_nIg9vAQpyXGQSCT4wPv9DTh6fSv7n8xPc5eKYezoI1S96KOjIjpYWK7uuh3mr7_N_119HrTd3Lj_PmpPwJ-lgy5kGr0E-J595-gN2NFBY8OAnCGT309qwjWmNVQzhM1K323RNW3FgHv4SkjruI_CD7YMoxaeSN-OjijMLvqoa3J3IfTDAYKf0oOgAlyH0Ti3rbGM3MSmXiruRP5SE_jk2Bef3O4pkW_VTL_ppA8Q3X6jbRyOFK0pFRwPSdVbH1j2sPRSDsRp677JDd8uuwuapwi_D9Y4dX_E8RD6_68L4H3WfHC4UKFbsjruQbEXOLSFzwNSLz6ns6WxGVHxd202FOb4M61yHgqHxbXewMEJ0eB5B3uPk7XEG6m-JdmGPFAeZ2LWrgd7O8lG3sfDqwWK0twvxplXK1JtysMJXqp61UtEDIh2UiSvA8qbWc-EbAUxTSWPWmnbnTJ90FsjHfu1SvVgyG4S-zR4OYxlxmNbExrQnrnTj3c0NAkAlWDsgXBlbelhjepqXILeZMCGdsZPUnHcIJtAwm_p97Ahjtq1QfYeaIHBWzRz60QdQnvWBbIw8nhyZhpk90jT5AuhJUkPbKqq9xaReRbJ3NETSXfdP_FT6gcEVte11mFPdInVlNCKNxt3islWSeklG1u7RA6NmoAHPvZn3Nm2kwXb5941rxVQQll4LAlFw9wHvnAc8Cbct8ugSTkySrSlAJOBax21f9N1AiEqlfkoImx7yIiQTgnC4Fgn1WLYDGyf5zxjR-H_mTg93aNRNA7PmUAtv2FnhoGx8SWYKugCRQA7H-AQy2O0nqBRZ7cu-3A_X07CXDdh2xOj4-ZkWLpKsFEZMh0__9OBGza89aLsXEaZiVoD3XFVh46-FPsrapQQfWLLqYSAJPq98MX0fY0L2WLCfReAPP4bhFjqNEGiXS3ur-UWChKo38rGvvcoCoakiwNPmKXjXv_pJZPpa5IFuRbU6w9myCd6AXi90Zbd3F5PX3VPOL3CeRFSpjimzJ_UYd05_2el0mDEfIJf0E72GjN2Tf4ApwsflOh2gVRvoj0Luk4TEJnR6RicccFwi5aZmevOxxEEOd3ttf2aUMblrXdsV7xffLj8hdBt0i_Ywd-NfACzgbdIv_ToWnX2goK2NRVa2o7pwW2Kar5X1w7FMFDgitLNr8Xz0lEQIie5vwr9utBIFi39rCmZO3FzSNAiRNV5Co7maPMkY7DkD8NqybH7sybjbiIV0ZtcMWByHu3tx1EeyFKwrM_50rrOlM6LSTwUKLa1QN5J4Q_k1FEYg3v2SF7fXCftw2ziqhROoNA3gkheQzTKr-0kqpXaOd-9bagS_glvFocNauSh_441cEeLVvfQ7vjh1PB0CGiEESKzCEszrCDcPNjAwRETYLjE7Vj1X73QLB5ndKG333Ane9--RWlYxSfxAWpZF9r8udNlN0VndXtUZM3gUsIQi00IczVWPVescI1TqMmJ5IbK8DHoSc2OWLkajqfgdk4gzQOOz7deMnrU8E_TIp-bnce2uKitsyrgajesHfqOmsiBGIFs7nMwf7KPMFB2tL2w86oxC92N1C2Z3m9CxiEg295fotVVhXboZAc5mc96z_vnGEYXF6ZXZ3YrlRldEpKvZt7EwzN7g="
+    },
+    {
+     "id": "ws_0c4eb59edf4608af006ac51c98cd6c87d2be347b50ee31aa38",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:iwc.com IW388101 blue dial leather strap Pilot's Watch Chronograph 41",
+       "IWC IW388101 blue dial reference alternatives IW388102 official",
+       "IWC Pilot's Watch Chronograph blue dial leather strap 43 reference IW377714"
+      ],
+      "query": "site:iwc.com IW388101 blue dial leather strap Pilot's Watch Chronograph 41",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/iwc/ref-iw377714.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/us-en/watches/pilot-watches/iw388101-pilots-watch-chronograph-41"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/content/dam/rcq/iwc/16/93/03/8/1693038.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://watchcodex.com/qa/en/watch/iwc/iw377714/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/us-en/specials/pilots-watch-chronograph-41"
+       },
+       {
+        "type": "url",
+        "url": "https://wristcheck.com/us/buy/iwc/pilot-chronograph-stainless-steel-black-43mm-iw377714"
+       },
+       {
+        "type": "url",
+        "url": "https://www.bernardwatch.com/watch/IWC936"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hourstriker.com/database/iwc-pilots-pilots-watch-chronograph-edition-le-petit-prince-iw377714-40340"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchstox.com/watches/iwc-pilot-chronograph-iw377714-17413"
+       },
+       {
+        "type": "url",
+        "url": "https://happyjewelers.com/products/iwc-pilots-43mm-blue-dial-watch-ref-iw377714"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.de/iwc/ref-iw377714.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/iwc/pilots-watch-chronograph-43-blue-dial-iw377714--id48362857.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://time-minic.net/pilot-iw377714/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vc6ec4/wts_2018_iwc_pilots_watch_chronograph_edition_le/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1djq8em"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vvqzgu/wts_iwc_pilots_chronograph_le_petit_prince/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1l3lwx5"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1fzt28o"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1klx6k3"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1g80pml"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1t9rnxu/wts_iwc_pilot_chronograph_le_petit_prince_43mm/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/124nhyh"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1tyhjkx/wtswtt_iwc_pilot_chronograph_le_petit_prince/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1fu2aco"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=yx-Rw5EHIA0"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=81fZcYh_uBE"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1snfi0e/wts_iwc_pilots_chronograph_43mm_iw377714_le_petit/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/content/dam/specials/iw377724/manual_ref3777_eu_iwe05663_1534311.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.insidesales.com/wp-content/uploads/2020/05/WatchSelection-V1.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/content/dam/rcq/iwc/19/61/99/0/1961990.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://spiralmagazine.com/wp-content/uploads/2023/02/Issue-202.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.thetimeplace.co.id/wp-content/uploads/TTPM-77.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/IWC_Schaffhausen"
+       },
+       {
+        "type": "url",
+        "url": "https://www.t3.com/luxury/watches/iwc-launches-two-new-race-ready-watches-in-partnership-with-george-russell"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/International_Watch_Company"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0c4eb59edf4608af006ac51c9e4bf087d29dcd49f588225211",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRyhtcak3pDBJGl0HVrDP0VVjGK32849LFAMo_TKkrFIuv5VpTMlcBmtD-1g9lG0sk6cDhbGEsT7yPWAafkGIsAhfEPo9Yi3DFNAxIazV45DObL7WulFcNJtnB4BLtGCiujdiAJ4CUDgDorHZjezLW_wWnEpeefIHb2txejtlFTlJY3Cm9g-6QAkYZwrmpK9vlvVSpX2hQXJIUXLBbGAseSJ1Sd-Wuf_aalGzNxwb62aZWA39nfCipcoWWW5iGG5j8x2UpU17iczN4HOpFYkewg5ADYL7PYpVoJPdDfIJ6-FsKLizrj9SN3ytaHpWXYY4jB_7OaB1lbXuRMCM3nccRogeDSrq2Plgz8XViit0jp_Hq3d5r9Oo4i75eO1CwgymvYXXte3jcD6milFpLYiOBujojsAU50xtEjVu5RvRiKc6GlW2QIkgXhC9nULnDCyOJB3HxORXJLFq8RXxzGSwEq2vf3j6A1jdjf1KGabckDHoJAN3iFY53e3klb9iBJC3mmDHcQcs2lbfOhv7nkadLSYP5A5zaQMo1dAuyN9l4KKj9z2Ld6nFUlZk9KG9jB3kOnl3ATX6H-KFfp9lj7Rl8HinzyyCirlcaabKrJKw51LU-r8UKgekfNUzw0XFD5wv5A3T8y8UyUDNkj-dwGEY7DNkoful3vrHeGz7U5ffQcKdZU7YPNAtHSChfkCfqrvW0SYFecubOOYt7PZYcuYQHP8dE30giJm6nYD6iUZ5oDUJIDxiDTmKZlb4VhQKrL7KDn5HvehEZTzK9-qGB1DysXm5hqB9DGeSdhdmTd58tNEKnXj0ZEML3CcS5G_-33KabetBsIepAEB9sRu9RhoBUpJ3POu9146yAnH-9vAXLrgGnnp-x7MfrysHhYG57tMW7LIQFEkmkFk_Fd-4BB7c_qicylbcreFdzrNwV8onakEt8DYdp4P9bQFVaJjDdTKctT0878sSByd5-EDthEGT7MihXWx50Ly8MpZ74xbtBY7Q9VkPK-HzFYaWltd79EDzF1NufEJGcFHJxJQeZ4KrJx9kesYfKyb9VzZCw--gC9W0N8G1XJhGg9Y6ud97mV0pXhosobq0RoH5ODzDZ4cM2BZAWSW14fbzzA3QNSwqkD-_pNCoVA5GDCe0zVSgwIr_fsaC5YybOrrJ0W09mKrn5wiUjLAHD3JAcjYM_EgDs8m_blVTzzRGSaratLTQPz_4W2BDW5RA833Hu31GXdFI0G28BwFW3JxZ7V2bm9DdyoJlSIsbNeAlxFA53Ozm-Io8daMOk36GAh1RniWTFBOpvHZNRsxLmUUGcdCBOX-gV1psOnbr8KWqIXZURH0yionhEMmOZH1Hx-c2kphxJvaWMqTzHqY-Z2S2EjrP8zofrya90yQvxvYeew54aLF-PzNWiYmlk9k6D92SDa7agI4fWnVjUSmS3ih1Xly9tWjOid4Ajm9ElD1BIbVn1xws4vwJzqlktgbE_SQrZmH2HHSR0D5X9_lvlBuL2gEj0kklxG4MPhfiBPpz8v_hVmwXmKQHHuFi79UgDiYD0AHXF2DH5KSwQNHzDArssHo7abViFI0CIAMbNEWKC28GD9h0qCpgatTo_IRH7MvlFL8rTSvObdOcDVjEiBKQ3m46oflLNpmgLeq-kzwA-GhkCmoqyYGzRMa9K_yBZFmPpABXj_WjGc7X2LA-F2hmrEZrABCGadtkqtWU4Yxo6CGjFfBsRH4wNZlJEkZZAARetlZ78_OrZPrucuFZqtDicLNp2NW7Z-gKEv1XfUy03zeDWnxjCP2zx9NGnDFzW02BQx6dT2F_vj8mE4XLI4SbIp16MbpsMrTWGZ5e2HF6JNTGZoG922DAqyErbHDEzB6eWAMftIHAt8BZiNd2Jl0JG64FN64qTlmLLyj5xFpwPCUjmkM-cB6AcZrhDaSFhMFLX6wz4rzxWRK3DWSN0lLwQBrrXgS9fWFWOfy5fZ1fj3a4DV3hAYvfTGRJIEeGjx5tYxDgtgN5J-Nmr3R7DwJjGUmFAX69R540avJOtp8ft0rh95BmS9ZM1QS27goiJw2Xb2uXuHdRRMHfie0EMXvrCWF-ry9Re-r3kpb8qdtbhb8KiPNJeMk_H_lBw-2J_WCIKWQ-KbDJmVYXsH26YwS2xzS_fpZRhcu5nBckYFoCBtC9fw59bYIcGRxJsRPGGGPRyjU7w3pky4j6NsjzOcL_YRy5smDUogVrpIcPu3cyGfV7japDSn0-UjAW8GjiUSWbqSGkiOgRK2Sg_Z4Gk5Gd63-CncclQYv0XLh9OwaVWF1YsUecdrriEGpqDapgct5_Nus4E5pH7EVX0m8jLKIgnpUK_4WWU9MpQMxdZQ7R3O1LNPi1vy9tLE0--lQW59EDu9T5TV6gb5UlB57TV5NXK172BSp0uBgXAPL4AyFPu_UJTcK_0PugfQlctvARCSudgdLUKqDDjcKJ0tx3IRG66Nirr60S5XUQYciw9JHfiJTncCoA0C4OEdQk4Qy18fdXRmrZg9W2dfub_cwfoLF6kHbKLAM4dDWVo3FzBORkaAvu2DSi6mby6Svflmf0PyDOWB-u5zc5E_LyPo7hDTc2WG7DSBV_Lmn8qian_bCLOgSaJgx3l8AmmBEUc1KowKrefxJi44C0-y3TU2w_ZAzWbV9ahWvMIhmcTMdrZfMXz8xflu-ImXROLbdI6Vyb6XXr3Pp8wMdoOxqvenFoOfZrrysPmtV01IqamCJsJ8fZL3Tj7ThjWgIwyKiBDcnp3sMBOl3ZyrMNO7eYd0UvHV6SRVyIdbBCBudrhrS2ovpIRI8UhA7AUuRtEcA0Gf_5Dp4U-ppq8aoSY0cJ05u_Qq8Zs9IHwOO80gd-0PXo_VdZ7kXbTXdNM_P3-pAvx7jFBnX9wOqtliBBzLR0dBzh1QarM1hmezEwOOjQW5ZmFY_CJOykzDlvFpb89aHDyh3Fev-6eelCYUUdaE0Yy8gWVJI5aWiqT2HFzHfauCsNs_UZYKvFUp6ugJfaRnYtzlup1Jphk00qxw6M3LECrKC2RIV8ZweeLqAhHRnKWp8XSMcbYsKMqOCXagllo1daLRstRNrjleAAylXFPJIFnA-vPinB2JEgjbyn45VCBFixNLNWxSasxq-UxQXCJhjDWPtra2GLETtHbrpznTKGlL8Nt9OSl7_3H65tE3x_EQldnu5UlGGsAn6FtGAzCQFvc-On_qpg5Cacdh6ESY8l7caE7g29KzJOXv-dJSSMnQGvafUTcTx8kfLXiuquVUZQgk6-z3QuJrW5izJx0ya8cQSIn6m5SnndhWEB0TKJtZqv7b719fPWrTJfkiqJAAhD1JPM9W5mEFb9DesqugTLndSilHXlbomHnPRg86NAygHWco1VkL6DymxC_hz3kHwyXLAPKpfpvUTVD5zAe0I20OCSRYgDQ_ZefYEL-ny-2wXouzwr4PFFn2nq2eJRJKq_uF0SkYI3_PKYDiejOOAMrkpJFQ8ysD-qCr906u7mk2Z378Gj5CC1RMPF1yT9dfmh-Y6kodlf-uothIzQR_L1Z0B6S-TfPRJYc_6cTk1wUnw1Qg0wa5lJyD3UIPlpn17rkmQ_zYSAVZ-2Qw1-D989f_cgUBYf5oWHUH2pxwdRMgPVXKtFGytyLjFmHfQsUp_EkWSWVrYfmSN0Eu8u_h383pgTDT4qMfZFRWtPQaT6yMEg04jmfMmnQ3N58wi9qjGUZ8O4MqL7dNQo8Zxh7lXQFByrebNW-ihqsdchDU6nfacGHIz_Z2WdDjq4AJKe0VpLU9YYHgGJWWFbXbEAHst9pW2y9DFx5qf8SPrqWfRxxJWhW1yw1exaIlzlqox_E3gjSzWSDgzIe5ct93jgRgYoO75KXjEvdGpslM5Pn28T0XdtYRG4izUWURyV6qXDR9nu7Xx0qSd_PuueGbaMiJXp771SDqpclvdA6z8un1z1mntmsq67tN7jNqGmalqySZRWfWELwWVU4AghvTb8q2mlwJx1RNVjv6JWYX_uiJNWvfYAIclI_JM0s708_PUOYi0BNypdrywruDNd5dub01aEyE0UX65H2XDX5LbnIss8ggqcaBM0MQeEtGUqXGqOn9a"
+    },
+    {
+     "id": "msg_0c4eb59edf4608af006ac51c9ff9c087d2af530b2420260539",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"IWC\",\"model_line\":\"Pilot’s Watch Chronograph Edition “Le Petit Prince”\",\"dial_color\":\"blue\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"bezel\":\"smooth stainless steel\",\"case_size_mm\":43,\"complications\":[\"day-date\",\"chronograph\",\"small-seconds\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"IW377714\",\"IW377717\",\"IW388101\"],\"confidence\":0.93}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791302816.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 14191,
+    "input_tokens_details": {
+     "cache_write_tokens": 0,
+     "cached_tokens": 5771
+    },
+    "output_tokens": 830,
+    "output_tokens_details": {
+     "reasoning_tokens": 723
+    },
+    "total_tokens": 15021
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 1
+    }
+   }
+  },
+  "search_requests": 1,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

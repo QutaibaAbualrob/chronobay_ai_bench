@@ -1,0 +1,36 @@
+{
+ "row_id": 77,
+ "image_file": "077_iwc_portofino-automatic.jpg",
+ "result": {
+  "parsed": {
+   "brand": "IWC",
+   "model_line": "Portofino Automatic 40",
+   "dial_color": "silver",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "bezel": "smooth polished steel",
+   "case_size_mm": 40.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "IW356501",
+    "IW356504",
+    "IW356502"
+   ],
+   "confidence": 0.45
+  },
+  "raw_text": "{\"brand\": \"IWC\", \"model_line\": \"Portofino Automatic 40\", \"dial_color\": \"silver\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"bezel\": \"smooth polished steel\", \"case_size_mm\": 40, \"complications\": [\"date\"], \"movement\": \"automatic\", \"printed_reference\": \"\", \"references\": [\"IW356501\", \"IW356504\", \"IW356502\"], \"confidence\": 0.45}",
+  "input_tokens": 1703,
+  "output_tokens": 5025,
+  "cost_usd": 0.003195186,
+  "elapsed_s": 24.069,
+  "started_at": "2026-10-06T14:11:03.857110+00:00",
+  "error": null,
+  "attempts": 1,
+  "tidied": false,
+  "served_model": "deepseek-flash"
+ }
+}

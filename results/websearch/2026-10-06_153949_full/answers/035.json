@@ -1,0 +1,485 @@
+{
+ "row_id": 35,
+ "image_file": "035_ap_royal-oak-perpetual-calendar.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Audemars Piguet",
+   "model_line": "Royal Oak Perpetual Calendar 41mm",
+   "dial_color": "blue",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "Octagonal brushed stainless steel bezel with eight hexagonal screws",
+   "case_size_mm": 41.0,
+   "complications": [
+    "date",
+    "day-date",
+    "moonphase",
+    "perpetual-calendar"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "26574ST.OO.1220ST.02",
+    "26574ST.OO.1220ST.01",
+    "26574ST.OO.1220ST.03"
+   ],
+   "confidence": 0.91
+  },
+  "raw_text": "{\"brand\":\"Audemars Piguet\",\"model_line\":\"Royal Oak Perpetual Calendar 41mm\",\"dial_color\":\"blue\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"Octagonal brushed stainless steel bezel with eight hexagonal screws\",\"case_size_mm\":41,\"complications\":[\"date\",\"day-date\",\"moonphase\",\"perpetual-calendar\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"26574ST.OO.1220ST.02\",\"26574ST.OO.1220ST.01\",\"26574ST.OO.1220ST.03\"],\"confidence\":0.91}",
+  "input_tokens": 16818,
+  "output_tokens": 866,
+  "cached_input_tokens": 8279,
+  "reasoning_tokens": 723,
+  "token_cost_usd": 0.00136969,
+  "searches": 1,
+  "page_opens": 0,
+  "tool_calls": 1,
+  "queries": [
+   "site:audemarspiguet.com 26574ST blue dial Royal Oak Perpetual Calendar reference",
+   "Audemars Piguet 26574ST.OO.1220ST.01 blue dial 41mm perpetual calendar",
+   "Audemars Piguet 26574ST.OO.1220ST.02 blue dial"
+  ],
+  "source_domains": [
+   "audemarsclub.com",
+   "audemarspiguet.com",
+   "apchronicles.audemarspiguet.com",
+   "chronobuyer.com",
+   "dist.phillips.com",
+   "youtube.com",
+   "luxurywatchesusa.com",
+   "24diamonds.com",
+   "shop.hodinkee.com",
+   "time4diamonds.com",
+   "essential-watches.com",
+   "reddit.com",
+   "cdn.vintagegrail.com",
+   "content.phillips.com",
+   "chronoly.io",
+   "electronicsandbooks.com",
+   "mydevice.it",
+   "en.wikipedia.org"
+  ],
+  "elapsed_s": 30.774,
+  "started_at": "2026-10-06T15:48:16.799138+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_0881988cc029ecf5006ac5185486a487d2a504aa3f326ed085",
+   "access_programs": null,
+   "created_at": 1791301716.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0881988cc029ecf5006ac518554f0c87d28e9691705787e44c",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRhflRSSxebVn0-6Usac3f_9EXGHFMhfSNYp3XaZo3BeeV-cunhu19gsg-lLQbrD5Sd5f2bjw-yRzBbVdn8lgprcybawXrGjAsh2XJSS7D_GSHX9ben8rZopm-bcG-6DvCgMFOrgmePFnxAhuxb2mka27UkdjsFZ_PIwgu9gzs07zKDc1Q_CeGl0kQqBylT_3rfHWd-oKtoitol8QVEKkoSf4SG4r-P6nAVqqqzrrvhfkNhTcqyCF6QUqCtkDjfPXm5KaJP12zQ1zMELvUhian1PgzrlhhsM58Ks3a6xcwvboNC2LRr7TiUmlVqQOREhPdxeRMbbE-knc4aFrlrZJiOEhUJ8NLcd4_xMY_adLOspFG12fex2yefkWI0AItF2OlfpljiItMFHUnTb8J_WSrRwyv2liPFkJvRIu3DeRsoY22Gmc15LxoK1AWqR-YEq8IlI20iqMxNKh7kVAS7AKuyOIpo47eC0JxMBNwrr6-qkeCkoLxJ6Ij4BlKnw85YOh6HHSYm1uv1sjF0h1tvfCX3o5vURYevI8A-tNf4cGuvuC7ituiSvGIgo7jSMWH4vp3rCrxHy6RKSnb8RnHkL6BiFqQ49mfVJJo5MxIYXjUjSJQOc5KxaW5L9uJAZ3GW7Ah5bO1MVuKFfA89M1t-45bFc3yhLOAcF_n9TLHNlu-_X_bT19s963pdlIaJvTHq_ikLHpMFYT5dyrjdYdBLnVL1Vff237Hxw9LFPc5U12WFn-8_Pmhos0_LQfLYfKZx0ZpP8GAMYxeuSOJt5SWwLtPcY7rUVJZbJxfFFthee2auzlXeBZdFXKtFJ7oaXXT6D4Tt4yp60e1jiDZwwzCVkiPr9KrAY1Nc2RAezkj-rwUeOfXrHPC9iIldy7_ftx-zbLMLisbKIt76Q7Gnpi1Tky0z1Y56r2N8UPiHpyUwFzlRIav-D6D4m3hZxu5qwisr2yWW1cRkrFlcy9M-D9vOVoc5JFUn2gAvuTsuHXrMVV697q2dicJD4Cxrxo6J0S0fW1nouULx0fS34Wk1uHedqmPEygSB7rNkJKBcUXEfpluuLSiOxXLkJCTYrGmUiEWzcIVqASddYq4cluWdlpZA5GNBBkg0s1z9rQS8MNNDeS84U_7O0dql6ZMkom8WUi8-NjBHJJ794h4mmmBYnZPJZjQ_QOoKS_qbrjBWewRu7qJr5TgiWW0TVkoeEwe_FbGnEX5cjgBD7zxX34TS4Z1JBBoBkdG0rZS11Ie4YHBfM-ubEbEqCf8K8s3i7SYx5LSVBWvj_rJRoKZcOxbnV29VLY4Yq2RlXhfZMmHdWGO-yX-Xzk8ysXW4XvgwaM14l2NVSRXLlUpk1WZOnbuHjz7j-jQlhqhTdO-PR1Lxt_VvxvXHSwMpD0fbfKp06i3Cdc2Y5_wLnHUN23WSOskfQ4whB7ysjQkbmnRX_GJZjpLd4wUu8IXr606_sPK4M2hZ4M6TH1C6fnp4WKM385erfZZuXxKHHGHEGyFvYihiOKtYR2C8nbMM4Yy53KmikdGfvAb02wyBSyGBluBKyfDro51R5t0kgQc2_1Umx0jeYj5D6rUIEXGZUXREwAUPeFc7VzGoL3CmnsqetB4pI9fwAUENaHkDAJuQ1fp7B1ARezvh5dLaImQ9axj6_0Dw0sN43zdtq3y5AmQMUlqIuaMnmAAiXefcWmoUbNORZ7YCIIq6sX51gzMgR7dpjB9ES3oRVRR2VDNhE_A_oYENo_0HQUHGiqyvASBs2UACM6TL6waLp3APmUS6vzVL3XzG35V9GMtE8dfyolWrAwX1H7jmAv2wjV8cVkyEezgktqASGy0wr7NwtBmxrKc60rhcbcIJ40qAPfUKEi3s70wPuOlvdu_y-y3fCHVof5BMiRm8wUtqA2I_PZB6QJawC2n6TmsrHun5UXM2MFoxXvXh6Sre1ERCEdre8c5In7jJ9dhsHU1kWeaiyGdV-OvLHbd70HTDpLN6hgg_GZG3BTGLteAeEM_XjdKZZ0a--Ize-T26AdOUwQZHSsO6Z8_p-VDf9QRcGlWa2o-FmZxN3Boe56jlhTp6BN5obMeOO279sMAH0y5gdOVg3vTny4axDNgHgSd5FysMPOWjl4_WVZoO1JiZ8mbWIu4HSqSDuoyMIblAOMBPc-dG5OBE="
+    },
+    {
+     "id": "ws_0881988cc029ecf5006ac5185758b887d2b583d4a17df8ccc0",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:audemarspiguet.com 26574ST blue dial Royal Oak Perpetual Calendar reference",
+       "Audemars Piguet 26574ST.OO.1220ST.01 blue dial 41mm perpetual calendar",
+       "Audemars Piguet 26574ST.OO.1220ST.02 blue dial"
+      ],
+      "query": "site:audemarspiguet.com 26574ST blue dial Royal Oak Perpetual Calendar reference",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://audemarsclub.com/products/audemars-piguet-royal-oak-26574st-oo-1220st-02-perpetual-calendar-stainless-steel-blue-dial"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26574OR.OO.1220OR.03"
+       },
+       {
+        "type": "url",
+        "url": "https://apchronicles.audemarspiguet.com/en/model/25800-royal-oak-perpetual-calendar-33mm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/es/watch-collection/royal-oak/26574ST.OO.1220ST.03"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/watch/royal-oak-perpetual-calendar-john-mayer"
+       },
+       {
+        "type": "url",
+        "url": "https://chronobuyer.com/reviews/audemars-piguet-royal-oak-perpetual-calendar-41mm-26574st-oo-1220st-01"
+       },
+       {
+        "type": "url",
+        "url": "https://www.dist.phillips.com/content/web/auctions/CH080322/CH080322_en_5.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=Z2NZw-qJ-LM"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/collections/royal-oak-collection"
+       },
+       {
+        "type": "url",
+        "url": "https://luxurywatchesusa.com/product/audemars-piguet-26574st-oo-1220st-01-royal-oak-perpetual-calendar-watch/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.24diamonds.com/audemars-piguet-royal-oak-perpetual-calendar-watch-26574st-oo-1220st-02_31436.html"
+       },
+       {
+        "type": "url",
+        "url": "https://shop.hodinkee.com/products/audemars-piguet-royal-oak-26574st-oo-1220st-02-10-10-aud-qu0ygl"
+       },
+       {
+        "type": "url",
+        "url": "https://time4diamonds.com/products/audemars-piguet-royal-oak-perpetual-calendar-blue-dial-26574st-oo-1220st-02"
+       },
+       {
+        "type": "url",
+        "url": "https://www.essential-watches.com/watch/Audemars-Piguet-26574STOO1220ST02-Royal-Oak-Perpetual-Calendar-Mens-41mm-Automatic-in-Steel-On-Steel-Bracelet-with-Blue-Dial/68898"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/audemarspiguet/comments/16sft7i"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepWatch/comments/1kwxygf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=BhBgR8B36C4"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1lp8c5b"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/audemarspiguet/comments/1ez8s3z"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Repdesignerwatch1/comments/1glmrpd"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Repdesignerwatch1/comments/1e6d1ma"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Repdesignerwatch1/comments/1e6d15w"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1ica8i9/wts_audemars_piguet_26574st_royal_oak_blue_dial/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Repdesignerwatch1/comments/1gj2o8j"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Repdesignerwatch1/comments/1h2nboq"
+       },
+       {
+        "type": "url",
+        "url": "https://cdn.vintagegrail.com/uploads/page_cta/2025-07-16/grail-collection-mid-july-2025.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1sqkite/wts_us_audemars_piguet_royal_oak_perpetual/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTime/comments/rhea1a"
+       },
+       {
+        "type": "url",
+        "url": "https://content.phillips.com/auctions/CH080223/CH080223_zh_1.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://chronoly.io/assets/files/whitepaper_chronoly.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://electronicsandbooks.com/edt/manual/Art/Auction/Christies/2019/20191212%20NYR17494%20Important%20Watches.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.mydevice.it/Orologi/Listini/Listino_Audemars_Piguet_Febbraio_2016.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Audemars_Piguet"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0881988cc029ecf5006ac5185ddab087d2be2eed006629a581",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRhfye22kJmIiX8p0LlquV162rAg38zqsIhgT1g9rKD4DcVtpqsa0boppd6sUMgi6rvppH_fmZOltXB0S3v7Qsv5NHOSInSJ0VVLnLJSPfPNApQ--7fuwa1cxkfGcp7SvSUDqsK7EUBNuZEeFYRi-LHD26fJfI_R8bDrkHU0r1qvrLRJ5tU9RjHgkcuOUd4sjRjABDGCVdJs3S4lV4dkqxUksaGOw33-k2OqWaCFE3G4rreIHqf9qQmQnodApLrJlV_my2V5vMlcdK75P8-E3DZ3YdG0ZnaDuJ2LnDjVJHX9LYh_vvdfeVv_W7iB6Q0UjRBt0u-3_g-NdYTjkbjiyj_OmSBtQzEwsh08Q26HrfZckwKxKLaWHOJ4JrqAFm8zqqw3rw1dKyFUYk0hx0IBy6rsKYTfL7yL0iANldR5ElTWCke9Bi4Wdev023qkQWrOjk4LZlYNV9Ap3CpitQG7wUjkZmAcAnsp43rutcMDGyvFM20Tbvp_zXH6UhQ5DYO_CzNE3N6sQSABddbLqSJln8vgj-EoBu715duVDMRNfJoLbWs2aBy282B9FO9wPOTtCKLH5OTum2aKS7d_uHKKSZaYWeLmY5jjb-kJOe8JMwTQSsfG-4gqdfuIPPvI9PfDpGCg_HjJFwAGp9SFE5lewAjFcfJT0y_Z6fdkoiOaG2Bmlou_Je3DImqRMzc5xYiJvVQCPmOb7P-538viBbhyREKng-_ySG7MjcLfPbyrPCDd9DjttspOXPWXMR9pVY6xw8ZbuwDul6L2E_Oe18dgAcNLUU8tDiRsnWiMuu-LB5ylmbhirOvD9XUCjqUcg1D0Z4jVVOkbClE_hj2cE78xACfUOIiMHj9TFf4SodSWSoztqyUbwdIbpnVmDVBfOmuPTDmMqxYHWlGO_FdExUpEjt8j9DVYlGjKqBDGr91gF_cA_QTvFzTNLNSy9TR_9m21cK6tFci1v8LRcbwCs54Mv5imi_0JP9J1JUWVNpQ5NkdYH3UK3EyxFVb4sVrDACKTnbuvAL8aelAfSk1eTLRyDtK4PQFvBHOr6wbibXiSJPv0OkhcipCiO36DsZODStvPP5EdXVGiR2R91L-N-m9-JaTIBkNCNY_0w2gGgPROGoNHo4xSLExvHZtAAXBNfxD3KR5-d0-YRU2l4VnVvxQ5upH0hBziAsXqvE1MGjslrIouFYMSs3eHcw7OQnL4m2fGq7juoObRGtQCPHNN6MgeQdVuHTULyFU9S4sPkjEMp_9063R6C_frw6-GnObbyjZqHLOJfrBs2VMeA4rgFSqRS2Nl_X6mbeHgBK8gRzITc3-U1YPpK7GKUu2lDloKGfVJOvZbK6xGl8p2ga6LemYRSn8IPS8uQveoblw6vp_2l6mwmMTmCcv-Kx3V7bpnvVbln6zNPuJav6fH8uom1FBTX1SxsRHG8sRUK5o8gP63qDQU4gtD6NYlHA_vr_tI1w1fc8W57dfpY64H90zfzPK3risfyajWModyl0GuW_8egL1SBbU4_7cqUUJznwylGJ2lPhpbgkDjcMlv6iD6Od7DqQaRN_xOqZyvtOAFtNqHk9PzkvPIdHQBJUB5_fOFGG7ECGwldMHVlUzt2RXPV8mGWAWrluzTavVTZabQKui3FVo7vqMpS5Gs_hA_jdGUCuepOxc8RK5bhJf1F0cagJpULNswI82pR_YvRf9ebm3I5E79qY3IEleRXj9Aaz5jQkEDwpEnmUHaSn2UT-kyzReYPb4xFcGG1FrmK5qVq4wejI4y4vkclHK7lj-arQbHIIsq_4Cks4dF0umxoIQiMIMxmgN9wSUVp9Jtc7nw-bAveaUHSkc2V20_7hjCt_N1gA6J38X5ueeGkbN7UDd2v5bWcsza4U6KY84RzT8iHhVDborvKOeTtN0dMiE_8sjFPwR_mLM7uVSGHKXhELxjJIdrrY5TIYKD0Q9D6FckHwObz74aW25hcHuZ4meoCUQ_c1qomOwLqWHcyjRXOBM_CaE-iMZO7r_dxF2juPKtPB8wXxz48WKHcyWrUsiFTLaul0JLNaiT3eLyk_G8wF5Mq9l3dCKA4ADHjUhXiDKTASrOwjwt_oCzZmdHz6IpJov12wGE_xtHjgWbPA47pCuwxz1GA8P554M0WFpaVXAUZi41Y7XQ7L_29xlL5Rvu2DzyDbu6a5DwMIvDzFzqaYXmdWcpCUi66gpHJ1CJejMPVIQ8TRiLYSzy-7wwdQYW_7tbVJqpDVVflzkd9u4GGXHJkDJNQzaXs1CFtNweuEWHeZOW9G6tsL9tRam58m-j1Ahp-taA_BlMSWIMtJG3tsmigvkFPNn7MfnrrsCHasROJnvWqVab2aPMpv64JuV_JYfu1EtFjRpar6yV5ZS0XjEGFOq9-SKgCgYconE6rjgL-ij-WGrScALLiF2KDggYEhtVnKVIGauf2dU3Ir3_3Wve6xtxe9kyH6yzJbsZUqtlC7-_ra6uFuET-j0J0eDuN-yRK29Jfoa1shAIf8Z4Re0Q0pVxl5SGL-QrTQWGYOJsc7BFHRW8OH5Q-2oTjFTVU_i8izdJZweRz36EDcBQAuWnG_TS73FMQfSij9eeINzmXP70pwVEIMxGnd7br4pRuf9SboYWZj79qc42Iof6EoDkMTTy07hsvK1Vklqpry4i5t2aZFmrZ6OzleeMAzG7lTeU1qStKYE5bfOUaEAou35GAtKG4O0oW0SiwIKQWiCmo6vnAODGFqZ9bvK_R2EOdPTuukiTJjly0MG5y-g3CjL7d0dsqXHVK9Uu96PUdAtIcfzwpUSdvHcYrfmpCBmRcXS6yT9dzBRVwTiZmKaQ1RPw2xNscUvnAGk8sqBLn0P-3De-NLEeK0Kg2QxpHx7FT9q979hnCHuBd4sY-QPbPalsiagP_YeDx8AWH5f5S2hqIXggSztDIGe6o5fL-LnNnRWLU9X4fjYqRiFKuT4OeJk8H4dHZU1pcf0ak89rBwi4KIO3n0rji0_shJBA9obepsLL4LH9CydxsOS8lLrHvbrkSR5VzX3veKdX4OGjiDxD-zbYNx19FigU2cZMxNqwRaff_isjT0qfkbCbxJJ7Fh0BbgGFZd3XOJAax0OzcKUUfqTk_NSloUj8Gyv6aO9l8b3EwXOOrb_0sVwEIkuqNjMmiO2vM5f_0BpWah8a7ZwAxb8HORFgohkHFGbU31bZekhtG8-ronLG-GFuTaUb47SaE2GfkyRGpw4LqJYCegp-9b51NKNSP3ieldRbyRq15u-9rklJBWl-57mAO7XJSEzWGnBL9yw8jAM21NejjRjP0X9V39LtpitMGKUzby1ZkxtEwsPjFBObAQ_K5lJo1zZld-32FQXFQ3in9EK4vIHKUqzcIUWnkLPT_gXfnkcvbPtXVQC-CUJs1jtTd14CjMvk3RJBxBZgAmygdagY2qY_X7WKPALDCnFRoS3_15j8iFIQIgOua3ienHb9sVS88xCCfPUOsr0C1nOnO8I2wI82oVY9WvVS3TPyEHyOXaSQmw7552OhaIknIvXxte5mDIPCwahfH1dE1h8gpEgjaNl0umGoDHrXvC563VIYVzuSiGmZxJOjESmaixi7E6jQ3eWkOr1Jjc2qfGZa1e08T3sVrT_Bxs2ZbRDTh_x9r--Cq2_SihBxpaReSRF0fYfUyHc2kTE8XUpkyygCj8jiNWQxHvrwCgabxtT2yGWA1YeTv2j7vcgQZ1v2v6acAIw3nNkFBcpAmoMo1pf5r1YiwdBRLIvvaT8o2zmEuhLlvujpLJ7F29xhzPWVCkCFKh-JLd8HcTzXRK6BC2MxrnCB8vkx4JgaTfOAAFxP_Szk9eCUE7JpKxOgj-zGUs53NRqmbPDoLWXSHiF6oF6ft-huwvxe9QaJsQR4gDL0yZPgYEg0rOVYcFbQPl9FoAdMq7K4OiajPH2a_5Ia4GmJMmqrc4PClOyNrsg3Spkrzc7tB9xJ5Fbm4BJoMCNb"
+    },
+    {
+     "id": "msg_0881988cc029ecf5006ac5185f402087d2bcfede72eadfc522",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Audemars Piguet\",\"model_line\":\"Royal Oak Perpetual Calendar 41mm\",\"dial_color\":\"blue\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"Octagonal brushed stainless steel bezel with eight hexagonal screws\",\"case_size_mm\":41,\"complications\":[\"date\",\"day-date\",\"moonphase\",\"perpetual-calendar\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"26574ST.OO.1220ST.02\",\"26574ST.OO.1220ST.01\",\"26574ST.OO.1220ST.03\"],\"confidence\":0.91}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791301727.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 16818,
+    "input_tokens_details": {
+     "cache_write_tokens": 0,
+     "cached_tokens": 8279
+    },
+    "output_tokens": 866,
+    "output_tokens_details": {
+     "reasoning_tokens": 723
+    },
+    "total_tokens": 17684
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 1
+    }
+   }
+  },
+  "search_requests": 1,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

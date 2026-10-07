@@ -1,0 +1,861 @@
+{
+ "row_id": 28,
+ "image_file": "028_patek_perpetual-calendar-chronograph.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_line": "Grand Complications Perpetual Calendar Chronograph 41 mm",
+   "dial_color": "salmon",
+   "case_material": "platinum",
+   "bracelet_material": "leather",
+   "bezel": "smooth, concave platinum bezel",
+   "case_size_mm": 41.0,
+   "complications": [
+    "date",
+    "day-date",
+    "chronograph",
+    "moonphase",
+    "perpetual-calendar",
+    "small-seconds"
+   ],
+   "movement": "manual",
+   "printed_reference": "",
+   "references": [
+    "5270P-001",
+    "5270P-014",
+    "5270G-014"
+   ],
+   "confidence": 0.91
+  },
+  "raw_text": "{\n  \"brand\": \"Patek Philippe\",\n  \"model_line\": \"Grand Complications Perpetual Calendar Chronograph 41 mm\",\n  \"dial_color\": \"salmon\",\n  \"case_material\": \"platinum\",\n  \"bracelet_material\": \"leather\",\n  \"bezel\": \"smooth, concave platinum bezel\",\n  \"case_size_mm\": 41,\n  \"complications\": [\"date\", \"day-date\", \"chronograph\", \"moonphase\", \"perpetual-calendar\", \"small-seconds\"],\n  \"movement\": \"manual\",\n  \"printed_reference\": \"\",\n  \"references\": [\"5270P-001\", \"5270P-014\", \"5270G-014\"],\n  \"confidence\": 0.91\n}",
+  "input_tokens": 29871,
+  "output_tokens": 2336,
+  "cached_input_tokens": 4723,
+  "reasoning_tokens": 2167,
+  "token_cost_usd": 0.00373003,
+  "searches": 3,
+  "page_opens": 0,
+  "tool_calls": 3,
+  "queries": [
+   "Patek Philippe salmon dial chronograph Arabic numerals reference salmon 5172G-010 official",
+   "site:patek.com 5172G-010 salmon dial chronograph",
+   "watch salmon dial chronograph Arabic numerals moonphase subdial reference salmon Patek Vacheron",
+   "site:patek.com/en/collection/grand-complications 5270P-001 5270 reference",
+   "Patek 5270P-001 official reference alternatives 5270G-001 5270R-001",
+   "Patek Philippe 5270P-001 technical characteristics 41mm platinum official",
+   "Patek 5270G reference variants 5270G-001 5270G-014 dial",
+   "Patek Philippe 5270P-014 dial color reference official",
+   "Patek Philippe 5270P-001 discontinued salmon dial official reference"
+  ],
+  "source_domains": [
+   "patek.com",
+   "timeandwatches.com",
+   "static.patek.com",
+   "hodinkee.com",
+   "watchcollectinglifestyle.com",
+   "watch.the1916company.com",
+   "fratellowatches.com",
+   "watchesbysjx.com",
+   "watchadvice.com.au",
+   "siteproxy.ruqli.workers.dev",
+   "monochrome-watches.com",
+   "phigora.com",
+   "the-saleroom.com",
+   "youtube.com",
+   "dist.phillips.com",
+   "en.wikipedia.org",
+   "reddit.com",
+   "es.wikipedia.org",
+   "fr.wikipedia.org",
+   "v6.patek.com",
+   "patekphilippe-boutique.com",
+   "wallpaper.com",
+   "it.wikipedia.org",
+   "watchcharts.com",
+   "commit-watch.co.jp",
+   "watchprosite.com",
+   "hodinkee.jp",
+   "the1916company.com",
+   "essential-watches.com",
+   "blog.gmt-j.com",
+   "sothebys.com",
+   "therealreal.com",
+   "cdn.polyauction.com.hk"
+  ],
+  "elapsed_s": 32.35,
+  "started_at": "2026-10-07T06:58:13.242124+00:00",
+  "error": null,
+  "tidied": false,
+  "rate_limit_waits": 0,
+  "raw_response": {
+   "id": "resp_0b61f0026c74ea40006ac5ed87bc9887d29aef87bc34fffd91",
+   "access_programs": null,
+   "created_at": 1791356295.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0b61f0026c74ea40006ac5ed88b4d487d2a328552da678f5f2",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe2nB-ZES9OvQyiNGD49BJ8hW2nGEQwAW88U6-wDTLKWzlZeOT0_V-JHeR7AQyJV6RY9VMwXVUa5npNgut63w_yc75emIxtlfWOBYElKjl4T21jVsM_FbsSaDchPs2WQjn9sqSgN-4KvqufZ69p6CjkaQ03JR93aimm9dduEPEdGmYimy4i-5_WQpnY8h6O7aJJXx9zDYEUPPyfWwdRsjxINFlGC4t28jw-UMxaw-H41CcuwGTOBE_z0EhTBPEH963j4bNSXQTWFnJXE5X9wgpzQXnp3lUmA-9oWah43wh4IIzJI-BaxPSdPcA9YkAEXvM--yTqtrKuFdGZQTiN9w6sxdhq_iDgk723NldYSEij1N5V-2LvaDNl6r2eCoD-VYEIj86sTjzWYp5UqJQZfJa6rd2fofLK1nXkafjcaE_qxu12kL0auoKezkr1EGgdGXTJB2o0vuXFkMh3G17XavjQw4tzsbwGbomo0dXnsrRSKVKuU1LAfoMJoVlSjcxS2-dO1LuV9SNwthYimtluDW0TR_UKgnIggW_eKW5deJQuJAizeQ3itmIefZacLi3yZWcHxZaZhHHPCCdkKqBa3KUQFkU81K2xKh99WjzWt8hzn1HTzVLijPTHkS7W-wlL8O9WrqKnPKVfKULRQbc8AKi5PBrAhJXPG-BXLJCrt91Tqf_alNiIV6jiZwEI6EFQuauxn457QtAs3noaMvDwXBvl8UQCmOIbeue5jmBjinqxGyoexKxecJSBkeSue44xLfjHsy_cvGcGnx49PDUNA0Y78isuFzuB2jpOb1WBSsrEgG1eQDXjwLlT-kUDJLLPAJOAAtya0WlvW43o35_WnGxtmw-JYnbINAA2vwbik_jf346r7qPhT8toJaOz4UV1a-0aSqzSLKEQtzvPJGtySIsTzgvTO2IkQC6ajigu3fBbpr_c3XT81a8GIte038C2M6RJyTgwffqRpbFZqenVWb3J3xUn-8pY6osKTiEG-fQJoo4a6MKDgSBrpUqFqcb7iuAeovq2OIRWhcXWT_bsFt4xknsQXJEWdnYuh0kOuRza7k-DCCOCIit-fqQtQV121_mct9rrK4kSDK_ir43wqt2QH9kRzMqldUrBeBAFjQknhdZff7sClbZNa2iIlKDJVljEETsw2v5CZzbzIVnh0sLITDAhVN-_N0neluvDvpXr4Q3Ry68wl42sAJb2EZPui9TV90QbiREn-RG5_j6HFmvj8KobIOctxRXlUTdkz0VOo_8EE1O0Xei7yZEcd4pc_r3TW3-IDpdHbY73IaAWB9txnXR9KMQ9p1uRD35DKtWQyiju9jgnfaBoutB7r7y3YRdwGC1lwFHLoJXa505X0srKJTLHc3_sc_kpUXZO5_cl-czjPeTDKVauaoPz1TrDv44-kQsX08Th6_UV2hhp_2TPB-9ObqciNQlMXfRPAM4qX1U-xlxMggv1FHmqeGc1gZi3gE7HhTOGKvamedbsiePKfULpS3r0SkWyho0aW2oFjTpLCbCueHkxyqAUVoekdR2ivD94ZkcFVIOEap2tZVQSSRJ_491qisMUv9sqNkXkWreOMjwkSwm8tJBQ-jHx6FcI91iaiGpDEAXZN0D0zIWQG7p9TTt8EUE3PmH778BZaH0M2z6cqfCwj71QY1rmirZRz4UStJW2W2p63ip5WNLaNPLJADKeqxgHriMwlZrJhkQMJ-T_Bsen9XpT0fW4g6kNkllquF1OYKCLYr-eQdDXECB3Q52RNaKE-60odtAnppv9v1DvSSCcARm_B5zSEiARiXcSru0uJy3ilVaadGJuXbUhbEd3bz5a9N5_oFPu8tzqg_qVxqVcgGhur-hdaRxfZFsDEl730kCN5Nvjee-P6xozEWyCc025VhiINibqiIgrj_Ax7dcm4WyMJbVgtqvJP3Pc7sjXVEdRlr0UA3HSy6cXShjwVX1wcSTyUIEB7vHDAXLaE4ZoM4eHYW9qSOlMVT8Sub8sKX8LEt5IjHhDROZkgGpl8VyY5VpW0xvSBvnqIK7XJLZsh37MlsN-qv5Ou8at4Uisr3MG-tSE-MVyyAcRXX2HNN6I8nciIOolOvoDgOZQCBYpWZQvNzGCdGln-h2QvkXBVGLUKgPMBtSpLDAMkEXHQFVn8oV8OtwOI2BQzu8IHwLVmSxoT5xrLS0mhvjSphulbpEGd39-_uN9BCJNwjwwO9iPEsKvuJLRkayVaJrycBv38-Tjidtc7UcwyxfP7naiI4Opqokptfhf25J1-_hujJBIKW1GgGs4r2GMpxokbLaleJpKrlq43L7JcIKP59jiiFWoj5iJuiCq6y6tir72HL4kV8YB-8tHv7av-CeZj74nsd78uykzUAJ8zszTSFe-MmHoI3yNzRNJBnkm21dwjWdgGg0xDw3xM2XKy3I_t62Sq3xPgLmnCeToN4snE0qR7yip8Xz54yDyu5fjk65zf-crBQxQVmohQmCgVi5gqw2hpMLN8F7Pm9j1eC7-ywDVXzOEP-l4TPNjZR7nv_Dl-X1PQB5PSds-wm4jQbz_aicQ8p4OBbDUV0I_6RJXWz6PuD0TWJAy90ThhDbRb-7yaHwWXHgrxRjaAynWbYK9WO1rqhnL7k9DJdp9Y1BcchIjr5hs3tzip7zWHBHgXyZ7Eiq57p9M2kQLjs6XbDEJ38lWC4_ptqfdlRFquVvc-anjhgVk12FLHf-MzC751c7x14xCKw1sdtBPC-MoVM4Bg4p73tZwLVmWO1qGifq0Gg3YZi42mfTEYHGRAQ6MIU61lWgs9SHwgZz3fyir2syWGV_jdkR0Ulzm_RhRF9l-AaApEIWz1RVt99j9GepUIp3cv80Cy-1alYl3quY-FtIFMmI4tHHLSoXl--lgFJitNz8zg1wiWLUxoIJyfwM2BxbjuzTRpCwzrwrxMmXajFol-mcF-vFkK2wzWRR2XoXS0wMSy5-LkfoZSo3lozYmGyUFrkrSI_pCdl_cVrA2--M55aK5PcXbJ76KIM7f9hJE8TPBtKwa-Qwu53UbhszaTe7RKgNjv8Mz2qoXti3j1jM7MYcwqJZ7zuKr248DYOD7fCFPseYzBSWgx873iLibwAqzZYAU6l3nWwU5Oo9kHwX88DxkDFynsnWxYoOEBDYr6ZQyxLXSUYAD5lOAbVnnbSOXxIgqmldH6rPOBWjDbcTFQkKY-dHZnwZVD-HxdEZI1fkyUMe5nT8HjNs97Ei4HUUsMocwJsJrz6Ah1622mU4xVEGoQWF39dEnqTTJ31kCgXvIG4l6xtC08Q98zNlNZYL65IuLMKVgv-zuKzsYsXJeIudIDVWX_CpiFcTdJQw-iUhN4A5O08YzG3bP92FujNQYe4kjbr_NqgILyj_-Ok3zlWhHR-hOZAuDdm3Qq8yZOMlT_-N7vnwgZYjf6IKUB8fEUkJeLg2oa_Y5TZYNuPMMXZ1UGKJlg2h0QI2PErg5JDFRbmIYXXpmRNTkOnTrzgbqn4SEiTjKEu579aPpRfC9peVR-7TGgikALXvStPJDR706NEA5ozKedZAfm80GN6kXd64c1rS34K-BDgUJ2wcZPPFTCTvAFHf1NYW8s9QyUF3GaABkV-GB2hU4fJJE4IkGniwdfnl5UV1bniOkXZEN1hhYQwLLWhv_YOwMYfiSGwgwBjEpqXWM8OcCKPA=="
+    },
+    {
+     "id": "rs_0b61f0026c74ea40006ac5ed8eac9087d2aba4a01e3d24d468",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe2nxnwKB8CYfTUBm3yfvotf-hJlYCBziQJ9JGL26DBwwRImqmtv9gaHGov-Qqf27R789yhF4nnbQKiAIliY_A3ZTGC1R6IIIelEHT6cfYSccFELuDgDyttZjw6475-vDbDJNICO1A5c9VOdRb0Lz4cffWvw_lY2aXoZ-md-eNtXulcAbuIIounGYShb24FivtYNnaSDEc8Y49n8TCwJCSyswYVxKJFnrR6Me14PeMkWCn5TH3fTgH4dGpdq1IqJSq7Pnirnd1ru_X-YlETgVJ6lkKGvvxX5xW9vEtcY3S8vRjX8N7MlcvJT-ln5FtSG6wffkkMsJpFxlW3e2R6w6aeT0Ie-SVuxBZXRJbv9e9jzdfsHXFJ0jI-ZTncPLbXAK8SLYfSDFcfWlNFikyGv4irE75CvEPcMwQVGpzxxe5XhdUH9DUKTiizouD9Bey2fDp-J5hbYaGFwW0zxbVxyXalELQHaGgJj5z7mM_Zw2ipyRYwRyGFowyX-UHxq35YHmi2V846RZKX27N_VfzcQhJnG9KNHrsuLFxYs1IfbuLH_2_lPGfUNLi4s17Gipx0ini_HrXzxwFyLJiqsTaRWM19wSvqFD05Sbw3wvj5tCRO3NTBDAWXwk-RsNtv8f6nDGs1Lm9sefTqOkcYGzrl7YhoUymathcqyRcaWAEqTor0sSpmDW8rDoUnJou1kOjDYs58PsMlZG_RUFBUPLSIMbEiA7muGB7sy3aBPX4wVH9_t4opWQjdad3fRsyZ6wbpyskKLWgYVe47UUaJrXh5wIRblz40rSQs8B-nYC035ILFkrve_4GmKoxtHzAIi7heC88Tq741fSa9irA8hlNQAPpOJN-AXRZ9xs2fvOrCrP1skJZmpjB1ldxOADKYY9mgRfVadInovt-cR9VXMHXpoDDH3XDUX2U-wvw_I8hbjXBj6PUNM0Eed8ttWabzngpqfZilNitslpEoyoUebegP6eGJFT9uuPPgrG7BdeTQq9LE62OJQCqdpJ_4yAS59OCQl6jtsffsaRWAh12MMwCjFumz2WKR6kB7PDq3tD3JEhZ4CT9Uco1P8hVx5tZ80ZNv0uq6Ae6L6ioXtiTVJqxvvzvUOoobdm4GNzQH5Qebwr733rNfrANxOZB3Cw_MwazSk8Z-Gaxf-vxtIzEbUJEPlPtj4CmVwaj_O9P3i9x1HlvxgndzU2HcUfDWsITTMYsqbUQrYH0S3RcEpxZbMyYJQ36wAfWOpfVBzg-BXfC274306r82MAn8aGAtkytf-YgffVRIcORkbUqJWsty7dxY3jeAhj_LSzYFpSdT_U-9n0H7LMCFTnXKAoWuo_0wHeIxTVA9TPxG8tnGVBy6IKcBWSzz2ZA=="
+    },
+    {
+     "id": "ws_0b61f0026c74ea40006ac5ed8f3f1c87d299cff010d3c1e63b",
+     "action": {
+      "type": "search",
+      "queries": [
+       "Patek Philippe salmon dial chronograph Arabic numerals reference salmon 5172G-010 official",
+       "site:patek.com 5172G-010 salmon dial chronograph",
+       "watch salmon dial chronograph Arabic numerals moonphase subdial reference salmon Patek Vacheron"
+      ],
+      "query": "Patek Philippe salmon dial chronograph Arabic numerals reference salmon 5172G-010 official",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/collection/complications/5172G-010"
+       },
+       {
+        "type": "url",
+        "url": "https://www.timeandwatches.com/2018/04/patek-philippe-perpetual-calendar.html"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/en/2010_PatekPhilippe_Ref_5951.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hodinkee.com/articles/patek-philippe-salmon-dial-5320-5172"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/catalogs/PatekPhilippe_Watch_Art_Tokyo_2023_Catalog_EN.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchcollectinglifestyle.com/home/insider-patek-philippe-ref-5270p-platinum-salmon-dial-perpetual-calendar-chronograph-hands-on-review"
+       },
+       {
+        "type": "url",
+        "url": "https://watch.the1916company.com/patek-philippe-reviews/videos/salmon-dial-patek-philippe-5270p-001-perpetual-calendar-chronograph-review"
+       },
+       {
+        "type": "url",
+        "url": "https://www.fratellowatches.com/patek-philippe-5270p/"
+       },
+       {
+        "type": "url",
+        "url": "https://watchesbysjx.com/2018/03/hands-on-with-the-patek-philippe-ref-5270p-001-with-salmon-dial.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchadvice.com.au/19498/celebrity-watch-spotting-patek-philippe-perpetual-calendar-chronograph-ref-5270p-salmon-dial/"
+       },
+       {
+        "type": "url",
+        "url": "https://siteproxy.ruqli.workers.dev/https/www.hodinkee.com/articles/patek-philippe-5270p-salmon-dial-hands-on"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hodinkee.com/articles/the-vacheron-constantin-traditionnelle-perpetual-calendar-chronograph"
+       },
+       {
+        "type": "url",
+        "url": "https://monochrome-watches.com/patek-philippe-5320g-011-perpetual-calendar-salmon-dial-hands-on-review-price/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.phigora.com/products/patek-philippe-grand-complications-5270p-salmon-dial-mens-watch"
+       },
+       {
+        "type": "url",
+        "url": "https://www.the-saleroom.com/en-gb/auction-catalogues/finarte/catalogue-id-finart10037/pdfexport"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/en/2018_PatekPhilippe_Nautilus_Ref_5740_1G_Aquanaut_Ref_5968A.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=oGPWmA8gHYA"
+       },
+       {
+        "type": "url",
+        "url": "https://www.dist.phillips.com/content/web/auctions/CH080322/CH080322_en_5.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/others/Patek_Philippe_Museum_Catalog_Preview_Volume_I.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Reference_57260"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=0CuIHk8JxYI"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Patek_Philippe_Calibre_89"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/MicrobrandWatches/comments/1wvzone/salmonpink_dials_with_eastern_arabic_numerals/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/1jwpp23/discussion_what_is_the_best_salmon_dial_in_watches/"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Patek_Philippe_Henry_Graves_Supercomplication"
+       },
+       {
+        "type": "url",
+        "url": "https://es.wikipedia.org/wiki/Referencia_57260"
+       },
+       {
+        "type": "url",
+        "url": "https://fr.wikipedia.org/wiki/Patek_Philippe_Calibre_89"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Patek_Philippe"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/1od4lkd/discuss_which_watch_has_the_best_execution_of_a/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/cg5o9v"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1sl9lec/5070g_vs_5172g010/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/1bs6d1x/discussion_best_salmon_dials_under_5002000/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/1jw46eu"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1lamm3d/a_better_shot_5172g010/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/PrideAndPinion/comments/1s3m26c/any_alternatives_to_this_pp/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/x3aydv/patek_philippe_5172g010_my_first_pp_and_grail/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/zt6brm/couldnt_decide_salmon_or_green_did_i_make_the/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1tcvrbg/a_dark_quiet_serious_chronograph/"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0b61f0026c74ea40006ac5ed949d5887d2a455a57dc3489a3d",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe2nT_m_49pwto8pN-AztTx0ovnICzmGEUsPNuskOV_xfXBtKTSqVumR5AvjBJbMDA-z10dW8DNYMVOICx17RLyF5z8YuCVf-Qdypsojs4BTFTuWKi5purtTTPRp9Sqk10po-7OBjvPFYOxB9zp100qMrDbru9THCzmUioO0AHAEziYCgtf6pjrPDWUXvfV9giVczmElJdFOGIFP6f8kcniNMEL2UN9FXbWoBzeXKSMFCT1yJBo_SDClGh49sR9XAWCweObTPCYsnhkeeIZ2TMC4JNT5F4TWjTh11UEfBOtoJH2wng31D1xvosIeTzNmxAM-5EdkXRhTOQBTSuo3asiQvLbGcH9F_KBm5tPtRm5leyCE6_INQ1K-TqR9gRgqvwf0c0vxaB_CVR0pEV5ldZ_0BR3myT0znaFipa5X5K2f_wHmxhqMCeJcB6PSBRycFBeyb-nVPewNdo6QklUmLORJN8XAjNEeqQwC-EhuGwf0yebIRseImhbHKUPDVvxf8-yv5JAjXzL8gCsb2uU_PbsURzrt-3jpKdeHo5IWyZHA_Gv5lblHwvQNqwc5rHDA5El52DcA7aQd1zYK_lFhpN2ZU69l-IWMtM5DhW02-t_-BG3IekwgxExXE2BQq0Tyr19-8TmdlS_Uh59ADicDY_MteL6fScphlH1tcujiYLXIBSPgHhm_Fn8VgfZ-ekd7PVWqAJX0rJSin7KXVY7xPHo7Bot5XQWG6t2WA9bcMpMRQqFqUH6OMJS30G7upKi0fFJI6VlLLrOMHJcUIETcRnrelyiXn6OQV7hYWKncJJRFTTfrClM2u-aNrpEZmHdFd0V54ap0pfiRyVP_iqD-xy3MheSu73Tw5DGvppbs-6ZrbuQrWmaOMuW9pTvy47ssDzH1hYy92jQbvnWVZSZJV4hc1xFsgKjfYMXLL4seZlJLZW29JLg-m1V_xO7dWfrqDVj5GEH9hrFTu7K-we5auKeZa74xxynZuznaBgHI3AtCKpVQvB9_ywE41S1DLM2SRoPqV9KPA0jSQsxtO580H3PrtDzro_vWYEeQ6tCxgLZ2HpkF8OnJiChf_98ZXRpKOKKCRAMKN2wMfNd5qIqGCg2qa3fKs44X1r1ugbc8hT82mNo601mMaeOqBw4eC77dWfqUyQEUtkz7etR54Ib3YcKo8D-ZjRJFdV5tvbR1m6lTxRUL_dY7mGbtqWRwsZZBfYfgj8-ZevQ4M9Fs6VQfN3H9gqiWXlYMILBTl26jxpjFEePOmrg05dbf_JG2EyGCn7AijK6cZV3UhFhmZoloscIDPfutuWac15kO5nG1tHgZp122_hxvqK5S5s5ZbOwg6CERTBn6QATKRVzmMIODvzwfFEso-Fm6PezpDSlQ8hOhwj55cjvp8blzqQtCVHvu9QYGKr076cCoXN7AYW8Wp4AnCNIuUgC127x4c8fsy1RQ1rIW0iUDwTyk1V5X5PdyW2rRUeSLIdetqtq8V2JersJi4DE1ClRXNC_GgwOHX7dzA4W-BuVuRB3Qlq5ViVekclZFtelHT4748mjOM4nRnkelDczmXHxLg6n7KAOygi9y1fnSBgL1jvJNUWddKN0SSxX0ewCp5aPh3pSz8FHdRS8WMosTFB7NfnvHcURx2Qqqs3WbvHL-cIr_CXpjJgpdhXXrHCRk7YgueWQW73huyL_KOXoZUS2rbVYQ5RFa--ndU_OEbfpKxORx999ntgRD5QTYhN18ul4WBCXbck6cvW0lcITXVemwrgZ2WUkXCwNC68mYmuAJ_zuXQwP6ioT1oc1onhAMI3bJmHlRcZXaFhT6B7Rozr2132qX0eOoxYHUjyqhFtp-g5i6Qvquq8PDN7s6wmVGqb9us_v3gb2uK4yYxJMyeotN0MqUefP4fBIfhc47VWJ0xVgcucCy_EWhJu91jrX1Kkg63lfzQAapuDEFeNeIElzLBFLHR3EfDf3qpAnWPV0V2dnjNmVCQAdC38cBW6Eu6zC6jxg_931PZpNUCkGS-Z7Mu_5jus_EUZoxNTIdhHpK0JEBjNZDyu6P0cmNxXa9d1PqkMAM7ww8u6lj47Hq2yQCXX6WzeAgqGhpB2SN0e6kUdOCaGtLMtlTrL0oLtTqcXkaYmuKRFP3WvubyBhPESk8VXLnAQjc6ZoJpPb9qFhc24qwfBEczSx68-PJ7soqN5aYtV47Uc4VY9VTOt_TXffh8f5IhQYHlPzj7OMVe5sPUzprJZaWA9XHOdA6Kh5ywvgW_lzrCsMXujF5rMi7oV3F0xtQypt4WxIsPRBdc2yJ-H2CgrUiuNpx591wp7-SYs3KwRC4BLNHJyp8VkxX6QH30-1_NphB743zsZ_DhweiRpyrzRQmiSJ0uXjJMmRBZweHk2_RIvAWeb4ypESmpDHnh3g9yj2MwLwyEYgb70dq00h6Niy8pyPNv8ZJ4GDJE8hucfwyYjdxDulkwQDPij1b2UdIEBOZF8bJc6idmUq6sTGgkOg2iKqdps7NtnvdJZOHvv3xLYsLnLcTPAZiuHJPp5CL79TYpaHIv5HyciwgLuAON6kM8-oAO9_Ok51Y1ERaWOmx8c0tKIrsEe9DJkIV5h_3BK1DIYjSj0Zp5oL2WOXRRLbrD2xIMTTC-9Bhkje0zpRtK5RtF1F5PuuGEM-JZ68Bjfyt8q7DXY2Jg5K5vEWHbaEtc14g8ieqW0EZycMeZB7a6iY3uviaPyx-qGxRLOdR3YyWtvNKseCyPXueCePWEs7TEoucjI-0AbY3BmnuL9BFrEu7ftJlP6MIA-zWoEAIvYiAWkF7XU9qAZo8CViNk9S9-by98gDVX2pWZnyU66gRgq0paJQXtQ=="
+    },
+    {
+     "id": "ws_0b61f0026c74ea40006ac5ed95b0f087d2bff730d332c31189",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:patek.com/en/collection/grand-complications 5270P-001 5270 reference",
+       "Patek 5270P-001 official reference alternatives 5270G-001 5270R-001",
+       "Patek Philippe 5270P-001 technical characteristics 41mm platinum official"
+      ],
+      "query": "site:patek.com/en/collection/grand-complications 5270P-001 5270 reference",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/en/2020_PatekPhilippe_Grand_Complications_5303_5270_5370.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/collection/watch-finder?collectionType=current&noveltyType=limited_edition"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/collection/watch-finder"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/service/taking-care-of-your-watch/instructions-for-use"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/ru/2011_PatekPhilippe_Ref_5270G.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/collection/grand-complications/5270-1r-001"
+       },
+       {
+        "type": "url",
+        "url": "https://v6.patek.com/en/collection/grand-complications/5207G-001"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/manufacture/quality-and-fine-workmanship/cases"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/manufacture/inside-patek-philippe/watch-art-grand-exhibitions"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/fr/2020_PatekPhilippe_Grand_Complications_5303_5270_5370.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://patekphilippe-boutique.com/en/collection/new-models.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/manufacture/a-story-of-independence/the-calatrava-cross"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/manufacture/inside-patek-philippe/salons-and-maisons"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/fr/collection/rechercher-une-montre?collectionType=current&noveltyType=limited_edition"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/fr/collection/watch-finder"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=k5w2LTEsvpA"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=gn9ixDm2bWo"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1lwl7it"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1seyubd/patek_philippe_ref_5270_p/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1vrcoqa/my_one_done_modern_patek/"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Patek_Philippe"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1fmv3hw"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1k65do7"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1pxizl5/8_patek_philippe_references_still_in_production/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1iq82fz"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1e2eiyq"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/s00is5"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1jo7pmg"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1wvaex5/if_you_could_only_have_one_patek_excluding_nauti/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Affordablewatches/comments/1uv16ih/affordable_alternate_to_the_pp_5370p001/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wallpaper.com/watches-jewellery/watches-and-wonders-2026-patek-philippe-new-releases"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Nautilus_%28Patek_Philippe%29"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Patek_Philippe"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0b61f0026c74ea40006ac5ed9c05f487d299887299f1255c00",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe2nU6i8x85sW9uSZTyb-qtokYtvlDf8TQizNwai6ozjRsr7uDHhopqixkIBKo_aP_iYPEIBOjWpP7XIXyk71fB1TJdownll5uC3WnpH0hPvzuKrvrxOmNdU9eFhvj4nzzo1LFhXQKCbuFjx0puMKj9eYSm4tNnlUbMgtqru84Dl4DIzBVrdLExZ_K6meHfvFl7AAta-vC8LIxn6PXTdU0--gD_LqrUssSm_j2ZO9kPEzXtf6XLjt7CaEvs2uADwGf1Vp2r3MCF-UzsZMCNTitRlEfl5qCpH_wcbBESBCZiWUz-p9WF25DTg5hJn8tYbTBzgJJPW2H6VV7tOpDW0XQPQGKzmeFF-v7KXEzK8U3Sy9RjtT4VjgRVyEZXG_yZ3edzgb7QKRnShPj63QhLwf5K7O4-gN5APEe1arKsjbEjou-QqFhXNWVjr9Q7u6Y63Mlalr7_j5AEJxzFTchdC9DX1X8GT0praPy1qyLluIa4kl7Wsa2LFAn9G1-xR3vxn_wpGoFoU6NjJ61790CQhz-tG7LLcXZClVQH-8bx9tF49rdskwiCQoqF-bR2_draMxxYtz2beui0uexjD9yQbfL-Vl8-mT-3DRAtxAhpuGC4_zMsJ64eHBY5bomOlKmfo2d0r-R81kU2ki1jKjtXqn5mSbWVUp_kTPWBqGzU5EKt-H2Lbyz4YO30UwP-WjyBpW6EHpd8qJRC320Uz-vw0ndhDehiSFUq9dc60Bom2xMuNMcOFnuSTNTxWfOVbZZX9d8r9ThxIYZ1Pb4jZKkrrczdQwzkfpPuf1pqb073FE7W7yCqZpyzr60gj-wzYE_XGZ8Q1hWHcnRyCpskUJv8kjRUpPMhJf3aEpAPV_18myZRBNS3B4UCzMLuv4SL4ni93jfMC0bOrWbv1c2yGe_j-vanrdPDoojHMPXCJ1T9RvkPjFUhGVNEEk-MEZKBmds1uJ7D7iObrk4iTJEYyS-K8dezgPsk_BJjToHy0XPCWDNOrp9YMDTaq2Ql2LDthtq9z6ta24Gh8vGrh9MYH5fqH6Jh61VzhL5Vz4xctgMQM6U55wJSQEVh3gaXGk3YEquBTz--icsqEPSzmaQ0tuEfGQ5y7JrrJpmlYd9AGlqAba6rhSrEUAHgao-IwM86Qb-THTtmCTKXhe4Lx5u4y8ThEieF8o37M3LoPLHEFYJ7okTkAiwQYcrdgJaQeXD4Wu4RDPJSqOKtOV0M0-XdwKcsrBOS610XMoGWslpf6zwJ9KGDiG-L7svBbEbmWfgLl38NNUuwiqmsn8AEWNEyB0xPhACMUl12NsYvVaN4FQJmG4prigb45JGZw4CAam443OZCqGz4fLg3_b2nswfHy5fTmBwDMAi9XUfDNIBdc7uTs0HSi4W1HNRbLhdPcyrxSWaWGUXnNxlfCK11ITyoMO8NDGOE4k5TspN021fQ6EFnFOY-4UClDoe_wPaHPy4riHbrNcQCuvT0N7mNffiATqSuV5TIDDfFKxBSNpwwMma0mihfneOlsRkmoAi_6WfD98B62KLgvAdUuJxduqBL6kP5zumXjUmSNR0Rrr8p9WSnztZ3_6QRmnDSds9yEFiIesgKFyFbAYa8L5blsiNn1Sd9aepcY9TMrMXozaJ19ENZK05J3tjWVlWsiag_v2nTBCnR7XeOOPW0iipaaF5D6ck0z5v722FApy8JvHVwPfHeaQSLVY1K-1tYLRaIMg5KZruNj2SaOnJJk3JW0QZsUlOj1u-zMOYMKh_GSxgwduXsXrO1zsLumTIi-VmbMIayn7x057rgSYM12zc4VD43wWG7jJ8kmwXj6ozjR3em4z_IX6oPg8Ia7mFiJ3e_Y3ASbQ_X-R7nTNJBMAyPLxLoYEjOXfqEHlv02XyvuhIwDlqqaOdXgk4npW0VPmimirxzDKRdVimW-ywBp6WFXdzn7n-4cI7hhvcsrKegFnUbZXcsBpJytUBGn7iIOaVP9tuDRhoonjJbjdD5lTJNDS8yuLk_2lrb8ZdRYJUto9wakNvqMswIh2Pp3wyPYgcd-h2LkTiJKaRq-2JybUiG_GwUnF1sLOKaeZno3VGW3DSt2DyvBPPRwsNrCmWCsAFGw2SYJ-cSg-_vzQMNvR9ACu9a2NceJqKS3CpJDxbhZLvjpqzm4pHIXIqBKg8yvNClWD1M-bKW18XxtXHhFD-BBY4FBm7QtLPvu6nd1eVlSK4VvnuTBZXuMVfyIOGXCoKDVX6bJSLNkp34QeY7Sq7r5vUh_SynNEdvXBsAqn6SQX8FMJ8lwSqVG7JhQxqO6U_mPqMJsRVRPTesuH2UIyWMaUyCu2xR0XaUZ4BJo0fob_1KSE25mBQLRNBEiWfTyikq_yIGJmGBDh7F1K3HqkWRf5r9p0zpGblvfgHYPTMXssvu4B8n0HOiHg5eerYJs2OM5sjkuafuxiSqe4Au5ETxeUkR1ScGA1pComVtSwkzzKufZEhrvhjY7yFsm7L0wb7LkDMyfsWXWlCaD6G8Buw_dVE7f_XJ_uOAUWj06yH40Ds5Sa09saXYWrSUmvBF8lfmSkkDmHEGhMlkvxzA6tU7VzNb5-4n6G9ZNWVF5s-8TiO-0dzK06_YiJgkmbyMinSNpaqUvceHUyvDBQBB7_SMAmNzh0mDzo0LNB9Hx2x3SfWvOdP7GZmU7d2jRcljAtEPz0Zpz1-e_1zNUuoOpq663LXjOaQR62gxeREGTIVmJASiHb7XnkXUUxwEv8ow6i0QVMaIRYMaOqJQ41ww68W3sZMLIlyTdV0r0ZK_7NKFgUsLDhdkT4gqMJipQA16kaSVzzrTdGK8NsaoSPpuz2atYvQYUbckftb1NcwyYQMqQ5HAS7Z5Y_g8wVSDeB59CbSGr_4jW9yUSA1ctaiTdlXiK46HNSDAr0IVyCMIG-m9OPAuvFmS3VWqzRmAiGBkbuIkoi54ndtQNKmEwiLG6n-OrNcEBFuigIXN3QYNaC7aTjYT6PYOmtkIeBbL8Kvst-DdBx2UUP-sejcgleJCEYt2lJhlZC6iHoZ9JhpziElqT3EgpifGktKWhZy2z80ESHnEDDWx7koGIOWb5-92PWQ53dkhk9m55Ubh6ytNxBIIXNvnogP2PfCJ8CFHTxvVNtVhTUg4yJBo1liifHVBYKYBAnhUjQBbiYG8yRkyZzzZZohOEOa4RzY2VhEEVPjzUil2SsoniARIpaOwFBq1tGACTrI56Ge7-2kxiSu3QvTzBxE2j_BBLvEyRsswRutNnCL9WkmplKQUmZg6X_jtn1VDW2crrVOlWFcsxmLFFUb7jQn6JPFST5gWNifh43sJNzCgJwyA70RQqHA6oXqpfhXZr7q1qFU2rwU_rzZiAPEl7Eg0fbw9l-tHhuliTCwWCnYPBlTJeZ1mhUTtfaeZy71TuKdn7m4eeqSJSxYKOUWtLFpzfGKcyXrHlb9kidRDHfPujNJauvwhzBkT1PzNWbcKvCF1Eifx3KANzW-Opmd9-w2rXtXQF3vm90Yk9q5ZdBihR20MXdzTRda031wkk2YcLDTkaJpcsKfmQoCOcnnNRtBipI8QKl520Rwvs8esfpyfJnEz9qPzcm0Op5UjFCv0W59Q5ERcKjJEB-t1Hjsm8iFRAMx2Y2TGiJrclJW817Z_Ckg8LGmGuh0iQWd4fhvAGbcUR7m2O_-nlConMTU00up-lDiQC1UUx9sLA6xD9Q_F4xB0s_GfX-CdBAFpzXkSNfh_BFfah6P4bB1hnJEPnfxxSdoK-JdRGyE0qcfU0LNga_ugrSomRsGBCUMHBlR1uPJylOZeAWEJ3YvkMo0ycWT7qyiz7bz-5LyaUw9bcXWoJe30TjeKLhao3TwiKtd9BOtYpd5Ute9GLQA=="
+    },
+    {
+     "id": "ws_0b61f0026c74ea40006ac5ed9dd95087d2ad76aa0686ab4679",
+     "action": {
+      "type": "search",
+      "queries": [
+       "Patek 5270G reference variants 5270G-001 5270G-014 dial",
+       "Patek Philippe 5270P-014 dial color reference official",
+       "Patek Philippe 5270P-001 discontinued salmon dial official reference"
+      ],
+      "query": "Patek 5270G reference variants 5270G-001 5270G-014 dial",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.hodinkee.com/articles/patek-philippe-5270g-review"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/en/2022_PatekPhilippe_Watches_and_Wonders.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://watchcharts.com/watch_model/22746-patek-philippe-perpetual-calendar-chronograph-5270-5270g/overview"
+       },
+       {
+        "type": "url",
+        "url": "https://commit-watch.co.jp/en/blogs/column/abe17"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchprosite.com/digest/patek-philippe-5270g-white-gold-variations-guide/"
+       },
+       {
+        "type": "url",
+        "url": "https://monochrome-watches.com/all-generations-patek-philippe-5270-perpetual-calendar-chronograph-explained-including-2015-third-generation-review-price/"
+       },
+       {
+        "type": "url",
+        "url": "https://hodinkee.jp/articles/patek-philippe-5270g-review"
+       },
+       {
+        "type": "url",
+        "url": "https://www.the1916company.com/pre-owned/patek-philippe/grand-complications/ref-5270G/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchprosite.com/digest/patek-philippe-5270-5271-perpetual-chronograph-guide/"
+       },
+       {
+        "type": "url",
+        "url": "https://essential-watches.com/Patek-Philippe/Perpetual-Chronograph/5270"
+       },
+       {
+        "type": "url",
+        "url": "https://blog.gmt-j.com/%E3%80%90%E3%83%91%E3%83%BC%E3%83%9A%E3%83%81%E3%83%A5%E3%82%A2%E3%83%AB%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC%E3%82%AF%E3%83%AD%E3%83%8E%E3%82%B0%E3%83%A9%E3%83%95%E3%80%91/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.sothebys.com/en/buy/auction/2025/fine-watches-5/reference-5270g-014-a-white-gold-perpetual"
+       },
+       {
+        "type": "url",
+        "url": "https://watchesbysjx.com/2013/12/introducing-two-new-dials-for-the-patek-philippe-ref-5270g.html"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/catalogs/PatekPhilippe_Watch_Art_Tokyo_2023_Catalog_EN.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/en/2011_PatekPhilippe_Ref_5270G.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.therealreal.com/products/98567728/appraisal_report"
+       },
+       {
+        "type": "url",
+        "url": "https://cdn.polyauction.com.hk/public-default/auction/sale/xiang-gang-bao-li-2021nian-chun-pai-zhong-biao-w_3720cba1-db21-4455-85a3-0a978cbad26d.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=5gqHN59oYIs"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=5eft_Q6VxiQ"
+       },
+       {
+        "type": "url",
+        "url": "https://dist.phillips.com/content/web/press/AN-ULTIMATE-FPJOURNE-SOUSCRIPTION-RESONANCE-NO-007-TO-LEAD-THE-NEW-YORK-WATCH-AUCTION-XIV_jeipjhv1.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1e2eiyq"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1vrcoqa/my_one_done_modern_patek/"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Patek_Philippe"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1fmv3hw"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1q5lr0a/_/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/wsgde2"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1iq82fz"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/s00is5"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1s8vgpg/small_collection_rate_or_roast/"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Nautilus_%28Patek_Philippe%29"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1ijhgqf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1lwl7it"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1qcqrdb/which_5270p/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1ak3yhg"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Rolex_Cosmograph_Daytona"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0b61f0026c74ea40006ac5eda5342087d2ac38709cf9b2886a",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe2npTMowBlZA1qfp7tL7Ca9TT2Ew9hA90N5_PPZMq9bDdrIc8WQl5X4C09dKdq9i6rtWUlMYJnz4mLmfgFWaUZu65gr-H-Iz9282DcIiKga5K6Pos0wwHkVijyd7_Ebos0QhWcM37Uw7agwcjZaAaPpq3EC9s5xMpbWkP8I3Agght1v9V4rKpbRlshoGTB5Fw-nj1BK7tp8gdGziQcS57hTg4uJJdDNher9ksitrc0L429vrrsUThpgezi22sMIP8SPDM0x-Hl0vI6uq06NoV0i3Y68Ohn02UqoVnntntDwAL2adO5fYFuoksGc2YldQGD0C3s6W7RunXidfjyxhBFAwv9amdXf2PVLKcH7xQns4r4R4vQG38BmZn_wJgdTG2zzVNdO6hyvlJF0bxbqj-AIQiiM3Oe49jS7I34G9Tju6Dhq5lwJtXnXyBpUl5_QP4SX3flnUOwSBZczVAWMd_1S1uXTpYkLN3-X6Jf9J5ALIpFBRf3Ot0658VofJfqzaLR26Xqb8jaM4EAc7M3D0vnUwqIw2b-4mXSIp-FjTXaTJZS9XjKjQlbvkYcBC_fC0MF1kaQIw9P9FGgyhix33eIPAeopai4TuSGDPez_ttCsrssfml9YSrwpekUPCWgv49xGB-phD7UkyWqgoS9gityCg_RMx3K0UiOuAk-rOjhOEnZTbfPfngH9kQ0P7En77uA-d5EeFL4rC_-74XN10TSR3x1xX3E7Rm1PDGfLgyTrcLmqP8DpmGtlkide4MbMQceyV60ZXxRmPXMxc18CYPQ-HtYp4WuOjjKWQdMXRaEYbz47jRCSsTo5OFbhDFDR3VOPW3hoaQX97Gz_iIs29PjYRM-nOSYd_OOPcSwGxAsPFIo_rwW4v5dupfvT9RmqnDVl6V2nvaeuKtArt2WI6L3fUFpcAE6DpTvOk-7whF2ojEJZR0_9t28GPsEKRZ4xlZdWFscKjZb4c74tkYgLSawgz5KlABAK13br_JH8dIWn8TfM3fAY1dAHoicSxv-O5_ZrxrvCHGtt_ms09R-wLFwXjZzkn3RAY5wrx2EGOOhI8cyLnVY9BkAWaL4a0_NHujShbvhwS7u2naVrWa6yGsT27MWcz9Ju-6EloVRCC-AVEDAWRiXWCgRHxAVHouge48--q0DHUkc9LfJxpxj6S5GeQpgiEfrjJY8DIqqJqfVaoCTV7ZK4KMKWYzNzA2ZGbF-j1n9opa83lSdVfb54sP1twRw0cN68ITFj56gQpBMgR5WyvKFXR-FN48uYRWzQ-PkBWPCOhNK_v8B7rXBsHxT-1m930aG14A5t9p8OTAdkbl1t09WOG7CoFxQ_tKdZRZnc4Qs9_9gF_JK0rOiJJJwprfAgPeeGT0OopGfh-IGg5Dvh68Un_4zLe7ZrbqKVotlv53iz4PD2jdxBj5S4uFnbDwJOejnO9zl36CcriS_drRNVkvj8cipYzSm_534siR8yE7K8_EsLtnZmwilz3RaQ_I7z1fNstRVvfSqLwn9NmrLXDe29QTKYDdlwpkSocfOpY9XbauWXNj2OotU87SzLci5g7GhweF0k3V2kwvkki3syhx7D8XGnK9RlY2Hq4DaV2MmrI7r0HdRUJqLpHsz3R08cSSolDQz7dhyg4HRIoe4FrUP4wYsl2FexUjalBsK8AW9mu-YAIhY8U12Q8y-waI-Yn6JnPqFtF7vFnwCH43PanEmzniW7SWGdX_SvN7XWKeUoSll0TaW6ERKscxe63hgmSE9yB9N_wySqRakQR0fnc9X854DY6FwudfgBh8tRj93STRcgpuGoR7Ng4EqfCG1HxEEYLqEvmU6q2Xk2XWxTh_l9IwNat_B_YFbnBlfAY9he8AEvE-NNM0UvelO2JFRZMo2sNDXZRhKKo8yHYb24rZz32fMkWFHOc6RsKm57681BKNaySe6JconfTzU736EC9tOH1ypBr77SOup53yQ9-KjF8-ndaXixVCqmqGcZiAULeu0RLuBdh8iaF-ejHxE53CFe8Q8OiSb67gh8ktUZYs14TGLwOTs5AiG1qtMXmpcqZdG0abRc68fsF_TbQyuPSxkVTe9Ed91Zzq4LbPrQhKnB6igm7FSzRl-DiYXXvAymDqXSo0O_XesPIIXSrWkp5txkwsI0fcodWitPnCSYflPNAY4Y9SktPEE-2dqp1pEClBOmb9PGl8es27VkK2-fafv1WRMJ7Sy4qlIJria1TNKUfzwmeaojW18GStU926qYh7fAUgnc6RDBBeFOgx3ibUIe0Dif8dLECWT-kSBqT-UbrEBuDZbIV-9ugNRhCAjEmqTpJZbvugv4ICz2T-LZ0acUX3l1NEeHL8fmBKFiizwUOpHqWg0G1Cj89irK5DV1D_fIOByHmUYDZGkx6nZlXotILqHkL2Z7fjn423h1SntCvHDbmDWXg8xK9TZrIGYB4MhRO1YO9MLgVgmxF5sJiv_l8sggorzzKRHqVmqBzgfgHZyfL0zDGVQCE35DqTdprGwwfOIewAZsGLDUMPCnixvABVan7Dsz-HRB9QwQ40fkaRmVrBAkB_iPCYb2clXhvKwBP5hLq56Wthdgj3pIuM3Tasb1IVyP_AlbsbSVIyxwRgJR1VKl7G_B-lnmcvCMMQsXWwNa7Rj7mwLsRZUuxH-REHkdLmqFK8RfWIVvFGOKhHvFVPaMjSTApUuJ92O12hZ2m1uzJ8Vf3gsAcksqk94IRBJdnQ8UnyC57EnHx8g65nSLL8Z5LkMwfGZ2lDRlpt_19Xp7rEMEB9ti4LqLGAHjThxoB3UfXlIG4C1VX6aIwKl80_Xf297MqruUEHB7FOAM_g2ngEhmdcplJuYqejCajzbstTTlbs47GdGnIdhqBDj_MR6YBfeQk9Z6mLEE0TZXFIf_WToIeutdhUizoGdiNZPU-pltsUa7QBfiUgYDznOBxLkg-cRZueL1Yec2vsTwElP8WhPZ5Nvbvnx5OTXjlzcqSxDMMnXGXQYf1SQJYmXBfsSmweUHLP2r-mP810GW75fQtTUP7QfJSKR7Ada9JJU2ttfwd-Lyj8Gf929EtN3z0YoP9pcqXLamiqUfodV0Q5t8h9ax8spK2wLmcGLfMUkz343xxdyOxWNCbhS36idX0wpcC58fOtjtULVnDo4_r77hnyIJuS55xz6hHuLWZ-RqdDUSA4ASWj5RJ5i7gU7H3b9kqO4jlQMiIr61eTM0iQzu_-rtZb-df8FcyiwZeBZDot30P_R2uKYYd1q6pfIgjg4kkP5hkIpHKf9o3x1Sok-DdZJUSi9Mo1M4vOlOBq3LaA7XO6ZQW5eFv4wslm_tyLOVtErq-awbqhZhcKJTIcarMgkv1ImKKY2yPQUqyDrmSTYUV-0fdGLQMtXfGQOt4xi5oGnVsAl-L7K6nQcsTTh8xYKHCUTumlUQkIXf4IWhmnkniW-ffqT42hZ2xSXgxHxaxCAfLlZLosmU3K1991uq0sgNDMHIBqmu0pJHy46apdaa1YZV67oGlb71_Bqzyxkex-1hz4vAvWeXGQs9Zv3mCTnJJr0OmVhuEG8dAfVG3Ko_Vkw8OphgQiB11g-r0vfBo42v-R1ymGRF5ZnGqI9ej_QtcDxRZCS_otdVtXExHjeFKJjfzXP6WcqEhnKeRVArzlNF9EykBa5FJOlHdRI5seMrWjVUXwK_5G6u1fPgBpVplsm4scUtv1rxtjZrXcZCc4UdKG_6OXAs3_UoV4-1Vu0aOux5Mer96VtU48r9HwiwKWzhDvDy7TWjYpSeY1XkJ7f5visOrWUTicSSPsuahuCEJPQePXK1UpI33GARcUUDDYdWE-XMdI3-tAzAtOefllE2-NAPTb0D7VgLxE92o-DkK5B9YzyMRNb5BPhD9xonb2q959AY91UjuWPh2mSs9yGLzAZp3166MFbnCIuVn1lxdn0CMGE6aUqfY_eoKhAWM4MBEpfZFcI5nkHsDuCcUcawjNEIIVsP7P1qDR-w0wvFyZn4055VV8SpRgd7HdX0F2CP2Zz-C22O9DHMW_8oMvVBmf_o4uZRrZKYZ4rG1eJbxMyJcufUn9GZVjiU8P3AuPfW22RnkvCt6IjopAmMylQUXvEXxeN-AiMBTZnSrrcZXOvUKOEw0IKsZ1Z-o2x_tIKHZNlahU9RYwiW1x0A3LT0rbeOEycP7A2oIQdO1mXBCqM3DmD_Huq5RdFJh7cq9heSY3WI7iDRAuIWv5mnu5A3eLOQ0zN1MT377zbsHpgQEUl4hKKQf6k8PDfLs7gAsKeMSkpnHa5-KI5ku7ENf55OzbhtK6oLNxNfFQRSKW4vTq4AmfNpAUs131Mu1P3NTRPCQo_EvGWTXQWJ0yv46_8jJmOKuahMqgAIDneMskEGwxo4gFBtvdQ-lHwpE0_adv0UDHSaRzUatrlBf8B67dlbFWhQXT-y1NUlx2i4THelsgpyu8_Wp3JXapHI7n04-pPlHaxRpmhphsxOPPPSqcj5a_sqQRz7tY-D56YgztjwuVNSdWqxFIVhl18-UbyIS9x84XVbrv8o4eHpN5FfC7318L-7hSvrRS_1WgLfJIU2VEyJvw=="
+    },
+    {
+     "id": "rs_0b61f0026c74ea40006ac5eda6cab487d2a010755af2e10554",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe2ntrMB3ZIZHaa-qRC0-2nfbHS6z0_SkmRagIhl6c1fKmBb0rMto-cqhUPcNWLtl1WnXjNq4hMbwgTZTQwsau45tjyYPt55vCpkqAcTjLyXFRQNYW2gHe2I-xeTiqNt0KUyxvi5Wie7cSxbGvky7v7ZeAcXE_Qxp5vgd37cxfcicFuMINhuHETjFG6eIOAXIiesIvdAJgeyI5czq7yIL00_jO38S1D4wUODsqPtobqF67ejdyhbk6-4xsD25rqKGx4nfnXRmVdP9GOCcXwdoSDjq1bugXCV7cSL9TPyl3WWU-Lje2bWzPd2i7R1L68xh8re9vRVMzn8U7UuSziCzqjgonhXZHl9A27zlKfF44aGX3rMWxejSY1rk-uT7HuuNvm8GtBo9vq7NtQtEX6vwVRATMlMQ67UeJgmOW8pJIWK-64GD17roZg3cD2Py7sxzVTlasYlgqomqZJXcNMK58mcZbZWn8aJzBzXwnYxlKQF4Oc5-hC_Tzq2pxx1VN0ogn0f_dQebzVcKJobxVevm7kkr8DMl7ItBFTioeh90Q_F1z1mBN-2YL9mFRJrLq7UwhEn7EJ5thxPYJVvW4ZWLyvTF2ru2fN5KLD2kulRcTDhetJq5ZpZ8Wk6dHlYvpbD5DhSfHv8hJgk7amSzROt9t-07Ztg9696KbKnmlacJngdkyT5OAlmUGxUwQEoA_SNGOvl2kGXTa9iKbc8NhR1qkVpxAKWfYw51gnSCiZaopGjlOmpWbVWMTK1jfZZlYqV7DRvt6E8ETh8btUDBSPY32iOy_Sl4o_5MZRi7iOlUKhlFp4H6CzmBeXLvD5R3abNg6h7W15wjliaQzaApFfEalZIYF1YfmJpAxd4ugLlHREyo8k4mg2uOtHDmCTJuA7qMZ1j_QfZaex_cAlYlzprS-a-poV8JH6Hv2k047ncSetj3aqlfaC-_UfS0aUyy1-arr9Gu7dRsxRaxY14IfBwROV8KVf9eo1cyg6T54D-jPxmGkRCcL8x1TmkRGQ9en01vr8PAnRZ630XNfd8qfTrs1uywdmDtXo62ae60GXOHgme2N_u-_9Lyw9qKQO3oZB212ndOWSmzZiXj4HQpo-Ne5oDIHJ89x2wUygJk-z4dJQQHUTGhTvPX1V4vRw_E2oT2Drawd1dYR4OJ2waLsKAJ8RB77pQfQUNKw8wej9RtwE1ZJ3VLNJh29-K58XbwO4NEjkKTCWD5QnhelbSNVtvL9cQMeh8qyTESskISot_2CsozmfvA_rLwQi3OtPAnUQhW3yI"
+    },
+    {
+     "id": "msg_0b61f0026c74ea40006ac5eda6e23887d2bb1a9c7290902087",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Patek Philippe\",\n  \"model_line\": \"Grand Complications Perpetual Calendar Chronograph 41 mm\",\n  \"dial_color\": \"salmon\",\n  \"case_material\": \"platinum\",\n  \"bracelet_material\": \"leather\",\n  \"bezel\": \"smooth, concave platinum bezel\",\n  \"case_size_mm\": 41,\n  \"complications\": [\"date\", \"day-date\", \"chronograph\", \"moonphase\", \"perpetual-calendar\", \"small-seconds\"],\n  \"movement\": \"manual\",\n  \"printed_reference\": \"\",\n  \"references\": [\"5270P-001\", \"5270P-014\", \"5270G-014\"],\n  \"confidence\": 0.91\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791356327.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 29871,
+    "input_tokens_details": {
+     "cache_write_tokens": 975,
+     "cached_tokens": 4723
+    },
+    "output_tokens": 2336,
+    "output_tokens_details": {
+     "reasoning_tokens": 2167
+    },
+    "total_tokens": 32207
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 3
+    }
+   }
+  },
+  "search_requests": 3,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

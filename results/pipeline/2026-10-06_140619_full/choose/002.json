@@ -1,0 +1,42 @@
+{
+ "row_id": 2,
+ "candidates": [
+  "116500LN",
+  "116509",
+  "126500LN",
+  "116520",
+  "126519LN",
+  "126502",
+  "116519LN",
+  "116500",
+  "126515LN",
+  "116518LN",
+  "126503",
+  "126528LN",
+  "116505",
+  "116508",
+  "116503"
+ ],
+ "result": {
+  "parsed": {
+   "reason": "The photo shows a steel Cosmograph Daytona with a black dial whose three subdials have silver rings, a black Cerachrom tachymeter bezel and a steel Oyster bracelet, matching the current-reference black-dial 126500LN rather than the white-dial 116500LN (candidate 1) or the steel-bezel 116520 (candidate 4); a black-dial 116500/116500LN would, however, look essentially identical from the front.",
+   "ranking": [
+    3,
+    8,
+    1
+   ],
+   "clear_leader": false,
+   "none_fit": false
+  },
+  "raw_text": "{\"reason\": \"The photo shows a steel Cosmograph Daytona with a black dial whose three subdials have silver rings, a black Cerachrom tachymeter bezel and a steel Oyster bracelet, matching the current-reference black-dial 126500LN rather than the white-dial 116500LN (candidate 1) or the steel-bezel 116520 (candidate 4); a black-dial 116500/116500LN would, however, look essentially identical from the front.\", \"ranking\": [3, 8, 1], \"clear_leader\": false, \"none_fit\": false}",
+  "input_tokens": 2436,
+  "output_tokens": 4802,
+  "cost_usd": 0.0032466,
+  "elapsed_s": 23.948,
+  "started_at": "2026-10-06T14:14:11.142993+00:00",
+  "error": null,
+  "attempts": 1,
+  "tidied": false,
+  "served_model": "deepseek-flash"
+ }
+}

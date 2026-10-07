@@ -1,0 +1,35 @@
+{
+ "row_id": 4,
+ "image_file": "004_rolex_datejust-41.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_line": "Datejust 41",
+   "dial_color": "blue",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "fluted white gold",
+   "case_size_mm": 41.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "126334",
+    "126300",
+    "126234"
+   ],
+   "confidence": 0.8
+  },
+  "raw_text": "{\"brand\":\"Rolex\",\"model_line\":\"Datejust 41\",\"dial_color\":\"blue\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"fluted white gold\",\"case_size_mm\":41,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"126334\",\"126300\",\"126234\"],\"confidence\":0.8}",
+  "input_tokens": 6698,
+  "output_tokens": 124,
+  "cost_usd": 0.014636,
+  "elapsed_s": 3.313,
+  "started_at": "2026-10-06T13:49:27.018014+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

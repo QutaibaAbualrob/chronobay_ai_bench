@@ -1,0 +1,288 @@
+{
+ "row_id": 43,
+ "image_file": "043_tagheuer_aquaracer-professional-300.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Tag Heuer",
+   "model_line": "Aquaracer Professional 300 Date 43",
+   "dial_color": "black",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "black ceramic unidirectional rotating dive bezel",
+   "case_size_mm": 43.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "WBP201A.BA0632",
+    "WBP201B.BA0632",
+    "WBP201C.BA0632"
+   ],
+   "confidence": 0.84
+  },
+  "raw_text": "{\"brand\":\"Tag Heuer\",\"model_line\":\"Aquaracer Professional 300 Date 43\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"black ceramic unidirectional rotating dive bezel\",\"case_size_mm\":43,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"WBP201A.BA0632\",\"WBP201B.BA0632\",\"WBP201C.BA0632\"],\"confidence\":0.84}",
+  "input_tokens": 1482,
+  "output_tokens": 598,
+  "cached_input_tokens": 0,
+  "reasoning_tokens": 481,
+  "token_cost_usd": 0.00044720000000000003,
+  "searches": 0,
+  "page_opens": 0,
+  "tool_calls": 0,
+  "queries": [],
+  "source_domains": [],
+  "elapsed_s": 10.097,
+  "started_at": "2026-10-06T15:33:34.967670+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_0f85d18d80674239006ac514cf87d087d2b7e172fd28215280",
+   "access_programs": null,
+   "created_at": 1791300815.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0f85d18d80674239006ac514d0b0d887d2bfc994859aa80bda",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRTZ-KMKmlPrXT9F--IJ_thX1yjbFrTxkgzXtwpTCpxXt4MI3JV85JSTx29x80vo0PWMBJormaHHRQ599_bIlenNPwCmdErSLfTm77nn2rtGjY8rDwJJlXp9bk17sGpMvcsPLRGw6unsRdotog1-MSJ84uS8W_J_t9Owfucg8C4kTQPRXyUDZK5I0qkuW15S0H2kGtnn8Ejv3XkVa92qrwS_zluQptnE0n5EY9qr1V_h6yBfFOwaMhGO2DjhuW-9lI1XX-uyp1dOngn88yI4KGidAdloqNEMWGVhu3WGZVd6c713dRfMTi4YKb_qCHVrNT_9G8PYqLUWlDKTvAYzDOXdBedT05h3vzb6dHFax2ReyzZLxHFMPL7SLeSK18GW8eOmogz8Hekl53F7PWuNnd9cbR7LRORRRbOkLBuuNWINa2N1beSTdd1yJK65ZD6XfkSiTP9iXjqdmBdKR_8ZQ669l45bO5SPuKVwWgRK7fmJE-EHU7JfoAZS0o5hsiFj38aFfy33aH5TsvgHyXn9W6-_OOW3NupW7FXQPDOiZTUTrlFXakQtbcdEuXQJydiM332OgEpDL-9MNnTk9e_qfdkZh--BjfTyEY8GtjR3b6RE15AYo31nNZM2rsAupHcAUTxlKha5M0VY2WiV-N2WoL-Z8l_-24Onimkqz5KmWlkm20rS1eFb27Rk4ras-F2o9MOO4HRJb1s4NzgaqTYDFuntNoFVh9mA6acQoic643q2FKhwuvlUCZMCYT5fKqhGcG98nK3uhzkKQac7wkOZa7O9f5lfQsu5LNSNXS5ZZOMNUvA9c_BMMVqM8JnNKqqpgWsznA5MFoTvXvrpHjCNFaicdwdvfTgQGtUUaEDUGqztkxmqIEguZyqCM6v5zPdI4x0voGiCHKVve1oj_kNay7_s3NxZqyuvCV0bUrVgxoU5uoorkHUZbTYXfZQNd0CoU522F5nlBOamOryTZs6zj1e8FY7O09wDzvwhp8WLy9O_K-n3um9Xfo2d8e0-FHZ1hTieYaOj77YVx70JditbiPGpyxaeWV2Z2m_oiSY7cPKQwIdwz6RlHjMb8w3XzZmw8b7iQhhSQchVNwTi_ML4FV-F1fVHN4hIxW_q9YUT63PhgWvaLBJEJLRwV8Y_RloBwUfVtms2Oihrteyyw1YugK-QMmF9YnuNFL7CMNKc-s9oxf7RkWRMlLxzzev1lTJL7Uyp5fLXs89RGHTRK7q62M24JRx566YYyVlgXoAV6eWxceg1DxI16Ngh4qKx2gfHNfECo2opcAS787eTZFJCwNVG7DVDmIkvZ5GMM79OmqPxi2DGuJHlM3PgaOAB_surVkzr4lWFurVmD415Jeu-6BGyd7abLBmkslmZTDF378MN6Ad7vuWcPR8ZZ8xc7IyWr65_YP8QdWgdjPjF1DKTJ3mFk4QKEdt_R8_-7BoMVj42tsZd10HBbw42HnpHO5JjBTXjqdweSBP9-i8I5vRxb5IJ9wmjGdQtUNTUD1Pb7ETFsER-2bO_T_SRyloM_ZhQ-7iuyso0lGEREp5Ikmwfl13aFp0e69pKBfpUCpSBVVoTJaFkXqyNknMasnotQF4cIHheTBIuH_2_4iQ6qtLorkQcCvqGBmmaI1D1xL5e4s8lsssBsh_kyqyN8HNQhBAI1aVzh6474RIwbhkTzeOdrSjy7hsnL3ciSMx1Sge7gk7o9D1HT3BtB0H-9xRprhm_YUD6RZKy8SCsww8hvMM-x6XZciNPoPAqmqibFXNJsCrOMLtlFpM8V32DMbqbP1IXMzpKa9E80xcQhi4LjgQ7bok5zHgVsVey9de2EqgDX-Wi7li_tNL96TGzdW9AI6I1KLmjDnLzChwMdkcigZDsDvJubxh5-WKDZWxlD3SCYxuK8F9tMOsnvu9VYeY5HxABQq-MbebZvVZSNbIEZyqA__AFCpHJkkX7G_-d-K9Vw3RWLbGjKJU_HE1NmkRgo3Vb5xgCHX46-JNzdCcW-E1W_h9BGWOAMYnqwdFoX4YuVOlEpwl1cAIeYUPDTOePtKZ4JitWx3D44nbKHR5zwWI3MxOoOCO2XMAFFKQHg7THXYyp4yAtL79Dy9YY7uLjd3C8rPAaO4OEIhy5-LHELhU8ju7X8Ltlmgm_-ORHYrjNj5a7mSKyzDcW90l0DedTEmyxgZCZtVLQ37p7ClnFfwJ0ODYUsAEUhaCvruRx5iFdJASSzTPvshoSEocwB97EnniOv_ErUoNK86Iv70-jze2vokPUrtW9aK9gDCknrUj-zmfmMrwak6OJC8oMcz4IBnknVKS8s_aKyMqiGMg_8-icYyaGbCZWwmc1nSlzFHHdnE7rxHw_nIbcg6A0MEUy_PfeWpV6oqZ153wOGo03WebYCGmTFhiJCATCN-9HrnZuKUQ6VTbybCiofiA32tsyiFRjBwrdmUm4g6_ySOuCMBOdIsy0SxnkFB6jMXchaZygcCjlYKzbjvmtf9n5wed0mybWkW4uy0IyqDMz88OMtEIVqsAq9Hp8AujupN4OWrx5URIzNtqaB6oCccVO8HAhf1ortZLgl2YawAQPIdmFscMH0ReYIkgr1BR1e_JLtemWDxGng3ASHsxxRv2iZWJhxVC95dVyIbqELtMnzBeyIGXJJAevYFLo6uBU8bkOiN9dHEd_3w8p1l36_gevGAvUuTKhT-ch733kkEPT3bFPZLLdwQlOHROYX2NeKaoET0ytu13aO2mylbZU9Ze1CV_iLk0EzZGLyEI66pzO31RqqDmA1_d8CU8JHIBGx79Y2Ce6yxUxoR_U6z12nCic9fHjI4Pt8Er6hgGWBNUcl61svkjUpPs92urklrPAZobQXuhD42cYw5efA16woNT-zoiuyGdxPW-HbjHDEomNl4PdqNsg0faIPrM4xz-KsRXV9zwg3ZB9Pi5bwx2ewZNfIJjcqZm9SFXLN4t2V4n6xYqR93YLChwMuyrLWOzQazwyuTaE8lZKRux8jypaLfhJ3bO_lu248xwDtif_YSQZn2Pu7LvD2WnwuoTrgFB1y6L4lVQv--lr87yr9HnzLxFnpA1yAEgxohlEIDJQKkReDB5ALSty31svb-t4FpsPY8CoEwGg1CaFJsVyr4UWWCrrlAFP2-ZGWLZygCDS2-7oRl2-GhcXrLhM_3VDyFW2SPUJZPiYqd9ljT_HzfEPapHnLw0tN3zwYxmB-mSXAy0MIb2RaVff1VsyMEr5L8_V9IvawaqKzEm89254k9OmyV5ImtRYcx77PGHGM2HWZsRl8agnK2NOj7fklDNospJxCf3vdaUsKucYZaiO4vaZz37JRqFYg9MCPHr9TWVmeyu_bAjumuJ-7VOJ8XUj2a494QkAdvE5s5yigCmgxr_ifoRlSc3Pr7x_0cji_IboCYKb4WPykNuXJVuAezyPsBbLk_nSLthCdAOF4HR-EcO8g7-KW71jaAwV_uyZKKNtuBcB8EoHZZfxp7DJgvO8cHhAL9RvNCbEDmDwyB-XMZFRAywMLiIe2PpZZmOwtSkt4iE6ElEeXjbf6IvER8S6f-lJf8EX7P22bpwCS685DU7ayNRGRcYHB4T4xQZI"
+    },
+    {
+     "id": "msg_0f85d18d80674239006ac514d6e13087d2aa944d211f3bea7d",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Tag Heuer\",\"model_line\":\"Aquaracer Professional 300 Date 43\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"black ceramic unidirectional rotating dive bezel\",\"case_size_mm\":43,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"WBP201A.BA0632\",\"WBP201B.BA0632\",\"WBP201C.BA0632\"],\"confidence\":0.84}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791300823.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 1482,
+    "input_tokens_details": {
+     "cache_write_tokens": 1479,
+     "cached_tokens": 0
+    },
+    "output_tokens": 598,
+    "output_tokens_details": {
+     "reasoning_tokens": 481
+    },
+    "total_tokens": 2080
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "search_requests": 0,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

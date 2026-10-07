@@ -15,6 +15,8 @@ DEEPSEEK_API_KEY = ""
 ANTHROPIC_WORKSPACE_ID = ""
 # Google Cloud Vision (vision_test.py only): an API key from a project with the Cloud Vision API enabled.
 GOOGLE_VISION_API_KEY = ""
+# Serper (search tests only): a key from serper.dev; 2,500 free queries on signup.
+SERPER_API_KEY = ""
 
 # Models to benchmark. The key is the name used on the command line and in
 # report filenames; "model" is the provider's own model id.

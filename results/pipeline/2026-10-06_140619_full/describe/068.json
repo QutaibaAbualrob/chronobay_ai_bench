@@ -1,0 +1,34 @@
+{
+ "row_id": 68,
+ "image_file": "068_cartier_tank-francaise.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Cartier",
+   "model_line": "Tank Francaise",
+   "dial_color": "silver",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "smooth steel, integrated flat bezel",
+   "case_size_mm": 25.0,
+   "complications": [],
+   "movement": "quartz",
+   "printed_reference": "",
+   "references": [
+    "WSTA0005",
+    "W51002Q3",
+    "W51001Q3"
+   ],
+   "confidence": 0.72
+  },
+  "raw_text": "{\"brand\": \"Cartier\", \"model_line\": \"Tank Francaise\", \"dial_color\": \"silver\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"bezel\": \"smooth steel, integrated flat bezel\", \"case_size_mm\": 25, \"complications\": [], \"movement\": \"quartz\", \"printed_reference\": \"\", \"references\": [\"WSTA0005\", \"W51002Q3\", \"W51001Q3\"], \"confidence\": 0.72}",
+  "input_tokens": 1721,
+  "output_tokens": 686,
+  "cost_usd": 0.000594486,
+  "elapsed_s": 5.429,
+  "started_at": "2026-10-06T14:10:24.819273+00:00",
+  "error": null,
+  "attempts": 1,
+  "tidied": false,
+  "served_model": "deepseek-flash"
+ }
+}

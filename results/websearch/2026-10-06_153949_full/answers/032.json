@@ -1,0 +1,653 @@
+{
+ "row_id": 32,
+ "image_file": "032_ap_royal-oak-jumbo-extra-thin.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Audemars Piguet",
+   "model_line": "Royal Oak Selfwinding 41mm",
+   "dial_color": "blue",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "Octagonal, polished and brushed stainless steel",
+   "case_size_mm": 41.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "15510ST.OO.1320ST.01",
+    "15500ST.OO.1220ST.01",
+    "15400ST.OO.1220ST.03"
+   ],
+   "confidence": 0.78
+  },
+  "raw_text": "{\"brand\":\"Audemars Piguet\",\"model_line\":\"Royal Oak Selfwinding 41mm\",\"dial_color\":\"blue\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"Octagonal, polished and brushed stainless steel\",\"case_size_mm\":41,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"15510ST.OO.1320ST.01\",\"15500ST.OO.1220ST.01\",\"15400ST.OO.1220ST.03\"],\"confidence\":0.78}",
+  "input_tokens": 21617,
+  "output_tokens": 2043,
+  "cached_input_tokens": 4723,
+  "reasoning_tokens": 1915,
+  "token_cost_usd": 0.00275813,
+  "searches": 2,
+  "page_opens": 0,
+  "tool_calls": 2,
+  "queries": [
+   "site:audemarspiguet.com Royal Oak Selfwinding 41 mm blue dial 15510ST.OO.1320ST.07",
+   "Audemars Piguet 15510ST blue dial official reference 41 mm",
+   "Audemars Piguet Royal Oak blue dial 15400ST.OO.1220ST.03 reference",
+   "Audemars Piguet Royal Oak 15500ST.OO.1220ST.01 blue dial",
+   "15510ST.OO.1320ST.01 dial AP logo 6 automatic text comparison 15500",
+   "15500ST vs 15510ST dial automatic text 6 o'clock logo differences official",
+   "site:audemarspiguet.com/us/en/watch-collection/royal-oak/15510ST.OO.1320ST.01"
+  ],
+  "source_domains": [
+   "audemarspiguet.com",
+   "hourstriker.com",
+   "sothebys.com",
+   "bizakandco.com",
+   "watchsize.io",
+   "thewatchpages.com",
+   "jaztime.com",
+   "chrono24.com",
+   "youtube.com",
+   "watchcharts.uk",
+   "chrono1010.watch",
+   "reddit.com",
+   "dist.dev.phillips.com",
+   "mydevice.it",
+   "images1.bonhams.com",
+   "therealreal.com",
+   "gazette-drouot.com",
+   "astagurubucket.s3.ap-south-1.amazonaws.com",
+   "en.wikipedia.org",
+   "hodinkee.com",
+   "tempuseuropa.com",
+   "rolexforums.com",
+   "watchprosite.com",
+   "monochrome-watches.com",
+   "wp-aws-media.s3-accelerate.amazonaws.com",
+   "manuals.plus",
+   "electronicsandbooks.com"
+  ],
+  "elapsed_s": 22.135,
+  "started_at": "2026-10-06T15:47:30.623080+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_0009c8cc49b227df006ac518132ea887d2bbb85ecc2a6d19bc",
+   "access_programs": null,
+   "created_at": 1791301651.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0009c8cc49b227df006ac51813c79887d289d707f74614f555",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRgogQkpsj8fjZsaiNkOFQSRcRCP_aI3IDf5OtIormsGPbDFzwtSufNWfIdW2Zu-plMKALwJFJpn5DUSZA3fCQp-QYe0cH8AbInhwoMVYm--Tbbgee9EdUERG6_BoqD3dxYStrYTlicXPFHOk9JckA5GWd7lMOmHHULNRmlxeJBaMzPJxqejWfbFnWhgEQaiaQehVb2Q2nrF-bBeWIQYfOCrjq0KI_2z5NubkXBfzIPAX9x4vzrlT1Vyw7VRLOi2qOTl5NpmBp5nYCfrwuoj_Cf2QItV5HBBgJdT8aHgF3dyMRZe66KKoyPQdq7TNu1yczr_mvgGwmox-3KUXZ-WMP3AiMZKYcqo-5rpphvAEdywMD0PV7DlaVskxYM_zXfd10D43k44q9RJ0rk095P_2FApubp9dHYMDMjfw7WKRv36Era3hw8j-e1bnrWKxDabEdLEdUEqC3B6Cc7hrkjs_TV1DU7RvKNFeKGhKKXo4lo6ixXgFmxcy6TsjtVapELZx3_QjZ3B2eG9uZiIVo3TNwEm91gYscDYKKD01KaJrnmi10z8DKC5GWrRiFFZhju2BUAGu2OI63NvfEOPC34gnMtDkUlotXEOvo9d3Po29o-yu2IkCXJ0LqjN0XM-CEbrV-XOqXFVgPrMOQRXyBFSYp620pCfKwkEPqaIVRTPlfocpfQLsyrMEwsBElAQq0Qby74zlPKwjyp4CjgMj7bPY8kagD3Vd7PcL9ChaMGSBDBRAMThbGsc6K9nbJl_OHbVVmdt_kmhcCdzbBU-HBZCSIJRVbO2Xshxca-9Ou6xlBimNCqKk-zI1AzJ3VvC5wk5pfi5FhFeX9HyZi326WAz10PZPI88lMvX_d9McPwAUTOOoL984jUQ7uFWq53-phyP97p_jKr0sG5YjAQyzx_8M4ovRWcOcVQGyZn0ZHC40BZpttaxMgXC36vkKnmmsW6a4MAUGarOrwznAE9VvMP9EkupoafsOru4Bjz7XfXOeDpUhE2uvFVSXDeBaGySM3l5X2LsZV5WhV0ooSdY7aTLY5M1KlUpNumTr1yla2n3I6PtdQxsXZqMZ4yfnZeHDlOqbB6_TuWdO2DLphpivum9KC5jJKA1AAOu6jwyFZOWy4A9rGjT_z5MoBxUFktKFvxxzqLrRcPQM0j22GnAduNJf580FHNEmgarSrjkFoxaBg-4zGENwv-kJfOEqHBuWRcfTELaebZCipVJQW4s-UslNWxIDlAUmX-gMiB7xWxixog1YQs7yWWXM95j-ION1EdmTm5yFrDVdRHFvdN7WaKA3IjGGcegDTzwNaCmaR093umL1VVktID1BXiISu6Fh6BmBU7rtHeFI1v8knMP5y3gcJEh0cuccFPed0rScWDYOzF2MKOcdyImdcXssMES8XDsqHCUQCFnk6YjOrRqAUuqPN5skOZz9vVtuDvMHR8KLgsMttU="
+    },
+    {
+     "id": "ws_0009c8cc49b227df006ac518144fa887d28a9de3851a862a57",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:audemarspiguet.com Royal Oak Selfwinding 41 mm blue dial 15510ST.OO.1320ST.07",
+       "Audemars Piguet 15510ST blue dial official reference 41 mm",
+       "Audemars Piguet Royal Oak blue dial 15400ST.OO.1220ST.03 reference",
+       "Audemars Piguet Royal Oak 15500ST.OO.1220ST.01 blue dial"
+      ],
+      "query": "site:audemarspiguet.com Royal Oak Selfwinding 41 mm blue dial 15510ST.OO.1320ST.07",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15500ST.OO.1220ST.01"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15510ST.OO.1320ST.01"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hourstriker.com/database/audemars-piguet-royal-oak-blue-dial-15400stoo1220st03-43753"
+       },
+       {
+        "type": "url",
+        "url": "https://www.sothebys.com/en/buy/auction/2024/important-watches/reference-15400st-oo-1220st-03-a-royal-oak-a"
+       },
+       {
+        "type": "url",
+        "url": "https://bizakandco.com/blogs/editorial/audemars-piguet-royal-oak-15400st-up-close"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchsize.io/watches/audemars-piguet/audemars-piguet-royal-oak-15500st-blue"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/watch-collection/150-heritage"
+       },
+       {
+        "type": "url",
+        "url": "https://www.thewatchpages.com/watches/audemars-piguet-royal-oak-selfwinding-15400stoo1220st03"
+       },
+       {
+        "type": "url",
+        "url": "https://www.jaztime.com/audemars-piguet-royal-oak-41mm-selfwinding-stainless-steel-blue-index-dial-15400st-oo-1220st-03"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/audemarspiguet/ref-15500stoo1220st01.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=FkwEdYWxJqY"
+       },
+       {
+        "type": "url",
+        "url": "https://watchcharts.uk/watch_variation/676-audemars-piguet-royal-oak-15400-stainless-steel-15400st-oo-1220st-03/overview"
+       },
+       {
+        "type": "url",
+        "url": "https://chrono1010.watch/watches-wiki/audemars-piguet/royal-oak-audemars-piguet/grande-tapisserie-15400st-oo-1220st-03"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=MUOV0dp2eqo"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1l9pdgh"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/mb0ifm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1rta0p5/wts_audemars_piguet_royal_oak_41mm_blue_dial/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.dist.dev.phillips.com/content/web/auctions/HK080323/HK080323_zh_1.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/audemarspiguet/comments/1opftnn"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTime/comments/1w6in9d/my_first_ap_vsf_royal_oak_15500_blue_dial/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.mydevice.it/Orologi/Listini/Listino_Audemars_Piguet_Febbraio_2016.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1mr7yr1"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1lgawzt"
+       },
+       {
+        "type": "url",
+        "url": "https://images1.bonhams.com/original?src=Images%2Flive%2F2024-01%2F19%2FS-29739-0-1.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1he30kj"
+       },
+       {
+        "type": "url",
+        "url": "https://www.therealreal.com/products/77503940/appraisal_report"
+       },
+       {
+        "type": "url",
+        "url": "https://www.gazette-drouot.com/telechargement/catalogue?venteId=120618"
+       },
+       {
+        "type": "url",
+        "url": "https://astagurubucket.s3.ap-south-1.amazonaws.com/TheExceptionalsOct2023.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1twtq9f/wts_audemars_piguet_royal_oak/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Repdesignerwatch1/comments/1e6d1ma"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1knd03r"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Repdesignerwatch1/comments/1e6d15w"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Audemars_Piguet"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0009c8cc49b227df006ac5181a362887d2aeb5845bbf2ad73d",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRgockrf1HbJ1VWQJY0EgxOLvj112OTkUqsxL8-kSKYdV6t86KBaZntlTBUm0ztXAk1qJZxjyh-lvF-VoV9-IHjxrIRrias87lGurf8Hjz7ZTbePttH4y_EPBRCM0wbcnogxN071VbJgr0Sm_mG15JjiXlMt7NLo-BaqOMfHejb2YV2BFfRZXnWzCV7OIjunaI5pV2xXrtGKjGMs7U_i-SpLmFae145OdAoRLEs-WFKOv24NlQKMrBMiSCZBtGNTCGc-6ceivXM2DREI9iytoQP7tNTbQ3t8dhE92hqQRU7xV61lkrEKDOQ2yrE1nlLHujm-jPBmTZXHKsWbcLRsMy502RM2xn2M5_USTAeIjFoNHvs2X4vmzRZaLXIHzZRtipxR-RFPtmx7CfXSFI_u8Dy7P13iDe00SsLxwE1l2Cn4NEuUNjVA4B_T4BNIx2anPWTqomu3dgz-PZF74LXlY_Tw5OPAWHI4mTHF0GitoEYmAAPTdY6gd0QCDZMpW4ddzuwtQYpaRXgK0FnWSKr4M3UO5jivgNUaFbKS365VsTawHOzlZSV2lBGJuWz33MW_3AvvUcdxrtG-rJyFpzOp5apZZ7pLlizxMxiaUmH-2gI1Qws-QaZ9NVJIi2hKVgw-mRQ81G-8-V4CI1GSV95CwL2TBX44ztvvx6_fGHA7IDom_60E4-XVHwIjw9CeiFxZPoZraXgpE9eTqIY6mptwr9OVX3MaeIy_zShixUqeSiK7cYsKgZ48nCNgS7xHLPIe4xWcryDQ2zlJShui2nw-7mc-VQgggD4iL5HEE1yECuLdXABaolVSGFxS2VEvqb_iEjx_o_bGazm2cfk27Y8JQrTsJYouG7eIbd45XTWGQMUpMmuDEK8h64i2I57J45FVqnQcaUe30numoe4s7YBygfIDdGJF4J4sSXI2_cBAkm5TkTz80pEhOOufDS3oaxX4qOMQtAarAWWyWq8p_64P5kMQByXP2hmbOahvtP00Nx3uQZ2oz2QEy2vvy80XhAh8Dv_onfCUP2ylMtSMJ2ZL45E4sv1ZSrx4CC2PGH2WsYBFqlO8wKWUm_kq8HEbcOqgOXFV8Uji54vbVJUPDm1xuka6EQJtL1D5B6qsmf08y_8md0jAuFbukGxCCy_AzMQ5eKbULlsHakFzLIx8lmNAQUduSXNRG31onh_aONpHIL680AOjFE8yOu3f83HJLAyDqkvYdkySDX4Ne8RGPCyQNEjs3MSv1qccKPQQdzrjPJHa1BCv9AWPf3yLu7agkt4c3IEtqvBax1rgOQtDQKdOT3PxK-_lBFd_iFTMHQTefgrj1c7jHCMAnt9v7kISrCuO-Gz5VgH1KfS4ywMyUmd-6yCxLgiyNEukjQ_5kV_6X982Mr0p4MU2xlq2bf_VsKvs-N8uzE7RzaMX1NfArSA5CF9wyLS4_GFfPxWA8rPDBlLIBjGQGb4hAeZhb8ME0pPvuRQvX3L4JsQQ2aYipmn0HHcsd4RbS0Up0o3iHDB_QhyXsbiWOOTH4nWsLcbpeKrjBltTHn0kFisz2ZuDI02Lzyo5Tg7bY4J-sUD2e3-klGuaflDNnZn8S4lV-PU-v8yzv0azK4FOW-_Vdm4knMdSeh1OnrFmnppCtDdMaZZvAyy67ba33b1RiCGHfnqEncXyRVepIOTGFZqQ0tglj67P3oCAojEDndddyAABJS9Ev_pn3eXOFZ5aXEM5Dm85QPKE8mEAX4qzHUQ4v-0bGjjHmppAYEQ-jDs8YnpG0pHtbjbLvanBwM2diznPty99n1Ix7pELO_ChMbLBAngpuqBLGLBf9IndbK6Kmwwf8EMAycKDesB3S6VCDJVSj3zuPdG6qveM_Tjb-x6YsMUjHZGbdrsmSCg2tuPNVrZC90SznXqc4xW1LFr-Ojc3mhA0V_6ECvMpnMwB_sLi3SVaI9xF9chT2_qvOJU_Fr10UKj7Nl_VcW033mO78l8AKwBMx_RyvtGEvOPf5kcGfFS96SIxatvI32i0jRbjfyFLsTy07HUpo0LGYtRIxDWCpLY-eOCXSdkcEqLJPlspJ3qsYSmOLbTWnWx9IzS2uuJzdwL7kF_qk5VrQP4Mvg1s1M3pV1BP5AgqYXOGKfh8b_dbvOM-9Qhf5JjyZNolnBhfcvAy6wvwKCDilG3Hk0pGe-UIfkgl1Xg6II6J_QfAdXVQIYa7KQ6RBbzuN4izCWyq7l8epFXYyKnxRuSHJXKKEzxH6t4PZgxjdY4cTb0fJ687Foh6k-niCiQhCHZj-gi-4f6tVIzo0sNsGuGi7YOted-tjFvkBFVuz3jS4q3E2H08zPdqJGQew4laejJ39aJTfrpXvc4MmBJIWEHKuiwKZJMPdr0k0tcRo7WDHgzIc3Ml0lUIpzkrg0wOfH1P2BZDTCk2zAc7p9LI0m2D0rz_sALWY9B6TK_Ufpt99PqJsWll3VwSWyG71uFeLRHIDYd5PIMWBRo3Y9Mq3-_q1r08tyBoe08FON1sx8qPimN0Tm-c-PekV8E2u6JdUmDZNURtUVOVkC9NBRsycUbo9ztAIEemaQSwu8PEz3tXhjMWIvR5f24xg6MABXQKKfMPV2dzAem-bduL8n148ZkMkPd_VdqRhAhws_rlYSJ-8ucVGKstD-Ct7DCKrzcnVE-WLlGb91idC9BwglnDSSCv1Qqp0i5grOftiF-OXatVC7Z6rlurie6wpVsMYXEKWsWsNe2hclbrjLJUYp1Pz_cr40B2lXk2sNN0u7xb-KQVTDThdFueKVLkecdw-Km5dp3lbOugcBBroEjS-MhEl3HLf2f36VVp-295t87xFhqrhg4JyaTIVH1_qN_SBtImXY5AcjnCP69Sgm2Mxwv6GJwTsYBs4L39cfLzi0q-dD4fYn5eMgNyzjIHp6aaUnOnQe44aUz5toOkQoIqoKYEu8gwmUjZzTgNLPnXs_lVAZoL52LGQ6OOLuzAXFxHqjOsaKZ7brWWOjbhCeHDwVOI335sQ70TwIvP9GcUfCi2X3OtSSvDMeDNYeV972KgSw4y_hjUbNjeiO3e6JkC_bI-vO8Dt1hCrPFmbXpPPX7Zk9QMqfuywXEjdkP8iv3kWA0DzE2NaIxgOALGZFGPG7_vKt3XnR2iCIdp-dHq8wAuqHOo1xf1lHBGPEEtaxWQNKlAbOxVBNCF65O53aiUkgI0mD0jaf_BSbZGQEsSmI46r3hpDbjKnsYLzcrnuWEEJB8PXc_hCGZiwuQ2L9yJsJ-q-sNpxkwJeTzr0g3WIr5YdbpXzESb51ARbq28hekUYNjyeehfRtnlHAj7yDbiQ835fGhmrPxknznWWO7IMKeEoUs_p7QdWX20elcrVAnZE5WEo2nrZMqPlgW_ow5en8bnyuy08-bUimTotX8PjpfvBfN-9Mnqu4gdu2Thq1z_-S1ppAYG-1PF-zQqRzvOjfeJU3QBD7Wijg2XGEgPxfJcOXH2Wk77sIknpthHg5nIPA=="
+    },
+    {
+     "id": "rs_0009c8cc49b227df006ac5181bdfa487d2b9c09f759683bb33",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRgoLCtutnG5qQ5X83vQBeq-Z2G6I5dYyMNM_83e2wsw8J5UCEDSe985rLz0RIbay_QJ23svGAtU4TNgeBA8xqDu7ZeptdL5l0JQ_TdJb4_PN5W5OgCr4EkvCT1nZUHkmcn7klxOGhhKrtgJ9_PWgqRHoRL_iDCFtPO2OrIhaayD3WljK4ZyMt7PuFllN_jK1Ky7P-2nH4jd2eBPxNjH45PQac01PC67xeOSYwn9dPnyaWrPyDEMtY4sYGGufX_psjI7ffGqf1l8XE2N_7TDLEnuQhlZpGjx-U6Y6UpFZ0E3fRnSyNKGoYSv8IU0dVCd_w66ZDuitdXhRS4Jzm9BffIz2_WG7nct-4Fql3NogIXDUsV40zMeXrm0HZa6tfdmxXPafl35iCjK5BJNjBtsHFuFYTVm4Yj1jsZ1Pvy7qc1mEbiyaiMkeD6-rLxeiu08rScHekH8KImpzVBWySDdzmsNQCb-c5kbY3QLFvdoWrKfnRJKh1duWcjZn9fQjyJz89GtAo8fo9j5E97fEITJcEP262CcEwP2TBp3VY7Uv8dT60gGHtxK7O-5JlOZQpVQgjGKD8KLGQrXcKgsCfr-FC1TuGUsjlGUkt44BNkw6LbbZ1CPMjLGdxFhnURqIzO5zjQ2u4TYuT9DpMR187k0TdctxXOS3VfDlXDdOSuCnrSvPfC0pnmzm99B8RdHSe10E5wYL7J_bdJtmHqsBExYr2syaqcZzfmO2WE6UKJdUUcdcczHxmz0Mo-UCKA7vlA1MadzYegFg8BhlAaSE5jQUVhuKYEHO_8f17H7NVHWMUL5W3H0nKTKlF4TbRSIq2hzHdkVIgkq_T3AGq2eCB8f4lglXklFZucOrW21gI8l5YEuFMufK_v2zNerkrd11jsxaR0y3LXikvKaivnxb4Rq3lhDm6ezzHZAftpHtnw86XwcWgvsNMYK-C8reHMnvJODcFpckhRptqJgs8BigcCrrhZ6XrJHxBQdxQYJjw-jWQaGZIWpmcfi-WBGhPiYDFNb5R3ln-ED_nDXeOtWERJZTRL62qprOGlqt6VZUE0HvV0c9KrmrvlkERyHNhJiIYSUTu6paEQ6BAzR-rtnnwlkmHkvDOPMHWwY-KVaNz1mkJu4VRnwTzDfmSiKU8lnojOSH4EBW_1QLRx5alb5H8Af6DkiSqRidq7pkkCN7B6gr5pPwQAmMJ0VtxjWWtMmux5W6XsAjDjXEfbOV5zsyuTzaar1MIy67pchWK7BGZlUAKbbZi9BhG6ur-U7TmQCsiGDbVOT0DZPvLed0gmcJRArEb9nqpVBbGpFu9mmfOGVefAn8EfxMyNaxeoLMyFlu8j7JKU3mz52VavWwfqnx9RqhomfEAwgE738CIZ0QZHZgs0TC-8FOLWgieZM1wqYh6JH54lncyTzoEzWsja3ljXPsaUgSIIHHPrJln0ZR4p0wsqRK7cmhRxIvXr0krnLd4ee_KpB1k1-Wh1HsT0Km9ndmp-t4YPNTKKz-TaoXFjUrmVR-iDdnIhSXHjcwDAFsKB596pICRsbgT8l8r_0vWEtGlhP-TBEVYUK7sNPjhIunUTQ78GE0rB9OKbUnOJw79lkZ-Q2"
+    },
+    {
+     "id": "ws_0009c8cc49b227df006ac5181c0c2087d2a7a3ec41a146ae3b",
+     "action": {
+      "type": "search",
+      "queries": [
+       "15510ST.OO.1320ST.01 dial AP logo 6 automatic text comparison 15500",
+       "15500ST vs 15510ST dial automatic text 6 o'clock logo differences official",
+       "site:audemarspiguet.com/us/en/watch-collection/royal-oak/15510ST.OO.1320ST.01"
+      ],
+      "query": "15510ST.OO.1320ST.01 dial AP logo 6 automatic text comparison 15500",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.hodinkee.com/articles/audemars-piguet-royal-oak-15500s-review"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/collections/royal-oak-collection"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/home"
+       },
+       {
+        "type": "url",
+        "url": "https://tempuseuropa.com/en/reference/audemars-piguet-royal-oak-selfwinding-41-15510st-oo-1320st-01"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15510ST.OO.1320ST.08"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/watch-collection?keyword=diver&view=legacy"
+       },
+       {
+        "type": "url",
+        "url": "https://rolexforums.com/showthread.php?t=850665"
+       },
+       {
+        "type": "url",
+        "url": "https://bizakandco.com/blogs/editorial/audemars-piguet-royal-oak-15510st-up-close"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchprosite.com/digest/audemars-piguet-15500-15510-blue-comparison/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.rolexforums.com/showthread.php?p=12703536"
+       },
+       {
+        "type": "url",
+        "url": "https://monochrome-watches.com/audemars-piguet-royal-oak-15500-compared-to-jumbo-15202-review-price/"
+       },
+       {
+        "type": "url",
+        "url": "https://rolexforums.com/showthread.php?p=12547661"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/audemarspiguet/comments/1mxfvcr/which_one_fits_my_wrist_better_15500_or_15510/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/audemarspiguet/comments/1gce7kq"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/audemarspiguet/comments/1pokifb/15510or_vs_15500or/"
+       },
+       {
+        "type": "url",
+        "url": "https://wp-aws-media.s3-accelerate.amazonaws.com/2022/03/WP-Digital-March.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/audemarspiguet/comments/1lg34so"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/1qjdkmx/ap_15510_41mm_blk_dial/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/audemarspiguet/comments/1lxuyqx/15510_is_the_best_version_of_the_royal_oak_fight/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/audemarspiguet/comments/1gvkyhl/hot_take_the_15510_is_better_than_that_little/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/audemarspiguet/comments/1qe9rh9/15510_is_the_best_royal_oak_ever_fight_me/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/content/dam/ap/com/services/terms-and-conditions/AP_COND_GENERALES_USA_EN_2021.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/audemarspiguet/comments/1sszil9/first_ap/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/audemarspiguet/comments/17podea"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/audemarspiguet/comments/11l6zlc"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/audemarspiguet/comments/13wfua2"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/content/dam/ap/com/fragments/userguide/2713/AP%20USER%20GUIDE%20CALIBRE%202713-2714-2716_EN_2024.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://manuals.plus/m/ee19fc8881d086597a6f939baf0596a1a560e92bd9ace15a2436fe39b5793df7.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/content/dam/ap/com/services/international-sales-warranty-nov-2017.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://electronicsandbooks.com/edt/manual/Art/Auction/Sothebys/2019/20191124%20DB1902%20Watches.pdf"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0009c8cc49b227df006ac51822172c87d28c4d3f1d02bebea6",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRgoeC7YQy41XlOKrfyc-VUyrSOyxGbi7PhZV71KEcIwfuJEODiVWNjbGEVo1il0cn_bXKeDk9QYy00bAlVBjnDBx_zl0gSXJuwKn5ZdI9FUOHnZC24lAln0ppqnkgIntmRzFW9QMcQFEF5fKA7HbufYL6mQIqi2L1ZDEi_YNxkVyqanIcehC9s8wpFhIzqV8TqW8JGsOcE_KwHLC6jDStfyunm156OtdxtPvxRj7HMOC57pDzWjceyHdq8raaNvzj1qf8I6DRD_AFvKtN920i80hdwEMGfrHsyK5Z13WWTsZS1HWehYnURS99vT68vkAs99p6J0f7YI0QGV_VOo64UOohfEz1qK0WqgeixBvejyj7efXkmdmWeJTzsqGO6IR0JR25JO85J-1lMBUzKjhGrZLvJikL_Ia4StcP1jJRJ5dMLKuwpuhuPGRZXsEmTsT6Hcx9oBd1sSon2NKTX9X5muEXFAuvZsfXhXZ_7ogiuU3f0-sKtHC2UwcXFjmEG4ELylGZmG9h4Ebnbh3bZY-xDePonKXVkaHaOMsdj3ZA3FPfUwIo7n3DR92raLA7bdTlSNwDbnftKhAurRsbIKEUQCAiXtHFvhU2l1eZ2V48fNGNaTfmu4yNviYyKlEVP65GaHGKBxctX0OZ_SEPzVpNokzVHbvcXNVskNeEE8GzNjdeZSPKCgAKmhJ0SX0Uq_OgOOfEic0YMLyn2N39Fkll2h2TBQbwOB2FTP4eTkCafUeR9khFjz4Yk7b-0dtbiO4xjtLeGGoP11evNS0vVge0d9Ioz6eiHbA7VtaA58devaFLrWEIySVzaM_rFdZZ9gBD8Jviy8HdcWsCHE-dVX7CJLi-OACS_Ry9fO-2CRNi_QRWW3y4wt6qUTkt91tAtFPPIct03-E82coBMhfB-SeunXbTY0sIicWP0IQsG95jNflI-nlmq_-mVms4kLW3CrSlKHofV5yAX1lW7tm0nKPfpyJJwTo7UVIbKr5swDvDXSmnnx4XqT6hFZp9gEeKTzSu291KQZ-2EasZW3lyX6VOU7i7oq3Z3MDvaxXRRjj7VfSCRm4K5vASJ6vaxPPho0LshDPcfPL6Xo2lhgBOawEMudZziJwA9v083OHBlq2bu6SimRgY1-HWnE3pkIJzcHJWyYNI-d7LOfmA1dBpuJn6ryEvf-j5puB09PnOtKx-syOVbLcWIxiL-aRgCdVbCSIVY22TWxYTLLlDUOVrRcjoGbyFT4H6ffEnYEZXBOT9cCBwKBC29HGRMxrfJcSXfipzqUiP5WI7sWX8-45Ckaz8OqwSgKllpHEJjZS-9uvcWGWMN-kSegolA7rVsEWOF9SfRDJ11jD0rfEceTaf4YoxhuE3pTW5TLY13Tunyh4yenHAJoKSY-6gw9Ick-xex7Ft2VTxwaCO0NOQUL0JydKN2riuWUnCengaz5-n4rNd5_xXC7T1eC15KnaEfkyX7XZo5Mw4fMj6a8B_GovehRsoroBz7QWJGwqhZuFd3F1wPjJNyLbDMOVw5TW1k531H7SJCvRFULbpGZjKEEKJdq9aZY-OY7lHyEVf_SjPy_MAX9Q--y2PT55X6WCfy2DxP0CENER2GBfKOfDiBQ-MZLBoGtzCN1DLNSOfq_y6-6TuhA4a8D3uaUjRYd2YoYRgQ0tDFOYTJQmaIKU0kBbF8uS6ZKsHwvBv9vNK1mpgPQXUGEV9JiEQRkaxox13hoJlkXBA6T3EUNgJri3khW4wYV-iAmlAZUbQn_YPCxXcF4Y3RtRytp2knOzpt324B_wnJ2KzgxQDw6zuWX5eDTYPNefqvNN1wYh2m2gd3O0Ix61AyTaptZ8hng1FojnpaGmHY2LYaDwxLYleDvsDFTRS540NLCsnKpF4sXbSeyBF03lNQlEEkZXfqZhtuhniKBDnjCVJ8RDBldd7EBC5IZnEVk7Z7G9iwWNDg8FdUqWx3LCuRM6cCekaj1mc7AkR3rgpOcCb8m2VAqSyG3w059oLY8Vq8xC2CRuD8eVZaEf-jyYrd2GE87hvbPFNUbNHsZ0bkgkYBu7kxYmn276Syj7VfGsySrlZDx_TNkNcvCcwO2hgsgtUaxRHq9x5AF6TB85YPIPNx5TUvuZqKzIVuVs2Nk4G9x-bIP945Sg5lZKe_3a2ReU16sZ__gbB6uJGDjCKovK0ZcfG_SBv-S_xuUt-SynEqtMWluvhn1btOfzqEtHIEszQVvxn0GuXVI1x12l1eVnRLpOT6O5zDVwiY7tOJPdUuBZNXzYDALqB_Gv_XSMdOgNM8QLmHSrwBYj9dbJkl3nMME_GkVTLKoQRH2strxDiF1TlMI845EUFgojyzDqQnXPJ0wXYJy-_0lMXBtL6HdmvHDglLJ6XxqNf_GPauOsUiwEIPPTCu5CLDcUj0VqmedHmp1n2lNknw8Zr3MFXMoCk3VqtWLBxRocXHLCHPvr9-U4CvwgD4wwlJeWj6oamCIdTQ_7-vCwVDBq4Pl__GuRbWYmgA0r6w3tXvmdXEVyV2-yA74FBHTJcntBxe11RC9bYM4MsuikebQRnIYr4DlJ53KWJ6DKWAOLjS6QO64S069S5GBAxqS3IC-mAy4yUI-h9TqkPzfXC_IF4JsyLzUv1VdtMl8hvemE2eVZpASG1ew9zSWluPqxdmZ3CjWWw9A17hcEZDMB8ch7GvXVdswFzpYTQ1Zf1yE9j5GUF6eCPXR0LLj3Frbdl9KIqzDI1skZPSqPVCs3H1rGN4bDHmESOcED86pjmX9DWSUDgux0z31_sAv419izeT8ttWVPKJ-0InyRQX_mzjuhBtaPT-ia8VE6srKnFXtbVgeHd8WW04uSlq9OUh1hI8nSShF4pTcOYDoPekYxtM5Ml_iCKAMXPZj9NrSWYyWVythrTKOHJmEMAjAbDMrt3ntjxACngS9coHo_mNq-QqErlTIenQzlvwYltJttVD3b6oCCvQ36Gfcbq5uU0dqoSWE4xV6266MBKNHm-iDZipPclmiqqfAbb-Glw67Qysebe4hmrNeMGmH8whqoOUaQExF8j5vWDvXD_gF6toL_9Wl9bnMwI1zj2TI5OBH3171PkZr5Ei5WNhAk5CqReVl51lM-Onz0LslfJjLOWj2RBNBVvr7dRYe0uI2poCt5DaV9ihn5VxpmHm33JCxrrVZ4g3f0GK1k4wxXXYPwoD8ISFlSxBSBFF_vcZlbygNd-r524MGHloGDei3pErbP5ykRIuDOgkeM9ouq35c8S4UG9gIlfHxBOUmP21ei4fn521C-xE6VWRghSkfrrYBa7lC2Mkeevphgi1f-xERW80guX3QtmqM39cIjoY1yuD98icWjhAiGNLAPGWh0qvojJ-IK_L4qum4UwKQp02O_4NYKjIOu5oN8GW_ipN42uDIm7KXzgmpYRAlPu_-mwRpqrdTTCD7ZE5Xmh5Ixjb43BOe7PkMPeBTRSlLboS4QG9mQyS6r5zE3AbrMp4y1es3qKOsHZSSFb-qKkdeTuYN6ir-FfP4-YSNj25QeSpF4t9MjI_9wUbtDirqaoqjpS8eZ68mhPugGqM3FI97xZm5jP7pcbmn8t21J2YxCmZDszyXdCnGBSxDhzu43M6sAPMq6XbNzggMLZIYSsSeth6AQBazmki--d-QJ53dPl5wkGBJGI4r2WKNJFm7A5c84qXctJxYaxiYYzCERIvCmVw5-tvtk8TkQ2X2qUfTwpfo"
+    },
+    {
+     "id": "rs_0009c8cc49b227df006ac51823f8fc87d2a47e4ff20917619e",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRgoind0XnLx384xOXz4Q8VFLkpyj6w8ezO7upKxZABeH8NCp7Gu6Dv7g-_3aV7BXEf2G3z4kkvh5fGnixolnQ56LKYFfiS0j9aRjIlDzFDbM7jXLuZR19qfDmo_8uxms41xNymrlzSGn998r1Tw9VdimlHdFzbqjxusrEi8PIWiCnHFsMFTVdqe2C3XCrCYT5lawx0G7CygKBhnK2U7YeUQElTkQUquCRKpThV55z15BOand62e59k0ycFgKV8aKIryfp6-WYsBVL-_wKl4PnOez0fXnDBZpUwzMDfsrILdGMVvS1iC7W53bRn6-0IE9ccq72shNv2mfzeTIIolo6L0z8PZJ6lX4lRsYuuvfSTw7iJtC6wgX_ZpIHr9GMSWovFhCWJvnDvVmYwEKkkKMexkzXZJw95_d2rGT71AcE6VfunhU1V8nVfMPzcGvQvE3J_oyr6NiRQIcj64-kB4JYz8y-BmhPbGMcm8nqzvgIj-5U-0oWfL38dbI7SVhRDCfnkjNI0iUaA_uOgCgLZWoeIN49wAV93ePO6-kBG9q4SCxgURJhInKnsm9EsmffxxuP97PXBN_t5MLVrasLYLxJ2ndSbqF-Ov_Dbipmo1s-twCRsFZu3dZBnIOs-SV9fOcaW6yGRq2bJYaoJHD_dqrbcnguLEl9grZiqCtMm-LGROZCS57Lwi-2OQwdxHOpcnW6B1uY-f2C6J2AhIcNgIeAeKopaZXpmMeLQW9A9vFPsUQw_hsbvdA9pqt63PS95eZvqb6wMHLjfQl_gKTZ_OMFmhk32xJLQx2dxkOtXUXHegfZbFZG9nR9JFcNfdtKJxcclHiC2WkxfF1ESBPN9lFnW7d1B7b0nGqBZkVv1uUBfIbV4ZKU0ENJ69_j5rvaJu-UvXH1sR3VBLlkwjG7Mk5SMHlbgWH-EPLAI7aCBiAz1_4oCclhAnis40pa4eOwJ9zj5sVjPN9Zi_KQMCPOB254O_rO4oUf4otWZon6ywJJvSGRWzIzrs_9A7lrwaqtL8LA9c8p_YpxvDDTAwwxWsZqPbPGGAX6smOHTnjDrsGuTg9o24T7d5kRMVJM7fnFJro-5tluIBEwnv4ssMSfmnxv9wNo27Sd62kc-mrQ1w4TZ2OLcqa4D-BKXOmI6e1-z5ts3tQMVa1cIiXTD6fHxy5EiUiIzsuhHInmzwJu3htg_sJiJ7S2UXWNX_Y0THxz21XDsts55UMkLkVgHwdU_LY2qyYWfsxgRBOSBOs0-6D0mex2y_rKqFzx4fxCiRMujNgnQ3LQ-7wfkw9Gg-h1mGEcAZQexTo4WpLgc5d1-awdqjNPkUBUsgddadaPmzX0xURf7uZ8b0JKijxMt8j5VMEUApVQ-9sTyxaPW7LyZFderRpJvZ5EKUnKv5PTtrOmtB0ZkL1OYodEH05gRkiJYyJhQx32YfUQBjUOsRT2sUfFdczhAp0RKk-nBXbV3ArG_9YuLvUIxNcz3iT6Cd4MpZR0YBSvwa0JjOvrA98Oa-6MNLPDsYvro84vnA6G8ekgIiJKkaIOT9UWeX6WKl4ugG1zdqtRuwRvS0MLvSWXdfk91301jdL-1WWYGAE04Tp3Kd3nzEPuIR1FFWDP_ieCV5u-VHu9JCmffmLIS6l_lQL77t3m5DDmGo6Y_k8PzgH9cLcMcsxfMLmyFqfyPoK30oab7ZvGmlyU7LvVHJmv2E4A0cwzR50zu4_aeRW4GnGnM_6pirJnq1qXiY8nc5yf3CfX0JMCqYJpov3BmKHTvTSwWTokbX-ibdqPPO_xf_k0tkXvK82yUQAQJwOUhIuT5Gsqr0lPF0lva1wEKYIqwxabbu6SPdMJEwDx8Z1S8R7ICvBgqz0LqyiKrIaBvmzfnHQWLJXcywLnwo63Ry4ZJSSH52_o_D2QD8zSYDdthk-tEHCl2UnypF5HuEpn4a43r0N-N_nNE5uzPpzTYqvMJ5ycy3ayxV38mswJ1cMSK_SoX4EPAz9Q7wKQO5uhhdDI5dwpT207E6oyQrZr7oaaNij9QxrmETnooJbwtBUL1pYMATdWlWrGNmNduh6c24qEz6P_1M5CA3H0Cn9CXtNokCdDgE26SLrzh8WkFzBdWA52Esx7Zy0BOumMKRAopzirKOz7J43SUqBGI1NwZRn8VefKkrC-riS6zGzfQcnQp-oNmrGzrk0dVDDvZzJF0vAzQTYeAzte_Ezhlmu4MWXZqEJc2Wn4n5loLk_FhZKG8Wifa7GGvG2Ln4poyYJW1e17k1JkeujZtuzWlS-9Q6Uwva7l8INBCzoY_RX_B2liL4rUr7tRiHKEi1uJ3FMSCxLImOSsW5BuQnZ4pbNcXzhsT1A-7viqWBsdOYQdYPc5uYBUL_XWl1bqfrLKTUufAbbKXjtuC8qmzdiG26unwLBya03cyN6FIRDaD2cGLLBsHlwwZgVbOz97tkDL3PN7_Fdudx5vk1ETnC7rTCGh6GfPosycg_PNE0tcAEQstdDPF8S-7bsQ_SwKskZADvJZnwBJY3qnJ_EjCZjwfSbe29Go7TYNr3ZMAYg3On0jind7QWzjmpGaDTiz7qN7YGZZl8CoB9PjqKQ9rY711mut0ChqTVn8bu5GrPIQHJvQrUocato0FH8M1esCy56v3ebdPTyPmkXXuzTGJjWWLRuOkF09QX-FLZ3ABENdalZgp79qwTzBe5eT0Nff244fvNP9OBBwvdOizzXb1voiIwa8GTzPSJ9gJk9YnbKmYXBAI6-bcGThbJCVQb2olz1cmn0djokBGb35BKmz1_BfLGXdqtKpr1g4UQviuP70rfkMvS7-5YqI7djlYFL0dx9elBpHGWEEFYekQKiUFuY680WcP8dCpfFbb0wDZYiAAYM4SiHLdldt8KuZHAr_6HYxYKcUeu-4QQyMT2zm7svmFrvT-O0gwXFD9dKyi5ByJaQkMFCYl2eOf8S25pZ0ocxolt5cSRPghsrjD8vztzyBNHay8XwrckJnryPqTQBsZCCQ00WeniZmGyZm6TiPLz8UCO7LhedT5eIWcUjueziNkkYLICgMq4oen_iELHQQHS_5vFaMqVbxLfHM0qLuTEXKpJKjJCLlgCP0prpbl7RKEy-_wvF70Yo39cLctaHedBpCvyyK6aQJnYcighLK7oXRD1SfobyaW9RFWPgUHyA0axuPVRL3u--tKrkDMI5sUAYygRWKoLv8b5JNHL_a-Dju1NryJqDAxhuKYxmyLvZB3h-GModGt4zpJmNDPlgm9UZ95QSi8zoOjRgy8PdAhEgOb07fR7PndhdQ50otL2uM8o_Lzvod1GIgq-0AgSdqJ-wlnGST5fukzwsue953KLfSt0yW_9A2fuWpesbxH-zj5lq0pK8goX352KyF1yxGcr3cjHhKpbRkNtB4p-yBcRIXDkxXGV__rEAnSZAuGiyMxznTsrq2KCwhLZqltrn5h4D8ufDWzd9j0iOoav_oIvdkfYRD-EkFysTefKrkF0B7yWGzkE5hoJLHEf6KNOv1fNZIBj8DfyqGA7naaX3hj3DYGgcEgIGNWE5BSSwV1R0V58NmgUeDWa3TR_h_CoUQSVo_67nYD-7dMGaIWx1_GSkaQSvfm6iEq3cA_PZqa4NONCBfikaC0lBla_GHLXFN5NwSfafCmsPvonvMlj2I4pvICrKKD5DhnIP7VDiDlz62Hoz-YCOe6S3ACYB5A9_-_A7WCTB28kPwwfZbxDtJ4UIBxfwUKZyxbkQasIHogblmvIs2prGb8ypzMUfKy_Oxoak7JPxOnXFasHqpL2lPbADK_yOC4gGhTTlHpD4f6Npa8jAuRHkkswYEuiT3tkNPp3b94EoRMAto-R7tFlt59QDowBp7A4rBfMQePV64qeGP0ZzwsZimBfxfmpkwbSlp04-zdsL-jHMQcJaKx6i-X2ebVF4_XZaSVVBEC1rMp2qrf_ZJT-8vuE7dPCHfk="
+    },
+    {
+     "id": "msg_0009c8cc49b227df006ac51826b93c87d29df8f99aa6a8bf6f",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Audemars Piguet\",\"model_line\":\"Royal Oak Selfwinding 41mm\",\"dial_color\":\"blue\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"Octagonal, polished and brushed stainless steel\",\"case_size_mm\":41,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"15510ST.OO.1320ST.01\",\"15500ST.OO.1220ST.01\",\"15400ST.OO.1220ST.03\"],\"confidence\":0.78}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791301671.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 21617,
+    "input_tokens_details": {
+     "cache_write_tokens": 1365,
+     "cached_tokens": 4723
+    },
+    "output_tokens": 2043,
+    "output_tokens_details": {
+     "reasoning_tokens": 1915
+    },
+    "total_tokens": 23660
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 2
+    }
+   }
+  },
+  "search_requests": 2,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "row_id": 55,
+ "image_file": "055_breitling_avenger-automatic-gmt-45.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Breitling",
+   "model_line": "Avenger Automatic GMT 43",
+   "dial_color": "blue",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "bezel": "brushed steel ratcheted bezel with four rider tabs (15/30/45/60 numerals)",
+   "case_size_mm": 43.0,
+   "complications": [
+    "date",
+    "gmt"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "A32397101C1X1",
+    "A32397101C1A1",
+    "A32397101B1X1"
+   ],
+   "confidence": 0.72
+  },
+  "raw_text": "{\"brand\": \"Breitling\", \"model_line\": \"Avenger Automatic GMT 43\", \"dial_color\": \"blue\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"bezel\": \"brushed steel ratcheted bezel with four rider tabs (15/30/45/60 numerals)\", \"case_size_mm\": 43, \"complications\": [\"date\", \"gmt\"], \"movement\": \"automatic\", \"printed_reference\": \"\", \"references\": [\"A32397101C1X1\", \"A32397101C1A1\", \"A32397101B1X1\"], \"confidence\": 0.72}",
+  "input_tokens": 1705,
+  "output_tokens": 2383,
+  "cost_usd": 0.001610286,
+  "elapsed_s": 12.623,
+  "started_at": "2026-10-06T14:09:27.081281+00:00",
+  "error": null,
+  "attempts": 1,
+  "tidied": false,
+  "served_model": "deepseek-flash"
+ }
+}

@@ -1,0 +1,463 @@
+{
+ "row_id": 76,
+ "image_file": "076_iwc_aquatimer-automatic-42.jpg",
+ "result": {
+  "parsed": {
+   "brand": "IWC",
+   "model_line": "Aquatimer Automatic 42",
+   "dial_color": "black",
+   "case_material": "stainless-steel",
+   "bracelet_material": "rubber",
+   "bezel": "steel external/internal rotating dive bezel with a silver-grey scale",
+   "case_size_mm": 42.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "IW328802",
+    "IW328801",
+    "IW328803"
+   ],
+   "confidence": 0.96
+  },
+  "raw_text": "{\n  \"brand\": \"IWC\",\n  \"model_line\": \"Aquatimer Automatic 42\",\n  \"dial_color\": \"black\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"rubber\",\n  \"bezel\": \"steel external/internal rotating dive bezel with a silver-grey scale\",\n  \"case_size_mm\": 42,\n  \"complications\": [\"date\"],\n  \"movement\": \"automatic\",\n  \"printed_reference\": \"\",\n  \"references\": [\"IW328802\", \"IW328801\", \"IW328803\"],\n  \"confidence\": 0.96\n}",
+  "input_tokens": 14638,
+  "output_tokens": 1218,
+  "cached_input_tokens": 4723,
+  "reasoning_tokens": 1079,
+  "token_cost_usd": 0.00164773,
+  "searches": 1,
+  "page_opens": 0,
+  "tool_calls": 1,
+  "queries": [
+   "site:iwc.com Aquatimer Automatic black dial rubber strap 42 reference IW328801",
+   "IWC Aquatimer Automatic 42 black dial rubber strap reference 2022",
+   "IWC Aquatimer black dial 45 30 bezel 42mm reference IW328801"
+  ],
+  "source_domains": [
+   "iwc.com",
+   "chrono24.com",
+   "monochrome-watches.com",
+   "rolexforums.com",
+   "watchesofswitzerland.com",
+   "tempuseuropa.com",
+   "essential-watches.com",
+   "bucherer.com",
+   "wempe.com",
+   "reddit.com",
+   "12-24.com",
+   "graysantiques.com"
+  ],
+  "elapsed_s": 15.453,
+  "started_at": "2026-10-06T16:05:53.015839+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_068d216a11d08510006ac51c619c4887d286e40db58df19096",
+   "access_programs": null,
+   "created_at": 1791302753.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_068d216a11d08510006ac51c62202c87d280172e53b77f3c20",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRxw7zIXEXg8OOBiaeMcgFjUYtPDwWQuJGyXJ1A3XOpW2iEGDsuMurnzn_ZGuXOHANw-W2aYsRidd-i3hXqrBSDffK7PaiNUh0GNvH4u55_F8BbNHNLzJ3NNTrnNVwRW0956tSWbqNpcJoXHtmJ50e7DDOf0AS_RDhlSPMfwrZi3txBhWKxLm-SuzxjxsVbh5hH6cw9t6keQ_PCQoqtLwB6vJ9Gqyf3zxNHXnD2HNbaHrRR81PN0eOEK5y8-MgRJeNfiU2Gakz9w1s8R3UVZEl8FDxc535cRVT-ZBVSNlBGIORmu0r1OVW48BtDkNE3HnCNapqCqQIqLfabmEC8R_yO5eE7HLkLbDh00ih1O626cKYnQFeHGCPrvt_4PykEM4DpDHoa61Hpap4epVfKHUbrW9itjYbhwBQ8_OuvBfCsPwP_-hRnkC-y9YfD9vPuZ8f9Z_p2rXI9almQBkDIDnnInasBrp6HuzjtejlDrJxNSs5ko6UYz_hg3M6XC2u7VdKOtdqyjPIF3AQ9ix_q0dyxe7o_n-FGn7msNazTrylIuxbZSbXvJbnOG4jvPMTsTpsGSrbyhJsRn90a8AA0zifnvwlvA5QntUBL00A0sI4jQwetecuyM0gYchiMmvZkaIdrv1asTreyQNa6phj7WzPi9XvkQmlS39pGKMHmEBcBoj5mUI_iz6KildzWAhAPF4AVROoOL_oyQJQkztvkt3inGJpmA9y1-RxZsrzw6lmCcQ6IU9zFPHgvFFejaIKmrbXO_FTP1enhduhj0DBwXoILNPVLoVjk5K6mR6UINRP6TDrdbCoVDbogEyBzcbLAjT6fg2HYYJ8bZGqUjBDPmTMaREPblly184KOrtZPKtwuVzqFOEyfJzdTTyF2sNVEl-hUXIEbwLDn2AsizoJMA2moFoyVooOzs9vjQLuczuJP1AzJoGR_KS-90TnJRE12ntbrN5FtqyE7hrJPSb2zAGvFa_OJ8dHx7WprTkqdkrVZc6wnBG4IYl9gnmaJqPnkVQ1-VOasB9uqU1hH3J-GaMSihkcjUOrRmqxQGS-0nvXBthO0nC-BSW2ghL0ByuTDUfabCAlfqNe2AcccJTP3edU0knaibe4TJAQtbDsN6djqIpSbBhOO9mdzcpENjI91cuJN3q2VxzMVxRMDyzeevfT-ztmOVIl_O_H0H97io_lC86ZC5VnqOsUB2J1-35WHpOYnnAeddsHGC2tibt85HWpwxF1AzkGZSBzs74mkOode-LZRwTHJM3YOd6nrfKpg6S57Mxudt6dJdjuudh_XKqWKQ5CRFa1-HZVAv8_UNuYfnTZE3gRB6Qq8BBXajhFTLHYV5r19bNYFAd4nClVrCKadvWzaQgtqSBl_0SmipfXdNzsZzK_a5kUJgpnxSeufa5AwjgjXygCA8C2VaCpU-nirM_Ba4IJnT6K4cAiPxB9NkcSlTHGq5zkTbCAESRQLi7Q8HMWBQOcKzanfMl11eXDh1ac50rzjGHLtjcxRCQDIH9u3H9z6OOTPpIUHHsuSTPv0p4jNKkobGYKVnj7kIvKiDr6bCOnu4InxuYn79PegySpjdr1bsHtPSo3pq1sQnJBKxz4vk_4d2N3SHLVG5GahKKvzkP7l3i_LafZjJJiB0u-I="
+    },
+    {
+     "id": "ws_068d216a11d08510006ac51c63391c87d2b725bc005bbaaebf",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:iwc.com Aquatimer Automatic black dial rubber strap 42 reference IW328801",
+       "IWC Aquatimer Automatic 42 black dial rubber strap reference 2022",
+       "IWC Aquatimer black dial 45 30 bezel 42mm reference IW328801"
+      ],
+      "query": "site:iwc.com Aquatimer Automatic black dial rubber strap 42 reference IW328801",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/us-en/watches/aquatimer/iw328801-aquatimer-automatic"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/iwc/ref-iw328802.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://monochrome-watches.com/introducing-2022-iwc-aquatimer-automatic-collection-5-day-calibre-32111-manufacture-iw328801-iw328802-iw328803-specs-price/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/content/dam/rcq/iwc/19/58/31/0/1958310.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.rolexforums.com/showthread.php?t=934769"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchesofswitzerland.com/products/iwc-schaffhausen-aquatimer-iw328802-17810848"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/iwc/ref-iw328801.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/us-en/watches/aquatimer/aquatimer-automatic"
+       },
+       {
+        "type": "url",
+        "url": "https://tempuseuropa.com/en/reference/iwc-aquatimer-automatic-iw328801"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/content/dam/rcq/iwc/19/60/55/8/1960558.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.essential-watches.com/IWC/Aquatimer"
+       },
+       {
+        "type": "url",
+        "url": "https://www.bucherer.com/us/en/watches/iwc-schaffhausen/aquatimer/1356-027-7.html"
+       },
+       {
+        "type": "url",
+        "url": "https://essential-watches.com/IWC/Aquatimer"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wempe.com/en-us/watches/iwc-schaffhausen/aquatimer/aquatimer-automatic-iw328801"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/IWCschaffhausen/comments/1t68au3/378203_aquatimer_calypso_rubber_strap/"
+       },
+       {
+        "type": "url",
+        "url": "https://12-24.com/upload/iblock/6f5/6f560c11e96b73bd3be20fdf08b06474.pdf?srsltid=AfmBOop9pljPrGoSRtZlhjOA5i28whqU6rSHTSN8OHrcgTW_SDTLMb3K"
+       },
+       {
+        "type": "url",
+        "url": "https://www.graysantiques.com/download/16024"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vvpr2n/wts_iwc_aquatimer_because_everyone_has_a/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1sjq1yg/wts_full_set_extra_strap_iwc_aquatimer_automatic/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wbzkyg/wts_iwc_aquatimer_the_underdog_dive_watch/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wnncw1/wts_iwc_aquatimer_the_underdog_dive_watch/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1gb5b67"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/replicawatchreview/comments/1h2arj5"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/x7whw6"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1fang2l"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1v9beb0/wts_2022_iwc_aquatimer_42mm_blue_dial_full_set/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1foj6gs"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1isn5nx"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_068d216a11d08510006ac51c67682c87d2bab043085f10b221",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRxwkc7PLwon5Rc6kziTqUNe97ep18Weq9cJoceRjVjl-oT0IcMw489AlERZ7Uw-pt4-dsqNifzKfKYAenRW4RZRsv7KHrrJiNr10qpLBJje7vBrr0NE6vXX5fMo9yZ0FDpXCRZ6rGkLR9ZgCmP43DpwuKJip6ZaNaNLd6L4HelLAUjvPCl6BenQ6zDNSexLBcr-8P6nmp8fl6Ve9baDyKNJwFdQWf7Xbz2yaYRJSPNdMGdq-9W7P6KV9KV51VHVrJE-TcrW7VK5JJQqsrv4vDDFcRIe7zoJdRC_2jxv06nugl4FQGx7vI4vjT_puwgw46daKJBPiFFjl_ORPGBSmWpedRTx9nvY3jBD_xlm_Qzh857fJBx2yZJSvTz2gJObagTygXxliBUlNq5_182EQuHpO0HdpGDPz4qFnSNfq23WjWqNrbX2T_oT2FAJtcKVHlp4dB_oidoZVJhkEwA_SRQvIoT0uos83QmDSzmEhGMaMP42pfQKM-UklQhkVA3XtD4jQJZ2SLA66uMKCTk54CzQ-p1JPv5B7mGPTY-Qjd0p9NPrIHHxTQiaJhzOx4rL1_9KEH4oDgWRlFfV1_2u41YrW08YDuSNk2KHXZwrzUdzXP-Jt_mEfk28_iXrBGvRq4lLem_JjiR1G8DIbkvIbIgZqM3Oetp1UN9LrTMG4AnnORbQqf9X8yee3e1DwU2hcvVGfirZjAYML9AkMYhaIjyXH_Z4PzCEq2bAsdKBBJ_-Cr43t9RsW-XZrueKwVG05d-4Vv08xZZ7meIlMMHwod5r8XEKL8Ozl_mBYXG0ZRM3XuZ1aWI1R0Jzd05r69fbgypHovaCYCtt9czl_pFRmmrDWVE1t8WQ__a3Pq_ZeFbiExHxNUunNnYsZlRNU-FUPFr35GQh1Ec9VNi7H_wZRGgZFtLT5PnXFiFpxSd2F2ZMPTT1jbG6bJD3ypTSodX5VotECUXx3bVMH6BjnVbw6s9y1jtNFa74BKv-SlibHiC0Rm2mpdsiOPUtYw6GXxXmjPra-V27e8UURWvAIhSMoaJgRLtm4Pj7EAI6SIM2ULr5yG9AOlmdrfm8mnEcV6GwuSMgZFYWKP8nMACnfNW26tVdeA-DS1p_BTJin-8olMAbFhD8hVzNJIdsg0FyusSZuU2FqjjSN2wk5l9FvJAwSMrXxsw5gQf5VRUVUyUGVF1uHR0zCvnatWcM4Z4_OP3ylw11Bu5Gvvm8a-phCsDiigX3tLG7231a4z_6I6SjFu3h3v4UKPOjJoaeYmyyAHfmZjXCzbVk82Dx4VEMV8I1jfumuYU01n5RV6e0plkkd2Lt-DKM31j9tCvaswub1t2hPrt4JU_Utgup6_X6Eum5Do4b60JXOgRaWaRGAhGQZdiBk28nDkF5uGJWG5jh_tRGixNNTorvfg8jEorcKI5lKvuMVvKx2KYvLtwQqiwvasc_HIQcgCAmt8uXvrNiONW0vCVjLY0TSdbUtso5EpdpjNpTD-YYKGmhT49rnStQQfTJg7srAsPgDL6xz--ovK7bl8vkT-aUHsBxqZSpie29fphKpg5iNGWBT-Shf3OWQ5kNvB-H3cAMjNRv5QdU-UHT2uszmjDNIjuAToZYBbgI-SzedMc4HoaZM3Kk0w24hQMwfME-swF3RByiYGO6WpiUTOXY7j41apykC7mTh0SH8RB01gYPeq7o1OYh4gI1pVr0PU5BoCwcUM3o-M6suxzGiMvD_riesE6NsybmZwH6i6o-iI95PcpIAmKvyyokG_mqpIDdzzj3BuzGZebnDNR8EulBDPRmlvsRteYVlOoEb89MnAfsgvoHAHTHIq128eDjs5mtYZElahXxUOtSohdahcGocAaDvRmKZFCySIVfmSdw4EKkC7v_FTx7PCdybzPulWtovy4EV4SM91qkGNBddGxvtmCVcohbRuJK0M_P3bH23FBOMzCT1Eap1Q1fVIJL75LbLh-5iJvNkwKFtl0s9q8ZElVDFiW-ZnPJ_UVR-DnPkBOuLUh6Ceyul8yhWhh9PdjhaRrTBuZ_so2VdXSpF4gTCRom2cDZrqqnwUN1ct5LTTSr4wrcCnA3gMJX-CyYc5P1MgDBC3vWBVo-3q3QcSKiuezM2IQWeK8olmkw3sZ3rqtKVl56Fy0hWcjDmZahkIMopPM9HRJ_59hmfSchC5APgQ4NMNRldlHuT9bfp6a1JzTJXSUsGDDBKBbF2xNpCUH6VUmCRPLWNpgJVjSyKAV6yvbHKOBZ8M2ocoWJNXI4yaj6NKXodWZZP0neF6ThkLyRhrnKH5i74g1O-o9IVBYBTAzyuLn25olwOMjoxn1bo6XTU8xnGLllehtRwtVeQUs4fDsbloqROV69WlScA737iTLXiNRNibxDIU1Hehtu14xj0Vu4b-lkLEbMZ8uOu3kQ8iHzMBWbMLPdt7nt6NFb575xGYfMWLk_7Grb38apoXtvAbI0oUmfPzVOLXGEx34N1Mj1Xe2UOfr-81aPtu-FTpZhsmhFi_Ar6uYSmBtqYde8yR7JvXRneWr4jZrPYrgUWM3A6Dgg7vJERKLH-oDYtnqxA_bK5OqInXGOiA6R6UPBxmrb5RbqplbzOuqyrfIybXqfcXnXgYZAnxLDWE0SxcRs0oLHTSpZJ1iSun5kGyUR8BecCoqMaz2QLMLaamNcIYPNaJPsUQ-IyS2jaPkRBknqmfbA_SWIczeWSpRVnhws7__TqlWPIuwCdKr_YRmKhFZCU0Yv9iawc5CNrZj7MFyBZ81YqbxSeAaffojKeoRXpXUpl1gDz4mxI9p4A-h_gcS25yHOmX43aSNWJjRNASVllQuyiO-3SD1FRDqehB1QOpJDuUiZY_M3k28tuGEeu_pClFgPBXPpGyRtcH0MVAUpqIPr-RqD8108fvQi8GdLfG3QKK9CCF3ghdimOl8L6fxDV7B-YoSeTkeW0H95ctahZtT5fxQEuItysK6ndkElbJcvSgdomkq7-UEOQi3qcwOi4lbLxLi4ouct5ZxST-PVKAv7QmxlxZTXttNcOrIG6ux41aov2UbuDX_o-xWefYYyhBIwqgy2y4Pr2bV_8hBH9WZa2O1lQfGDiaxLdkbghoZG6h83oku4e9mtWB4qK0awh8dsV5205SS7jRornusfqXOclMeEh3yMMjjMDzn24m_j4DIFa6yPEJRb0KHFOZOKEXsXIjk_7PHLl9zr5Eh3EPeHhEvRg5T4qljTMlDl5Y-wuYqgDRg9gp9GQ6UKijlhqGgJXhllMuXGlo1sO0c66WJ4fW7lrAAWJztovfV6XuN6I3kjEXnNFnwWc44fOQVXwv2iUHu53HbMt1joyhY_IBb4MuArI4PpFWUNEiTs5N7JFtLFi6egqJkNA2XP4jEDI0xGc7Zw-ciEcB7TMnP_XcU1sDmh9LHeYBMRdPRCpp-qW-pt0iPE_ENHUZxN_EeNBa3_Y4xX_iokLBPHgcdHoTGqxvbklLwyuY7kEub585Ory-mDTQNlVhO2r__duwoNTWEGyDVR9mmtJyU0pNzRVap4y4hahrwa8wMsguLUO83_lUjLEJfqvmIk4r9NKT7t6XeSxJsign_FeGncra5tcBvOs6fRpFxrmFB1L9hC8C6npCj1tT73n_IiJtCAOwk18BcvpZsMrN8h8THepAj9e-P2f24EPReNWhi_E4F-zGsuEatqwBLb-VC_fliFgswRZ_8m77x8IfspXs7eAscX5qmhFWEvbJoZoYaTFZ7cLI5wVmyRyk0VuMVP7oCFBfP0I2OQvmQw3DYwLSHpm_8Qz_ZGfmNuQhqaF2yMVqEWVIi0YaKhKqEKzXTwMqa5GHxGTB4UX-To22tns3VhKVPVoYyT4mqnPR3ainqUZot9OIJiNivfUCdR0QoPpolLR4h1DAIyh90fT-RXNxfFH0hhvTSdgPuT8y35aQz4LBnC7DDaq8NIFSlIGHDGHoD3P0Ao2BXHCm-hDPhVWbqws-fIFUYoY3uWJZ28ucNplNqSsqdhfOWCUvnMmicmt25BqUF9mhSPt1Sm_FewWAGVgrhcEnPTfoVR_cFhmbNqpT_lz0uK-96UfuZwodWod-_v5wkwn9QCemb9UTIJ4fV7LgeCPj3MTRiDLJ_aNdsVhZAYIX0aq_5XfdAd7ZE2hAfWc1tsU8OQQQvK4oXdkhrcw0j3Yny7ucWSnm2Awz9RODrDRM81gV-v3DhLqjH5TnBu5st6DiKzLOv01H9VgesM6LKtfiwcwvwUcMni1IPCB8E-IGduLnJfNFq8dyiG6J-_jq_tpAOfE4-hC5txQf6DPbNSi__YGemo6mr1K-E4YQ=="
+    },
+    {
+     "id": "rs_068d216a11d08510006ac51c6a5cb087d29be45374d9b9aa49",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRxwXSA-5iuzB3qmybiW0d1P4y10CjOJ3XM4R_qoFQivg25AzUC5kB6OMkvdRSUY-KfpKF92bGim1Q7TEoKah7zBErbAhiZkXullXpsxvcnuFOgYf35_zvtFe0CUG3jUOX-M6LCq0sWtyBbjqA7JCxTw_qM6DUGB-D4jjnCf8s7pDxidgzG2gzIt5lS8sRulvWadyzlNaqQZAQD2XCiq6_a2czmq4CzLwjc4seYvWx2uW7gK1Y8WB0JSeM747Tcrv5nCN5ZrHOqCVV_T3sYH0RfjaR_lw2gvjSrV4zj6gVWUkvLlTLs4MqFJIKk8vjbJksn3b8ZAGduMPEd5X_Ho1pwMGs-aqrawcliKz__2TDqwcTetxWXxaURzelqaaiS0MzCS3BQhNWWrLksq0P_-i-hoBmFDsO8tbFWLhQCB3D1VA2PFp39D3HHGmPucquU7Gz4xFaTbZZzajCSgS_SeQU-W5RvE2xEoo5EivoOm-cYmM_I9aGyDiGyVJF65qhBasMIQFHut2v91k4vjIZt5YV6IZK26pOSTECiKAY8CzhkoYWcMVHSPGa-61NWRQyHYp3O188Fk-Jb0929Ndtz42bA6v30qcKscE7Gfss2SyYzVsItkFszs_L1IPxkRFT2fvWa0PHYM5RXd6J9pm6vin36ABnzvQSf_8XXaZuVrsUJEkJOoylQ_tBbmiyUf6hrJeeGhLcnzwphQliNbyisSuZk6TTvsCTwMipxz9r6L5BiY48HjH1gOmgBZlkj37-w85apfO9Gf6UPXcgk4AQe_og8eTSiYml7stWoC-F7qmgHfMzLT20oBOm1twpRSGZZXLrwJjn8iqF3gYc5FwH_MZss1Q3kQG5x_r9isKHfaeQxOkceYSfI2xEwslyioLue5GydHkRGdCc5QDTvprYgdeCZma3UrFzBKw1xcwpm_8nLBadtk5cjh0lbJGYQouErPbIzEbRzcztzNFwmh-19__WyGws0l6FyTjZN3nZlGpGR9b5oSCckyrUYnzQQUs8gzG6qNFFcc9Ut9nW5PiBEqdcg1jVNMo28vYZWCCKypSuO6WRG679KWPq3oCNpf4khsJvUZzAKlSvxSL9arTHNZIPAq7aeef3cr3pUuBSgjtkPAIcleiy72psuWXSTvHVXZEnNtSQZ1scLUyuNOUgprxL9tnxHWccvJAyu0E8Wqod8-SkXk9kPwPbqx3Bfz76h8wbNxjmisffo2bRWaWnOFyW3IlQdoRM1IVOnnfmMbWpOpgtz42bDnDkrJSBvnHYV4P8H1qfpAi2AE6_VIcvTp5oED83CJzXb8OD2nlMO3tHhTvJ8kJYdkSs98v3XApoUBnEwiW0XlhDFrlZHmQdFe35ijEEUXDxnTIR9oZ8pHttAKI0QqPuYHkFWcH7HtqChdjTRLfROZ5qwnNkbLWnQ-_lXQhWtLdmKsrGwXGjSW1nVMkKMe83SeI13KfmzS43_DSk6gJKCd6vZSj6It7wWQQ_qR90r1-aGSmMusdwr-LvruzY92yZNsQYK_U1ryMFbyhjTGDmnPSUAKdPaaQ1YBCXqdIdFIBVUnsi5rDgWLWXL6mQLi2M2ATB1vLsK-ttZ4alSV063q2W-ohBmdNfILcjb-SvXxfPv1Zy0pfZAuLBjILyNyAY4Z7Gbp9c9mQwOiflWlcmfiuytNRz25nb1Ltec7-1RXtIXEfesOA8XgL1xWSBrrW9AZqiM4Cd0zbU0EDnO5rUvnOrMA4G62tZFlWlpocQoRBda4uQJJXriQcw5idQyoqOc0L0EnoZ6lPLb00HY8jI83Htq7RGd-m10zAg-TlcDEp7KvaVwdLjuS-KuyaXQRhPhJ7cxnTuxXRZcParCTDGkm3TqqH5iAOCXuaYXJGAJ45jKUiBKqwNluw5dxyOtkyEBmWK5PR3QY3jzmQJktkhecU8j0Ia0lUxOTZbAgaArctFmZatM2cnYL4iAeHW1zULQjzXG6g_Tto_hM2FzH3LfnCGExyKDweIPJEV4S5z8P6Cml7-22iu3A0p5v5F061bY4fi4Cgsx3DAvscjoJyzah1DZMmaE1tbxvSwTA43135cew_IDiY4ulzDMpDnJQ9SEskdzDnZmJlBLKm14xqNaQcfBIkSD9zK1f_KKMD5rXEOjxiWC9EruRFEu_p6JNkRy4ScX8sctyiYMNiBY0QCBWoc1HkYmXk8LkSyHH-NgHbs2Bu3ow4g13nLaUCMmeIVRrsAuW9bz6hw6biVF4jl7DSzy_lOLik9SXXmbqsZjGIAy22rRVYN7VWUCSlkwH4m9SnZJKqPbxkxYS_Ojp9buZ9oJf1kvkOYBkjoDd4C9u-vDmcTbm15_lmckb1uZrHaOy5HavZ439xXe5u1N17dim_E-tpmAIX3UlexxYfReE_nwV7NIESn8RegWXmKayaQijBSETvE717oh9lZZst2Olq3UCBKACHH4W23oX0rYENrKkGtdv1_HxNrGDIan_ftEaB0oZdzPJdo1kGUv3qPHQmlkzMF7Tfl5z0oinv9qw_efnP3ssKZoxXTrO8L8nUceL4te2bctZVrHCoUhZR3-_fsmM4UkW4b582x5W3WbDZwPthtTyXwu5qyyHT3Inj653xq8qmOOFXmeVHc598RmxygaY-8zM9pGmd1fwiz0HZm2pWBspFF9NlD5UFKtHPP1dJ0Ybo4pZkq7NjAQkCXjY2z2tB0_qbSzQiSW9Q7MI5o89eBCVgp5Mg6QuxvG_teTnyjKwagpl927U4w_Uory97LJqKq5NNuGJtBi1FIdQ6dDy9UqinbNtqXkRwRFfatJ8EYI5sEL4Mq6_wkJopzORfmvmxcWoIuAeVaAJKy3SKBa6XI2v8THIObjgyRaSE_Zucv605rFgjMWdYECGd-UR1J-UlJHebKm-xCsbSgVmC59ZMGgEIVjdojJ_QXu4ypf3dXnGsJpaAOnVGmce4olQhOe1T6xx9OYCJxEJ6n719PTQeUNKqeAhVB7EIqCXmHoKwsevxw8qdEf4Qr2-UvFrMrmmiMURZgnUCZYNO5w4vhLpVhEz1c0GbSPne_W5J03hi70RKFPQMJQ3GzEKP6Zt0W0-B2sOPiifbRAdSMESroTJh73qo9tzg2zlsPgxuqyTgTvlOABBJdxavupGYPk9mhuG-YdnTw-FFWPJTCuJqcLUmHANavP0_yNHW_F8RsHWVgvPqBP_QDng6aJknCoR7wln5ya2ku_T0vP6J5LU8zwhuUM-puK0J9eZEMz_Qnjr9EWmtUyeE5TBgzZkBusZyX2gCrmcXHOchovQe9iQ_P9BSzbohfWfzc0Atg7fRdxKNfWdOvIetvPbP3UkoxJPL3lAN1XONSRz_6ISWBTD2GGktLh07MAonoyuc3SF6hCDVf_l5DbdEd4ZgYdXfAgEfp9hRqt-Kpw9HrhMrYQJEVHbKSO7J51wOvOTw-V0UZF9fYXxPmpDcQjHrxRpPb7nQdxb1k7iPKT0B5sJDq0-4yHsvEnHovLnmyAMzIAxN_xCQU3fehlgnajk8CUlys3SVAZdPtL4nzSZHUIYUzPn3qfc1XypH_T2MOHkjEXxi8i3tEWdoLsSvjXR4eSv1LUAbajRotHUGPDdM7XiWvun8k7KqHt8Q8-itZ3-oK7i0TjcwCI5ksF18Z5okiqSLfHmGiJuLKjAuAQwbd7XgeCnzKCtLyLUWvura13PiNNag9j4n7x-11HwmSm9-X_w2NtODc3NQ1D5a9ixayW_Hw=="
+    },
+    {
+     "id": "msg_068d216a11d08510006ac51c6e358887d2bd08ffc31ce83f02",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"IWC\",\n  \"model_line\": \"Aquatimer Automatic 42\",\n  \"dial_color\": \"black\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"rubber\",\n  \"bezel\": \"steel external/internal rotating dive bezel with a silver-grey scale\",\n  \"case_size_mm\": 42,\n  \"complications\": [\"date\"],\n  \"movement\": \"automatic\",\n  \"printed_reference\": \"\",\n  \"references\": [\"IW328802\", \"IW328801\", \"IW328803\"],\n  \"confidence\": 0.96\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791302767.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 14638,
+    "input_tokens_details": {
+     "cache_write_tokens": 1575,
+     "cached_tokens": 4723
+    },
+    "output_tokens": 1218,
+    "output_tokens_details": {
+     "reasoning_tokens": 1079
+    },
+    "total_tokens": 15856
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 1
+    }
+   }
+  },
+  "search_requests": 1,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

@@ -1,0 +1,746 @@
+{
+ "row_id": 54,
+ "image_file": "054_breitling_premier-b01-chronograph-42.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Breitling",
+   "model_line": "Premier B01 Chronograph 42",
+   "dial_color": "beige",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "bezel": "smooth fixed steel bezel",
+   "case_size_mm": 42.0,
+   "complications": [
+    "date",
+    "chronograph",
+    "small-seconds"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "AB0145211G1P1",
+    "AB0145211G1A1",
+    "AB0145331K1P1"
+   ],
+   "confidence": 0.97
+  },
+  "raw_text": "{\n  \"brand\": \"Breitling\",\n  \"model_line\": \"Premier B01 Chronograph 42\",\n  \"dial_color\": \"beige\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"leather\",\n  \"bezel\": \"smooth fixed steel bezel\",\n  \"case_size_mm\": 42,\n  \"complications\": [\"date\", \"chronograph\", \"small-seconds\"],\n  \"movement\": \"automatic\",\n  \"printed_reference\": \"\",\n  \"references\": [\"AB0145211G1P1\", \"AB0145211G1A1\", \"AB0145331K1P1\"],\n  \"confidence\": 0.97\n}",
+  "input_tokens": 32140,
+  "output_tokens": 1556,
+  "cached_input_tokens": 4723,
+  "reasoning_tokens": 1397,
+  "token_cost_usd": 0.0035669300000000003,
+  "searches": 3,
+  "page_opens": 0,
+  "tool_calls": 3,
+  "queries": [
+   "site: breitling.com Premier B09 Chronograph 40 cream dial reference brown leather",
+   "Breitling Premier B09 Chronograph 40 silver dial brown alligator reference",
+   "Breitling Premier Chronograph cream dial date at 3 two subdials reference",
+   "Breitling Premier B01 Chronograph 42 cream dial brown leather strap reference AB0145211G1P1",
+   "site:breitling.com AB0145211G1 Premier cream dial 42 brown strap",
+   "Breitling Premier B01 42 cream dial date at 6 reference 2023 leather",
+   "site:breitling.com/us-en/watches/premier/ \"AB0145211G1A1\"",
+   "site:breitling.com/us-en/watches/premier/ \"AB0145331K1P1\"",
+   "site:breitling.com \"Premier B01 Chronograph 42\" \"AB0145331K1P1\""
+  ],
+  "source_domains": [
+   "breitling.com",
+   "youtube.com",
+   "thewatchpages.com",
+   "everywatch.com",
+   "essential-watches.com",
+   "chrono24.com",
+   "the1916company.com",
+   "pragnell.co.uk",
+   "watchtraderhub.com",
+   "my-watchsite.com",
+   "analogshift.com",
+   "spiralmagazine.com",
+   "thetimeplace.co.id",
+   "therealreal.com",
+   "blog.breitlingsource.com",
+   "breitlingsource.com",
+   "reddit.com",
+   "en.wikipedia.org",
+   "de.wikipedia.org",
+   "it.wikipedia.org",
+   "bucherer.com",
+   "teddybaldassarre.com",
+   "feldmarwatch.com",
+   "watchmaxx.com",
+   "reeds.com",
+   "watchwarehouse.com",
+   "watchesofswitzerland.com",
+   "loro.ca",
+   "cdnc.heyzine.com",
+   "forum.watchlounge.com",
+   "t3.com"
+  ],
+  "elapsed_s": 23.411,
+  "started_at": "2026-10-07T06:59:51.702592+00:00",
+  "error": null,
+  "tidied": false,
+  "rate_limit_waits": 0,
+  "raw_response": {
+   "id": "resp_0b37bb64d7d27f62006ac5edeac05887d28c7d8cb7f0802b74",
+   "access_programs": null,
+   "created_at": 1791356394.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0b37bb64d7d27f62006ac5edeb808c87d2a824e26777b6ab26",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe4BcQYFR766q2j99Djy6yYz3Yx9859iGHaFbOz8LCubi3y969kqShGTlBvtN1n_q_dUoeiNQTrTiL4y6vRa3NvYaQ_JD13UF8_lmJ5gWaB3HEbjtyzP8XIg0xfNqIgN2G--oifsqPtNN-iYDBTESLWp7thnhXkC6V7OyNPrl_ruiVztMDLENhT5F9rR8DinTm4rcMI4xU_3TRSCD4A0gPfCpCj7AJZDcRZ7XBoSctVYMlyVSx7FQ98J55c8Fog2qCQs5hXa7a268c4ljnr5OC1Rf1FPa1a0MC-dCRnF1CaRJVif8gD8ix1YQSjFgR1PcUl1PcqO7mLRmW7wnSABcIwKMBQTQAAtUSt8l9AksZtgVLshZ-JSvQjHTPtuaAZ0cii6X46lkrp7a4AG_xDrGycyoI9YylGIEGfF-Z9hs6HURwUnsL2E0vyhK_pL2GV8yE32CATHbxYjwn3FXPCROQvPEfTCUBKfjaSjlCxFna_l4HnU7ZcrF6DcBNSY7sRuZRTnTWmJ5jeptDu8muYnycrWBHBI0RirveaNXlZj80WhLOq8mint6Kcj66fXfkVK0UYhrKuWZRc8ahiVs-2eZk-u6KVgySbh8sJJ0k02b_wfhHK7peJzBj0584LXNkemCOeBvgLVfcoDiSRy7SarcMbJAkQTox6sL2lBp0fV3jxwUjRSFjTgbfiwMcH5VohI1DDKmI2WCLqCnBFVX-B472c6Dvdp5BmUTFxQ23n4mHqDQfIVNGyPYHPWZML88DIHtv7AcO4GN91KgySIjuU5k4WCq4FqCGiOdbAdse5F36JYudcZq_2uSowRw_LqjdggjyKKZfzyQw99-oc_6ZrnN1QPjeTJdt5iwE_PqWJ7N-UZRk_rlk2gjnTYwp1prSQByHE8QSELxkZjlRHS4_mVNNuYrm95Znc5xn7RhVWCv_6rrXCI8vOUcqe7xrUO5_EhJnMo9a4iXCLzqeJqYwUyF6A3-TOlOjzwT6-CJfEBNIRN2idEOnx4FzgsvbQ6i-EBnVMuXD1ZgTxxcnk9ov8aoP-DlpKs8cPNoASgaQo2Bk2qd7_e5QqRDtQiz1aqG0eYJgxkaxqsAYVbD75HXSHlEFJzjNNwpJTCD6RDoK_wU04YY1OvDLBWqi-38MP-PdckILPpiKrKzz7KK7fkgDOcmqUYAd52s06lEXup6y0MgdypXya6NC598T2aux-BFg1BuWTl3UlqGNPDxSsZ8M4rpfA0qOy-_LvS7wVUDhLG3MCmYQTpY-tRd_BYA-qvI5RonY00QXsv43xVFRS_k9sFpkbonf8d4EnfEpRKVi0MK_wJOwRIQju-kRaCDqb0IqAj5vNqgUFlN1MjGiHTyPvAAxYuBHCT6hHBfcrUDCLKEQz7Syg1Xe8OKPxu6qNi4QnHt8ejCgJzWm-TyWkUjV1xvoTIZwtRuuHCMWamkH3pXeyV-n9x2nxb_avbi33gdrxtQnUnZlRv55wrE3Kh2ETFljly1vxKp60dHmeQmHqRKKV9nwr1G9hKOWpYifpkA59P4Mphki0YhCQbggyQdJNZtOW522-QBnIA-Ubv5T81PI5px4p2rUo1uuqB5jKut-uiPxOyFsqQXkMf6mWbCdeqOU-3tmuZTn6W9cjyOy7mPIiGWraXkhmEzH30qtZVXhiLJyuHp9A71K1IdBKlLfgbx_5i0CE2g0zelKDyGubmAXdrYBFzkqOu7oIkrUWm2MRtsRoKax2s3zazJtKejuKGD7nGJWITkooBDZBSaU8R78txHK6bJ4mXjwBXmeLrQ2ip3Y1Y9--6J9C1exe7p0M0HocfOijy43ImEDZ3nafH6f5PTOYOcoaElmgzZNfljaJMkMbJGWha5JXwFmYQrR6A_Fr9-RLTuyu23g5_NC8B9ypxD_aT0D60arvyg0kjg_yCnW96qHehN8cXi8Sch14Em8bIbdAN-WuQarxv8YqR-t83sXZKuZAEavWcZmNBNpMOvlaS9x7UHSyRgkP5ZI3Oi5Mza0kvjPJPk0NwrvAEQ1oXWBZ6Azud9jmdJ9-W6P5Ou_b0BBKEVikfyRXoo0xZQKHky0r8cURv9lmFR1BncXUH6X5vax4w10-VdpHOA1HoEu1LRiCw7ryN41Z2GRJbhB6dsJ8bVmPHWi3SPPz-dACjn3JU_oZO6D_CHDGzVBqHSZpeaD3GDxWYm2VRRnKhlojpVQ=="
+    },
+    {
+     "id": "ws_0b37bb64d7d27f62006ac5edede0b487d2b15ab302d51d3333",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site: breitling.com Premier B09 Chronograph 40 cream dial reference brown leather",
+       "Breitling Premier B09 Chronograph 40 silver dial brown alligator reference",
+       "Breitling Premier Chronograph cream dial date at 3 two subdials reference"
+      ],
+      "query": "site: breitling.com Premier B09 Chronograph 40 cream dial reference brown leather",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.breitling.com/us-en/watches/premier/premier-b09-chronograph-40/AB0930D31L1P1/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=1sIySWh4kBs"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=sOr_sfA_Rug"
+       },
+       {
+        "type": "url",
+        "url": "https://www.thewatchpages.com/watches/breitling-premier-b09-chronograph-40-rb0930371g1p1/"
+       },
+       {
+        "type": "url",
+        "url": "https://everywatch.com/breitling/premier/ab0145211g1a1/watch-33999650"
+       },
+       {
+        "type": "url",
+        "url": "https://www.essential-watches.com/Breitling/Premier-B09/Chronograph"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/breitling/ref-rb0930371g1p1.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.the1916company.com/watches/breitling/premier/premier-ab0930371g1p1/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.pragnell.co.uk/breitling-premier-b09-chronograph-40_rb0930371g1p1-p"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchtraderhub.com/watches/breitling-premier-b09-chronograph-40-ab0930371g1p1"
+       },
+       {
+        "type": "url",
+        "url": "https://www.the1916company.com/pre-owned/breitling/premier/5038188/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.my-watchsite.com/premier/8222-premier-b09-chronograph-40.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/breitling/ref-ab0930f51h1p1.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.analogshift.com/collections/breitling/products/breitling-premier-b09-chronograph-40-as10445"
+       },
+       {
+        "type": "url",
+        "url": "https://spiralmagazine.com/wp-content/uploads/2022/06/Issue-182.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.thetimeplace.co.id/wp-content/uploads/TTPM-87.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.therealreal.com/products/101392047/appraisal_report"
+       },
+       {
+        "type": "url",
+        "url": "https://blog.breitlingsource.com/images/manuals/chronomat_gmt.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.breitlingsource.com/downloads/125-years-of-breitling.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1jv5clt"
+       },
+       {
+        "type": "url",
+        "url": "https://www.breitlingsource.com/images/manuals/chronomat_airborne.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/11g2otf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1gltum2"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1uentty/wts_breitling_premier_b09_chronograph_silvered/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1r3zk19/wts_breitling_premier_b09_chronograph_40/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wy5qz0/wts_breitling_premier_b09_chronograph_40/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/breitling/comments/1ft4l2q/help_deciding_dial_color_on_breitling_premier_b01/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/breitling/comments/133qoz0"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/149mp3r"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/1wy5qop/wts_breitling_premier_b09_chronograph_40/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/1s5d4zu/wtsus_breitling_premier_b09_chronograph_40/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/w71etn"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Rolex_Cosmograph_Daytona"
+       },
+       {
+        "type": "url",
+        "url": "https://de.wikipedia.org/wiki/Breitling_Navitimer"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Breitling"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0b37bb64d7d27f62006ac5edf2cfb887d2b92fa445495c91fb",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe4Bocq8s2Vn7CNd0RO2is4yDNzOMyTSkZ77pds12wYbTY0rPdkCk1JhaZYgZSsk98WmmiCnE3Ppy4t3j0bluGUtqJmgHfcBy8MW6t0P3azgQ2qgcd7eilGcNyN8nNFur5-6zTP042MbBhtj1NBmEg7g8m1GXLwSxuUMsG0VwJKQeaNXpudByWcCH7kpy-P0fmUVD-uQJU3zmj5mUEi9NVCQO7S3kfF0ln_Jdvu0nL-nLDZ6oCIwfM-1RSq3QRbqXcyZqOIA3VNOP4dTf9cCbiDjmxTO_HQ9gOnVVx-Y3EqQE8dl1HWnU5jrq2u-NOa3DvFSLE-PHt0EbesyCPp86zKdAQONsnEkbHv9Og4R7ZjaAecR0qmuX2KEjIpYSITmFaswwih7xZle9HLLtOjd3cDTMKfiKhRcbNj35ndI__jh24o6SzjNwzdSYYDSP42X2OnfGCCIExz6u64oPTL7ooxtOvMtmVtl_QSmZeiLzfEZUARqnSSthRNkKnbDJSyoSqwugRvkiq5jOlQ4eFpujM2G8Kg40XR_xuMffzXqPAO5M3SB3I-FLuFGavu8LHmQvHApiHk3sGLIAv1PJ2NM_bTpfsw0lhy2bqUSysndWvgCnyhH6DDZdJLF5UDzQYPu4pGZXVlREo0qQ7A9Km8rNINF2KsaqXoLrTYJrmcQSaOEa6qlhb3glz1Q5NFXKMP1MQPmJavhpIRnMu79IP8R_7UkfsnwqnhFptfQDvs1-Jbp8Wq-VbPotDi95Hh1tLBDkadzJh_r_zRxDXnrp_Le5ynQBRAeH9_R_z2I6o0sDUjuAzPvSiIUXTVnDGPwZhIILbYQnXqntgxYMM4Gu_MDaT3IieJLmt36qEC8_bOwJJEKVqIZi_vaDCvg-E1tGmL_MIHb1SjQIHEkHkarEuM8Cw2pI83156lDKY2-kH9iszz8po0PYFyRN7-H9b4kM7br_e5zcJLNaQjQMoBMEBMJxRruFl-fr1_i2dOqJa4TDfdRAi4iIURmminnWbpbn4TmtoWr3zoArTt0tgNLJK7S5UsOyZ8EgXjPU_cIiYKOR8EpjVRrz7iEl-9O1LREEBczL7N1NIHHQbCMdNHGUI-PG0nM42J-4IQ_PIhIL8dm5nncXdHICeFMrGFiIn-aqW5jfuY64inSkhg_RyKq1fk3zGN4t3STwLeT2S5dvvEzVRTTFq_z6S7z47FPE-1T9CGvETlrctfdourszZfSeVRf7VsNnCeDMpb6DkIVkVx3KsXA1QCr4LVOlYTJgs9cMaBGVlt6N21Pa59_MIGUOMdRKYHwNlQYrxk07IcZCpX7lxUL-Sb5ejv-2BXXXXwkyRLUE4WCPuHVgNYvwq5O9FtunKQ-dqnBEex6Bp0N_M54FlktFddlUq_ePt0evPlo74f4wQ4KKBAt5WzvrWDs5zU2bEAUn6SXnbDmGmxrpT-Djgz0F-RFAsdRfI5JrqFpsfgVrczWze-Pu14RWgkKekPxLTrifplOwbz3dlPnh8zjWS13yXFa7DEJRLIxqDbEzVbdKgoCMjygGXXLes7uWgoVIzcJzukoTEAwSN-UekD5R3XwgVKle8G8doNrohk8j3GjY-MDvQRX6dLGnxI9eJYyiL2M0XFB_FrzJDCfNbcFRdm77gQtBgArO64YjP6MXMjSSlJdw2WUpgozyrEyKDuPET5roms7i93K9olwixHGnA_JuvpJD9xrwZuyhH-i-5jsD5fBcK5aHJbl0ptBcn70XU0zXavnDS7YXQsqIJ1h6Vri85ogtxCRuzTu3uvc2ibUvMqbAOhV9eDepnuoYk0R0GeU0seT2W7RnKyZKbY2r0wOWRi6zkB8X-90DJ1kFhEGn_dQzJmFJvSq7YPqHO02iGApGSWwbfgasFTxPqge1xV5z7lRZ4R_qNtNOVwLe2IVBOA6Hjz4x6aaX2Q_Iw2dVEVaVFDUVWvxApUCFI4oeVDvPGURyWrPKD_nRXfUXZKaVr19rxQZmge01GciQ8MZd2Am1BaJL3D9xkykqqdRcHi7e9cQNT9OCSQib6u-3znJRo1qmWaSTVQW0p_UJmFxRoj2GshfSiWW-Nfov0y7X7AImetRIA8Dsq0Td_c8flEu7Oxwv1D60_9mRS3QZbIawg_jlvW-wO2j0lZZZzvAG_j7KuHC1hMaMST2O83rPvThE3HnYnOnFWkpZmbOmk37lBjMBOS4q7F2ZcGjwQm4LPywBj1MqKYoCASJ8pE3UCkKkP7MkqeGO0aK7bmJ6u7FS73yOowTzPfSfU639eNRFWfZl5v75EDG5COJ5uiHlYTcXmWzHigD16WrdTdxG-MnTBcIWe_tuzAp1tnPTC-v58yzVH8nOFK0hshrUAkp1Z-f6ZKxsWLPQFGKf1WSPJOMrq1ZLIsJQ1NyIFLvaKTf2jYBMKTqMQxjYyEraREGDNEL_oaPrRHoTC-5muie5-NkurhKXbpokKLEk8fPuPCP_9cnBpM0G8RNY1mqG2r5b_EY9sQQIFsJ5pC8NQ6Ob82orAb7AJfjqpBGYDVr2q_6d8i4BmnlQGkgUO88fcTYz1sSTH7PYZhKV7TdXD5L8-p949UElQ6Z8G8u8-eBPegNswvfRXmdE3Gpw73wE6fLGWwDCyyhtzh1Zjb3_KxK_xyjMqpwGJgrZzh5eb06JV_aqYm4ZijrB2F1zblJwyHtKbGynzUuo6dEj_Gb4B0lE4n_UZqIVDs7F21Kx7deaeh_xzdsoA2ofx9kfC0NL8Jm4_waZWiN4Jj4MM4crzf-_J9m_S1Vv398CdtbowAA6WnwwYJ3mXE="
+    },
+    {
+     "id": "ws_0b37bb64d7d27f62006ac5edf41e3087d2a437e9c084bdc66c",
+     "action": {
+      "type": "search",
+      "queries": [
+       "Breitling Premier B01 Chronograph 42 cream dial brown leather strap reference AB0145211G1P1",
+       "site:breitling.com AB0145211G1 Premier cream dial 42 brown strap",
+       "Breitling Premier B01 42 cream dial date at 6 reference 2023 leather"
+      ],
+      "query": "Breitling Premier B01 Chronograph 42 cream dial brown leather strap reference AB0145211G1P1",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/breitling/ref-ab0145211g1p1.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.breitling.com/ca-en/watches/premier/premier-b01-chronograph-42-my23/AB0145211G1P1/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.bucherer.com/us/en/watches/breitling/premier/1370-990-1.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.breitling.com/us-en/watches/premier/premier-b01-chronograph-42-my23/AB0145211G1P2/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/breitling/premier-b01-chronograph-42mm-like-new-cream-dial-ab0145211g1p1--id38883058.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://teddybaldassarre.com/products/premier-b01-chronograph-42-stainless-steel-cream-brown-alligator-leather-strap-folding-clasp"
+       },
+       {
+        "type": "url",
+        "url": "https://feldmarwatch.com/product/archived/breitling-archived/premier-breitling-archived/b01-chronograph-42-12/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchmaxx.com/breitling-watch-ab0145211g1p1"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reeds.com/breitling-premier-b01-chronograph-42-cream-dial-brown-leather-strap-watch-42mm-ab0145211g1p1-plu20345310.html"
+       },
+       {
+        "type": "url",
+        "url": "https://watchwarehouse.com/breitling-premier-b01-chronograph-42mm-cream-dial-mens-watch-ab0145211g1p1/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchesofswitzerland.com/en-int/products/breitling-premier-ab0145211g1p1-17532221"
+       },
+       {
+        "type": "url",
+        "url": "https://loro.ca/timepieces/breitling/premier/breitling-premier-b01-chronograph-cream-strap-42mm-ab0145211g1p1/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1uo6mo7/wts_2026_breitling_premier_b01_chronograph/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1tt7zqf/wts_2026_breitling_premier_b01_chronograph/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1om4j5s"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/11xvyzn"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=UK3hzNEFUdY"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=tUizUWmN0Uc"
+       },
+       {
+        "type": "url",
+        "url": "https://cdnc.heyzine.com/files/uploaded/v2/016c50f797a9812920f04eba4ac8e902a4f5f273.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/breitling/comments/1ft4l2q/help_deciding_dial_color_on_breitling_premier_b01/"
+       },
+       {
+        "type": "url",
+        "url": "https://forum.watchlounge.com/wcf/index.php?attachment%2F601407-breitling-preisliste-01-2024-pdf%2F="
+       },
+       {
+        "type": "url",
+        "url": "https://www.thetimeplace.co.id/wp-content/uploads/TTPM-87.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/breitling/comments/106uxmp"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/breitling/comments/17cv921"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/breitling/comments/1246dsy"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1mc1jqb"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/breitling/comments/nu8mgq"
+       },
+       {
+        "type": "url",
+        "url": "https://www.therealreal.com/products/99966644/appraisal_report"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1cc2j67"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/breitling/comments/1ddl2ra"
+       },
+       {
+        "type": "url",
+        "url": "https://www.thetimeplace.co.id/wp-content/uploads/68.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Breitling_Chronomat"
+       },
+       {
+        "type": "url",
+        "url": "https://www.t3.com/luxury/watches/new-breitling-watch-fuses-a-chronograph-and-a-dive-watch-in-homage-to-a-classic-model-from-the-brand"
+       },
+       {
+        "type": "url",
+        "url": "https://www.t3.com/luxury/watches/breitling-reimagines-the-aston-martin-db5-as-a-watch"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Breitling_SA"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0b37bb64d7d27f62006ac5edfa1b4087d2b7b3b8d392d20766",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe4BL8WOO0kiYjPh97UyoCanWkjwSpt8qajIAObqzu_DFJZlzBGkvoDf7F1qvOgtW-v5X0QC72_ErzFZRC769Odu_1wZQPL4cl3nq-QErLWpfXbbLXhG4DW8mhsP14KSdrMB3O_gX10KKIoaNsVGR4OnWRtis8NPs4Gs1EnYogp04t4P5vnCsXU9Jm5O8pFfYqrRFIEDnCUJZfXLCzwoTGly7qxKqDixw6DX1g2tFQG65GSn3BpRZuTQ2jDQ6gck2YaTtBu8VTJhpEO-A5XwU1vlXxTgAuI7PLZQUP2J-1Qcnsx24QcCo-gRAsLEm0InhMTg-uDWxQI1xUOmTsFeU9CIsfn4qTpq78VYLKeMOBFlXp53OhsgqcucyaNvEQIsG2uMQYarjPj_OSksS4BbIFFeEI3PW-r8iCjPL3kLb1NmAT2pxTJ_SyE_CNwQxkZZD8qhZhlsRrZgD_VkDy0Gz8dYCCF6GDrXjDVzkm6ibWjR6SolYlLeenwMgp_AosX183sGj6047o-UzmjKkMdjAAxMgb4sghfM11YrJBwKBBsmC6NE-7g4XxVujXLKXvQ4nG-M-3gV5f4hu9sJbA1uYigWdFLdWKkZhBt_naipD_gYUn6dTA7zRSnnGeldIxdcjtwKIpFKkKOKjy9ZBIeFrJolat2g_sFSPWmetnJR98AsnP4ka8_46g2e6FiY_zeZFlDKL12VncLrxl2MlRlh-YhlRGcNBI1ADQS5YUPxrlHBarE1vST1zBBNiWaOEFIReV48L_Tbfb2unwQY0GZcCCw60CLzRi2WJONnCGuBaC09cEvIjqB8MHD36Xqu4d1CMeBJvPhGv-OPgKht1ZC_HWxYbuBNxA17YyU9VzsYv0udWuvjBxxmICyegUdWsVmHhKsbYZj3YriOJfe_JBMsw6bQ9IsF4C6dAqWrWDwQRYZaZldo-JcI1wFAQEL90MXcfG3iVeKfyKlRJICSL92cI9oo7x8J-qZZ7OJ6kyCZHo2RSI0RvDGSZMxASEN8_2_wW_OwOo3dZ6DodOhh-oMs4gAQUIz7D2wAbKUqWrKdSkJCCmG8QRW0t-WrZqRUSXAa33E6TJvuTmbOBxxE6XkAcehdve7sg4J_DcOYrnINW8PdOKbPF7I3w7pIFGVdrdV9UdiONU1Twh8Fxx0c7dFkIR0x3SZkm8L_URBufMIcMSf8bAh0fKYCw2GH0vbfQoZF_aXcjDZtUE9C0j7XyCkwDBAjmBYHavBYTXAjXoc1OOVe7oQekVz3cG5DVkjyzm7rKJ0fqlw4irSmXmX7Epj7zUlNWSSAaJIf3N_vWN-XciTmFMpIWhbGRDo7l0bwar_XQIp6L0QW4dz2rBc4z5LvrzqX_hIb5LJRkU1cBykR_YJxlU2a1qb2YK7INEn6bnnBs3eDMXICtzwsaWdSq0LuDAYRWfUYXjYn4_C4urKNNkQu5nFF-oorQ_oDUDeoWjJKj1aWv6WDsjnZBnlrDT_hTWd2IeQ_thnHRS5Xy4ni6GB1vdHHYeJ7mdESFdp4cZj3ImejJ1OvhBCLCnj_U4E8Q71irnbSjWQdGEIQvQwbPR7Nr4Xa0yWMdBmuIGhJZYIjO2DVw_SBC03tnMA19rFQevGHqJvy9ZMzvVrXYGVanVPBg7xqJelAfwGffy_l_Gv3LUBuDGRjmaVZcgwnflk3QB_C6tFio_OHdFiPgxpgvQYfZOzHdp-XhQuLKNgh9HtEDEFyajgmyTIHme9BP3ObVth1NbDT_Hrl3HsqMyWGejzvXANFl_BfDFTw6s72Te189byOOiDDDh56BUczbRtimhNW5UamfqFD_dJ7ovbiCBAaef991nc2k3PeYZsLFlNqIeRf92San9ZfQR4JK4k_FvMTvI0GxgAxBooX_98fwjv-8OFwFOEH-wm5L0ieD2t6p1lkCxtwyJ9hBGvxQ-JPNI7co7F2q3YCYJjNlvrFh5YbVCzNLg8ZLBwrzE3kXoPgXqb4AxmA870R5UDQDixmX-XxU7N9r_PRsPlz0eTXv31OZq5D9FBng6e2vuxInR5XDhUEAAuMPpb2CGuQdHrpOvuEkiC_S9IpARtVymPEC_Fv-iWxyomLkz3KwVCmA2w5awenGu7TssxdhTYELe6qGxcZg3hoAT6qWOapnHNNbqQWQzehAQx2zZHbVxLjKEFGAa8rGMW_osIKLwSliAsZx9oMsrPyPGTjn2JpimRzS9Nk4H2JXBSVI_FcfYwgQ8QP4Q6tm0RJs3Ca7Mya3Rh_0003RWGhlyZKpbyV_phRetRBh_mBgfiHyXnK8fwmynQSPAYEKfoAEdp8plutG_wC2LmkclUEcu-uu3ms4IrsQZ6NzrcPGCUdbZmvJjM2inGH-0vAoalei0qLsG_MssrejAci5CGndb9igJJS94O6F-ykz_zSd-ezRoAX_xBnjPVJpVtoz4eYGLVsuxP5bfjJesh1v-Rx1HoavAccyjdMcTOrZ2f3S5I2IkOYSPOtkbQWlqmUhnwgJ1Z4mWOFsfx0BAfRFD4VySgSAFtafDKETOTHb8ZrFSlIzWjgBLYvjQWHUCsJA7qzykjLrMh6zV0dOrpV7-ISjAEF69orqNbIcDEPfTYRjx1V-RfTOXif9ZN9AnPn68f15ZjPrMGXS36-Fl7QCdHGsY6m-zJmCbAufyDyeuDCI-WLOzpLfckn68dpB57ebxktWc1gztbYjEz-_CtTZVgmWa73WVNah2HkbC6_ij0VIEbHgJIHRTT4xe7BvpmGrm0rvS57DeZUzC7ez8xRS1fX3JutvL_NY85lEEJJwHI5iBhCI8bWzpA8aUIEC-x236692NVrXsgfMiVQfWAn6TNL99TEREv8s05itHYxY5M0fW7dOtUjfUsOJ1bjPm-RgHxwD6gd6ds62OkoN7RoOgv6g49AgduRch-EeFGo0U8UiRnCgYTpJnICNBiHfBn34Yb6u5R_E9e4RBHgjLQ0gf4RjherOCv8duo7VcFe1x9q51IxwBB3wu2Lungz0AH652QIN4uoqI38uFnOVf-wF6hVUo4MIpNaIugsimxwamsnK-IPBmsjG_NeV89e5Am76Yk1vrFC2nzBerh08jQdEmYGJOHfzu7vdp_iQpZ083zqQoPtsZHIgPUzIe9zBjRp8sH6nK40W9h_QYfoODiCVvhwVWWYYVeT64GOnFQOt83hLwj5wFlXLYjnsdID3q6HqbhcV5qq53q6oDdNPqgajeZhklFTHmq-fj8HD_3QhFmIt3o8HRiyXOhDf7Ddvo6cO3mCKPwYEClPXFsePscA7DqInM0rOuNhp0xSO4LMqulgikcsihNuyUsZZN-U8Y1uFzLr_H31NvUig_42uFTd4Fu9lU2SwkwFNyszltWJCSwpah9j7ts4jXWlfM_0yXehf5tcn7KGHJuGsUL7HGIwAq3TmOaAK7RIzm35i_RfE38="
+    },
+    {
+     "id": "ws_0b37bb64d7d27f62006ac5edfb214c87d29caf39bf18667ad5",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:breitling.com/us-en/watches/premier/ \"AB0145211G1A1\"",
+       "site:breitling.com/us-en/watches/premier/ \"AB0145331K1P1\"",
+       "site:breitling.com \"Premier B01 Chronograph 42\" \"AB0145331K1P1\""
+      ],
+      "query": "site:breitling.com/us-en/watches/premier/ \"AB0145211G1A1\"",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.breitling.com/us-en/watches/premier/premier-b01-chronograph-42-my23/AB0145331K1P1/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.breitling.com/is-en/watches/premier/premier-b01-chronograph-42-my23/AB0145211G1A1/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.breitling.com/mu-en/watches/premier/premier-b01-chronograph-42-my23/AB0145331K1P1/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.breitling.com/bm-en/watches/premier/premier-b01-chronograph-42-my23/AB0145331K1P1/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.breitling.com/dz-en/watches/premier/premier-b01-chronograph-42-my23/AB0145331K1P1/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.breitling.com/ch-en/watches/premier/premier-b01-chronograph-42-my23/AB0145331K1P1/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.breitling.com/th-en/watches/premier/premier-b01-chronograph-42-my23/AB0145331K1P1/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.breitling.com/li-de/watches/premier/premier-b01-chronograph-42-my23/AB0145331K1P1/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.breitling.com/lv-en/watches/premier/premier-b01-chronograph-42-my23/AB0145211G1A1/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.breitling.com/at-de/watches/premier/premier-b01-chronograph-42-my23/AB0145331K1P1/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.breitling.com/bl-fr/watches/premier/premier-b01-chronograph-42-my23/AB0145331K1P1/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.breitling.com/kw-en/watches/premier/premier-b01-chronograph-42-my23/AB0145211G1A1/"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0b37bb64d7d27f62006ac5edfdbb2887d2be5350672ba87771",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe4BgeRmr3vm-09wAQNSFbSmn3EMVgoZarQ5jnTq5mtXFLKo50CXqX3jZtVjQmLiCYM3ZMgoKz5qEV8UCER8VK_kYb4EiNJaD55rfHhi_yV_IZ8CexFpRu7qcvCednrAas3qQnr77p1r9AllzFdceyT4kkWS9JnkkaQq6MkdK4MteFY6Blh4UDueEhbgE3aoil5MpVCuHEQPoulsKwE-km_Yk_3imwLei6nLtI9UQwr1d_ENzolB1eu1fy4juvg-tCE4R1YSGOMSw5Yu7lMiw4uYiv08L453Zm-8cdWk5ORG2P-06Z26acdCma6leZgKTC5UzXvdXcVbvPs8nuCfEwsyuhHhEwCTHqZ-Kx3eCbBJTheIPKXBVIlD-fuR6_JibGWgk1jmwwOrP3zoUCxh0JD_WSmXTBenGm4i8uEsYycc16S9-qw6yR3zMgQuIz-wahzinAzxL6fhYaUCCjeEGJHukS0uom1Lt7MonzRqzZ86f2w1tGv_o_0M5OtXGstXCM8jsQkzWcrBJ7EUCbOmEEnO5kfWvp_Y-LU2YdQhzzX60JfVImfDHdAlvX8KPd-wZ_NPZOwUJtAO3o3k-kM9rG8flOgO0_XbEAEkW9euBqmU0oAgkljdJZC1UaWc8IfHxyb-T7Gj_X4XGsG7WayZ3ES4YVVs9eUWUHU6yP08daaCxznePGgjeQTye68e0gNjKiuw_JB0v2j2nyv1Tw7RxscIWRTdntGVfwCwYkYuP8KOzXMRQsT8kNje5W9p31NlNMYIVMHW-qKKmIC5kOECQ75u4XNEi6Z2R0H2DpUsv9tu9Em8Dqtl8d8rsfzwKsW0ubiaTOKAuUtfCn3M59UIY2eb37tb9wOu5pl2EwDP84NXlR4qH5XlujhnpA_xgmjB6NPB0RNqV7ync5UjEGiT5EvQ2kIzmJ6V59Rpsd-33ON8_XO3-dqRb7Oph5CxhX-43AXo00eH8E5bNA-3EmHTt1-hjpZ0RRGrC6aThOaLPdYYbhMvDZyodI05GWnW-axBtQyeDlVBIaRVuzMZCmMS-mYnDES6cQwEKuCrb5nQHxMnesiVXCQjFEnH_K1Or7_SEwK5HRAWb8v7sCSmPINgRzdBrPO4t5B9jiYce6Dn_ayrO0SvrwVY4Bz9prFglaa_ANXDf2OzFWAttFMMAArXFs0sh9mF1UrUWXHJB5XJil1BX-WqY3TgFscEjBxkWkkZ09KSmB1xGxdkEBgT43Rz-kCag_LruBUsgeH-BXnK0x-2azXuSnhXtu-QsZC7q5oOzA4x23TjSo3pw1T09IlhT8zDk8A3oFOD8eP4VzoyLfk2nj9CXD5XK-9bYuzjbFjT2Hc4VwvTbx994pjmRclBOJLpNXePVIP4SqcTeYNXTHJyVvQL4uMKVOf6V2LnZcwKhHcXIRW1EosmZkgym2f6hAH1lF0M9e2gltvUZjYrGRdTpVasswB0QkH4yxfNQ5jqzeS6glT4suMpMsfz3QdgZGu-znf97k_yWnT8z_7n6b0pvr-0mdVWg4ILAinVuxf9L1PkNxtAd0jGmnbtL8ZQfC7GnzaSCg8bcJmuhfRdw20IvnYg8u8yeOTx0dNlm-q2Mf5hXelTWLOqaG7ljTjMwHBzEC3o4VV-hkXiBhsS-v8Iwy4hMdEwHbrSfh13pgRRsgcYzYfWG2pl9tlpIDUG6sPQVJSi6gPcCKXwdhs7JC0zMqyNYpmC_OoDBSvT8kcpyY54HPSPgircvYWVUt3CW1xOofmszCuFvsmZwQ3LRmjLHPO_DZO14ze_R2IsHxtWLEdzMmXSP1rWTKJPshBCYzdOlgwfCyCyKBmcrBxuzHjhuVg56hrZ1IWts28v2EweHtQuYyoHHNR-Eq6XP4dptMT5Km1EUZngfOkdjkBRifSBe8BfwaAuBeShTn-Bv9z6YJxBLS0iWRJm2c0hX6nkmi4bQIXemA2Pxo9h5li6NztUZEkq7CsDhT_pCNFHGmPNvzswXx6Bc9ALieIp8RmYRp8JzyT_FroGgLeZWIpUeIlngdzRALXzAvfu98wQS9PmRc3xbwJdb268sUqwFHHExi19O6437Uwq8jEzbhHJ9E4AyFr0mStj8sTbrMVK51bYE1mevauDjQpENBk49k0ewrxySW8Ri-W28FcVX50u_lScNeP1cFSnDjbTbzTzvLtOY5esogeWoAn6pxz-XgmKlmu0nhEPqYSuW9kr2t1CSzniYMhOyw8w_JbB0RvtaVR6H6oO"
+    },
+    {
+     "id": "msg_0b37bb64d7d27f62006ac5edfed8ec87d29e6f5aa9a81588c8",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Breitling\",\n  \"model_line\": \"Premier B01 Chronograph 42\",\n  \"dial_color\": \"beige\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"leather\",\n  \"bezel\": \"smooth fixed steel bezel\",\n  \"case_size_mm\": 42,\n  \"complications\": [\"date\", \"chronograph\", \"small-seconds\"],\n  \"movement\": \"automatic\",\n  \"printed_reference\": \"\",\n  \"references\": [\"AB0145211G1P1\", \"AB0145211G1A1\", \"AB0145331K1P1\"],\n  \"confidence\": 0.97\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791356415.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 32140,
+    "input_tokens_details": {
+     "cache_write_tokens": 3615,
+     "cached_tokens": 4723
+    },
+    "output_tokens": 1556,
+    "output_tokens_details": {
+     "reasoning_tokens": 1397
+    },
+    "total_tokens": 33696
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 3
+    }
+   }
+  },
+  "search_requests": 3,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

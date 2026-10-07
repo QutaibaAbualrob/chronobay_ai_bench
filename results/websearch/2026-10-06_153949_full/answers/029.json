@@ -1,0 +1,684 @@
+{
+ "row_id": 29,
+ "image_file": "029_patek_calatrava-yellow-gold.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_line": "Calatrava 5196",
+   "dial_color": "white",
+   "case_material": "yellow-gold",
+   "bracelet_material": "leather",
+   "bezel": "smooth polished yellow-gold bezel",
+   "case_size_mm": 37.0,
+   "complications": [
+    "small-seconds"
+   ],
+   "movement": "manual",
+   "printed_reference": "",
+   "references": [
+    "5196J-001",
+    "5196G-001",
+    "3796J"
+   ],
+   "confidence": 0.93
+  },
+  "raw_text": "{\"brand\":\"Patek Philippe\",\"model_line\":\"Calatrava 5196\",\"dial_color\":\"white\",\"case_material\":\"yellow-gold\",\"bracelet_material\":\"leather\",\"bezel\":\"smooth polished yellow-gold bezel\",\"case_size_mm\":37,\"complications\":[\"small-seconds\"],\"movement\":\"manual\",\"printed_reference\":\"\",\"references\":[\"5196J-001\",\"5196G-001\",\"3796J\"],\"confidence\":0.93}",
+  "input_tokens": 23639,
+  "output_tokens": 1143,
+  "cached_input_tokens": 4723,
+  "reasoning_tokens": 1040,
+  "token_cost_usd": 0.00251033,
+  "searches": 2,
+  "page_opens": 0,
+  "tool_calls": 2,
+  "queries": [
+   "site:patek.com 5196J Calatrava small seconds yellow gold",
+   "Patek Philippe Calatrava yellow gold small seconds baton markers white dial reference 5196J 3796J",
+   "Patek Philippe reference 5196J white dial yellow gold 37 mm small seconds",
+   "Patek Philippe Calatrava 5120J small seconds baton dial reference",
+   "site:patek.com/en/collection/calatrava/5196J-001",
+   "site:patek.com \"5196J-001\"",
+   "Patek Philippe 5196J reference 5196J-001 official format 5196J",
+   "Patek Philippe 5196G 5196R reference dial white 5196P"
+  ],
+  "source_domains": [
+   "watch-wiki.net",
+   "grymrkt.co",
+   "watchcharts.com",
+   "grailatlas.com",
+   "youtube.com",
+   "analogshift.com",
+   "luxurybazaar.com",
+   "pacificbaywatch.com",
+   "wristcheck.com",
+   "chrono24.com",
+   "everywatch.com",
+   "hrockluxury.com",
+   "watchprozine.com",
+   "static.patek.com",
+   "reddit.com",
+   "wannenesgroup.com",
+   "en.wikipedia.org",
+   "monacolegendauctions.com",
+   "it.wikipedia.org",
+   "fr.wikipedia.org",
+   "es.wikipedia.org",
+   "patek.com",
+   "watchledger.net",
+   "thehourglass.co.jp",
+   "ecijewelers.com",
+   "watchguys.com",
+   "therealreal.com",
+   "bruun-rasmussen.dk",
+   "electronicsandbooks.com"
+  ],
+  "elapsed_s": 23.176,
+  "started_at": "2026-10-07T06:58:15.587119+00:00",
+  "error": null,
+  "tidied": false,
+  "rate_limit_waits": 0,
+  "raw_response": {
+   "id": "resp_0a00e9d0e040131e006ac5ed8a44a887d2a18e15b004425020",
+   "access_programs": null,
+   "created_at": 1791356298.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0a00e9d0e040131e006ac5ed8c241087d2a91cb602a123d992",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe2gWNSDlEsM1tBxo1GrQGidp4Hgphpq3HGXp2T9jRo4JXsjQOGOvlOg8w2ok_f1ON8iyMq0Bpdd9Xc5ygH_WpTAtZtOYpmQ_x3hbmSCRhxkgNBEkRiqwG0G5Ckf7P1ocgmwWhxk-ChWe9lmR_dqw7Zbs-Nlg6PgMuHflMUKS2fdyVbs5zRYQ5Zb0pgzZenPNr_Gzz1rQrBkJbJLV2BurmeEgkE2myuybk7cgdYnHwEEnqIcElMJr_vreLaiup7JfyeLJsfB6kT2ksthCadOHtFH0H64FHdtuK0kaIThErxjrdIaiWFc1DI3m-KIvd4VEmp5wFG_efgBjfH17dbS2YokVVl4A_mKnb-nRSmYUIF_RylzoIP2e-QUN5wpqYTaWXen2y6HQid8SVZFbbAYwME33ZtcLtgk5qtIbGYYO6QnzgQYD-YCQdrlp3HHKIQYVLTuZ5cFiEYZz_ZX7V-piF-_wraAF12ju2uPqd2OGSFE3BbrReO4Ewp-e8Pe47gIkBK0LKP2WaWjxG2Lr0OrbjQI4_U4NcsqN0A5E0VcIlAftPBGaR67PWGesEO7GvbVS7mSZtV3fxcfREF_ZE8RsB1ayjytdWWVyPfngFZEwnBf6XrjmIaq3Bk0Eev6wcsB3SRHIC7QaCNZxRWj7GsuKIWb0haQaWcubCGtq9KLkMiAusP-Dzb6Q__U1hOM2m4dEgY-VpdyVuo-bzELlfovfU8LUkQlOjNiWAGI-bfwMFtWq1KjtOvAvU-4sW42QP12746xl-kBkVwSuCp9Co-Yrgr0CpwLIJkRHE9oKVzD8EFNrE7f6C3FoopJil0GkFuMFYC4w3g1P4bfWOo5-xjdlBmvs5YPXxKsP2KaKiSQEf4fCFqpnzdcKT-AcoJV0gVSU5SGXhO9o5zMjnw1FrxA4ym1TwoN7IoYngmpSA7INXDDu7AAfoBjXzYcfy0oaXETQwj3iRH5veJZnY6NXTLHL6zUO1R7l-ybkNU-DyyTbscwifcr3ebhzFUXM22fCmmYElz_5a_rP9s9rgJKw4pLjJSwBQEwrGzrmRebBP3Kicp9qdnInr3XfKKK4OMwLQbf4Oj75UTPNg-SifuxIVmtwj6NHs8nXWpKYk6b-0RJxpPHO6xyLMFwoooJcZav-caSsmKEmqkJkTnCllS99hMfTgsxeitP3nqg8qH-XVmwgKzkT6Ussv7ixphuKTmVWgMucpkha_CvJ5RWwhxZpY5-DSwU8tOjXPB_ZXD_UuhL37dQEysfREBKgtzkEBYXprw9-iyIV1ykLaeW86TbmFNrS6HDDa64JfU0WTy_XQb_IBqpSPhdqiEfmcp7u4zCERVl8VBbSK79O1pTKS4BGA4Yyfu-GpmUKsCYH_RIBikBGqt-Z3XJDxwAZJzqJfGYfzG9D3RDejnc3K1aCmS6MlfNiD88atJYgQYIzvj6Omrkj4vAoYQGzw667r9o2i8rfLvF18TO0N8zeafbzHjcJcg9i1Kd0v2NYMt9WbyjFqHA4Ink5XXA1-BiGLRev4_gffvro1iwjsMkAYK30mQSp0w6gyyIpcGB81Wyd5hd65Ar-vsTz-8Uvds5LzwQNvM_ztfETAORPoHILeSyT3eGN5dyQbG1A2WfBhnYyM-24WOqFlq9_ETVwSg3MroVriJ-7KXnoctXM_bQwcvOa2iyeOXJlV3sZAB9vgv5XbO8d1XOJ3VUEhxitrOE5XYGARuBe0zFSF5ivp3Aj_bdejgu1bTEH-Bhtp6VX-yr8RJiyl9bIXXA7Y0UlluOqa7MW-OyWbNJ4VMkRHqTUFj_gW5OLtBOkbXQWPcgt0G9MqXgtbPf4xhsUtpOMlXkQCyn7gI2H87cFNZZbmmBuEN6gQoUVveowHXoE3OC-0Md1ULcd_43PKnEmqnEhFsHAkZ7KDqqpqEemrVEaEfEk5eE0AWwSa8EyaN1C9rCDhVhrUmTJmykTvCECwEeFKjilJu26eOrOyltZMI7QEc4R4UgR9dm-IZAtabmMMV5JEQ0CJSu8Y8gpzeRa9iLj_-HDFiA33hREy4Hwl3p4h6fQf5gLf-nPmVi8d_kOQed-TfIfOOLT5ki6dSHHPM9eGAzQ5nYVfpeHNQxhkhkzAYYNucqlCz3S2Wjl0RToyuJxsubmIw0SZ1Q5swgiz1s11uTw5MUC2PcTmAzzvFJkHgQbpvbE5q8jHWYKVqkvg=="
+    },
+    {
+     "id": "ws_0a00e9d0e040131e006ac5ed8ea0d087d2af7bb48839b4c818",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:patek.com 5196J Calatrava small seconds yellow gold",
+       "Patek Philippe Calatrava yellow gold small seconds baton markers white dial reference 5196J 3796J",
+       "Patek Philippe reference 5196J white dial yellow gold 37 mm small seconds",
+       "Patek Philippe Calatrava 5120J small seconds baton dial reference"
+      ],
+      "query": "site:patek.com 5196J Calatrava small seconds yellow gold",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.watch-wiki.net/doku.php?id=patek_philippe_calatrava_5196"
+       },
+       {
+        "type": "url",
+        "url": "https://grymrkt.co/watches/patek-philippe/calatrava/5196"
+       },
+       {
+        "type": "url",
+        "url": "https://watchcharts.com/watch_model/22600-patek-philippe-calatrava-5196-yellow-gold-5196j/overview"
+       },
+       {
+        "type": "url",
+        "url": "https://grailatlas.com/reference/r-patek-5196"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=ufW1wCh6GeM"
+       },
+       {
+        "type": "url",
+        "url": "https://www.analogshift.com/collections/patek-philippe-calatrava-watches/products/patek-philippe-calatrava-as11852"
+       },
+       {
+        "type": "url",
+        "url": "https://www.luxurybazaar.com/product/patek-philippe-watch-3796j-1/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.pacificbaywatch.com/products/patek-philippe-calatrava-5196j-pre-owned"
+       },
+       {
+        "type": "url",
+        "url": "https://wristcheck.com/us/buy/patek-philippe/calatrava-yellow-gold-white-dial-37mm-5196j-001"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/patekphilippe/ref-5196j001.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://everywatch.com/patek-philippe/calatrava/5196j/watch-30948903"
+       },
+       {
+        "type": "url",
+        "url": "https://hrockluxury.com/blogs/journal/patek-philippe-calatrava-5196-5227-deep-dive"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchprozine.com/digest/patek-philippe-calatrava-3796dj-5196j-guide/"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/ar/2006_PatekPhilippe_Ref_5119.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1uyhpa8/wts_patek_philippe_calatrava_ref_3796sj_with/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=fMxJVlvgOT4"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/ppmagazine/en/PP_Magazine_V4_N10_Calatrava.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://wannenesgroup.com/wp-content/uploads/cssas/catalogo_pdf/WANNENES_MO_527_08_07_24.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Patek_Philippe_Calatrava"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/others/Patek_Philippe_Museum_Catalog_Preview_Volume_II.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/15hjf0g"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1py30fm/wts_patek_5196j001_calatrava_37mm_silver_dial/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/16o4irr"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1nn58hk"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1w0wtjb/help_identify/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/19cukbv"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1r3wl3f/wts_patek_philippe_5196j_calatrava_yg_with/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1h4ltvp"
+       },
+       {
+        "type": "url",
+        "url": "https://www.monacolegendauctions.com/writable/media/auction/0014-0000/CAT_July2019_Full_MD.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1puus0m/wts_patek_philippe_calatrava_ref_5196j_18k_yellow/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.monacolegendauctions.com/writable/media/auction/0033-0000/catalogue_0033.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/PrideAndPinion/comments/wdl1pw"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/16sq6en"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Patek_Philippe"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Patek_Philippe"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Calatrava_%28orologio%29"
+       },
+       {
+        "type": "url",
+        "url": "https://fr.wikipedia.org/wiki/Patek_Philippe_Calatrava"
+       },
+       {
+        "type": "url",
+        "url": "https://es.wikipedia.org/wiki/Patek_Philippe_Calatrava"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0a00e9d0e040131e006ac5ed95034c87d29d61a0dfb1a8c7ac",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe2g3t814QJBKJHy9-7SS4iPECNSzh-jhgXpz1BGwhGO_8gMuLc61xRkZcZcvnpCqiLiePSBsL1cp8nsvZSszD63Uj4SB14Ufce9ipShq__Sv1hKqf0Z9crtGt2d2rmFNp7F9erciu9O3nkiIAPXAc3IhGLpqATxj9l7VE81k0CMJd2Ik0xap9WlSsCeeiHtQQb7dsGhwPMojIp3WwOYGV9kt7wmcsnh-mKUrqTa7XLqj61RikLAqhEwTRZaoBQCdiEywlmYPqD5tJYI7KqVxaBxB7tpLD21ahyYB041Deqa_QIfXaBmq6hEDmlPwFp1lAQ0J6D1GjJOfzFcM5bMBSv3pnlQJJwkYqcF_XFL9IRtBJDLuEGgEhWLu8L5Gq6w_11T-IyQ67W4Rs4kGSs72BQELflennMuJWz4zCrlekcVK9AOOxawptAP3lZ9jso-GkAHldVf3lA5_8W-a2n06eFVDfYMjlM_CP5exofVnZ2Xoc1sSFCzVLcdcxMi3JFkXusE3ep3gwR2iEKf_oASwteNw2RfcTaA4qR9pM0Qqyg9OjrkZfxGlinIJ4TrgfbuY1nqGW-GTgCtCuxqnHIxHI9tMYAUygtdB2K4Yn5RCYhfjlD3nD3jbWm7MqHuoiZUc56yhBFGLtD0Q3gR7L5jbQoWhzJmeQeQerMngfo4xTOXoE4ovQFVjwqNUPiTZL7XZdjxDgZrJA5JsaiTsAcR2WmdgU5UUbw4A1vtmKzJ41XbvLdN_YNHsMHrYyjhL7s-hBQt1t-RUwzG37zLkPlfnWVceqM8Qcjozim4LbOnqDdSSbYlPHFsPcmGKS-wwnsil68waoJzS7P2BGKIIPkE7w48Q6j8Lu4fBjQ26OnDG062nxXH_t7r4UdwL3EKUYlLqDUIcCWx4P0M13Zhalk0YhkV26T8fYNrqntwAUONzB6M4if6kvgPQBNuBpH7TI0f1PYAbbhePUyDzNlKxeLI4GkRkSDO7xSs79cGQYtEYykNWdCc0B3XJ1Lztbip-wtQUTR4to2BaoPR688ChihdqlQUIQbwZY8AZ0KbfmOC1xtFpwdGl-Vu7LBHUpXRkUC8E9sIsW6T7iehILuWwPk6CDxogd3OacNB5OQjsW_Pl1fxnEgYcCwnIv_Qx9wLuDtKxlcd1_CYycIPWGc8RRWK_49aTxMQlwicQUi1uV7rlzSRhth2ReuX6XyZU1_KilSfAahHBIHn1DbFwlNTJXaZkNWSaRhqRhAz02bXTRpFw47kEjIHimf36ikqQeQrLZD5DaEqAk17QyoWTHCn4b-N0S66JAa1k9pdu_UWj_L8rKbufjYbNuwcHH7Zk_a2Kj5M3nqbB0Xus9okc_OMxPYluyyHpXVTsfYkuIrpG-m1FJpH8bDXtS2O298US_bNx4l9IePMkxfdSeaTcL17VV-koBBAZVtZxY194gWafb7IeF9ZLR7Z4mcSWY0h3d_y_l8pTt3IK_S-x2MVVInYftD5c04fVFy1R8ELskRnA9eeAMNeD_mduF2epPHr2Te2W7pQZ7bBJAMnNrpVUhWE-_5N4T9COGpLyGxwyf0j2-XwmZieQ4OYF22hnL8yxqZv5p57aMHkzTD22UCpUcfOfHPzWuEwp-ZY3KYEZbmj0uun1Qjhn2ynX7JOCF8B3n3y6XP9UA663vMKoM4waLRPQjmHbgQesrSlAK2QTE_PyAr2alrtJ6EvHtq5KvvPnxGHvOxgDyDVoa-KIbVba1Xq444DNSF_tJ5Ba9HG0cB0pyS4OIbe3-m89pFN9n8U9-8Tx38YQBR64FbiAKfexiEUZZcR7NtcxvFJB6uobH7mOE5mrSbXOE5ArveUXGoZDJV6PCYFysgP51wHxVZ7m8s5FX2beUvCp6_eFgSAikLXir5F8LqvlmFwyQaPUqsE4YmXiV1aYuUJqVwWoWFTbWjzfSqhhzDamrjfSS4UYFynCd1LnzV_xcOB7TDp-vGFUHnYW2ttzi7OgI1GAHDtDTq4yyIIOR0v4IHewNFIQT7eBJuzDhOPmUo="
+    },
+    {
+     "id": "ws_0a00e9d0e040131e006ac5ed95facc87d2820b3895c690362a",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:patek.com/en/collection/calatrava/5196J-001",
+       "site:patek.com \"5196J-001\"",
+       "Patek Philippe 5196J reference 5196J-001 official format 5196J",
+       "Patek Philippe 5196G 5196R reference dial white 5196P"
+      ],
+      "query": "site:patek.com/en/collection/calatrava/5196J-001",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/collection/calatrava?backparam=84&redirect=%2Fen%2Fcollection%2Fcalatrava%2F5196P-001"
+       },
+       {
+        "type": "url",
+        "url": "https://grailatlas.com/reference/r-patek-5196"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/collection"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/manufacture/quality-and-fine-workmanship/the-finest-timepieces-in-the-world"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/collection/rare-handcrafts/5177j-001"
+       },
+       {
+        "type": "url",
+        "url": "https://watchledger.net/brand/patek-philippe/series/calatrava/5196G-001"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/collection/watch-finder?collectionType=current&noveltyType=limited_edition"
+       },
+       {
+        "type": "url",
+        "url": "https://grymrkt.co/watches/patek-philippe/calatrava/5196"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/ppmagazine/en/PP_Magazine_V4_N10_Calatrava.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.thehourglass.co.jp/en-MY/story/patek-philippe-calatrava"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/collection/new-models"
+       },
+       {
+        "type": "url",
+        "url": "https://www.ecijewelers.com/blogs/recent-posts/patek-philippe-5196"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchguys.com/pages/patek-philippe-calatrava-guide"
+       },
+       {
+        "type": "url",
+        "url": "https://www.therealreal.com/products/92222876/appraisal_report"
+       },
+       {
+        "type": "url",
+        "url": "https://bruun-rasmussen.dk/doc/dam/catalogues/919/919_060324_kl19.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=fMxJVlvgOT4"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=ufW1wCh6GeM"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/ppmagazine/en/PP_Magazine_V3_N9_5227_Inspiration.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://electronicsandbooks.com/edt/manual/Art/Auction/Christies/2016/20161206%20NYR12161%20Important%20Watches%20c20161109%20%5B332%5D.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/ppmagazine/en/PP_Magazine_V3_N8_Pure_Simple_Ref_5123.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1v5f4y0/5196_as_a_daily/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1kjociq"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/13e9qhc"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1t2yhj6/4th_and_final_patek_i_keep_coming_back_to_the/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1me2uvd"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/1omk8nu/showdown_patek_5196r_vs_breguet_5177br/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1tu9baj/help_me_choose_my_first_patek/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1py30fm/wts_patek_5196j001_calatrava_37mm_silver_dial/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1septxk/help_wedding_watch_calatrava_faceoff/"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Patek_Philippe_Calatrava"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1rmor3e/calatrava_5196p/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1sl7p3x/5396g_dial/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1madqci"
+       },
+       {
+        "type": "url",
+        "url": "https://es.wikipedia.org/wiki/Patek_Philippe_Calatrava"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Patek_Philippe"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0a00e9d0e040131e006ac5ed9cd61c87d298c6d274a5d554bb",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe2gHi4H_NUjQhjBb-SNhKcVwG1umd2EzNdIqRxIvo1H4GxR1wQSFXNB-_RZfYHX486S_AfR1yxB-UgIDKEPQ8VZEfNaLCiUr2G46ZBsUqoH0X1CDZzS4cXHL1uHcamwhj5vaHUPQj9pmvxhRuYdVoUY6JEi-KUbVA_Y-N1JfxbUIo5nhmAjNESAoSCKP_khriBpaAE_kk049pIqfquEsXoZDUTHCa0S1mGG-MRNsBbndt6ugxPlT0rgWxA7syOQ_8DMbMVyaVo34n590eo77LhP3zLvDHAZWYmG2I1kaSzoPcVJ5L9Zzvoc7FmasvRwmRiVRIe1XUi6u9FHhLlhijdejkEgPmSJ2Qt2RsjjOMco5_I4esz3jV9ZluNz7PTfN-ZIpE8iSVbmpPubOxEZvcPtTzeP3TrUUx0Nd9HlHj5DJQn2vH-CC7KjBM9XSdJnbm6pqZz1ofREmVQRPJzEPCcdWTsp5dtZ25CLC-ZurVe_Lu1tqibk88vD5XYr1DD6P05Ka5wEbkZmwOEstxtiaRKhdw1AfkYzDu61d87xmm7yGip92BlhCdq8Io-DWt1ZVl4rpBsFfhEMn-WTGv4rfS0S74x6acuqGcHM9RNYlfnH3k6YFRpZYNARBSI2NSrlvY_rDXEXnwyL3M_sK2UJwCEpCeA486kifaAj3EsoFdGX2RZaLx8lwwij0sgjhZ1oWLoETmoBG9HyE4vqvEwbqyBgRCgtSdw8kWlM3j5QC1QJ6j5ZgWXDcUxSHIYHmc5FqPCI1Z5EEpYvKRAS2-l363bVn_nfiezMAlclcC8MZ-emdQEa3EV7o-C0LcxB3p2NQfDcmhQRDAo9lRVI_fluT0BEEZvig4m0kxMa421TKL23ZMbkdmvjBdFriHndsCzFR582MOuNT1m4t8wZv0iWO0WQGYM8CSlIyIxWvrHWTMQ3jYkUkAu4Qimv1JV_Wn8OrMy72KQcz5sCpqBdJe4-TAQSx_n2VYADUGoGMgAT1UzkO4QpTqXuRt-BeFDZ4tB3To_tGUkMMBPuLBg7yfzYLtWQ-YwLhDoyrPUDGq6Cu8EUnL7gkp36y0QU6bJGRa4cu6aASpAZ6r6Hp2O2aVyMIk2_35HyhThbi6B_9F4SfUk1s3WK_5PSHcVuCeYaJGtYkQHbGcYe9WLwTjY6KW2xkbp86PT7gs0rEHbAS3TZiRkYr-fFyW5AdqG4Sy_9o5o-UOGTHOMiyzhtWtMowAc0bgv4U6yj0xi7w6KouRVMCxSvQ7FQT2oUz0LYERnluc5PTTMxE-K40JmQjvfH_kx0NR89pFx0X1_1NH0wPKnP--HOLwu4zmAHFWLtODUpFf0M-PT8_SJyn3ZFnmOnCdnfK3kkdJy_JG36sdS18OwpQXIDRBz1W1JryQJPNiAUacUNsZQjTFDTNMkKKqSZZszyxi0bz7toLPcREAVWcqG5rPs7P2UJAfrZfdjgKtOxhiaBWu9EZbcvFoWZFdWsyvZkQ5Fj-d1FjY3vUYBmPaGSqOVmYoIASTQlZ6YZW3LDNSHqLHEDC4chj0Fb2rSLsuqV2YI0wYLugNEW-2rzOom17CC8bPvAt9bXVmnOfxplSzrBCMqyxcpH6gqyNHoTi0pbeq0x2vP1foF6vfoH5XZDorEvh7xPijVg2yEbVApGC4WlDlKJmLo5qVjsob2A0dWIyXO7OrV-46fOHoXoi5X5ofrntC_-qncMhdk7uK534G4WZcA02d-OIHOJZDBHJlaa7HOAbVzOaut6uwA3dLE4Cu5nSm5Pb1bjBYDFH5EKkus2nEJEczd7u3kiGIP3z6VNml3Zt9cBdyG4E7B8NWleXOsdeGF_yltEA0NBsrticywVsoNGwJ3zFmGdQ90HVMUinimFOiQkJek6PGIbYS3D4bpPWbdyjJJlCtnESzMW7uU0VSDq3CSXckz6XogmMonkBOYqUg41HKR4L1zbn7GeWLqpf1rar6zLIdoWwzaqT-ysoO423xFHx43SHLhlFoEE9TcxZlmy15dYyCdTcSI1U9ou46_viIooOkmAw5KMkWFpcfTAXX-c63f_jfK2YVKPgTXXKCuEGwQqtK-8jo1YgVUbSuNVsR660KsfYvKmwcxh7KOFbK53-iEPOXkrDqNLgGRSe_D8Uk9K5M3uUpBHlFi-ZaxV7foBaLtI67wQHWJ_MKx_41iV5QmM0Q_0Z330YcJ78FlZkPf0Mq0go7XfzLP_-y6GazPO7N2C2VKawSC7rwYg6Ytw8OsUK2-YLccvRmUPDtPqk3TK-d7HA0KYB2tKeU59iD2liRjkJj_uiGHRKrhke1tPOLWbAA7ddZ2gMT0krDBsyEzeQQDn5QNXOdsBZqsfd9o29MP43Gm9JV-BwW-14pGED-ij4J3ZcffYy3s34bx1ommxurNzcLrUSjBhqtX2sXll_JGU7fZpf4gauuZgUVOcC9XPEYLtfaUcLs9B4S94KhfbVoqFVftCfmTv5YcufsA_1Fl7tcZjUZ6WxCaC4vLja8b7MUM1gP5M233-SdYcRW1C4A87YoTy1vZ-xCBNuShfzFSFqH-17mHOgzTjdUjMkAnyKgzq64lnY9zMw5rtvBxxWO6SFmmy2mzmZcqz5I6R19JJaq7DL9hFUUiEw1SjS9YQumxsZUzW0C_dZbJdBfi6ZAzikjTnObqQcafGmJ6MJcjBRhsIGZCQClGrRoKJJnQhceHrYnDmQqODGl1OR6mxMF9FLvHJVBzyenv7P_zTRdTmcs9W0uZd-2J8U4raQPMNiaW-RtnGh2GulAf36eeTB_hsoZtamSUkkVXLVQX8DPH4fSCheqdmwxA4-W6oXdgB6Bb-FuNMQpT4To6fuWMYT8lpPEAo0cfoqrGOG70Ut0ry2ixw08-mkk4U-F6gBG5okjLnr3Lo-m0Gv8QqfdTTps0yuT8RexG1bCIBqBFN3SgRg7RS8GJ0UquMDaMQRl_bxK56qY4QIB9C9zHm9-0avgOaJSMGu8YqJgLVNbH4KOXbPXPoNvlwlKDE8Aq02wXQgYdMH8lgPL2QbQw_k79aI-fF-FZQYYk0sMGGowo8NefkicIBLbcwtCR6o3JCmAekRm5odJKIVu41DgGS9a6rINIPq5KAPCbc12Io41IYo_mU3mFzoyzh-K3cuvLiiqYQtxwudngQVPDKueDFDyhk4xxxHJ_ypevKVVsOfuAxP5bJx1uWyXRtrqBBwvDn4JFYCGGxh8rRHT-A9Q2lDLxIT494J-dUA7eisb_2V0a9XRrlGyJO-rd235iN69-Rn98tt7JHdJpjS-8XWlxmQ4wfZPTSPvmJ6vTqa8fZBTNccsidEU-k1WwTeWGDrdjOHDerPNiTPsjSaeTrFJZWnMgCjSwgYa6l3J31exoYsKVqxARbA-3XnvlWQ3znyNHo0JkTNn8aI8w7PGM43KLYU8LxKeHMbjN-I4xfbHvtcFG2RMP1uWVbo6fHbg1Kobd3IZm_rNCA78Z1KGekEYqJf6DNorP_SlPupmTGfKf0JRYeGWZnZ7g2y9abEdt_NGR8KrKiIgClDRHCvuHZFvTequl8sOTipZfB2w675ItQHs1wdC2kUCU0PJk4yvnjyaxjajl3MCpNu9lxkdQykmJPei6JNT4nnsdcwGXskTVPPPKa93DE__n7TtBMqQf9k4WW5lMHPFAkw06yaX_OblL7DuN0dTcwrcTIGChCSosAQb0P9PysowtH0tBpc0UDC0M-yR-dzjHg4GmmFYzzD_b_VFWx8JOEDKORIyv5iWVD-jW7xqIdJX7C4DQTMFk_xby9go0Xpm24DW9lUQuc9M3apqN3ih48UQpzMY4HJvswUj0g32mBeDvmnZ3iPrbebcMD68-8kJfdJD5mJP9s5sNvZEXalqFJUDnGoVYD4lBoXuKZQ5yJBWawfnNfF7kwgTYO8iwCAF3o2HUfS_ZCrVxuktx8rlGmrrD5arRqwstW1tFzdvxxa7d40nreOnZmduvUOxet38uC0uJGAYtIG2YcHb96TkUOXi700dUxK0aRIfLP6sKBTpMX8PAV1WGL"
+    },
+    {
+     "id": "msg_0a00e9d0e040131e006ac5ed9f7eac87d2a05a2e36c536ab6f",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Patek Philippe\",\"model_line\":\"Calatrava 5196\",\"dial_color\":\"white\",\"case_material\":\"yellow-gold\",\"bracelet_material\":\"leather\",\"bezel\":\"smooth polished yellow-gold bezel\",\"case_size_mm\":37,\"complications\":[\"small-seconds\"],\"movement\":\"manual\",\"printed_reference\":\"\",\"references\":[\"5196J-001\",\"5196G-001\",\"3796J\"],\"confidence\":0.93}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791356320.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 23639,
+    "input_tokens_details": {
+     "cache_write_tokens": 1843,
+     "cached_tokens": 4723
+    },
+    "output_tokens": 1143,
+    "output_tokens_details": {
+     "reasoning_tokens": 1040
+    },
+    "total_tokens": 24782
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 2
+    }
+   }
+  },
+  "search_requests": 2,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

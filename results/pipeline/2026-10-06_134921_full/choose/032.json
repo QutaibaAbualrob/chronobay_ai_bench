@@ -1,0 +1,38 @@
+{
+ "row_id": 32,
+ "candidates": [
+  "15202ST.OO.1240ST.01",
+  "16202ST.OO.1240ST.01",
+  "15202ST.OO.0944ST.01",
+  "16204XT.OO.1240XT.01",
+  "26670ST.OO.1240ST.02",
+  "15202ST.OO.0944ST.03",
+  "15202ST.OO.0944ST.02",
+  "15202BC.OO.1240BC.01",
+  "26545XT.OO.1240XT.01",
+  "15202IP.OO.1240IP.01",
+  "15202OR.OO.0944OR.01",
+  "15202OR.ZZ.1241OR.01"
+ ],
+ "result": {
+  "parsed": {
+   "reason": "The photo shows a 39mm Royal Oak Extra-Thin with a blue Grande Tapisserie dial, date window at 3, and a satin-finished case and bracelet that looks steel-grey; the 16202ST (blue dial, 'Jumbo' 50th-anniversary model with date) fits best, while 15202ST variants have no date and the blue 15202ST.OO.1240ST.01 has no date window either.",
+   "ranking": [
+    2,
+    1,
+    4
+   ],
+   "clear_leader": true,
+   "none_fit": false
+  },
+  "raw_text": "{\"reason\":\"The photo shows a 39mm Royal Oak Extra-Thin with a blue Grande Tapisserie dial, date window at 3, and a satin-finished case and bracelet that looks steel-grey; the 16202ST (blue dial, 'Jumbo' 50th-anniversary model with date) fits best, while 15202ST variants have no date and the blue 15202ST.OO.1240ST.01 has no date window either.\",\"ranking\":[2,1,4],\"clear_leader\":true,\"none_fit\":false}",
+  "input_tokens": 3134,
+  "output_tokens": 178,
+  "cost_usd": 0.008048,
+  "elapsed_s": 3.997,
+  "started_at": "2026-10-06T13:52:44.444929+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

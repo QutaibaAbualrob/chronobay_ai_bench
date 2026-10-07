@@ -1,0 +1,33 @@
+{
+ "row_id": 6,
+ "image_file": "006_rolex_explorer-36.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_line": "Explorer 36",
+   "dial_color": "black",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "smooth polished steel",
+   "case_size_mm": 36.0,
+   "complications": [],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "124270",
+    "114270",
+    "214270"
+   ],
+   "confidence": 0.6
+  },
+  "raw_text": "{\"brand\":\"Rolex\",\"model_line\":\"Explorer 36\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"smooth polished steel\",\"case_size_mm\":36,\"complications\":[],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"124270\",\"114270\",\"214270\"],\"confidence\":0.6}",
+  "input_tokens": 3458,
+  "output_tokens": 122,
+  "cost_usd": 0.008136,
+  "elapsed_s": 2.378,
+  "started_at": "2026-10-06T13:49:29.868547+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

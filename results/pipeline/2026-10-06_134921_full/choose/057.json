@@ -1,0 +1,41 @@
+{
+ "row_id": 57,
+ "candidates": [
+  "A17326211B1P1",
+  "A17326211B1P2",
+  "A17326241B1P1",
+  "A17326361L1P2",
+  "A17329371L1P1",
+  "A17326211C1P4",
+  "A17329171C1P1",
+  "A173263A1G1P1",
+  "A32310171C1P1",
+  "R323101A1B1P1",
+  "A17326211G1P1",
+  "A17314101C1X1",
+  "A17326211B1A1",
+  "A17329161C1P1",
+  "A17329171C1A1"
+ ],
+ "result": {
+  "parsed": {
+   "reason": "The photo shows a Navitimer Automatic 41 with a black dial, steel case, rose-gold-tone hour markers and hands, and a black alligator strap with white stitching; candidates 1 and 2 (A17326211B1P1/P2) both match that dial and strap, but the photo cannot separate the two strap/pin buckle variants.",
+   "ranking": [
+    1,
+    2,
+    3
+   ],
+   "clear_leader": false,
+   "none_fit": false
+  },
+  "raw_text": "{\"reason\":\"The photo shows a Navitimer Automatic 41 with a black dial, steel case, rose-gold-tone hour markers and hands, and a black alligator strap with white stitching; candidates 1 and 2 (A17326211B1P1/P2) both match that dial and strap, but the photo cannot separate the two strap/pin buckle variants.\",\"ranking\":[1,2,3],\"clear_leader\":false,\"none_fit\":false}",
+  "input_tokens": 5663,
+  "output_tokens": 148,
+  "cost_usd": 0.012806,
+  "elapsed_s": 3.288,
+  "started_at": "2026-10-06T13:53:04.219163+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

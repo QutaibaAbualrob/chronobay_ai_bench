@@ -1,0 +1,40 @@
+{
+ "row_id": 11,
+ "candidates": [
+  "310.30.42.50.01.001",
+  "310.30.42.50.01.002",
+  "310.30.42.50.01.004",
+  "310.30.42.50.01.003",
+  "311.30.42.30.01.006",
+  "310.60.42.50.10.002",
+  "311.30.42.30.01.005",
+  "310.30.42.50.04.001",
+  "310.32.42.50.01.001",
+  "310.20.42.50.99.001",
+  "311.33.42.30.01.001",
+  "310.60.42.50.01.001",
+  "310.60.42.50.02.001",
+  "310.63.42.50.02.001"
+ ],
+ "result": {
+  "parsed": {
+   "reason": "The watch is a steel Speedmaster with a black dial, black bezel and five-link steel bracelet, with sapphire-style sub-dials and the 3861 layout. References 310.30.42.50.01.001 (hesalite), .002 (sapphire) and .003 look near-identical in this photo, and the crystal type can't be told apart from the image alone.",
+   "ranking": [
+    2,
+    1,
+    3
+   ],
+   "clear_leader": false,
+   "none_fit": false
+  },
+  "raw_text": "{\"reason\":\"The watch is a steel Speedmaster with a black dial, black bezel and five-link steel bracelet, with sapphire-style sub-dials and the 3861 layout. References 310.30.42.50.01.001 (hesalite), .002 (sapphire) and .003 look near-identical in this photo, and the crystal type can't be told apart from the image alone.\",\"ranking\":[2,1,3],\"clear_leader\":false,\"none_fit\":false}",
+  "input_tokens": 6618,
+  "output_tokens": 152,
+  "cost_usd": 0.014756,
+  "elapsed_s": 3.321,
+  "started_at": "2026-10-06T13:52:28.346249+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

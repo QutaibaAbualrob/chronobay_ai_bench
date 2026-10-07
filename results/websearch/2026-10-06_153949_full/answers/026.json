@@ -1,0 +1,625 @@
+{
+ "row_id": 26,
+ "image_file": "026_patek_world-time.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_line": "World Time 38.5 mm",
+   "dial_color": "grey",
+   "case_material": "white-gold",
+   "bracelet_material": "leather",
+   "bezel": "Smooth polished white-gold bezel",
+   "case_size_mm": 38.5,
+   "complications": [
+    "world-time"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "5230G-001",
+    "5230R-001",
+    "5130G-001"
+   ],
+   "confidence": 0.94
+  },
+  "raw_text": "{\"brand\":\"Patek Philippe\",\"model_line\":\"World Time 38.5 mm\",\"dial_color\":\"grey\",\"case_material\":\"white-gold\",\"bracelet_material\":\"leather\",\"bezel\":\"Smooth polished white-gold bezel\",\"case_size_mm\":38.5,\"complications\":[\"world-time\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"5230G-001\",\"5230R-001\",\"5130G-001\"],\"confidence\":0.94}",
+  "input_tokens": 23000,
+  "output_tokens": 825,
+  "cached_input_tokens": 4723,
+  "reasoning_tokens": 718,
+  "token_cost_usd": 0.0022874300000000005,
+  "searches": 2,
+  "page_opens": 0,
+  "tool_calls": 2,
+  "queries": [
+   "site:patek.com 5230G World Time grey dial reference",
+   "Patek Philippe 5230G-001 grey dial black alligator strap 38.5",
+   "Patek Philippe World Time white gold grey dial city ring reference WatchBase",
+   "Patek Philippe 5130G-001 official reference world time 39.5 mm",
+   "Patek Philippe 5230R-001 reference world time official",
+   "site:patek.com \"5230G-001\""
+  ],
+  "source_domains": [
+   "patek.com",
+   "watchsafe.io",
+   "static.patek.com",
+   "en.worldtempus.com",
+   "sothebys.com",
+   "masterhorologer.com",
+   "watch.bijoupiko.com",
+   "watchguys.com",
+   "timeandwatches.com",
+   "hourstriker.com",
+   "watchcharts.com",
+   "christies.com.cn",
+   "electronicsandbooks.com",
+   "reddit.com",
+   "en.wikipedia.org",
+   "es.wikipedia.org",
+   "fr.wikipedia.org",
+   "zh.wikipedia.org",
+   "wallpaper.com",
+   "phillips.com",
+   "dist.phillips.com",
+   "spacecitytimepiece.com",
+   "christies.com",
+   "chrono24.com",
+   "watchtime.com",
+   "watchclub.com",
+   "youtube.com"
+  ],
+  "elapsed_s": 17.712,
+  "started_at": "2026-10-06T15:45:11.366936+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_02547f9855c47027006ac51788035c87d2a4ee7c8a83f0e8c0",
+   "access_programs": null,
+   "created_at": 1791301512.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_02547f9855c47027006ac51789418887d2b55bef66f4a1bf16",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxReZ8rENr9dsez_LG44CeIGkhxRwVzGhy2ISW0048sn4sSuqviOqWc7-uKZASimbvqzLiXfUNz-8TZjhWJJSGHR_j6ukRUhYFpH8nabPVY5HoUGYYe_VpMI-f-wQSIg5YnGaUU3KhZ5rmxpAlKLUHZzX3uvtvkrI1KrNHp8S7Rcn40kEcuipvYEnNwhHMjqVyP9M9-Sxdlcj94oPN4HoY51FJ5nN3E2G97uqpwzJlHvpze7W1lsSSvJ2ElD-VNIsXjz2AU43dioq6ZBedGj67Bm6uKthq5k79qMTlKmEFJqyvgq9rXysjbr-RpgWhdAocVLfrRlQsFMa2z1HWVP7WK7kFYfnrwhidYFvVVrvR1jvQdufx_Bb3YMIC0Xa65eSWA4c_42-GzEFyV2TMGCRjLERXEeFRX00qO4bgBtWR_4bAS9e9RCxYhGoBeFpnrBePyktilPdpcmjC7yxku_E8doYmh5bCQBOLyoZ7eyDy6C13FzMhP4U4IvpriEbyqv9fZZ9pH4O3gJQYFSFzyGxgbD8QbkrAeZ4eMsknRPWNbWqnOVbZaoFCsi902gL9gykUXp0_Cfq1sUCbKfEv2H7TOvLX3lNvRU8jBI3_e9DefaAQ8M_89NbmLoLEGPKg6K_ZuvQaDgTmlczPQGKnjOUQnS_v323YqtzVkYXliOAbHIz37CN5Vra4qY7_J8MqJ7pjUZA7hvEnP5XAfB4n5OyCiLS1G60zwNXSD0LWOLWgu4j33Ajl0RM9AafQhvpn1kj68GNrmtPzlCBqj-3WeGlCZsLaVBQyRx7xKcsqYYZsccFjLRiByamRwsMYYwvXfYiJVpFNEXPRpYfMlke4Rv7rfaC3V9s100J4y0PrXESAlVqiw9Vw9rRmFY8lz_sbW5XLMvFsiQC_090XpuRYIxU2yIi1nzdcDArSGXzILmElrhF68MUEJzOOEgrY7HXuvlGZmVawtCJ9qfr89ejXR1KvzQ_4C8Uhdum8oV1OVlruWlbaFKmevH61PqmiI-DEZfdDqp9VPGSwIhZ4kuEhiRA7cpgqnpiddzt_2IQAUfUdOc0nPV7zoj_Ol3ggLxvQz5i5NdUhcibLuN-OrAWiOkewTU7QAgUSmhjdkuJoX-aQPVmrfzHB2BQTjwakCOm3AgQLINK-MOupmiMHHDvBa_cdNQtjWP51qtUuMJ-JQqg01eX8qDaFQFOOB3nu6GsxIQDKe8ycQXRly3JfmDD4ZaZ7OAHuhbo_VUy8wIBIE7_0RQ2XH88w9KvNlcxhLZFkU3S2SmFCiHmEV4OUBfQCk6QQeGZ5MGAEibyTf_W7oiHq8eAJ34mOUI7Joh3Q7xEbzZLTBl3y9AMiNXria4amPAdwA8GmHYaUzE1LN2IcxGB6WvClWECu0CXIJBmdW14h3RapiZLnil3tsC3M6pN_uUGr-whIFESfuhq599d7UUDD5yIEhf6Ijv0HInhXrEoV8VOYYfDeVM1JSDPtOqarfnFuzIyXC5mzz8uPsyA27t988gku4TwOkcyb0aebd_BBHx5g1EmwdW-U5lDmLJDnW-6faVKvaJGV1_eqnYedtLTMKr8iPxzfzuwwp5cuykt5qAnMvmkVzyFZ1_-KCWnjSvlmngzkU2qr2RzPYaixDa23VLpcFSnT8_XG1leFCAS-ZYmIKtVy3HoYlLZ5SvOz-3vSB0Q-c7-P_iBbfmeFDzYVybP9eF7Ckrr5YBXDe9w8B1MyqI5"
+    },
+    {
+     "id": "ws_02547f9855c47027006ac5178a830087d2b7b8412e1b34b809",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:patek.com 5230G World Time grey dial reference",
+       "Patek Philippe 5230G-001 grey dial black alligator strap 38.5",
+       "Patek Philippe World Time white gold grey dial city ring reference WatchBase"
+      ],
+      "query": "site:patek.com 5230G World Time grey dial reference",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/collection/complications/5330g-001"
+       },
+       {
+        "type": "url",
+        "url": "https://watchsafe.io/watches/patek-philippe/complications/5110"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/en/2016_PatekPhilippe_World_Time_Ref_5230.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://en.worldtempus.com/article/patek-philippe-reference-5230-world-time-24988.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.sothebys.com/en/buy/auction/2023/fine-watches-7/reference-5110g-001-a-white-gold-world-time?locale=en"
+       },
+       {
+        "type": "url",
+        "url": "https://masterhorologer.com/2016/03/26/patek-philippe-world-time-watch-ref-5230-white-or-rose-gold-watch-caliber-240hu-self-winding-mechanical-movement-24-time-zones-day-night-indication/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/collection/grand-complications/5520rg-001"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/ppmagazine/ar/PP_Magazine_V4_N4_PP_in_US_NY.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://watch.bijoupiko.com/collection/complications/5230g-001/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchguys.com/pages/patek-philippe-world-time-7129j-001-review"
+       },
+       {
+        "type": "url",
+        "url": "https://www.timeandwatches.com/2016/03/patek-philippe-world-time-chronograph.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hourstriker.com/database/patek-philippe/world-time"
+       },
+       {
+        "type": "url",
+        "url": "https://watchcharts.com/watch_model/22661-patek-philippe-world-time-5230-5230g/overview"
+       },
+       {
+        "type": "url",
+        "url": "https://www.christies.com.cn/en/lot/lot-6567912"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/ar/2006_PatekPhilippe_Ref_5130.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/ru/2016_PatekPhilippe_World_Time_Ref_5230.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://electronicsandbooks.com/edt/manual/Art/Auction/Christies/2016/20161206%20NYR12161%20Important%20Watches%20c20161109%20%5B332%5D.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vz1kxj/wts_patek_philippe_world_time_date_complications/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/f3ihyl"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Patek_Philippe"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/1sntv32/daily_news_the_watches_and_wonders_reporting/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wu4t8d/wts_patek_philippe_world_time_175th_anniversary/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1uzt1jo/wts_patek_philippe_annual_calendar_complications/"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/List_of_most_expensive_watches_sold_at_auction"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Antiquorum"
+       },
+       {
+        "type": "url",
+        "url": "https://es.wikipedia.org/wiki/Patek_Philippe_%26_Co."
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/WatchExchangeBST/comments/1vm8vqk/wtsusa_p1_patek_5890_rose_gold_vsf_41mm_sub_one/"
+       },
+       {
+        "type": "url",
+        "url": "https://fr.wikipedia.org/wiki/Patek_Philippe_Calibre_89"
+       },
+       {
+        "type": "url",
+        "url": "https://zh.wikipedia.org/wiki/%E7%99%BE%E8%BE%BE%E7%BF%A1%E4%B8%BD"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/opiqs7"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1wdtqk8/5230g011_bogota/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/BSTRepWatch/comments/1vm8mmt/wtsusa_p1_rose_gold_patek_5890_chrono_awf_ap/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1rjq3u2/wts_patek_philippe_annual_calendar_complications/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1s7h6af/my_first_patek/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wallpaper.com/watches-jewellery/watches-and-wonders-2026-patek-philippe-new-releases"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1l0kbhp"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_02547f9855c47027006ac517905d2487d2ae84373fe2d89f02",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxReZ1B_s5wLyySnRpXaV5yDiDfde9wyNyjSwBUhimTxN030UAjYMZ_XZyKD60St40qZaYY9MIVwt6Mcy4f50YqYEqmeMUph84c4RrtBvFMJu0xd7TbIPP3Y96ajo3MzapzrqCmd5PyFMcTSzhGKnWJrLXQ_iuFrVOTjqOoTiYjI1Swm_hGEYJIAprLb9kuwvwKkpVRRlfTEooxxXxQ836sT9JlDSdgaqoGa0n8Q1MxR2aWMDfe5K_lMpya58NUSCvnpehh8L3HPMP0hESjffoKHb2ucnfjNTSOAExnn1vwM_2DxnOyBCQV8qkEXLZ_0b_BhDqlkeIjb49slCliq9XVwD0E9MT5ypony3gqhTTOhVC3vWYi6Hd5I3yLsU2zP-cXPxLEjM4Mj0-UcSsxP7-OKrF7eN2jPl9kIXJwvYtGa1jLt_zOnae9-dm1d2EPGbsKDxJ9DfNor-_W5_3Z2rs6H4pzaCg6cRN2eBzuGPqxVH_rTBV4O9L-ALbTpGtRz1X4qIxMnGg-nzS7yiw-UplEH7AaIEphzxQ7hrbB0g7Si50jcA5UW3C8gn0OolfXf_Dj5vyB5dGGhdH0SEOUG2lwWfFuURKOMFU-W-DE-yoKML_JqPKPqVeZyOJi72JrLqJ_DZsRaUDkD1DI9nztY8mjGn4VHvOYJ7C41Ou-wvluJ9jTO5_Khj6AlV-h5jMiq1Ygf-ir55d6vfZLdF4lRVM7f10rD2nVwAAycTNHFOaJhoHRScOLtvyErYfL6FYLnQHSGN1PIoYvwW8HaxW0tjuPcof86B1q-gsKpF8konGyzF0VqVQglGXebZl7SOcKoxyPwg3c_9wvzDB-Q2jrbkXb2lJoDZHPs4DbN9oaEtcMG48vzoX3FO2joScYdqbGfAZfzf8oNWnbgAVNKvWDhCnUoryoMSL_7XSnp7G0MwxGTA2HQl5pnp4ZCo0w1HTjIWjCDV2ZJdq-3zFj9Mywgm3L9I3x6AWtAJACB5yWdwDNwubD-BUHkCQJQaBLtpSck31rg20Pr_1PpqgFcniHGgerXoWkz-UqDAXdPMaajdncPwQxemu6m2QJNKy5Zr1TkEkPf2j3DQRjCabcT4ua0fvMp5rDjOLe7kP8WZ4IEg1kW-IeU_1ffgm42_Wc9FvRDHGPODGI6fp36KIP4jKb7OorwNbYRzXSgVqeW5Dbp_NniWsPfz0ICfmilp7_C9ftW0XvkzlkAiSMg6LsKoe3ecuoJFTHXfooZJSca7zeQpwItZRdjaMYA6mmFQzqmT00Wfwzvc0DN9-zDjI4LXZBBTEOkIcaTMAFiQW-gTUL9SpPyzxHVgcxJJRWRyWF25G6K5eHxzss_P-ltbMS4Tcs6gDtDx08eXdeV0QU-o-dLg1kfCoPEHhZywx0_YgjgcT9OiynsFhbDjSVmLWxbOp9K4AtNPyZOFxC4L62v4kd8cMRD-xYVxNHx0YrJ4gKnGpgQIEfpOKW5xwk7cKYkMAGtghBeOH7hsvmhVintAtvzxIIDpMHlnjH0uFUyAHT9McMdIR_oBlSLRC6DMNCG8mWWqPrfOVGbjMlJSFV6fPrG9HrleVadlP_aGsD9ro6JQk1WoEj3hKivD9ornN5AKfvzGSvumL-4GDITqrekwMVIP2UIcp1OPKBboCHQHYp1zIcOBn0mRhMH25v0lU5vDNB2CeZig3ZtrajLzY9rjipIR5SWoq0a7QgPMNPggZGWkgDbr_oVXBJFcyWsogSvgLA31WaH3Qiy1tKIEqJ8v-KRCQQB9LYwZQgFHYIWV8NaHlIT4Jy6jyrhmpc_0ACIAPn2ON1tu2fQG69qEaKYOgO0i6__cEuf3zy1uX07IHPTnTcAW2Pyp-470xfyVCOFlP1RDnihhR7hfu2UhViKYc_Q8HyWqisMJ0uzzEwS9Ij-zPAZ1UoZn5x620NJgl7vpXjtvZ4A0nmXpNcS7dHBvYKliZhDk-rR-VVuRHrqXlXa3Pjg8JwdmowMn8KX7xmDeCzf70jm-tVZTD3O-7BdNAV_SLF8ytynpG99XC4v431RTkyHna7CMEo7fTSNks0zfy-5mhsDuLjoHjjk96AgT4xnx1BXou9iDSZKl-S6e8XY_IsOXwW1xrpUZStsytD6XdT2dLveu5jdnGwWxV7eS6CRD25HL2uc="
+    },
+    {
+     "id": "ws_02547f9855c47027006ac51791c50087d2bce2f62db897f274",
+     "action": {
+      "type": "search",
+      "queries": [
+       "Patek Philippe 5130G-001 official reference world time 39.5 mm",
+       "Patek Philippe 5230R-001 reference world time official",
+       "site:patek.com \"5230G-001\""
+      ],
+      "query": "Patek Philippe 5130G-001 official reference world time 39.5 mm",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/en/2016_PatekPhilippe_World_Time_Ref_5230.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.phillips.com/article/patek-philippe-modern-world-time-travel-time-watches-phillips-new-york-fall-2026-online-auction"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/ru/2016_PatekPhilippe_World_Time_Ref_5230.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/ar/2006_PatekPhilippe_Ref_5130.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.dist.phillips.com/content/web/auctions/HK080323/HK080323_en_1.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://en.worldtempus.com/watches/world-time-530.html"
+       },
+       {
+        "type": "url",
+        "url": "https://spacecitytimepiece.com/watches/patek-philippe/world-time"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/ppmagazine/ar/PP_Magazine_V4_N4_PP_in_US_NY.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.christies.com/lot/lot-6407969"
+       },
+       {
+        "type": "url",
+        "url": "https://www.christies.com/en/lot/lot-6367526"
+       },
+       {
+        "type": "url",
+        "url": "https://spacecitytimepiece.com/watches/patek-philippe/world-time/5130g-001"
+       },
+       {
+        "type": "url",
+        "url": "https://www.sothebys.com/en/buy/auction/2024/fine-watches-4/reference-5130g-001-a-white-gold-automatic-world"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/patekphilippe/ref-5130g001.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchtime.com/brands/patek-philippe/patek-philippe-ref-5230-world-time"
+       },
+       {
+        "type": "url",
+        "url": "https://www.sothebys.com/en/buy/_world-time-reference-5130g-001-a-white-gold-automatic-wristwatch-28a1"
+       },
+       {
+        "type": "url",
+        "url": "https://www.sothebys.com/en/buy/auction/2024/fine-watches-6/reference-5130g-a-white-gold-automatic-world-time"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchclub.com/patek-philippe/world-time/5130g-whitegold-ref-5130g-001-year-2007"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=iqjWY-EM41c"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=EEMkLIH_4b0"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vzdh76/wts_patek_philippe_world_time_ref_5130g001/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1hqhu0t"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Patek_Philippe"
+       },
+       {
+        "type": "url",
+        "url": "https://zh.wikipedia.org/wiki/%E7%99%BE%E8%BE%BE%E7%BF%A1%E4%B8%BD"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/ra6aqo"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_02547f9855c47027006ac5179703ac87d2bb9a0dad0c38e129",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxReZm3hwOOiZ7U52dJdWe8ncJzq8nzspgAIsoBJtIUNCaTSoFvIHCwe5Cf9aCEtRNX38An--PUignTu81md-mscpKz0tvp1pC-LEAFPSdLt1W40MASp8D1oK_t1IkK4Bk8FZCjHUWY4W-5q8bcNjhOP53i4alM_uX0wGDg_yPRo9orK4hFDfcmse46y5yTNMBRYlsezAuJ7gQSx3VPw5zjrjffsg9nNU80CVIhcE6yb66Z22hrDpYGgkd_2yWNEw655EtMWZeb1W914y_e5GnKFBRseo_VALbpc9_CuW77JM3Hf0YX7okw2DoP1923bVpGhpv3c160HqqR7Pfo1HvQMUx2EaVqL9ZNG3xYl0mXB1M-y_av_lZYHUMYz34awE-67bOa1oAJ6Gbf_2oaOJWXK2G8XYgJObgiN89yZxVmqFibrH8g4Hx2w_zXQ1myuKWeFwpUZo_hZa8mrwzD5P6kUJRWOZrwapuzCoAb-acmlRU67ecuNvVtLZl8INTxDk6iv9ZcyKTopt6rD9IXmTg1v7YrAkrYqdglXgFCRAxBCLxFesYQKlhH4YEfYzaalERDxBqvEbQnA_jdragUdgGTvWP34IqN1nTZTtQ1SGmt5COrIawx9T8jIS0e4fEW5JmDFBSULiIYEn7IXJKM4DqZpP7gYnzx8iacKL-h7WWjYfBE9PTcEYOeSfsDmg9byCYfARzAwTlQtbzqWeFHx1VQDaauG2brrLttoswWdR04u_RGg7X2rzDbiqad8ofayeZxTuXc_o1PfjtzL7GRSxDGX9ZiyUhQfg1jOxSkmBDdAZvU4I9qn8LGSNjFDBBba1ITo0j6T-kULE2F7yU36oLl51xKzWpukrIhUjfCHkwTfZ4JGtvY8Bs5TjRU94Vx2-NAwFZ9LI9O2S2wLFNgco_g_SoVyRSyWAx2tT_FIkgIKTmO3VfPf1ntQBMPXINP2cQUwFO11TaOKJl5xfsy-QabWN43q8LWFr4mInTqayGEP25AN24rQwAOFq-GcA4z_U7s0uaO0xmLfsytd3WWBFa-ECrTGMGGh0bYgkYSEuQm6vByJf60fqiUjxu38mjSOLMoG_qErt47IezonYi8j56skRtJh2IvVJa80OjZB0AWBu11f1Z0IoIyTfnYMe7RUn5hGS5aaRrvjJ44cjQHg4Iph_hTlPN2A5Dtx8jWN7i51Yu3c1dgAn7ci57Cr1k5vp8nf6thn7-Qqlrw3-OGuVietLJOXccdtQDZvAlOvXVA9nAd0PVmyo4cVlxWEkBttHn-XsJYjTmoMZBgrlJDGIHF1CAQLsmrNbfZ8M5lrxGoo4Q-gKohGy-buHMPtO3P1faKeszOoTePrqStgr-80HMbnT-EB18-w42_LoIjxnTTDeED_mRnQaCMnjeGbquYW5k09msiAK9MuB7q71SPYJHbnuMLZj095YtD_EsvsYViD1H1WXobt3-JHqYxJMXkvftgB6xjC-kEzbcUY4S6ToUOExvB6dQfYL14ETjuBdn5bwQQ_k8mQU6FgaAnIo3CG30mzeWlJsYguI6YSdT0TsHy0xmObVJ7nw55E1ErUMCFACUew6uHsoq3L5TsqOK4c8cP63LNPu4g3q0tKheM0tivqF8DMsvBhZHvY-93i0GTpPqL2gHYqohqJtI8pXMwFHxNa4xa1Ew1iwjrCqVH03ANNWTf3vujPmQUHs9XZoG8tuzEGQ_2K9LgEO54cyfQbHoIOskgSyxy1TncyrlRt0JjLq17IybkeWCws9rmWv9s9Bv5X5mII_3d8Rsy53PznCXSCYUxiMBYhyZGgPOivfREKsV0awPb6CE-3EwPRunT4_TcJt2OltCrPjyhrarf3VhVMCcz6k3WMRSsBFd275sgj1OaRpDRFPbWEX5sdgYKI2gW6b8Fa6BqpZZyTa-vGO1-zh_P88a5ZqllDvP1Xh1iDw2CUEhePRXjfPZGveWDg-gzkF4UQ7CaFTnHCJz-GvRjDYlnuZ28Nw4KGU3b7_ENfB3Z4HXUhBLeasCN8KyyXvMPd4EndxdohHPlIxrMGezwps-RTSSYZAaakTUmcIndp7YiHjS11QjZihDF8l4qNQl4aVu3j1WBF7iv4gPt8wJtATSm5C8CoSkDO5YTpvXU_yS3weElwrVR5DB5U3QsS0nXBm4apKRax_s_GW-tXG5ll-maU6swJa_wCbsV_uPqkHXE-W9P5LrbLS4pPYywnSJcne_EAzBpGhB22A0tSUGtwFq_m18TriQlPKNxyHkMOHJLgvQKZuqcZf2mLeWZ2fmlctCDGUzt7bXTIqSHFwyLjVjcSkcWUhLtdor-dH_BH49HyklCUlwglNcYPmCi8CSvHYjm-Xhy1EcCCQ9-TDljz8FHTRgxeUg5jPi6EKy3VCMECdId-UHqVg_ZKbwNf8ihUnT5i2JMZ4Vz5s5aNzFJNMvpt6Uvcowh8__wfhM8A5Ybne_ghw_ZylI3bqaIcUxC5Nau2ZLoGHuw3spEM5rnqDU0_4gIdtKOcxrRR-rdB_iE8eyel6r_smfOCQV_ygPmr4ECKfgqcjl7bGR7P7b4wWVO-nB245zLI61cFRi2rrg30yP3JfBxwXq-m3yuGQpzxOklRLwcjDDos9vyOVYaezamXr06oTXSjFoQSnMwsrMVZ_xlwqlj6ABZmfPiiHXA9HzSIsttRLLFwd3tWSbzwmX3rk6tiZ6ZBjFCD3HMD9OKFBXLIVgkp0agoaPVXq2pu7ZIwB21zUWV4iSicackuTwToOTDpkKe2fF2hkIWlW3DAitHBeDwppRk4K0fnhqrU="
+    },
+    {
+     "id": "msg_02547f9855c47027006ac51798887487d280ed76b5bf512b7b",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Patek Philippe\",\"model_line\":\"World Time 38.5 mm\",\"dial_color\":\"grey\",\"case_material\":\"white-gold\",\"bracelet_material\":\"leather\",\"bezel\":\"Smooth polished white-gold bezel\",\"case_size_mm\":38.5,\"complications\":[\"world-time\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"5230G-001\",\"5230R-001\",\"5130G-001\"],\"confidence\":0.94}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791301528.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 23000,
+    "input_tokens_details": {
+     "cache_write_tokens": 3615,
+     "cached_tokens": 4723
+    },
+    "output_tokens": 825,
+    "output_tokens_details": {
+     "reasoning_tokens": 718
+    },
+    "total_tokens": 23825
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 2
+    }
+   }
+  },
+  "search_requests": 2,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

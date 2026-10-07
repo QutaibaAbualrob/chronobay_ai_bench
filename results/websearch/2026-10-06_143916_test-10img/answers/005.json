@@ -1,0 +1,461 @@
+{
+ "row_id": 5,
+ "image_file": "005_rolex_day-date-40.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_line": "Day-Date 40",
+   "dial_color": "champagne",
+   "case_material": "yellow-gold",
+   "bracelet_material": "metal",
+   "bezel": "fluted yellow gold",
+   "case_size_mm": 40.0,
+   "complications": [
+    "date",
+    "day-date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "228238"
+   ],
+   "confidence": 0.96
+  },
+  "raw_text": "{\"brand\":\"Rolex\",\"model_line\":\"Day-Date 40\",\"dial_color\":\"champagne\",\"case_material\":\"yellow-gold\",\"bracelet_material\":\"metal\",\"bezel\":\"fluted yellow gold\",\"case_size_mm\":40,\"complications\":[\"date\",\"day-date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"228238\"],\"confidence\":0.96}",
+  "input_tokens": 12721,
+  "output_tokens": 498,
+  "cached_input_tokens": 0,
+  "reasoning_tokens": 412,
+  "token_cost_usd": 0.0015211,
+  "searches": 1,
+  "page_opens": 0,
+  "tool_calls": 1,
+  "queries": [
+   "site:rolex.com watches day-date 40 yellow gold champagne dial 228238",
+   "Rolex 228238 champagne dial yellow gold baton dial reference"
+  ],
+  "source_domains": [
+   "rolex.com",
+   "content.rolex.com",
+   "assets.rolex.com",
+   "chronofinder.com",
+   "bobswatches.com",
+   "everywatch.com",
+   "chrono24.com",
+   "tempuseuropa.com",
+   "thefinestkind.com",
+   "filipucci.nl",
+   "grandcaliber.com",
+   "reddit.com",
+   "youtube.com"
+  ],
+  "elapsed_s": 10.975,
+  "started_at": "2026-10-06T14:39:16.819669+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_0cb83d38ff4242a2006ac50816c39487d29312c273d5ffe8fd",
+   "access_programs": null,
+   "created_at": 1791297559.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0cb83d38ff4242a2006ac508180aac87d2b73aa5667f981969",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxQgfzJU7-98TschNGEcSRRr6AZUhrogFDmkvzwFlGsTIvnNyVc1iYDld9GyLid3WTxvlDPfvHdIaySptiMdGb_eIgTAmIh0QgOPQGuYtaj33jG7NCI7ahjMLiWwb8XIkvpXhE8bjwyjDSaue5vfHTKxgX6-7EOIfiqgN_fycfkd5lbx3x4kjGxoN0ZsJRZZSinJxOQ6gDzXN51PkYumLluGPPdFaeDvIa5Uluv4VI6kKT6wHr6BHCkWaD12qIPsMOD3qzRUs18bgXf7LE9bDA5UxiKEp9cxmV6nDt2YDfCN7Ohtfo-smYpmtaESCGo4-k8gcAPRn2tzHlaptIqgXPfsnu7vmM7f-pDKT7wIaH8ZpjpxF5dWFfHJ6JBouXlB32hvdMnbsyZwjlh8jRUw_zyomr2o_N2e0-3E3Q5mDcvFSW-kSWFIDnxQst-VJsNcIrUE74VmtQ90ISVj-RAA6evbXK1iTHDoFV40PvE1r9_8l-4E7LPmuCGlC4JXwaRJAPgzM4SbteInuuE2gP3e6FvryKz9GkfhB90AcNj1c6dvGTlsMomqvDFrE0RIIJa65Nf8J-HEu1SnPpe8njmS9PSZyTbo2d3qpGJRoLU94TuldqiLHAKc1J-vY0jwn2t8nK2nEdkU2BzMpFs3b-ydihwdEPOtReyIRg0oLbyppcZ54mqzPDOhyYnBgpilHuR6frUkGzHo5rVS4dyKRHzSxe-39ly7JR7VJqtMS1bAm3V4HRj9GO9q0GijKtimkjBMKyyS_1C4t4jsR5DTglOY1Je0DlnUbRpUYt_jdOZbljcJiA1jb_3DmHRvc1tTX_0lRqP9P28WcyCqhgJHREg7S9iz50GbX_nmumWX2Oppi8Hrkb5inIphcFU25RRfWTHx4wFg6mtd3CfSa9gpYKrJ7ajNL4qK5JnPCrSramRdj8RAxCtkwTTtj_S8JPxArsI-fhQzdhpO0XWeXGJ2noNFw_ScTyuFNVDaZPClRbAaSXu8_ClyIGLXDCccE0ot74fnOczQJLa_UzG6yDqMRMtdJdBHy7pvV7fLnOyFGsBFCraiMVLQzTGRF-rEDB8ic2uxW4yzK03x7-KMc5cufnMFsPoflizgh8eLU-x3HnvO8f32VvkihYrNkG-UU-LqRsqMWxCYpxD9yaTQtALU3wX7kPYTBGX9ediUGMegpP6D9wEewOKMyHJZgtCgb4LjiJhWJLsehcxisQsCDB4I0Yfdd-bgO2vtTlpu8P2sD30u_K22RKkDrWV0z4FGFMYC0J7RI4rrlI4_b-Q-HG7DKafwj0jPSW9jwmE_2HA_ac0vxQAK9Q-CqC_KP_7AI2597TsyG6s6wZMMSU-eDQ5OkYf8W9pF-JVB2tsJgN1ovUMSlpovwCzKLDtc2NrvfFuJUZQVzcwqMaoL5izJzT2X2ioCpPLlmUdLlla9D47TrkLJ5KMqZcAzNVfL-4DCNlbBB5dZImmJeHqDxjjFT1kqUcWjXxmgGwJKwrFfKy37ZHoc07N072AtWSMxyVc9SIFMrgUa-hB6i_2-AXzYR2b_rakktTknOPYFKEAYOt6PgVZWnIpd3QpMTkxjw9vDyRDCyMVVR3-9OEpWppslYv1QWj8ulqJW74eOCARqggbkGOjLEDe422lAHs780KT6fZto3UZPtmoyNDQZ6vqrUbD8I7gkHoCl9YP8ACiVA5tQg9Oxjpm3N6RDg2qr25ZEhv9_XwSvprcj7moBFrEVUfwuUcFR5F5GjStR01Kjk-eiPaaSOkOSUarA__ShWesqhh68YdwUA-8Pq9hvhLMfsjdHpl6mlSVMt6Bh2Wu-HgsFd75xOV-JS8lm7BUEWsR8VtuSaR3bchNYeRZLyb2u535d-GsxY3ObAHVJw29jsLfu-17i_pNcG-I7Qz6qrGJ4RT7CXDmQk84ce1wGFkdfE820vP6jdefJ7sNtXHPvQv648utyQ0EnlAskuZioVDu3hOH33zeMWy1DbpwGRxUnccjIXtZFilcB-AwYZ5sQbC-i3u4yBQXKLP8o="
+    },
+    {
+     "id": "ws_0cb83d38ff4242a2006ac50819d1a487d286bc513a623f98a8",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:rolex.com watches day-date 40 yellow gold champagne dial 228238",
+       "Rolex 228238 champagne dial yellow gold baton dial reference"
+      ],
+      "query": "site:rolex.com watches day-date 40 yellow gold champagne dial 228238",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.rolex.com/watches/day-date/m228238-0006"
+       },
+       {
+        "type": "url",
+        "url": "https://content.rolex.com/dam/media/brochures/day-date/m228238-0042.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.rolex.com/watches/day-date/m228238-0059"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/en/day-date/m228238-0003.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/en/day-date/m228238-0005.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://chronofinder.com/products/rolex-day-date-40-228238-champagne-baton-dial"
+       },
+       {
+        "type": "url",
+        "url": "https://www.bobswatches.com/pre-owned-rolex-day-date-40-ref-228238-champagne-index-dial.html"
+       },
+       {
+        "type": "url",
+        "url": "https://everywatch.com/rolex/228238/watch-33720063"
+       },
+       {
+        "type": "url",
+        "url": "https://everywatch.com/rolex/228238/watch-33955108"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/en-us/day-date/m228238-0006.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/rolex/ref-228238.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://everywatch.com/rolex/228238/watch-32208235"
+       },
+       {
+        "type": "url",
+        "url": "https://tempuseuropa.com/en/reference/rolex-day-date-40-228238"
+       },
+       {
+        "type": "url",
+        "url": "https://thefinestkind.com/products/rolex-day-date-40-yellow-gold-champagne-dial-228238"
+       },
+       {
+        "type": "url",
+        "url": "https://filipucci.nl/en/products/rolex-day-date-40-yellow-gold-champagne-dial-228238"
+       },
+       {
+        "type": "url",
+        "url": "https://grandcaliber.com/products/yellow-gold-rolex-day-date-40mm-champagne-dial-228238-2022-watches"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1ttd4du/wts_rolex_daydate_40_228238_champagne_stick_dial/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepWatchClud/comments/1vmf796/rcf_daydate_40_228238_yg_champagne_roman_dial/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=WMBallwAYfo"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=Rca715Dintw"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1fanhwa"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1kzdc9n"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1i0f4ky"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1ko8e0p"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1kprcym"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1gb5fdz"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/rolex/comments/r18azq"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1lfn0kr"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1foj9ib"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1hi1e3v"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0cb83d38ff4242a2006ac5081e27d487d2857423b110f639fe",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxQgfxXETbcvsxjk3CVDrHkTmjrA2lJ90YIbm0B7VGIvXHI8x5iQsdwvkXmNQRuHpLtSM0jccr6LNo4cHP86ZFSY53g20MUi9UrBtXHEyYtMTuDYVitquK-FoEK638KrjPu3JBzI-VHPxXxlYs8sKGOX50SzFev3MKOQFVg2t1EisvwiElt74DBmXWkxxsjsXI0zecidMbhyuWmCc7jDogagVjo_MVpMFDd7KLwdFCKkENjGHf6VkFp6pmWEdxnVxC3eeHPFyJDKbh5G0Bx0A_q8r-va0zgKADFtvU4MvGPZQyWqqP97l-3Ih-dxgwyYDRkPCD0OnnLiYvgSUNoRuZ8LDjpUyH60k79f7oGS-VHIePtG4xBQdlbuWIT7KnlrO5UsvailNmGVriwGoedYI1KM3bHXhBNsLHBz4yvhT3lGPiVLmAuIq6uPQdwnf5ewPmtZunkFYF5nmjUlaijXHNPoYGrfSYSJXWxjDAYAR21TCvZFJVcBmK79DEgWSMbhphcAvUpaWeRNrzCR_CNj5FMO3NK1MdkH5uWn2MHOcI_7JlHnYUHx0_JWHfUeLWoQJnyXbCRHreCAz38tSKa8QAsbdG4_1bpfvJcp4XE7iQzE58WFa8jHrIdd9OpHD_ySTpcgbGMgtwyHnszJpO46L5_pzz00-DMEHoiILnS4pAg0D6a9ww5HJBGwH9SOzfygFAnooVASBk_jx4UU8HpCw3wA2o9slOO5zXnplPmB858NZaWwtNyyXiMF8CegPyQNP8VjLGbtEltVTdHr_2KzHIpB2jykk7KiQwz8BKT4t_Ufp9MuZTlGLQeMX7T8RnGw_0UKoIZWP3eG5s9t2A659w4AXhkq3MlR-gKOUq6e2rOjqKkEYZBr1kq67SrdCArecuNkU06TB3861daBUaXsIHvz_m_BZhwaRKxGbwqLUBgJzktaqRXurLWOTbn0sAq2ZUPhDF2q1fOoENklPjSoEIefSNNaRfIOl8tUrw_Z5HCX-Qb3Zk1O0va8sms5MwD8Tu_nqWL9hV4tDI6n8cm1g5Dy5WMxjXS-c5FA-ff47ZrJM-x_vntq1B4ZzG-ZGeFzwrqYruxqOUqTH8xYwObm0clsWyFc-jGQRE617KO3VhW6h1XwUianu7b7xzeltVFhpQePuk6tOeiOaYMQlhr1I_jUptvMt52oHHWKVolv7xIwtuAbLDPXyXPBM6nnFqiAXYnw4TPVhEvCUtj6KWhYmokvAszigcFdJYawYYhRCvC65vHQyjV5KRDqViRj8_dUFll7cwxagNcTGln5XDrTHSAM4lVY8RpScvkj7Bs21xxZYbTVAlAK9Kaj7wp8H3x_mDPsV8xkbBD_O1tTzJQxamzisSFB9paqDttgPiwTiYpqZ7CBIrNr4RxPcj5TDlGslq82PDhsy0zf2j8GZS4TH00DwOVYCNEATP5uG3iWwGGzprdQVTbJlK1MxLpK_zq1A96Vo1gZGHoKrii_uC4OC2Czc0iUXHOETdJfgHiohvfEyjDfhnKs26GnAYq88dBlbM2Ce6vPO35PNGege0t-jpNxlnx--3gnpHSgxkw8J7iL8eFQ23hDgzv5lqAoH6SpKKLoLY795Vygfl_DoJsPAC1hWE9Y-Gk8DBJowKJ3jIK4zTeQM2A-dS_RJiHgTCNF4a_xAKjQcbYO5hLasagB1WmOyI-M2wICySJx1R2ncoQV7pkH4qFmzbI4URQPEo2QreaUAsYVq9SwgU_6qxLNij8DzmJ_xMCfV99YcGZqu2Jg-v6p4fR_ESzXZx9ZXmzp5gHni3iOGaolUJDYReK4L33qjZTX_5bOOggMyXKO1qomONwqQHVcki5Aj7LBzpTkorqTamaFj9ohta0IDjhmEEV_IE_PxhAvhaasTtxca3_lzcOFGofBOet2SE7JcS7IhiooJwiZ7HrZUfmCN9nT3vp8MOcKT00rWWWR7reAggNhxXRCvxNBunPY0kykSsC392nEcePT0tN4nNEz6GZmmJUoOojOdQiQUxhZqOWX2rqrMWBpB49RliGn3o3hLETi7Jpjwbg93AHQpK0wk5SgGwmuH0fhhl_xJ8_v3XZoAFBDzqOvA_n4YviN1thXcWUsaUus1qKOPICheNfqP_YenANSupuvZaq4H5Aa64uFGZlJird3VW_5ZEM5VsHoxgjOjpzNOrCM3JQ8sXbgAjX_AwFMp0nNnngAN6hWhnPj-5IgBi1XXPrBMkIFmR2IKpayYuYVju6QGoZ8fiM-sh44p__J57QJO2F70E6hWpRRxGy-HL94sL0jLBorvz-Jt6uzcSRaMoj0cV-fhT7OxH6c8sXuklTNEDO8rlzd9jmxZN_2X4P-abFDl_VJO2iJzozQqGwBb-sXvlmS8lvvmsKqW_iMRL5Tpam7F7T8QY3JGZg_mleYShRedAciYM4sqEib5BSOfKdOEC_5XnYp3H6WeqwtLziarb6RXoPjM4t6vXR8Ok0SA10X3P4rkWEUVo2m5vRe76EFxbFJqroYUS382w1brJR_W4oLPizCmTR1L-r93S8XQ1rKWOaBbtD3mvAquIk7zjCx8RVtjzp71203uaja9lewDt67yFNTrNYj0AZkmPOQ="
+    },
+    {
+     "id": "msg_0cb83d38ff4242a2006ac5081f3c3087d28127462d364511cd",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Rolex\",\"model_line\":\"Day-Date 40\",\"dial_color\":\"champagne\",\"case_material\":\"yellow-gold\",\"bracelet_material\":\"metal\",\"bezel\":\"fluted yellow gold\",\"case_size_mm\":40,\"complications\":[\"date\",\"day-date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"228238\"],\"confidence\":0.96}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791297567.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 12721,
+    "input_tokens_details": {
+     "cache_write_tokens": 8268,
+     "cached_tokens": 0
+    },
+    "output_tokens": 498,
+    "output_tokens_details": {
+     "reasoning_tokens": 412
+    },
+    "total_tokens": 13219
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 1
+    }
+   }
+  },
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

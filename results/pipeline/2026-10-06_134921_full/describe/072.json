@@ -1,0 +1,37 @@
+{
+ "row_id": 72,
+ "image_file": "072_iwc_portugieser-automatic-42.jpg",
+ "result": {
+  "parsed": {
+   "brand": "IWC",
+   "model_line": "Portugieser Automatic 42",
+   "dial_color": "silver",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "bezel": "smooth steel",
+   "case_size_mm": 42.3,
+   "complications": [
+    "date",
+    "power-reserve",
+    "small-seconds"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "IW501702",
+    "IW500704",
+    "IW500712"
+   ],
+   "confidence": 0.55
+  },
+  "raw_text": "{\"brand\":\"IWC\",\"model_line\":\"Portugieser Automatic 42\",\"dial_color\":\"silver\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"bezel\":\"smooth steel\",\"case_size_mm\":42.3,\"complications\":[\"date\",\"power-reserve\",\"small-seconds\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"IW501702\",\"IW500704\",\"IW500712\"],\"confidence\":0.55}",
+  "input_tokens": 5317,
+  "output_tokens": 147,
+  "cost_usd": 0.012104,
+  "elapsed_s": 2.989,
+  "started_at": "2026-10-06T13:50:23.379536+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

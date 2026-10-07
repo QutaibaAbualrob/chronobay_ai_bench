@@ -1,0 +1,36 @@
+{
+ "row_id": 22,
+ "image_file": "022_patek_aquanaut.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_line": "Aquanaut 40",
+   "dial_color": "black",
+   "case_material": "stainless-steel",
+   "bracelet_material": "rubber",
+   "bezel": "smooth polished steel",
+   "case_size_mm": 40.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "5167A-001",
+    "5167/1A-001",
+    "5165A-001"
+   ],
+   "confidence": 0.72
+  },
+  "raw_text": "{\"brand\": \"Patek Philippe\", \"model_line\": \"Aquanaut 40\", \"dial_color\": \"black\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"rubber\", \"bezel\": \"smooth polished steel\", \"case_size_mm\": 40, \"complications\": [\"date\"], \"movement\": \"automatic\", \"printed_reference\": \"\", \"references\": [\"5167A-001\", \"5167/1A-001\", \"5165A-001\"], \"confidence\": 0.72}",
+  "input_tokens": 1705,
+  "output_tokens": 615,
+  "cost_usd": 0.000549486,
+  "elapsed_s": 4.859,
+  "started_at": "2026-10-06T14:07:04.846985+00:00",
+  "error": null,
+  "attempts": 1,
+  "tidied": false,
+  "served_model": "deepseek-flash"
+ }
+}

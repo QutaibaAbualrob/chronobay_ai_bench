@@ -1,0 +1,35 @@
+{
+ "row_id": 10,
+ "candidates": [
+  "124060",
+  "114060",
+  "126610LV",
+  "126619LB",
+  "126610LN",
+  "126613LN",
+  "126618LN",
+  "126613LB"
+ ],
+ "result": {
+  "parsed": {
+   "reason": "The dial has no date window at 3 o'clock and no cyclops on the crystal, a black dial with black ceramic bezel on a steel case and Oyster bracelet, which makes it a Submariner No-Date (124060 or 114060) and rules out every Date or two-tone/gold candidate.",
+   "ranking": [
+    1,
+    2,
+    5
+   ],
+   "clear_leader": false,
+   "none_fit": false
+  },
+  "raw_text": "{\"reason\": \"The dial has no date window at 3 o'clock and no cyclops on the crystal, a black dial with black ceramic bezel on a steel case and Oyster bracelet, which makes it a Submariner No-Date (124060 or 114060) and rules out every Date or two-tone/gold candidate.\", \"ranking\": [1, 2, 5], \"clear_leader\": false, \"none_fit\": false}",
+  "input_tokens": 1929,
+  "output_tokens": 395,
+  "cost_usd": 0.0005263499999999999,
+  "elapsed_s": 3.595,
+  "started_at": "2026-10-06T14:14:21.050408+00:00",
+  "error": null,
+  "attempts": 1,
+  "tidied": false,
+  "served_model": "deepseek-flash"
+ }
+}

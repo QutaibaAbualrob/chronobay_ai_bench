@@ -1,0 +1,33 @@
+{
+ "row_id": 68,
+ "image_file": "068_cartier_tank-francaise.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Cartier",
+   "model_line": "Tank Française Small Model",
+   "dial_color": "silver",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "none",
+   "case_size_mm": 25.0,
+   "complications": [],
+   "movement": "quartz",
+   "printed_reference": "",
+   "references": [
+    "WSTA0065",
+    "WSTA0005",
+    "W51008Q3"
+   ],
+   "confidence": 0.45
+  },
+  "raw_text": "{\"brand\":\"Cartier\",\"model_line\":\"Tank Française Small Model\",\"dial_color\":\"silver\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"none\",\"case_size_mm\":25,\"complications\":[],\"movement\":\"quartz\",\"printed_reference\":\"\",\"references\":[\"WSTA0065\",\"WSTA0005\",\"W51008Q3\"],\"confidence\":0.45}",
+  "input_tokens": 5825,
+  "output_tokens": 132,
+  "cost_usd": 0.01297,
+  "elapsed_s": 2.792,
+  "started_at": "2026-10-06T13:50:20.468277+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

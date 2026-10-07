@@ -1,0 +1,35 @@
+{
+ "row_id": 78,
+ "image_file": "078_iwc_ingenieur-automatic-40.jpg",
+ "result": {
+  "parsed": {
+   "brand": "IWC",
+   "model_line": "Ingenieur Automatic 40",
+   "dial_color": "green",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "smooth steel bezel with five visible screws",
+   "case_size_mm": 40.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "IW328904",
+    "IW328902",
+    "IW328901"
+   ],
+   "confidence": 0.55
+  },
+  "raw_text": "{\"brand\":\"IWC\",\"model_line\":\"Ingenieur Automatic 40\",\"dial_color\":\"green\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"smooth steel bezel with five visible screws\",\"case_size_mm\":40,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"IW328904\",\"IW328902\",\"IW328901\"],\"confidence\":0.55}",
+  "input_tokens": 3290,
+  "output_tokens": 142,
+  "cost_usd": 0.008,
+  "elapsed_s": 2.514,
+  "started_at": "2026-10-06T13:50:27.229473+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

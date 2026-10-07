@@ -1,0 +1,484 @@
+{
+ "row_id": 20,
+ "image_file": "020_omega_de-ville-prestige.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Omega",
+   "model_line": "De Ville Prestige Co-Axial 39.5",
+   "dial_color": "silver",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "bezel": "smooth polished steel",
+   "case_size_mm": 39.5,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "424.13.40.20.02.001",
+    "424.10.40.20.02.001",
+    "424.13.40.20.02.002"
+   ],
+   "confidence": 0.94
+  },
+  "raw_text": "{\"brand\":\"Omega\",\"model_line\":\"De Ville Prestige Co-Axial 39.5\",\"dial_color\":\"silver\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"bezel\":\"smooth polished steel\",\"case_size_mm\":39.5,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"424.13.40.20.02.001\",\"424.10.40.20.02.001\",\"424.13.40.20.02.002\"],\"confidence\":0.94}",
+  "input_tokens": 14630,
+  "output_tokens": 854,
+  "cached_input_tokens": 4723,
+  "reasoning_tokens": 730,
+  "token_cost_usd": 0.0014649300000000001,
+  "searches": 1,
+  "page_opens": 0,
+  "tool_calls": 1,
+  "queries": [
+   "site:omegawatches.com De Ville Prestige Co-Axial silver dial Roman numerals date 39.5 reference",
+   "Omega De Ville Prestige Co-Axial silver dial date Roman 3 6 9 12 reference 39.5",
+   "Omega De Ville Prestige 424.13.40.20.02.001 silver dial Roman numerals photo"
+  ],
+  "source_domains": [
+   "majestixcollection.com",
+   "youtube.com",
+   "smithandbevill.com",
+   "markworthingtonjewellers.co.uk",
+   "ebay.com",
+   "watchaser.com",
+   "grailzee.com",
+   "coveted.com",
+   "vintagechronos-germany.de",
+   "vintagechronos-germany.com",
+   "thewatchcompany.com",
+   "watchesofdistinction.com",
+   "reddit.com",
+   "edouardgenton.com",
+   "hdv-quinconces.com",
+   "gazette-drouot.com",
+   "therealreal.com",
+   "am-s3-bucket-assets.s3.eu-west-2.amazonaws.com",
+   "auktionen.eppli.com",
+   "it.wikipedia.org"
+  ],
+  "elapsed_s": 10.416,
+  "started_at": "2026-10-06T15:43:21.812329+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_0da40fc805890cf0006ac5171a5f6487d295ca3591f8fe7e60",
+   "access_programs": null,
+   "created_at": 1791301402.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0da40fc805890cf0006ac5171aec4887d2b732837b8ae17499",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRckkxKLBZ91_9nWxW8DKmwMJPV8b7442-MlAkDy6axeVE9nY3A8pKA4do45B62Fe9QP0eVaePCVDRuz0Xt_3zr0iMhZErE6WUNPmutoxciCAMkq4rzdUZfXhFPrF9U62ycIf4YMJYvPCL8w3pTo4Oxn9WAKGTrwq4PXAkGRkvvePuGh0Vj6mFeJzNAl-j6-8bH8dCw_gqGtErOFzDh1njuQdzPRfPiATF5on40U9ICMsXtj7UDk7N_HG8jWbB0h74KMZcXt7ZIFPyzUvED-motXmvn5pM6Zb6gCXOKyfWVEf62k_Is9LTa-oiQJjOJzFR8uKHQki39DvNQysoA6v212xIE8lPklL3ZqEqpc702P2gIUIws6PsVnhtHaIMaEEW5o_CoaMLtvBPqHqct5ob9j_O0uJStJKfq_1nF12Z5v-BMx_P6ghFioWzYlaXJEAHkB7ANBTXV4ciGHA82eJPVK9q43HbDf82_N_lyw2jlbKcZRFbQAPFd-KfxOK0bOPAOiXEnvgkP7_5lVvwzRXAz0dJA5GTfle6cWAGHnk9XizYXOvr2GahODykRzQHRa6EjpW8QMRLnhFaLpCvEdOPh9IvObb4yrSe5C4tMyggjFl3ruK1rMdAJ5IwXguYUG-muZQ-WXracHMu-kkaON_9BtYqLw4cUYINRITgBFIfnlOyy5BM7wU4jsZKP_iITqo4Jhc-UZcIGTh41U6S18Rn8y5kezK4xxDN61STqKSzvMss__Ng93ZVzv4DjjHfVwQnhp6MLtfFTS5OhBAhVqi0uQL_TrczlZqzXB1P-GsjhcBrRJtQ1Fj-mjqm17Ey-Gz3aQ7xR5PAyJUOV6quE2bwMXWTFeDTBmxRlU6Gh-ERgnC17jd_HPvHSsYmn4aWZ4fuMZAZkITpfdbXsaVsQTQ34r45AxIPkQoHeS7PzjdAZxLVKH3lFL_NSDjHFfgpgzzknjZyg1zI5N4hVk9Nb3scVbO8JyTjrD83PDkAj5erds_hoYh1reX18PhwCBa-2cZsezZcNOAd_qVIIaV-EZs41Ri4T89AjjXDMVMvw97jfotIzAaX5YiXBnqFMgMzej48ayX3WZLGnlRtteHpcVzTDRRedaBmUwBOFJwIJQlQ-R3DGD19dLPNZv1__rzHZ6Cgsm_RbRdRXewWt6jVtA0Xh2gby3olaTOAVdHR2aIejxdhwjPkPvTQ2qPY5xCA2zhcwtqUyr89u8MMskNmBC9mp3RZDTjgEwFpkllepB74ai7ynZ2cSTW7KX8gV2LJuZrF-Zv_aPwNLWk9Su7-j4GiZpL4mrjCywu2jz_u9iLnW1iYadxOBX7WXufFtbfy7JpnH5gPfVm84hrbFlNx9Vc--e8aIQenKVfRcVqQqGCt5-C0amIutb9ASOBDBo5rEBhI741rYUVDIptqZiL9yGtyLKZx1TBCFX0AQLS35bng5mi10T1uAvYBUZdjqE7aRALmMx0I_hILhEVSr2YpP0et6uTuGMNkS-nfjhx5xdT5edbj6tt3kfocip1eYe--QW8WvDaBA2K_76kAwmIjSoiZNHWKeml-nHuRZnzoIPHTKKUkyrwyhxKeSwYByyZbXbl_upOTKJAYoF-PTm8u7LenLw9NzMAhHE4W5rrEAjzIcXG1jmQQjY4aVP_C57IcaEySZvgO6ttG7XxWtem7831_nLpr2dfYA9-3NtVf0gK4TdhxbfjfWDqLMUrxsHG4Oi7k83MnxaESceOY38vusP_A7PMpXkS-Gj7xInkus4o0k6Jauj5vqA53trjDoCLI0S4H0Wtwha3u5Al0IC3Ao8EbV8QTcITqy_uLA6NgP1qo-WOHe6RPRBnNIc5dbK7Buf37sac1VJ3m3yIQ_YKvKHoKiy0rtMLSNVz22uKufrr4Xh-_VcEikwXKjjYwQUOftjBxtmC9pNJ4GGP__i_8aoLHQyzs3gZl_LQNlPc0Q7EvTXklfG_l3EgJ9Cq7RuZz9_XJIA6rK9ZgMnTIzmde6XmRnh2EtavyyoftGJTPuSluthXXE="
+    },
+    {
+     "id": "ws_0da40fc805890cf0006ac5171cb67087d2b46eee96eef3d7a9",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:omegawatches.com De Ville Prestige Co-Axial silver dial Roman numerals date 39.5 reference",
+       "Omega De Ville Prestige Co-Axial silver dial date Roman 3 6 9 12 reference 39.5",
+       "Omega De Ville Prestige 424.13.40.20.02.001 silver dial Roman numerals photo"
+      ],
+      "query": "site:omegawatches.com De Ville Prestige Co-Axial silver dial Roman numerals date 39.5 reference",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://majestixcollection.com/watches/omega-de-ville-prestige-39-5-stainless-steel-black-leather-silver-roman-424-13-40-20-02-001/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=axBuYo5yC9w"
+       },
+       {
+        "type": "url",
+        "url": "https://www.smithandbevill.com/products/424-13-40-20-02-001"
+       },
+       {
+        "type": "url",
+        "url": "https://www.markworthingtonjewellers.co.uk/omega-de-prestige-424-13-40-20-02-001.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.ebay.com/itm/135673278807"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchaser.com/products/omega-de-ville-prestige-silver-dial-424-13-40-20-02-001"
+       },
+       {
+        "type": "url",
+        "url": "https://www.ebay.com/itm/318037015065"
+       },
+       {
+        "type": "url",
+        "url": "https://grailzee.com/products/omega-deville-prestige-silver-dial-on-black-leather-strap-424-13-40-20-02-001"
+       },
+       {
+        "type": "url",
+        "url": "https://www.coveted.com/watches/omega-de-ville-prestige-co-axial-39-5-424-13-40-20-02-001"
+       },
+       {
+        "type": "url",
+        "url": "https://www.vintagechronos-germany.de/products/v3264"
+       },
+       {
+        "type": "url",
+        "url": "https://www.vintagechronos-germany.com/products/v3038"
+       },
+       {
+        "type": "url",
+        "url": "https://www.thewatchcompany.com/de-ville-prestige-co%E2%80%91axial-39-5%C2%A0mm-automatic-silver-dial-steel-mens-watch-424-13-40-20-02-001.html"
+       },
+       {
+        "type": "url",
+        "url": "https://watchesofdistinction.com/?p=36612"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1jzut2j"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1mu36yr"
+       },
+       {
+        "type": "url",
+        "url": "https://www.edouardgenton.com/image/pdf/manufacturer_27/42413402102002-fr-fr.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://hdv-quinconces.com/wp-content/uploads/2025/09/cata-novembre-2025-web.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1n539bi"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/1ciei6a"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/fe0lqd"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/1b4udra"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/zleqh9"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1w30etz/wts_omega_de_ville_prestige_coaxial_chronometer/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=QHGXIlk8g2A"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/zlf9c5"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1w0xz30/wts_omega_de_ville_prestige_grey_dial_coaxial/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1lg9b06"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/oiyh4e"
+       },
+       {
+        "type": "url",
+        "url": "https://www.gazette-drouot.com/telechargement/catalogue?venteId=136084"
+       },
+       {
+        "type": "url",
+        "url": "https://www.therealreal.com/products/100225931/appraisal_report"
+       },
+       {
+        "type": "url",
+        "url": "https://am-s3-bucket-assets.s3.eu-west-2.amazonaws.com/fellows/prod/documents/cc44ef0d-2aca-ef11-834b-6045bd0f8a61/5077.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://auktionen.eppli.com/Auction/Document/f0bdbbd0-cbb1-4d88-a62a-54fc2e9b5d91/katalog_omega_only.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Omega_%28azienda%29"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0da40fc805890cf0006ac517219c4887d2b0daebae23e34b02",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRck3v2l-PdsoVXts0DAZdkq28HR5psZlTFJAfc8Zl-vD2vIc7EC9zLLJ6tbHOnMCabU2oDwFkg-f5bRUTJYIVuCOHgeBuK8eB0zxiJ38sbFAqZ0EeIocSKkVuHmFZqac_xyVxj07Dcep8H9e3ygI-t0eLThFRDQ2wQL14rg85RhUF-yf9MtAWvDTdKl94byWNU14ITMO9XBcFJVHsvB_It5B0-zoXw2u00HKrUOphvzNu6-pUwuJk06xMWcKKzoAQr3uPwur_FitQDw56ZB4vyNcaIDHbKp0kQjbxd4wXSQ7NJWWinG5eOqgPpfCgwX1FllnOfbTI-_aSfiec62XoayS4QRQn-UyGK-p9crKF5ESFfelY3YTDkom7fGpqD6pXvGoNA6Bo9SZNPMWv1q57iQ0EM3iEXf0XjK-7zR_WGd-b0XVOslpe79jPuUZ_4B55ivNJKmEy64Z8GIM8Uz4iB8JpLvfJ70nVmHl6KjDpe_aRMtZtF7PVK-XbBRyungTYeHDbnTTSEqFUo5ZJwhAfCJ8T499Vue6Ljpt9ePooRkQryiaqaL5aBtexv6Z7NCUJP-ie6ATjToF5eIl930IbLZMWs27ErUeW3F43_GFBJkL6XtZft1ENM7cC4ZfWl4_Hk7lnT515wscI5gzuaAi08srKDvac0ytPDQ2zgPVRBE0iefqoySjOQKwNCvk9huIxHH9a5vUXu00n99E3dsG0WaAV9N4KdRr_Mv2cAOjbcoviRpW8JfrJb7fWNPybmLNYWYOqyVMaXu0McYzMP-ik3KjbGaqHHLqviqTWKUm4DV-IxOIQVSeug_RZQYrMISgSVns3IXTeg46kgoHMbkEj9Fire0ZWNwiBhflHhKGHy1gy_4XqAaOK-ebkgyeVSavgZ2KMX9fojw5CfIQKjJSkSZFhVNioC9MsIn2JOhBcxiWRKV036rmRAAeHeSGDC5UwYos8SDlqWHN4__KC7fZU0i_Zd5NfDaW3U_o1I5a9y0oTakh-aqyv6Ox5-mrbZqCFnJgb9i10Cv3yDCLq5X60xriCG8-0Q9-HGODhT7mo6_ySONDqkGkeYdhUhpSk03VdifSrtXew7IqLfbwt4te3wi2t_b0QSfiSUnF3U66OUyWUjtm7ikD7y7rb-8m6qm6Uq2QG9tO2Q_Dcw6WSQ2SVwAhbe5aDoZSA1X6LcmFFGtDJPm5P7oEXJXTH0XOGBukbMc4QUQHc-X_MRjjoiauazQMMcvDhsd1HYpbnnGmyM6nAAGiaSvrIQIrhi_OVMfyFHcjpPECn8WHlXFNIYPXRZcRA7S1SCtOUnIoQ6iADhTa6ETK-XOom_7gs9UOqdiIoL9xk0foQDyKsH1YbLMkw0LX4xacJDGDK0dVx1nifA1Q04eeyQ3wKvHSp0MbR_Tc4TxD6p62nF7lmDobzED4tzkDmn-YzEdohvpJo5p31F3NdzCDw1O5gvKmTftuIKj8P6yXp0oKNAKPPFsp7BgFbadGc-Y5LcKY-OIJ1haRkxI8UO2p6MmhGnZTBLHJCOhAlJgh2TLJytigfF3PckVtVfT2z_LQmpdNumIau1t4twoUwPQalgoTvDm5M_bnwuofkjDVrTDDBN1JNOzO-tnS2WWNkTaRyPaJwc1yrY7ZWs_zFbu8QeAtqlBC5MgKtgPp4AwHweD2h7XNlmtMBTBVBh-chNOphq84koTDvxlK-k1RD9HXwlwo74LxN7IiTFHzV3VqijgGg58qAqa0mPH3M1YQP7Bi2dIntBwW07LAPN5sGpfWXLg6sk8fCqypWgvC4OSSZEdz6aab_U2Q4LNzytC1rzFUS2Tw7Gh8pHMCS4uluPSwyJK2j3ls6HtFr1g8bJgNYek0Gt7qQvg9zFkSg0HQEz64y64zIds_MISegUwTQ997iKUcTLo2YucFV1cr0BPsZ1GcML1l7907clsR2ks9uow2554Noknm6p2wbqq1aPgg9_FhAp9FODp9DUsJFphYoKLCioRl9PmpOqaHoDJ0PuFro0VA_lcUMi7vhStNal_gbpJlAsnUgOzgobBJRsVa9ea3OjbbIWEtqSIA1prY2rmSxIwBzxocWgxm0X409O0uTFeaBD5x7uuntKlfUntRhwNvYGAr3Rv_ZDMoQcRKOwx-cQ7nrzDUhDxKl5-mSen_Ax0UZ7N55DOOyOx1qO_JRrFkcwXqb9YgTaSuiuIIRX3_eEX8Yr2qRO1R5y79JzmOw-pE98cOr-w3l26QB5CsxpscZAC8aNitF0yx8MuW8GAv9RAKT4RXr6BDZtR8nplSW_y-AofBYqwlbbxTz2ZEMBOMhht0Gn7HiARmGZGee3iB12GyH9ZFbNJz5sRxTm_0e3hqyDxbCLjVJ9tAqf7IugK-RpjtDszrDIi5HE_CEFPV6GhBR8pLMWt1GsH5DL6tObBZZK74vi21feipS27MgAW7iLJRt86iXL-4s0EEs0Hfjo3oJx_ljoRNBhGTbWx9lTxANBDW_AXVFgLw55MdRJSodetusrE0_vK_QviZHaQomYA1ZjYpCBzXWhfrpS_dtRrYabpCUgHEiiv87Vmuofx-qzt6_uysdeL1DNHDrNazcC1QaGE9C9OVn_8KEetVzrVQzE57EQyOoR4p-6NNEM98WkLIjj7Yp26SHdhN8H_3HIhFRpZOSYrGd4rcBmL-aXnBv-674K9c7e1bziHmlpb1QjPYKk5sK2HTpBqc9NSE3KZfM3b_gmBjlHawfpWDYH7eANvfISLJQmjPYLvX67QQtfJS_7SId7jXl0GeTvqGDQ3YKcspylDUHpCudw1bT9VyZS5e3JiwvUnDOvNCxNpN34PeuvhWigslxRLQXlZAQPiSxp-0ZRisguLMjcUuD0RW78OOkr_yNwFhGQZo-V9glFGPFdihEEx0_KR2jZvbwQPBRynBBXi_HVybEKkCH-9Nrj7ocCRZkjCtE2-JlCIeLRWrFSTrv4lGffRXG4gt5GbxHwjdLiuI8p8acrk6UCAuA4_ONWzMsjSqWBf57-jxaCChYmzAfBtzMso5Qy5tCjGbo2_Zy2Fl-xL7MgQUKaqqQREJQghJIXGyTC2oBfK1z3i4nNvDmcGlAuIvCQOF588dSOt1OCndnabFZxdaxK3TPYc-41TS3xK6p_VmDRXBV8SIi8joYM9A5iBf67rp9DEBemmjC4nPB8vxIYl0K-6qJThVPkQOsunZKJrThiM-xmIx876Cp-2cqgtopkf_ZOW6AaoagrJmgC-sZtCyPrqp2AyMKtqngKEbSnZ5lCWVc4eVq_ri2GRtirG6p1EloN3djqxR2wsj-xZ2C1NuYFgB8HS2iw_PGrK6JsQtZzlGgRkPynWno07fZU0w8UElHvdfqEmhDR2uZLYsq9iBNUuVdOAApqUattFpfl2Olu1RwX4YbUl2rXWb25-sVBMbeOWGETpGp-ZNKK0HOVOnt4iYWi1hVTlcKDOgpJgffU_PyBEo2Ad7qeFnBKynzJiz7MLHLsXj-ZMzDhirQUjBfN7tQowetMz4EAyzorjYvU3cTxxKgHETWYN7X47AA=="
+    },
+    {
+     "id": "msg_0da40fc805890cf0006ac51722cd1c87d284d187c09f33f45c",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Omega\",\"model_line\":\"De Ville Prestige Co-Axial 39.5\",\"dial_color\":\"silver\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"bezel\":\"smooth polished steel\",\"case_size_mm\":39.5,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"424.13.40.20.02.001\",\"424.10.40.20.02.001\",\"424.13.40.20.02.002\"],\"confidence\":0.94}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791301411.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 14630,
+    "input_tokens_details": {
+     "cache_write_tokens": 1365,
+     "cached_tokens": 4723
+    },
+    "output_tokens": 854,
+    "output_tokens_details": {
+     "reasoning_tokens": 730
+    },
+    "total_tokens": 15484
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 1
+    }
+   }
+  },
+  "search_requests": 1,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

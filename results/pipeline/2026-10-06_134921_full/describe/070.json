@@ -1,0 +1,36 @@
+{
+ "row_id": 70,
+ "image_file": "070_cartier_calibre-de-cartier-diver.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Cartier",
+   "model_line": "Calibre de Cartier Diver 42",
+   "dial_color": "black",
+   "case_material": "stainless-steel",
+   "bracelet_material": "rubber",
+   "bezel": "black ceramic dive bezel with luminous markers",
+   "case_size_mm": 42.0,
+   "complications": [
+    "date",
+    "small-seconds"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "W7100056",
+    "W7100057",
+    "W7100055"
+   ],
+   "confidence": 0.5
+  },
+  "raw_text": "{\"brand\":\"Cartier\",\"model_line\":\"Calibre de Cartier Diver 42\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"rubber\",\"bezel\":\"black ceramic dive bezel with luminous markers\",\"case_size_mm\":42,\"complications\":[\"date\",\"small-seconds\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"W7100056\",\"W7100057\",\"W7100055\"],\"confidence\":0.5}",
+  "input_tokens": 2926,
+  "output_tokens": 154,
+  "cost_usd": 0.007392,
+  "elapsed_s": 2.456,
+  "started_at": "2026-10-06T13:50:21.913656+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

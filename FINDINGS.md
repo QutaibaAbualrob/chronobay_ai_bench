@@ -123,6 +123,404 @@ and ceramic (3 of 3) are recognised, so the scores are not just from guessing th
 
 Conclusion: reading WatchBase through search results can cross-check a known reference. It does not identify a watch, it is not licensed, and it is weakest on the one field a photo cannot give (case size).
 
+### Serper: four ways to use it (proposed 2026-10-06, none tested)
+
+The guide test (section 5) showed that the model's misses are real-looking references with the
+wrong digits. A search can supply references that exist. Four ways to use Serper for that, most
+promising first:
+
+| # | Idea | How it works | Main risk |
+|---|---|---|---|
+| 1 | **Find candidates by search** (revised below) | First version: the model describes the watch (brand, model line, dial colour, metal, bracelet). Code searches WatchBase with that description. The result titles are real watches with their references; the model picks among them by looking at the photo again. | The right watch is not in the results, or two results cannot be told apart from their titles. |
+| 2 | **Check the model's own candidates** | Search each reference the model proposes and compare the page title (model line, metal, dial, strap) with what the model saw. | Most wrong answers are real neighbouring references, so an existence check alone catches little. |
+| 3 | **Google Lens on the seller's photo** | Serper's Lens endpoint does reverse image search from an image URL. | Needs the photo at a public URL. The benchmark photos came from the web, so they flatter any image search. |
+| 4 | **Catch new releases** | Search is current; the models are not (watch 46). | Covered by ideas 1 and 2 if they work. |
+
+**Reported** (third-party review, not Serper's own page): $50 buys 50,000 credits, so $0.001 a
+search; a Lens query costs 3 credits; credits expire six months after purchase. **Read** on
+serper.dev: 2,500 free queries on signup, no card.
+
+**Measured, small probe for idea 1** (2026-10-06, four photos DeepSeek missed, general web search
+limited to watchbase.com, not Serper, description written from the answer key):
+
+| Row | Expected | In the top ten? | Note |
+|---:|---|---|---|
+| 46 | `WBP1190.BZ0003` | Yes, third | Title reads "Titanium / Grey / Bracelet". All seven models missed this watch. |
+| 72 | `IW501701` | Yes, as `IW5017-01` | `IW5017-02` has the same title words ("Stainless Steel / Silver"), so titles alone do not separate them. |
+| 65 | `WSSA0022` | No | No steel Santos-Dumont on a strap came back. WatchBase's Cartier coverage is thin (also seen above). |
+| 95 | `4600E/000A-B442` | No | The query said "blue dial", which was a guess; it returned `…-B487`, the blue one. The answer key has no dial colour. |
+
+What the probe shows: the idea can find a watch the models cannot recall; a search built on the
+dial colour fails when that one field is wrong; titles do not always separate candidates; and
+coverage differs by brand. Four photos is not a measurement.
+
+### Idea 1 revised: shortlist by model line (2026-10-06, proposed, not built)
+
+The first version of idea 1 searched with the model's full description and asked the model for
+one answer. Three checks, all free, changed the design.
+
+**Measured, from saved answers** (latest full run per model, 99 photos, row 12 left out):
+
+| Model | Exact | Misses | Misses with the right brand and model line | Misses within two characters |
+|---|---:|---:|---:|---:|
+| Claude Opus 5.5 | 79 | 20 | 20 | 11 |
+| Claude Sonnet 5.5 (no thinking) | 72 | 27 | 27 | 18 |
+| GPT-6.1 Sol (low) | 70 | 29 | 29 | 21 |
+| DeepSeek Flash | 44 | 55 | 46 | 25 |
+
+- A strong model that misses the reference has still named the right brand and model line
+  every time. "Model line" is scored at collection level (Portugieser, Santos-Dumont), so this
+  is an upper bound on what a lookup by line can reach.
+- Two models' own answers already contain the right reference more often than one: Opus or
+  Sonnet 89 of 99, Sonnet or Sol 87, all three 91.
+- Eight photos were missed by all three strong models: rows 46, 54, 66, 76, 82, 86, 88, 91. On
+  three of them (82, 88, 91) every model gave a look-alike the answer key accepts. Row 76 is
+  the suspected answer-key error; row 46 is the 2026 release.
+- 26 answer-key rows list look-alikes a photo cannot separate. One exact answer is not always
+  possible from a photo; a short list is.
+
+**Measured, second probe** (general web search, not Serper):
+
+| Query | Result |
+|---|---|
+| Vacheron line name plus the model part of the reference (`FiftySix Self-Winding 4600E/000A`), WatchBase only | `…-B442` (Silver) first and `…-B487` (Blue) second. The titles separate them by dial colour. The first probe missed this watch because it searched on a guessed colour. |
+| `WSSA0022` on WatchBase | Not there, even by exact reference. |
+| `WSSA0022` on the open web | Nine results with the reference in the title (Chrono24, WatchCharts, retailers). |
+
+**Read:** WatchCharts `/search/watch` needs a brand and a reference and matches part of a
+reference. It cannot search by name, so it can list the siblings of a guessed reference but
+cannot start from a description.
+
+**The revised design:**
+
+1. One model call returns brand, model line, up to three candidate references, and what is
+   visible (dial colour, metal, bracelet, size, complications).
+2. Code searches by **model line and the model part of the guessed reference**, the two fields
+   that are reliable. Dial colour and the other attributes are not put in the query.
+3. Two sources, merged: WatchBase pages and the open web. References are read out of the
+   result titles with the patterns already in `vision_test.py`.
+4. Code ranks the candidates by how many visible attributes agree. One wrong attribute lowers
+   a candidate; it does not remove it. The model's own guesses always stay in the list.
+5. The result is a list of at most three. One clear leader is `auto_filled`; otherwise
+   `choose_one`, which the seller settles with a tap. A second model call looks at the photo
+   again only when code cannot rank the list.
+
+**The test, in two stages:**
+
+- **Stage 0, no model calls.** Replay the saved answers: search with each model's saved line
+  name and guess, and count how often the right reference is among the candidates, alone and
+  together with the model's own guess. Also search each answer-key reference on both sources
+  for coverage. About 500 to 700 of Serper's 2,500 free credits. If the right reference is
+  not in the candidates clearly more often than the model's own guess is right, stop.
+- **Stage 1, paid.** One run with the new prompt, then ranking, then the second call where
+  needed. The pipeline's answer is compared with the model's own first guess from the same
+  call, so run-to-run noise does not blur the result.
+
+Search responses are third-party content. They are saved locally and kept out of git.
+
+### Idea 1, stage 0 result (2026-10-06)
+
+**Measured.** `search_study.py` replayed the saved answers of four models through Serper: 618
+searches, 618 credits, no model call. Full tables are in `results/SEARCH_STUDY.md`, rebuilt for
+free by `search_study.py report`. Serper's account page showed 1,882 of the 2,500 free credits
+left afterwards.
+
+Is the right reference available to pick from? 99 photos, row 12 left out:
+
+| Right reference is the model's own answer, or among the candidates from | Opus 5.5 | Sonnet 5.5 | Sol | DeepSeek |
+|---|---:|---:|---:|---:|
+| nothing else (the model's own answer) | 79 | 72 | 70 | 44 |
+| WatchBase, searched by model line | 88 | 83 | 79 | 56 |
+| WatchBase, by model line and by the model part of the reference | 88 | 87 | 81 | 59 |
+| the open web only | 89 | 84 | 83 | 65 |
+| **all three searches** | **91** | **92** | **87** | **72** |
+| all three, also counting accepted look-alikes | 93 | 94 | 89 | 76 |
+
+- **The stop rule did not trigger.** The right reference is available 12 to 28 more times in 99
+  than the model's own answer is right. Of Sonnet's 27 misses, search has the right reference
+  for 20; of Opus's 20, for 12.
+- **This is a ceiling, not an accuracy.** The merged list has a median of 11 candidates. With
+  the model's own answer first and the rest in an order that uses nothing from the photo, the
+  right reference is within the first three for Opus 87, Sonnet 82, Sol 79, DeepSeek 55, and
+  within the first five for 88, 87, 80, 62. Choosing from the list is stage 1.
+- **No single search is enough.** The open web adds the most on its own; WatchBase adds
+  watches the open web search missed, and the reverse. On Sonnet's 27 misses the right
+  reference came from the line search 11 times, the guess search 7, the open web 12, and from
+  at least one of them 20.
+- **Watch 46**, the 2026 release every model missed, is found by the WatchBase line search.
+- **A weak model gains most and still ends lowest.** DeepSeek names the wrong brand or model
+  line too often for the searches to start in the right place.
+
+WatchBase coverage of the 100 answer-key references:
+
+| | References |
+|---|---:|
+| The watch's own page came back | 92 |
+| Named on another WatchBase page only | 2 (`AB0138211B1A1`, `AB01761A1K1X1`) |
+| Not on WatchBase | 6 (Cartier `WSSA0018`, `WSSA0022`, `WSPA0009`, `WSPN0007`, `WSTA0065`; JLC `Q4138420`) |
+
+All eight without a page of their own were found on the open web by brand and reference
+(brand sites, Chrono24, retailers). Cartier is WatchBase's weak brand: 5 of 10.
+
+Things learned about the tools:
+
+- A free Serper account returns at most 10 results per search; asking for 20 is refused
+  ("Query pattern not allowed for free accounts").
+- Google shortens page titles, so the metal, dial and strap in a WatchBase title are often cut
+  off. The snippet carries more.
+- Brand sites put the reference in the page title or address, so an open web search by model
+  line returns references without WatchBase.
+- Serper's page-reading endpoint was not used. WatchBase refuses automated reading of its
+  pages, and that block was left alone.
+
+Limits: one day's Google results; top 10 only; the model lines come from the benchmark prompt,
+which asks for one reference and no dial colour; the search forms were fixed in advance and not
+tuned; a list that contains the right reference is not an answer.
+
+### Idea 1, stage 1 result (2026-10-06, incomplete: 91 of 100 photos)
+
+**Measured.** `pipeline_study.py` ran the whole flow with Claude Sonnet 5.5, thinking off (run
+`2026-10-06_134921_full`): a describing call (brand, model line, dial colour, metal, bracelet,
+bezel, size, complications, up to three references), three searches, a ranking in code, and a
+choosing call that sees the photo again with up to 15 candidates. Full tables are in
+`results/PIPELINE_STUDY.md`, rebuilt for free by `pipeline_study.py report`.
+
+**The run is incomplete.** The Anthropic account ran out of credit after 91 choosing calls.
+Rows 92 to 100, nine of the ten Vacheron Constantin photos, have a description and searches
+but no choosing call. Everything below is on the 91 photos that have both calls. Model cost so
+far: $2.11 (the estimate given before the run was $1.80 to $2.00). 149 new searches were
+needed; 1,738 Serper credits were left.
+
+| Out of 91 photos | Exact reference |
+|---|---:|
+| Model's own first reference (the baseline, from the same call) | 61 |
+| Pipeline's first choice | 61 |
+| Model's own references, up to three, contain it | 72 |
+| Pipeline's three choices contain it | 82 |
+| It was available at all: own references or any search | 85 |
+
+- **The first choice did not improve.** The choosing call changed the model's own first
+  reference on 29 photos: 11 became right and 11 that were right became wrong. A common loss:
+  the brand's current catalogue reference comes back with a full description and wins over an
+  older reference that was right (`WSSA0022` lost to `WSSA0085`).
+- **The list of three improved.** The right reference is among the pipeline's three choices
+  on 82 photos, against 72 for the model's own three.
+- **No signal yet reaches the auto-fill mark.** The choosing call said it had a clear leader on
+  24 photos and was right on 21 (88%). The proposed mark is 95%, on at least 70% of uploads.
+- **Ranking in code did not beat the model's own order.** With the corrected code, the first
+  candidate in the code order is right 60 times and the first three contain it 74 times.
+  Catalogue lines read from search results are often cut short or name colours differently
+  from what is seen (Omega's "black" Railmaster dial reads as brown in the photo), and a Rolex
+  reference does not fix the dial at all.
+- **The describing call keeps the photo-visible fields.** Brand 91 of 91, movement 90, case
+  material 89, bracelet 88. Dial colour, size and complications cannot be scored: the answer
+  key has no column for them.
+- **Cost and speed.** $0.022 per photo for both calls, three searches, 6.2 seconds of model
+  time at the median.
+
+**A fault in the run.** On 9 of the 91 photos the list shown to the choosing call had the
+model's own first reference, which was right, moved down from first place. The code that reads
+catalogue lines from snippets had attached lines to the wrong watch. The choosing call still
+chose right on 7 of the 9; rows 19 and 42 are among the 11 losses. The code is corrected; the
+choosing calls were not repeated.
+
+**Worked out afterwards from the saved answers** (free; needs fresh photos to confirm):
+
+| Way of combining the two calls | First choice right | Right one within three |
+|---|---:|---:|
+| Model's own first reference, then the choosing call's picks | 61 | 83 |
+| The same, with the choosing call's pick first when it says clear leader | 63 | 83 |
+
+With four options the right reference is there 84 times, with five 85.
+
+**Also measured:** on the 90 photos both runs share, the benchmark prompt gave 64 right first
+references and the new prompt 61, and the first reference was the same in only 64. Sonnet with
+thinking off also varies from run to run.
+
+**Inferred.** Search plus a second look is worth it for a tap-to-choose list (about 9 in 10
+within three options on these photos) and not for filling the reference in unasked. The design
+should treat `choose_one` as the normal outcome until a signal for `auto_filled` is found.
+
+The Sonnet run was left at 91 photos: on 2026-10-06 Qutaiba chose to run DeepSeek instead of
+finishing it.
+
+### Idea 1, stage 1 on DeepSeek Flash (2026-10-06, all 100 photos)
+
+**Measured.** The same flow with DeepSeek Flash at its default settings (run
+`2026-10-06_140619_full`), with the corrected ranking code. DeepSeek cannot be held to a schema
+by its API, so the shape of the answer is asked for in the prompt, as in its benchmark runs.
+Model cost $0.51; 115 new searches; 1,623 Serper credits left. Both runs side by side are in
+`results/PIPELINE_STUDY.md`.
+
+| | DeepSeek, 100 photos | DeepSeek, same 91 photos as Sonnet | Sonnet, 91 photos |
+|---|---:|---:|---:|
+| Model's own first reference | 55 | 48 | 61 |
+| Pipeline's first choice | 57 | 50 | 61 |
+| Model's own references, up to three, contain it | 66 | 58 | 72 |
+| Pipeline's three choices contain it | 72 | 63 | 82 |
+| It was available at all | 78 | 69 | 85 |
+| Model cost per photo, both calls | $0.0051 | | $0.0221 |
+| Model time per photo, both calls, median | 27.1 s | | 6.2 s |
+
+- **Same pattern, smaller gain.** The first choice moves from 55 to 57 (6 gained, 4 lost). The
+  list of three moves from 66 to 72. For Sonnet the list gained 10 on 91 photos.
+- **DeepSeek with the whole flow is below Sonnet with none of it.** On the same 91 photos its
+  three choices contain the right reference 63 times; Sonnet's own three references, with no
+  search and no second call, contain it 72 times.
+- **Its ceiling is lower.** The right reference was available for 78 photos. A search that
+  starts from a wrong brand, model line or guess does not reach the watch.
+- **It is a quarter of the price and a quarter of the speed.** The slowest 5% of photos took
+  107 seconds or more of model time.
+- **Its second call often fails.** DeepSeek reasons before answering and ran out of output on
+  both attempts for 11 choosing calls and 2 describing calls. For those photos the code order
+  stands. The failed calls cost $0.11 of the $0.51.
+- **Auto-fill is further away.** It said it had a clear leader on 28 photos and was right on 21
+  (75%).
+- **Its first reference was better than in the benchmark.** 55 here, against 48 and 44 in its
+  two benchmark runs. The prompt here asks for a description before the reference. DeepSeek
+  also varies by several points between runs, so this is not proof that the prompt helps.
+
+### Idea 5: let the model search for itself (OpenAI web search), proposed 2026-10-06, not tested
+
+Qutaiba asked about running OpenAI's built-in web search with GPT-6 Luna. One call would take
+the photo, search the web on its own and answer, in place of Serper, the ranking code and the
+second call.
+
+**Read** (OpenAI's pricing page, web search guide and the `gpt-6-luna` model page, 2026-10-06):
+
+- `gpt-6-luna` supports the `web_search` tool, image input and structured outputs. Its
+  reasoning effort can be none, low, medium (the default), high, xhigh or max.
+- The tool costs $10.00 per 1,000 search calls, and the text it retrieves is billed as input
+  tokens at the model's rate. Luna's tokens cost $0.10 per million in and $0.50 out.
+- Searches can be limited to chosen sites (`filters.allowed_domains`, up to 100). The amount of
+  text read per search can be set (`search_context_size`). The sources can be returned.
+
+**Reported** (search summary, not opened): the request takes `max_tool_calls`, a cap on
+built-in tool calls. A forum thread title says the cap was ignored in some cases. In the
+ten-photo run below the cap held.
+
+**Inferred:**
+
+- The search fee sets the cost, not the model. A search is $0.01 here against $0.001 through
+  Serper. Three searches a photo is $0.03, more than Sonnet's whole two-call flow ($0.022) and
+  six times DeepSeek's ($0.005).
+- It differs from the Serper flow in three ways that could help: the model writes its own
+  queries, it can open and read pages instead of ten snippets, and it can search again after
+  seeing results.
+- Nothing is saved between runs. Every re-run pays the fee again, and a result cannot be
+  re-scored against the same search results.
+- Luna alone scored 38 (no thinking) to 52 (extra-high) in the benchmark, the same class as
+  DeepSeek. The DeepSeek run above showed that searching did not lift a weak model to a strong
+  one's level. Whether OpenAI's search does better than snippets is not known.
+
+**Measured on ten photos** (2026-10-06, `websearch_study.py`, run
+`2026-10-06_143916_test-10img`). GPT-6 Luna at its default reasoning effort, web search on with
+a limit of three searches per photo, one call per photo. The ten are the fifth photo of each
+brand, a mix of easy and hard ones. The purpose was to measure the cost.
+
+| | Ten photos |
+|---|---:|
+| First reference right | 9 |
+| Same photos, saved benchmark runs with no search: Luna no thinking / Luna extra-high / DeepSeek / Sonnet | 7 / 5 / 5 / 6 |
+| Searches, as counted by the API | 16 (1.6 a photo) |
+| Search fee at $0.01 | $0.16 |
+| Model tokens | $0.02 |
+| Cost per photo | $0.018 |
+| Time per photo, median and longest | 21 s, 69 s |
+
+- **Cost.** About $1.80 for 100 photos at this rate, and at most about $3.20 if every photo
+  used all three searches.
+- **How the fee is counted.** The response states the number of searches
+  (`tool_usage.web_search.num_requests`). One search held about three queries (50 queries in
+  16 searches), and opening a page was not counted. The limit of three held on every photo.
+- **The answer format can be enforced while searching.** No call failed.
+- **What the search did.** On three photos (rows 25, 55, 95) the model's first query carried a
+  wrong reference and it ended on the right one. On several others it already had the right
+  reference and searched to confirm it. The one miss is row 65: it answered `WSSA0046` for
+  `WSSA0022`, a watch both pipeline runs also lost to a newer Cartier reference.
+- **Ten photos cannot show a gain.** One or two photos either way move the figure by 10 to 20
+  points. The full 100 with search have not been run.
+
+**Measured with search off, all 100 photos** (2026-10-06, run `2026-10-06_144623_nosearch_full`).
+The same model, the same setting and the same list of fields, with no search tool. Both runs
+are side by side in `results/WEBSEARCH_STUDY.md`.
+
+| Luna, default effort, no search | 100 photos |
+|---|---:|
+| First reference right | 55 |
+| Its references, up to three, contain it | 59 |
+| Brand right | 98 |
+| Cost per photo | $0.0007 |
+| Time per photo, median and longest | 12 s, 33 s |
+| Calls that failed | 0 |
+
+- **On the ten photos run both ways, search took Luna from 5 right to 9.** Four photos were
+  right only with search (rows 15, 35, 85, 95) and none only without it. Same model, setting
+  and fields, so on this sample the gain is the search and not the prompt. It is still ten
+  photos.
+- **Luna alone is level with DeepSeek alone, at a third of the cost.** With this prompt and no
+  search both get the first reference right 55 times in 100; Luna costs $0.0007 a photo
+  against $0.0019 for DeepSeek's describing call, and none of its calls failed. On the 91
+  photos the Sonnet run covers: Luna 51, DeepSeek 48, Sonnet 61.
+- **The prompt or the setting matters for Luna too.** 55 here against 38 (no thinking) and 52
+  (extra-high) with the benchmark prompt. The setting differs as well as the prompt, so the
+  two effects cannot be separated.
+- **Luna rarely offers alternatives.** It gave one reference on 62 photos, two on 31 and three
+  on 7, so its list of three is hardly better than its first answer.
+- **Its confidence is not a signal.** It was 0.8 or more on 62 photos and right on 40 of them.
+- **With search it gives one answer, not a list.** In the ten-photo search run Luna gave a
+  single reference on all ten photos. The search improves that one answer: on three of the
+  four photos it gained, the queries show the search correcting a wrong reference or supplying
+  one (rows 35, 85, 95); on row 15 its first query already held the right reference, so that
+  one may be run-to-run variation. When the single answer is wrong (row 65) the seller has no
+  right option to tap. The prompt asks for a second or third reference "only for versions you
+  cannot rule out", which is part of why.
+
+**Measured with three references always asked for** (2026-10-06 and 2026-10-07). Qutaiba chose
+to change the prompt so that the model always returns its best match and the two nearest
+alternatives, and to run it with search off and with search on. Same model and setting.
+
+| Luna, default effort, three references always | Search off, 100 photos | Search off, the 90 answered | Search on, 90 photos |
+|---|---:|---:|---:|
+| First reference right | 50 | 46 | 61 |
+| Right one within its three | 63 | 58 | 70 |
+| Searches per photo | | | 2.0 |
+| Cost per photo | $0.0008 | | $0.0218 |
+| Time per photo, median | 14 s | | 27 s |
+
+- **The search run is incomplete: 90 of 100 photos.** Rows 67, 78, 83, 88, 89, 91, 92, 95, 98
+  and 100 have no answer. It stopped twice. On 2026-10-06 it ended after 82 photos with no
+  error, most likely because the session that started it closed. It was continued on
+  2026-10-07 and stopped when the OpenAI account ran out of credit. `websearch_study.py run
+  --resume results\websearch\2026-10-06_153949_full --yes` finishes it for about $0.25.
+- **Search lifts Luna's first answer by about 15 photos in 90.** 21 photos are right only with
+  search and 6 only without it. The list of three gains 12.
+- **Search also breaks some answers.** On six photos (rows 25, 40, 45, 55, 75, 87) the first
+  reference was right without search and wrong with it.
+- **Luna with search is still below Sonnet with none.** On the 85 photos that both this run and
+  the Sonnet pipeline run cover:
+
+  | 85 shared photos | First right | Right one within three |
+  |---|---:|---:|
+  | Luna, search off | 42 | 54 |
+  | Luna, search on | 56 | 65 |
+  | Sonnet alone (its describing call) | 60 | 70 |
+  | Sonnet with the Serper pipeline | 59 | 76 |
+  | DeepSeek with the Serper pipeline | 48 | 58 |
+
+- **It is not cheap.** $0.022 a photo, the same as Sonnet's whole two-call pipeline and twice
+  Sonnet's describing call alone ($0.011). The search fee is $1.76 of the $1.97 spent. Asking
+  for alternatives raised the searching from 1.6 to 2.0 a photo.
+- **It is slow.** 27 seconds a photo at the median, 136 at the longest.
+- **Its confidence is still not a signal.** With search it was 0.9 or more on 66 photos and
+  right on 52.
+- **The account's rate limit matters.** OpenAI allows this account 200,000 tokens a minute for
+  Luna. A search call carries 15,000 to 30,000 tokens of retrieved text, so three calls at
+  once were refused 21 times. Two at once, with waits, went through.
+- **Asking for three always may cost a little on the first answer.** With search off the first
+  reference was right 55 times with the earlier wording and 50 with this one. One run each, so
+  this may be noise.
+
 ## 5. Reference formats
 
 **Read, Reported and Measured.** The reference structure of 19 brands is written up in
@@ -348,6 +746,10 @@ At 1,000 credits a day, shared with the price features: 1,000 listings checking 
 6. Whether the model plus a WatchCharts check beats the model alone (79, 72, 70).
 7. Whether the reference guide helps a strong model. It was tested once, on DeepSeek Flash
    only, and showed no clear gain (section 5).
+8. What signal can decide `auto_filled`. Stage 1 (section 4) showed a second call does not
+   improve the first choice and that its own "clear leader" flag is right 88% of the time.
+9. Whether the stage 1 result holds on a second run, on Opus, and on real seller photos. It is
+   one incomplete run on 91 web photos.
 
 ## 11. Next tests, cheapest first
 
@@ -360,3 +762,11 @@ At 1,000 credits a day, shared with the price features: 1,000 listings checking 
 | Re-run row 12 on every model | A few cents | Fixes the stale row |
 | 30 to 50 phone photos of real watches through the pipeline | $1 to $3 per model | Unknown 5 |
 | Guided run on a strong model, scored on the 80 rows the guide does not print | $1 to $3 | Unknown 7 |
+| Serper idea 1, stage 0 | Done 2026-10-06: 618 Serper credits | Section 4, "Idea 1, stage 0 result" |
+| Serper idea 1, stage 1 | Run 2026-10-06, stopped at 91 of 100: $2.11 and 149 Serper credits | Section 4, "Idea 1, stage 1 result" |
+| Serper idea 1, stage 1 on DeepSeek Flash | Done 2026-10-06: $0.51 and 115 Serper credits | Section 4, "Idea 1, stage 1 on DeepSeek Flash" |
+| Finish the Sonnet run: nine choosing calls are missing (`pipeline_study.py run --resume`) | About $0.10; needs credit on the Anthropic account. Not pursued: Qutaiba chose DeepSeek instead | Completes that run |
+| Repeat the Sonnet choosing step on all 100 with the corrected candidate order | About $1.10 | Whether the fault in that run cost anything |
+| The pipeline on Opus, or a second pass on Sonnet | About $5 on Opus (estimated from its benchmark cost), about $2.20 on Sonnet | Unknown 9 |
+| Serper idea 2: search the strong models' saved answers and compare titles with the photo attributes | About 300 Serper credits | How many wrong references a title check catches |
+| Serper idea 3: Lens on the 100 photos, original and altered | 300 Serper credits, and the photos at a public URL | Whether reverse image search finds the watch |

@@ -1,0 +1,32 @@
+{
+ "row_id": 10,
+ "image_file": "010_rolex_submariner-no-date.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_line": "Submariner (no date) 41",
+   "dial_color": "black",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "black ceramic dive bezel",
+   "case_size_mm": 41.0,
+   "complications": [],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "124060",
+    "114060"
+   ],
+   "confidence": 0.9
+  },
+  "raw_text": "{\"brand\":\"Rolex\",\"model_line\":\"Submariner (no date) 41\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"black ceramic dive bezel\",\"case_size_mm\":41,\"complications\":[],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"124060\",\"114060\"],\"confidence\":0.9}",
+  "input_tokens": 5537,
+  "output_tokens": 126,
+  "cost_usd": 0.012334,
+  "elapsed_s": 3.263,
+  "started_at": "2026-10-06T13:49:32.247723+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

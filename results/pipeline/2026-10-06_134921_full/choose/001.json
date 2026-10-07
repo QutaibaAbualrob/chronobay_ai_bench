@@ -1,0 +1,33 @@
+{
+ "row_id": 1,
+ "candidates": [
+  "126610LN",
+  "124060",
+  "126610LV",
+  "126619LB",
+  "126613LB",
+  "126613LN",
+  "126618LB"
+ ],
+ "result": {
+  "parsed": {
+   "reason": "The watch is a stainless steel Submariner with a black Cerachrom bezel, black dial and a date window at 3 o'clock, which matches 126610LN; the no-date 124060 lacks the date and the other candidates have green or blue bezels or gold.",
+   "ranking": [
+    1,
+    2,
+    3
+   ],
+   "clear_leader": true,
+   "none_fit": false
+  },
+  "raw_text": "{\"reason\":\"The watch is a stainless steel Submariner with a black Cerachrom bezel, black dial and a date window at 3 o'clock, which matches 126610LN; the no-date 124060 lacks the date and the other candidates have green or blue bezels or gold.\",\"ranking\":[1,2,3],\"clear_leader\":true,\"none_fit\":false}",
+  "input_tokens": 6521,
+  "output_tokens": 119,
+  "cost_usd": 0.014232,
+  "elapsed_s": 4.77,
+  "started_at": "2026-10-06T13:52:17.545287+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

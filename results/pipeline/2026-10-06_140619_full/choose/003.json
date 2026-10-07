@@ -1,0 +1,39 @@
+{
+ "row_id": 3,
+ "candidates": [
+  "126710BLRO",
+  "126710BLNR",
+  "126710GRNR",
+  "126719BLRO",
+  "126729VTNR",
+  "126680",
+  "126720VTNR",
+  "126710",
+  "126715CHNR",
+  "126718GRNR",
+  "126711CHNR",
+  "126711"
+ ],
+ "result": {
+  "parsed": {
+   "reason": "The photo shows a black-dial GMT-Master II with the red-and-blue 'Pepsi' ceramic bezel on a five-link Jubilee bracelet in steel, which is the configuration of the steel 126710BLRO rather than the white-gold Pepsi (126719BLRO, normally on an Oyster bracelet).",
+   "ranking": [
+    1,
+    4,
+    8
+   ],
+   "clear_leader": true,
+   "none_fit": false
+  },
+  "raw_text": "{\"reason\": \"The photo shows a black-dial GMT-Master II with the red-and-blue 'Pepsi' ceramic bezel on a five-link Jubilee bracelet in steel, which is the configuration of the steel 126710BLRO rather than the white-gold Pepsi (126719BLRO, normally on an Oyster bracelet).\", \"ranking\": [1, 4, 8], \"clear_leader\": true, \"none_fit\": false}",
+  "input_tokens": 2289,
+  "output_tokens": 319,
+  "cost_usd": 0.00053475,
+  "elapsed_s": 2.937,
+  "started_at": "2026-10-06T14:14:11.145901+00:00",
+  "error": null,
+  "attempts": 1,
+  "tidied": false,
+  "served_model": "deepseek-flash"
+ }
+}

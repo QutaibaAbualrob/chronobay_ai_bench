@@ -1,0 +1,286 @@
+{
+ "row_id": 16,
+ "image_file": "016_omega_seamaster-300-heritage.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Omega",
+   "model_line": "Seamaster 300 41mm",
+   "dial_color": "black",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "bezel": "Black ceramic dive bezel with vintage-style markers",
+   "case_size_mm": 41.0,
+   "complications": [],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "234.32.41.21.01.001",
+    "234.30.41.21.01.001",
+    "233.32.41.21.01.001"
+   ],
+   "confidence": 0.94
+  },
+  "raw_text": "{\"brand\":\"Omega\",\"model_line\":\"Seamaster 300 41mm\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"bezel\":\"Black ceramic dive bezel with vintage-style markers\",\"case_size_mm\":41,\"complications\":[],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"234.32.41.21.01.001\",\"234.30.41.21.01.001\",\"233.32.41.21.01.001\"],\"confidence\":0.94}",
+  "input_tokens": 3843,
+  "output_tokens": 388,
+  "cached_input_tokens": 0,
+  "reasoning_tokens": 266,
+  "token_cost_usd": 0.0005782999999999999,
+  "searches": 0,
+  "page_opens": 0,
+  "tool_calls": 0,
+  "queries": [],
+  "source_domains": [],
+  "elapsed_s": 7.444,
+  "started_at": "2026-10-06T15:31:23.418444+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_0e154f19da1ac1da006ac5144bfd7087d2b1a9f41f7d8a94bd",
+   "access_programs": null,
+   "created_at": 1791300684.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0e154f19da1ac1da006ac5144ecc5887d2a9691e2c09ec260e",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRRT4ueu34kH_kPlnNp5JVDp7893u4Q5H3h_Ut_b5W_ACurW2wQ47MG1ad6FgN1rq38PIyscgOS6vTpNc1VFtkgHD0JlFLsbHpWAipNRni36LgKlLVWdl9q4mKVNfNoEinw_8hoR_Isvl5Q9l6hlzjFUaYMmHXY-Th-GmFhbV9DKr5jJo3bK6w2ouG5XwFnEw-PpSjZl47qBPnO0es4VUtqqg4UthZQ8_FiFwUtRl7Oh7QDe9A-Hi-ScdHahtpEe2ho_ArjKRkLVbkzWIKKd6ajnnj6N5etFVK_a3H1SaGxhEE68j0akOp8HqLm0MBjfnK5MsLn6WXrlCi3C8ncW1fFIBsrdr9ed42oGwX7Od6xFfiBTOg9IWA5mmrH63s0-VT3QxtqX1xenL9mJyABMOUeMd0dl8P5eINXmAj9xCdnSYxWHOvGntH_yVfQhd-YxoVcA01KqxfxRpMs6x93I4s377aZWP7sygcxVoPvh3S3bilGleJcwGcLlIvskE9Pe7sW-8WBZeNeioR3eaU4Jyk8bxPNoFZnsP-eYgxXISQvU3sQaWqWN40qJmD00iQysf11BBAHnGPxkin4SZY5-zAMYS9gxCVdvCREhki6fyeSe2hzZc75f7-mBaahYhjvc-j6H7-m-MR2571F_1uqMroRZUVLi4u2EMkcLOUOLZ7aCl9qq8qsc32kcgzTMZ9Gm7YBzAC1vjgAKV_rMJ-zO8aENEmDvMHC0Npqql9LcgXLJQh3PG4puY1OpZyxpwo13UOm05-YHANhtVxxJ7oZNNJQTQo177SAnXaf7qqlVIPsswHQtSBLMtdMq7oaxTGGiJuWwP7cYqoOPSyMb7xGdmZpIqktaHp_8VYyGqBgWj1za0UgTxJyz5JkvVExD-J3BH172ugnvu2k_JOOSFRi5I-GWQch7OEyEa3zBY2a4NNwcFXHO7Ell3lOA4pBuqQ6ORtMGbF4PwixdFS9yClXjNxyLd5x_6-lgyqHwtVj5QAmbm_lNaRMibqPay2pGlrUkt2Xf9c9fq7toVJZofUZqq-xcra-hZvdFPh00MCtObBiaYZqUyRKpLKrq3KPG4FhRgC7tBKISocnOHxP214859DU2i28V-Zp9uTD78Utyc41AtMILmXRxvONuTg07nBxfl0JPIL5bKVdH_k4d7j7bfGOk1wdZSM2D8VcR8CQSKY0-PY4jMh_e833VrnMcEgJT3bq9R5bSDxpDP-JwtMs8bRg_UuMz1Tk-drOChUkZvWRQEFtItM8s5iZ3wOTMTIODSCAMS7fwAmjBY10mlJg9L3hx7AaN_MhHN1-P89zCGFfP6cpowbw_LnD6kQrlCHHxxyq0w8-kvaPlg2vSuoT_IXs4OEY1sIuKEE4ep0Zx1ZD_gy0JjYeOBDKalcRwpsyVpCwN8ZqxeErznxQD5wEujAnKhFeO9SksygynghebAo2gPEF_2fzSFd-oJpfVrD6lCTMT0EWmL2syy3wSQL2IBjcJfMlsSgab_bDp3H23VHBBcBn2dS4BfoyY8tj1Chqj_Xz4y8_GIW7Vxwfp5DjO-CzyL6lCV0RciJHWSGQ5rzpA_7QFc5mijIyni3eke-KBxZiZnYc19zXmuQE_fcYXfjc-ir8WvOFhmeYjmw31i6YXQ3B2UAyYmJQgUdJyFEAPawG7iXwD3fL71vxEK0WLhQzWb0mEv74r7T2APEtkcPw7ujGS1SyMfQqlQeqifGaWSAXc0XrX88C5QAAmLjelmfyIuhQ_mfJ-v-0ebiuyvLyy4mnvwPcvXVU_OGD1oWChv0h1EfQrwFHtXHm6oi82M_5kgiSyArSAk7uVYnIaisJQKfS5k-z47HITQyWf6nXpycHL8wYNKfXqLNccASlMkhUgcnhu7_JfzgO-TSA5BfNvpFqMS_KUMuD1bfmQTue7q5r0nzx6Xs48LGfR47oPHjKeM2rabxKNPNJcR184MOW0n8InuTLGiPR4VHt0fbyy1XWffkK6WWyhTAg622nKXK02FzOMf1LdpgajVgoNXgTOJn-tLZttp2M9Ff0gIrmxOdFN72uovuOS4jKkBk8sWBUVX8Kt5K22DNm2cDdYvQ8E5OSnj38jhhDCszSu0OwksKvZgkSLW124pkGz_64vuM6fe_CEII6QKvwU0DLVJ59fou9S5aKD94wuTBrAAb4qZstApOfDLpGA7P-R_QFvPFlweJXaudcbfsTXKODv7-jMlFY__jh11ZaTtaOa_H3D1mwQlkF9QhLKxz9JckIU9ESVjdoPWf84TXGbGcR3Yat46O09qn_8E8VehYy4hpzITsIZoGx6wnIS8ooqgZZsg1xo6mTzSw1GnZHhPkfynmOkzqxEgYt75SdysyOr26VYjAT1skOxzYn5_JbWTfvjfgITlyAEOnvm9zEsONG3Fcyf0njOBt9EDu9ujrJCiXjCWTilmDi6mRmpIDQCGoQdu3_R9Q=="
+    },
+    {
+     "id": "msg_0e154f19da1ac1da006ac51451e43487d2acd84ec74f50232b",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Omega\",\"model_line\":\"Seamaster 300 41mm\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"bezel\":\"Black ceramic dive bezel with vintage-style markers\",\"case_size_mm\":41,\"complications\":[],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"234.32.41.21.01.001\",\"234.30.41.21.01.001\",\"233.32.41.21.01.001\"],\"confidence\":0.94}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791300690.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 3843,
+    "input_tokens_details": {
+     "cache_write_tokens": 3840,
+     "cached_tokens": 0
+    },
+    "output_tokens": 388,
+    "output_tokens_details": {
+     "reasoning_tokens": 266
+    },
+    "total_tokens": 4231
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "search_requests": 0,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

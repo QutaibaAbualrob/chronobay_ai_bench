@@ -1,0 +1,36 @@
+{
+ "row_id": 61,
+ "image_file": "061_cartier_santos-de-cartier-large.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Cartier",
+   "model_line": "Santos de Cartier Large",
+   "dial_color": "silver",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "polished steel with exposed screws",
+   "case_size_mm": 40.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "WSSA0018",
+    "WSSA0009",
+    "WSSA0029"
+   ],
+   "confidence": 0.7
+  },
+  "raw_text": "{\"brand\": \"Cartier\", \"model_line\": \"Santos de Cartier Large\", \"dial_color\": \"silver\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"bezel\": \"polished steel with exposed screws\", \"case_size_mm\": 40, \"complications\": [\"date\"], \"movement\": \"automatic\", \"printed_reference\": \"\", \"references\": [\"WSSA0018\", \"WSSA0009\", \"WSSA0029\"], \"confidence\": 0.7}",
+  "input_tokens": 1721,
+  "output_tokens": 990,
+  "cost_usd": 0.000776886,
+  "elapsed_s": 6.348,
+  "started_at": "2026-10-06T14:09:55.000135+00:00",
+  "error": null,
+  "attempts": 1,
+  "tidied": false,
+  "served_model": "deepseek-flash"
+ }
+}

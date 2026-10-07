@@ -1,0 +1,296 @@
+{
+ "row_id": 70,
+ "image_file": "070_cartier_calibre-de-cartier-diver.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Cartier",
+   "model_line": "Calibre de Cartier Diver 42",
+   "dial_color": "black",
+   "case_material": "stainless-steel",
+   "bracelet_material": "rubber",
+   "bezel": "black unidirectional dive bezel",
+   "case_size_mm": 42.0,
+   "complications": [
+    "date",
+    "small-seconds"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "W7100056",
+    "W7100057",
+    "W7100054"
+   ],
+   "confidence": 0.86
+  },
+  "raw_text": "{\"brand\":\"Cartier\",\"model_line\":\"Calibre de Cartier Diver 42\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"rubber\",\"bezel\":\"black unidirectional dive bezel\",\"case_size_mm\":42,\"complications\":[\"date\",\"small-seconds\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"W7100056\",\"W7100057\",\"W7100054\"],\"confidence\":0.86}",
+  "input_tokens": 1814,
+  "output_tokens": 972,
+  "cached_input_tokens": 0,
+  "reasoning_tokens": 867,
+  "token_cost_usd": 0.0006674,
+  "searches": 0,
+  "page_opens": 0,
+  "tool_calls": 0,
+  "queries": [],
+  "source_domains": [],
+  "elapsed_s": 14.639,
+  "started_at": "2026-10-06T15:35:38.796194+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_049395a195bc9057006ac5154b5d5c87d2aa3aab53c80250b7",
+   "access_programs": null,
+   "created_at": 1791300939.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_049395a195bc9057006ac5154e113487d283c2e690b84112e6",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRVZgV_tfAIvce6UWgt3U4gW3QJrH_vIphwjJY8hIItjofZ2h8-f27Waihy7aczjGOKXdZtC6csZ9fHY4V_m0V8vaJE4lqesy-tbRyYp1SWo8yprNjjpWqtBYAYxNJigWQiRGHQgUM_FXUOoF4SA3HyikdduZACNHBrlXGvf7ka_62VSHitxC8JouC7J92vpK-vieoLzNfUOMscLgk6IDfUOKksnEpRBlmLvaeiZm_cohTYLKxA0orc8ykJSplo7rs1nKdPs9DASxqyAiZlMkzKTFUEiY5_XqyydcUG3wVSVasjBme7p5wkF2cHmorxJ7e9ys9eeqiMAqdqPjDTTPrUK8UlVDpBkz3sAoG7heFKmPL8BYynQ7eQHL71_uSE3ibn9ltrWwhaj0yjRY8wWdaou_wMDKysqzUmiFvYtlbSldwgPaP97bdnVBRKMOuPCSlGQth5oObzqmlVy287C7fHX2zISf658gqKvWQ-tGuSDTXOLuO7UQNQOcX-pMAKqQNkeENjZQg3D9KD1kYT_8fhNqRu7LS4UfysF0qdSSbjrdDkB2Qo1vyfA4qbURanfklcVki4TYzKhTPOrgD_fXpnk-2bGGhsFuaCY2jwQRH5saV-uezZANpAFLM2wVGZeHIdvGzwwPby1Jdm6u3GFa7CG9G5udTbA0zusE_bo8WrFMFFRZJxufk6u-a779UZ0LVzAUgzIEkzrALconn91sOuqOY26AxMvjbEcgFFssaP4k4wY5h3Uv2i5r-UgR5WYYqH4GfRgjMgvGiDLSS00HMGxK21O9W9Cq-04OFqcbMpNMjYO9Q6RlOcGMZvIpDqukon_cC4Aoycexq2ewKW9sA-jy2Kcxxxz02KalUu2hHDHPJ3w9V5grhFx2dJ96JSr5HhPfm5VG1srnmzS9RxW2CnmFpfaF6nN_90WCulgaI_LEuSBTqubFuDinYdDmavmMlr9Xyxk75RKuP8bAy82r1ojGXjOfmpzoVer5abM_hExivb8ItFccoiNyriLCw_Sykisz5U5w4tDtoi74AiPwzjPKjMtNgPSYgQ0ToXEV-zd3nVrKRcTyrCzsVmfNpcAfcQrB5wb6_cFQldI2we0w019aorRkKjf3gndxlBstIpcSfmRG-dIom8VGasCuwlDKe4YfSJQ6IFAn91-xY_YzXl1POnp02Z3dkSdHz89ExijMuLEOt_AXUKbiT3BuFsCcfCFjU5kQ9R_S9F6aHCZQ5fIAMmQVHI4F0B-Us-_zTAAr7Ejkx4JHMY7CaspxpHlIGsGEBB86IrGotHLx919gnV3_uWa7-8h4HXBY2ilbKmiDKOCcuZaPgEIg7GZ5OFrsx2dz78hC9J6e-_2EqQT01FKY40HnoLTs2gJN_5RjHY8Z6vTorI5yuSV5g48B6v8_e-ZqVY5VTH0vIAv6eMmtUhibsAftRpXn35kBFQ9jfQa9w7jOmny7iSzL50qh9BrRHKWltWgimTsg40drhIuHhYd-geJueV5XHdNSAX00oLGwDTb-sEiddLbvkZev21ICdJkJkwKWtnYCN7wLvoIiBXD_jesMVigAc_KNf7buwWqsOoVm6BhwdDVnahVAeupWuksroa4DG_wMGZmFAzEHU58kQIssi-3XokRogEDSojTzvhSbkptpZG-1MwiCQrFKJF_EbiTofV3H9GFcLrhbJKrxLVliCk-bQlcSE4MSNzG1YtFhRhwZq3hsOHAtzBBukhd2fj8DZdwaaSJjy8ziW0agrN7JUy962TVNruvCGugYO96UJRg1aV6OM5eR9tCG5MVnYszLn6u7c5pv5C5N4XG1lFCRKJiGdTWoEEzMHZvPhyLHmM2bZNyTNUNBKaYc62BdahGbda42KL4w6P7V7lBOiwCOj78BlAk_8U2VOC9CK2N1imq0_CjYzIXXxzNPDaFyxzxgdIGKYoGM-sJBUrMO2CMeuPS7TrVbPV7GHKl-u6esS7rfZGmuZBAtq5OnVyFLO25xtZ9GUEzrYH_aFeqW9wPCvoKSjbigopnTgbFeDzX-fT-OX4xhGaOSzisdaDMNJ6aElymulkQZIexOw2MgmPgFzPN9qouWN8K_r8VUapa7zhdk7351egtBnVp5mkvTnoN2xNXzWsNvUVSWlG_Z_xlFwqoLUQEDR-XNhP5C_Qlq4J6lKh1Bkpfuh0rta3B-yBdFM6ok5egc3OBA7jjG6Fm0-g81Fz7-NNr5QrZPvpfqKhU4xn2zFL-VZfX5DixtOykcsHsI_Pk-1jSytDYGPTkA-svVGRyWshVX2tbPD9ZS0LlT3m9k4r8fCENtTuvSjrkVOJCzMxg5Q1ztBelqlYzJmqAU0sPIoHMXvF-ZOQZpA24OO2PBNF0vBG4D97MV21OxUIpyvvfBSlBCVXonwSX2pxib79Bhitgo6KBN2mmTsQAHRCRDoCmCnvb0kzirKABRBcvfFr4dpeZEEgcw2ObZQQJyNeGEtxokjEUeEhL5KqIpK9UtZddon3JqQXAqJamMOyTutyk48AzUe1CbNP2Dd5TMofREkaBHy-YrbSq-1xGrcMgeVWauyOs55EAS6oJU2Ex1GB2H7oJSf4K-mIvpkvZm8Z5o0bwpefqgRKC5NPzkGvtfS2PqTWNyVrUvX6HNWt4tNHFIHHB8ZDgG5RMVTFFvAHKXRbDOz2TFVUXCx8mNNZFKlg2HZBFozQX8ahUyk66HEKRcc9aH9-N_Fu1Yo2w4_J91ivJ10IQ8c49pezUJis1nF-YA_IO4vkxpMB0xZjmG7fWTbkQqkGbrtKzib-oM1KeqtrFxoi1rsx8fhE0M8MuzMoPqH-2Cej5OyyPBBpkuBoYvEpWFXM4ZsCDFjuRI4igKlZ_4KUp2wh2RnphuUHHhdGHtXU0QRRkNW8qZpc_4i9-BJOB37o-W9ekicSuHlo6Xd80I7JHkWvoqXtV7RN5V2gy0aYrDwIWV16b4fhF8MzZmmZUrRr95cpNDSFGkS-pmOEKDseK0AOezJ8uzocf5OYcwrK5KTS0cChewMkHZ654HZUSjEHqbndtdBqOdL0LJrCv4lyIOBb0oqkqoDusrhuO5Pw_esh-IAh10M1JBIe2LnoaYLQ4Dj_LhWuaQCmq6zIF8PuHnuJxPN1pNz1_UpucF5BO5pIkbe2xWyLuAv_hBdQOjdS0drc9Nlmo0CUR3HfgWBzpPG6QcRqF7klPVoq90EvOXmfq5Txgbv0i4fd5uWjJ4jJuwNDyr3iNIL7nI0f0V5zIxiQbOQHODBuHDooH2Xr6DHaRHMM9xjiuHghWuXxDAlj3p5RieK8xF1kowk580f6PZ4AK85-6TEcr0cGZxig_nmJxPXm5L_JPb1ZgpkhKvUS02nJeIuJ34K5RgKBDA2pskft1NpO36lbT9e7XW6UsdXbJOeSQeMXI0ZfuiZ2Ykxcl01CeOeR4_c08Fk8beOB8rIMTt2e1RayX5ZaUIdtLviiFgwdziADJWploMKOM8OpRRKlsSQKAPg-c1G5nRz3eT84IB1VoVn1AGj_9s9N7ij2KM1y4wDQ-vMH2d_cEofPPINCwdQwo8tPYNLuAXEs2jKFewbKQkiUAk1kZ7haufHk4IEZ3WfRuiUEseldVQoC6TCWYZK2w66CK_hvtzlo4ZfEMdmwlxCaM88rJ-482pomRj38ejqmDLGePcdeOQU9AiJVmZ5E5_n5ZC1MQ4D5mLgjXAW_VTcRsIBDaYQ3Rgh_uXFf7K6d7m0QTmt554Fr4dN_QCOziafwJLnoVTiuUVE9XPsWJ05aBweg7dU8qA4c-lJoZDv39XNqxYvI3Ex1r6hYbR93ntx_hHX-09NsXk-P3eiEozGtZ-jn1w_W3as8G54wHBw_LbYmEOjpaO_ulrUjN9jSvkvYcBNve4M4XaNoFD8ipDvHwUB-Mq3jQ88VxZtyIDxN0x8d_A8GNY6xU_HUxZf7dIrSWbvJIJXiAjez_SqrO8FglN2-UAac3ouVc51_BXn_4Rm7DAr1WkX8qS513hb6fQYr3J49_zzfSchJoMldgtsZeDfA44PbQsChdKE-U_au7IK2-cG6Mxf8uRnM-dPL4ElQ6P1O8AVtgFZQzfREjMxjsxmctJGq1KnHo"
+    },
+    {
+     "id": "rs_049395a195bc9057006ac51554432887d290442c308fe4944a",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRVZ3oFiCjXEQ52wMeG4_9aQbyz6ruonxyd8mpiTH8WhXbMDk4_1jERywJ4SotFXftwIC5-j-vfkyxfwNKxL9cbCrKRm5iWN7SUkKWdxaBOE1d_V6NR4zN4TcvgxkQaMtdpWWeJPHj7OghU6alVMz4zatl2oBdvfY4hkhJ2Q7GqbH055GgiQXI1G_ApbB5PZanHhUS09m9t2xsCiFNbWZblITkrFU08SuvIIuB1UQQmAfVV-gBQNwdpxs2wXPemoU3OahlPGMgVScF_EfV-oWYiuAC39yN5wy3_4r_uccrTg2oeicCw7R_pgHhl2TFvxL2i8yMbLHxEyC5QIooM6GXwt_WN3JDq62pYchRSGdfyyYftxAL5bqr88eKfZbgCfNT1jtMkqmgt3w2Jr-pR4U8G2AmZuuiJqifUtwmZZOOWm7MSlRbPyXFKtW_HbyvUuMys7ZluHM7e9UBhaI2F_5ZfcNkqlQNlez8QXSceYLF3iAs3C5Xfc_o2xqycMhiBLR1G-ihqx9KU0E7POtU32eAgj90HCLLx1UBvglwm1S4mDMt0-TvgXNJMdb44F6jhKzHZVbUlh8CECP-wYg3_-MSgJ4rin3wpzE_MZ3H2ajtywX6wP1u2QqhN4yC7E_VJ2SKpuDzGt6K0WGjCLyU8yQNPRuxnDIH8j1GyutVIU9cMtmK0UUWJZEHvnePxc0y0H1irwbairaQOT795-6vJzgZEkGYu96fE61_h9vFfvAxVpbbeHaOVFbRuYfVWdxGXECNeygMwTITKMdXDK1fXZJGtV9XEO-Xk3x6F0Z7cjpE6npeecuJGcz0uVbhr5G48vROvZhX0CZEQufon7ZilUVXp_-3kmJnviToWWq69viGWxL724YNg8OIfVF1rD23dcfLYeyvgZk_32XTioKAyNf-32KYDfB4UPr8blPrMd3U5oXMW-l-X5tNWmLK4KodKpYvE4tNIZ-tMA1VcuMO0PfLuqG7MbvdRlS7K9aB8P1hcm_8QZBp1IHEvTR91u0TgSDqVybp0ZiZBcBXd6uLL2sC6TkKgcIdzr3IO6VIUaaDULTS9JRziTnfoOY70kSpD_ezWSbouE0w3maKebyTY0WGMmS1hIjsctIw2grARB-vJLRTdaTEgZNjJr326wRinxOnoFjEB1jK4IHE4SSNXK3P2l2aTcGkxAOTQfbBwLRtBl40l5xQMXGgF8fRKFe2B9OF4XHgxufSiqDYvhIM-iabRVKey8md3Jd-SwMehYzTQOvCELFH0IprGyq3NC_GNFrbnwWVjRbNxF9sHBgbEfhCQdZsCup8TV9wBbvh735QeB5B2VXXDZxfFqXF0EdikW3Mi5Va1ARvZhezHI2wRy5duvZ_dWCfHfpSoxc_0q_MCMcOzfQyoiL8hCmIVx6dntkkd9CCAEsEjwL6XG3135Fa7PLPctK5GCuq1rZxOW5kmRdwcPm9yp-82qeLmXuCnEInFtqGPoIgoUBBsLuYNjkS_VkRfYdIPI02-1X5I_OA7Ag6SESiJ9oXqxRZppPvPf1V0U-j3WJdx78WbS4f1wUL-XHPD7HvL4KTLBdXKBqlqaG-vqsPV5_BmZTL3FuzmCDul70vZIEc3jfHSAnTp09HX89bUA92YlR1ZXOLpdr97PSkkU-Z0pBVbEiEshLBl1C9seCN6QLkXp2KlMN27fgGBQaKj39jbI42LKIpAv6a8kTgluMQcVSQ_NhrwN_iOxWDzG5DOPlK8UTlQApyQr0cs0S76wKRDyKcKHz_DT6xJGTSqzUJuHg-FeDJhF-5n7K4u9Nbr_cb5ceUAnVooFDzMnPMRt9U4_37HAE_tyQyPGmdoY3ARxN_g_fH-53pb2kICNxZoMuFX0SEr4gket4RiPFVWR25C_8L0QXBGGanaz0ks46US34yJR_8Q7ytn4WHLB4n9GCMByNd8qE-NG83Sr84AcqbuayULV0TLuiH3ePTB7Ltsf6PoV2nDrus9EIbeAMxcsR5fQFLDnI4USfFFvfyRhRaYOC-iVz9CungzCPfhO72I5rFMGVAmNXpS636rl9v5fCemWi00qE-vM-xoIBgwIP7_mwKQuKeNDTNSzeP_4O1rOwJTbA6ybj7psdPA3g9bNDHx-H6rvRFV6rEiGMIMzChS11N2XIikCeryKF7H-7OZLz0zBqhrlEYZ6ViBwFIzm22W6SjJyW3hasBl-iS_bdAu8S4bzKCZBG-EifPiiyxrDMhm29IpBVEyJKGCES2v46vOHTU4MaoZtyctwMYjgB6OY4FE1jqy2atTy9-8ySiu2hkxhd2m9RiwutX4wAJ1lEWZf8L-0b6WP5y6GUB3zAao9VGaWs8Oyipb7pMfO4H_ClrTkhUxDk9KJS5VHK3cOBPLon1BJyZdCHbVL4bTvTh-8cr1cFzBheUJLpJVOA0turKLe7KC29uff9N2ZvtTVfKMA6pVUcjo1_CWVz9X6MoPxnU4Guu6JCr9MJ_Gd-6j3jkSgAhobNzxrR0lLx-ejgXkDlYy8ntY7PxAcBqA0RMiKWj6mAhzkc9lMIRR228xRj-OVvROw-s7WMl2N0C3PxGi3tLuxXSa7ffflldv-V31bZHynTmr1cqsIyFXuPekTJps8sK-kRhzPhn4VO7Xu-udFxA3j4rb_Sl-fgWusyznbr2g4evTDJwyotoS2Art-7TmU318hQukfghVOanEybDGVbyC5IKhMuiTh-aXvskSDIpsPL1zb0WbWiJEA9Cncg3eE25a0MN9Z-KtqFqXyHns-FyaKkF-k6m4vQ8Dlp7CrP3Y5yUTzCOUClI-v-EcknxIBlnFkGYnVwZESSba8vhihzxK5NAngc__SiWPamtcYBuEfOX3b2sw33CSo_ZPSYpfdU3N3HbUtMRf0n9-CFj3EwNiqUqGVatqMNRYF4BilDMUc6LW6DjjHqRbuV0MoG4t69IgC0zmSQd6ztq-Zw2JzRFPSsRrbECwBv7Ut7WfRX009wYWrKKNtRqgW22XWxzYrKg8Zw9N4KZC6eGcwbCP9ImYKTsd-FSeCucCMIox2v33sboE3EzqZJUIgZfcITlIMTYeSw-rCwRQZ5c8VV249oqPAfoXOPiGaNKwZBFY2Qoor7H1FAnNfKBMvPznqWeanEh8t0lP-zRS-"
+    },
+    {
+     "id": "msg_049395a195bc9057006ac515587d3887d2a510311d496e9485",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Cartier\",\"model_line\":\"Calibre de Cartier Diver 42\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"rubber\",\"bezel\":\"black unidirectional dive bezel\",\"case_size_mm\":42,\"complications\":[\"date\",\"small-seconds\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"W7100056\",\"W7100057\",\"W7100054\"],\"confidence\":0.86}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791300953.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 1814,
+    "input_tokens_details": {
+     "cache_write_tokens": 1811,
+     "cached_tokens": 0
+    },
+    "output_tokens": 972,
+    "output_tokens_details": {
+     "reasoning_tokens": 867
+    },
+    "total_tokens": 2786
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "search_requests": 0,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

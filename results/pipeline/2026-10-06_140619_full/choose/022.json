@@ -1,0 +1,39 @@
+{
+ "row_id": 22,
+ "candidates": [
+  "5167A-001",
+  "5165A-001",
+  "5167A-012",
+  "5167A-014",
+  "5968G-001",
+  "5072G-001",
+  "5168G-010",
+  "7007G-010",
+  "5167/1A-001",
+  "5167A-010",
+  "5072R-001",
+  "5167R-001"
+ ],
+ "result": {
+  "parsed": {
+   "reason": "The watch has a black embossed-grid dial with applied luminous Arabic numerals, silver hands, a date at 3 and a black rubber strap on a steel case, with no red accents (ruling out 5167A-012) and no bracelet (ruling out 5167/1A-001) or green dial (5167A-010), matching the standard 5167A-001.",
+   "ranking": [
+    1,
+    4,
+    3
+   ],
+   "clear_leader": true,
+   "none_fit": false
+  },
+  "raw_text": "{\"reason\": \"The watch has a black embossed-grid dial with applied luminous Arabic numerals, silver hands, a date at 3 and a black rubber strap on a steel case, with no red accents (ruling out 5167A-012) and no bracelet (ruling out 5167/1A-001) or green dial (5167A-010), matching the standard 5167A-001.\", \"ranking\": [1, 4, 3], \"clear_leader\": true, \"none_fit\": false}",
+  "input_tokens": 2326,
+  "output_tokens": 500,
+  "cost_usd": 0.0006489,
+  "elapsed_s": 4.734,
+  "started_at": "2026-10-06T14:15:54.242778+00:00",
+  "error": null,
+  "attempts": 1,
+  "tidied": false,
+  "served_model": "deepseek-flash"
+ }
+}

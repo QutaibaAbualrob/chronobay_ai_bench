@@ -1,0 +1,508 @@
+{
+ "row_id": 3,
+ "image_file": "003_rolex_gmt-master-ii-pepsi.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_line": "GMT-Master II",
+   "dial_color": "black",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "Red-and-blue ceramic 24-hour GMT bezel",
+   "case_size_mm": 40.0,
+   "complications": [
+    "date",
+    "gmt"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "126710BLRO",
+    "116719BLRO",
+    "16710"
+   ],
+   "confidence": 0.98
+  },
+  "raw_text": "{\"brand\":\"Rolex\",\"model_line\":\"GMT-Master II\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"Red-and-blue ceramic 24-hour GMT bezel\",\"case_size_mm\":40,\"complications\":[\"date\",\"gmt\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"126710BLRO\",\"116719BLRO\",\"16710\"],\"confidence\":0.98}",
+  "input_tokens": 16769,
+  "output_tokens": 651,
+  "cached_input_tokens": 4723,
+  "reasoning_tokens": 551,
+  "token_cost_usd": 0.00157733,
+  "searches": 1,
+  "page_opens": 0,
+  "tool_calls": 1,
+  "queries": [
+   "site:rolex.com watches gmt-master-ii 126710BLRO Jubilee 40 mm",
+   "Rolex GMT-Master II 126710BLRO Pepsi Jubilee reference WatchBase",
+   "Rolex GMT Master II Pepsi reference 116719BLRO 16710 official reference"
+  ],
+  "source_domains": [
+   "rolexopedia.net",
+   "naplesrolex.com",
+   "watch-ref.com",
+   "steelandcrown.com",
+   "modacommunities.com",
+   "grailatlas.com",
+   "stockx.com",
+   "bizakandco.com",
+   "hodinkee.com",
+   "assets.rolex.com",
+   "sothebys-com.brightspotcdn.com",
+   "youtube.com",
+   "en.wikipedia.org",
+   "reddit.com",
+   "manuals.plus",
+   "rallyrd.com",
+   "therealreal.com",
+   "es.wikipedia.org",
+   "zh.wikipedia.org",
+   "de.wikipedia.org",
+   "it.wikipedia.org",
+   "t3.com"
+  ],
+  "elapsed_s": 13.437,
+  "started_at": "2026-10-06T15:40:00.678234+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_023903c09e9bc0bf006ac51651fdbc87d28b29128ee88db71d",
+   "access_programs": null,
+   "created_at": 1791301202.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_023903c09e9bc0bf006ac51652bc2487d2a8dd681c09a4d2ab",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRZe77nw7c_DHuKkVkDeI8yykWcHcU92JgR_KJBcoIGvK8AJsilW1y4_8DZfh401tUHFlJ2y9P5T0h3CXSozyElf3chYvvONNswLBUfjbXxuPt60xedpd0N71koOZhd9DTf24wvnBdt97SPndpurCsO2zot8zbG-byyOsZ3ilwFYhEWTpMvXJ4-aEyv89U0YnOUtsw8RQXbDPEgu9g2BY0T8dwuog2H8YMBHk8vbMB_E8k4roIuZ8lZskCJsHdrd1LG2Cx2jz2hVTH7jlQfz6HEZOpSYxRhJWUI-1jAFZh_XD22_XHcon90B5K6MvJ9_2XYe4wYHwN8cZlEiR2Y-GxDK9fkNnAbuIxj13n9JJUkD6x3nFjtbaquok1wpMcgYapHLWuNgxDgu1TQwxNl-3u17vI317HbsujHdudYJHnWXDq5N0qWFL5OTDhdbuWDRcD5DBkZcIY3MaY_2J0somh8H97WPi_dRrgvOApySJPHEnDi08NNdiYkuw0UHRZ4K4Ts7VLdzESqYg8xhrcw3-kiy2fpHcK80pHGXS0vdOeUig2khEDPoYT2gj2iI2gYHaIM-nwt-JQZLgJoO1gsKQUUoRPrSWRH7DQLQ4D4_rudvG9JcjK6Ddoc2MIm2EgQL3nNCmbeQas8QAGEJMnwxdc6g4WS0Oeq9WpgFPP3aqM26zWmlcrBkFaMOgtJczTTfiMURiYQKeVEdiMrQq7nRh5I3l_vCD0YJBJphMrLfb5ILINRrkkqxVfTxqjOjlbwxwfra4eOYGzLqZmHy2cEp84yllX7RRjlKVeSpsWqb3zNL32SEazlLsrk1diAc8pwC2oLv2O_oAu5q1IY2kIGY1ekzxjwavg3fsBWCokqxeqJ7_ilh7lbxRmMAM8g_VskJtpeSbVf4hmbcSRiKZFfX6o0tIrbAHGRpAj__nQDYBidOWwKhqOPHF4leVsRGi670epLi05gaFOkiPlglr4eKtSjzjCvHywgTuP4wfz8JiGSoLNb7IvTMlAvwQ-COmS0DmGFHlml-5t-r221aeFUGqNtW9loRCELeb0SAhy26gxACXxGDefleqf7xtUcokk-RaCPZOcPPRyhGeoTiQXTfvnEHpY3mytTdtZ-LeWr9Q-pEQ6FF-9wl1_vXmWTV3_2e33h4qRU97dxRwr7nF8dz3fUxleH8x-WXRaC3_naBo-xNWrjSXQZm5Xwy60fJoMz2BO0XovM7OmFpPhJKoslo8a2M_HdgXS3PlZ-ziPhTO0yZMJrXDmyBy15wgap9MZUF974F8O389Llru7v21kIOZT9q8BcTsS-SzXXXIc_zGtLJMcWcEOw2TG-TWSQ2kdU9eTGgu_aPyxmwLofr0FT0DyChFacb09WpxS28NgUtyA0_HC1bHUOQfkNZ2pmW4i8T2oergMBzOItGf8vXfa6Fa0ll-OxMPFlUPZGxD6Js0JPpSLVBDjd4LcKn58Phpq4yTfXvEXjlx8bpPA_SqfbX1K3Yzim3wP-9KAq_An0wlIfDHX8oxa1z4TwpB664PheenDy3DnNIgKmz53MrEN7N8aNjgoavkDe7RuKUDJfHQwCIs0PrdUqDH3s-3skFK07eWza_hmxBiGElbAglUkpzSSXQEYmdSIZrGpHmVYTLESfv9CM4KRi-gR3gu5tpFXQEY1H-k4V5jIjF9m8LHAdHyumfai9VIA9rT_LTFQNLuNTKT3-3E1ad8iIkQfPUzIHycK5J2rAJMD1mVeWtFA49ZRUlwstbo07iNU6bcGzSAlb2_D6TvdIC6cR5uRrKwfgo6BJNFkKMaIjRM5fQL-Kv4czGlgZU59DwbLCB-tOhpUQkAvq1lQ-Fencq-H2QVS4_UvClTXIUVkoW9iOF4RC5Tdz2zHMYbCg4iXGbzEFOk4z_qRBtxNg1yK01erJRgBmzSp47BbrfaP1ooeRTqvIJcwM8Lb_aAesK4VKM7nu3jLbj14YzLcVz2exeuI1LB2CIhhfvqwQXGcbGac4qEj_zEWQR2GWotS44JVAywyrzBY5yGY5f8a171ufanKtTrzCdVOjK7yjNWjFs_TKTbslw7wXLgq85XFhTIUmla69Uhr-PjQbh9FCCkcsUm1fDclx4O2WeG4O06X9euKjZ4NYoN1KyfFva5guaQLltlcZNlf7rHz6DSizvQa4Z1s8zwDO3Ve2odmUNLT1S7CH9mOLLARqTY6OHGMKOx5Lr7f-PYARMu7pPvqvG5bla-6IJy5Qlc7V-rDi9Az7jvFuIJovqRKwOa1J9sZX67yV_qy9ygerKT9w8CxNiT0Lntv9Rqn4BbE3kRL6_4lnxmXpZ52EXwpc7s7Tekl-jII_b0roiW7oWjy7oPnqjK4jw1WJto7hoV-Wt4YxDyv9C9XjsxTsadUd8iA8VxHMb14UwM6MydzT9zrr-i38jIMs8z1y-OpppU2O4rLjg_21OPNP_NKQKl9GIzJlW-Dnb3UE1JactnAg9zWDYdHfJkjAaym3rtyju4Ij1-G6r5h8T6kfTszB0mYe6Yg=="
+    },
+    {
+     "id": "ws_023903c09e9bc0bf006ac5165525e887d2909a3fa23a771a2d",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:rolex.com watches gmt-master-ii 126710BLRO Jubilee 40 mm",
+       "Rolex GMT-Master II 126710BLRO Pepsi Jubilee reference WatchBase",
+       "Rolex GMT Master II Pepsi reference 116719BLRO 16710 official reference"
+      ],
+      "query": "site:rolex.com watches gmt-master-ii 126710BLRO Jubilee 40 mm",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://rolexopedia.net/wiki/Reference%3A126710BLRO"
+       },
+       {
+        "type": "url",
+        "url": "https://naplesrolex.com/models/gmt-master-ii/"
+       },
+       {
+        "type": "url",
+        "url": "https://naplesrolex.com/models/gmt-master-ii/pepsi-naples/"
+       },
+       {
+        "type": "url",
+        "url": "https://watch-ref.com/watch/126710blro-jubilee/"
+       },
+       {
+        "type": "url",
+        "url": "https://steelandcrown.com/journal/rolex-pepsi-guide/"
+       },
+       {
+        "type": "url",
+        "url": "https://rolexopedia.net/wiki/Reference%3Agmt-master-ii-6digit-family"
+       },
+       {
+        "type": "url",
+        "url": "https://www.modacommunities.com/watches/rolex/gmt-master-ii/126710blro"
+       },
+       {
+        "type": "url",
+        "url": "https://grailatlas.com/reference/r-rolex-gmt-pepsi-126710blro"
+       },
+       {
+        "type": "url",
+        "url": "https://stockx.com/news/en-us/in-depth-rolex-gmt-master-ii-126710blro-review/"
+       },
+       {
+        "type": "url",
+        "url": "https://bizakandco.com/blogs/editorial/rolex-pepsi-gmt-master-ii"
+       },
+       {
+        "type": "url",
+        "url": "https://rolexopedia.net/wiki/Reference%3A16710"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hodinkee.com/articles/rolex-gmt-master-reference-points"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/en-us/gmt-master-ii/m126710blro-0001.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://sothebys-com.brightspotcdn.com/4e/a0/c4e2612e4f5f8fe7655d64c93858/ge2204.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=EN1U8A5kJO4"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=OlLxNXOHL1U"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Rolex_GMT_Master_II"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1gw5ib7"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/rolex/comments/l4wnum"
+       },
+       {
+        "type": "url",
+        "url": "https://manuals.plus/m/ee19fc8881d086597a6f939baf0596a1a560e92bd9ace15a2436fe39b5793df7.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://rallyrd.com/wp-content/uploads/2021/05/LOTR_legal_min.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.therealreal.com/products/37236366/appraisal_report"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/bg/gmt-master-ii/m126710grnr-0003.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1f3jy66"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1fk2pe8"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wbfi57/wts_rolex_gmtmaster_ii_pepsi_jubilee_bracelet/"
+       },
+       {
+        "type": "url",
+        "url": "https://es.wikipedia.org/wiki/Rolex_GMT_Master_II"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTime/comments/1en4bpv"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/wo76by"
+       },
+       {
+        "type": "url",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8B%9E%E5%8A%9B%E5%A3%ABGMT_Master_II"
+       },
+       {
+        "type": "url",
+        "url": "https://de.wikipedia.org/wiki/Rolex"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Rolex_GMT-Master"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1jbct35"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/uhjwsi"
+       },
+       {
+        "type": "url",
+        "url": "https://de.wikipedia.org/wiki/Rolex_GMT-Master"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/rolex/comments/14j6eu8"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1cs592t"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1cestn8"
+       },
+       {
+        "type": "url",
+        "url": "https://www.t3.com/luxury/watches/a-holy-grail-model-for-collectors-watchguys-ceo-reveals-the-best-pre-owned-rolex-watches-you-can-buy"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_023903c09e9bc0bf006ac5165b1e2487d281430b76dea4e455",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRZechgJlqX3Ct_0OpPNfyv-IGsQSMTm4Zn4Ft-4YKrTs_H1o2og3GT2aGxTGzCJjyVRfmCKOHOPlyyxwoswU0NziYfn28iDn16Ijsv74FjhB8945dyPbMN_OUUV-0K121OvhunpdzFdAI5gg7t3gLsjlZrI7v-pbXgh88vamhET1u1_nM-mn3zFNxw1R7-w1D21WY_6TScm71IK7RuLCR8rCnn9scw7Jyxf_ASZAU48zq0UZKypvJ4KnjDqY02ZVy4ZAto2Aqr4-UDl1ZNYwnW7hamrHd2kA7mTXUFIb9e5rb6vavXdBV-64F_NraKLPB4otoSbKSoW76hHZD_uKdrapkTihGL7zjI1mAcn92OjYwZiim2Dv8KT9fO_zzkNRQ8Lattr2jhcAJWIU360K4BGIdTH0jbP84GdoejpnzhRSgTcHU1CegYsORVtwDNpQFIWcYbPiLIS2ksMUybVpcYC9a52Fi5aup-y5O6ZSXx3kQTFsF0wYGw__3ikZQitf_5YbtaLSPUj79qDuklDK6P23qAMU36DdtrzvT3nhzDVkyyKm4Aygf4d1Pl5JeCrLK8Uy0iXpcUeTYDDRODx00lvXqUvE_BPSDuUmKgR7cOe9Qryw9k_6ESRb4HkCy0ZOUVSxdp60EvrLn0nzbaDPY28DHwaLeibeRPnPp9VvoNZv7GmZpguYiqXfHyOaYQauQjDKa_DDzyWyjXTqsy44vo0kIcC5dEf8MjDLjwqpQ6h6s8W6OyfzPVxn2rhBHoHjUs-bnEXOoAPpHTGD8G3-mV6xXYoUbRxTxx3FJjnAYWqJhJtqrmpq3hg1SR3GNC3ndyNMyN03MV9tFgUy0RNRNS8muFZYxD2tBM71Vx5oQup0Iow50KPSSFc8nba-EUnjoCLfFxsphXgo1jKtiTnZjOfHyU3VmEUt6tAuUyxHEPRpVvev0OrFGbW0jzFglKIj2YtfOiBiM2UQugdeVPKx0nb8Asdh1LCmZHJheZFQsjPI7IL_q23V5fau8LEs98sC9HhYRQle3S42VaWaY3lWAPZsLoz-fTp7BXLJZK8Q-UBqcvVL6sMscEBWRBxwjg4I5M9DuQbBzhpuZEaRoJWpd6x9DRatu5S5sqT58uuGZbIapOIw9aD1wA-Xcb6a4nHa1m_CB56M4hxBIUVwWIuGuwZPYd1MirusodxgaBuDjGuTBP17Kw1CXMm-9FKWfv-JWGJ6SFU0G3ZohC6ZwKt0s-Zeussg2oD4OMAm27rZxAw6lSS-XWSt4FIW0a1A0ku8N8BM5R7dgmGcK1aIH_pfcd1hUAVQAXCtq5RTeK6h9ffaIvNC5hBvOO3yYfy4q9tLbSlcLhZineEqaS_gjKOIsDDVZBrV-7i57V_mv_YkP7fMXJXkTAhxxqIUTdOdzMIewyZ72RjPZh3D3NUemaDnQlNCasdo2DGetJ12LzKQR3fnVeY3IxJUG33-3nqViGZK0Bgbx0EyNRmfsYnh2vY8xgjlTWRK2oAMx84kFbbWLfX_FAi5ckObtkVCv-wqN5hvFwsjTLrSQhu9KaYtz04wTs_JDmDWnCVK2wFLk6R9ghMlsfhnfmv6h7Eotl-Onysq93p-R5c_L7LScfWy6wS0MmeyJ6XJ0tZ-w5Q5FfXrzWWXwtqeB5m8Hwu30AROYWdrz2imqN5rPkT08Ytkr0cHZBFumuYhzJS6Z5bdmOpJXdmk6qeLW4onRAxyxnEEclerPrrmKYRTzJMkbAA-VkSJE3G9wv6J52iEpA1hi0aKsIoD7tAzncqbG6WsP_AoKBa7dkWVdOUIyX86YDoIXEVFlizXxSlHIDD18qcTgIGAUniWssfQKJ1W2gQS16FuY1bK6knFsGxAHEymUc6T4fwO45H676e9DNtY_C8MOUorkgU6CwfDCvQTjrB6n2J93TCKHcpcc-pk-vseD-Wy4va2Gb6VHX6-D3fGTHDo3aq_QJlZo1qmx1-rjkdzkOi5-5HF42oJvsQH5jYO04sNCVWtaSl--54_xhmlHflRi7Y0job6fRfPFU5OkOS0JYzCIn7FZiweG0bPX0Lq_6s41Nln0OuPYVE9fkA-GuggVqNtmC_JJFxU35if_-4-uP4fItOkAZgSlSCmCPsBnApeL11vIwfxODdAi0t9mPvtB-UaQScbe5N-RQc7Xu72hyb00e3BnCx1fcFtN6pYerJ_BLlCfIoZIXjc066y7jtBS1_Ndk7N5uAKK_KHHrY9US_NWtUGb0hzZAsSuQHsDPVfaweZAZlW82ogS05eogjey9B-6p3AYKJ3NFj6LNek4fkzqQb9pDfAViqngFdEUuzE0tcvsGB3brHSGu_hnMuZxqXtdl30wvyCMIab8mS1rv1M6eZ01vq5GwoO7KApmIsL0iwoq2xLuoN1TSHlxBOrT1bZujz27qdl7jF98qX9YqQqXTQB5x1kH3WsRYZrCp6jhOS7bODGfzf4mJQ4tUFhkmSkZeqkOdOlPamcU-H1O1jckXjaSfERqtrdZ5rKCZoFFc3rj9Fj144T5ZRatljHItP0S1250NwnRQplLKnDWBcJKbd6hN_wJvcQ9JqO2QxlY3qc3bQg8wVYHNJ4Auqh1EEn6xNMfIvItiYpzVmPRAUZYkYOoH8g7Zck9kCvNuRcaJsAIkI85UmUVrAxCoKsDqT4pZhFwJqtTPcWGslvA_bQhzHa_gsLIihvS09379gZsHiVi3Z8A=="
+    },
+    {
+     "id": "msg_023903c09e9bc0bf006ac5165c149887d2a12182e57bcb2be2",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Rolex\",\"model_line\":\"GMT-Master II\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"Red-and-blue ceramic 24-hour GMT bezel\",\"case_size_mm\":40,\"complications\":[\"date\",\"gmt\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"126710BLRO\",\"116719BLRO\",\"16710\"],\"confidence\":0.98}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791301212.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 16769,
+    "input_tokens_details": {
+     "cache_write_tokens": 3495,
+     "cached_tokens": 4723
+    },
+    "output_tokens": 651,
+    "output_tokens_details": {
+     "reasoning_tokens": 551
+    },
+    "total_tokens": 17420
+   },
+   "user": null,
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 1
+    }
+   }
+  },
+  "search_requests": 1,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

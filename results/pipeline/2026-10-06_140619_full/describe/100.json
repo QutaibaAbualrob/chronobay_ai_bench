@@ -1,0 +1,38 @@
+{
+ "row_id": 100,
+ "image_file": "100_vc_fiftysix-complete-calendar.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Vacheron Constantin",
+   "model_line": "Fiftysix Complete Calendar 40",
+   "dial_color": "silver",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "bezel": "smooth polished steel",
+   "case_size_mm": 40.0,
+   "complications": [
+    "date",
+    "day-date",
+    "moonphase"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "4000E/000A-B439",
+    "4000E/000R-B438",
+    "4400E/000A-B437"
+   ],
+   "confidence": 0.78
+  },
+  "raw_text": "{\"brand\": \"Vacheron Constantin\", \"model_line\": \"Fiftysix Complete Calendar 40\", \"dial_color\": \"silver\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"leather\", \"bezel\": \"smooth polished steel\", \"case_size_mm\": 40, \"complications\": [\"date\", \"day-date\", \"moonphase\"], \"movement\": \"automatic\", \"printed_reference\": \"\", \"references\": [\"4000E/000A-B439\", \"4000E/000R-B438\", \"4400E/000A-B437\"], \"confidence\": 0.78}",
+  "input_tokens": 1712,
+  "output_tokens": 840,
+  "cost_usd": 0.000685536,
+  "elapsed_s": 5.897,
+  "started_at": "2026-10-06T14:12:35.457146+00:00",
+  "error": null,
+  "attempts": 1,
+  "tidied": false,
+  "served_model": "deepseek-flash"
+ }
+}

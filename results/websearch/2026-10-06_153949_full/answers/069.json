@@ -1,0 +1,637 @@
+{
+ "row_id": 69,
+ "image_file": "069_cartier_drive-de-cartier.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Cartier",
+   "model_line": "Drive de Cartier 41",
+   "dial_color": "silver",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "bezel": "smooth polished steel bezel",
+   "case_size_mm": 41.0,
+   "complications": [
+    "date",
+    "small-seconds"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "WSNM0004",
+    "WSNM0015",
+    "WSNM0009"
+   ],
+   "confidence": 0.76
+  },
+  "raw_text": "{\"brand\":\"Cartier\",\"model_line\":\"Drive de Cartier 41\",\"dial_color\":\"silver\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"bezel\":\"smooth polished steel bezel\",\"case_size_mm\":41,\"complications\":[\"date\",\"small-seconds\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"WSNM0004\",\"WSNM0015\",\"WSNM0009\"],\"confidence\":0.76}",
+  "input_tokens": 24903,
+  "output_tokens": 967,
+  "cached_input_tokens": 4723,
+  "reasoning_tokens": 866,
+  "token_cost_usd": 0.00254873,
+  "searches": 2,
+  "page_opens": 0,
+  "tool_calls": 2,
+  "queries": [
+   "Cartier Drive de Cartier small seconds date silver dial steel black alligator reference WSNM",
+   "site:cartier.com Drive de Cartier 41 mm small seconds date steel reference",
+   "Cartier Drive de Cartier WSNM0004 WSNM0005 dial silver date small seconds",
+   "Cartier Drive de Cartier WSNM0015 specifications silver dial small seconds reference",
+   "Cartier Drive WSNM0004 WSNM0015 differences reference silver dial",
+   "Cartier Drive de Cartier WSNM0009 black dial reference WSNM0004"
+  ],
+  "source_domains": [
+   "tourneau.com",
+   "grailatlas.com",
+   "reddit.com",
+   "everywatch.com",
+   "chrono24.com",
+   "newportwjl.com",
+   "cjcharles.com",
+   "thewatchcompany.com",
+   "wewatches.com",
+   "prestigetime.com",
+   "swisswatchexpo.com",
+   "1stdibs.com",
+   "therealreal.com",
+   "am-s3-bucket-assets.s3.eu-west-2.amazonaws.com",
+   "noonans.co.uk",
+   "bid.gwsauctions.com",
+   "int.cartier.com",
+   "astagurubucket.s3.ap-south-1.amazonaws.com",
+   "en.wikipedia.org",
+   "sheibanjewelers.com",
+   "watchmaxx.com",
+   "wristcheck.com",
+   "genevawatchco.com",
+   "luxuryhomage.com",
+   "uhren2000.de",
+   "youtube.com",
+   "laurentfinewatches.com",
+   "gulf-insider.com",
+   "electronicsandbooks.com"
+  ],
+  "elapsed_s": 20.558,
+  "started_at": "2026-10-06T16:03:23.670187+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_0d9e522175aea9e9006ac51bcc574087d2b45e20e46f399a5c",
+   "access_programs": null,
+   "created_at": 1791302604.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0d9e522175aea9e9006ac51bcdb32c87d2aa8eda13c70c9618",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRvgfCMH6UhMsoqTeIl723bXxHJhcCeN_wtfa0nuR2OFL6IVsQPj8KXJLJ1Gi0Dq2EQPhYDvNmKfFzYcVDIL0WkL9wOWPFJBhBmmygKKKaef-IfDUiQX2yJxpGOg7EsW_-42ujfOtapgIGq4_1DXTLD2SIKOdkXmkuYajx8pn2EcmzX67DkCYvpQhggKWeLkhT4puD5WLLvm9wO--2rfc-3xwA68TaNldlxe8KhWLxVU-sTjQfvQBi7TGjRLRG3u5LMAQZayDQ3eiyCS-PLoUOz24V0DYRGO2bL0zkWQl0DRiowGsyF0HGUW6XK73bevcbVWyipKKQXdLPIxRxpFHql-bxkbqz83u83jVLUIhSn_kYmJgEFuuuz_Dx0has3h46Mgeq5tXnIY-ZD89D55zmWE0F-HCnWHvDy02aGq8SQPT2CyVgRJbS2BkqjawcffpLjvGOG00zkrfPFvcxkE7208hno3oHrxIeTy0yyzy7F3FIwAvbsOSSCAv65MXghKJG2Zxz-skeVeg1At2KlSX8cCxJUCAauA4VC9vVi-dVgX_rqeKqa1g63N5NJIDs2vWq3iB5XM8EuEPrYdJfvVfZiw-Bi5htsuqkrXPi5SxvhfLKwCUBgm_1EeoNLof0RrsSqUR6SUnD4xOD4yqdzxMVm-PIiXQxtJ40Um0J17zZWfGaIybTKPUhbmy3D6JvzoiMogL5_HdEDTyp0a1HAIfn7S11NNW1ovTTj8Jmxy-v28Gz2sbDq9eOFOWa4t-Ni0oNqofUo1y8uCUp0mmws5-HNyQZ9hFw6m4WoyuEpJGYP5TDTK8Wm6Qvml-eVH1RrvNhMT98lYouBuqwnPkh_j2Q59I206FuiS56Da6CvDyKmmFPMow5V8itSbEBOedTIxi2lIOfVV6rIei6LhJo4dmJR2haiR8q2xOVJeQEcBMHhZOYBj6QShF8gNL7gCWWvHTnF4dLdl8LjUJErFRftjKPlnGXWMi9U4jgo-IYAt0trnzjMJ14fmcka_MwnnD81QzRBDUyyPZH47M-Uf7aqats1x_JuaoBF-B_w6FMvS7yRxp0uK_dXX4lYv5LIV_wtjF70KVMue4RdYQM5V2Sphe-vujwcH5Rd66-SYtTQJAQo7ax5J51G342lRYMbGbmO41AoO7gequd0IGywMGQhjUTAJbFBHnXrk6k9LOt8TRBxVuzRyAUpTYaLK_PwQrx7njrL3qVcBsVed1yA1nSWCeCPrRd52uQerX-ng5SOaZHdeJ17-5rWRnf2_HWOjzmzvhwW6BnjZocmlOjlXAEWr1lzGOql5xZvwHDh8kHd7pVCUioJyAfHxYcm3StnF5sJR8BBP4Geyt2dRZzR_R5bMQLx6FX3Mk4W2Zp1swHgxj55X0PAoiUsctI4xdCcvIAUdQuNFl0crwLvbjC_1uCirYCGSELn4ruGqC_G7xFBs-iL-o2iuw_6qkUWMKsF8pjV3lqSQBokh9SqztmS8-xAh7OUob9nhwB3hgeqWDbTpGfjYGuvj5AXzmt8sppcHm5SvhQgc097ueBL4BIym0qm3YfFTgmZsG6RVn2cnbXAUvHTYswWoPW3pSQEcnstWNVksfqRlvMDMZuwe9tsXkEtRqzri6fsdjqP_h-Xj0gAMo6iwtNHoh-f0u1hS2ZzgLSJ1MHia6E-i6vZfxSr8XiT7RN0G9vASAjwUAvLfEkCoL0IQfouefeT0Brj7HsxvEXt7RPl40UQ9iVLsoJxyT1VaI8ZUkA=="
+    },
+    {
+     "id": "ws_0d9e522175aea9e9006ac51bcf090487d28adaf3ba5c6c0b93",
+     "action": {
+      "type": "search",
+      "queries": [
+       "Cartier Drive de Cartier small seconds date silver dial steel black alligator reference WSNM",
+       "site:cartier.com Drive de Cartier 41 mm small seconds date steel reference",
+       "Cartier Drive de Cartier WSNM0004 WSNM0005 dial silver date small seconds"
+      ],
+      "query": "Cartier Drive de Cartier small seconds date silver dial steel black alligator reference WSNM",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.tourneau.com/watches/cartier/drive-de-cartier-wsnm0015-CAR0190021.html"
+       },
+       {
+        "type": "url",
+        "url": "https://grailatlas.com/reference/r-cartier-drive"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vz95xq/wts_cartier_drive_collection_4_full_sets/"
+       },
+       {
+        "type": "url",
+        "url": "https://everywatch.com/cartier/drive-de-cartier/wsnm0004/watch-32934902"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/cartier/ref-wsnm0004.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.newportwjl.com/watch-database/cartier/wsnm0004"
+       },
+       {
+        "type": "url",
+        "url": "https://www.cjcharles.com/products/drive-de-cartier-wsnm0009"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tourneau.com/watches/pre-owned-cartier/drive-de-cartier-stainless-steel-automatic-wsnm0008-VCA9708920.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.thewatchcompany.com/drive-de-cartier-41-00-mm-automatic-silver-dial-stainless-steel-mens-watch-wsnm0004.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wewatches.com/en/encyclopedia/cartier/drive-de-cartier/wsnm0004"
+       },
+       {
+        "type": "url",
+        "url": "https://www.prestigetime.com/preowned/Cartier-Drive-de-Cartier-wsnm0004-39288"
+       },
+       {
+        "type": "url",
+        "url": "https://www.swisswatchexpo.com/watches/cartier-drive-silver-dial-steel-mens-watch-wsnm0004-box-papers-50924/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.1stdibs.com/jewelry/watches/wrist-watches/cartier-drive-de-cartier-silver-dial-steel-mens-watch-wsnm0004/id-j_13118422/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1w8yve0/wts_cartier_drive_de_cartier_bp_41mm_very_good/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wuiqj0/wts_cartier_drive_de_cartier_2019_double_box_and/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Cartier/comments/1067exy"
+       },
+       {
+        "type": "url",
+        "url": "https://www.therealreal.com/products/70499357/appraisal_report"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/1rl9tiq/cartier_drive_de_cartier_cartiers_most_underrated/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1mjkxm9"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1hec4f6"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1w6075n/wts_cartier_drive_de_cartier_wsnm0015_2021_full/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wquide/wts_cartier_drive_de_cartier_not_wsnm0004_the/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1w4g467/wts_2023_cartier_santosdumont_small_model_ref/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1t5yy3d/wts_cartier_drive_wsnm0004_small_seconds_2016/"
+       },
+       {
+        "type": "url",
+        "url": "https://am-s3-bucket-assets.s3.eu-west-2.amazonaws.com/fellows/prod/documents/ba44ef0d-2aca-ef11-834b-6045bd0f8a61/5059.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vq99qy/wts_cartier_calibre_de_cartier_42mm_stainless/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.noonans.co.uk/auctions/calendar/750/download-pdf/"
+       },
+       {
+        "type": "url",
+        "url": "https://bid.gwsauctions.com/print_catalog/index/auction/222"
+       },
+       {
+        "type": "url",
+        "url": "https://int.cartier.com/content/dam/cartier_dam/Communication%20assets/facelift_services/products/01-jewelry/sizing-guides/ring-size/Sizing-guide_rings_210x297_en_2019.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://astagurubucket.s3.ap-south-1.amazonaws.com/TheExceptionalsOct2023.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Cartier_%28jeweler%29"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Rolex_Cosmograph_Daytona"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0d9e522175aea9e9006ac51bd5003887d28cb76b734f1e76fa",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRvgt67d4XfCVaNyrVMELPlbFgFQoN7flY64-qfe0T6VlU6IGr8EHIa-rIjEnULJNm0Keq7ZldPT8b3iHRUpyl0g5ThnbgfTmpImV1Z46e_75QqMeuNnfchsPxUUftXvL9Mj7zOsNO_5IoCXKLBk87eG_Z1qWL3keG_mY35qdv8HTsGjgjVXOVOAvLBj2X67nGmLTzpkYLB_0KHexgrNtdQzGw2KdXpuKMAhgNfdHvfACTB2ImCxpBbf8jwTag5yBJd1ZND1-tMUeddLl1NhClGDBhe4VbDQvZHRj_wr1qiGxl_xAuuwzVUPqVdgVhGul1FeNFAZczAeCV2aT4Wy-msf7LW8Yzfeo2oEIzmo1uAOoN5OLxvMjaJbB5c9aiFyBOKyOTwXiG3boybln3YP9k2LWuQAvF4lModuHXjBXc_n1V5MH7EEoViORDrNBnbIhKLLFuqT8np1A20-XkEp2yFyKf2UIpwJrcL69friLBwF9WEOfa6fZdqSEZzPQ0Hu-y5VACA_u2CuOS_rYN5z0fuy-eMcFzXqt2hiPjXXhBuZlkJXgzF0ButbZzA9SYgc-JtJhEHqrh96AqFgou38kBYGOlOChyvbzeGuCxDdb2084CA8wP_tCSIhTrzr3TrhWIQ47FdURV7BR057pFCMoSUxK3tPW-ERKmaHN60owemoYJI-n20FzVw8XGMkCKUkL2CAJ4svMoEeN9piJ__xBIfX9DZJRlUV0VqCsvh0GBZQWQULqnp8bIm500Aole98vTL2ZIm90sl0Y1RPl40XGPdYPSa8zADT0E52_2lSeJgKI5B0Xif7N-_oJXHzOH-mcHAug7A1zTWV_L05f-Auir_nRcuEFN0XmZFbR-Skyp12BCAyFj8CUH8j5znr-dAKasabXS7RyXAmL0wB_TwUHTlehCp4NeYZ9vCEYGbZcvg00AXf1eef-t4V1yYoIUsNLDuOYxXV4LgbXjy_IeVWP5_ilSVUYHSuhUoEqKL3OE53-i5011Fw55LgpR7v4KyeF_5Ks5CgUByN7WPRIJgD5Vj12VvzOVrV2VSJmW61QPoiS4tDnDdEdv3A5kHML_guCX8l0jIzq11e_SSGsjSXuQUM3EDqwvzzFT6q9T4Ql3T9RrN6ro088-kmtzWivF-HueBKoW6h2JmHT2Yb_ZvR39DwpORysEwq6aOdlOGCFfgw8l_pGso-nMrI_fwG-8rJ4O8HeTeWww8KS4Ooa-4IcsIjPLeAUIZOaZzgUgucBn9e6drAF5DUKt0tQmI4CmPU1jBLb9OdVjgkA1ID1UHJG0rxx7qoN7SsPl5MuGkvjuyjdYi0Ahju0hL0ltA1U7fxO-9dkjZ1tAPbVQee1vFOmnxd_oVtMLiKb-Ss70WjT3kvh4N18Y5nsV2sKEpX9sCSO1Uk-pWtvZKNUW_QLS-Bd0xnaXvqES1XR1DOKaf1ZlGY7yYF_AiKt81mOJZ5IiTLucxJkQICXropIXhNO57QiMhtmuH0co4ZKp07PrJBmhnrOdQn7aS4Eq-HWvNYUbgbQhYV76RkLyED6gaoVRcZ0Xk_Gioy7uwRQJtJVlBzkE7tkoAirddwYDQQTKp285V4NfjhDu1-9gsn8OSMMHNzaKPdsyg0y4fbbMTNA0WmV58RLffoHyFT5nP8J4IgowpxQCbm88aHFoLhUfhj4QasykJMyS12tS2-h9_pym8NcIfPF2golVxQ0VHz_ctZ4tnzIj3W0DBrjOtP0R47nelJfkfo7x263hJ3kdbaqulNmDjXzeWvB05cSylkf_Dmbma2AAa19QC3sRzEu0EzC43spEMDZql0bbfxGDDVFedklYuw-BZ4w-EMP-k-_rGB9nvYi-3B"
+    },
+    {
+     "id": "ws_0d9e522175aea9e9006ac51bd6a12087d28069ac701e561139",
+     "action": {
+      "type": "search",
+      "queries": [
+       "Cartier Drive de Cartier WSNM0015 specifications silver dial small seconds reference",
+       "Cartier Drive WSNM0004 WSNM0015 differences reference silver dial",
+       "Cartier Drive de Cartier WSNM0009 black dial reference WSNM0004"
+      ],
+      "query": "Cartier Drive de Cartier WSNM0015 specifications silver dial small seconds reference",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Cartier/comments/1067exy"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tourneau.com/watches/cartier/drive-de-cartier-wsnm0015-CAR0190021.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.newportwjl.com/watch-database/cartier/wsnm0009"
+       },
+       {
+        "type": "url",
+        "url": "https://sheibanjewelers.com/products/pre-owned-cartier-drive-de-cartier-silver-dial-41mm-wsnm0015"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/cartier/ref-wsnm0015.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchmaxx.com/cartier-watch-wsnm0015"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/cartier/cartier-drive-de-cartier--id49002800.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://wristcheck.com/us/buy/cartier/drive-de-cartier-stainless-steel-silver-dial-wsnm0015"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/fubgu4"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/cartier/ref-wsnm0004.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://genevawatchco.com/products/cartier-drive-de-cartier-wsnm0015"
+       },
+       {
+        "type": "url",
+        "url": "https://www.therealreal.com/products/70499357/appraisal_report"
+       },
+       {
+        "type": "url",
+        "url": "https://luxuryhomage.com/watches/cartier/drive-de-cartier/cartier-drive-de-cartier-homage-wsnm0009"
+       },
+       {
+        "type": "url",
+        "url": "https://www.prestigetime.com/Cartier-Drive-de-Cartier-wsnm0015.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.uhren2000.de/en/products/cartier-drive-de-cartier-wsnm0009"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=8RULtpLtXHo"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wquide/wts_cartier_drive_de_cartier_not_wsnm0004_the/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1oy4v2j/wts_cartier_drive_black_dial_41mm_box_papers/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Cartier/comments/1m577zy"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/1rl9tiq/cartier_drive_de_cartier_cartiers_most_underrated/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1pmiknq/wts_cartier_drive_de_cartier_reduced/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1rcj5ki/wts_cartier_drive_silver_dial_41mm_box_papers/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wuiqj0/wts_cartier_drive_de_cartier_2019_double_box_and/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/1flkq6x"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1w8yve0/wts_cartier_drive_de_cartier_bp_41mm_very_good/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1m6ui36"
+       },
+       {
+        "type": "url",
+        "url": "https://www.noonans.co.uk/auctions/calendar/750/download-pdf/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.laurentfinewatches.com/watch-expo/expo-women/pdfs-womens/Cartier-Must-de-1815-W-08-27-2020-by-lfw.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.gulf-insider.com/wp-content/uploads/2024/08/November-2019.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://am-s3-bucket-assets.s3.eu-west-2.amazonaws.com/fellows/prod/documents/ba44ef0d-2aca-ef11-834b-6045bd0f8a61/5059.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://electronicsandbooks.com/edt/manual/Art/Auction/MonacoLegendAuctions%20MC/202110%20catalogue_0026.pdf"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0d9e522175aea9e9006ac51bdcaddc87d29d6b871b18211f50",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRvg5gdQwcP4ePKhVEA1kBhE_lz76EKQUxWQHkGlh0_3eYjFUnJdd6grW-kT8Vxy4Iwd8zSnbKfO-CV1HFHnxa8H092qOVpZA5STtCS8gJcATtYfPcod17jILpFxkI5IpeVI3EL7wSAmLtw1n5R7ryv9dJUA7Lrxvg2yjn9EZaY4zS0byceXLTEB9uGQMrGj0LU4xBMTnLOmtQTS_q0p3Z0E0r3lzXVmXHj3WdG1bxEBW2uYr64MyCo3VN5rDAUDRbJAjYThQp7MAWsgYaD-pohSAX6rxUSZkFHTT_4GmuJlcUKr7JnxSb0DkjkPWpGZcwnYAs8R2HbmOhsTu-44ScTZ2bnb-AuiVZ2KWBMS-SCyAaO7FFmOiYxqrgS2B4kGwFmceHTVVBDEp__HGv3utMrgj-wMCSLdmnW0ne7lhDS4GMKyUIXmxD79R_ETCXun78CuAPpyC0CvNGZzJEn5aH8MQxQcDBJlIG8NeFGPBetwY-1mhAuaZWrrrgsaDS9oOn7LqSmFv6sPpVxdRO7XcCpZYaa86OqOPBbal0Wrde5UtoHqPPu1Zt-atQ0RYVZOqX9xcDkTdNbnbe_0YY8qribsxRdgV05VxdlkVPBWIC9DCA2mK3j0s5Sr5aRAMXliFeO_CGELJPKlwSD_UGaIVZ2a38nBWcu6G-pAOMjLoAzEogiHr_WOHadLosp6SUzmT_j4VjRDB5XB0fXpnNlWHQe9stp_mSepn1u3q63K6Ko-xQn_EmePjdaBk2VUTPGR2Fo1a4Jth2_Tj-zJDcXKEhLOuo8Qk0BDgamaz5zTYW0vPxQUQHwhJZ2_CEwXuTncZdNNAoqvttvT_7tI2NSF4mAdr6PkGlXLYdVkJLHb5iujPI6KWo9MjD3zmfdACvmonNkdlRfk1a0BJEgVzvqFOjIujZOroh2U9jPCX0bD8EPGeKmofVkzKGiOTZ7MTsB97w_-_UJ96phDa38rU4kJE4SHBA-aItPF2JrxVMYUrjeKcctPT0-WUD5FCUPzn8RlsSwy1jOzSopzr-D3A1z6LKzP0nRSiNvyN9VXTBu8iIxrger1u3r0HdkDOISf_1kL1gfKsMmuymMXzeAryZcWMYJm58HcD7MQb2oYzOPewh68MD_leHuDjJe1jYbUjqvOFis0dZOUxJlFlMX3pDLwvOstO8BES129q51fkzKWNFmqAHOBqhURhWUWkt2OjR2jFVWfFD7WsCWdmLr1w7WmW6RPuCbJ46ZoSawPobujUz5D3wvSTN4gZFqo5KJN7vdOHaG_DmPWP2zhxj0PiCKznsWFlB_2Y5EKcI1gBQPDmsUDPwHDCWo5Fqt-nIombKpQduJbFwBtjrQPIeRdvIgHY2Iy0lOkyK_LnlUipBR1ZjxaiVv6AoQI-TL-CUKivh1zTshD07jwZLSRlsdO89wd85ow_7gMzHtQ3QxAmLLWav-tZ2myGDRI_42y8f626rLNuUlHxIUAH3MBJYlC62woXAZaFj9YEAHnLxLWUPDJpwbHlPxlWLM0io7CwoMmgcDfuqbTEKZyK2L6TKUTJ55-vnZ4KgIq_SNcDYG4PkzY9_7vPNQfzpfxvkwXMPPOtbHwIPeBJ0gJ3uBlDNdmMc3vbORidwinB4369B07oqUS7xfBv_fnRSrcwrcpNrlFwB4UL8rqe24my4szEp0ljK8Qxh1kFqj1mzAyq40YJH9qGcVADv5O11sEYPUPOi5jTnZTpZkreTlhCZMg8t8upR9XVBU6BHU_ox0PM2ha0qYZbX6yQVVivKcMkkSmRDs1fXlXaGwVK6jBUq3LeKqZOyIqJcY9enqqHHhvKnrAE7PV4DmTrNJ2dg0kWMH7bjTM8KocWapSzGNpB8Rt3BLb501JnJVG4h-skPiRkBgmXNPjxE0vm_WMRRNVXhM6EzVot3fbdvxXudKC6mGYxHTuVDM7JbzICl03AU_L4DQMfuKx_jUbYVrqgc-Rong2g6mfn0LdZK7Y-lcn8BLquE4aJHhlM2-bI_7gbaNazbq_sYPTwYLRvlRy7GUktd7EEYv3ffHZZeE_FFhP0J17ed4_2EWucxgqcTnTdU28o_HqO4VjT7nTvSUhHBYGpooc67zR2IwqmHoPlB8h2AiwMY13oG_dWBOrRsI3G_NKLBHphB3jJrgwjUch82IU5VW5MLCzpEz_yE14f7Qax15iHGB-CySNru0KfPzVSzJ89aI8xAcpVlO4mNmkayGqnmnhklzsmZ6kJy-Uu6Bgpe4b2jv8OJgcHqNLKqxefuTdhFxq6XnrUJ7Q86BS1M8B0CopiJaNUAO0-9Ktiln4h1qUSW8JBWWI0ycVmXbagGIN6Vt8ctNT_qykJ9iBd-TSoePXSJj7i5mz73JMcXfgoABkPFu61tv-T3hBiPXMx66Hr5w6KGRPwFJ-emtjBKM48OT6YjSSnwdLM-CtfmriaRooy0Dw9DoG7GKABe3VmrNkqjLI2o71FMUUfCgMmIdwE7lC5mWu1Ok2RsQoVeXCzkha4eblbuR9wwq7cr-k8LnL0CGaJ4CqCqUthXHrRIEHK2NI2kLY4FZFroDUEQ1K6ex_SMO73A6TbAPl_hNOljBgR1KKY0jDKn4DWk29MLjrkG4vVWgzot2AdKGGtvMjNP4dmyWN170iRrx9dAogib8CIFsH60_9GojwK0ksbfpgjQgpAjU7EUpmwWbMKI9O3M2rSidcHKN8R9tzDND6LsJKeLHc6D-s6pqW5OstpFaM1jLT96lGtbxT27JXbhxD0C3uO_XgS7N0CZ_m2Rba4uJrUEnp7Av1vqkrP3fcZ86TpPPJYJByJjW5AOcVdNKbufyx_ahrx11eZyj0ebrbNZ76VmeGHEb-QvoNPo2Y__8wgxfJbbjmuWvDkvaGAS_Ghu2DC34--GgOBBs_4W7-XqaEGaiGjeto3svUVdMz6nq06tJr60HhKpkxZGJW1RfI9C4rBTq3PTwfHO2YV6xttCgB8qSBk606JjBKNFpKJYVw9kPZTK0N5WaOuPPQYvHR933k8MOQg7xtOVocvZ8LBX3DybvBXd64hvvt0otuqGDefjxop1Mqk1y-p8O2LzOW9XVdzwLVAXo6XyVXhtlV2b6ha2qgHUXuaACilz9uaUaBhjWOyvcI62WTWDPKH6O7Gniw7oAKKxs9SWKU5BULA-L_3oriyIop2MlHkJbeV7YeoLwLEH9xnJjdODmGW7IFR708w3XwOTLsPYBynNoSQMOXxr7V8utI7udMaWGlFrnhBSaXtuv0QAGZvXBClpFnnHBX4veK0MAxy4lkvrhzGYqOZqWkiCoHGMcOYiU5GIYZKda24PiShBDJx3577wobsPbDPaivOpL_uCVs4U7dPifJEWcTLviV8XjvQRcMa-tqCMGc2CYwswhueCNNaue7Dcs7INYM6Pm0mYR7PTVdC5TCVIfKoD3SF3X1SxzNNivUvoymPs08S6HD6GY1FYibfRY49x5t4NG1-n-9D717QsfMJBIgxZR0ca-dynxXP59eV5OhnfPOFIEZ69zUA68feMnN2sEiTYYyy2T9luhfsCedpo5IDyK207VBXIcRGtKeRkTqEI7e89zcHGgxjsYkqcnwOFe7s7k6exDlddY0PalRtTsXbrRZP75ZkqKe2eJ_VEZlLWJVNkcHBI7i7Pu-dvDVn2rCJL5iQlVTlueHe4nLM-OCEewP_GG-vy4zYbq-44gYiZdQ88cVn6yATmSLjmNQedNNmJjg3pN79J9dPRU0uR4iSjP_YQ_f7czJGhbJFfMyvILlGjmL8HvBVWVpS1OAsNRDeDM9wOYyMXcXHQ7gqBtF-KBcg-ovWIvAFh3QCieNEvsX79oGkScRqNkkmNxaDsDJgt72rZZs1Q=="
+    },
+    {
+     "id": "msg_0d9e522175aea9e9006ac51bdf51cc87d2b45bed09c6b01d98",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Cartier\",\"model_line\":\"Drive de Cartier 41\",\"dial_color\":\"silver\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"bezel\":\"smooth polished steel bezel\",\"case_size_mm\":41,\"complications\":[\"date\",\"small-seconds\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"WSNM0004\",\"WSNM0015\",\"WSNM0009\"],\"confidence\":0.76}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791302623.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 24903,
+    "input_tokens_details": {
+     "cache_write_tokens": 3495,
+     "cached_tokens": 4723
+    },
+    "output_tokens": 967,
+    "output_tokens_details": {
+     "reasoning_tokens": 866
+    },
+    "total_tokens": 25870
+   },
+   "user": null,
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 2
+    }
+   }
+  },
+  "search_requests": 2,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

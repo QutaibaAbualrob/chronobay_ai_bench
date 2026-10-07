@@ -1,0 +1,33 @@
+{
+ "row_id": 19,
+ "candidates": [
+  "220.10.40.20.06.001",
+  "235.10.38.20.06.001",
+  "235.10.38.20.13.001",
+  "220.10.40.20.01.001",
+  "220.10.40.20.03.001",
+  "220.12.40.20.01.001",
+  "220.12.40.20.03.001"
+ ],
+ "result": {
+  "parsed": {
+   "reason": "The photo shows a 40mm Railmaster on a brushed steel bracelet with a brown-grey brushed dial, 3-6-9-12 numerals and vintage-lume triangle markers, which fits the grey-dial 220.10.40.20.06.001 (brown-grey) better than the black, blue or strap variants, but the 06 and 01 grey-dial references look similar here.",
+   "ranking": [
+    1,
+    4,
+    3
+   ],
+   "clear_leader": false,
+   "none_fit": false
+  },
+  "raw_text": "{\"reason\":\"The photo shows a 40mm Railmaster on a brushed steel bracelet with a brown-grey brushed dial, 3-6-9-12 numerals and vintage-lume triangle markers, which fits the grey-dial 220.10.40.20.06.001 (brown-grey) better than the black, blue or strap variants, but the 06 and 01 grey-dial references look similar here.\",\"ranking\":[1,4,3],\"clear_leader\":false,\"none_fit\":false}",
+  "input_tokens": 4216,
+  "output_tokens": 162,
+  "cost_usd": 0.010052,
+  "elapsed_s": 2.906,
+  "started_at": "2026-10-06T13:52:34.668400+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

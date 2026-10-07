@@ -1,0 +1,40 @@
+{
+ "row_id": 35,
+ "candidates": [
+  "26574ST.OO.1220ST.02",
+  "26574ST.OO.1220ST.03",
+  "26574BC.OO.1220BC.01",
+  "26674ST.OO.1320ST.01",
+  "26597PT.OO.1220PT.01",
+  "26579CB.OO.1225CB.01",
+  "26611PT.OO.1220PT.01",
+  "26574ST.OO.1220ST.01",
+  "26607BA.OO.1220BA.01",
+  "26585CE.OO.1225CE.01",
+  "26574OR.OO.1220OR.03",
+  "26574BC.GG.1224BC.01",
+  "26584OR.OO.1220OR.01",
+  "26585CM.OO.D301VE.01"
+ ],
+ "result": {
+  "parsed": {
+   "reason": "The watch is a steel Royal Oak Perpetual Calendar 41 with a blue Grande Tapisserie dial, black inner flange ring and blue sub-dials on a steel bracelet; the 26574ST blue-dial references (.02 and .03) match, and the photo cannot separate those two.",
+   "ranking": [
+    2,
+    1,
+    8
+   ],
+   "clear_leader": false,
+   "none_fit": false
+  },
+  "raw_text": "{\"reason\":\"The watch is a steel Royal Oak Perpetual Calendar 41 with a blue Grande Tapisserie dial, black inner flange ring and blue sub-dials on a steel bracelet; the 26574ST blue-dial references (.02 and .03) match, and the photo cannot separate those two.\",\"ranking\":[2,1,8],\"clear_leader\":false,\"none_fit\":false}",
+  "input_tokens": 6478,
+  "output_tokens": 135,
+  "cost_usd": 0.014306,
+  "elapsed_s": 3.359,
+  "started_at": "2026-10-06T13:52:46.914147+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

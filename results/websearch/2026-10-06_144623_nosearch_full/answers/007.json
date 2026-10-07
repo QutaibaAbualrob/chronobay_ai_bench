@@ -1,0 +1,286 @@
+{
+ "row_id": 7,
+ "image_file": "007_rolex_sea-dweller.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_line": "Sea-Dweller 43",
+   "dial_color": "black",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "black ceramic unidirectional dive bezel",
+   "case_size_mm": 43.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "126600"
+   ],
+   "confidence": 0.96
+  },
+  "raw_text": "{\"brand\":\"Rolex\",\"model_line\":\"Sea-Dweller 43\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"black ceramic unidirectional dive bezel\",\"case_size_mm\":43,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"126600\"],\"confidence\":0.96}",
+  "input_tokens": 2130,
+  "output_tokens": 226,
+  "cached_input_tokens": 0,
+  "reasoning_tokens": 138,
+  "token_cost_usd": 0.000326,
+  "searches": 0,
+  "page_opens": 0,
+  "tool_calls": 0,
+  "queries": [],
+  "source_domains": [],
+  "elapsed_s": 3.931,
+  "started_at": "2026-10-06T14:46:38.781364+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_02061ccf6a8541d3006ac509cf385c87d2a1350348dba79f6a",
+   "access_programs": null,
+   "created_at": 1791297999.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_02061ccf6a8541d3006ac509d031a887d2812bc114fe2e6b25",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxQnS9vbzTDkwr0jKNUeXqxK6T8-0MFRro4UBW5FfkZBW4gk9sHi5KIGRz-uJ6pwVxpRtkOQfuDgM6iKKNP56kTnJkNTB5lgWI6f-lgnbclzUlNJAkjgWNF4otUuCIUj0jfonQ48Lq6wFBqWycFku9fb85HY77D6KA2I310clobqOQgZe8mdWlXDH2T0O06wRE8DGEUxCjdswETplfCF1ID6AlFQQvmUPPN_yJhyABTWRLingRmbAZBoRT8TdxwiXvYry5k-tpX3jJdNh68SnQjGsfrHEUqnccFejOdThNoS1VDA8XHWQ5AX7b6XY_O2DszoQ9T97jnaWLootc0dHwQRTgHGMpHqpxR8dDwARdWPFfnacWPTEfcxXNB0WmlYMJRLA3ccjfq3LnI8Z-OsHZpbQOcnLaJlQ60LRjk_Pe9-bsY2khJS3KEjgjyIclUMi0-OoGavkuAwQMvH7T3DNK0hSvM48C7aN6D-CES7xomH_kcy1SIdIJMnEsvZ0r87L-1rEjSF-eMjAROud2u5ZwyjyAQTCImFMcBlGynBe92BQk-Sytm5YkyiXGagXoGh2nf7UJnOgoHuEvUEMPdpx589NSwKg_OEdXLhMh-3GF13Tk6atAZB_0aZaRO2zSkLqHqiH2uquoR9t_--HIEHQHRFFenmTRT4vG8qawJSw_wtIakk9RdMM2ex9038jM8X3oXXKh42hbpSOuAZ9yxJ9po0zLMf7uJSkHj5WDADPBB6P5FDOx1Ns6LW8SOkdk0pgP9xSxtSGjVQm4IsL11KWiKjbtCMnmF9Pv3u2oDG5-6PpdDH0oq7bYPGdvxPHOdGmyHSvmZBhz30pGoQFMUWQL6HccMI0wI51Tzg56iF_7y7njZSZixNTgMunrfUmDPCuWn3EhNNZAIp1tFvxyKqbaBOMXnseLbhGHEnOb6KXb4fepdUuAkqPZx0n_rEK_30EOhDMBxcBFDdAlg4aWxm6j_iHlABf3M4pQHIUsJqr9Xvr8KphZEcdZBxuaVQoyUt2bnQLZG8MVXE2c7gAdEIqwrSPCPHsLy41rWSdKJ-2JWcNqXxHS8R8On1izytAgM4twO1AJrnEW4eu8D4iVTigf3T1qEKGeeciY6XDohoTscCe32uSHgIN4PAXhv42wb3YElB7PqA4UosIC-koKE9PaouTozMJAALEpumnYvQY8WpZaGBY9BmJxoNzFGW44krJuPiyiWz9-2VuIYh5K04l1DEgSSr3V9gFPejzN1vn65agxPr1nia5KileB5A97Ot0c0ZMYw4pC_QhK1p66QwUEwn5SgPtbPEoQBXpdHRCcTb0mzoPSDWIw4PahLULNTyrsa8bW4exYXiYbKN1eMn16jzDfsKxDvWlTVCaR5JkyP9gw7GbjmbVsLzHBVc9Eg9QS1OmJJyvVn9wtMyAGlXhHaOmnLcWO9tvKsxO_8cad-mCoVgHQxRSteV3pw0NOwSkvXAP7MBspn17uxYHSPt1Bmrcvikh9eHu4LdKF6k1Vfqb3czlShWEXuB7ZkRNatFsvEfOtxOResg4lKyCCSKusA7llU_zxzXuNK2guajkm2fzD_FfTNm6yW4YcVtRgzh7a89yi5lAtLucoXpGrTRJav3bNpiBKadZnVZ6o4Jj33bs6Zz6PloFwhE2efT8QopsnHGoMMnHWO8FzCJDmqJKRV2bxCoWUpbwZU_smQJjakQIWacJjqLMs54jn48SXkjAcQs-cM9JsBlHKecHJfjBGvjy_Lu1EnMv0GjT5eryYESO08nkV8xAqX2zdpJ8Wjc1oRFHxptDWBpDPc92w7ffC_5PotZ2aqgYBBpWaaanC7546mc="
+    },
+    {
+     "id": "msg_02061ccf6a8541d3006ac509d1f25c87d29ca1acfd56208d22",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Rolex\",\"model_line\":\"Sea-Dweller 43\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"black ceramic unidirectional dive bezel\",\"case_size_mm\":43,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"126600\"],\"confidence\":0.96}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791298002.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 2130,
+    "input_tokens_details": {
+     "cache_write_tokens": 2127,
+     "cached_tokens": 0
+    },
+    "output_tokens": 226,
+    "output_tokens_details": {
+     "reasoning_tokens": 138
+    },
+    "total_tokens": 2356
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "search_requests": 0,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

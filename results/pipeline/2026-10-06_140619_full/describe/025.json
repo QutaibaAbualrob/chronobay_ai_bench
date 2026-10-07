@@ -1,0 +1,39 @@
+{
+ "row_id": 25,
+ "image_file": "025_patek_annual-calendar.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_line": "Annual Calendar 5396",
+   "dial_color": "silver",
+   "case_material": "rose-gold",
+   "bracelet_material": "leather",
+   "bezel": "smooth polished rose gold",
+   "case_size_mm": 38.0,
+   "complications": [
+    "date",
+    "day-date",
+    "moonphase",
+    "annual-calendar"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "5396R-011",
+    "5396R-001",
+    "5396R-012"
+   ],
+   "confidence": 0.55
+  },
+  "raw_text": "{\"brand\": \"Patek Philippe\", \"model_line\": \"Annual Calendar 5396\", \"dial_color\": \"silver\", \"case_material\": \"rose-gold\", \"bracelet_material\": \"leather\", \"bezel\": \"smooth polished rose gold\", \"case_size_mm\": 38, \"complications\": [\"date\", \"day-date\", \"moonphase\", \"annual-calendar\"], \"movement\": \"automatic\", \"printed_reference\": \"\", \"references\": [\"5396R-011\", \"5396R-001\", \"5396R-012\"], \"confidence\": 0.55}",
+  "input_tokens": 1712,
+  "output_tokens": 2516,
+  "cost_usd": 0.001691136,
+  "elapsed_s": 13.026,
+  "started_at": "2026-10-06T14:07:14.158860+00:00",
+  "error": null,
+  "attempts": 1,
+  "tidied": false,
+  "served_model": "deepseek-flash"
+ }
+}

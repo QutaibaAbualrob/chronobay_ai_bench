@@ -1,0 +1,495 @@
+{
+ "row_id": 2,
+ "image_file": "002_rolex_cosmograph-daytona.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_line": "Cosmograph Daytona",
+   "dial_color": "black",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "Black ceramic tachymeter bezel",
+   "case_size_mm": 40.0,
+   "complications": [
+    "chronograph",
+    "small-seconds"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "126500LN",
+    "116500LN",
+    "116520"
+   ],
+   "confidence": 0.88
+  },
+  "raw_text": "{\"brand\":\"Rolex\",\"model_line\":\"Cosmograph Daytona\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"Black ceramic tachymeter bezel\",\"case_size_mm\":40,\"complications\":[\"chronograph\",\"small-seconds\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"126500LN\",\"116500LN\",\"116520\"],\"confidence\":0.88}",
+  "input_tokens": 16815,
+  "output_tokens": 641,
+  "cached_input_tokens": 4723,
+  "reasoning_tokens": 543,
+  "token_cost_usd": 0.00157693,
+  "searches": 1,
+  "page_opens": 0,
+  "tool_calls": 1,
+  "queries": [
+   "site:rolex.com/watches/cosmograph-daytona 126500LN black dial 40 mm",
+   "Rolex 126500LN black dial silver subdials 116500LN reference Daytona official",
+   "Rolex Daytona 126500LN black dial 116500LN black dial Chrono24 reference"
+  ],
+  "source_domains": [
+   "rolex.com",
+   "chrono24.com",
+   "assets.rolex.com",
+   "chrono24.co.uk",
+   "chrono24.ch",
+   "chrono24.ca",
+   "chrono24.com.au",
+   "chrono24.fr",
+   "luxurybazaar.com",
+   "reddit.com",
+   "youtube.com",
+   "it.wikipedia.org",
+   "en.wikipedia.org",
+   "es.wikipedia.org"
+  ],
+  "elapsed_s": 9.551,
+  "started_at": "2026-10-06T15:40:00.672263+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_0127177bb689e7f7006ac516519a4487d2a6e2e36a118c7163",
+   "access_programs": null,
+   "created_at": 1791301201.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0127177bb689e7f7006ac5165235c487d28a020f7de63bea0f",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRZaZ2D3_QAVeGZY70c9AHBe3KSbH6zBHixfUPNc5eV5jmBRMv5Sd0cLqJHlTVDCYpt3_X08pP5PGO2y-_nM0-Atme4G2dHWIk8vXmoKdRl1TX9fr1vX6C1VKM-ITbrYVNS4alxOaCn5A6nmXHxpjcaYkOhQLuktZzaCa_eLmH8neeLRABfPAHPrfwqL_WmFzBcatESPMXm1HRzERFKS0jEcbZvYcUPkoJQBC2omIqD63uLsggW-22Dxi_MtlodthlJ5l3Cy_AZOMoxP3FBoKDY-4ehZTxs2NkG4OZJTYUeKFa6e4SEx-Ob9mgYJmlXk0X01ypQgs7n3ADxA4O7bXPejWCoD2p7A2tVJSgU_J0fndenLLWGzd1BmAr1ZY3gaYX-j8Y1veHtxpoGv1uwXjfidDZn7-lV4g56KCA_GEt6Fl9YXrom8yXeBThTwRfCKHFhy6sYYLFUxD2tTkjiA1aKkKILA_Q9rr4kPpbgfbUa-SiikXggQwzEOdRjB01-6ZQYVW4N2d6ftqnSg4kT7uncnTDoT3F4loPnS7OZ0w9L93ETyqzcjnxuaSvxGXJVXeYlK3-3SagKmrW0qUp3XY2jwzlUrxw685OIpPYBK7KMgc8_tgE9cuAhs4Vsnc9EjWmaUBKOIOspAhsV6MDvBMnSxaMLxy5UR22CAtd7nwhoKtnPU3NbZ8rz2QGKNAPCuWib_BuU-K5AOgf_roB254Et09fwwg1eMWsH_6HxkQB0tF2d3E8i_m3GFJ_Wt8X7-0FMh8nZLAQjap88XKMGWhM3x7GDlBHpkvYrYYpjLYOJTiO6fNhkIfi5xCfNbFYncUyTX634va7Y3lRuxGDsBJ1Pr8xvU-Wt5G3t3IcizbISkzUdYI8A85-i711fGkKb-S7AtYhwoR4AcC3cIsDX2WDuRQ9XiM6vXGana2ZPsBHcCSNYrZ1mrOtENshx7fM6NEYg8ZN2S2A3qS9ep8QO3_YAKuWjbnHtd-K2Ayeelhpv--DrZ_HD5pKeDzW-04Wag84Y0t1LZvc7PayHPcBQG3zJyEHp-F4Sx6BcztaVnLuf4PdWjfSJRS_ziAcwnkSK-sJt_nscrgqJvmY6_AB6B-wYu1aFhn3O8nOeTmm8wsQJ0D3cvIXs5PDUqJpTVf-FH0cpRVBP9MT3PpAH0KgtXbsiOCuvzL7PGzXCu72v578cVbSGrwgRfEudD2vE3wD0SMVIqO0LSehlopATLnmLj3_tzoynIr1meCpJC4WWx7e1KIzhzuwhehMOG3TQ4UBsgAajuQoq_G4qYtzkm8iLhItN074v6i_7H76vCQQBRlgAvDH2jXM7Bf_QCossC9_By8T5AWz9bUG--rVuvQ1lUVGzAidNqUEJtoVroXkU_e4gFxeQYzEvQcCVeecrKupsJBuIr5yfSsgrvW_9aFm-wM4fsMJZlyvE0DIzGe8CzvRVsuQpdj2jCXehKV18Wnypk7PS7TxzzpL096IzkXH7X2ZuKji9Dy1DGtbLTD2bcSYCCRNPmak1QDyfrBee-96ux13kBsrXM-WYloALvA-1r_kzRlCxYdAsXGroQvaYHR-Z1EsAdOO_kCFQrIDu1g8vMutujfXpDopUeJqF19GkFvzRe9S89JjRuMcHFRSzV1D3r8-AFoXwmDO2zb-0B8CctCI7JYULxpMQVmrUEB9EpWnRcfbT1n6fJ92oULagLCmNNZa8="
+    },
+    {
+     "id": "ws_0127177bb689e7f7006ac51653359487d2b7358fc663159bb0",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:rolex.com/watches/cosmograph-daytona 126500LN black dial 40 mm",
+       "Rolex 126500LN black dial silver subdials 116500LN reference Daytona official",
+       "Rolex Daytona 126500LN black dial 116500LN black dial Chrono24 reference"
+      ],
+      "query": "site:rolex.com/watches/cosmograph-daytona 126500LN black dial 40 mm",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.rolex.com/watches/cosmograph-daytona/m126500ln-0002"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/rolex/ref-126500ln.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.rolex.com/watches/cosmograph-daytona/all-models?alt_material=alt-steel"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/en_us/cosmograph-daytona/m126500ln-0001.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/en-us/cosmograph-daytona/m126500ln-0002.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.co.uk/rolex/ref-116500ln.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/rolex/rolex-daytona--id44991933.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/ms/cosmograph-daytona/m126500ln-0002.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.rolex.com/en-us/watches/cosmograph-daytona/m126505-0001"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.ch/rolex/ref-116500ln.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.ca/magazine/chrono24-buyers-guide-rolex-daytona-p_82079/"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/en/cosmograph-daytona/m126500ln-0002.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/en/cosmograph-daytona/m126500ln-0001.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com.au/rolex/ref-126500ln.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.fr/rolex/ref-116500ln.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.luxurybazaar.com/brands/rolex/ref-126500ln/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.co.uk/rolex/rolex-daytona-black-dial--id40997015.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1tf7y08/wtswtt_rolex_daytona_chronograph_black_dial_and/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1sbrxzm/wtswtt_rolex_daytona_chronograph_black_dial_and/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1ssu6su/wtswtt_rolex_daytona_chronograph_black_dial_and/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTime/comments/1cqn1ae"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1t14106/wtswtt_rolex_daytona_chronograph_black_dial_and/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=WkZ3BhywVCo"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=eCsS3v9wo3Y"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1kaah8d"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1rygchw/wts_2023_rolex_cosmograph_daytona_40mm_stainless/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/rolex/comments/1j5kdoy"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Rolex_Daytona"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1nj5g23"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepStore_Watch/comments/1v6zxda/rolex_daytona_126500ln_vs_116500ln_whats_changed/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1v1z3vx/wts_rolex_daytona_116500ln_40mm_steel_black_dial/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/rolex/comments/1v5ec31/hello_se%C3%B1ores_tested_the_water_to_see_what_a/"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Rolex_Cosmograph_Daytona"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Rolex"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Rolex_Submariner"
+       },
+       {
+        "type": "url",
+        "url": "https://es.wikipedia.org/wiki/Rolex_Daytona"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Rolex_Submariner"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0127177bb689e7f7006ac51657ca5087d292fe5544f7132956",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRZaRycpgW50m2OzG2mq-8mU7DPN43qdgA7dr02vltik7iDJgOlV_4K-mLCZn2aM_e7ss5bnUB7iouMjNlg2GSdewc0CVdHUjte0xbyvPkvcgzhPO5ImIdn6YqltnyxmfZx6klUgbCdyWHIqWtE2G6fh963Q0j8N-vLzGZfgjWw90cgq_qXY-2AwH64tMZ66eIrP3lnQpYmj0ZZCD-0FgZbSvhI_trTZcjwkU38lKWV-s952NC_xgRRAHsJ5HFmeHyuOjKJyvnB-opV_sDuywc2u620WV9jOtXE84FP_I3BQp_TaHQnAuGilZJz0VLnjOKHl9Mp79hWh4-5JYLr6js7kTzfGwGe6I-LNUmW4Td6uvQNql44wlN_pW87TFo_zH4v810Tk4uJqDwiDYgCSG9Tur38Onwip-aYf7dtTRYKSk9iw1v1WhIDEKBilCW6mGrVaJICueiFTj0hM9gqqJ6xPZ3bVwkljt9FHCCPiXN2xkatHHhHkVLDh7jP--BYeOAGFDQQNnGroOMi_WsWtgltereZNmBxfbt8XtzWabZzTQtD2MpNekzApVs7IQ6hCUy8cgEafJTlwIxGvohSb3fettpQOXQcv4Oz1KNfUmPfBKPwBAhxuql2PNoiZJfXWlVygnLWZxUVv2lQ-f0B9NFguddM39yR71uqGIeyWT-7sqnlSOGaJBp9E4aySPM9Dcb6LN0Ro1xwBNJvc7b3NBZV-MvQn_MJPGvziK921cSlVYgM61cb83c4RyNAcrDenf-tn7eFayfptGHh_llXGPTklOfjNFAwwckrtUGQPj3jl1gSFijnQxL9xeRSC50O3-W4jJsD44XOF_k11aaZd88InZWftpq01FAy7YJJq_4gY7FtCHS8OP4imWSzghW7Y96pYUACa9MprVmSffOXayFlea3A8UWT7EiEj3GXGv5ggSa14Cba47rHgmWCVTp0m4SmxsxCVwjzPcaWw5cTFQOW7ww4oxdah2yddgmH6pFsjFpPkKuCQ7Jt0w-ZR-9WpsBkF0mOykvKh5syMYW1BGZH00zW8ZYwImi_WG9QmKgPCDJT44xwFiaG2Jo7eSlJiANrJSKG6Dv8H_cBWl555qlawoqwElN5M_Q1wfYdqJKlgsKvdk9Dm22z5oaUC-RmQU36F02S35O7FHYtPUcdtPSPjdtqvk6N_y4YQvSCyuG7ZlSXmCNaJD7keBeghzL7mQQVjmg4dNhEElFWN-MO9mDkCTqDAtuJjDmJISW8g8cSFRL-G2tBDQtsUb2rMxwSD9Cqwjpp3PGO7lhLO2ZV1VhUaHy2tCJ__uGZyMPxuOz-F0M6ZSpv2ij8Wtsu7I9ZmbqckLw6YmQ9P5y3MyI3gKDMsvIOwzlkXI-1hZCbhpOeQr1rpIxeiEl6nqhYrcyWZYSx5NJAQv67TiNC2nhFNYeTjC-Acniv_uwzke2aipa3iuHETBhhhRlL60b5wlBx7M_RbTVwYfRluBd2stEmmtZbfUeER85P5MIY5qWrl7qlyXjPGU28RRnEf80RyOevqARL0WfnNengj3lI-Wftx8gthw3qiFcuZAswM8hci1Mn_deIMAURUjDMj98GDlo7OuZA3fYCZhlKAyEKJ8y3vbbrECOlcAZiXwhwMiIvRzxz8_7OwSWmC_Vc-4qpiosrd22ZrH7daKUkacVRyBMNjDRs8cvw0Eetd-jw32jehwztPxvIPusCr2v7lFYYPszP6kHaYvEqLsiUvjD7GatbteSCK88B_FBihMQ4ofwEjXxYgfESgeewSRjxdP-J9YltLlWopmboUI8VSi8jncSfhXPd5Ottx7b0GxfN8n1ddgzI3clfB3CCdfaEq8qfZDO66XWI7eyeqJVoopGbyVnTu0OJwPkp8k2VQpy7p4UD1ZjTwS2TEGrg6YkEl9mcx9M67jFfauf-v7EDrcj7hgHe7YOCjJ8QH04cQDW4hRy7WRfoUmYcm3YJd41QtD4fd3mlpoAUTIFWju_U2sB5YNSh-rx5wz-Lr8s7NlDVyCA8AqjQJ5TAW6nWlAkTj3EPozHuPG5JUXnlKM1VhAETK-cZCN4Ssr1EexGADZeboo63RnOvwfBHEmF78aNyWS3luMgyMfkT-cZgepjXPTOVOvNg7c6JApV4e57zyYH2k_CzUUxYQTRtVE-i7U9TCF9y26rWKNURpgIMZS_fdfPTuPlcYiMzMZLGrRiSzFeGG08rIuJp38a8Yp5i2IT9Tzn2A2Z9yiTfR9F9DwkecZLtORALL6hkWyRsvgL0I9xNWz9QgWHLcqOLA-mWi8LJKPblGwTjtr92D5pg-cqmTB7wGxIxznh7yeOqdGkMA3rBJAGg6RFCgJHx2wFH1K7HLZWx0tYA1NHvAMLZHG1euN3olSW4-ELNxQsaJ3oQIoAjpufnS4idi0faL3zQ9bihW9AC_nlY23RPqEE64Iz8g4I42fXP7oNprxoY87pmrjr48VPYRlgb8N6NsCR7WvGBhtP6YhWht5M-1JGntcm3_P0Nf938G_N_9cslUzoqEfH494igAT4nv70CY1nmwixjziu2wS6XN5LMvI8a0G19boO8ocTGvFJMxUzwkMYta1XSs6UHxbdZcsJJMh8nquMtkx4S4sjPuJQIUtiSxfslaCbH1ItBSKMw1rgszboqakhnMR59GP5uqJYSUDVVjf66PfAX38zNvWT8ESuNvsY81uXGOe7yL9K_dWTiJ7uRlPJzbioYN3KPLO-BjAZ7P3RtcqzYXuI7Dod32_LKfunX-McSNPn4veV7syRb73mJO56-xMHkfI6eRncSTuntQhRUpFXJCdkK_NY9I7q1l8YeMpo7M7SxLUnqaouBWyr46rGurjs6Go4SraHCTKIrsE_qQX0nFnupuV-nea6-QVpqpX1dKsHCDOJF9LTK6KI4fwuuOrC2MwpKnxhBghxRqxrlgE1jDntP3oX6j8prI9xAaSciXq-9CSi_7naUWhfywm9vGygD-nRBjuO25uVmwtyI4GpTiGiTJAe6p94uCC6v1vU4F0NriljXPqJDQIL2Y14v0Pz_2S55XeUEdYqTG0yNXN9Saw08_3P9uHLcFgEWW900cR5VjZb3DaB9F2hFbmAn0HS_Pa7kIYBB6zk7LntBb24nOLpYi9EdQ4z5SKHzJRf-6kODGE_tjxYDGDYGv4PkUlUUKBv2E6jSSBhrmIC7GZHFJ93THaZ7kNXu02Q5yLJwsJBHMeYMLoKLsG36LJns_KGkOS4c_c7nZSvGDKCUBxNP0mEeEJ93c8-QSepd5o2cfQ4ts7vIwxaZlC5Nf3HpOl4JuEvGUzNDC-SGcG0ydGOWGck_l_RIMcjWRvQhQJIE5TapbY4yZ0w=="
+    },
+    {
+     "id": "msg_0127177bb689e7f7006ac5165908b487d2b17968c6796a6492",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Rolex\",\"model_line\":\"Cosmograph Daytona\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"Black ceramic tachymeter bezel\",\"case_size_mm\":40,\"complications\":[\"chronograph\",\"small-seconds\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"126500LN\",\"116500LN\",\"116520\"],\"confidence\":0.88}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791301209.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 16815,
+    "input_tokens_details": {
+     "cache_write_tokens": 3556,
+     "cached_tokens": 4723
+    },
+    "output_tokens": 641,
+    "output_tokens_details": {
+     "reasoning_tokens": 543
+    },
+    "total_tokens": 17456
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 1
+    }
+   }
+  },
+  "search_requests": 1,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

@@ -1,0 +1,287 @@
+{
+ "row_id": 50,
+ "image_file": "050_tagheuer_autavia-calibre-heuer-02.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Tag Heuer",
+   "model_line": "Autavia Chronograph 42",
+   "dial_color": "black",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "bezel": "black 12-hour rotating bezel",
+   "case_size_mm": 42.0,
+   "complications": [
+    "date",
+    "chronograph"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "CBE2110.FC8226"
+   ],
+   "confidence": 0.88
+  },
+  "raw_text": "{\"brand\":\"Tag Heuer\",\"model_line\":\"Autavia Chronograph 42\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"bezel\":\"black 12-hour rotating bezel\",\"case_size_mm\":42,\"complications\":[\"date\",\"chronograph\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"CBE2110.FC8226\"],\"confidence\":0.88}",
+  "input_tokens": 3858,
+  "output_tokens": 428,
+  "cached_input_tokens": 0,
+  "reasoning_tokens": 331,
+  "token_cost_usd": 0.0005997999999999999,
+  "searches": 0,
+  "page_opens": 0,
+  "tool_calls": 0,
+  "queries": [],
+  "source_domains": [],
+  "elapsed_s": 7.689,
+  "started_at": "2026-10-06T14:49:35.571667+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_0aa866384be64620006ac50a80079c87d2a780666c0204c50a",
+   "access_programs": null,
+   "created_at": 1791298176.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0aa866384be64620006ac50a82c25487d2b57179423907de31",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxQqH4wYDZvhqX0G7wvGi19birOBUz4xPMWCba1pyZS0ghrSxUXeMiu-hzx8i9roubGaiVrgFiftUZ1AQFByq4D-V8EwRsmlr_TMTlXPc1ChXiVZbwTuzvMmsdiqp0ltQ2Iey3uoJuTpkf-aKPAZM1zoZL1Nr6wLIk9MZRfNGOZqkpUa4HW2IFjRu-peVPmu1ID-FyQK7xLKtHAQ2msMvVd9tplKsOnFGqi0A0VZMjJ1WTyl4xYLwZ-ERzzRXz_yyGWYONrGnD3nxecpSyJa7CWcR4ZED9Rnbu786CIF3aWdZDmRIN4J9h718BPNS0_fXIuk5xYXj2bk_lWx63cBoY1B2kW9kk7AnOwYEgUdVlVurDTvhPRJI2lA_Se_8fUqk4CDLkNy_uwLCG9rloPYQITCdGd0Gq71Cah227gaxm9AS1WDPWuf-Iis4NQv97ZbKq0cFEwbQh-Bi2RBuWnUD-t3KSUWk6K_--QPTR6PM_1ai7GqDV_q7ttSzSFQQFrHIMsOfRFfBVx-6aohrv3UUNzMUSOTVfLb4bNoe7yEeHAO1-pUeQWHS-OBwa5z9vB8pAdgsPkQXFdpyhPS8ERgy0w0lzGIst-qBdBNmkb8eRhT13xlmc7LXpUEXv3uOlpxFkzWCEw7KGkRj_jZjws46yU92i6z_sBDhq417yhlobbIB7telzKwYEp9zMQrsXizExBSrMdm3Nb8s9wMWazHbFrr-OA1fyj04EBvvdoPevaoxDgNdzq8jMVGqhVvGKIfCXG0qHlezJ7sd8IziXpNR7KGZB5F9-s0eFuM1Zj02mDFvR_zFV4EXSHq1oCjEdsBya1PnQHEHkE2HOn4749M_pXH5uNMO9jJ0h3SJtTSEixn1BvOMnbQpVWM_FSl_kmKM49QGwrU8rDVhC5SlDHkdifoQIgejUbf-92XjLAtHZIO8Wz8edUD6Y1XD3p4oRObbsuwQG8WaUKU5rGc7LgsjMT3hqSJuQXftJmd2FJjS8dIKnzKtnsKoFwrmyyOzoGSYUSldA-LvtgQK99RBe6KnlElFbsOZb-hU6Hz9LALYmotxSn4OMBtva3jslEQeU4gQPKC1Wdr_7vzDAOO4lqcaC785S5YP-U1RYBj5gqpDgPgBiTyPkY-LGfR6j42QB_u5zsIuegyge45YfLhNMaHC5icmnPr93B0BSMWGXsr3ijWW3ROCk4fdel6mKXqODT1EijEgT4GuPyEtGdvjvg5WFye0l8oG0syEtzwktnypH_Sivt-tmr_QqkIoFFCpKmNFWbGw8buqk1AIjaqm6Xxj7ibQugqLepvy5RKgnbmb9wBDrGIK7zunB10CgWYEHF8L-TJ6binZieU0NlfabUzdius-zYYii-oHEsPwwKrKAVqmg4R8AK-IKQch-bH62skyDDCMmrzaVRocWe-GFpswrEV6oAKHFvRcDlKyuD-W5wRrJl3Guf82COS8BDj7Mby4gjQFP2IhVpMB4SAYiwTIMnkwQdR2BFudtn8ZgGSclKnfE0DT0buwyEdmED-ORfw4yAYI3sEcJWi302CZWZlW55iYPlj0Mqc5_3nQuhWLZcIStwGg1GAAtOmYFcstATObyyjPBBUDvrxUS-wj8jPlxgV3qNIoY__o4haFNMydemDnotDexYU6bVlVJclBZSjDDo12F19J3N16ikNeKBK2ZNEiLA3ivuTjtJ40TiV9pMuFrWdm0AW7AP6bdTidsGC3clu2rvacWFC3gNDT6AmZCA3WdGm04AW8wRMKRljdbYu2byB4ULybnbJVcaK-mVnQxLaE5sh-xeMs9_uZSheCIon5W24oPS8KpBwYTvk7sJgGIfhlgGx7MUTSejydogcGqvbOHv4sm-pHAAMRPaOXqgL4ziZm7e-GQiU1sXKA9zg0HUYdiwLU1yAbwiwDyK1ca_YWLdGejtOdsAOfhTMqFzTqE5aqDCOX8Kpfb1v680347S_Ayu_4SR-3Sjx92xj6QXui_BS7iJWUt50XBd0-05gjx75VoJLwx1EputM_Wg5f8rDfjiQpc4FMzJhq1cxOA3vfYLXCMd4ZH0W25MfgDuKyEWSB3oEdYmLfo3KHRX23CR9t34Tbiu8ws4EaTAF4QzN_I5L0HdFb1rQwCACgLvEfE2Z2dJNJWktVda9zodvitI3g667JYsz1jUZLx7dMuQ-WeOglqxjNZ0KAL_xvz5BBn-Ea9sMp6dIkGIz0bOIBKzfJTCwsFO-I4OWE4bK6NN_1xoeXEe26L4AH2gNEYKzg-IYRPbqfIyEXyz3Ztbi5t_uj4fkVd14lOzLX4UVEICFqv52SGUi9kpHW1vX_rzzlwWmmyLYnUKBApaNhaYf_uW9StgXvwfavbQS1O-q5DHzzmJjCirEDRjXy_3TFiv6i_Lnlx0xReYnQUhaXXHrCxorAr2sKipAJ0bWlb88drQPEjMV612YCQuESWT0JNUFFlUW91rQeaRWj-UbO4PrRa_XrBsBQ73E6Q_CIShFsBbps52R0k6YjlVZylP3CX_w21kUiUTpQI5Q9z_H2wYllXmT2ShAjtApdF58rN3Z8xr58oT4n8YtbstFrMmfsDPCNS6ml-f_biD9AYc6nEdvsIUiM0CNZ4KXRnTb6H9v3N5bVoAhKx2kigUKJfjaXfP-5_89t3_7d_541lmcLBxurN-b_96KNQuFL0ei_mq-22-XGUJ4L_sME5iQZIMpiyD7XTsrbxanRAl1NmFAli0vIwk4YGWQdxuZY486U6YQO825B-1vvzeG7uCA_Ne2ptb0QCA=="
+    },
+    {
+     "id": "msg_0aa866384be64620006ac50a866fb087d2a5a9ca13d998cdb7",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Tag Heuer\",\"model_line\":\"Autavia Chronograph 42\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"bezel\":\"black 12-hour rotating bezel\",\"case_size_mm\":42,\"complications\":[\"date\",\"chronograph\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"CBE2110.FC8226\"],\"confidence\":0.88}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791298183.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 3858,
+    "input_tokens_details": {
+     "cache_write_tokens": 3855,
+     "cached_tokens": 0
+    },
+    "output_tokens": 428,
+    "output_tokens_details": {
+     "reasoning_tokens": 331
+    },
+    "total_tokens": 4286
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "search_requests": 0,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

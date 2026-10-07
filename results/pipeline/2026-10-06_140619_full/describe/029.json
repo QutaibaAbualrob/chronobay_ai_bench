@@ -1,0 +1,36 @@
+{
+ "row_id": 29,
+ "image_file": "029_patek_calatrava-yellow-gold.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_line": "Calatrava 5196",
+   "dial_color": "silver",
+   "case_material": "yellow-gold",
+   "bracelet_material": "leather",
+   "bezel": "smooth polished gold",
+   "case_size_mm": 37.0,
+   "complications": [
+    "small-seconds"
+   ],
+   "movement": "manual",
+   "printed_reference": "",
+   "references": [
+    "5196J-001",
+    "5196R-001",
+    "5196G-001"
+   ],
+   "confidence": 0.72
+  },
+  "raw_text": "{\"brand\": \"Patek Philippe\", \"model_line\": \"Calatrava 5196\", \"dial_color\": \"silver\", \"case_material\": \"yellow-gold\", \"bracelet_material\": \"leather\", \"bezel\": \"smooth polished gold\", \"case_size_mm\": 37, \"complications\": [\"small-seconds\"], \"movement\": \"manual\", \"printed_reference\": \"\", \"references\": [\"5196J-001\", \"5196R-001\", \"5196G-001\"], \"confidence\": 0.72}",
+  "input_tokens": 1313,
+  "output_tokens": 529,
+  "cost_usd": 0.00043908599999999994,
+  "elapsed_s": 3.735,
+  "started_at": "2026-10-06T14:07:22.849658+00:00",
+  "error": null,
+  "attempts": 1,
+  "tidied": false,
+  "served_model": "deepseek-flash"
+ }
+}

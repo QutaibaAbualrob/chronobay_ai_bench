@@ -1,0 +1,41 @@
+{
+ "row_id": 12,
+ "candidates": [
+  "210.30.42.20.01.001",
+  "210.30.42.20.01.002",
+  "210.30.42.20.01.003",
+  "210.30.42.20.01.010",
+  "210.30.42.20.01.023",
+  "210.30.42.20.06.002",
+  "210.30.42.20.10.001",
+  "210.30.42.20.01.018",
+  "210.30.42.20.03.001",
+  "210.30.42.20.04.001",
+  "210.30.42.20.03.004",
+  "210.30.42.20.04.002",
+  "210.62.42.20.01.003",
+  "210.30.42.20.03.002",
+  "210.90.42.20.10.001"
+ ],
+ "result": {
+  "parsed": {
+   "reason": "The photo shows a no-date black wave dial Seamaster Diver 300M with black ceramic bezel and a steel mesh (Milanese) bracelet, which matches the 210.30.42.20.01.010 (steel mesh bracelet) rather than the standard-bracelet black dial variants like 001, though 002/003/018 would look similar.",
+   "ranking": [
+    4,
+    1,
+    2
+   ],
+   "clear_leader": true,
+   "none_fit": false
+  },
+  "raw_text": "{\"reason\":\"The photo shows a no-date black wave dial Seamaster Diver 300M with black ceramic bezel and a steel mesh (Milanese) bracelet, which matches the 210.30.42.20.01.010 (steel mesh bracelet) rather than the standard-bracelet black dial variants like 001, though 002/003/018 would look similar.\",\"ranking\":[4,1,2],\"clear_leader\":true,\"none_fit\":false}",
+  "input_tokens": 4374,
+  "output_tokens": 149,
+  "cost_usd": 0.010238,
+  "elapsed_s": 3.541,
+  "started_at": "2026-10-06T13:52:28.658575+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

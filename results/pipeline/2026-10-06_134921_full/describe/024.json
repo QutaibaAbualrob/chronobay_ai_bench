@@ -1,0 +1,37 @@
+{
+ "row_id": 24,
+ "image_file": "024_patek_nautilus-moon-phase.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_line": "Nautilus Moon Phases Power Reserve 40mm",
+   "dial_color": "blue",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "smooth steel octagonal rounded bezel",
+   "case_size_mm": 40.0,
+   "complications": [
+    "date",
+    "moonphase",
+    "power-reserve",
+    "small-seconds"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "5712/1A-001",
+    "5712/1A-010"
+   ],
+   "confidence": 0.85
+  },
+  "raw_text": "{\"brand\":\"Patek Philippe\",\"model_line\":\"Nautilus Moon Phases Power Reserve 40mm\",\"dial_color\":\"blue\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"smooth steel octagonal rounded bezel\",\"case_size_mm\":40,\"complications\":[\"date\",\"moonphase\",\"power-reserve\",\"small-seconds\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"5712/1A-001\",\"5712/1A-010\"],\"confidence\":0.85}",
+  "input_tokens": 5111,
+  "output_tokens": 175,
+  "cost_usd": 0.011972,
+  "elapsed_s": 3.521,
+  "started_at": "2026-10-06T13:49:43.350872+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

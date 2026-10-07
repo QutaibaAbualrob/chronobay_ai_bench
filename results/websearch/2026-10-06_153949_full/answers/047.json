@@ -1,0 +1,643 @@
+{
+ "row_id": 47,
+ "image_file": "047_tagheuer_carrera-chronograph-glassbox.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Tag Heuer",
+   "model_line": "Carrera Chronograph 39 mm (Glassbox)",
+   "dial_color": "blue",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "bezel": "No separate bezel; blue tachymeter flange",
+   "case_size_mm": 39.0,
+   "complications": [
+    "date",
+    "chronograph",
+    "small-seconds"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "CBS2212.FC6535",
+    "CBS2210.FC6534",
+    "CBS2212.BA0048"
+   ],
+   "confidence": 0.97
+  },
+  "raw_text": "{\n  \"brand\": \"Tag Heuer\",\n  \"model_line\": \"Carrera Chronograph 39 mm (Glassbox)\",\n  \"dial_color\": \"blue\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"leather\",\n  \"bezel\": \"No separate bezel; blue tachymeter flange\",\n  \"case_size_mm\": 39,\n  \"complications\": [\"date\", \"chronograph\", \"small-seconds\"],\n  \"movement\": \"automatic\",\n  \"printed_reference\": \"\",\n  \"references\": [\"CBS2212.FC6535\", \"CBS2210.FC6534\", \"CBS2212.BA0048\"],\n  \"confidence\": 0.97\n}",
+  "input_tokens": 23178,
+  "output_tokens": 1328,
+  "cached_input_tokens": 4723,
+  "reasoning_tokens": 1167,
+  "token_cost_usd": 0.00255673,
+  "searches": 2,
+  "page_opens": 0,
+  "tool_calls": 2,
+  "queries": [
+   "site:tagheuer.com CBS2212.FC6535 blue Carrera Chronograph 39",
+   "TAG Heuer Carrera blue chronograph 39mm date at 6 two subdials reference CBS2212.FC6535",
+   "TAG Heuer Carrera Glassbox blue 39 mm reference blue dial leather strap date 6",
+   "site:tagheuer.com CBS2212.BA0048 Carrera Chronograph",
+   "site:tagheuer.com/us/en/timepieces CBS2210.FC6534 Carrera 39 mm",
+   "TAG Heuer Carrera Glassbox blue dial bracelet reference CBS2212 BA0048 official"
+  ],
+  "source_domains": [
+   "tagheuer.com",
+   "timeandwatches.com",
+   "wempe.com",
+   "hodinkee.com",
+   "chrono24.com",
+   "bloomingdales.com",
+   "tempuseuropa.com",
+   "everestbands.com",
+   "reddit.com",
+   "youtube.com",
+   "images.hbjo-online.com",
+   "en.wikipedia.org",
+   "tourneau.com",
+   "magazine.tagheuer.com",
+   "dajhcu4r67qk9n3h96cuafpb3.tagheuer.com"
+  ],
+  "elapsed_s": 17.583,
+  "started_at": "2026-10-07T06:59:34.115948+00:00",
+  "error": null,
+  "tidied": false,
+  "rate_limit_waits": 0,
+  "raw_response": {
+   "id": "resp_0022bc658f434976006ac5edd8c16c87d2a75893e3c3deadf8",
+   "access_programs": null,
+   "created_at": 1791356376.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0022bc658f434976006ac5edd9755c87d2bdde86a55d65d2c3",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe3pl1P3pJLGSBCv0al_-0u8GAIUVUTG16YAAdHeocV5fsQxWOGLXNqeGF2P9qMwY3yLrk9OoMPeWMYLDSZTATPMdx5ef4EqmJcnJVFfbUFIU81nImnmEcudbA1G49GJEw34DtmQ8x51Z1ZfB8surOByAtX82PJW-aJBvn8jOo_zR9cQh7NlFsTX4w55eD4fU4qcK59qljWyRk2rAUFLGba7Z8WTutMiMuoRCUEIF1sTROPr_d7TWwj1ZRCvTyG-3huaZ0kWstZgc4J78_uSLFlxn3FWlIDZgPQ-5H7fZ11p7Q7VvCBFNCvUaOz7bSSoKhRZ0vBa0cJ-giwKBo8uDUcJhp9j8Jdpi15ogq8f5SVxXo2EqLayaGuRg0G-vt22XHROI1s0di7i140A2olxN9917ppjOgXSS5cBl0PxrpI1bMwCBYvvP737k3LYGYX0CxcCCqk9yPVxGFOoF94Lk-_1OB9VltRdn8zyCFR5pKPDhQDDGlAp-8Z1FHqWRq8l40gwb-gtFNQs7W3igvx6B-Bkkxfqe5oiYzYElf3dgI-p-5yFjPhwVvIuaCUNu2rEZovCDiozT-8THtXP3xZ5Q8-DNHcnwLq7BatOMM_LG-SuRT_6LccoHtNZ6uyuN1TmfXITRY6b5KjJsetxiE19-Dd7SZXAEPJinOaABQXd_pM1LZZlnKlnQsbWdCG73fDjovaEV9ZT5c5-mmkIXa0skUjm7D860Xq0YGdyK6tA6R2p7cYdN4vlmyyFmT1pLs2WDdtPPsD3R8irKF_26O1DHQss6NVrEIK2GvTfD2gwq5xmlIYc4uni3qX4UG__pyqSCHPY13Kbg3_f2xCbW7VcGgdO9yWeXXMaHxfMd5EygAiNZAmGkcBwZ-GFBkmNVojDLKw7qeeB54WwJVCR9nluZiV1va8_YdMlMXOeYFF30h6Jf5isS8WLBrhwka0NEeGNJsyQbvdAGEn_VRgJT3mSDz_tr9yIhim8L9Uz8OTAZtd7OQP1FQxOSJTTtxvwCO1YU2lDyCf-Nhs4bhLERXawFJZwh9rnfb_P-e-SIAPSXGCSUtEk07jH-Hx-jN2W_uqlXtoUnTucVBs5dxF-bmxbPGNRpzEhZTNBozwDQLEI64Uz8TdykQPl1vtvOG7qmISlT0sz2agWKZ0d4wmo5kL80K275o0d4ffXssSGaLuJpKB2uFCqL43cc9zeB51q31NLbpJqtOJYOj73msn4H4QBZRaefhxiRNPOQXCdG0CZqhGI4fonX7yV3vv1jbQJfvQ35UWkouNUzZCOc_fu6qGY4cmak84fDrJwRa55m0pvY1P5ohrQmjBeX7V7ORTvwEEOonyip8L5E_-4nCJvKIollwON1Jl0rnPb6B881TYqDihcj02WUrCR98u2BMXBO4pMBI7mMVPiuGycZS5-gL_r0CCMzWQ3ITBYuZuOgfxMoDJTuDO8DJSjguySMZMdmKci4LNjOohoIIijWsOF5maciCDOqf_8_dtpEARQO7H-c1IsYoFbmJLJiNx_ufFrRhpzhho_3L995KsBD3TYfmxZ8tA1ds9htXzy57scW085qufxdGW9AeJtBdX-9nhiHc5MciYzWrCfthC_LKFgSNRLyVb8D4xke5NPI6j2sUERNivj35rqovsGiiCKxeZ_K4a__hpwabx6pAWbdOjy1BUSutVRUXL4kBgaRooET0g6SfoVtsBwvIEXBcXCsd7zf5cet4U4yM2JpIOTacSbp4BjTcAgimjbLnz2XMpPop1aelG5vF99EKyW_b-OYlNR2kB0b39UO_OkCMY5Ent2zFs7jyGPvAXeUNowwN4syQstnm7Jg2xj2gtan8aOYdlTKEvjy_5ssyO4NxHljKGn6NznTibVbo7IAMmvzfLa3waFLMdsaXUKn78KbfPFZbg6NWNaBA9C"
+    },
+    {
+     "id": "ws_0022bc658f434976006ac5eddb114c87d2aa520f841645fffa",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:tagheuer.com CBS2212.FC6535 blue Carrera Chronograph 39",
+       "TAG Heuer Carrera blue chronograph 39mm date at 6 two subdials reference CBS2212.FC6535",
+       "TAG Heuer Carrera Glassbox blue 39 mm reference blue dial leather strap date 6"
+      ],
+      "query": "site:tagheuer.com CBS2212.FC6535 blue Carrera Chronograph 39",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/assets/brochures/tag-heuer-carrera/TAG_Heuer_Carrera_Chronograph_Glassbox/EN-Mobile_Brochure-CarreraGlassbox.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-carrera/39-mm-th20-00/CBS2212.FC6535.html?xs=1"
+       },
+       {
+        "type": "url",
+        "url": "https://www.timeandwatches.com/2023/03/tag-heuer-carrera-chronograph-glassbox.html?m=0"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wempe.com/en-int/watches/tag-heuer/tag-heuer-carrera/carrera-chronograph-cbs2212-fc6535"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/assets/brochures/tag-heuer-carrera/TAG_Heuer_Carrera_Chronograph_Glassbox/ES-Mobile_Brochure-CarreraGlassbox.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/assets/brochures/tag-heuer-carrera/TAG_Heuer_Carrera_Chronograph_Glassbox/CHS-Mobile_Brochure-CarreraGlassbox.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/us/hans/%E8%85%95%E8%A1%A8/%E7%B3%BB%E5%88%97/tag-heuer-carrera%EF%BC%88%E5%8D%A1%E8%8E%B1%E6%8B%89%E7%B3%BB%E5%88%97%EF%BC%89/39-mm-th20-00%E6%9C%BA%E8%8A%AF/CBS2212.FC6535.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hodinkee.com/articles/the-black-dial-tag-heuer-carrera-39mm-glassbox"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/mx/es/relojes/colecciones/tag-heuer-carrera/39-mm-th20-00/CBS2212.FC6535.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/tagheuer/ref-cbs2212fc6535.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.bloomingdales.com/shop/product/tag-heuer-carrera-glassbox-chronograph-39mm?ID=4754140"
+       },
+       {
+        "type": "url",
+        "url": "https://tempuseuropa.com/en/reference/tag-heuer-carrera-chronograph-39-cbs2210-fc6534"
+       },
+       {
+        "type": "url",
+        "url": "https://www.everestbands.com/blogs/bezel-barrel/the-2023-tag-heuer-carrera-39mm-glassbox"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hodinkee.com/articles/the-redesigned-tag-heuer-carrera-chronograph-meet-the-39mm-glassbox-live-pics"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/jp/ja/%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%94%E3%83%BC%E3%82%B9/%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/%E3%82%BF%E3%82%B0%EF%BD%A5%E3%83%9B%E3%82%A4%E3%83%A4%E3%83%BC-%E3%82%AB%E3%83%AC%E3%83%A9/39-mm-th20-00/CBS2212.FC6535.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/assets/brochures/consumer-catalogue/B2C_CATALOGUE_2022_EN.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/tagheuer/comments/1dxxz1g"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=PqiZfJ9DDnM"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/186jpe5"
+       },
+       {
+        "type": "url",
+        "url": "https://images.hbjo-online.com/sites/constant/adn/uploads/656732da994eb_constant2023-2024.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=r35W_8JCplo"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/tagheuer/comments/1uwp8wz/blue_carrera_glassbox_straps_vs_bracelet/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1ki4m3j"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1ve2kn3/wts_tag_heuer_carrera_chronograph_glassbox_39mm/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1v7qnxo/wts_tag_heuer_carrera_chronograph_glassbox_39mm/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1v17xrs/wts_tag_heuer_carrera_chronograph_glassbox_39mm/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wqrj61/wtswtt_tag_heuer_carrera_glassbox_39_mm_full_set/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/157z54d"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/16p651t/tag_heuer_carrera_glassbox/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/1wqrnnv/wtswtt_tag_heuer_carrera_glassbox_39_mm_full_set/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/14i3hft"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/TAG_Heuer"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/TAG_Heuer_Monaco"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0022bc658f434976006ac5eddf9e4487d28c3c23b498b252c3",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe3pSkdYADySTOFuEH1ogA-_ZC207HH-5an2XNnxcgNrSy0I0n09-QBh3ZugXGKD_FWrQvyZXVq1R5PiiPFY8ePmZi-kOk0BNsY8geOEvoPdRxSpPkvfqGQNqxIxaeBH7ACXPsoEvhp3MT_R-8enlaEQQNSAHeHop1TpYMGArf1l8mBrj4hI1Jwv0VMt9-IuhvLJfIXPvkRCTC3idj_5uW1S84o3IoNw3u1Da5dSJSXe8KoS9_A42e8KI05Kuz4TMHkvROJGSWEYSAjUsNdsYra_fIP-b5zHXCA4fw3jnGCQLxW59ST44K0Y9LPdvzw10OVzBr3onJo27LKhvPw75CeVwPaJ8bwf6H1XGCZxc_b3QBdDGEbsJ3UHCviX1FxKLEKmWTv6bJAUQV8BJbo-UPF5-bl2D5j9GWjr3Pb8iKU2lFnzGwwmhuv_rpNhdHW8OLhmZ6CX42I6CGC6k1TB7v3JduVMGLstEdnCuXzHXLah-JyRMTlPJOQvQe1iwmPu5jy3-l-8XhmtkehWn8KEBGbWs49Sk-hmXF2dg69g8E0T770iXW4K0T1xi5IzlPVeH59NSy_YLAG_rrUuZuHpkh77qywnJyz3NV5tkqgp1AoRWpQUh-Q2JSMs0T9DalPndHwFfl_L07k0j8PN2kGkqXYOMrtZyOhu8YMLqzNp9arsjsTQf2EqqO-pkZ618fe2OoK9BVka7UzZjUAwkrsY5P8Hi0i-M5EAEp1SdqrcEROCoLFCEKzZU__pviI-41DIcUwzxKYgEXHCZZlHiQcMvJqupeh8jfUtb7VygaeUTo0ml3oQsIDR_pz5k07mMHle0FPM-tI5HSNBA_qX_qA7Oimd4Mfq95qsBqokk_VpA210IAOlmSfm5P7uZpY13hC4YE96xXoMKLUxjlVfWBd4HA77oqyEnWupwP6uGzGqy0Bjp7Z1XjvHsInxbZPtSjapWkIt1XKzAU_qe53F7TxnBjzDmW-GNQ1sat3WvD7Ugi7DTq3RPr_3f4YnKZzOhPHu1pHg1_u8ElNZaBsVoVgmM_dMwZ8R0DWCGRsaysfGfZRzTWcJRThyyceDy7HNDt-GosVjiw6Kkg-ljT3KVTByXVXdst_cyBuWc2CC5XqA9fEkoc_TcffZ0xulgoTNx8ArSwA67-1drocsPjlxaLsaE9VweUcpuLyi2n6jocQtgZGioO5xODQl8hDz8HokLQut1dWl_CiCHy5Y9C3SHR5CaxA-ByqbTFPlNGKxNVgqD1yvQ33pIqAHbQq8xrw8cqdfBFNGHIjxSK4IBI6SNmVnMZzrvPovW0hoSK3apuDUkCdHolkjLGUPiSsOvDtz5KVJ12T7pB3hQ6snnA2t1sAYEjCmhfGugSJ5YE5rukkK82La6I_CqibCThmxkyhFpl2k_W_w6GgI6AcbXNBorSIjGisAf44bEs_zSAeqXvb_jJXKEbH-ydoB2V5apA8y1JROeZHfsW4M4VxlOrBKaFqn_yKnRZFlGoOTbYfG2nO6p6YKJvz7p77QuNMu4sdZHQaw-Jf72MRgvsYPYd_zKHHgLI9JY7EpPYtQrQXKS9Wtsul2Xup1-Vn-Rb3D018lp_P_jUPmT3V6yaXCex_hKPYvo3BuL4g3Zc1xhBKYrhRjpySZ7E1M3jgvmP90a_ctTUq_vUVZJ3rljJB4OgLoMky_dYdsb9VscQU5ciknoaEt_tz4wzCxjVQC3sn9QIXbcnIYPzLpfVuhp6n0DwLkE2NelmiOeW3-a-RscUINIlNtG01_Dsyj6KfafnCyrqvHlGvx3sU38aPhm_6Gtp6Y9ZgFT2gegVMn2DdWLyo6MGviNkV0YIGnAM15mjGRdPbh4j1KZhhI3i9XxvS4yJqnIGaGminUjQRiAHfQwCniMPgrnYaHR5N8U8-g8vkaLbw6FZTUifFtVQaN0zwRFVnynGdrlOO9PHEDIi5VX9DScbYbczFTHrs="
+    },
+    {
+     "id": "ws_0022bc658f434976006ac5ede0369c87d28d33fe3988f7fede",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:tagheuer.com CBS2212.BA0048 Carrera Chronograph",
+       "site:tagheuer.com/us/en/timepieces CBS2210.FC6534 Carrera 39 mm",
+       "TAG Heuer Carrera Glassbox blue dial bracelet reference CBS2212 BA0048 official"
+      ],
+      "query": "site:tagheuer.com CBS2212.BA0048 Carrera Chronograph",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-carrera/39-mm-th20-00/CBS2210.FC6534.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-carrera/39-mm-th20-00/CBS2212.BA0048.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/assets/brochures/tag-heuer-carrera/TAG_Heuer_Carrera_Chronograph_Glassbox/EN-Mobile_Brochure-CarreraGlassbox.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/assets/brochures/tag-heuer-carrera/TAG_Heuer_Carrera_Chronograph_Glassbox/ES-Mobile_Brochure-CarreraGlassbox.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tourneau.com/watches/tag-heuer/carrera-chronograph-cbs2212.ba0048-HEU0170206.html"
+       },
+       {
+        "type": "url",
+        "url": "https://magazine.tagheuer.com/en/2023/03/27/raising-a-glass-to-the-tag-heuer-carrera/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/es/es/relojes/colecciones/tag-heuer-carrera/39-mm-th20-00/CBS2210.FC6534.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/assets/brochures/tag-heuer-carrera/TAG_Heuer_Carrera_Chronograph_Glassbox/FR-Mobile_Brochure-CarreraGlassbox.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/assets/brochures/tag-heuer-carrera/TAG_Heuer_Carrera_Chronograph_Glassbox/CHS-Mobile_Brochure-CarreraGlassbox.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://dajhcu4r67qk9n3h96cuafpb3.tagheuer.com/int/en/timepieces/discover/accessories/no-size/BA0048.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-carrera/39-mm-calibre-5-automatic/WBN2112.FC6504.html?he=eec94fa6bb23ad2ee8a8bf01c001257e0748c66b45a5a687eccb8058cf1cbf4a"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-carrera/39-mm-calibre-heuer02-automatic/CBK221F.FC6479.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/assets/brochures/tag-heuer-carrera/TAG_Heuer_Carrera_Chronograph_Glassbox/JP-Mobile_Brochure-CarreraGlassbox.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-carrera/39-mm-calibre-5-automatic/WBN2110.FC6623.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/mo/hans/%E8%85%95%E8%A1%A8/%E7%B3%BB%E5%88%97/tag-heuer-carrera%EF%BC%88%E5%8D%A1%E8%8E%B1%E6%8B%89%E7%B3%BB%E5%88%97%EF%BC%89/39-mm-th20-00%E6%9C%BA%E8%8A%AF/CBS2210.FC6534.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-carrera/39-mm-calibre-heuer02-automatic/CBK221B.FC6479.html?site=318"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/bh/ar/timepieces/collections/tag-heuer-carrera/39-mm-th20-00/CBS2210.FC6534.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/assets/brochures/tag-heuer-carrera/TAG_Heuer_Carrera_Red_Dial_Edition/EN-Mobile_BrochureCarreraRed_20-07.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=1y2HUF8qMH0"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/tagheuer/comments/1ui2p6r/i_love_wearing_this_one/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wqrj61/wtswtt_tag_heuer_carrera_glassbox_39_mm_full_set/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/1wqrnnv/wtswtt_tag_heuer_carrera_glassbox_39_mm_full_set/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/16tod6c"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/tagheuer/comments/1uwp8wz/blue_carrera_glassbox_straps_vs_bracelet/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1ve2kn3/wts_tag_heuer_carrera_chronograph_glassbox_39mm/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/1jyqqt3"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1v17xrs/wts_tag_heuer_carrera_chronograph_glassbox_39mm/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1v7qnxo/wts_tag_heuer_carrera_chronograph_glassbox_39mm/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wgut31/wts_this_is_a_2024_tag_heuer_carreraglassbox_for/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/1vl9z2b/identify_can_you_help_me_identify_this_chrono/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1utklmi/wts_tag_heuer_carrera_glassbox_chronograph/"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/TAG_Heuer"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0022bc658f434976006ac5ede4e94c87d2ab229d39a44e9b11",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe3pu-p9Vyn4zbCRaPgEIgJUXz6hcErCyx5F3o-OmT7lD6CALu8AO0bOBUqTmBhLZWBRexVTPghUtPn5Qtk-434OdE7KUni8NOPWSTmWzOXU68SMN0zoMHNmC82CTPh_nc64f_U-rlJHE8Fvq32MfOkvwZUDRKeB7LS20wAOEXKbSl6uOE3VMdYGhEHaou9OwjM0dXioma8V-jV1LAgRD2JRgi_bPCbmDzi9vc9wv59OGLUtMUM1JXvKJ9_i4wq2PcI2-pdvy4OkJxKeJ-vXGsOUCuiPjuvs2ar9CuNMqyO1j5nc-zTA7eUKxnz5ZIn_84ONoZ5cp0rk3AwKxA4bw5lEfJtuXlulxeZF3E8vcYAXVuLc2Lv2OrdNrTrQ1dFfjTJfBxEAwxfUS1O5NjnYy8j6cIVx4B11ecweTldQg6oAPt-nNb5GBumyqAZVSNj1hJt-NX6Bb7Z_2ePDP58NAiKrAEfc_TS4p3tDyclkoGp44aFupQSqcrPCmEWyFFncQZomnC7lqeBqHM5GqB9E7s4RkztPAUruNOvYV01n82gce2OENEZxNXyEYCMY8tpxLfUQ86XpQDVckBcyceV_2i7pp9W_w1oKOQfP42JgHH-qN16_mNpnBozGKJTUpfAzmPbjzVSm0l4lZ_umIV-fbTBEhIDnkqRNRs8dDoESMUaefV9zF-_bcKJ-nvY1T4jDcXd3egwgy8J6Lss7TZADD2pr03J73mOCohZA5ORU8H1w-pn0fL-isUXc6qebdV5pX3nH7JE2EUXG3_8oGQQrbPr3IuBix71Q03GwVj6q169eL0F4ch55SuCZkgMO1fik8OwrkWybSYiZYieN8b0t-QZZPM0A8hIpQHLGvai9XaDKyuO164ArYFu6GREQCpUrRpkN8LoxqdpuSlwySCZAGVsdsgWoGPikslCEWcIHefUYdCLYjWCrE_CKMNm8FCetukT1pzb2cXl_xdjMtjn2vr7FktREQd5L4l_uM7PW_7i5VqDOfzUS59-I9gnDt4iTC4N0oKEivar5KHMsZzdPN-4xaoT7u6d8DOfZCp44io6N1v87eLoHQB9lydYkBt9UPNF3pOCzSBiKubksb8RyxRc2J2JciMzcKdXftPQLN7PPWzcWsA2OoOFoLa-lviT1EZpwUsoH2bYXZvbjuQvmkc7H9UUJOC8hsrktEfNWEb92LqCKom-dm553d2y6XDYABD4N3PhEm1WEQJA2w0HfSeEvqHQFq_Mb0jUfdT1gKwHnZToE1m9_iUDhDyjXCyKvU-E_sGP3Ig3a69pB51Gbcco_w8cAMfY_dNlF6IkGUlhKIQd9lZLgJbPL4ifDC_PJ3BoNoQUfCw2beJ4w0UwB3bti3I5EDcRYbe4DKdacbmccax2YJSEvpyfL0kgwsjU22YCorNZFkZo9zM_qnJOHQ0VoxHuFO2qROsL8eazZA-Bb2RDh2te__22S9NhGhyWYB2On1RXESS4iuEoZ0TM9akQpV8Kg7PO3NNxvNGwbKrF5geZFKzYx0ugWoiVm8DGjbT-yoR8C-_Uq_0sJ0aRcf89neqX42udhzlawTtvdOiwaLUdYgvl8Bda0EOO_uZllB_LtCJk3Zv9NjdWGBVR4cdpenMszCqsbReKpUZqLQ4rhZxdrbfEOffD1cwpSGCsLX6DAxHyG5YhZwH4yfdbbiOj_P6_t56eZCJ3JXI7gUFVlNSoiYjvfjQyzYRCr9oPXDuZRWvHPym-wYJhYA2c9u-EN5u81uFlbrcFIZtXqgznWK4R6Qcgg-LkfTznWbdioWX8JTvOEaejeSdsDCxXHyMZpwMwK-bzjIxPAEiithh3HrTN1T2DMWfzVNuGD_dF6d2VqbCtjXI_uZWkWcgBQHX2-GK8THEFMHv5-tel-2rA96Kw_SYX3lE87YISOc9Dxydzz5AmkW6EoK_rs9A8Z6a2S014TpzsQ6_grEDBhCf4rl0zSmVE8mmqGUMw8-kLdrPaOWbZVeFYNdwedM1_gtVnJv4VWyAzEVaRALBg_h34JOm8TTQm-Bt_28tynqQp5IwHVEqu7zTP69nZ0vrxPu9rCtOtB--9m1G_ntXSaflsExJybVFy3VuuBhfAxClTGqWDaW0jFnB2vMALkG-NY80mRYiUJK6gL0OSlPOK5M0xIQuRMYy76jpD3rjZav3cMX-SfdgrYxrf6s0ZeKLg7b1GdzQeukZVrNQTgHDbE7rYXwpT-M4doTpxGiPnd2nlbh-eP21eHMe-Md8GGKkITjsNpEiLAf16XWjwXSMeZM8AobI9HSp0EANfg2uiuHviJuaFwLmWbgD2MpmaoW8KsrYmvVdCz-hy_tJj3EGhTgygsLArY5YWs8LLquxXx0A5nCr83UkEnDT-JNLXaSAHtX9Qa6rORTJ4lQ-uCGpU3DHNIits7bvTWE_Wo6pKX-AJqu_7aJKnHjlx93pFG_LEAiw8nz3Hk0P6dEwUulWVPWWN-MnhMkH2kflksRp6LogbZmByxGGyWA6dUO2wAtnaIEr3LPubfgAB3lpsWOf9A-FnsEszqnquZwqPr-idSrJDSeDGIxdQTpUbXsAVNzyNoI2anwFo52NSr3JQhghucLsng3KSaP_PXsS6tN0XX5giACxLlgp4vrM-ynj3j28nP9wSnn0LkTgUUziEsYo5SlqiaGXMI5QVDTkMt0g3kxifKSEX3V4ByT2TWu5PymO1_oeYcrdzbyyaeHCQwG7BtFe_74dS9e6Eo0CvtSzZlfAqaQRSJ-H6Sj8PeehpN9DYq7j28TZt6s2NaBAsA2QxftlJjYkYQ9us76JTGooUtrkOHEPPIu7OJ_aiYB1UyvySH0YKx6RvS5-Wo3wNlw0Vawh6y23m9qbA_0s2XpmmGDKk4nKjbGKsDVohB8A_oFRYK0heRbkiiNK7TN9DpKAM6O7mkBkXib2KFcfZhVa-C2V9F_l1Nhn6TP2vpo7zYBsw0ejl6josnBDbeUuAHY8VAftw9zHaKzohqHii-tXMNiS96sTJHVpFKLFIkp2hXSVSl7IxlVXbPIXmY4Vi_FC_Y2GnhmdCMeg_nLo31Vp5DLOOX1-HcKgq5438hQnR9bEICMvbL4LHBsZzPve451F2aa-82MBfe71gFIz7YzAUJX_NJ4bStXSej00KsSmtQfA65WNV1TZRu8PfRV9qk5awlrxigh9bOAVcABptFCD1fPcKj7M5ERfEoxHZGHB7bORzb2GiQjy59-F4M66jH5s2e0fOKgd9_c0qOXctS58yK7GzIHYYnjkybbYZY6DaQHBf8RAuPGE6H0sat5-gt6mNUvHgbmvi69lTb5562XpEWMvGnCVlFdci7BJmW-mPDAZRSipmZSfAhNB5BHPpF9v_7mjYvuzUn0WhTZ-NRy3wVJ_-y2XSy06ST3hHV-FYxLqlXOktmMNGMeqZXn52lG-Jj6eJjmomyc1cDmK5a0lULWIIPBAnOPxMzIHq3CCaBrZ8O_fZRZq7qJm4HDrKGSQJHHqiQdK2IaJUbVKOr4MvnHxSc-nWPn97usreIulTBZuK3tIsUu4a3YC5gcbgGy1Z76_mymSnz_-NhVosw78nljKjRYlvI6Pm0uyEhUw1F2xcIIInVcS4ItDMcoWhqnuoUQKoyN55_atlcti300WnhsU_C1OCDB2TOv5-EMWvhnwXjLyCgmJoKUi7QmXvUNvB2_D9aY00RCHvAR7mlRwKMHX7i71Aa6clC-68FHANzrvYrHphRXelxAhQjPqjKDV0Qu9UBFUY9al9ilbMG25LTiRM15r2ORB285wu43lcEPYdC2n0GaKHCRHGkHHHFpayar_J3jMOG3-_IJejGEc4inGaRMAavZ7nlO7f78clXkIn6wsTi4a3dq8tGRXY0-iIJyMm50sb93fAWEPvBNIC2GQV3juzWq-25UxzqZzf4G7rZeToSzSu5lyhDsgkeDooiUoXHqBzcqF_BfSClKpzUdWZRukBIOtV_cWI9ceJzD0uYMEuGg0eOHjsH2oKHm1cMy0OfKgYporW6JSUe429RAsamLuwfPiUgaeFecyD1pV4eyGE_7A=="
+    },
+    {
+     "id": "rs_0022bc658f434976006ac5ede60e3487d2925c2fb1548e0aea",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe3pQM8J4Ze72GJ2BwKe76Kp_rdRJxxeaL9aIWOqBFiDa43gZ4eu7LSez5CJOKLX3rB5ykr1Yvfq6k0fJNg-GzTzFJTmcFVUwh0FmWJ_oP-7d5oCxCaO-jVNIYkdnC85k9dAuZ5GU4WGPcjRPGopVVNoXaiFYnreSuRQhhzFBJG8g0Dwil5l_6I-eg5GnkyHilJR0rP7RJni0Un2akBZTDXzoAT34ELL1FoP97YvG2nYCR9JNKgji84PpWViVtwCtL6Pv2G3XtlRVldUJNson2pMJA7s-Kuc5NV3ZsMI51RPjNH9B8ilDAKWIqQnvXp7brXUu88ouNVDogHE_F-BKMfn-mcHgJdqkxOCviUJnjUR4V6a68I8hAYq5aJtYdm3iv0-1v-83KdtC5HIPgRvKsbOq1g7Cdjg91SOvHU323SMA0amgR762RXykt7S3ZoxwFfpvy1xIrkGx2k0shCU1SwUksUCkjfQhg_T0wHLHh777f92-q3arkZP-Q96abplT99gfJ-KKTJAncxynB9MviRLkU7SGgIpeOSz3eHDeOI72GPorFugSXBNdsvlmYPvSr-LJR75nDal0w1z9BzG-QySLp2zXy_roEptlXTbOvoOQg4ANNfvrkkrCx8yXCTZr7wBsJBnp43BROMW3H-Og0aBxF6KwAZuL0D7TXYELYPwjwxxlT8xKyBRCstWlP0qQFABk0b7xLhVHL2pipJZY5npGQ4wRHUrEgSV7GdT6WI4I6xlgJM2eT4TuFAh_SrNmj-wFMyxVmewjj4QzZHhkko2YIfxRqs03uswWfCRZo4Z48x4RCatd1rXYeBr3TsjnU7JHiMq-XWnQyt5e0g_aGWwkdOK97kDOJbaPVyZg4iAXzNAUEDQAsLECsrqQGNIlGl2Xf9GDTW7QleTQ21duBky3kKnqQVS7yjSU3ZTmn4CVnlTUxraXwGlmOOZIHaZJZbF25b3bIl6Nhh9xl5W-HDnPZOGJ_GlSijFewim0oNCAwlRGyyD5WR2Ah6K0nPzs6KGMuXZBLGzXT4Hm39c6Wm2VKGDjW1W7QDjZNgQmmNlR7cJDP-qMNAEkxX8fDa03Qv4DGz0C3ZHMCg05IUcdbYYYUpQIhpxJfhsYYINl6UJSFqN7dwbNz38ugzkJ-jmD8x0Lo5ZhRupSNoVeSCcb71TCJ6xWUAuuUpGaVgVWVe9gbkX2MBnciLVuXG3Y-rHY5vfS4L1ZzcH0QLaFGEti3W5c6LKF-sV_212wEfnzmMysOcujw8uvUdr72iHTqJ9tbxk8HpJhtG7M1XHflNTBwAGZjyeVER1j05uyTa0xsbs8ggd8GiGvswcjGxoqyqmdlBvJLPHanxZWxcIaAhRfo6UP6-0lmtaCeH6fSZBcvOuGeznYmfNxOkUlhBA6r9rypIielL5IFWm29SiSwPiSj0y3SXZP4zoNbc_aIxNE-fX5HU-MldAn8pz6Pdf78VjUq4t0W3D0nYzxx52u9lzZOPHcLnUzWIGKNN3_RnlKCLNzB2VYNehYEwELxChdS2WlYV8YCX1caZcoORnP4enux9lALv8MlfIJdsA3qtN01U7Q915OchD3EqStES8ylRkuca9NB5Q1QN02Z4dFjqtVtg8B2WthZh8XctQOeW2fq4NYGGbJ6E6JJhtf1xByc5FoBci4eKAWSOSmJI_gVx3FhAAbvRXALYNHWhyvUXyRZvJcYerCKKeeyaYydRBB1wz1ZNaD80ul50eRMyeH11tE7S_2EjS2Kqx8dyXkKnwFh23QoUtLyfzQE0vn171zxdO49pcDr9eqViLBFAjE-UpUVkOeEsfWzc3h2V2he8id5yYsVTLcQRxjrYuOfQhb1rJuFocU4jJwZFLyusYEKZPp4dGCjG111LwrgfTBVUI-KllgTo6EKqBwl2nAsTeVb66NXHeLtxqaQV5_f66Kuxun87jLRdgyZo1EzWdvF5WAiw6r3JPWL9B1KxaHAlh46Sx1htXW7NMZ5RKAO4Jsn9YoMzLByn9g3dBco0-2atv6J97G9b40RyC1LaCJJqK4-ZFhwrvir6jAzBfQtZnf0mkYZ8deDXof0cFgWPECk5W5of_VZjgDkAcFFHIfR9ZIdQm_VskmWgAhn4ocJ0fO3tNEzXcZL0EUz3c8wjEbZe8x4-87g8cXAyWNsAetk3y9qpPhiC_JnzK6zLc0IC0wzobGes0KQ=="
+    },
+    {
+     "id": "msg_0022bc658f434976006ac5ede7b33c87d2800a2a4ef4e2c99b",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Tag Heuer\",\n  \"model_line\": \"Carrera Chronograph 39 mm (Glassbox)\",\n  \"dial_color\": \"blue\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"leather\",\n  \"bezel\": \"No separate bezel; blue tachymeter flange\",\n  \"case_size_mm\": 39,\n  \"complications\": [\"date\", \"chronograph\", \"small-seconds\"],\n  \"movement\": \"automatic\",\n  \"printed_reference\": \"\",\n  \"references\": [\"CBS2212.FC6535\", \"CBS2210.FC6534\", \"CBS2212.BA0048\"],\n  \"confidence\": 0.97\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791356392.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 23178,
+    "input_tokens_details": {
+     "cache_write_tokens": 3556,
+     "cached_tokens": 4723
+    },
+    "output_tokens": 1328,
+    "output_tokens_details": {
+     "reasoning_tokens": 1167
+    },
+    "total_tokens": 24506
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 2
+    }
+   }
+  },
+  "search_requests": 2,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

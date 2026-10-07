@@ -1,0 +1,36 @@
+{
+ "row_id": 21,
+ "image_file": "021_patek_nautilus.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_line": "Nautilus 40",
+   "dial_color": "blue",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "smooth satin-brushed steel, rounded octagonal, polished bevels",
+   "case_size_mm": 40.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "5711/1A-010",
+    "5711/1A-001",
+    "5811/1G-001"
+   ],
+   "confidence": 0.72
+  },
+  "raw_text": "{\"brand\": \"Patek Philippe\", \"model_line\": \"Nautilus 40\", \"dial_color\": \"blue\", \"case_material\": \"stainless-steel\", \"bracelet_material\": \"metal\", \"bezel\": \"smooth satin-brushed steel, rounded octagonal, polished bevels\", \"case_size_mm\": 40, \"complications\": [\"date\"], \"movement\": \"automatic\", \"printed_reference\": \"\", \"references\": [\"5711/1A-010\", \"5711/1A-001\", \"5811/1G-001\"], \"confidence\": 0.72}",
+  "input_tokens": 1721,
+  "output_tokens": 524,
+  "cost_usd": 0.000497286,
+  "elapsed_s": 3.87,
+  "started_at": "2026-10-06T14:07:02.131808+00:00",
+  "error": null,
+  "attempts": 1,
+  "tidied": false,
+  "served_model": "deepseek-flash"
+ }
+}

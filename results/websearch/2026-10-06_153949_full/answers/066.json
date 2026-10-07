@@ -1,0 +1,682 @@
+{
+ "row_id": 66,
+ "image_file": "066_cartier_pasha-de-cartier-41.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Cartier",
+   "model_line": "Pasha C 35mm",
+   "dial_color": "white",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "smooth polished steel",
+   "case_size_mm": 35.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "W31074M7",
+    "W31047M7",
+    "W31044M7"
+   ],
+   "confidence": 0.9
+  },
+  "raw_text": "{\n  \"brand\": \"Cartier\",\n  \"model_line\": \"Pasha C 35mm\",\n  \"dial_color\": \"white\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"bezel\": \"smooth polished steel\",\n  \"case_size_mm\": 35,\n  \"complications\": [\"date\"],\n  \"movement\": \"automatic\",\n  \"printed_reference\": \"\",\n  \"references\": [\"W31074M7\", \"W31047M7\", \"W31044M7\"],\n  \"confidence\": 0.9\n}",
+  "input_tokens": 20956,
+  "output_tokens": 1230,
+  "cached_input_tokens": 6029,
+  "reasoning_tokens": 1094,
+  "token_cost_usd": 0.00216799,
+  "searches": 2,
+  "page_opens": 0,
+  "tool_calls": 2,
+  "queries": [
+   "Cartier Pasha C white dial steel bracelet blue hands reference 2324",
+   "Cartier Pasha 35mm white guilloche dial steel bracelet automatic reference Cartier catalogue",
+   "Cartier Pasha C 35mm white dial ref W31074M7 2324",
+   "site:cartier.com W31074M7 Pasha C",
+   "Cartier Pasha C W31074M7 alternatives W31047M7 W31043M7",
+   "Cartier Pasha C white dial steel bracelet W31074M7 reference blue hands"
+  ],
+  "source_domains": [
+   "essential-watches.com",
+   "cartiercodex.com",
+   "orologiepassioni.com",
+   "reddit.com",
+   "theswisscollector.com",
+   "fratellowatches.com",
+   "chrono24.com",
+   "collectorsquare.com",
+   "anaheimjewelry.com",
+   "everywatch.com",
+   "therealreal.com",
+   "cartier.com",
+   "laurentfinewatches.com",
+   "analogshift.com",
+   "monochrome-watches.com",
+   "cannesauction.com",
+   "cambiaste.com",
+   "electronicsandbooks.com",
+   "youtube.com",
+   "it.wikipedia.org",
+   "fr.wikipedia.org",
+   "en.wikipedia.org",
+   "de.wikipedia.org",
+   "userguide.cartier.com",
+   "watchcodex.com",
+   "watchcharts.com",
+   "jomashop.com",
+   "helvetus.com",
+   "bernardwatch.com",
+   "forums.watchnet.com",
+   "jewelsbylove.com",
+   "abbeyfive.com",
+   "swisswatchexpo.com",
+   "magnifissance.com",
+   "aaronjoyeros.com",
+   "arxiv.org"
+  ],
+  "elapsed_s": 58.436,
+  "started_at": "2026-10-06T16:01:48.502248+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_05198dede67c0695006ac51b91288c87d2aaf1d8d15160ffc0",
+   "access_programs": null,
+   "created_at": 1791302545.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_05198dede67c0695006ac51b91bac087d28a6a61efda8e5d7c",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRun5yIY7wUhbTwlZ2AQhtWgrw7IfIjD2OJqAzdjY7QfQyheAw1bFDFkO5SItDS2QoMcYykH0Ub43j6LoRhjYV-PK9FwAaL8MuqZnWpKf_bNLmw7B7VN2MOI3JstAuUjesrBLb6v8qHySN6HEf3-oKQB69C5WS1FluvCjie2luatQjNdhg6LTRtfxuYGbJgU7URR53zKAJa8rb54zprd8CkCykVUOjBIm9s_DqQ6WmAxVgZf-xcNnolGRUBZdKiyBzsokhgk82bEgKvU9ovdRbPL3_b8F40HD6Njk9emRY6Oxm9T4iB-9uw4BBLmsK2TPsYWLoSV_GIlxMBEMJgfh2JVoeQ-Woibm0jFVz8TKA-9DEgJn7QjqOEjvriYxOI9xkmFQ-p8TV0lpuN2xmZuHA9bGYM9iqeWUVwD0ICKFQO2lfp93pnfYZfbVs9QjzBt4Q1G1XOqPmyEPEQS9UH6t7t8R2BuCl1j9BXLmyuL26E0dAMZcuExB-uA4MgBYURrnajyCRvXK2LVuI9AAuC6arxjIRFbA2aIO4_Tp2YU95xuj16ISe0BwBPaMBcmJzxBy6chkQalYff3XKvFnwmzP8LSbBDrWkEPoCVp6VwvguVRbNmuycFzQJNNJoqPS0D7Oy6zp7LUCOQXvJtND0WgyolM0i-x0EDPsTUT4GBZ934gLI7pLorY7lgk2G02mt7zKIAQLe9Vhucgk9YyZKyi1TmlwrS4wfNIgDfBe1yRM1fNHwgowc-hI6KfqGbw9TYnChon1sR0Mjo4bqVQLoUmJdUhCDfM5dtWtq8L11GsiUHjCtSGQ2x0HFkrURbNurU4Rdw7eW4h8l7R8wStJkRXyoe5Ma9FFF_3pWe4svrA6Su__dQmW87QgLy1l_x4d-Em-Mx82S8K-FQEIk8TdzoTw1wRsA6ChcE8PrscYsfy7AZ6K7OPFfNTcE2FSduEXa0MA6uwSxmLN2aOncrqn2mJ7eCp7l_FsiehsqSMR7jSjDaaTGD4C90ttZHAGmYjp5Pa_MuiEl1kHSoe_Ec-PIocDK4RgjsAAZlfl-mrtwn4J3WBD_dzzfmbr8uLWVI9l5SrC3xupE-MukcblaH56XoB0pUBwTi5JIaXdDQbjAe7ANCZnka5azc6GxjC7KNQeyskrnAptL40Sj6KeSyiuT2cBgES5N7_2lj7mze4uQhszVDhgh4LuqwCI_MSq7mXHV73sh4389L2rxA75Ay6Hb45rOmqmY0jNxQQ-EkecUSdUyiDceNtZ5BvW_O7LeOG5rbEraUgv3Xhbzsd5ev_LtmF7nUHBq_YiLM83kwfLG3_xwWGREzWKC_ZGUCK043IYdQM3C2IALVxRlb8Y7mYR5fWrSblzFvEooL1y1NOQClCdb4US73ZtTMabPTGb8qb-lxAMx1XCJoUGYAjhrVjBscDjCGJdaJ7buI18NJTrJgx5zdoaem5DK_01pCL4T_MtOGqzjQgM5Ai2FlAhlvPptMAvRDCjAIfmbU9IGSsSn_omRzCK1DMo_AVS8PxNWY8mhIEnptoetJIHdW2kG8XFZbjmaoFPF9jaUIGkACWtktvVc6eVjcmOR_QQpIm8yOUIm6qt2q4FDnXe5OFVPUy1UjarJ9S-aKMorw7t9XE5do0F1Ia0sLRYXELxAru0KqoswZBg0cDQlr5Nj7vBHPYUGVsvjckfsbslNSiJbO1pCokFtRyAILaYC5Pd4XXg3nAhdQdvUTSWaiHx7cgV7_tse2aWjP_jK2dskHJ_mdfTcIJ0nPltzJmnH_yxocN8ej4mBf_Lpav"
+    },
+    {
+     "id": "ws_05198dede67c0695006ac51b93262c87d2bf54f714922cf3fb",
+     "action": {
+      "type": "search",
+      "queries": [
+       "Cartier Pasha C white dial steel bracelet blue hands reference 2324",
+       "Cartier Pasha 35mm white guilloche dial steel bracelet automatic reference Cartier catalogue",
+       "Cartier Pasha C 35mm white dial ref W31074M7 2324"
+      ],
+      "query": "Cartier Pasha C white dial steel bracelet blue hands reference 2324",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.essential-watches.com/Cartier/Pasha/35mm-Steel"
+       },
+       {
+        "type": "url",
+        "url": "https://www.cartiercodex.com/cartier-pasha-c-watch"
+       },
+       {
+        "type": "url",
+        "url": "https://www.orologiepassioni.com/listino-cartier.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/myye5e"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/n9ws7n"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/mu19vc"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/mpdr86"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/manxxa"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/nfaqpj"
+       },
+       {
+        "type": "url",
+        "url": "https://theswisscollector.com/shop/en/cartier-pasha-c"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/mkkhoj"
+       },
+       {
+        "type": "url",
+        "url": "https://www.fratellowatches.com/hands-on-with-the-new-cartier-pasha-35mm-and-41mm/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/cartier/ref-2324.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/mfp9ig"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/m5kfk1"
+       },
+       {
+        "type": "url",
+        "url": "https://www.collectorsquare.com/montres/cartier/pasha-c/ref-cartier-2324/lpi"
+       },
+       {
+        "type": "url",
+        "url": "https://www.anaheimjewelry.com/products/pasha-cartier-auto-mens-stainless-steel-watch-ref-2324"
+       },
+       {
+        "type": "url",
+        "url": "https://www.collectorsquare.com/en/watches/cartier/pasha-c/ref-cartier-2324/lpi"
+       },
+       {
+        "type": "url",
+        "url": "https://everywatch.com/cartier/pasha-c/w31074m7-2324/watch-12080627"
+       },
+       {
+        "type": "url",
+        "url": "https://www.therealreal.com/products/3088801/appraisal_report"
+       },
+       {
+        "type": "url",
+        "url": "https://www.cartier.com/en-fr/pasha-de-cartier-watch_cod25372685655503483.html"
+       },
+       {
+        "type": "url",
+        "url": "https://laurentfinewatches.com/watch-expo/expo-contemporary/pdfs-contemporary/Cartier-Pasha-GMT-Cu-02-20-2020-by-lfw.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.analogshift.com/products/cartier-pasha-as08929"
+       },
+       {
+        "type": "url",
+        "url": "https://monochrome-watches.com/introducing-2020-pasha-de-cartier-collection-specs-price/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.cannesauction.com/pdf/get/catalogs/254/230410-bjx-cat.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.cambiaste.com/uploads/auctions/614_orologi_layout_rgb.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://electronicsandbooks.com/edt/manual/Art/Auction/MonacoLegendAuctions%20MC/202304%20catalogue_0031.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1uqe0uy/wts_cartier_pasha_c_ref_2324/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vf0dwv/wts_serviced_cartier_pasha_c_ref2324_35mm/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1usccz5/wts_serviced_cartier_pasha_c_ref2324_35mm/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=k-0QEDMqBGU"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=zm-ipgXkJls"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Cartier"
+       },
+       {
+        "type": "url",
+        "url": "https://fr.wikipedia.org/wiki/Cartier_%28entreprise%29"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Cartier_%28jeweler%29"
+       },
+       {
+        "type": "url",
+        "url": "https://de.wikipedia.org/wiki/Cartier"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_05198dede67c0695006ac51b99729087d2892997c44f848513",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRunUSC--RR6vPYy8Ib-ZdwWZje32e_-KeuO12vLyNTEwyIn6m7TaaTGATrm_jkGy_iucP4UNJTrLXLGfIQTVWtg3n8B_fGRDP_pyAo6Y_qOtlroUYTi30PaBdOwkVUv_yuHvZFM3JlRsc7tjLTf9K3qceombixf_aG-poPbVB6qiv-cmw-_o6gtwKlRecl0Pj1sJdbx4tDXHYPkgNk0IsLjYc5pVJUJrCI1lsAhxxobaYDZ-irlGhEkwI1EMewZetKzX-iJAXevseK4xXTBgRxOIunx8ZLQRmmQa2nB3yYdA04xQ30SDOR2k-x5t713ggOl8rHp-QK3LQQI9QG-9wHSWMtt50NLV9Q5nSmdFtP8rPNNmVoWKaFHBVsJcsl0gx5-5fjIoYZMpaPPFB7pdCzubjkn2eN7qyR19yBi8gzKOXMeMp_FgsSGwDiSKbC-g9SMQ0c8FLFHB1rZ1oTk9ickHR-yJoUPPY7mINqdH7WWZeb6UKylCJnKZfD61WRaZV2DucexeZGZhv-0Xdjbu80CHUpT_HvudAoUhxQB0gWhXqrY-x0jXU0kThYcGEfwhPyyDcZpCkFgaQ1HJ5KMkQLU1QFqxF2jEvH9ZEK_VbdWvIGXdBcOAKNC1e1E_wBcVGuD59wr25dQjkUXQ-I9zpOM2nO0Gy14mUkhZnRqXwM3xxIsdwqEM4FRAv1JKjr6IjeHiZbFaEldaahzBiE1dKHdOsjL1tM9b8dTp7y52c7uNQqGemgvL1tl432zhJmUbpv4G6_iacn9mQImfqm6766bldNtKd_IPT8WzHq55WLTx2HJ_q5m6y_BcoEbVJdMH_hr5j55DArYjMhWD0xktXkurx3OZB6CwWFz6t3LEFUhb9r-In_mczS0tCex72mW_FFbLPPoTpOdxcu1_TpLRvgEn6B4oeFY1VxTbeyCpcSt1MJmdK5q7xQdnJvmUtlvQ1-F3IMu30QXDWy3Mgv3ZMQn4X6x3NNPlscpGLGioL34eNKHgcHB9z-TFAeOFybKxej3ywz5jC1jJ82XR0KwJGPuzD2h1lQTPn1kKlwsGsAOkvDN5c6KBuC4Kzf22IHrS-UNNeUhZ5gUz3r21rOmRBVYrW4uBVWdfqVPxG8JAKt_p_hxMMGMRV8Wdlfh1JFN4X6Y93sm0sBhpl3Myqvjoi6j_28wlN7JKl2IGPXtTDZ3_t8HEzc2yA3pgLyyQG2sjEmg3LfN-kqd6QuUw2tNKpyhmTBAhpmLa1kcDRcgOdnmPiBgqC3DF7v8RyB2onz3m-FxJaS7gIsMnRfFKdLA61fZ30teLidOfjmNJnpxHPn5TvtEKF2dFztgn55rSmitM3x2twabFHWDTVjYQ1GETvUgLDZ2-ZDQs0QAZmddn_xWFwMdHVR8htZytUgExwxMSUJ9OQAdgkzWsS4YmTdxsOT5xDl-A2NNGCksCxstKpksjHhqsk238OjLU8IOnlnjV22GB9WEPvzOjS7H626viA27veUV1enCDZQ3nPPY7KLz7sDIYUUGF2YisN_d_hnaXksckW0Kx2QPoIU-F8saFCCbZlvAD1PvgC8n9JnJNUik91KSQI_y2IB8Ur381irTdR3NVcWLoQASqwi6KFn10jGAIu8PqxvHk2W50cwfrXySleXqnlgIqQqWpJMnniQVEfy34Nm8kzTQq10pedK-V0iK4j3bbctDA-b6QW9eIHyfnBfFzHOo04lC348igOvC1pnhs0NU6zfDzAG9sx5ZTJL8VSX2KuP_iwGleeq9XS-UHZ23tzrj55ocEnXxekVvvTtip75y0wr649sh98hVx8f5imJsl6N1MPFMuF8IIAbJi4oJasyQKXJrp2HG_rfZf6pRKqP_1tcrc9HcXRNZrqiDXhFtt6-F3Zf344zEmkUp4JnPJepZkHHDGGvC8uwTjTcwdncbpJuoNL2NT4tiY6hNOQIOK13-SYBKCMikyl9zCTYYWcKlVjZAr4OWGTmoCccKqwnXz87ycHApEztIgqesna6YAB9xaCRqqtooZ9gW82Hl4eOcEw1n2u5D15byJLVVG5geI5q9rIHhXn9cnDwdGVJiromVzyzTbltkASy1qXehL7n0uTWknL9ghEGu7d4T5EFFMdjiodrKDuvVe0cC5l7ifAJSSw6uCeV1SCrncd_8nByoqBtfMLOL05zbU4Bmpefu-MVNR5x3h5sGrsYX9m6jXDevJEXxnPZoOMUn_Zy9YEqBqxZ0exnoQ_0_7xCIpw1K3MgsxQGQjbNq5loYDL7fAhgeHVbeSSwHJO2XbcyrRFtvN_GQPfbGz9UQz0icYkrjx2DUK3FFAwBRbT1An3ztMJoydQIUfRwSND_gin-sot6YbPGMQwhvJaY5LztK0H9SpQyYD7MJddguzJZjO8l9K7Pbc4d2N4JUsSaaOXBiXPGhCcBOlCLSQ5PrZccWM4n2R6BfIkhQVY_-Hc7kkXizz_54iXdmKmuOZRvyH8TXLRUPXJiUr5CU6SwUDexTVMOKXDBgvntPL9oCgN7hmdoCNaP9_78INTt5HJO42OB2fj_YkRjCDYTELWzHgcm49LNXOYAw9WEa9xmeENSVrtl_Pp0gp1mwGN4ajpnbGchnhXEGZ5kceBmbLEoK6KgfVCddNQ_CFKBTpqhxe4pV6DZmuBqf9QA2fB26vZZVkMA72nlBD9NX8yGp6GT7YYDW90vBLIzw8Vva7Uc60CwNfdd_wZsWia_K2N50sKlRG4ZBPYAAThop6MTgYIlEKEbZphjYzSsp6TKNQbzn8bTEFDvvdo2En6G7pcQ4EXu4ID0f6AM3t6hhg-DjYoI1WYEA9LCd9eRClpAzxOKRuzySk0GVRqU3xH-M4HDZoSFverd65BwlC3sobLEhhMieLSauPQXGjutU0wphySxXs2MutF6je9JBm09awAv9VcGaCz2IkDBf3GqoJd7ZWqfBfpgV23RbLo7KIniYKJA93swEnCZUTifyzK0qAXm63mqsTpoyqw7-seExqXmO-GGWazkHtCS7_V5kLx6L48BchUsaLQ=="
+    },
+    {
+     "id": "ws_05198dede67c0695006ac51b9aae9887d2a83467864a1ae5c2",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:cartier.com W31074M7 Pasha C",
+       "Cartier Pasha C W31074M7 alternatives W31047M7 W31043M7",
+       "Cartier Pasha C white dial steel bracelet W31074M7 reference blue hands"
+      ],
+      "query": "site:cartier.com W31074M7 Pasha C",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.userguide.cartier.com/W31074M7.html"
+       },
+       {
+        "type": "url",
+        "url": "https://watchcodex.com/qa/en/watch/cartier/w31074m7/"
+       },
+       {
+        "type": "url",
+        "url": "https://watchcharts.com/watch_model/51132-cartier-pasha-w31074m7/overview"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=k-0QEDMqBGU"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=zm-ipgXkJls"
+       },
+       {
+        "type": "url",
+        "url": "https://www.jomashop.com/cartier-w31074m7.html"
+       },
+       {
+        "type": "url",
+        "url": "https://helvetus.com/blogs/cartier-strap-guide/strap-guide-cartier-pasha-c-w31074m7"
+       },
+       {
+        "type": "url",
+        "url": "https://www.bernardwatch.com/Cartier/Pasha-C/CAR722"
+       },
+       {
+        "type": "url",
+        "url": "https://forums.watchnet.com/index.php?rid=0&t=msg&th=551074"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/cartier/-c-w31074m7-ss---id40319757.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.jewelsbylove.com/w31074m7-pasha-l-automatic-white-dial-stainless-steel-bracelet.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.abbeyfive.com/products/w31074m7"
+       },
+       {
+        "type": "url",
+        "url": "https://everywatch.com/cartier/w31074m7/watch-15326008"
+       },
+       {
+        "type": "url",
+        "url": "https://www.swisswatchexpo.com/watches/cartier/mens-cartier/pasha/pasha-c-medium-automatic-white-dial-w31074m7-box-papers-12407/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.therealreal.com/products/102290040/appraisal_report"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/VintageWatches/comments/1f1lq1b"
+       },
+       {
+        "type": "url",
+        "url": "https://www.orologiepassioni.com/listino-cartier.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1rqzc7f/wts_cartier_pasha_bule_dial_35mm_w31047m7_ref/"
+       },
+       {
+        "type": "url",
+        "url": "https://magnifissance.com/wp-content/uploads/2024/08/2020_11_12-issue-103.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.cannesauction.com/pdf/get/catalogs/254/230410-bjx-cat.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.cannesauction.com/pdf/get/catalogs/272/240429-bjx-cat.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vkch7i/wts_vintage_cartier_co_megapost_tankpashavendome/"
+       },
+       {
+        "type": "url",
+        "url": "https://aaronjoyeros.com/wp-content/uploads/2025/12/Catalogo-NAVIDAD-10-de-Dic_2025.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1coaskj"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1d2yv2o"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/1b4z4an/cartier_i_never_was_very_fond_of_the_pasha_i/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1kq8gkt"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1v7pe88/wts_vintage_cartier_co_megapost_tankpashavendome/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1cw30zb/wts_cartier_pasha_chronograph_beige_dial_1899/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/112swrf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1h4ctse/wts_cartier_pasha_c_gmt_2377/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1hp2ss4"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Cartier"
+       },
+       {
+        "type": "url",
+        "url": "https://arxiv.org/abs/1404.2669"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Cartier_%28jeweler%29"
+       },
+       {
+        "type": "url",
+        "url": "https://arxiv.org/abs/1206.4728"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_05198dede67c0695006ac51ba2382c87d2b4781f179cf2915b",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRunHnQgoxRrnqVu7iy3dYelZ6673iFtPVK1woPq2zsDDni20V3LEAXnqlBsMmkYKsbn8Ukms-S2ShypD5Mb8r56jyIIBVHfyxcYWkMUqp_ks_sgwZJZz_YfUVOkGNH7r4l5F1tBzHqoQqtyEQdVcWL07m3f8OHsEN5wsTHkssrB4smq2SQ9KPOfoUNFN4wMTE0uIOwVAR900TmvVY0ytjAKRuJJ4gvlGH8GqYAPw6tOf1mpHSEJaNtyN4-MtbCgtummwKacFdmHfeKC8DFPfXxLF7zX4Y-5L4tPtrYJhrwtxvAaSGLqxquwGUDkdAXLdTqs3RdtVG-7skVtopCiBch7BjZzUSgd96fK-lDtoMitmkVVsuC98v7kd5_RORT-GBlFPp0HouYQcppdEPyRNfDL0zAFqF5EfqyY2w1kWhJpbCzT8ym3EnXFMNTGT-C-FTKH79Lolhdd9SqM7matMp4fnfV4K1fHSXd5nzhQZsMI2euAlBUW6LsvQVK2Qe4GhQQ8aMxlqf0kO9x7OsYVbQP3ai9rcCz8u5zI9uaMn-c4obj2cd2WkBqXJyN2yz6ES8aFTHzSloHkXDkb1Csn8qDD3HxJ8d0EWS3Efqk37OWTd80dMoLxC3T3NnnINQPP3MG0Ql1zfZ-eOfWrqkz0eF9GLoEX6m09qvpq1rOzWlZQaGKHSUlRrrXRgGSbytLVaDNZA5qLjezVMgEAIpAHCO09zP2ARiLxvKnYo0GAvorIDiXKH8z5hs80-ZMONdMnGPIzuxtcHPQg3s5Oz53Qrmzg52ACfSs_7y9GrOItDXYGjDaL6shNI5FiUF5if61Dq3AzmGNPAb32D5-aDD9lFhX-pDLfehN_FhtRc-CxPQvuF40QIqQqMylwtIocX0crpSlMrmsuMkwLxZ-Sj_eGAXAx5DlJ7za4tO76Uz7ajjffWUmX-c8HyCrYP6RLQ8UkAoOFKR8026crZXhCojhZzNbP4jXhz5plQCTjx0zQ7iH-S25ZHfxYrgiKev1Rr-Grn0rY4ydSyVZ1iyIjkCc0UxQSTuxAn1tt67VIQ8bJNn6Qzazv_z19sr-N-8UQOzSS7v86HUpji-quy4hdmxIeznRs8BlfpWyQYTPYTfWf6DXjKRyjo40S_y-i7c7bJ45sS7nKfQpFCTl7fEN8g5PZ0wpT_OwY7lMPZ7jOKZRGZb3NLCF7IZ-qN6gQqShQILm5RzOG3C-_a00MXR7pwM5mQBjH746_gQQZfuh_RiIwIRXCtRlWXJMQ6TdDRSfeC5T6oecAu-WU9OQ4XPMrI6ERfJZaa5p4R1smvc8wdlRUXdauSUHID0GXxb3bkiQyg0pyv63kEJc9RLjBrhCCEwIXen4aBtP_YNHbnNkZrRT3u2RAVJsOuUwWySr1tBf3BFpz63sh_aYV4WaafrvKn6ShlzpheL67lB29YB4wf8LJrBG7Nyf1eqgtcP7Omtn8ZIUJhEXUItyl1FkI0R38WyV26szIEj2N_pm5t7dTB8R418TRkzryfSepv6iNzW_FObG_kNZuJx5z4OR_mZ4IPs2ceL27ayiVQrJjOWXZznR1Qm4lH-3gkpDdiPbkPmAgTaduo-wFb_gZKp3Rj_qS83VFJxURuqVGLzRIBiqd_4jCEzJl52gUyyMdwNZbV8j3aBHOgZ6sXKwzDO5ZfXoSjeY7XaNIyv12MOi0O-SIBg6Hv70hFfCDclSvCFhjPkds5J4GfCw8NOwkWQfbysHyaePdABKGYpip1OO2CNlP85H_ncodOzCRVohcy9OlwWmdSEiqr1HhaqUOqFjKY2azB2YsqqSjOI4V4I3JNMxcF8_SRwVWRahD5d1WvogmNF3ig8Dm8KW1VoYSfMfgQk3QKq_GlGK9NBrXlqXbZxI5PR5nN9qY8RQUgUupUSmMUVZCFiD9dF-RNBe46ttbpzPABYKezTDTeFJ87hv63WsKj-_dTbgV7_W4VGQCAreHMIDYdGonYaEKb5AHjZkmp6cZsZK4zvFIqlICeYyAsYRnBqGwzVKy5UUDBA0G0ae-IgiqKDQ2PsrGKCx5sZFPzD3wCLPqMDX0m4MT0VvCwOEvevnSkUZPWxmf4vdUy6RogQu1n3-ccNjw4OyvM7uuo0nZ36-rASfo-NamH6qXoYrlRIB4oeAOTjfgtDyISgz5DB5xJXfx_VkkoYQHftIKZeO-O-37F4WpLZ7kNtRU3ZCcqa7-LOiYBalq7vKxQmBIzGW5ucNINxrriBK7HX1ZPhtMk1YZA9LUOuMcUBho1v100mNVEWlxbGR4OMg7gS0TANCAnKkn4uNF3opsFJVr2IbltaM5dxxgMP-IwGN8o6GBvOreqCdIbMhhnsZUFwxVz7Y4828KcxaU4AS9yqkdTgvZ32XuaX-AKp5BJR1e6dWUlqeKixxzndLLBSgbztu14pu68vvp44oiRMfhIQQIRxAJHTlPD_HyjvKbeBKuLOoQxgAzfjL7B2s_tpmJGe55njK2uG16jOva1tT_eZfAM0m8PQ6gPmBEev-2PQuY9HJqOwwZhqXjnwRLCVQhLiLIEzWExWo1gsGh6Dcsz2N0r-mEsRS8Rs6ftnA1SSRbmyfIBo-W736pZqYtt1BhLvB15IwNA0OO5RwLfp385sgNqpIU7Mu0e8YCgiRUSt3Km3U2wxLTCnfudDKYR1AGmVSSLPf-EPnAK_oG5hOWEciZRyxJUr7aap46ANG9wjDSpTfKFYdddpqB4yqU8_ubtaIOzMyvZ9I0OGQI6x-C8UeuE4vMauWtPgj6Bv0KP2xPU-FgTvuU2RHPA4VCX0HId_NZ__flkgpdzozYtPepIBEPwxlrZ6imWwZx4NTe1ktmNuRJNfMG-5FMfMv_DZ03dJqO4QreY2oTELrtKwqbIGnRK64N8CKqVAXK2H1mynu7P9n3xRtiq5Lb3PXgxMxtcX_uUsm1EKa5kY5Hio8xVMJO2vvICvsTKlqiONXZWAhEOI1p_yeVA-cQZrpY0TyEHuQMA9w_G7MZdYTDoTjXrBrxzBM366ZQx8US4iB9-ZFWJuGiVigAdW8-oxY3T6M6v3zWl9-byhRToJYTDo_ONP0VLStn3PUZ3ghxkN6ZYXwR_v8hdkFzg699t9eBQmvgi2NDpyyTeoC4ep5LMrZTOTFyTRcVFovnx8gYRKtSl7zwtRqrUpmoPMCrSLuQoLHjk7t6rzZyhNNXJ3QVY39MIpmgLOUEwnX4fvzRXa4YlkKzUQCLgEzE0zYHrKXs2r5q2WGoxOPS18voL7bIhVY4N4LOYdt0OdoSSHLaN4opEf7oKZ8qU3yvob3btzrl7I8uxMDiogMIHVX27lesnd_uTGcoc2bO8sUPfVw1LSaeb-uuC_MO_NiJwhzVgRHrlQs6ry5ggMbp31CbnD4mnpYHtvByhlzk81BIux0vpg3OsX1YIgFOqkjxG_E77jL3sRo4jtMH-2x8dAJI-IR9gntKBrpExnqqcrwZR62V9SUzXy9H0s70to-YT9rWfz2aXif9jlz-nI81H-o-35-M-yNSiw_X9wGACEFF3eYEvcqD3vkh44ixn4dhsWvfNSpfpVQazgl_iIYMKl-sioKdn4EkI4KH1CVcBVl8Y5ramDlSMfikY-uvJFQOlq9T5BODNKXXcHBs4tiiBPis_DZXy2D2ME6o1dgkeWGvooZopHDDA8RH-umVY1pF0bbil0QzJgdRytrhBizXfaV04sGM0cmvjeIPvRtOpCOkvIEy1Pydbiuopq0G6HdDHoPbihIzNoPlL1uoWfqr6FS1-8q5xZquQOGzYojh6XhDxX7Zu1BbTd8Fp3vSqlYZIx85tADMP1bwB6s5wC54qVtQ8uP5Z87-AW48ZDMbLnM3ExqrZM8xJTzaGmctp9WXfGThcfjwqDWOe_7lK1oJxPpdKh8o"
+    },
+    {
+     "id": "msg_05198dede67c0695006ac51ba3d4f487d28f02e1929ea8c115",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Cartier\",\n  \"model_line\": \"Pasha C 35mm\",\n  \"dial_color\": \"white\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"bezel\": \"smooth polished steel\",\n  \"case_size_mm\": 35,\n  \"complications\": [\"date\"],\n  \"movement\": \"automatic\",\n  \"printed_reference\": \"\",\n  \"references\": [\"W31074M7\", \"W31047M7\", \"W31044M7\"],\n  \"confidence\": 0.9\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791302565.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 20956,
+    "input_tokens_details": {
+     "cache_write_tokens": 0,
+     "cached_tokens": 6029
+    },
+    "output_tokens": 1230,
+    "output_tokens_details": {
+     "reasoning_tokens": 1094
+    },
+    "total_tokens": 22186
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 2
+    }
+   }
+  },
+  "search_requests": 2,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "row_id": 1,
+ "candidates": [
+  "126610LN",
+  "116610LN",
+  "126610LV",
+  "126619LB",
+  "124060",
+  "126613LB",
+  "126613LN",
+  "126618LB"
+ ],
+ "result": {
+  "parsed": {
+   "reason": "The photo shows an all-steel Submariner Date with a black dial, black ceramic bezel and Oyster bracelet with date at 3 — matching the steel/black Submariner Date references and ruling out the green-bezel LV (3), the blue or gold two-tone/full-gold models (4, 6, 7, 8) and the no-date 124060 (5).",
+   "ranking": [
+    1,
+    2,
+    7
+   ],
+   "clear_leader": false,
+   "none_fit": false
+  },
+  "raw_text": "{\"reason\": \"The photo shows an all-steel Submariner Date with a black dial, black ceramic bezel and Oyster bracelet with date at 3 — matching the steel/black Submariner Date references and ruling out the green-bezel LV (3), the blue or gold two-tone/full-gold models (4, 6, 7, 8) and the no-date 124060 (5).\", \"ranking\": [1, 2, 7], \"clear_leader\": false, \"none_fit\": false}",
+  "input_tokens": 2125,
+  "output_tokens": 955,
+  "cost_usd": 0.00089175,
+  "elapsed_s": 6.371,
+  "started_at": "2026-10-06T14:14:04.769877+00:00",
+  "error": null,
+  "attempts": 1,
+  "tidied": false,
+  "served_model": "deepseek-flash"
+ }
+}

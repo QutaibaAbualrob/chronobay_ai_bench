@@ -1,0 +1,505 @@
+{
+ "row_id": 93,
+ "image_file": "093_vc_patrimony-self-winding.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Vacheron Constantin",
+   "model_line": "Patrimony Self-Winding 40 mm",
+   "dial_color": "silver",
+   "case_material": "rose-gold",
+   "bracelet_material": "leather",
+   "bezel": "smooth polished rose gold",
+   "case_size_mm": 40.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "85180/000R-9248",
+    "85180/000R-B515",
+    "85180/000G-9230"
+   ],
+   "confidence": 0.96
+  },
+  "raw_text": "{\"brand\":\"Vacheron Constantin\",\"model_line\":\"Patrimony Self-Winding 40 mm\",\"dial_color\":\"silver\",\"case_material\":\"rose-gold\",\"bracelet_material\":\"leather\",\"bezel\":\"smooth polished rose gold\",\"case_size_mm\":40,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"85180/000R-9248\",\"85180/000R-B515\",\"85180/000G-9230\"],\"confidence\":0.96}",
+  "input_tokens": 15371,
+  "output_tokens": 545,
+  "cached_input_tokens": 4723,
+  "reasoning_tokens": 432,
+  "token_cost_usd": 0.00138453,
+  "searches": 1,
+  "page_opens": 0,
+  "tool_calls": 1,
+  "queries": [
+   "site:vacheron-constantin.com 85180/000R-9248 Patrimony date pink gold silver dial",
+   "Vacheron Constantin Patrimony Self-Winding 40mm pink gold silver dial date 85180 reference",
+   "Vacheron Constantin Patrimony 40 mm pink gold date white dial brown leather reference 85180"
+  ],
+  "source_domains": [
+   "vacheron-constantin.com",
+   "tourneau.com",
+   "watchesofswitzerland.com",
+   "watchswiss.com",
+   "hypa.international",
+   "europeanwatch.com",
+   "bucherer.com",
+   "wewatches.com",
+   "hourstriker.com",
+   "caratandcaliber.com",
+   "vericog.io",
+   "youtube.com",
+   "cambiaste.com",
+   "igi.org",
+   "reddit.com",
+   "it.wikipedia.org",
+   "en.wikipedia.org",
+   "t3.com",
+   "es.wikipedia.org",
+   "de.wikipedia.org"
+  ],
+  "elapsed_s": 18.621,
+  "started_at": "2026-10-07T07:03:27.727511+00:00",
+  "error": null,
+  "tidied": false,
+  "rate_limit_waits": 0,
+  "raw_response": {
+   "id": "resp_08fc916ab3fb26f7006ac5eec54d0087d2b218efb72cf073f1",
+   "access_programs": null,
+   "created_at": 1791356613.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_08fc916ab3fb26f7006ac5eecae7ec87d2adeed31f38595373",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe7U1_7OkUl1xUmNNHOgNO4RHLPJ0k1oxbjTDQ4yPrM3_lypITgG4a2iUagAGRsoF0jeZoJKMjyCgjmTwB6UFpXosSS3qah9x74Jzotx0PoS_u5P9XcK7_OCBTIuZy432V2WRO2zaewaDix_UWTaWA4eIFS-aepDD5y94pbFasupJ_vgLy3hq6UIInoW4Ic2GKr1jZCT1cWA6AeMkREWCL-A7C2q6jvlSaiiw3fG437q_AtSiN-hoq5WUPKBan9u63F-4ucULbiasN6pMymoSt29bNsdHLxvGVB10Mn7w2jwtCFo1KXHLSMp5H0ChySt3ypiL3efCGXocypG2oYrxL2P0b8fcb7AA-Ue5jAs3-ZW4vmNhnF4lBiuPaozN8NwQtyDDBG9ekRIHXKRz-72gDAe1KaACqtrk4jyQ6cWMZ_vI5V_Bh7bEPRE5g0_9D0LfsfTnPPNXzxPoqzQC4r8-G5AEJHrIhEo5A9MmLlePOgST8GpA7V35gUo4DepwCuP16popvBWt9NIkCPn_ABHxbBneQedrkxESL7cyS0i-YyC9aqicRLc9gKoLBpfYq4n-hWEJqx7Ih_uYg_cV-QjtRt1w9BFLp98PfGmQyJ9GrSLhXYzX4Jyf2WiLbVA2Pq8K0hTbOoXoXJAiy0oi_8Kl32tuLiJlO3SOPra-hcWUurgkS15zvN3Q8CCaHFjL4FmZD4naezLfmWFkEVgEDcc3vXFcezQPCovzQef4S4ZLCaFpnpoRF4XBozUeZttO_rVtXThyJVUVAlbORtPBq3yWL52JF7LK3zCzPycfrlU37HDkAgDJYH2amB7Kv9CcDVQ859lxaryR9AZS8cJA3PURkx_BzM3b7oXJsCekRnsg7DV1AguxhB-9cg1YgRUe4kK0zqT8_wrz_lR87yRpeii-M10c2K9f13updCRF9PJ8gsM4oIgOl7taBibLX_ufGxsOaPeK4c1KQyfxeHXjxGGIDo85H2ULe5wbcOfwshs8Ise_FTZhT19WqDcGHh5LamctuuEhoL2SFbNx0Vu6B_jQapFa_JeY8IN3k87ABW_rSByTy0-Mx5vyon7YMF0Se_4H1I5NetYKZTXiyW9soRxckKCVUtR_nqGfpYoBZ8U06xb_iPCS1HgAZ1482vSxjOtGYMJe6fACnHLhVclhXnzZjOwjFw1aht6fPXgjhywfNQ-xbQ41pIXBd6qKeL46uVHlU42O8YKR0mnapusPDgwelfSuFNpWKFDNsv2okasKxuSFv25_vueYEsPUdRpRRV_l-Clt-L53Tu9v3nQE3mcCyLVKxNlEg3AWx3h4cjbEzjUZjVovZnxql1FoZW_JGPDrjQ8vYUaJ8FzSY36MbBPO8U4SCTBE_d-70mIwNYDeO3C_QNS84GxRV3QuohhRi6vk0QCv_mskd5zqDiGfSh-qRaY4C_4p5pRLiJBepYfM38pfKyCo6GYmvN__S7oi-E0s9bm-mXizQQlMpVpNr4rRfu4vNAD3Jf2Ilws2jgStEmD8Pg_qjnBRSqE2CVTWKsjN2ZYfLoIzzllDE1-zAEIp20X1_HM4lurpPG3-i1vUa5c_ck="
+    },
+    {
+     "id": "ws_08fc916ab3fb26f7006ac5eecc12f087d29dd83b54a576af65",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:vacheron-constantin.com 85180/000R-9248 Patrimony date pink gold silver dial",
+       "Vacheron Constantin Patrimony Self-Winding 40mm pink gold silver dial date 85180 reference",
+       "Vacheron Constantin Patrimony 40 mm pink gold date white dial brown leather reference 85180"
+      ],
+      "query": "site:vacheron-constantin.com 85180/000R-9248 Patrimony date pink gold silver dial",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.vacheron-constantin.com/us/en/collections/patrimony/85180-000r-b515.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.vacheron-constantin.com/dam/vac/catalogues/Vacheron_Constantin_Catalogue_2025_26_EN.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tourneau.com/watches/vacheron-constantin/patrimony-85180-000r-9248-VAC0113540.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchesofswitzerland.com/collections/vacheron-constantin/products/vacheron-constantin-patrimony-85180-000r-9248-17510025"
+       },
+       {
+        "type": "url",
+        "url": "https://www.vacheron-constantin.com/dam/vac/catalogues/Vacheron_Constantin_Catalogue_2025_26_KR.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchswiss.com/brands/vacheron-constantin/patrimony-collection/vacheron-consatantin-patrimony-self-winding-85180-000r-h116/"
+       },
+       {
+        "type": "url",
+        "url": "https://hypa.international/watches/vc-85180-000r-9248"
+       },
+       {
+        "type": "url",
+        "url": "https://www.europeanwatch.com/blog/a-buyers-guide-to-the-vacheron-constantin-patrimony-with-four-references"
+       },
+       {
+        "type": "url",
+        "url": "https://www.bucherer.com/us/en/certifiedpreowned/vacheron-constantin/patrimony/1507-280-3.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wewatches.com/en/encyclopedia/vacheron-constantin/patrimony/85180-000r-b515"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hourstriker.com/database/vacheron-constantin-patrimony-selfwinding-85180000r9248-3060"
+       },
+       {
+        "type": "url",
+        "url": "https://www.caratandcaliber.com/vacheron-constantin/patrimony-self-winding-85180-000r-b515-40-mm-pink-gold-85180000rb515"
+       },
+       {
+        "type": "url",
+        "url": "https://www.vacheron-constantin.com/dam/vac/catalogues/Vacheron_Constantin_Catalogue_2025_26_ES.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hourstriker.com/database/vacheron-constantin-patrimony-selfwinding-85180000rb515-3057"
+       },
+       {
+        "type": "url",
+        "url": "https://vericog.io/watch-references/vacheron-constantin/85180000r-9248"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=60L7khj-mrU"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=gJ3jtvn5euA"
+       },
+       {
+        "type": "url",
+        "url": "https://www.cambiaste.com/uploads/auctions/586_490.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.igi.org/wp-content/uploads/Dorigin_April-May-2025_.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1w1jmso/wts_vacheron_constantin_patrimony_40mm_automatic/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vujlu9/wts_vacheron_constantin_patrimony_automatic/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1w1xsaz/wts_holy_trinity_elegance_vacheron_constantin/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/VacheronConstantin/comments/1jr42va"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTime/comments/qc63i7"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1w6qn5k/wts_vacheron_patrimony_85180000r_blue_dial_40mm/"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Vacheron_Constantin"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/VacheronConstantin/comments/v25mvk"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTime/comments/z5h18c"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1w2x7sq/wts_vacheron_constantin_patrimony_85180000r9248/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wkokl2/wts_vacheron_constantin_patrimony_18k_rose_gold/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wpflkw/wts_vacheron_constantin_patrimony_40mm_automatic/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wwouf9/wts_vacheron_constantin_patrimony_40mm_automatic/"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Vacheron_Constantin"
+       },
+       {
+        "type": "url",
+        "url": "https://www.t3.com/luxury/watches/vacheron-constantin-arrives-at-watches-and-wonders-2026-with-something-for-every-enthusiast"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Futurematic"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Reference_57260"
+       },
+       {
+        "type": "url",
+        "url": "https://es.wikipedia.org/wiki/Vacheron_Constantin"
+       },
+       {
+        "type": "url",
+        "url": "https://de.wikipedia.org/wiki/Vacheron_Constantin"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_08fc916ab3fb26f7006ac5eed21ccc87d2a201964353d75265",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe7Un-0bLMzDSdau92aq5W-BjVQCxr4Eu3v2RnnWE8E6SvKPDFuX5vGEtsBQznmXsDvzjPCqm2OMiOOms90svu942k7NtKDDIEdvE_Rp3YRbl6AgtYQsiBJkGefX0RRz7te2z4Ejzj4_-zHDmc0vUnUe26bIG3K9S8xWo-SMP6W3PObHozAqYPEiMu73QNL2xN-5rFOrVcosB7iS4YLmgMBicuvJIo7PweCsvnpbF20Yy7OjQGFqlWaJbLr1aSFziIEWaglljMMkOasELxEALxfJMaih_MeXmzd9-09xatQrKCtsiBa7DHeiELD_RwkGNsyJ_p1EXFFGixDTqfXNRLFfdSqfjRKAMAsOCntXSHa__xIIYSbtUKsZC9mbY6reOYEczY-flIbSz5fg4cEJF36ImfXy32_HNKQLQe2BygASEBKqdanEnbqr1pO7HfztJ70MMi5mTk3JgT1Vg3XJJaBdUbywjvKZPs1EwhjuGz8HycaqIh4rGVgDBei6oZhbfi6DyEtF1jw8vhK8KTqInPuxUghJO7hD0jk5Y6ejqNn58SGM7EZ5p7lp7oDVTSAvE6D6UgQSk9iPTolYUMLaEf-Yw5nwCQVbCPAjTb2Av4j85ziJmSd7zF8IM0-Jcla258sp-VsUDK5ortpVLGppSHUrJfidRxTRbb6GzhnI5MluU7LINZnfExJ7DWRNeuEWVSNdU3Yr66RiFcjVK_sUldzlwx2wS_4G5oeir4sPE3_RnDaq-8hPEBpI3Jewo7RXoboYxsdKyvcytXza6fxjxwKzS92Z2iuZwDVmVGRP1jW5K9KSkNJrqtXfWPGw9QSN_7CkYpGzjbUQ1G8oN8H9hGVUFTyKHZC6Ju7rtbtyFCHDNR5TEmfo_2ODq9doZi70F2jyA_x6yx91L5QomkHAGt3trajiOqp2KAT4oYswslWtlcaz8ey0XWmqZTyFvHmXh2-q1zSoONl-yPi0U-3eglLGHCk1quiDQNgYWi50F_94ov4TTjxR6W-Za9I_l3t8aJg95INtRoBwcAepks0QtxMht1HpKjCfcZZd93gx1l377D06Iqd_wXA5ULmEdlB4tUS6qZAmXb_cN_gZvGiadMM9LEcbG-BfloOgYqOsck0TPgnOFQ0kpQrENTl33kkHihbXOyOpwPf_9wpOjVMPBjJiewFpxkNYY2NdcBAYcv8GXYqGYWmSPcBlHpkU7DfFGgExwlRUoVZ3Gknzth5FH45RjRPcLLZNvLyKOvnxSzVsg03PD89NRFe3AClSg1bA20cEz_q0C7_g0IX2VzN1VW4J0atEzc9NLXgWXnZ8XUSfacmkQcuOltWVLivko4afUjVs_sCAvlI6WL3YbpS369JZ3qsvhkmfq_ecxwq_TIaJ2x9oOVgUZyBzk5YcFlhIei2EcFwPS1tcs94AC2PR4LWtCuRSdmywFjVEeqtRFPeKFrAS1TtRR_Iiqgqw-k-F4Bi-fVlZl90XNvnSrTIVkVUcy5sp10oVcQortDU1q4I9j3nHv06dgVs-UGky0ehOF2rUuHI3sN04iYaQGRIOn42LBR_vgc4Re2Uo5atYpF27q9TCbnrhqT8ZNMuxM4BegnrtGu8PrN4BkaI0AqEwhcbgMdenXuvdpCHgAZD6W7Hyb8GHytbKh2jRSAtlpMutDNfEIIYK5gcgYyI6XMy9lBPUOPC7rMMUr8wttViBpmCCx3GJ1tP9OTgd1Qp8eI2d6OgENI6xYu7j34TiTHVwB_YM_HrkvnRVR45qr20XtlXSXqqB1ZLthVKEFHZjPdTT8VabDYOIaQgkre0IHN7maFR6qRbdodoGvyAuDiXz3DjDNHdT-0PtAhZs5ItmWCJY8XgTW92cyApr5LsNf6nn4jK2JhAXt3KAvDMBzPG2g2TlsyqggXn_qlMbEYt064mZWsXy7Z-gUIwUHmgsa6mj7bXyqN7cZ6D7QfmOxgJuB7Kz4TJ7CnoNsltcMNcAdiu6zvQQcxIQPPZVTTC10S_pi9X7YCO0vNk1708yyCrukQXl_lidsosWQ1AUnUXNT0xkBXh4Z_kXvN5txFlL_EcLahDA_gqGhwGZSy9mPF8SWgSfNd_WomqZ8vWyR7spnYuYYWM6pi_l94XUc9tZXnEbse_X5ugJwU0LE90pCL7Ahroo2JNiysPNZmrPex5UB99ZaWW5MW2ZwHN4voHiRllGHD2j-VmjKqls3KPWxlJKCU1oFqyj-fQBcoJv1eLWw_7JvGa4093PsWNIeW_I74cm-8B47U_ryY6Z5LWmVM_029PJHzKC2f9lRL04LQ91Dp856_ZhQSKJsmG7KxhpO5Si-KscH81hIVY7_Ubkm8oNiVGBrDeGZYjqjuHxY_gWIDIq5u8hvr_yyRgpkqXNXDdGbHL9flWfoGEBA-9KUiUhNn0Gq6RHf76oM-r8wXOzMEXPEe89027mt2NQq2eel9OoDkFmqW0lyIhRh4KohBgCx1BzNPIf0bXsm0Ib58R_etF1bPamOvksZwEb9uF3niydvnCAWYxNDJf4VXOQudwY0xE1BenMijMNB-9IPnZkrFPvs82OxSazUMYBFxnEXPMVVZDlRRVEsq90zkhbs6SIGhd7Ounlo1x45PWWkhdVg2Q8-53rOTneOEaHzNO2vK__xjdEHA=="
+    },
+    {
+     "id": "msg_08fc916ab3fb26f7006ac5eed36f6087d2b9b661736ee9896a",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Vacheron Constantin\",\"model_line\":\"Patrimony Self-Winding 40 mm\",\"dial_color\":\"silver\",\"case_material\":\"rose-gold\",\"bracelet_material\":\"leather\",\"bezel\":\"smooth polished rose gold\",\"case_size_mm\":40,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"85180/000R-9248\",\"85180/000R-B515\",\"85180/000G-9230\"],\"confidence\":0.96}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791356628.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 15371,
+    "input_tokens_details": {
+     "cache_write_tokens": 2002,
+     "cached_tokens": 4723
+    },
+    "output_tokens": 545,
+    "output_tokens_details": {
+     "reasoning_tokens": 432
+    },
+    "total_tokens": 15916
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 1
+    }
+   }
+  },
+  "search_requests": 1,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

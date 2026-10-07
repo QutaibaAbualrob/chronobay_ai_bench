@@ -1,0 +1,631 @@
+{
+ "row_id": 50,
+ "image_file": "050_tagheuer_autavia-calibre-heuer-02.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Tag Heuer",
+   "model_line": "Autavia Heuer 02 Chronograph 42",
+   "dial_color": "black",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "bezel": "Black aluminum bidirectional hour-scale bezel",
+   "case_size_mm": 42.0,
+   "complications": [
+    "date",
+    "chronograph",
+    "small-seconds"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "CBE2110.FC8226",
+    "CBE2110.BA0687",
+    "CBE2111.BA0687"
+   ],
+   "confidence": 0.98
+  },
+  "raw_text": "{\n  \"brand\": \"Tag Heuer\",\n  \"model_line\": \"Autavia Heuer 02 Chronograph 42\",\n  \"dial_color\": \"black\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"leather\",\n  \"bezel\": \"Black aluminum bidirectional hour-scale bezel\",\n  \"case_size_mm\": 42,\n  \"complications\": [\"date\", \"chronograph\", \"small-seconds\"],\n  \"movement\": \"automatic\",\n  \"printed_reference\": \"\",\n  \"references\": [\"CBE2110.FC8226\", \"CBE2110.BA0687\", \"CBE2111.BA0687\"],\n  \"confidence\": 0.98\n}",
+  "input_tokens": 21273,
+  "output_tokens": 824,
+  "cached_input_tokens": 4723,
+  "reasoning_tokens": 661,
+  "token_cost_usd": 0.00211423,
+  "searches": 2,
+  "page_opens": 0,
+  "tool_calls": 2,
+  "queries": [
+   "site:tagheuer.com Autavia Heuer 02 CBE2110.FC8226 black dial 42mm",
+   "TAG Heuer Autavia CBE2110.FC8226 reference black dial leather strap alternatives CBE2110",
+   "TAG Heuer Autavia Heuer 02 2017 black dial date at 6 reference CBE2110",
+   "site:tagheuer.com CBE2110.BA0687 Autavia",
+   "TAG Heuer CBE2111.BA0687 official Autavia reference silver dial"
+  ],
+  "source_domains": [
+   "tagheuer.com",
+   "cnswatchbands.com",
+   "chrono24.com",
+   "onthedash.com",
+   "ap-watches.com",
+   "rolexencyclopedie.nl",
+   "masterhorologer.com",
+   "spacecitytimepiece.com",
+   "youtube.com",
+   "moodysjewelry.com",
+   "chrono24.de",
+   "therealreal.com",
+   "reddit.com",
+   "dorotheum.com",
+   "images1.bonhams.com",
+   "cdnc.heyzine.com",
+   "en.wikipedia.org",
+   "dajhcu4r67qk9n3h96cuafpb3.tagheuer.com",
+   "tagheuerforums.com",
+   "watchfinder.com",
+   "watchfinder.fr",
+   "watchfinder.co.uk",
+   "jomashop.com",
+   "everywatch.com",
+   "gazette-drouot.com"
+  ],
+  "elapsed_s": 17.846,
+  "started_at": "2026-10-06T15:54:30.420911+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_04ee083c13477455006ac519b7141487d29cdb7af3c23eb17c",
+   "access_programs": null,
+   "created_at": 1791302071.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_04ee083c13477455006ac519b7efe487d2a4426a49961c9ed9",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRnIFh8TfyBrvG2-3vdU_XF3gWNzI0WCkmgtHyJlaTCE58CbdiI_BfWbocXtloujSW1gJ2M7fmHhIEhOYamzC5ffKaH-3ojT0QX_6LqP8Kd-l4oguJ2OmWglZ7qKBr9oU48Gn2DajSuBSxdjOUyOYaYG0yZa13MlMWq2SRYW1SVLZE82QKgS4PGk11Y5jj2D_Rc-VL_2yG7KTFDibh6ckmKyHRdd5zUJAKFKd3qRrGTrcwAh0ZFMtb1HzyAKeW-oCJtCorrIHLH2H6oeJrW3RJnRRHWAjdYuoi1W6fZML9RN6eQqOcqWoVXGXcGGAry_gBZqCpOe8Fw9kbHCu_B8TPIRkOFkRWOnuSXuSy-33EQJ8vwt8rVT4WExlttBjsDgLrPpdA_VUWx6yyumYVxCMH9tx3DKceDXrra5E2uAAIJQu3_zzwo-trp1VjnqV_ROHVB39Auq7o_Xos8kR0hBDddUbKvu-GdJOq1W3IZEGUwHLyUztK16nIdyNF6OieC18tudaUhc9x7qfCMMb2XMlc85HLsjrtg3eJcsycpeEZe-mRy8S_y4sU863YWlTpjWIbr2f7S5_smtoPlZPd5Fb6sqfKgmsBX3XjoHytC4c_zRnuzYsEcOewMzHIV8xDyXEatgKb269eBa1vuYIIqAfRGaljMa_kdHkz7H4dohorsaE4JTcPl8Svnxz_U-BB-frT_LoA-zZOzb-nlDMyprHsURIO-Aacmi14NFn_v1Am61jIIrWIjSovC67oxQlJu72JizHT9V6WdQfMrWhlaUkrYrid_MXwQg-TXFIa-SkUWy8zcmc5CP8wbgmOWXlaAsK3sitSfjbXJuw63P7dzAKrck2l1wj04Pq-nvtZig-IiZDYNrUI8sW7JjtnxQtKgWjmg9Pg1ZAXex7QLyWSC-rJg4M8alxllxNYBakCBBbloCddqqDGsd83eYbBI_PDSirxR8yInKTRWStH1fbyhdLEjTH4dQ5RY4Us4dmdeGmU4Izb2VIQAnNv4g7-oC22pnmC2iWXEHiAGPncPsVyJL7sOo2N_RTJod-lZEQ5pZednkrEbRotVhDNd_EIKyLgMg2hbZQrxGtAPM6gvbqnrhAWEfRV3u5mVB4HnXex95r1IFT9kqUSACk3p9PzcjwQBl7jKuAmZuDKZ5-wZoYXMHCo53Ku3AfTGvFFkehHFdjrcDJ-YDjvgbxrQq2UrYIPQmogpO1uk9jN-3uKxu5jN9f70ntvFVADJ7-KjXDQgbMp_mGWZmtbJTL0XA-DW6AasF4kFi3aXp4_DkachhDlhsHW5qMPXe7s9j4-Nycuqjm8p2nhUBr_D55R_9-vgms3csV3OeyA08jheiwFTNPXB6Fusm_fDNQNFVbxyYaPxhMp_aN7wZi_Ys4JvzOFopjDyRO68IQWUyVNXWNEnQEV1nkwAwUd-_nqKClPe6KCLu_rzuFDAm8o2iZ9qAMnUre9qww8Uf20fkOmJyoGb-vFfWgB8-O8dFsl6qgvDcoDkt2MdIf5H8llu5w1GkmRNb3VNjTYFJw3vAp3FgJEMz4eJTMVAo4tGqap_hN6VAHDSoE-TcccVoZop_pZpSAjNaoGqfyQXS7aOscjqAI1u3-eu8TnnPx_KJy8S7YFgsQwxHDyD8Qj3kxxeJeF4rd8FwC_dIJGUFhyDxxqx6dFGLfdPcOC49qg=="
+    },
+    {
+     "id": "ws_04ee083c13477455006ac519b9296087d29a0940a370fadb55",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:tagheuer.com Autavia Heuer 02 CBE2110.FC8226 black dial 42mm",
+       "TAG Heuer Autavia CBE2110.FC8226 reference black dial leather strap alternatives CBE2110",
+       "TAG Heuer Autavia Heuer 02 2017 black dial date at 6 reference CBE2110"
+      ],
+      "query": "site:tagheuer.com Autavia Heuer 02 CBE2110.FC8226 black dial 42mm",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/us/en/42-mm-calibre-heuer02-automatic/CBE2110.FC8226.html"
+       },
+       {
+        "type": "url",
+        "url": "https://cnswatchbands.com/blog/best-watch-straps-for-the-tag-heuer-autavia/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/tagheuer/autavia--id38764865.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.onthedash.com/autavia-2017-introduction/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.ap-watches.com/en/tag-heuer-heritage-autavia-calibre-heuer-02-new"
+       },
+       {
+        "type": "url",
+        "url": "https://www.rolexencyclopedie.nl/dutch/wp-content/uploads/2017/04/TAG-Heuer-Autavia-2017-ENG.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://masterhorologer.com/2017/03/22/tag-heuer-the-new-autavia-watch-42mm-polished-steel-automatic-chronograph-movement-black-opaline-dial/"
+       },
+       {
+        "type": "url",
+        "url": "https://spacecitytimepiece.com/watches/tag-heuer/autavia"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=ce8-7agajNg"
+       },
+       {
+        "type": "url",
+        "url": "https://www.moodysjewelry.com/catalog/tag-heuer/cbe2110fc8226/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/us/hans/42-mm-calibre-heuer02%E8%87%AA%E5%8A%A8%E6%9C%BA%E8%8A%AF/CBE2110.FC8226.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.de/tagheuer/ref-cbe2110fc8226.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.therealreal.com/products/watches/strap/heuer-autavia-heritage-watch-tzl7y"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/tagheuer/autavia-heuer-heritage-cbe2110fc8226--id48820379.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=XH4rjPQYwEc"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wqucyp/wts_tag_heuer_autavia_calibre_heuer_02_cbe2110/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTime/comments/i6vmlw"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/cl5kuy"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/tagheuer/comments/1ts8kas/can_some_one_help_me/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/r0n0pr"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/bolzg9"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1bqccgv"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1bdk91h"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1b6usc1"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1ai48kl"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1bjzdru"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1mzeybq"
+       },
+       {
+        "type": "url",
+        "url": "https://www.dorotheum.com/fileadmin/auction-pdf/112708-en.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://images1.bonhams.com/original?src=Images%2Flive%2F2022-11%2F28%2FS-27665-0-1.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.therealreal.com/products/91558831/appraisal_report"
+       },
+       {
+        "type": "url",
+        "url": "https://cdnc.heyzine.com/files/uploaded/v2/cd0ff0f0de4d1e84ddef5a2414a78126dd3ea56f-1.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/TAG_Heuer"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/TAG_Heuer_Monaco"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_04ee083c13477455006ac519bf595c87d2bb618ce0d7451155",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRnI5AvQj0XQm9o_cS4WQUJvfx5wOgHYmP0p4CmvK1y1irXlHm-Y8ho7CtA7lVNDOR2jsEpJMuq5M1Tk36YbUNUNoPqjHreivQDj3gq1zIFS0TBh62sIosTop5krLVonw6yWv1JaeAM2JGxBZASvQTJqXLCu_wT49dYR_X0_esx4O4A5A_KhUps3YBvgqISma44D8EitqvteIdRYuZ4Xlljm2UvAanzYfpXLmKg3s3Qv_XvlRmQdBqtyJF4av2HysEybHqWwrpnrryizxznjvnsahQI6fIc6xl5Sfelj3Shkci5lbRNAv37Q-EjJei7PezYupXgLx1zzbSzIlkRJD_X6Pa_42yxPuXNP8ZJEgRpTLyqYKTPX0yXOwEvB0z2MR67qdT4NxM7VREY_Tg2VFtrN2gkfolhzS-VM_SZjoDW6qp9GEUwmudKwipQjHnQfPSpSoyMTQbQ6DlRxNdUMzgTEV_u5zIvP2mQMhtHduR-SWTa4qRja0wRxcI2w1VWIaTTX1Ux6FhMgjWPrtgV__31f6PyFoPFZiUiZ_TnpFDVbcQyAv0clN64CU7iH9n7mE2IGizDaekL1aGhKpbEKwSC4R6fujSjRlDtMQqqMQ3F8J9o_9UeBRhkGhTppyKoyb88-4mt-HB9posBxjBPZS2l-CgRt-fmjA_W8B0KxxyM81cBajaof-SYaDb2JV16MJiaXUNOXBfWMcKO4RtUurj0mKq1q3oPKeDMOrh7nvd4-7Q4uOjgQOGLbDkOJEt5gi9soYV84yKN1wWQu34rFDxNwbNLi-VTFvHlY4bjLu8eyyW4ktfuf_TTIUi51SQ_5vrgR6Hkak8uTquCyf1HgfJYOYt3mIeYG90H0gaufweB1rIpuBrgH0MKWvCe3DpnmAeim-lU8AuTMmWyrxKQJ2xujCaAbFIkMj2mVtEa9oGIoU138VOeLUqMa8TPgpHnsD9sn54-bYsHo8Jt2C3Jcz-lRI8CHnYqkagN7Hrf5RHmbcD4IOkvtwFts35RkzF5AGRJ9hx6vsH_Wsc9Bbbvvl5JsWIAdI00mRZF5dREsp-3QSAHpCod1FwiaTnMXaUjo7qi_OUyHvMlEmF4oF30yy5AqCEn_kbCDAHbocEX4vYQ_t0n7le5z0VGoDrT7MAoNdW45NMpVXje1Nh7jyiSXKmAbG-ibFphdboGGMtYyy-jRygK1i6U2AHMBDfR20vPO-ziEj8yHaZK9r6SAtOJUab_5x6u4HwCT0tm76DMRjV5mAs_RLUuptnUe3vvk2hN4aL5KS-2ASIsRi1faHQ1o1GYB2z6CLL7AKFhPnxVTgNs1k4miQj0d3Z6PJLo5UYSjwDRrdjXeIkJi3BBXn6daMKKg-_zSBfHEtvU6DljY2k3mZPJZy4KM3uEOfWx-2sV-kDjYA6XGQ4yyJACZJXBl1fyKEK-ytEy1LrH1PgP10goxvPRkPrYFmlDs1LIIO5B5kEKEqrgtpCW9q8s1NMbjte2cAVGKZDuDRfmbiQmH_H5FDmS2gcX8qa99LaccZeHWxh55W1Y4lTp3Fpj8YoLiQDXqdyjt8jrhzS1TZZzUbroP9Ycs4dxPRulkF5w5m7HaLOREg3gI7UBtVnJveUBDyE7GMU_5O-BH2BjZ0vcr-UU3f-uD9UerKFvKPxDZja8WMiVX9Q97MFu4Poa7ChSQOuAVyee1hz5FBExyqV_P4psb8x1RtoAqrHWwKkWQ9JlM_oM9JOFmY7R5oF0Ug5XKq3tpihAqf0i6VUl32LaMxhnyMSFzK-FUDlNKxjwd8sYjhM3ilB6J3FFSNHcpI4iWp1XLl7HOlk2YMAmhWqYyTZQZCep6jskvcFzLp1S4VRmdbOqRMMnKgJ_uFVtuE3UlOWT-0wZ6Ce6ifKAApyjbXExwuzBLViqBSI2RDqFm_hNDJLzfXTIO75_diyvw8Nd34XbTf19NCKldZX1wYtWXXqjeLLXFbvxtI5gWNtHMVPVgc9Jd2DJNstFn2makjGHTJc_Q1JYhQWopHvr6UtjZ-NyGtUw5ozcOdb3ZqfDbtHvISBIUw2p3Hvoc4ONuMVZAlsefF5HUEUojsiath4sbW5vhevKgMuVPOcH35E0GnVNXRJEb0Y18ACC7rPlGCuf5cNcn44qrI7UAR1Oj1rKP3abajzrPbCLSq0iqELO_I6hr9XKlyS8_UbngOGLdrgWjQIXxUadI7ZGijize-9mZVb8MFgqoB26cJpZhh_4aLTTac1oyPZA89OOuxPlOofIszJ0h3pkc8Yjg0BccKimOKmlYix4QQ7Twex_KRYvo6ZiGBTHgu1EqrhCQjHzIEG4gn48skPRJ-C5RKPrT9sHb3vXtIwd0Y8XkDTmPdCHcvMOC56N1bdCLlxc3tNPEmClXSXV6O7vhNJWVhwEuWAFNDimdR3f0Ew0NYi1-VzbVtCxh2BjDvA1ymG2XwG7zsqB6OS4bfMEgBB66c0JzgnOLXiA1eEYvbzn00dmjg0f-3YMa8nnVgwqNYnQobbxVSXLjWIftLqiiQfcSzxOU139EGk_i9r0n_223wNhfSG-s_IoqlT0NR5h7_xULvo7HoBczdkk0sf1dZHDkbzT4MQ426rnQwal2lg2WheY7uxRJQ1LJiIdT5K39Srz8CIO8Dhz8gRDJEBB9yeOBtGrfQ4PrmkhiSsIfVTxdLunThZuU3tzR65HSTh29HVSrJeLj9KXIFNvswXHsXlSOqoxbCe78KUIXIPvgE7oRwm5w6FCvYXiH7E4gTt5JrhepUAriNQPBXfED4pSPB0o4GkYMgqoVD-bLfxOrQoh-ANbwqxdgff-Vc-3CB23sjT6zJDabHj-XPIsDdd6SQOqerfBxPfYcc5QlBEF-d0v6v3W4OJfzI7hwreZk2hcJNmiszzP9JLmB1oO7qIDgW5t0Y_sJsaYZb8x18p2J_gHjYfFfLpRZ42iJMXAAJ-MWEw7OAvoJwngsiHtc1BO_RE1vg4ZDVfwZjWWbRpKjJsQiiHncZqyHgbt0FhVfoK38O-XAEwXi-ehkgh9lmg=="
+    },
+    {
+     "id": "ws_04ee083c13477455006ac519c0871c87d289f689e5e25f5bd7",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:tagheuer.com CBE2110.BA0687 Autavia",
+       "TAG Heuer CBE2111.BA0687 official Autavia reference silver dial"
+      ],
+      "query": "site:tagheuer.com CBE2110.BA0687 Autavia",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/gb/en/timepieces/collections/tag-heuer-autavia/42-mm-calibre-heuer02-automatic/CBE2111.BA0687.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/it/it/segnatempo/collezioni/tag-heuer-autavia/42-mm-calibre-heuer02-automatico/CBE2110.BA0687.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/ca/en/timepieces/collections/tag-heuer-autavia/42-mm-calibre-heuer02-automatic/CBE2110.BA0687.html"
+       },
+       {
+        "type": "url",
+        "url": "https://dajhcu4r67qk9n3h96cuafpb3.tagheuer.com/au/en/vintage-collection/vintage-tag-heuer-autavia.html"
+       },
+       {
+        "type": "url",
+        "url": "https://tagheuerforums.com/threads/2017-tag-heuer-jack-heuer-special-edition-heritage-autavia-cbe2111-ba0687.65878/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchfinder.com/watches/tag-heuer/autavia/cbe2111-ba0687/442795"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchfinder.com/Tag%20Heuer/Autavia/CBE2111.BA0687/34761/item/361455"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchfinder.fr/montres/tag-heuer/autavia/cbe2111-ba0687/437125"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchfinder.co.uk/watches/tag-heuer/autavia/cbe2111-ba0687/437125"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/assets/brochures/consumer-catalogue/B2C_CATALOGUE_2022_CHS.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=709vzDP_v6Y"
+       },
+       {
+        "type": "url",
+        "url": "https://www.jomashop.com/tag-heuer-watch-cbe2111-ba0687.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/magazine/chrono24-buyers-guide-tag-heuer-autavia-p_69611/"
+       },
+       {
+        "type": "url",
+        "url": "https://everywatch.com/tag-heuer/autavia/cbe2111/watch-33935325"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=kM32LqXbPA4"
+       },
+       {
+        "type": "url",
+        "url": "https://www.rolexencyclopedie.nl/dutch/wp-content/uploads/2017/04/TAG-Heuer-Autavia-2017-ENG.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://cdnc.heyzine.com/files/uploaded/v3/24584a57f957b4bb628760c6974c1d4ae909a110-1.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/assets/brochures/consumer-catalogue/B2C_CATALOGUE_2022_EN.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.gazette-drouot.com/telechargement/catalogue?venteId=119666"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/bxjpqm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watchforum/comments/1qt6yo7/wts_tag_heuer_autavia_jack_heuer_85th_anniversary/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watchforum/comments/1qex1sx/wts_tag_heuer_autavia_jack_heuer_85th_anniversary/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1t7o73r/wts_tag_heuer_autavia_jack_heuer_85th_anniversary/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1si51eb/wts_tag_heuer_autavia_jack_heuer_85th_anniversary/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1rt4mla/wts_tag_heuer_autavia_jack_heuer_85th_anniversary/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watchforum/comments/1q2q53r/wts_tag_heuer_autavia_jack_heuer_85th_anniversary/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1pt0fn0/wts_tag_heuer_autavia_jack_heuer_85th_anniversary/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1rftyvc/wts_tag_heuer_autavia_jack_heuer_85th_anniversary/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1pmyxyq/wts_tag_heuer_autavia_jack_heuer_85th_anniversary/"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_04ee083c13477455006ac519c6d6b087d291c6c694e4c69265",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRnIfq_pn5gl0Llo34SobZW3pawMO0aU6iw879gymv97_o1nyi4utwvagP1P2aHvUsS8W7_wqwdos3FlhZxosk2MLl05ZD-b2cXfKji59a9Gg6pQ-HoPrDKUk-RBUgT1tkm5ac60HGIjdn2Ga4m-w91rHjhctZ3aZfu3rVRX-SnO1qF7IBhQqQFAa2fmxQiBz_loOkc8PDsF9Th0nwIKPgVHOKEDE7JQ7eEYHgw1Grd3aUtrf14QNdxITCy-5DvxWy2LH1zs8QS7dau0qAxI0n4h00hjDwAF3ok9oDcwZJOwEdsmUK_u-SYYQgbE-F7qBq8E1Z0rCjOfmtnpVQb-q98m5EqzGwxup5eOFdXLJEZKpWYOYYnRXKPeq31VY2Yg-ylFw4V-LZ1G_yfN0CjHUUDiRoT-d_YqKr2DKNOZukzAecvQ27qc-or2YiyJQH99ryiuPVw9qT51Cy7eCuuehKJjHGO5FeooFBK0Hhx5u69KyUp5XfLwmFbZAu8EGn646F3oJPWcCKXxYS3VesUpUL2ERe_pgoe5Rj-YuUjNNS6tSX95u6Hs2bPWN792u4ol437RiqioAUZPv4x8To4daW-0K1-EeRxbGOmKhZH9e7MGC4nVlc5kAQHe56FTTwPrBVovKcBV5H3mGUTkFkht0Hnjs5zlTID077_1saONROXSBlUQn5A5tggBLABuuFCDHtShdUkw9ZY9QazTAgYYhADht9UphfmarwBgUjL6zeg-tcwy6ld4x0f7-LzRlR-8P4BcuPvatu0Y82SXxIi8jj0JP-htlzMe_sK5I1F1s2qMdIp2quyZi1IKYyCkOLoHbB-hbvPVUwTaAfH8_HvLcj-9VG7eyFglvx8Pw1A-uRMm1ils9n9w8Gl8VQBOm536b712vMj8-8E6g4j3XSjBTu-S5TrxMcEb_6WSSsPaNhjOXRfcKMUX5lq5OX2siM43VKTqncZv9Zgu6KLx8gKPSplya73OODUAt4r4Db6CLTWnTR9wf3QieA5lp-3VR0RZO2Y_T8Gyfyk2ck0EE9LCd-3_gXteMz5eBkSeYdGj5Vy0A2tBYmubl82hMGJS6iZny2wkiV31VrwrevtzluOuvItHulyHu_wKrx_gJMiMt40dTC-GthhDIz8oWe_Jb9CaLlzNE7YD8VUU2AN29vCapFrK8axxmHTu0vJf8MJowWhOWVaDmFuCddSyYgZN59izoiqhHSohgPsc4rL_V1yKNLs7af50wHOX5m_Uo3b4BbScvTPMxfKH88S9PYr6Vw8ExFH86IzupgKCSd9kk3dQkdFuJZ20LFiQDlMiFXU4SwplvN8eivgI1HmIPjiWmOf6AFn5dcFmpUiHUnh2sYnyK9Z42JemqbdQIj-6nd49HRbDz2mbDAp8ynojVYwy3pf5PBwWazsQQmd5Z2VcFAnqzaRTgOdrYljDE8fUnR07c8RcMjaGSiGOogPordf_IBrYR8BCooQgpe7gioF1WntCp3KEmB6NLrvchYEwjXikm4hjaVAFBu4ehVTFAihYMzNrzX-JnFivcneIr-IikHR5KS1fwQ=="
+    },
+    {
+     "id": "msg_04ee083c13477455006ac519c7ac0087d28336e27ff1066f02",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Tag Heuer\",\n  \"model_line\": \"Autavia Heuer 02 Chronograph 42\",\n  \"dial_color\": \"black\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"leather\",\n  \"bezel\": \"Black aluminum bidirectional hour-scale bezel\",\n  \"case_size_mm\": 42,\n  \"complications\": [\"date\", \"chronograph\", \"small-seconds\"],\n  \"movement\": \"automatic\",\n  \"printed_reference\": \"\",\n  \"references\": [\"CBE2110.FC8226\", \"CBE2110.BA0687\", \"CBE2111.BA0687\"],\n  \"confidence\": 0.98\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791302088.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 21273,
+    "input_tokens_details": {
+     "cache_write_tokens": 3571,
+     "cached_tokens": 4723
+    },
+    "output_tokens": 824,
+    "output_tokens_details": {
+     "reasoning_tokens": 661
+    },
+    "total_tokens": 22097
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 2
+    }
+   }
+  },
+  "search_requests": 2,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

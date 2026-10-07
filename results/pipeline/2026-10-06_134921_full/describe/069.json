@@ -1,0 +1,35 @@
+{
+ "row_id": 69,
+ "image_file": "069_cartier_drive-de-cartier.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Cartier",
+   "model_line": "Drive de Cartier Small Seconds",
+   "dial_color": "silver",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "bezel": "smooth steel cushion-shaped",
+   "case_size_mm": 40.0,
+   "complications": [
+    "date",
+    "small-seconds"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "WSNM0015",
+    "WSNM0016"
+   ],
+   "confidence": 0.45
+  },
+  "raw_text": "{\"brand\":\"Cartier\",\"model_line\":\"Drive de Cartier Small Seconds\",\"dial_color\":\"silver\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"bezel\":\"smooth steel cushion-shaped\",\"case_size_mm\":40,\"complications\":[\"date\",\"small-seconds\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"WSNM0015\",\"WSNM0016\"],\"confidence\":0.45}",
+  "input_tokens": 5393,
+  "output_tokens": 149,
+  "cost_usd": 0.012276,
+  "elapsed_s": 2.876,
+  "started_at": "2026-10-06T13:50:21.705478+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

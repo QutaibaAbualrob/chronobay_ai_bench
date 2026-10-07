@@ -1,0 +1,496 @@
+{
+ "row_id": 1,
+ "image_file": "001_rolex_submariner-date.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_line": "Submariner Date 41",
+   "dial_color": "black",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "Black ceramic unidirectional dive bezel",
+   "case_size_mm": 41.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "126610LN",
+    "116610LN",
+    "126610LV"
+   ],
+   "confidence": 0.94
+  },
+  "raw_text": "{\"brand\":\"Rolex\",\"model_line\":\"Submariner Date 41\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"Black ceramic unidirectional dive bezel\",\"case_size_mm\":41,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"126610LN\",\"116610LN\",\"126610LV\"],\"confidence\":0.94}",
+  "input_tokens": 16632,
+  "output_tokens": 677,
+  "cached_input_tokens": 0,
+  "reasoning_tokens": 580,
+  "token_cost_usd": 0.0020017,
+  "searches": 1,
+  "page_opens": 0,
+  "tool_calls": 1,
+  "queries": [
+   "site:rolex.com/watches/submariner m126610ln-0001 Submariner date 41 mm",
+   "Rolex Submariner Date black dial 126610LN reference 116610LN WatchBase",
+   "Rolex Submariner Date 126610LN black dial Oystersteel 41 mm official reference"
+  ],
+  "source_domains": [
+   "rolex.com",
+   "assets.rolex.com",
+   "content.rolex.com",
+   "watchreferencemap.com",
+   "swisswatchclub.ie",
+   "watchdatabase.app",
+   "steelandcrown.com",
+   "watchledger.net",
+   "naplesrolex.com",
+   "youtube.com",
+   "en.wikipedia.org",
+   "reddit.com",
+   "it.wikipedia.org",
+   "es.wikipedia.org",
+   "fr.wikipedia.org",
+   "de.wikipedia.org"
+  ],
+  "elapsed_s": 10.837,
+  "started_at": "2026-10-06T15:39:49.831033+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_0adcc2d723cf66b5006ac51646b50887d28bfac3daa95117ae",
+   "access_programs": null,
+   "created_at": 1791301190.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0adcc2d723cf66b5006ac516478d2487d28cb6bea56edd93f6",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRZQnQ-156xk2RqisCIgGn1FII9xmh_1TGKQJOouoeRpZDXDk_RIKqEgxsHSFcp_99OffBxPip7OFo8gYw1iFR8WwEc3NZgPCjdwAd6xyZVU8dPE-0lGVuzZ7GnYkHvyvA8rGN1Vl45jHLmjh40Wf1OsSUdx8AmC2n6Ccg4nXvZcQfgfYR9MOT9oLvsJpL9UEtqtoF3HsZPUF3R-kZZfan25s7LewERSIVLfI3JYU5QWzgn9dwrPuRT7ZBxZJxT0s2kWl4tfyJVbuRNd31k9txF3Y8ty2PQWMqDst4fYoemWhgQQA4UrILhOh4qzfIQVvkl8JhlLZ1Zl9v7bzJevji23WtU0Rg96alL7_jZ5TpnyN8xjnfnXVblY6Ebttpn6uYENFjMNWokOxMyvnR7JboZN0duEq4CsqJGmMlJ4GuKVvIbT-uEarSt-cfxlpaN55P2dv7bPPIxhoSHqaqQfu77IinhFt0iBS23-tLYBFyOIFMw7kgwS_u7lBIMB-q9pwmkB1548qrgYFSSaVw08DIaPC_EJqzFiY4uVM8Yf84P2-7MfQ1kSC-9Ozw0WS1kkj2ZS962m7b0tNLVRCYogK61DD5aktoEbIh_Xm1AEwUiRatMuU53J9p5OilDPdKSeUHpQLQMN72OF9cIg0BeCevsckGB8oOtrxqWBT0PiGorWzASqq6mQ4Nj7odnk-nQ8Tea3ODb4I5luOrpA0UIAtDaHwsDY0k9lvo1r7i1YtdS5Z0wmWjhnI5xME5WssZfmN781A4euLRFHr3yEn2GYuZnzlchrkRKZfzlLUXpkkDR8_z2LuZcmI_t4kXOdFW9CVgy7VSuCujH66O3rBAXScrAkh0EvEyJJ7DMqGT4UGkX0JcERsR-p94SGJTKZ7i05wpU-CAzdya0n575vEwrJZV1BaNtRcVCXbfq9pw3i2ef-8hn3mir7frZVzE5chf7c-T6aq7tsvfSUZscBxC0GYw7Nfk_gkxSHwC3E07BXqQK5AuzmQKqOtz27sd_Q2YjJE57fWOd6uDZBkRvPNOAthgOF0MKy7eWuVnt2ElRSi1yd1arYZLfb2bFRr7BI1KLJfTpbLt9IZDKyYc5Xi9ssFMwyXcuzDuRhIYh-2132wCS-Gxz_sjYNpUDqjqWaU6O8CraCe90K3pKYs-OjUUmBYO1GQTfgC-bDHuEd1uo_n2KcTD2tslQ49yA6SDS11aLHN0bJbxS-EbnH0fFHI1dReFexkyA83zxFtN15ScwmaEB7Xe8ZFTHCq3jmPDXbXxLKT5j1-FGbUg7LXJA0O4e9UkvJpAXsZkHABz4vz4CTwAWcqjsGf02jdBeLvwxm9ZPkreDH3fsn9kSYurbwMbCaKVkbpHiTKcwRmOVlCwaReGM_ZP9riFRlG4t4WeQ-xAOwf5-bRu_TIfN-f8sDj6uFhbOtlOYGO8-438YGgeB_t4GdOzkiDSftkt9xOGOiDhc0rY_bXC_zN0DC7DJEDtf8D0-1qIgbOzJ57bodBJrOxK4LUA2q9byVUFvuZhWWs1bEnT8CUaDmrsN2DxfpYqKUl1zdX5PSiuVdVZ8pqLlIMhU4eyUYQ-IhPUgaQczxUtgiSlg5YXIR4qkTO4nTWbVVbIx9roHmGuNUFDvV53jIcHbZYomWdd5iEeyf73P9aLOXcW4TXOu-6BNRlW53U8TBSWJzue-2acoPdsncSJbpqQfOIvTo0oTe6f5YtfuO9kjV8-JqTYr5rhr0SfDu6eZ2KZFbJ1UND8zf9x9w15d46TCT7hu0S_ftHMrBkRvpkNxUqxpMtVc1nMPsj5A2ZMdsrKZmSr9NyMAl9OJfB7lN5SYiG3zvA7yejqJ26Iwd2Isbo3KsaVgZJCscLB6JZdV6-rncj-d6vUFSh7yYOGS-A8r87VElKxfMi6PiUZcCH5r2aL7-njxIpKqFtTUroh2ihPSUfA=="
+    },
+    {
+     "id": "ws_0adcc2d723cf66b5006ac51649007887d296aa4fdf576045f4",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:rolex.com/watches/submariner m126610ln-0001 Submariner date 41 mm",
+       "Rolex Submariner Date black dial 126610LN reference 116610LN WatchBase",
+       "Rolex Submariner Date 126610LN black dial Oystersteel 41 mm official reference"
+      ],
+      "query": "site:rolex.com/watches/submariner m126610ln-0001 Submariner date 41 mm",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.rolex.com/en-us/watches/submariner/m126610ln-0001"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/en-us/submariner/m126610ln-0001.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/en_us/submariner/m126610ln-0001.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.rolex.com/en-us/watches/submariner/all-models"
+       },
+       {
+        "type": "url",
+        "url": "https://content.rolex.com/dam/new-watches-2020/media/brochures/new-submariner/Brochure_Submariner_in.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchreferencemap.com/guides/rolex-116610ln-vs-126610ln"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/bg/submariner/m126610ln-0001.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/ms/submariner/m126610ln-0001.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.swisswatchclub.ie/watch-guides/rolex-guide/submariner-reference-guide/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchdatabase.app/watches/rolex/116610ln"
+       },
+       {
+        "type": "url",
+        "url": "https://www.rolex.com/pl/watches/submariner/m126610ln-0001"
+       },
+       {
+        "type": "url",
+        "url": "https://steelandcrown.com/journal/rolex-126610ln-guide/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.rolex.com/es-mx/watches/submariner/m126610ln-0001"
+       },
+       {
+        "type": "url",
+        "url": "https://watchledger.net/brand/rolex/series/submariner/126610LN-0001"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchdatabase.app/watches/rolex/126610ln"
+       },
+       {
+        "type": "url",
+        "url": "https://naplesrolex.com/models/submariner/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.rolex.com/fa/watches/submariner/m126610ln-0001"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=3t1IbDivTsw"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Rolex_Submariner"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTime/comments/oxiyd7"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=tSeazOhmk4I"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Rolex_Submariner"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/1u7xzlr/wts_rolex_submariner_date_40mm_ref116610ln_box/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1mk7dp3/wts_rolex_submariner_date_41mm_126610_stainless/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1stfrf6/wts_rolex_submariner_date_116610ln/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1un9n9z/wts_rolex_submariner_date_40mm_ref_116610ln_black/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1ur1d88/wtswtt_rolex_sub_date_116610ln_full_set_wt_12495/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1tpd69f/wts_2021_rolex_submariner_date_41mm_126610ln/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1r5sspa/wts_rolex_submariner_date_126610ln_brand_new_dec/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/1lmx1id"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1n6t15a"
+       },
+       {
+        "type": "url",
+        "url": "https://es.wikipedia.org/wiki/Rolex_Submariner"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/1tr174w/wts_2012_rolex_submariner_date_40_116610ln_like/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vs8sgr/wts_rolex_submariner_116610ln_2013_full_kit_the/"
+       },
+       {
+        "type": "url",
+        "url": "https://fr.wikipedia.org/wiki/Rolex_Submariner"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Rolex_Sea-Dweller"
+       },
+       {
+        "type": "url",
+        "url": "https://de.wikipedia.org/wiki/Rolex_Submariner"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0adcc2d723cf66b5006ac5164f135487d2828938e588440fd9",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRZQWQByaKKjyZuWh2zpDOYNzeQ53Yh7CI9TuO52qlh0LM6EbIiCdz8F_e23WxK3RetVgIgHpfwxOI_tHEbQDfLg50XRMhMx2WZy15lYAV0DpUOdZgrzrCpZvQpXWj6DmxV6j9ao8HF3elUEc_7yD6CrON-dvDbYtDk7cUeCfocqa2m3QaQaaS5y3AGqBu6JV1JEMDRZereiWuNMWyEVmTdklo3blNyY0HYVNchdsin2yfIFAkJk2HFYzMr6zSWjMZXlANnm05maJODjFxD88-ujd4H8J8irr4bI70Iv8lUTrFQaCIECdoiq5kDU_ZuqYAQDMGiLDxeQMzPkVoFs85erYO_zsMj20O8KeCPIX5NJcVpo_YZVys2VvU1YHh_fAuJGhMvO2ZV4xWKMQUdCUDk2tG64MGoSQ68p-rqZG0BrY2X10gE51uJQlNlnB-vbSqHdyceQnscUx2S-1gRC1iJtUob0vUJcyGnPZOstKRJPUqbnZ6xiDLmNOlAZxC_mWJnGEXs7jKA6BEaIvTvHJtQ0HUpMldArUFm1dHgBo2aJVoC6lhWdXC0q7O1RQYt0yKhb4rYpuu-3A1rmmaESW11BuRzucsw5aE6zP88JMpYxb4c1T093oSaxyO6kaYTx9Ew9j6AgD_FCu-ukObEH2OHOfZr7E7Hec886mgZAK8nERAC13YKVnBvKIpJVRVeBnd1hvcP9KH749kXs8Tj3mBYPJ39Q1pcB07OioCKPM9xtdUmJ12hiQIG-vh2qW9uPHLRroutyXmGW0GhnWa9mLzIG72RQAxpNKRwUXa-xnXmcu1L5xMdHpTFeXkzXKP6EQAFtaYdf0Z-Er2ILKXo39EixbChG6mc9_YKrza1Opdcglp2qpGczoxLbveR4ZbhK5a_qPLE97v5ekG1advm-a8vT77w2wjcAfz_V6IZnro4JfL_kBEL5E7wkXxMPg3nrxhI1B1g6Zziipv4BwLNz90wkVDpkRzS_RMukNiAVcIZQkHpirHKVa6BP33YVdaerAgzZdk61QJmH0Jas0GSX7aI3JguhAAv-urqkwce4ScxJDTPdxaia2OXlPXHtPOrTBKQ8eoeDWIfF7sWtCTHxUwl0gI_fLH5Hj-ZqqBGPbp521z-AY9kHSI5HQuvhI-YkULClcMO6_Is3_07HJMHv0eML0zPXh5zYf9qJzl5Br4ECIkf2QmNuOhG3YRA8cXAbScCUnQijWV9aQsP66zRUloOVDWRib2IVaJup1L6xuApuUvDgt8QGsP64YHve-R7UtoyE21-KmVQMX74usrplt_I1Oy8N302mM3J3UVv4qX2VJl7NQkVnlSbR70bhYQwiNar3Qddc8g-bXtHX7IgtAtfldKSabBaYFb-PZkjNG1ZBPggsV7ItfXVHvby5CvuBty6Xke-Wirdto_scdVpd8p2iMEDm9m4k-RxBATeC7jrWt-YNPc6pZGtvY8NH_cJG7vLTBUTxtw99BENSQMy1LXTnkCZ8mNKmgVcB1uXN1FX2tSPzrkUxOssqjgPzAmHrL00BxIptRDjVDhytCCA832h2HRck-FWhs0d8LmD-lH3AGL7aAlwt4OgmD0m5IoFOZZFMJUlovyTpdx54Cu21XUlayhbv2Rr5oc2MxqCAuYQwZJX5tjxE8ySz88BsdnY1-obFROUEGYD5ODpXwOQyeQTgSloQv6a6LezuGbxQUU0q7l6qlrKbxhuW809-tcBUSTKWrWKQoPDTblEvVpf1liYWOGL7uIoe3dKYr1mwGAgpNe_beMyj2vV-urtGu57ZLu4TSpXIlIZF9IXzfCEI2CxkGZhR1ikm5F0RLWyEQcG9NWmY8C79zWHSSwh7dUSCzbQdqROiKYH8Da0oaWTdQbVWst7-Aub33jfc6cZxB8AD1526MgqXMVk3MfpP61VS7Ectzh2AzQ_r3mQIpg6yONl2GPSLRltOtR6CtqmRLSnHVRRiODYSemGmXxAtXJxc2PjjU68S6GczPcZC57q6cKqkhB-aeDYIAnf_YuDQD1p9u12v9uokqSuvhgCtkcfcQbvZ2kK_y2who-0HdEljHwIk3MQDqBdeTwYui-O7OPmx4kiBLi2sfXjASjXRMK9gQw444BGpb1EJYUp-zkPEThRV21MgHMKgYebuR2pKI5WHURS13CVAzQGNIaYxQmXr08hmiKzXbGy3bQ_P4gp5olG79FgxzAApVDbn1AZIAM3Nu2zEASt7C8RZrBCdf-GwZIl48Aus5KaiVYNhsf4sUL2xzlvl1L524WSRUztXnWYaSJUIxIlK3LFG7kNcRO9QIzxCdXX06F26SRyLw64LBhFMFQQ-Pn584vh5GjVejUYw02_s6Ibm0abp9YYM5o-Mjl7dSfy3n_A-Up5E6-wVRb0HMbod36bmt8RCTIkXh9SZSAMag3eZ7doKloRcWpzl_vL7Px20B8qxWultP512sPtx-TbuMdZlsskq6iZqubXlHhZhDUNDAbvpgP_aqlrVvso6S6P1DK3-8vHz_TBxaswzCl8RzAsvpRy6GLKIX99qBkh5Du_JnjzPU7cbRerS6u2UNwaQjugHrx_DVJIcm_ZXRgAFsERwpRkRRyM5hgY0CCQKXbav2K_WJNQJ7nx3nnZtPNwzW5mFBZ_snCsVoQOBAYYYvCG4lpcXWukP-Isi3I1QSJLUZAS7AC0M9oCsBeWH3G3XUJZY6aWCjvIgRTkA9wyo36nNMFLv1YeZUiNo_1Uz9mmdn5giUb-0XGl0gjv6PaVuiDAJNwoGmCZrkf6jr2xJj7QQwHHNPt5-7p_z9JojOloKrQPnAH_gDqSOfZDSGklNCTyHCNZzEquxVPmJbZElHh0gMmPPHzS88IG-swfyYc4TgSt3pWzuEbU0HeRV3X1lOdFVcrB95IqfzoCF4D1AYOr3OatZ7F7owQYMCMjjimlQJl8GrbcScU3MNbIJvT9FpZBhQLq3g71Cq0ZJn599KjGPGuvOBclvyk8MMOC22iVylIcMePaa9gjBrygB-ggrXMPPOIqo_supFDt0PhbQcY2cjO6MQvtrO11gns1EEyRyYGFzPF8qtJmbWZWMsE-qfWMZfsW0WEhiTsrgY6HzWsLqfRDOHVSCUkDLP78Wlu--HS3K4IZZ6OPXbUo2tQ-MB90Gsb4zd2y3aFffl9I5sJtxUojfDPNFpi77rGcahePlzbD2GaSX3A-Rz37p87meTVIzi-fRLSyCKcoUnStpRtEkiDYHrrFI1AzNSHV92RpM9DRdrPRnqDxoqxef7090bYd3EEpN6AnWDgbMQuGlnDazDAu_tJqn8ioFpTQA2rcLGqJUQ6JpGD8iY3_u"
+    },
+    {
+     "id": "msg_0adcc2d723cf66b5006ac516501ad887d2b9314e0b095899f9",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Rolex\",\"model_line\":\"Submariner Date 41\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"Black ceramic unidirectional dive bezel\",\"case_size_mm\":41,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"126610LN\",\"116610LN\",\"126610LV\"],\"confidence\":0.94}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791301200.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 16632,
+    "input_tokens_details": {
+     "cache_write_tokens": 8338,
+     "cached_tokens": 0
+    },
+    "output_tokens": 677,
+    "output_tokens_details": {
+     "reasoning_tokens": 580
+    },
+    "total_tokens": 17309
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 1
+    }
+   }
+  },
+  "search_requests": 1,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

@@ -1,0 +1,611 @@
+{
+ "row_id": 21,
+ "image_file": "021_patek_nautilus.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_line": "Nautilus 5711/1A",
+   "dial_color": "blue",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "Brushed stainless-steel rounded octagonal bezel",
+   "case_size_mm": 40.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "5711/1A-010",
+    "5711/1A-001",
+    "5711/1A-011"
+   ],
+   "confidence": 0.9
+  },
+  "raw_text": "{\n  \"brand\": \"Patek Philippe\",\n  \"model_line\": \"Nautilus 5711/1A\",\n  \"dial_color\": \"blue\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"bezel\": \"Brushed stainless-steel rounded octagonal bezel\",\n  \"case_size_mm\": 40,\n  \"complications\": [\"date\"],\n  \"movement\": \"automatic\",\n  \"printed_reference\": \"\",\n  \"references\": [\"5711/1A-010\", \"5711/1A-001\", \"5711/1A-011\"],\n  \"confidence\": 0.9\n}",
+  "input_tokens": 19035,
+  "output_tokens": 933,
+  "cached_input_tokens": 8279,
+  "reasoning_tokens": 781,
+  "token_cost_usd": 0.0016248900000000001,
+  "searches": 2,
+  "page_opens": 0,
+  "tool_calls": 2,
+  "queries": [
+   "site:patek.com 5711/1A-010 Nautilus blue dial",
+   "Patek Philippe Nautilus 5711/1A-010 blue dial reference WatchBase",
+   "Patek Philippe 5711/1A-001 Nautilus blue dial reference dimensions",
+   "site:patek.com/en/collection/nautilus/5711-1a-010",
+   "site:patek.com \"5711/1A-010\"",
+   "Patek Philippe official Nautilus 5811/1G-001 41 mm"
+  ],
+  "source_domains": [
+   "dials.co",
+   "replicapatekphilippe.to",
+   "grailatlas.com",
+   "bizakandco.com",
+   "vericog.io",
+   "static.patek.com",
+   "chronobuyer.com",
+   "palazzowatches.com",
+   "christies.com",
+   "youtube.com",
+   "watchexpress.com",
+   "kellowatch.com",
+   "watchledger.net",
+   "europeanwatch.com",
+   "sothebys-com.brightspotcdn.com",
+   "reddit.com",
+   "it.wikipedia.org",
+   "electronicsandbooks.com",
+   "patek.com",
+   "patekboutiqueatlanta.com",
+   "cd.patek.com"
+  ],
+  "elapsed_s": 46.206,
+  "started_at": "2026-10-06T15:43:32.231035+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_0c2cccff59e42ac9006ac51745570887d2b7a79ec6234d197a",
+   "access_programs": null,
+   "created_at": 1791301445.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0c2cccff59e42ac9006ac517461cb487d2bf4c20af526b37b6",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRdSP4cwGDzGfm78JwkDj-zHHS-WrcDxpBUaD2BhC7N0wZEvLTeYuiglJENMGIFc8tfBrpiltsyGoQ7-QAtVu4S0A0tW5UovdeszHTVqrDm01J4w8WCLHbM0zQ5G_lX1eOjV1khDtlq1me4o6zKTEwzjG_rQajqgJd15oCdT21SZvtuUCD8_VCT3JrtzdPVIpYzqEMvdOXxbkP2LfiRIDLZOR03-DRZiCjCk2QMkENZkzCprOXpi7yhqY08Sh0aKlt9JYEpl7TeE6gVa8GAfIajIko53EyvuPcdEF9MxDmjwXWhqbgjZaGsbxqIeoFWXCA7ZQaIPVB0QH2Vk6Dy9deHFXwypRl4bZ9GLObe0GeObLK1QjQ8s5QHL3ZtOck68kbATv6HdaS_s_NNFVR1H8f335RRHs1QlQ-xG3WEH_8AqQSe5qf3_C8B7HkKg-GA-OeC6gSsL6R4c8ZFwTusWPJKdigz_7twnO3bBEMIACIMyuLYo7FNYYQ9h7TLLuTSBY-AOnGMo7h7ZX-YyuvddQ5CICmU2WVmlFW336KE1Jh5M2hrmiN23K0tmJnd7u7MR-22l8aN0OkT0H1Ys6fyrzxErscTGBuzGaIH8D2OK8dhn54utsr934QHbUgzWx8Qa0kueIf-eSDfL27J4-K-cz94vQk2db2NYGBIE6bQ_2n7agl68GOThXF1OmXBVQ-qt5P-dvZ31xgTkk-a38-9YSwNVuawiUwed6V9WFdUcqdZOvXDH5fpzBxqd0gV2I70LxBsrSoL3r9MUEd-vbnH-HaPdjPj4090NOTLCs8ntxetCt0Zlv5aNLomtJDWNUIdzCNpl6Rpy9Lsd10Ms_g2a7N8hUYtSvce0OzAjcc065I8LSsxjCBRv9pmaplVLInDiJutzXYEO0j8LpYxSJ3zDLEEXZehAEU1kMk0L2skirM8rPeEP6mmucGeykxq1TQ7xd-9XAucMO7K5YNLCwS7OGHKGwSJuidPWOeDCsIilRtjOPkMOJYOaXLUadMXv4YnOEj0M1HCI5Tp5wwLGW54Szs9XxZNCv-dH_GAdFvCehv90mqak3W5_zNUw9X4inXIjxoHIjBqL5EG_3sFmNgaFhq136I5bO0CJ6qmmP-NE-GOHEOwGyLyh6rec9zFgqdi45NItlrRH2uoKIu_voLwErkpNYVH6lhnuyP42TfRyhJFAD6Xob2gkrRzcHXScwx5NUh-qEzBZcmOorkUUEmcsc-N8dUKGZJIxn-HgWEUXDsyqq2XBI_VVQJpruSLZEtwqkFGuMyDFeh6TYpBYa2cH-sDOW8IvUmzvaJLM07WZKZZgaRCtkSBmGFnW1Bj1xdaHRDr4F3NTc1Q_7suLD40Xa-o5BQ50dEr74NlWDjjP5s3c1-p4lXjQPKBLzttgJrxle7WeZIsm8qpGuAWoy68FsIlzJya-53BkBZWL6kvUn2AVsqQsDOwacATePyCl3OdGxPSRfW42gaGa5lc4Pe2Dxp91xAt45q4xulXz3qtTbelKef7Ce_nlySQr3cs1ViLFulHR4PqBKGOrhC4Mpml30Zq4qJrr6qxtxUowUsOAXviWDKRnalPik5hAdRSfEqq67rKm"
+    },
+    {
+     "id": "ws_0c2cccff59e42ac9006ac5174715e487d2b3fc774361d832ef",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:patek.com 5711/1A-010 Nautilus blue dial",
+       "Patek Philippe Nautilus 5711/1A-010 blue dial reference WatchBase",
+       "Patek Philippe 5711/1A-001 Nautilus blue dial reference dimensions"
+      ],
+      "query": "site:patek.com 5711/1A-010 Nautilus blue dial",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://dials.co/watches/patek-philippe/nautilus/5711-1a-001"
+       },
+       {
+        "type": "url",
+        "url": "https://replicapatekphilippe.to/watch/nautilus-5711-1a-010/"
+       },
+       {
+        "type": "url",
+        "url": "https://grailatlas.com/reference/r-patek-5711"
+       },
+       {
+        "type": "url",
+        "url": "https://bizakandco.com/blogs/editorial/patek-philippe-nautilus-5711-guide"
+       },
+       {
+        "type": "url",
+        "url": "https://vericog.io/watch-references/patek-philippe/57111a-010"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/en/2006_PatekPhilippe_Nautilus_2006.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://chronobuyer.com/reviews/patek-philippe-nautilus-5711-1a-010"
+       },
+       {
+        "type": "url",
+        "url": "https://palazzowatches.com/reference-guide/nautilus-5711-1a-010/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.christies.com/lot/lot-6433808"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=t54bUMkwqjY"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchexpress.com/references/patek-philippe-nautilus-5711-1a"
+       },
+       {
+        "type": "url",
+        "url": "https://kellowatch.com/watches/patek-philippe-5711-1a-010"
+       },
+       {
+        "type": "url",
+        "url": "https://watchledger.net/brand/patek-philippe/series/nautilus/5711-1A-010"
+       },
+       {
+        "type": "url",
+        "url": "https://www.europeanwatch.com/watch/patek-philippe-5711-1a-001-jumbo-nautilus-5711-blue-dial-ss-full-44305"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=j8DYIiWcIsY"
+       },
+       {
+        "type": "url",
+        "url": "https://sothebys-com.brightspotcdn.com/4e/a0/c4e2612e4f5f8fe7655d64c93858/ge2204.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepWatchesEU/comments/1sthip3/review_vf_patek_philippe_nautilus_5711_blue/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepWatchClud/comments/1vqta3e/ddf_patek_philippe_nautilus_57111a010_40mm_blue/"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Nautilus_%28Patek_Philippe%29"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/en/2021_PatekPhilippe_New_Nautilus_Models.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://electronicsandbooks.com/edt/manual/Art/Auction/Christies/2016/20161128%20HGK12578%20Important%20Watches%20Including%20NAUTILUS%2040%20Part%20III%20%5B1%5D.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1ooe8zj"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/1hv415p"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepWatch/comments/1gsu68i"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/1lcusao"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/1eyjyya"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/1dyz4ry"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0c2cccff59e42ac9006ac5174a9e9487d2923864682a1ba637",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRdSpX38T3fZ5D1q5bP0tci5_z1RYi9Cxm_Iokgbr_4ZWzmRz5srcFBvQYkSQqsBkQUZ3vWPHlBZQ7ipZkUiKqfKVBL0zTdlf_lDO6jXz5XoGgNZrphX0h--SDr8trVLgouCX5XhrJg_iT5PVbXorGxGPHjrwcJXWh59Cu0pd0jhit0IRjXM12HwaESHBnoQ4aOh3uiAKLLi9cUcxIG7c8d6m0m8_WA5p2YvdPySatB_djHmXYtmVhs_7rnfm50qNH0oMtEiVgX-9PVKBnEmNHIDMTVP8E-tL-YCc46M9ZpinKwKLBLGVFwBJ9YBohWRyrTCUQFB3EcnW-EcDZBw5qg9I_-KXWZIRobcDQJbItFAK7PmuOEfoMEDn4DGqQGb00rJOichRJ3msEIxZ8wVwt9jTJPQmcLTh2YeQa2dhnOWwD2IdRbwP7HwlUOW4PjD-uZviVR0NYNE6sdYH9sjMuvBaw_FrMq4zV46RgjrHRUddA4Ah54rQlVxFRX-yrpsjqPfTuYMS45Z8GcJE5YXD23fzHRSt52aeYK6r4E02_hD68OxOW4XDEzMY8905PZVzcmyeGRgFF6Q8yl8wKbUynnwnpYk4S_3j_3Y69-fAaM5z8b503wG0OxfV9fPX-0k76O0ynoYrbwBU5TzChX-QMJcXSKUZwGT46V-FrWXQJoTeysUAOfWpCONYlu5R4e8XY75wcOv_cfIMQ3ybMP4qU2_NcRM2DslyHVQK1iiV1nwnoyepHVTnEE3ujIA-GOcIDV97W3joK7ldG-W9MHq8crXkRqqw6Ej2oszUuT4n6rqlYdyTX6DItVmgZaQlr6v_ui4i1mm-PsPsfKaLoZ35JftExha-MCelLHEbfEuizEeAAFN9yHvi7_WsVdCOy32l-zLF-W5p0XQseUXkNzzAW4mJdQaz7sy8IrGywaLckBW4c2FfhUjFAp3_wOOowBcKc1CgKLTQoKuPQU5JvtSLXZGHBB6dpShaubpcbHJiY1e39m1C5UVJRx4weSrqsCpG48GU0kCsZiQTLMO6EZtMtso9cHQA7mvQfiVs9Kydvv8Iya8RNbjf0Qn-TqHwz0P3MRR9UhRdh88F52QstLODZ7QZ2_uocUxL5hAd08N6ugZxXNL6SQ0ychEivCCOuI3fF1TciYFD5Cbr62xxRMZPF5J5Hv4YIdlLs6Hx-sDQkOSuqleth9VWJN-w3_h6kgUA7_Mb3qVu-eNl8l9kremvC_OMU9EgcYuaX-Qb1zheCAEMQ4zFBUC3pCFQ6QZmJ-OXT-s5D_KAQP3qISfy4J0TkZKfO61vDlYTDjNG0gK-3QeFxgf-qtL9gKsyM-yfPDtb7go0tdLnKrGQHLZTjtWDJHxdzhg5h5mkuNBjgWY9t40mmBudKm0SPugaACMWuIMvtAJ2-eBp0Dfh1vGqzEcpEWlngYU92PdAGo-9fBAQr0sreb2x92cNurDobSe_ytFKS5Bp14AI602H10RBikPivHpbEF7PRYcdJAGIAu6UPmqe0Nalo83_duygAaVSAG8EJ8a1reBRltjUzv4qd4YOhg0O35jZld9NnW42Y2vHxkBDhK71YT1VyO4Qm_Dg7-cDcwJxpVlRxHQvYBRLxqkrDgGW7He3F1ugm3JX5tvdm59Q6WsEAh5-fvJLqfow00WHf0NGzJcazbC2f6vgSmE-AcoOtvGYFGSdtHxdi4laznpdvF5cd1oNFMyOEJyiBE0S7OdLuGcQ1MUvqBG246BQ8SWYUw5TvNd6pa-XmQhTnlO_zS2-lI-w1bVEOPCCjF8uRjyN12BT-naimmpX-le70W6OO-GxbC7A0LubPnM1ZSoZuHw2pe6qDNdSu-2cMZYd-s75Ft_UQfegrWdwl-UffFK5mdB-nHUBiBYF1vrJTXK8FCxNNaP8-X_zaZHdwSzancMoQt9BAdp6oavWgWDrCKarFlFPvlQymF4CErNa3bsRE5pCAXshmc7thyTYTtRn3NJ04prplXNT3O1qy0TTdzbUiUyQu5_TScsNzLGoqMiKBkQKUZQpgXXh8te5VFrJhsuw-dZPNQ_L3pyWADqeXEVV4VMWPwbW82_rPIuU85iG21vEMxKKLOPqMwYhf4lMLzEKL81XLrHZ6OKzV7w3q6hyWW2kpI09OE3V0NT_IYmcKkTkp0uPSlMtjMeI15kcPEYaFfKtXcbNHHi3ZnKa0vMH1GcVYqa6kt5W7_Ifc5-hv-TQ6smaIBFNXwx0K8FGcOPYatJEMqYnC6zQ424jIhWNsRBiUrmudl7rHtraj3ZCz_HpOzEBPskL1p0aF36iirLk6SI14HXuodtfYh8BW6FkMUuQHqKpRgexCVuSn72egFMjjcKB78xK3mZAliXYH3bcEVaGWiiME6G7i6HSqV6W5ITRN3d3Q1A-IUw5VcDCkaap3DlekojQJ_MAvN5UHLfM71giDvhYv6mAhL5YzBGAH7Zl-nsyEoEHAbqwsl8l7xWbLOjfX_jHTULmtpfz0PYVZi9ltBgoSfugS_V4wXUJCPJehx1mfnJZICEGvzR_k-a8P4zfE_BxBQ3DghnQuXT6KwmncI3B8Q6IsvoaN1g0TKnWtoMyzB8EHvjx6b9dn6Xj0ISDk1wOi9LJkuQUaEpa3-eN_8bp0RIVyUZb3PLPySRGS3MmZulI_XcZPVCVlqyfYFY3JjJoW6dplxb8SdMguLG6xU3bp1alyhOuLy3I0bKcNBI1n5WppqKe0oWMC2q-clsQPm1mbYDpYTSjlAcsS-XSBSx9JGGP3QOn-7DU0N0WlunoZJpHWNnytKMjnNaCSKViqziWuJRCstslzOt"
+    },
+    {
+     "id": "ws_0c2cccff59e42ac9006ac5174c3ef087d2abd4f302ed0951f5",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:patek.com/en/collection/nautilus/5711-1a-010",
+       "site:patek.com \"5711/1A-010\"",
+       "Patek Philippe official Nautilus 5811/1G-001 41 mm"
+      ],
+      "query": "site:patek.com/en/collection/nautilus/5711-1a-010",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/collection/nautilus/5811-1g-001"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/collection/nautilus-50th-anniversary"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/collection/nautilus/5810-1g-001"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/fr/collection/nautilus/5811-1G-001"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/en/2022_PatekPhilippe_General_October.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/collection/nautilus/all-watches?collectionType=current"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/zh/%E6%97%B6%E8%AE%A1%E7%B3%BB%E5%88%97/nautilus%E7%B3%BB%E5%88%97/5811-1g-001"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/collection"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/collection/watch-finder"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/collection/nautilus?redirect=%2Fen%2Fcollection%2Fnautilus%2F5726--014"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/collection/watch-finder?Collections.Collections=Gondolo&collectionType=current"
+       },
+       {
+        "type": "url",
+        "url": "https://patekboutiqueatlanta.com/products/5811-1g-001"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/collection/nautilus/7118-1A-011"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/es/2021_PatekPhilippe_New_Nautilus_Models.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/it/2021_PatekPhilippe_New_Nautilus_Models.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/fr/2021_PatekPhilippe_New_Nautilus_Models.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=oR-MeYSGKVk"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=l8EczAVtdDo"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/de/2021_PatekPhilippe_New_Nautilus_Models.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://cd.patek.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/179801-source/options/download/p2483-calibre-240-ps-irm-c-lu-v6-web"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/1vierl4/pp_nautilus_5711g_first_qc/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1suwd8z/noticed_something/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1r2td5r/wts_2023_patek_philippe_nautilus_58111g001_like/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1skqomq/wg/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1q8f1b1/wts_new_2025_patek_philippe_nautilus_41mm_58111g/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/1l6afgv/am_i_too_picky_3kf_patek_philippe_nautilus_5811/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches_India/comments/1ku46pu"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Repdesignerwatch1/comments/1ee684m"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/1wwft67/qc_patek_philippe_nautilus_5811_blue_dial_41mm/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Repdesignerwatch1/comments/1ee6785"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/replicawatchreview/comments/1h11lnt"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0c2cccff59e42ac9006ac51751320887d282883805d466270a",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRdSrJo3cPZ8fGOFBa9uKJ9_jlkYyhPCcSZYNZywPhQX5J_sDzjVWEhpwecdb1OkoCFQ4Q-NyHeXdqaZfrIG6GatyTjPCOMtePIJJOUQPLSXugldcGVnvHbB_SCkoP6qd9wTpEsJn9zjUysxc2vGGtSiQWAn-Tg2un79c26FUgu5m4QBX-zmhk9VawIwa1DGaWkGCPz2AUzdgtntE2Ygn1mKRGhBpmFqW06bNSA_y2uJ_59U0wv3XMbR75kN8A6TaAbP_OiX5CaEWGZqqTKUbcSEnjvZUARi4kFpkiwlk0UYfMJijkIn-JvKHlZncbEwQFvTjgEvepjNbUhXKb7hoO7TMYbzYVybu4V90vaZyE27qEaKYztD9LxiOMqKpXzEYa04gUBUDfMn8Fisd-4jF1BxJgJQDh_pFJ2WeJNxSJFJ4uVAsoD5htAJsgytVzhYig-QSEbiYMLxGy_PF28uP4-vhBc_RlExZYQxVNRr_Tbd79rGYnBmCS4gMF1Hx2tjsfWC9ph-RUhi69agHIKsJZ5fiG0KNjLj8G2B5_OFi3uaN3wGh0ucp-TCCz7aZD9jGu8EYKm0l1ZOjjQsq2UaR19YHak_3Z1K9Tx2w8tqSWS96d_aaw5oX11QBJ-K2ufFZIyenZMAA_ZCTzFUB7lwKTz3EDfkZ0Fi7nw9cRx70XMYy8ZCfok_2CgV4Km8aS3eOPJ3G2-XSfvydJKt46c9JLCsOPc3Vh691t7yOSMOcteambH8-SXn6Lq-JLnCSqWw7IMHArBxr_CST68G_xnuMomx8Zv73HxhgcgF0CKs0dXJcCMFfdCxVO8gcNMkdQ6eAOmRO1QMc7U-gO3B51XHzsf05IJx6WrTTrt7IkhGODQjA06T_fhleCGUSUtFsV4Np86tAWk79N7RM4uzs6co8D6qV6h-uS31efileXoD8GN54aWO_BpKJtjH8D9_NPuo-T8gWPMH-iQVI-JHOkTgEIQqspCYjH57iVPknDjX-KeH2KGqT7DQBEWb_7p3t04_i9K9niufn5pV0z48eT0Evmussm3PQA0vkJ-LLAz6KHQzks4zCAGWGWJz76dqjnrk_bvPU6yCe0gVsd2ssD0FpAk8Ur0lCvIWS0vBBaexQAuaTcfT3xSMS6fy_gCTPSPOuohAbDj-4ouAEIBQ4jgxxCmFwY1AudPnMQsHndj2nAGisX9MLsa_g8G4VDi-VA-1Thw01-fPGtq_mZKYq21gjx7OR9ZMjHpwGh3x5xbbH2Ke0EQTUa5CA6yaHvWcyFr7bBj3-QI9bBbV0jiOziMPpR3ShdcpwGg26UccPzeIp-SnBcaslKFRoj3xWqnABKTeQWXsQTGT4jlpwhKCpD7M7aXLUQmopGqVzWE2QWnRRJsr2J0JBPGeM4x-tasF9u9cJys1yDX_ApwxUIAMD4mYAgM393LqRtf7fJEg-l9n9T5Q0EoQFRHKIFSnGJUE-2Zi5hCL2jTkxyMw5vsYsulfoybmZ_FfloosyDWSoz-Q9IDUdke_-NxZL9FugVL1GSWLgKFrGwueYjyVePpnjnpj0RlqCOBh7PPzpUkZG4pUqCxz-y77atIWsPKU3Fq1PMxhU-vMrQtc-khrhjPPAJV3qFV_jyRPuRjlWaKmbpoGMPWKn43dszJIdiiDjOyBM73R4pWHUxPlYyVbUaEFpG5pvUMnkbUyGKOD6kmUPzfoIrKJfMsl_gzusZ5AsEqqj6WtK321hdPq2WtpEdBfQ-w1XUPZE1DNvqfINv5qNZYkDix80xnh4eam5ZHdrDZOit9qXNiQy1cLZuXJJcBAzD0Ipw3XzsY4n-Ho3eOe-bt6VT925Fy5fGJUow5FWz0XKjBf_A7LKJZUdZILgMNsKXkSUvc0VIo0WhqJrEK8hVarmEw8dQkb4ynNT3qIt4hMrnlGjWR4b2trQGwVew2AGry4gTfQg2i7LitjCt2bOUYp2LPJMY-kaMarPbK5DzKAZN2O7CUz1Pb8XLlZHVS6XG1-XRN0ZUHPZWpsi8anJ20kbf62vr0d5iOTlirtYjVGQJVpX27084InTGk0y4BlxEwSK1IMvL-YmToYc3X3__GpQK_JtmT-zXM4Gagr9odqyFBmbPnFb_Fvp4v0VWY6yrou3BC9dZuSGfQlHz5RJWcTK6MEm0Sqzpg5QAsxthGzt4esiCEVUY1eHHeBhmp1KNf9pi_VbX6H97W_eW8mGtKMxZT7_0JAIKwCUcupdVtW_KH66mpLR0Nqdo_Mk1nfSQBxuZS3fRhf6UFj4uX_0vKOy3HVVWFE_zADSf7PlY0MVFChzJ4fRLHKvrnsh46FWMEqT0YWZlehqn3Tn_BPN490Cg4pQMtxTeXp-QjHvLOnRH2akc219CceILL-acOkhHT2ERBBQV8XmU6WIlvFiQ5cNk5i_uHXkp4_lVOfRAk2gL8q1lGqoCqFyxBN9Uo9JAhdiPR7_w=="
+    },
+    {
+     "id": "msg_0c2cccff59e42ac9006ac517520d4c87d2a4090739b966a16e",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Patek Philippe\",\n  \"model_line\": \"Nautilus 5711/1A\",\n  \"dial_color\": \"blue\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"bezel\": \"Brushed stainless-steel rounded octagonal bezel\",\n  \"case_size_mm\": 40,\n  \"complications\": [\"date\"],\n  \"movement\": \"automatic\",\n  \"printed_reference\": \"\",\n  \"references\": [\"5711/1A-010\", \"5711/1A-001\", \"5711/1A-011\"],\n  \"confidence\": 0.9\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791301458.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 19035,
+    "input_tokens_details": {
+     "cache_write_tokens": 0,
+     "cached_tokens": 8279
+    },
+    "output_tokens": 933,
+    "output_tokens_details": {
+     "reasoning_tokens": 781
+    },
+    "total_tokens": 19968
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 2
+    }
+   }
+  },
+  "search_requests": 2,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

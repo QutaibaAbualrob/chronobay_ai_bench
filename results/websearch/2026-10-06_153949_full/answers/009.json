@@ -1,0 +1,509 @@
+{
+ "row_id": 9,
+ "image_file": "009_rolex_oyster-perpetual-41.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_line": "Oyster Perpetual 36",
+   "dial_color": "blue",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "smooth domed steel bezel",
+   "case_size_mm": 36.0,
+   "complications": [],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "126000",
+    "124300",
+    "124200"
+   ],
+   "confidence": 0.72
+  },
+  "raw_text": "{\"brand\":\"Rolex\",\"model_line\":\"Oyster Perpetual 36\",\"dial_color\":\"blue\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"smooth domed steel bezel\",\"case_size_mm\":36,\"complications\":[],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"126000\",\"124300\",\"124200\"],\"confidence\":0.72}",
+  "input_tokens": 14579,
+  "output_tokens": 1052,
+  "cached_input_tokens": 5866,
+  "reasoning_tokens": 961,
+  "token_cost_usd": 0.00145596,
+  "searches": 1,
+  "page_opens": 0,
+  "tool_calls": 1,
+  "queries": [
+   "site:rolex.com Oyster Perpetual turquoise 41 124300",
+   "Rolex turquoise dial Oyster Perpetual photo 124300 126000 reference",
+   "Rolex Oyster Perpetual turquoise dial reference 41 36 WatchBase"
+  ],
+  "source_domains": [
+   "rolex.com",
+   "content.rolex.com",
+   "assets.rolex.com",
+   "majestixcollection.com",
+   "chrono24.com",
+   "watchguys.com",
+   "dist.phillips.com",
+   "phillips.com",
+   "calijeweler.com",
+   "sotaselect.com",
+   "sothebys.com",
+   "reddit.com",
+   "wewatches.com",
+   "watchprosite.com",
+   "hourstriker.com",
+   "youtube.com",
+   "en.wikipedia.org",
+   "it.wikipedia.org",
+   "wallpaper.com",
+   "fr.wikipedia.org"
+  ],
+  "elapsed_s": 44.753,
+  "started_at": "2026-10-06T15:40:26.227226+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_0c59032466924dab006ac5168b53a487d2955ee6e56d164638",
+   "access_programs": null,
+   "created_at": 1791301259.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0c59032466924dab006ac5168bc6cc87d2adb213188b52b87a",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRaXhfZbnNt_uZAEkQ02aa8wdCbG-eBXxD8km5wC7gzlxPqmESVRYyU2nJd2S_QAsJKgjhdwjgpMUf1ktDliw67uyCbOmZEUieiwrOGdzUvmg61YKk_yud_esfuEm3O6cBskSK3pLAszCocYTJBq6f6mNc9THI67k2lAYzhKJ1M2pEynQxz0vuF_sYkJSTFUgeZXM6grlXQYI5QTSL-BlfBEnDPAKsp392Ylc-wYF-oL1D2jeqe_XOD-9Trzk3zIvqYRj5gtV4-KTATWJ5-IO2Z-OCB1QVK8vgmaO_XAzaMP7ihlewSrtqSMwZAJkGTRJKuq-UQZaeP4WpQOzT8Omp9ROE4QqWL3i6vxkkkKmkrV802pzZ42RdegTOSkG5gJURj7s2VZkb04CzUtyXFonLOzbSfMEvgC0SWwkMX3gUEoOQXl5N4QAfLsUHDtG8cwGKNvciIL-zbzfcBTaQZ_A2tgOvyvq0CiFycBbzRHFM8FIs3wbaEi0DJ56qMaxcPkML3WbxJfbfAyrpqZmysd_OgnW7RICZz2wpdyfSrY2sMcQQMMLtnFF0qPvK25zhhgmdZV0_DPPn6_7Hr0L8ANqPcrzJDkwdQQDgS6JDQ0rX1qqJy7-OAMDbLSLxXRyNIzR0sUHewTdGMHJbxfMJGGHZCnXs4vU1ZNX47LQnpT91dGBVKOEh0kHR-Ika7SQKHGhziF4VOwSKRyB7wK7c0WVPkVNmwsHI7GTByyDKybskT3owfmsqg39TWh5QkLlpdQHq35dUSxCfoclFLFI31fz1vuSzJJ1EpU_SOa65L_6Nm0p8mFiGdJW-X0DLSjyUE6aho3eYzof0uJcyfrr_GS5hQ5APLtcqIwkMA1YzTquNYKAbMJqVheKHGZyyiXvvqbkfOYnXGxOA_lxWIqJj8U2-0cXINUOr6io98KMlWtB0JkDTNUCHc_R-5yYAemr5qCpyaj65qx5WapvqYvbkJdTf9JKuIacbZL5gYJmmajV5t7Awprgg0lG6kPgY3j5eVqhVIyGV48rXUrMASOFtCCSB4hTb3Ni36rBnWpOoac3s8MkvhAXKQLmay85I75wM20IdUjqmonNLqCPjeCx3HFjnUAATMU_HgY5lRhw01giWEw4r0W8wA22ZA3U7gy9Hu8mKX2Q_EukoIWH4HQwadVAcDpoPn3ODIHs504C8zE2vwmp7F2ZCqF1HsDkXglp9LM9We1s-UvFWW4oi022A9JzHwVP_uFfK40y5uYLvzLDWXodzi-7vQyE4irl5JBeDr-YaWOBIRoxPsGDmpar_9ns4UnMggz4OQmN0dfdT2s7aNvZ4lrPk03J1KW1-CSDb04P_DQIThIz0kKD25T_q2MdNZNwN85N4rPbtrrelROXe1H8QLqtSTt6oQrw1NhqQuqJHmd21j4SBmW1Icaa1e2UxkdG3HRJyqEuxBeZHVApPCEZWsy_uoFWx2z78H4ZU6bljniN5flzFMe21j5L9xuD8gTrZROZ0xFati4DN4lEp-0nsE1EAmZ0sLthBdQxtcdZXmBL-b0VUuiowwYnY-BlBfrGInOJ7Z8hEBE660ZHcJpQBuCsn3ong_zkpnlklMFb4ti_MJnX2zbJ480VrOs7AnIg4hp6p7trv8Uhbl7Dp56jUFpjZiSdLqt9b9S1kgW5NvJ72T3ef3LDR0W2JbFfqRS3mf54c0U_lx3goFsp2LXSRMKNfrmIzuexRj85vXKB-c6fBtuUG0jjMdGGBf3dd8nMmf6DyIVP2S9bo_2zCYrvTgw0mT5XKu8KnEUIt-XmfNHc_3kWgS9ZIKqLsFHjXRBJBz6Kz01PzVWtzloRl-8VRspmn-hkWXFmw6NpO9jDSQ-jCwB2ZvqviDZNyWMgHDRMBu22ApZkcAtXaWaxe86f5p0ZHHBHJdYDpe72VzDDSyR2n9bjRMc2YM-ed9ucG8LQ-HqWzXyAU5C_3xSV6Qud6kW1uIRGAiL2gnZT0GAP0bnaBv_HTUDb0SdYLCVneudNgEB7TKfyKIy0jtNgSB1nOyimNHfMYodHaVFrmxzMcPavZrNg7SFWlt5X_1YXMaxFwGLNhHgS5M6r0Dgdz2OpvV-Xvo3PLpCpHYVdyvL03CB9rg7KIDdvBVYez5FcUtq1jlMHbbI9LxpQDRbCwe8NjAKtvAPHQqxLKPwDvh8eIk587aiHVr6WmXjnBOS-aRQ2DKvCN4XAoEHermx7SJAEK-ULTqvSFYj3v4l3Ka9hzAFYm5wBTN6OrSLZPT3e9llUL1dqWxJDGhPWmffrxqEvXbk8hEJFzu_oeuXd-4qxCGe2N066gJ1ibqA9arH2By38fH9RWSIlOyIDzvrpCx8aHRDsMkUK-C2lk6iHnasELceTw5D5CPUgXhp7vGPDFKolA=="
+    },
+    {
+     "id": "ws_0c59032466924dab006ac5168e342087d2a5d0f0950c6c5e1a",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:rolex.com Oyster Perpetual turquoise 41 124300",
+       "Rolex turquoise dial Oyster Perpetual photo 124300 126000 reference",
+       "Rolex Oyster Perpetual turquoise dial reference 41 36 WatchBase"
+      ],
+      "query": "site:rolex.com Oyster Perpetual turquoise 41 124300",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.rolex.com/en-us/watches/oyster-perpetual/m126000-0006"
+       },
+       {
+        "type": "url",
+        "url": "https://content.rolex.com/dam/new-watches-2020/media/brochures/new-oyster-perpetual/Brochure_Oyster_Perpetual_he.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/en-us/oyster-perpetual/m126000-0006.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://majestixcollection.com/watches/rolex-oyster-perpetual-41-stainless-steel-turquoise-124300-0006/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/rolex/rolex-oyster-perpetual--id33756302.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://content.rolex.com/dam/new-watches-2020/media/brochures/new-oyster-perpetual/Brochure_Oyster_Perpetual_th.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchguys.com/collections/rolex-oyster-perpetual-tiffany"
+       },
+       {
+        "type": "url",
+        "url": "https://www.dist.phillips.com/content/web/auctions/NY080123/NY080123_en_3.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.phillips.com/detail/rolex/181085"
+       },
+       {
+        "type": "url",
+        "url": "https://www.calijeweler.com/product-page/rolex-oyster-perpetual-36mm-turquoise-blue-dial-ref-126000-1"
+       },
+       {
+        "type": "url",
+        "url": "https://sotaselect.com/products/oyster-perpetual-41-turquoise-blue"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/en-us/oyster-perpetual/m126000-0013.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.sothebys.com/en/buy/auction/2023/important-watches-online/oyster-perpetual-tiffany-blue-reference-126000-a"
+       },
+       {
+        "type": "url",
+        "url": "https://www.sothebys.com/en/buy/pdp/luxury/watches/watch/_rolex-oyster-perpetual-reference-124300-a-41mm-fda3?locale=en"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wj2vvh/wts_2026_rolex_oyster_perpetual_36_w_tiffany_blue/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wewatches.com/en/encyclopedia/rolex/oyster-perpetual/124300-0006-brd-01js4qbqb5pxe1ey6tvt3et7hx"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchprosite.com/page-c.collection.detail.e/brand-Rolex/ref-124300/eid-1507969/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hourstriker.com/database/rolex-oyster-perpetual-41mm-watch-124300-1243000006-42631"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=UXbpJeZBFgk"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=9XlxPUglTlE"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1fntecj"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/1v7r97a/qc_vsf_rolex_oyster_perpetual_41mm_tiffany/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1ra7igj/wts_brand_new_rolex_oyster_perpetual_36_w_tiffany/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTime/comments/pan8w3"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/rolex/comments/1ktr7f0"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/1tyfbb6/identify_can_anyone_help_me_id_the_exact/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTime/comments/1lhgow4"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1f50tam"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/183ujjd"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1fntnux"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/vsjg60"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Rolex"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Rolex_Datejust"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Rolex_GMT_Master_II"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Rolex_Datejust"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wallpaper.com/watches-jewellery/watches-and-wonders-2026-rolex-new-releases"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Rolex_Day-Date"
+       },
+       {
+        "type": "url",
+        "url": "https://fr.wikipedia.org/wiki/Rolex_Datejust"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0c59032466924dab006ac516940be087d2a8fe51efe6ce24c4",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRaXawraeCb5X-H5LyZ_vaINnQtnywQkjN4NPogp4v86CI2J7a4mdScEaN81HcVyKuVpxzBQ5EvI9XAvatBp2ioYJmTwGMzTHa_y2Q2UQqNsGL6yusaNY7EiWWYx-rCsm0aw-Ob1gl07u-mtSd_7jkhTWPP6Sjd6ltk_vGc4nVD6T3AUUbaWuL1XXgozvUSi5YEJ55_A6dj_0b5HEV6gvLtKDGdDj8jZSkou1SZSgHHa138KeLDkD5oeyJF_8sixgXhkpnTrXpjqxjo9JSGSKhwlTwV7pP7r4Xc_fWfir6jPahVggq2FtZO7F8sgPdSSq2t9V2pK7M7Than_w0g0s9lGQNnXmTIj4L7QxiXyFIqG2zNc1Dw_khg9yIKPPsacS5brBav4lYl8fyJIR9c4OUbOdZhlm_e7qdZvvSZkbwIl1hs7eZ_qP-cLnyoEB3FDZPOHHs60sYr8YNDWvr5rwGOnvgg2NqUq56YbF3RrGDJDF6WFI0TbhKODHiJD6NOIr0bK70GqsnSA6aMLGGZ8Ob9kQWLX-VwCGSa2FE5-gncz8NCLhj_V-aKzRYiwCme9F93D78s_ZPWIU3KPiriS9_1rCGmGIUFDNIOrbfKfZ5NWVJ1jXpG5ST3OBAGPsxcLwDo2J88NOUToPwpNg66ILvR2noNgqWfjENmlPWeEZbmx_lBONmThT38eat79C0eF5b2l3IqNL1M9nN2LsQW8v-ZzP3zEd9ix9FqrkQLjCcK9BN5pzzlPGpyMRUeRajlSZfljVtK6PO9-oABI1CMCUXdNnbtUM3LG_v51EyGt6K2EGnTKKNbmRkOYs5uc_er_9Owi43bFFo1qijDurj_TTCBEA3T2DrOR7MxazrpJ0q2_Um0AtrqaPMK8DlPXmbWXh9Ijk11aViRu8dTMWDHvpOeA6X91EigJi3921HoFUoHjK0KTDeZv7E4dDFBna91Dr6WBp7BeIUWXBkUBpRHNcm8CyHaSr6d6wkl1Z5L3LuC_p1vdM_DsTDtAWs81DIoOj9bEVYEZ7_1T2Ml02aEAvkNVhT8rateT7jsG9hExoz4G2b1I9fq7Th9YGkbXA86lN0zzyxY9RjYKItfKgwsGwR6KQCYbadLqCqmV2vRLQKLKvywk7cFUkLl_Xunu559g8kHS_JWYVtaanXiJgkapgunq8mQGKOs_13rDDNcQGGWs9LSZCwrNBthnLzabdWJ8T-ExaOHmZyoIafSH_Zi30F3ss2uxCdWEVwVptR-gCwttdBm5G8WjbUcdj5p1vXUYaXMZTlSbVEB3M19o1SLmwaJmwbdP6ucGhUH5hWrm8-_i0tpK20JsJm1ftZMOi0E-kIK4wJeelJHgJc4Cu2CFz8fnhtttGL20ROg94nSMAEDOPp_xOTH2g0SlrnLTYSgeRm6P_9WJSQ6YQy8nnvYXF5O70KfB0g8VzmjDIdbNdInNrg6hH0Ql_6I1VrILNSsFS0aSOAo5I95TeaDNYyJ4l0pKYYGNKaUQfYv5ZyC4dmtKoiVoWOJiRb8z2mjy7xMrmaYtVMi_zyxxQLoyMA9Bq5KO8Uo6OPOZ-VjIkDddQUURlrWfNANP4O1vCi-Qm6dIKf47HhhlPke8ZsKlF6M19GHNQHAEW2RuOjdN-XxNKWj9Cy_2csVxFh9nwi2obtQiRTB883uVtTCk5PELuhg7BiRgfJWF8y4CSt66N0cHTNeDna5IgY9Wk5Ea_hnJqTa1qONMcp3phi5pbJp-AIESeb6Ru2h0_I8qiJ-_houA2g68M8ffkULSY-msECAotjRCT4M3dBWQ5UqBb5FvIIoLV7VkKPaNhbMEsG3bs8mc3ZO2anXKkyQLwIOh8-av7X7DmZ_YkYyPbRk9ZkZWA41zU1kRh3_ViOUAcYxv2bK0GWbStVKNaaxzz6HmPfPz_9AAFG1n7t9EOav2cfAT9uneil84jNrYurKSbIMTSBIEIq3VbWFofA2tineJC5Ceadg8BSnVI6gnleMc-C2hOB7HksSPmXlKdPb9zgXcuuPX0ct51C2j0g_zr6lacR86Zs0eoodz0g66iAmQ3MrYhzlTOfjJl82JsSaIGBpuR-iIBtaH_DjCL6RrZWtfnIgSbkwf_q6HHoWIQgajW8VzxPMsVyi0sRup9CvzRJYTZOYxQ6l_SB8z8ZAbxKUr-UNnL9VVOpDLMZlSdDJN1GA68iWL5P3IUk-RECBBOWlnC_VBXGpyu6H9lgqq9ZWmxi7PXzfLtirZN3reLt2t8R_cZGIiyX0ekYDsnY9_gtM0IfhN477OIqn1ey0JR5gJL5eLtNCObcA5YaOsF6HyFUa3dEx2En-xaY8_Qp3WnoLS5HIYSSJ4ajv2mb-J2hxiwq4r5G_fc334rV1gjvcl2aTaOii4hKR8McNzO0UlIcZeChxploaGFb8JoLNWg_6ex_oE3TLWZFhaNAWojX93SGq2YK7vdMgZBCOgTyauyRe7D0IdKUjT55hLmm7yyF4F6MRV0fYoJw-dQ0CXvcw55JEzXjyQO2fWPv6r0VaVHvuqnA84x-46XVDlk1iLH3dF8jhZMCCRKsnIKmRjA7JGihkKRRjUhYQa1znB_FI_lOpdFn836lFDYxwc6uaS2FnpO05jZqoSVTZXaRZPpumRfPTkpKLkrGLYEYR3jPIsdU1rT5if1gBhxPoE_u7uvqfFUs6LtFAws5eNTdO-FrF7bYvvrADK2Q0JrICaeXBrXuppmx_UAikJcSZCp6qVzSPv2MKAiJXyf4uRJrVzVnmtgLIRNyDEPtfvqg8mdBsPZq-wG4O7xmYzainAjtlj195Es6hG76JKfKyEdr5YV_GKKWkirmXXeJGb_L1oguecHNJGOTmWFY2CbD2j2-5ADsRVZNrYdFL8p67WgDxSp6w4YqaEPKNonErkcp61tjjiYfE6Lq4v3Pr5h2Lsjie1hXA8feaogHMV-_2Z8o6C-L9jd_CKpgRz_JJZTlJNqtEHnfHeWmadLBB3OmCwBG3cTMO_eEWCsjPfd5C4VoydoKQoDZrPo2-NKHRm0AKAn7y6OBkPFkogJxDHQAsGNNx9e-9IgHdfqFTug5aY-qhnzrW38yzmH1dQ_ANpyVDZEkYd_eqjYjWCNe0fbICPSvaPfYz6K6BX_SHbhHvbquG3ZAbJAvPJNUeSkvb2hAWLx5OaSsVoRdsPDMqHyZAREB1zm7mgsOV33RCPv3Vg_FBGyWVJsv87_I9oWm9ph1z6rALGgsbSBGppKhqrkeIYirUhDnaXTs3ki8tti_dtf4aXEn-4hufbeQAELN70A9O7jni1EXs-nWA6_BC2RrFDM0UBW8t2MeaxCU3KYbUKADjwvaONuQ1xgskEjRg_-sD3HT4HRpkRJI5eI4fvalM6m8b1y7kQkBzWSnSySZw9KxS5A4U3cNCW_yqT9gk3hJ3soOlBnRbXfFR0pyOc5tUBcxOwgNmSXdj-1rdKTtkUO41y5v96Hjv4lwhbFzk5bLK2AePKKcBEOZ7JCpigIkZvdcU2qEloDv7wpfUjBlXAhapU4-theulLYUlDDJXun28ZjDzKAWRZkbhdZHft3nftah8RT_kryCXnMD9XUgpf4TO9zsoCIamc9IBBk2xzSph0uZLAzzo9ubASHe88_txicRXvBriaYNl8kPTCKUEinJwsH6YMKafY6-bfG4C35zggt1lkD7M6tzu38unNmcM1pqPa_ibZbrwGy8-dYtMjxITqEqk9vNiAwhLzt6Z1BjuZFPGJSZRC0m9uJ9bpxZOAteduSGi73pO2nCO1cXoCfJQNmNyyDacFbP2JUyaXmCelSdfmVZFf2l748Wqv0BOIlLuUXVzhD13Gq0EyZyFPOfLKiDT5x2L4aZN81XnzVmGquIupYwJSuLIWMZ2Cta9qAWiC0if-PACWj0vKH3I_u8yNgr8mdENUyWbK_o2eaQ=="
+    },
+    {
+     "id": "rs_0c59032466924dab006ac51695657887d2b68c2b354f8a57d5",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRaXa6g2XJYbBaPHNMtR5RRsELlwOPR-k9dnl3Uy138u-yZ2cSy8_cCXSMqXbjOtFNDnVHOpnZQ4wdezAeYEibIp1PTdVF3ognDOIxd2dn2H3GJxQ77e1VP4u0TsgfI60gf9smKpBUyUByRGu92Gv591Vs_3d1uJZaBFurpdWf89ztcRIJmQ1Sc3OPLKpLnm_g2P83pBkg54japuU00T1CBomrEyAQvla-766pF-nR_vs6UvfIekd1jbhGVxQqS-2cC-_kymuHP8DwhLKrMLrhM7iPcC6zFHOFFRslBM6S9Fha4r1RJJ9RgM-LXyTWydVXzJC7bxX-mFn2-N9X8Lla9AejjIY0Ls91VvSduSz027QzkMwCHXJxnc1DSfw-J-jAhObQDuR8gswKzdLmqHHQ6NZy8Jh2usVEVEZ1gnOa7HOKbigfX55qYYt9N8UmD1xVBYQ78kIWOs9fXlJt_5nqVXX0laN0hHY_eztUcA4pEH3KiH-A3xvOLLgyMXzSw4koF-3oSb4WNIbL1i37WcASTmGcN7xsNAvYRWfihzXSKQvQvE4_oVSPG46AtArPm_vVPC-ry6gJEI-_WnPgJUuqPyWloH1C2HDqWOM_QtvcN1PPnXRD32DSLDXzEg2758G0OyTzbnLBgYL7yCyq4n4Cm_WH4xpTFv6-IbjB1M74l3vD-njq53BPtRysg4iDqEXax9pb0hgY4Vnlae-ilkcAF60wJOHK96WFLzE5N47irIYr1m_MhXd2WDsLd7P3N1IIyxQ_zLo-yhnIa6UETZLuEz8Av2fyqph2JCopDUmVpSgudrephr_TJrbRbmmC39E5xGfqCZmys-VdmGdha3fPmVr2GJxQzW2KkZ3kK7dXaPwPZmxViUvxsjbW7A9N6Xbut9MR55C2IbW55Ng-q_Xm2_-lz_vRnT09KWMj2fjV4SGl2HziNWhDwtpd2Ne1my0FATI-KT9cCp_YnF6Ff5tMjmART2K0MAV06fVVc-gsfaPeXV09P9Picr_ymgyLR6wD4ZxWRlHwg06vjjJIn0Ugki2bdGARMRE8JCgzJmbOD06GtVfOJTAp4ek7lZAwA2iOsJ4JQzzeocVB4r-xgoUWMrT0ydVPmJS99VDPPiDtRAnIc_XQfxsKrBeWU4vn6wHS8XajQhjzjVof_obnUYwrzLqzD1zj-oeitCF5BgtgJGONDSKCHgsUEZAL4SPJ2QKwoI6XOn1dy6BgSswEKRAbMhsHOZyxQ7ziBdOh-gNhAKk1LRttTEr1HF-OX4aqisWS5Viq8TVCpU5rTY1JTXBw_BDm5y7FoTLHz1XjKsmXrrI4d1xC4rfMb_sm0osT4bdqCtlceJ81CURnAcYzW-LChwl18AqFQsfAHlEnbYLv0G-RlJC5uRNeEoLag9h1y-6KvvAOXT-XN5foiuVwFoaiVhpJmlme5DqNR3Ri5uKhmkRZIbGUtgjceAzAvYqls5iqZX4_7NPCVMypvCV4Ae_v0hpEkXsjfQfK3KQ70F6mikJgenhRmtWFufuC8_W2QL8cKLoVFggNrbWTro0VYkF_bp8iD64ti1g03iGFRi0osaY-RurqNItU7mSlDfTu2R6kp6hAuYqV2uxA2HlKklTJkfRNz2YGj22-3Eyp3EBrnB9horP0Za-Oi6Hf7Ds2yECk4dN2OYLKdXDuRcH4UXwPhRSm8l1xxFxO-Zo2xJlVc8yIhekdW3y-n6iWxTMu__c4PSLKPfbSTqJjaC12D7l2eXOVt2vpwVdF4Ygh2TTMpmOhfyEP5epZ3SRma0pWQS8wJCufbZ-2W5-3WZCMQehPV5CcR0XkVvJsfCIF39-Z9n8-M6AXEgmJJVzlFlQ6tXx3GQahKBdqB58Z6zgvox2itSQ0STwKvqVbVZH_7dmZ2rRLMpFe0PBagDCF0Dr1gF2NNTCpmNcMpN3TW6OaFy7yJmL7sSa4-9kwegjjSVxQWigJUCevVPJC_Lsl3s2oaLNisAL7Tazllia1GIuQ49pQ3zZAjE7qIgwKPczGbzzTa6Ec6qv_EopNFv-8v9b6Tni93iRUvPGYsJYszJ15FS2CjTvdZr2g44cY9l_cr_FQOiw1DAcqSm0Eo4AVk9UzKRyMa8"
+    },
+    {
+     "id": "msg_0c59032466924dab006ac516963ac887d297df477dd5693bbc",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Rolex\",\"model_line\":\"Oyster Perpetual 36\",\"dial_color\":\"blue\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"smooth domed steel bezel\",\"case_size_mm\":36,\"complications\":[],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"126000\",\"124300\",\"124200\"],\"confidence\":0.72}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791301270.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 14579,
+    "input_tokens_details": {
+     "cache_write_tokens": 0,
+     "cached_tokens": 5866
+    },
+    "output_tokens": 1052,
+    "output_tokens_details": {
+     "reasoning_tokens": 961
+    },
+    "total_tokens": 15631
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 1
+    }
+   }
+  },
+  "search_requests": 1,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

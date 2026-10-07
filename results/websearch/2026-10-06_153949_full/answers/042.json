@@ -1,0 +1,716 @@
+{
+ "row_id": 42,
+ "image_file": "042_tagheuer_monaco-calibre-11.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Tag Heuer",
+   "model_line": "Monaco Calibre 11 Automatic Chronograph 39 mm",
+   "dial_color": "blue",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "bezel": "Smooth polished stainless-steel fixed bezel",
+   "case_size_mm": 39.0,
+   "complications": [
+    "date",
+    "chronograph"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "CAW211P.FC6356",
+    "CAW2111.FC6183",
+    "CAW211R.FC6401"
+   ],
+   "confidence": 0.98
+  },
+  "raw_text": "{\"brand\":\"Tag Heuer\",\"model_line\":\"Monaco Calibre 11 Automatic Chronograph 39 mm\",\"dial_color\":\"blue\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"bezel\":\"Smooth polished stainless-steel fixed bezel\",\"case_size_mm\":39,\"complications\":[\"date\",\"chronograph\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"CAW211P.FC6356\",\"CAW2111.FC6183\",\"CAW211R.FC6401\"],\"confidence\":0.98}",
+  "input_tokens": 22429,
+  "output_tokens": 1019,
+  "cached_input_tokens": 7618,
+  "reasoning_tokens": 899,
+  "token_cost_usd": 0.0020667800000000003,
+  "searches": 2,
+  "page_opens": 0,
+  "tool_calls": 2,
+  "queries": [
+   "site:tagheuer.com CAW211P.FC6356 Monaco Calibre 11 blue",
+   "TAG Heuer Monaco Calibre 11 CAW211P.FC6356 references blue dial",
+   "TAG Heuer Monaco automatic chronograph blue white counters left crown 39mm reference",
+   "site:tagheuer.com/us/en/timepieces Monaco CAW211R.FC6401",
+   "TAG Heuer Monaco CAW2111.FC6183 blue reference date Calibre 12",
+   "TAG Heuer Monaco CAW211P alternatives references Calibre 11 blue strap CAW"
+  ],
+  "source_domains": [
+   "tagheuer.com",
+   "lamaisonmonaco.com",
+   "5dwatches.com",
+   "vintageheuer.com",
+   "hourstriker.com",
+   "magazine.tagheuer.com",
+   "fratellowatches.com",
+   "timeandtidewatches.com",
+   "thewatchmetrics.com",
+   "uhren-muser.de",
+   "bernardwatch.com",
+   "chrono24.com",
+   "youtube.com",
+   "en.wikipedia.org",
+   "manuals.plus",
+   "reddit.com",
+   "es.wikipedia.org",
+   "fr.wikipedia.org",
+   "it.wikipedia.org",
+   "t3.com",
+   "wallpaper.com",
+   "vivir.com",
+   "watchesbysjx.com",
+   "teddybaldassarre.com",
+   "horobox.com",
+   "tagheuerenthusiast.blogspot.com",
+   "chrono24.es",
+   "timeandwatches.com",
+   "gazette-drouot.com",
+   "quillandpad.com",
+   "cannesauction.com",
+   "leon-gallery.com",
+   "orologiepassioni.com"
+  ],
+  "elapsed_s": 131.219,
+  "started_at": "2026-10-06T15:51:21.179875+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_02be7649789a2360006ac519689c7c87d28db39f53869e0c35",
+   "access_programs": null,
+   "created_at": 1791301992.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_02be7649789a2360006ac5196a07a487d2953051f1c030aa69",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRl8H12TUohr_ULU8gGNxjGUi0yeimrPLbk8cdgs3hs6eeGMLWIlIHh3GIZUaa3YEldyDjRZv-iaf0nfoeVU6HLr26ORAiCqnYllR5dPP7ZXc1iYlRFVaS4KiLqO840ez610N5fESwYeHdjFeNwsghTHKuXIBpnm-wscpJWzqi8oQg9wgPilnRUpIL9I0WcJwhnf0fSyn01ICFsnneanEUC7Rsjkd30BUOpzBy3zRWSgKurGx3PMajMbVcqR3_EG8vyzwbSN-kxEmkV28_AJifAqnJshSsR2Zz0TxSMTpfC4jmCnu20ZTIuBdF9GJ4jSQzlKclb3Yj7QcjzWNd5uCBjFaV66UIT9Wnn9tMN_j4lRsccNwlg4UPak3k67yHKPH17WkOmvNvmqy8oqZ9ggl9GO9KXzdw-YH9e-YVNS111I6td7R2pTcRtjIIsbz2Hr1KEp1TLbcLK1Fz37sNDEjGUk9y1DYLCxkQw3cGjVEOG2Y45kDdokK5hBao3RDzwZr-kCEWKwGkx95sP-tS3doddbd_Raye30Gn7RVBCQGwUDp6wibzELpP4mwSo6Svj3Efwol0UvJY-iStuzPkefptD7fqoUcmWZ4OIQG4b5m7FwxHrYmcEDmYoa7NS5CFmswnvZ7uN-EaAsWydtYwG72NfS24fg9Lkm5frKblP1muRaqRf98w0GEzGWfBIPN6QL5o_7RIQGTomvhILCwHSn84jwFQl3HMIhnDCDBnKe0T7tVBSyLw9HaAaBTudDzbmXwyMijS8Uk2SxeFpfP4PbI8RGYIAdXREQjGvWTqGaudwxC3ODfYjjTejpiGhUNhlWfhNyFDDCjaq48HMoRvRhUDt2asaeeLIvS95hL3lFnBjXdWNwGPAVtdxZ5Wy9dY3K4VrjRSHPRcohZn9VozEGmuvo7gpiJCOoddUl3ck-fFYBgInFy-5IG8Js_IIDChUQj1Cqzf0r7dHhA8FxBX4u84X7ZR6FJ1FKKfkMYB3TY5xyxLWybf3IwgYwi-OegAP5izK5ufIcxTVjOL7q1yBQnPU0OBDCHWO_-3H6-MRM3lYh71DHFb4uJ6oD3s6FPWViILxDAMF2zTLQUHd5Tz82PjG5RbfaQmBfJ04IHb_tW1ypdiLdujbcZF996mEuUp7oUPaKK4kHmZJl0coXRh6dnLWC1LfrFIzVuiZ7MkcMQrKBL9glUu-BXHDbajyXjFVE0SP5xG1Ns30fUnvGuSdrTX81999qe1sg6YwI847syQb0PF3ScuhKYKhxrXLgebyesXLz1FMI8BHKr9ZXg0xrXPVXvF_t-B00ZZjRMrC-BLt1WOL5AhIdXHPMJFP-oQDP6fns5FidSogiBu8_sjfiZ0XVnTeZdAMqf0xj08HB1ARWgDrqjrMewYxpwds_TG_HkhS9RCNGyPRy8s1SvvUkvAij4DNV6Sc_LaKDfJKkCid0ZUDHwuD51FxBtmAO7K-UvmoS-Ajlg549_elwyzGqCNg7Yatg3AUEPq_lSlU-bZt7I5JJKuUulj0NypYg688ZeHQGGinrbT4He4kB2U94XRWzW_M5vodjG1GmW1ytEOZUMEc_VQgKFzSg8FFnd0TB2MMKzStQAfhUpoXCrGba4e5ufkTBnmNaJZmQRyinFVuYSjPjnoekRpPrnoR5zIOlqFo5PAJnrwVlpvWacY0viSwWlYQhxVqukEvGIYEV961Qa4Pt_J06rrE7LP-OZynZgVC_451EDBgQUtS5VgaBeiRjrlhl9nv0_Aj6DWoMLqYvn7DW87YWRmgUha_q4IUFq5pUe3U9TaFxR3dg9lcRlzQEa8FYubONHQICUsY8LW0VzvphTBm9vU7cDbI91H77-URgO_ugfc94v8MFG8Uo7wAuWSzets4qWl6InLFWCGKDw0s04MfbXyB1W7sxK9Un1PYAJZYowMx_EjNNVPlQyZ_HvRDn27K2SEcuOzir5llp2olbGAQvRaV04SPUA_16Payaw2unDc2t14SSO1V8_5X3cV9HBhVMn2aN7ujtoNH7hnN1idV38ecEw96fGYVhZ2ePiPaGzKnRMcST0YOtDYaPy1J0Hx_JvTFLwnHr319P0HaaIxKnhPFB-pILdB9zC-Te"
+    },
+    {
+     "id": "ws_02be7649789a2360006ac5196bb5a887d297e5afb6becb5c0b",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:tagheuer.com CAW211P.FC6356 Monaco Calibre 11 blue",
+       "TAG Heuer Monaco Calibre 11 CAW211P.FC6356 references blue dial",
+       "TAG Heuer Monaco automatic chronograph blue white counters left crown 39mm reference"
+      ],
+      "query": "site:tagheuer.com CAW211P.FC6356 Monaco Calibre 11 blue",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/assets/brochures/consumer-catalogue/B2C_CATALOGUE_2022_EN.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/assets/brochures/tag-heuer-monaco/TAG_Heuer_Monaco_Racing_Blue/EN-Mobile_BrochureMonacoRacingBlue_20-07-23.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/assets/brochures/consumer-catalogue/B2C_CATALOGUE_2022_ES.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://lamaisonmonaco.com/en/products/tag-heuer-monaco-chronograph-titanium-blue-39-mm-cdw2181-fc8360"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-monaco/39-mm-calibre-heuer-02-automatic/CBL2182.FT6235.html?pp=1"
+       },
+       {
+        "type": "url",
+        "url": "https://www.5dwatches.com/blog/tag-heuer-monaco-buying-guide"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-monaco/39-mm-th20-11/CDW2181.FC8360.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.vintageheuer.com/products/tag-heuer-monaco-calibre-11-automatic-39mm-caw211p-fc6356-discontinued-b-p-2021/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hourstriker.com/database/tag-heuer-monaco-calibre-11-caw211pfc6356-35766"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/assets/brochures/consumer-catalogue/B2C_CATALOGUE_2022_CHS.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://magazine.tagheuer.com/en/2023/07/27/true-blue-the-new-tag-heuer-monaco-chronograph-racing-blue/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.fratellowatches.com/tag-heuer-monaco-chronograph-racing-blue/"
+       },
+       {
+        "type": "url",
+        "url": "https://timeandtidewatches.com/in-depth-the-tag-heuer-monaco-calibre-11-ref-caw211p/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.thewatchmetrics.com/watch-db-2/tag-heuer-monaco-calibre-11"
+       },
+       {
+        "type": "url",
+        "url": "https://uhren-muser.de/catalogues/en/Crott_112_US.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.bernardwatch.com/Tag-Heuer/Monaco-Chronograph-Calibre-11/TAG2022"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/tagheuer/ref-caw211pfc6356.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=GOKKIglUeFw"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=GB8KoF0JQa4"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/TAG_Heuer_Monaco"
+       },
+       {
+        "type": "url",
+        "url": "https://manuals.plus/asin/B0174D4L6O.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1r1oesp/wts_tag_heuer_monaco_ref_caw211pfc6356_40mm_blue/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1umg6l8/wts_tag_heuer_monaco_steve_mcqueen_caw211pfc6356/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/16m7ta4"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/ueymzc"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1sszd4v/wts_tag_heuer_monaco_steve_mcqueen_caw211pfc6356/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1szbsli/wts_tag_heuer_monaco_steve_mcqueen_caw211pfc6356/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1fwbyjl"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1fjzvjr"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1hgeeg1"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1i538rw/wts_tag_heuer_monaco_steve_mcqueen_calibre_11/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wkphxq/wts_tag_heuer_monaco_steve_mcqueen_caw211pfc6356/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1irpq3y"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/TAG_Heuer"
+       },
+       {
+        "type": "url",
+        "url": "https://es.wikipedia.org/wiki/TAG_Heuer_Monaco"
+       },
+       {
+        "type": "url",
+        "url": "https://fr.wikipedia.org/wiki/TAG_Heuer_Monaco"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/TAG_Heuer"
+       },
+       {
+        "type": "url",
+        "url": "https://fr.wikipedia.org/wiki/TAG_Heuer"
+       },
+       {
+        "type": "url",
+        "url": "https://www.t3.com/luxury/watches/tag-heuer-debuts-monaco-evergraph-at-watches-and-wonders-2026"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wallpaper.com/watches-jewellery/tag-heuer-watches-and-wonders-2026"
+       },
+       {
+        "type": "url",
+        "url": "https://www.t3.com/live/news/watches-and-wonders-2026"
+       },
+       {
+        "type": "url",
+        "url": "https://www.t3.com/luxury/watches/tag-heuers-new-carrera-chronograph-x-team-ikuzawa-is-an-ode-to-japanese-motorsports"
+       },
+       {
+        "type": "url",
+        "url": "https://www.t3.com/luxury/watches/chronograph-watches-at-watches-and-wonders-2026"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_02be7649789a2360006ac51972b3e087d2af0dd72ef9db591f",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRl84RSE-HkV-LPIQcvLvXeIVOpc0zZ-oOsjUKgQt2wbYXaSIPaAlRIYFFb4PlrkgqWob356S0BDysxLNsFdouJuaW-_fat8VrsmpXB7a6_siNlBqOP-7mGDUb9oxse4mmh7zvitUNzZuhaoIoO6_plL5dK6SfDobD-uy2gFmSOzzSCVmWXtX2NZm3zojhQ3ogdBT-bEktkHnPyKl40TdqjN53QAgBKsGze_nr8Qg4phqD4QXL2l83FctuL2MvPPblsQ5ttWQ0B-5-__bMbuXQ49_--Hktps5B0r3mnc7aA6AhJEcHXKolqtmAZceNf-o7JOGJlelsUVcjevFG5tst-YQBjNkWFSB1SzK-sqtZFm9JtWxhtYDgMGC9CA0_wYxsMtm4LdIZW9u6ym1bEru9zt93RAJQ8mEIQAJFEJvha21aZmLDPdLtnWFdFETE19I4Peldj040hosLYI1d9hyIrG8UZJpbu0Fbuiqux7iD8AXnHEADtV9pt2_r4zZkV7BFoxlKnEFslZkeBVSucZGOTj9VBP_Gw2D4Efiltdi12rGbzole_jHDsbM9GD4KTEg7dorBH9v_FwM_48mn0MGCGZ0TTovr9gxMGcpKQdocdhRQ_kwu4cykSTzl63r0bbJWHzc0dbXNla__YhB0Z9EFi1CDTg_Dzn-gKzQvukNYUx8U-DOIXw4n4MgSzA_eTTSeDAr5i1nsvyS8NVCkGA7hF0qiJf3aIeiCRNTmS9Ys7QbcfqedoAE9aoexV_RvJpB8cQjTcEosurWwNyhNrVhT19mphpayPTNCASfpAOqjRPv0gsilTTHCOh8XPHgrgfFDNStULU3LCepQAkEtfckQpN-4NFdr7b4MJvjkJlk_wVpEms8kjZq5bMSImkrB1jxIdAtxqrEaQs86XAwicU5fY8QtVDFfC8SxWnQx7hfOT8LCrOu8WX0yZQTkjq5AgPAbKoNsqLmYS-qMmxxlmMWuAfo_ly0UYxhHA3pxqVPoLyiYj9o5cWR-ZBXuls7JRyBN4jTfTJGNbi6maLROAh0trdx3o4dZ_3sKVVXzU-U01j4EtzwKKo6KdeSglEUhjLZmeSs9nad4ARGByovfPbNPvYUJGyFYQ1lCFU6qp31_NEk9JOEDIAQ1DtIz2k_sxMuaundDsvRNWXz92wlt-OqPJGG6nE-be_B9Z-vYm545RxDXd-fiHowYint8a3HGBdDn1WJkYhtK02wQnzGh-pRsdaFi0PgiCWEONmFqNVQ7rCnYAwC4fmo67Oq8cg_3hULMR9evv9KsmvnTEPdJtcY2ILwG7nuIlEcrN5NwfYIh3JYsGJZi2KWmuWFb1huKN_Utk6gRj7Qswg8_kf_to6rM1uLrJohc9x7Tf6VyIN8kw03Z8kaXebAAbAml18HMWtaSRdCn6PuKUYDyyseSN-OKZ8mQf8Ye8ufjNH4Jsm17eQg6JahosZYCYSTcVLTI_8pUm6lsG6EjKkOSKO569sxDmJql2ZQzaSGsscbxpk72F0BdKFWpxMzVWp018s-ge5HOGALshkQhQmx70F0M-HknitdvZlBrN8M8XXtr1FxjGgi4ImHGbmeLTI7_VPOOL35yADsJQwS5w-ahLXekRtNb62kg=="
+    },
+    {
+     "id": "ws_02be7649789a2360006ac51973373487d2964a1c57cf7f8c21",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:tagheuer.com/us/en/timepieces Monaco CAW211R.FC6401",
+       "TAG Heuer Monaco CAW2111.FC6183 blue reference date Calibre 12",
+       "TAG Heuer Monaco CAW211P alternatives references Calibre 11 blue strap CAW"
+      ],
+      "query": "site:tagheuer.com/us/en/timepieces Monaco CAW211R.FC6401",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/magazine/chrono24-buyers-guide-tag-heuer-monaco-p_74840/"
+       },
+       {
+        "type": "url",
+        "url": "https://timeandtidewatches.com/video-which-tag-heuer-monaco-is-right-for-you-the-calibre-11-caw211p-vs-the-calibre-12-caw2111/"
+       },
+       {
+        "type": "url",
+        "url": "https://vivir.com/article/tag-heuer-monaco-calibre-11"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-monaco/"
+       },
+       {
+        "type": "url",
+        "url": "https://watchesbysjx.com/2015/05/hands-on-with-the-tag-heuer-monaco-calibre-11-chronograph-an-affordable-remake-of-the-1133b-steve-mcqueen.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=UJb3hKegry8"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/tagheuer/monaco--id40605850.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://teddybaldassarre.com/blogs/watches/tag-heuer-monaco-guide/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.horobox.com/en/product-detail/1276-tag-heuer-monaco-calibre-12-chronograph-caw2111-fc6183"
+       },
+       {
+        "type": "url",
+        "url": "https://tagheuerenthusiast.blogspot.com/2020/07/feature-definitely-monaco-but-which-one.html?m=0"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.es/magazine/guia-del-comprador-de-chrono24-para-el-tag-heuer-monaco-p_74964/"
+       },
+       {
+        "type": "url",
+        "url": "https://timeandtidewatches.com/in-depth-the-tag-heuer-monaco-calibre-11-ref-caw211p/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.timeandwatches.com/p/history-of-tag-heuer-monaco.html?m=1"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=ePy-LTvETME"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/131avh3"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/tagheuer/comments/1jscvie"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/tagheuer/comments/11qrwmq"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/tagheuer/comments/yo23b3"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/tagheuer/comments/1ia2lvj"
+       },
+       {
+        "type": "url",
+        "url": "https://www.gazette-drouot.com/telechargement/catalogue?venteId=119666"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/tagheuer/comments/1l15gtc/which_monaco_and_why/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vi3txy/wts_tag_heuer_monaco_calibre_12_3900/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/tagheuer/comments/1ffkofg"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/TAG_Heuer_Monaco"
+       },
+       {
+        "type": "url",
+        "url": "https://quillandpad.com/wp-content/uploads/2025/04/WatchChartsMS-1Q25-Watch-Market-Report.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/tagheuer/comments/1vlh834/would_you_go_for_the_caliber_11_over_the_new/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/tagheuer/comments/149e2tn"
+       },
+       {
+        "type": "url",
+        "url": "https://www.cannesauction.com/pdf/get/catalogs/254/230410-bjx-cat.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/tagheuer/comments/1uay1eo/between_two_monacos/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/ts2o53"
+       },
+       {
+        "type": "url",
+        "url": "https://leon-gallery.com/pdf/LEONEXCHANGE38.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://fr.wikipedia.org/wiki/TAG_Heuer_Monaco"
+       },
+       {
+        "type": "url",
+        "url": "https://es.wikipedia.org/wiki/TAG_Heuer_Monaco"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/TAG_Heuer"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/assets/brochures/tag-heuer-monaco/TAG_Heuer_Monaco_Racing_Blue/EN-Mobile_BrochureMonacoRacingBlue_20-07-23.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.orologiepassioni.com/listini/tag.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://fr.wikipedia.org/wiki/TAG_Heuer"
+       },
+       {
+        "type": "url",
+        "url": "https://es.wikipedia.org/wiki/TAG_Heuer"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_02be7649789a2360006ac5197a5eb487d2b91d63946155cced",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRl8MVYSO1y9eLT0jqi3itrlHWqxKXWDdtwMTQ3Nju5S9GcLIZcvPG7Ou2u-3KPJahb-L_BmxQF3t5irOkEH6dsQeTSxnN8YgQaYwFsBwkzl0Y2ZSZSRpzIZAmBKZ7HMHu0Gwv-i8fBRouIryRAFkwgav2hJ7-3s43z5TFooykpppOOLV5BmjH_cR4Ixvj7qq4yOGVQmCLInuLtBx-Pb5fEMRJBaT0HxUq2CDhG7wlFNau6CXUz4EQ3HjrmSu4F-r7WTFEd19w7U9tM_KJD4bgHo1IkGgL-hzOYApNsGBWdGTWjS24RPlvpt7pT5SCCTUeYyf9aMVk2Eznvz6t0uFMNyBke_gYfQK5EkP1omPZELbC6-In8w2N88TWarl70hvZhcmPLj69knYWiVl1Tr6E7mAWj_ystMHoQPuQznteMoNNpK1gej39eDLv7Yw4oyQWEnMAMUjr9lGOqIysbbkbyKvHIK-805ueGaoqQUWsjOm64wXpE7HSKNvnJ02RP4KhBiJEondvLk3V1on0jKH4zozcBdCWf5eZENnHr_mSN9CC5UBWbgP3nd4YI0HtnjQ_X2aqXpOxTONWRJv50b3-Y3fr_lLpGD8VpqiK-LjRGoZ4Iq3d8AhHrcMEGsJWfDn6QklrxtRMDIjxNJ-Il56DIDAEAeKrjD2EOkSFmQ0YgPmoj3ORwVWF2IT1mRmsX2SU9Lfc5qKwu5xL_vbWm-EXDw9CS_fcYiAQ9i004zdF71d98w5TRDQb2wwS_PjLCi-PcqJWEtYtVzVxAJnFng9ihMfjDScrYHawmySV8OWtU3jwQRra2c_u2CIkJ6MITBB4otwCpEeONV_-uYkaQ4sR6AXgmLUmzfhLB4kC_ACC64Wqa3vanrU592g5h-ky23TKk7BxmB6mnwOVehmCEsTDfTQTGuWKFRdp4zm1fQ1rkN2ECd-WkzyUkRVw7q2fe_7v-x6ahV2r25neB6qGo4WU4Eo6cE0glvvp35FkQiNhAwogQgCVrNbfpFJohPKY3u2jnRi5P87tDIh7oIiUnsxa-Z0hKmYS8MTjQcQ5vW3-o0gPBkoz7fEdPkTEOBltikqw4aOB0HZ8pVxgbvVHymbaRxU2hJq_ZuO03Gyt11L47wH_k-RYUz93r6HJCbHLIe53Zty7E4jUd76_U-nbXpQkkjB6IYuz3aELaLRwJux8IkCYsxi_utxrHHqARI9gukjee6NPXZZVW_P32fB4cNFPZJ9Xb43jnNHQKHuEG9ZaPPxNiN_RMWFDRgt1K7WATaAv2TdsIO2S3Dyht5-uOZMqs1BBU1CRc-ikFC9F2a9zUDPbuOok0-XPpVQVtu6P4YJAzaOEeTKleHtH1iP2U7XQbq0ffopaTUPxx_CaaP0zNAcbEr9rf5cRQ0_Q5WKHIVwpIs2M3ZJkjfyIB0WgDPWuJmaa6d063Y2-yFYbBBy7Y2IYz2v7ISdAAdwVpI0g1EXf-YX-DRzkXc_tZiPanhFivSDSnDa4ISr_kd9ETgLOpkOBpO4oA6tXyj4X0MfYor3QaC-IM2jS0X4UTgXedBFjnhaZsRLjp7OxObAAZgtQvuWp7MbxQa7hZOzMrJ7DkSPXfzGxdDOw14A6YZug3FcLJm0pGZa97BnPkBnVUGOM5byK5twPm44mnf-_KXkp9dfv7zZlxWsWqLyJgoR_d8N9iBS1G0pw03J_KDIXXoCa2YnvQOMpjvd0YiqF5YD5Yx8I8RLjDSPkIqE2-FVLBa90ZZnuuCWUpe9K-NApvjIsXz6qr1VfsANdAl-34iw-tIv2ef2A_Rc8UWlDFP24JqqwsEit_S1lQ-u7Irqj1NzkQ9lZ1AljLyVYpVljqfrNUF-P__HN72jMzPwlpHwa-SZlMRzxS_047jCEIUpk029M0ZKm_K7X8jZxWkRIvLNnI3wmo7ZZMYyoOO8gWDOEC-rssPk0q3erjkcQt_frH_w3xa89LcBOvyJ0FxWCggyKjl34029untdcnBhYUJpJXIRdpTiD-YiyVSHlpqoxS54uQv020wqbZDPLzkfqkBPpMhBhliqptibhkV1EGRL9NkHBP2MEdJQS-S8szF0Pl2RZWF4p6Skde3K6jrLhvPgLQibdxqwFtmr-TX7egCvcbzSQpZNtqDPt_Lj6wJE5AM9GrVN9kiegiayWzTgl6Ub9Cx7Zyh7GcwpT8ojewTbveqrBQnLmPBIJ06lX8wy4TcxsXcJraxn45kf-9jfjRITF3XzPkoOUUH4Uab6x_pNYwhkgrHTTctgDIyOJluFtl3a-vzLERaWb7HwgMeLw_UvVYj3uQwBggEbZW049icxRIzd7-X-7phsjvT9PqSwqc_SM7eOL5aNOxPVSOxYT7Xmmq-xliy2aJeyGf2bC0SwePRJ6jbOK3niVvJSYFg_AzR0Ry-UaeWMItCFiIDYb5GYAPruqngAfsSieq_4C9tr1kjBrfjwHCStlSvUzTb3cKTtSQIjSMiA-YJ3wtKwEeMH6PezYfLZee60kDxjh2M9RL8vQMcKnha38inlzJ0ZOLLa078jWo-8Vl4qRLb-XDo10uk3JmhnhpB0y4qm8Or9z3zp7iRWoM3FDHmf4J9CjOPOSNEawqw-KOXT9q1BC8WAucmg08hgR1ajRpcGceFBnPqilY10NEHprfjU2f3VtRzHVtcemPj0E6dk9un_gWGAhmR3MIQOiEqnVpSlQddO_jS3DJVDUA3RvvNtFXlRU1MAW1DR5R3y6piJv7ASdIOpDp66LKwb2PMvJeDw8rFJ-wmlO3Y0kJznNndBrHVC6XvbslDYINQwKY3JKwUOhxdwUhF6CXJN96-im2XXYce62jgPhgAUmXNPTenSQ7YfBGzzhv2Ui6ZUYClChPDV1ah0Myueoi4x7b781GIu5wQpNwmQEjzkLZWci4pW6zCXRuRWWNsXadmGy7XpDYldBWjV2pONCxqQC5z2kw7OIaOFvxYOIRnH8efRC2yKqkB5PLgcQOS98nKrw-fXeDaI0tihv9FN0jranphBONvV9pajpn7EX8EmxXA5CFj9gfAMBtUxt2vq4QnmNSsDmO37Fwc9aT1SijQNM_skQnklCkeqXO9ECHO_l9jp0c4FRcYysmT14isrBy8blca72FI_J4wQGAWvicsxmiumHWwjQY1_hiwPRniToak6m0uh3Dxrs3FJZlqtPX88CFqoULHXxr-fTME5M-52DQoZyI--3II9S7lUi77dXbjIUXYJbT4Sa6XB163prfCqHL_gYzjgOHRoGCN3AeNQ8RCKaTj9CznrT4juubBn5roZ1_GwSiKC-bavzTHe792RdiToT-bonO7IWMeESb4_FSWwtV940-j7HhFkkRzRPRxT17TIgJuuHAxdQ9tJvozB84Giv5-sSLOWripHoA7mNpdyA0m6dVE5A5qstEPw1JyKmLdH7M1tmLfFtMxOcbgzudixjfxGimPgEzOue4yZk_LTBoYafv0RAOuEuv18Gu5QKGXULX24sSV92YTetgLdFtGuttWTwVgaD58FAup9ksX4MZ0MYspbs3gUp9ryBzw79sXwS44AyoeW1WZEYmTyF5NRXpFfJvX08P36T4lQtt5PPlbGVfBSkEOFCuPWD0MzgZdWZaB9tRDOT5OIkUB9Vi3cJ-yFDJsRYeZtfv9Lz_CPmiKE-xESJbuqy1aXQwWOXoPQDh2HOqh5Mk1j3TvnbVtScJIG3I0LshD2D2bXNV52nEXr6M-T2KmjTYBBY_sHUpZQZTuA5cT2LBFkEAtmi5aX-kjuVKo3i2i6xpg2iYnojc2d7OTb4mSeRxeTWpcOpXyuj-NTpJtf2MNvTw="
+    },
+    {
+     "id": "msg_02be7649789a2360006ac5197bf4e487d28c9854628e4f23f7",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Tag Heuer\",\"model_line\":\"Monaco Calibre 11 Automatic Chronograph 39 mm\",\"dial_color\":\"blue\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"bezel\":\"Smooth polished stainless-steel fixed bezel\",\"case_size_mm\":39,\"complications\":[\"date\",\"chronograph\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"CAW211P.FC6356\",\"CAW2111.FC6183\",\"CAW211R.FC6401\"],\"confidence\":0.98}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791302012.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 22429,
+    "input_tokens_details": {
+     "cache_write_tokens": 0,
+     "cached_tokens": 7618
+    },
+    "output_tokens": 1019,
+    "output_tokens_details": {
+     "reasoning_tokens": 899
+    },
+    "total_tokens": 23448
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 2
+    }
+   }
+  },
+  "search_requests": 2,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

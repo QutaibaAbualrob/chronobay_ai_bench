@@ -1,0 +1,39 @@
+{
+ "row_id": 3,
+ "candidates": [
+  "126710BLRO",
+  "126710GRNR",
+  "126710BLNR",
+  "126710",
+  "126719BLRO",
+  "999889",
+  "126720VTNR",
+  "126729VTNR",
+  "116759",
+  "126711CHNR",
+  "116718LN",
+  "126718GRNR",
+  "126711"
+ ],
+ "result": {
+  "parsed": {
+   "reason": "The photo shows a steel GMT-Master II with a blue and red ceramic 'Pepsi' bezel, black dial and Jubilee bracelet, which matches the 126710BLRO; the white gold 126719BLRO would have a different case and bracelet look.",
+   "ranking": [
+    1,
+    5,
+    3
+   ],
+   "clear_leader": true,
+   "none_fit": false
+  },
+  "raw_text": "{\"reason\":\"The photo shows a steel GMT-Master II with a blue and red ceramic 'Pepsi' bezel, black dial and Jubilee bracelet, which matches the 126710BLRO; the white gold 126719BLRO would have a different case and bracelet look.\",\"ranking\":[1,5,3],\"clear_leader\":true,\"none_fit\":false}",
+  "input_tokens": 5340,
+  "output_tokens": 122,
+  "cost_usd": 0.0119,
+  "elapsed_s": 3.062,
+  "started_at": "2026-10-06T13:52:22.320662+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

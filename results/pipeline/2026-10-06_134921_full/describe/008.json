@@ -1,0 +1,34 @@
+{
+ "row_id": 8,
+ "image_file": "008_rolex_yacht-master-40.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_line": "Yacht-Master 40",
+   "dial_color": "grey",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "platinum bidirectional rotatable bezel with raised numerals",
+   "case_size_mm": 40.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "126622",
+    "116622"
+   ],
+   "confidence": 0.8
+  },
+  "raw_text": "{\"brand\":\"Rolex\",\"model_line\":\"Yacht-Master 40\",\"dial_color\":\"grey\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"platinum bidirectional rotatable bezel with raised numerals\",\"case_size_mm\":40,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"126622\",\"116622\"],\"confidence\":0.8}",
+  "input_tokens": 3786,
+  "output_tokens": 139,
+  "cost_usd": 0.008962,
+  "elapsed_s": 2.538,
+  "started_at": "2026-10-06T13:49:30.332233+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

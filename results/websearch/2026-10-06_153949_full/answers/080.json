@@ -1,0 +1,875 @@
+{
+ "row_id": 80,
+ "image_file": "080_iwc_portugieser-perpetual-calendar-44.jpg",
+ "result": {
+  "parsed": {
+   "brand": "IWC",
+   "model_line": "Portugieser Perpetual Calendar 42",
+   "dial_color": "silver",
+   "case_material": "rose-gold",
+   "bracelet_material": "leather",
+   "bezel": "Smooth rose-gold bezel",
+   "case_size_mm": 42.4,
+   "complications": [
+    "date",
+    "day-date",
+    "moonphase",
+    "perpetual-calendar"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "IW344202",
+    "IW344203",
+    "IW502213"
+   ],
+   "confidence": 0.9
+  },
+  "raw_text": "{\"brand\":\"IWC\",\"model_line\":\"Portugieser Perpetual Calendar 42\",\"dial_color\":\"silver\",\"case_material\":\"rose-gold\",\"bracelet_material\":\"leather\",\"bezel\":\"Smooth rose-gold bezel\",\"case_size_mm\":42.4,\"complications\":[\"date\",\"day-date\",\"moonphase\",\"perpetual-calendar\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"IW344202\",\"IW344203\",\"IW502213\"],\"confidence\":0.9}",
+  "input_tokens": 32586,
+  "output_tokens": 1969,
+  "cached_input_tokens": 4723,
+  "reasoning_tokens": 1857,
+  "token_cost_usd": 0.00381803,
+  "searches": 3,
+  "page_opens": 0,
+  "tool_calls": 3,
+  "queries": [
+   "site:iwc.com Portugieser Perpetual Calendar 44 red gold silver dial brown alligator reference",
+   "IWC Portugieser Perpetual Calendar 44 rose gold silver dial IW reference moonphase",
+   "IWC watch photo man tuxedo moonphase perpetual calendar red gold reference",
+   "IWC IW503302 dial layout photo date day month power reserve 44.2",
+   "IWC IW502119 Portugieser perpetual calendar red gold silver dial brown strap",
+   "site:iwc.com \"IW503302\"",
+   "site:iwc.com \"IW502119\" Portugieser",
+   "IWC Portugieser perpetual calendar moonphase at 6 red gold silver dial reference 42.3",
+   "IWC Portugieser perpetual calendar 42 rose gold silver dial moonphase 6 reference",
+   "IWC IW344202 silver dial rose gold Portugieser perpetual calendar moon phase position dial"
+  ],
+  "source_domains": [
+   "iwc.com",
+   "press.iwc.com",
+   "tourneau.com",
+   "youtube.com",
+   "wempe.com",
+   "chrono24.com",
+   "everywatch.com",
+   "iwc.cn",
+   "masterhorologer.com",
+   "prestigetime.com",
+   "reddit.com",
+   "en.wikipedia.org",
+   "de.wikipedia.org",
+   "es.wikipedia.org",
+   "ru.wikipedia.org",
+   "lemonde.fr",
+   "t3.com",
+   "wallpaper.com",
+   "precisionwatches.com",
+   "forum.iwc.com",
+   "essential-watches.com",
+   "klynnwatch.wordpress.com",
+   "carollinum.cz",
+   "dorotheum.com",
+   "ashford.com",
+   "therealreal.com",
+   "images2.bonhams.com",
+   "cdn.ocp.richemont.com",
+   "it.wikipedia.org",
+   "bucherer.com",
+   "fratellowatches.com",
+   "watchesbysjx.com",
+   "chateaudivoire.com",
+   "watchbase.com",
+   "collectorstime.com",
+   "fr.wikipedia.org"
+  ],
+  "elapsed_s": 34.413,
+  "started_at": "2026-10-06T16:07:53.372313+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_0dfeac93dcb4951b006ac51cda0c2887d28f440955be3701bf",
+   "access_programs": null,
+   "created_at": 1791302874.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0dfeac93dcb4951b006ac51cdac95887d2ba693ed7988df4fb",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRz72f4MhSwHZnukbBr9iQ5JSHj2V8Vh3XiaEvBMQD12gPflEIcwiit9F9ZSQIgaKXxxK20Tbjl08ggeNK4wsytASB-TEPU-P48l5PWF_cih8EeZJDFWMlHwgzrfz-Mrsb1ZgfOPiaVxmv-Nq5EWT3zxDJtY6X8UEzLXlKPgQbRSZVR9iqKvuTGebfARrcZbY1iXkjtHGJMhwSF_t8Y0SUcOlCgmNInYCEmx4-0D5l1kgdmzMuDMEFWZjKgCtU3z_BZu4TTHLsBiiTmH_nl_k3YGCcnr9XItZpULpYKqi2zz6Aqm8LuYA5Hybg3j3way0XRGqe1JijTh8dDlIWUVxN5HtX2o_dtdZFYvOXao_e4OyuJUB7LKkR5o0-3c0R8lxP4ZQkPMv7qh53dzpvJndl4DO1BCepYy-u_DzMcgsLyR32m3T6sD4iE3hP8-RdOjUfdslQK6WnPStCCX0jFtjoFU7qT29hyLyR1tUtzF96Cj2cAuGRn4nsdDboZl1s1sPMehusdcnq4pWDCce1jk9x0ICeCFJt3XtmetmddGByg3sCe2DZtZZ9jUeAjOB3lGdNlrELz8KJYUpUi6eHgtA5zHsTMTI801GaTM0h5pZQeC4lqxhfU4g49Siuv2fhQubriNY088BrRLQKyLyi2b1BCqvD9kh_ab6cOMKM2YfO-EZA3VjTBLX1Nm5qOf19BVdkhAL3QslO4O4icsRoQxsMVyp_pWCfWh_MhlMIx3CzzTUXNHpr5mOgdauhprO29N2GO4WbLrsuxIJU4NBMRmZ5LlogAF6qMBhsxj0pdB1_pYKPCZvbet4rmTvsehYU0OZRKTt9pklTdSWYDiJswgjaEW3pusP04irfBOld1GQcnjq3eaP0uqQPupyNLpC1AHa07l6wkowipjYodkmI9ikaGpGaO-yahGF8Pi94ldrt2vpQwItQK3KTL1WF7lteOl2P2qFNcoA5knrWUf7xic9kDyO26W2LDQ39QL3X7HRgQargFFt9n6cgisfQFMPi7m9GHAA_h4eg8NI4kBWnHQXZWWEpCsxd0Ddgg9a9cuc69uE4dDhEy3BncVrnx0P5u7-gHdlw6DRmn4zEg4vrlUdNZY30W_Nv3Lnw4UBuesHQuir0QcKVRAaDSJ-DpqMkisve1bgBEQ3-oQC4qNlGOl9KqkAsdW2U2VivXskV7eeNVs_mRosRAzInZzXCOkoTn6Vtmc5EiZhJW01uj9w2pOoK3B1mtw-1DAGVfobchoeVfIVFQQt6QAy8J5DHM-lm8fGck2PH8Nl7lgnM5pUxtdzPzMVRpbiZLPVuG1_srwCN2dZKRPclHzvsVkvDX-je6vQ84asT5m69Qd7e9ySee2RXqJCshkfUF-97MaShvMtNpFgIfy_DyqUMyVFgHY62VF1QQNQ-673g1lx1LFLYsVudXgQTMBaPqtJTfppJFExDuWLjVGdbJRXgmZoFgixt9i8p0toRJgYN0nUK4qvT4KBaBDMRpuIWWZsDfPIxQAECzTKlxTkrRrfD5s5f-e9sDEwPOl_VAJ9g1_jV10iwyVVwU02pX4aqQOKJWFwV9n6x9C8pHIjR9sRFxR33kGCCibXEAzjz0Y92-PpBlNk63MF7e0AOAAb6mdgwg2v0Rsc9TVzwMBWRrd8dJGZvB549EWKKph0ko7a7FoVhOOEGdjvQARDdMSzqElohcw1B04r4Xw8Vm95u2aARJu6btKIDlRvQVxqVwoLjsbEbkIB4SHPDWrezQj0bdsJ5LHyEKm1CL21Dq6olumi2A-HPY2_0x1RFbb"
+    },
+    {
+     "id": "ws_0dfeac93dcb4951b006ac51cdc6bd487d2a1bc67dcf029172b",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:iwc.com Portugieser Perpetual Calendar 44 red gold silver dial brown alligator reference",
+       "IWC Portugieser Perpetual Calendar 44 rose gold silver dial IW reference moonphase",
+       "IWC watch photo man tuxedo moonphase perpetual calendar red gold reference"
+      ],
+      "query": "site:iwc.com Portugieser Perpetual Calendar 44 red gold silver dial brown alligator reference",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/us-en/watches/portugieser/iw503702-portugieser-perpetual-calendar-44"
+       },
+       {
+        "type": "url",
+        "url": "https://press.iwc.com/iwc-relaunches-portugieser-perpetual-calendar-44-en/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/content/dam/downloads/IWC-Catalogue-2017.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tourneau.com/watches/iwc-schaffhausen/portuguese-perpetual-calendar-iw502306-IWC0140410.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/content/dam/rcq/iwc/19/61/47/0/1961470.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=Y-2KX9K_fJ4"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=6GztZOLNbAg"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wempe.com/en-us/watches/iwc-schaffhausen/portugieser/portugieser-perpetual-calendar-44-iw503702"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/iwc/iwc-portuguese--id48805505.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://press.iwc.com/fr/portugieser-fr/"
+       },
+       {
+        "type": "url",
+        "url": "https://press.iwc.com/es/a-tribute-to-eternity-new-portugieser-collection-watches-and-wonders-geneva-es/"
+       },
+       {
+        "type": "url",
+        "url": "https://everywatch.com/iwc/portugieser/iw503302/watch-34225440"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.cn/content/dam/rcq/iwc/15/34/32/9/1534329.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://masterhorologer.com/2015/01/20/iwc-schaffhausen-portugieser-perpetual-calendar-with-a-double-moon-ref-503401-iw503404-and-portugieser-perpetual-calendar-with-a-single-moon-ref-iw503301-iw503302/"
+       },
+       {
+        "type": "url",
+        "url": "https://press.iwc.com/ko-ko/portugieser-ko/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.prestigetime.com/preowned/IWC-Portugieser-Perpetual-Calendar-44-2mm-iw503302-66809"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/eu-de/watches/portugieser/iw503701-portugieser-perpetual-calendar-44"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1w4qh7g/wtswtt_18k_rose_gold_iwc_portuguese_perpetual/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1p0boi3/wts_iwc_portugieser_perpetual_calendar_iw503504/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/1anq85g"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1u1mhl3/wts_iwc_portofino_moon_phase_year_of_the_snake/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/16r2k5s"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/17t02tn"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchidentifier/comments/1sero76/what_is_he_wearing/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1ri0cux/wts_iwc_portuguese_perpetual_calendar_silver_dial/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1w4e74y/wts_iwc_portugieser_perpetual_calendar_18k_white/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/w7ydf3"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/1nihx0h"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/1lhrzpg/iwc_portugieser_perpetual_calendar_gold_on/"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/IWC_Schaffhausen"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Reference_57260"
+       },
+       {
+        "type": "url",
+        "url": "https://de.wikipedia.org/wiki/International_Watch_Company"
+       },
+       {
+        "type": "url",
+        "url": "https://es.wikipedia.org/wiki/International_Watch_Company"
+       },
+       {
+        "type": "url",
+        "url": "https://de.wikipedia.org/wiki/Goldene_Unruh"
+       },
+       {
+        "type": "url",
+        "url": "https://ru.wikipedia.org/wiki/International_Watch_Company"
+       },
+       {
+        "type": "url",
+        "url": "https://www.lemonde.fr/m-styles/article/2024/05/27/quand-les-montres-decrochent-la-lune_6235879_4497319.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.t3.com/live/news/watches-and-wonders-2026"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wallpaper.com/watches-jewellery/rolex-perpetual-padellone-watch"
+       },
+       {
+        "type": "url",
+        "url": "https://www.t3.com/luxury/watches/moonphase-watches-at-watches-and-wonders-2026"
+       },
+       {
+        "type": "url",
+        "url": "https://www.t3.com/luxury/watches/new-arnold-and-son-watch-celebrates-the-year-of-the-horse-in-dramatic-red-gold"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0dfeac93dcb4951b006ac51ce2e94087d28443463b655b192d",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRz7rAnOIPHaN_QNI_3PIN2myAIk_t9axfDRdDBSRuZolAfu363Q82TDDsCBOfz5kAusRry9sM3WZ71CBvAGl0lB0M0gD6656hvYGdvu4XnK1PD_spVqw1He0qy5IGyt6aN6bkbTHdM1iYIIcpSBY9p946z55mjv1578MXsSwUWse8szZzpLTpe39xF8YcqBMM5WbnJwpG3XDLI_ypZlMDVK4GPd-QtwQytDAsZgPeFjmZLWKSx06sBPfTcZm31UrUQ2P9wR9CxL92KC_SNC5a7yrA4AvZjGUzxS1MnUs3YiPb27YiIXySDZLdBhEesB0VpAOcxKJ33fraFwlBMH7UG94dmZqAVRgIVpkb7q-71AnYH98oObUcGVl0u3wnv9cKnif-SuekWkw8gw_oMNqg7Lkj41yfdff5RxuBq-aWPUW8AUVQpYGpp3B8BjMdem8tX6f0H7bDc2yUkaj7IgGzSxfWDgDthHXy4EHM4RzP2cCe26rUgkvIajPZwR6yWjHMb6pTz8teieXOB8oCmirZCa95IyN3W-393orUr6zjTC4UzSgy4EIRlUNr9qM8TWSOLZj-XfQqW0xvp5Le2Bxln1MUYOXusat9xSC0spse3jjItN1YujLhWxmtqgi8IQJxj36Q7lP-_DauJmwlwFwdhZDHWyD1CyPSxzBRvHcXuUc896fi-41e2Mklz4Z9LlEc-dJuu-n9-4D7ztmdWLtAhKFDKaJsAr1Psq7Tlt5S4RKTB_UPRUz0sIx8MzXgtyJcofWpcAmi4-cLhVuIxvo7nHZBWzDZWxoV0uAScprrY54o1WGK9veyL-PM_fr_SEHmoTYkxYpyv2YzKWnVDaFT-DTmDMumyLsE_XL1Tcxq7GQkKEdB3XsOsoMNMoo4aQ3DKpRD4OatdsR0MalFLDO8q-M06O0_tJ0Kxn0rVjbIcfq9_qROzl1hwf4sZItHFfH7RX7Rvh1G8aosQnV5s9_DqAnyQdR7QXQN9wrGbmbKrP01fFIMvtniBv8HUJAecrVyE6FHyPKq2s9-nnJO5hVbOpgz0oWCbPA-urN4Sse3R8x0RghlsEf0fi3qvTPOdVzLvnKuQMbnpT12YF57D9B-Re-SmYMeCDHY1fC0sh8RbWg18AGCvQ1bLdJDJO0HIoEPv3nui9doihkpmiq05txWyDa4rV5zAcU8qo7CLIp_LzVVUrrq6m96PxFgibO8v1PYThiCqGyOkZubt-VKvQIV7-wvW6HB-nWilMqvxmfdTN_OO-JcNU7eEX8IRFL2EOu4PQzbzc4D_Q3xlo95YOM2N8Fp4zrCM7hpoqiy_a3msp5M06gWNvTqyS69OmRKCyRbzC8cnz8l_4ZA9WQAQ_FSD0g__KJdCOv_6-9GBWNiXwqoE0ql2IJvKcxTPcqCZxL_gLlHcANGiSdBN3AUXH579k8sDz2OQf_6GVYvVRqP4srWDoXx-fETci7KCkEuXEBwqFqmfNCC-60E-0NOlaibovYEnG0PVCajxr7tWfUPhREsqQt1DHvFTMRR8VMuz4WCeUVoit-9tdxLUn6EqCvgyBAoijnJBtyTsZ3QmS_yutS5O607iieR43vs_bnuXjf4FoSKM7le5yq3qbKuMKM6QP9JstjeHd_l3Bk0nmQwO7C4ZU_zGoBvzp4IXieeNBkekk5YVRZPLoq9yw3bQ1kcuGnZTzqRknTIBiQ_32WwqbqN4ut4WfVtYVQfKoPEBPk-hE56AZyYjv_41N_vE8K0kvG43ISVnBIFM0OJzpo66VavJUAj-eMKdzQtRMlWA4IVUE21WmjInVaxXqcuCZtauRwe-WkzPuUpi_jTO6ut2mT5dbdQFhVVxvVs1gfDqqSjNawEY97Wax0M-5AP0JDKGkATR2Vsr-T8dbxf3Ptj0SEgAMOoD7LS99Lt0EucbIINECaQ2KyTfhmlJALW1PrLIt5UnRXLP9OcFtLyLHn1YFVLXx5RoUsA8k0QmcEZMmksfmZr6UXMnt-ikxbUbKsAI9tOGlvS4UYVbZa0AV-wGQ0OtO3n5Ol2WCGUSWhKRegwbI2GhFZDcyA69J9XUp2GtHeb0K4EvWHtj_HX6p-bOaX-7WIvFDwuPrmfQPnjfuQuLTHj8ZpaFU6WyJQyFAYM9QtkyvjocSlAQonzZVtQiFv5sRYTYyGokm9Pe86Qg80mKYELA-ZDguBOkTSj3Iep808f2v3l_7bUzfyYxIVQnsI1hIYPAmgNHHnuNkrJq_dZi1U-eSxwHu2OA9Nzh2P23vqqPydMMYeHVsCIbQOhv_SeEL4adR7UQc3zIO7xOdVg6PrFnUum2CPdwkTV_uoo_HaWJnW-pBPo8ojSu5ndiZ7jndkFQwqJqKc-OXzwSm9Y4QNYDQaM94uEp5Lpc5t1YGNhoV1Cbg4ovIseNQqKHK72kZNKuP96S6LqypUS1LAhyUgePpQow89da2lbnXrhbsLKceOSdqLnk8DOuEkXKXd8XJ8_AkJNK252wuhoO1O5eWKMZRpOyLDPvI33xlHd38dwn3IX1L--yd-tqR3B8SYZjSzIf0drWzuH0uhJyAxPa0F85X7uOS8fDGDZ39VU7-SaBJZ3_ViGHl3vQC0zTiHabkCYWv46Cui0yUdFjH5MZAg9aGx4stUpP7ykBHXntz3itQWagg7M81KZDPT1LG5zaYp1cMxiviDLsZCxvs1T2bOx39ukvRIKDytpZUPsLKmNAQxGX9UxEhNcTu8Ezjob_tgEPBSY-T9Lj4u1YWgxwca4NO7-vEye61Ydmo4G-cMuVksLMInPM_Cpa3bES1jRtHVKUEwIeLtikpHI3ky0UZtNlwG45xRumh6NmQntt8elY1Mm9zGKzY3tanHZpgSH7BW3sUgEbMWUizOWTfgtjy"
+    },
+    {
+     "id": "ws_0dfeac93dcb4951b006ac51ce50ae087d2b422c0b7113a8a41",
+     "action": {
+      "type": "search",
+      "queries": [
+       "IWC IW503302 dial layout photo date day month power reserve 44.2",
+       "IWC IW502119 Portugieser perpetual calendar red gold silver dial brown strap",
+       "site:iwc.com \"IW503302\"",
+       "site:iwc.com \"IW502119\" Portugieser"
+      ],
+      "query": "IWC IW503302 dial layout photo date day month power reserve 44.2",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://precisionwatches.com/journal/iwc-portugieser-perpetual-calendar-iw503302/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/iwc/ref-iw502119.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/content/dam/rcq/iwc/19/61/47/0/1961470.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wempe.com/en-us/watches/iwc-schaffhausen/portugieser/portugieser-perpetual-calendar-iw503302"
+       },
+       {
+        "type": "url",
+        "url": "https://forum.iwc.com/t/portuguese-perpetual-calendar-different-models/313/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.prestigetime.com/preowned/IWC-Portugieser-Perpetual-Calendar-44-2mm-iw503302-66809"
+       },
+       {
+        "type": "url",
+        "url": "https://www.essential-watches.com/watch/IWC-5021-19-Portuguese-Perpetual-Calendar-in-Rose-Gold-Rose-Gold-on-Strap-with-Black-Dial/23750"
+       },
+       {
+        "type": "url",
+        "url": "https://klynnwatch.wordpress.com/2018/05/18/iwc-portugieser-perpetual-calendar-ref-iw503302/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.carollinum.cz/en/watches/iwc-schaffhausen-portugieser-perpetual-calendar-iw503302"
+       },
+       {
+        "type": "url",
+        "url": "https://www.dorotheum.com/en/l/9045071/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.ashford.com/products/iwc-iw502119"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/iwc/iwc-portuguese-perpetual-calendar-double-moon-sable-noir-edition-18kt-rose-gold-portugieser--id43640136.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.therealreal.com/products/watches/strap/iwc-portugieser-perpetual-calendar-watch-l9gp8"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=Y-2KX9K_fJ4"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/content/dam/rcq/iwc/19/60/27/0/1960270.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/17l83xf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=ZQ8DfzmVrBI"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/wy7sxm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1w4qh7g/wtswtt_18k_rose_gold_iwc_portuguese_perpetual/"
+       },
+       {
+        "type": "url",
+        "url": "https://images2.bonhams.com/original?src=Images%2Flive%2F2021-08%2F20%2FS-26685-0-2.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/ub7v2z"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/enilgw"
+       },
+       {
+        "type": "url",
+        "url": "https://cdn.ocp.richemont.com/api/public/content/pdf__coGXoTNFsHw1qPiY2QYof3Pc1WFT7b3J?v=34bdbe2a"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/qi59m1"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1pwh5fd/wts_iwc_portugieser_perpetual_calendar/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/IWCschaffhausen/comments/1mwb1vn/portugieser_love/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/1lhrzpg/iwc_portugieser_perpetual_calendar_gold_on/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/WatchExchangeCanada/comments/1racfyc/wts_can_iwc_portugieser_perpetual_calendar_rose/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/1wm4qee/iwc_schaffhausen_portugieser_perpetual_calendar/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1ri0cux/wts_iwc_portuguese_perpetual_calendar_silver_dial/"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/IWC_Schaffhausen"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/International_Watch_Company"
+       },
+       {
+        "type": "url",
+        "url": "https://es.wikipedia.org/wiki/International_Watch_Company"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0dfeac93dcb4951b006ac51ceccf1c87d2995cd7574cec2d4b",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRz7rkfAh4BheAq54IcW11ODNS5s7Md0bq8ClJyIM5t-_rjREp1uPkJfNNx3egLP6up1PMXISO-92oB_BlS13mMt1zpVnN1nQEi4YqNONcq8woiAlv7RD_hIwr2brzsm-E2yZDGyAtyHUAMb_i3Pw-KcH_jgFHn4ql58vkDJdoIRGW7lDCGs2pj54wWZ1vY7fgwNohcCoebXGD09M5vq71vRcPMusCZ_8a1SpfvF2BK2Qb9QfTEHGcoTZP0K09ne9HT1N4lpaAkzsirxLb5Ub4wPnCzxrw9yUmOYbB3dvSoO3NoDua7yZUdrRFdkwlAs-Qr7a3SeOiiffilbp5OXdfwopBJNLxbWZVcjhs40_04NnXH-_5ebkY5MgxaVSWj0dWLQh1Xqx5HW-XQ6-cWe1Jg8-GaJ9q-mjtDwAiyesQDvIFt88KN5BCfMyYQy4N1i1sRt6D2yFHHKIWkUzvw6BFIPeqyng3pHpR6Efjw0ZedPnkXGUAT3AGeFneePsVTVgvBbhqeOgewI1DUkMMKlBWRRvfVk654MHQ4wtPhP_r7CtIYwA4jIwcRSBvlHDLS_p0oo8_ARmJx3FZiRXcCZ2o1p7ycsM3EFh0LMHQqqOuoV-7xr8YOnZ3VsNiHcLHTvKjkBhyEg3fmVhUG-zewPMuaPPrQZwtlzS0-XiSXRwQrG6YpJS7eyH1DDB-5LBJ7IGH4PCqzKq80z07UB89KJcfrhIcJmWMtxW39z9IlKMBbIW4bdsq0Dc--xL5ZLrBRPHyHwinxT5FUigafcSu5noKuovfWWjsppaYf1cTjVXrPX09Cr03VKdc2kBP7p9Dd2n1EBJEQ3PpslBMg5UMO7PABT3JcFje6RwObyDouZUmxDP0Ux8n664IsZhAtBwfupDJXhilMlBGfYWAxfgBni-ovh7ceR2_V7JD1K9jgqKXn2aGixhPV-9p0GFJj6rlb5Vbg7oDuGxnbsW2KwKu1zGYBfc7uI0Ml_r6CQHiEL2dgpnBZ_MmDugcQFIGegTAf8X3JBxnSy__fc8Pbo-kMw26DbZf_VK8dOoEUBDS_2DtqsYMYoadoFofzX842m_QA_icyETyuyEzAp-wyy3Wv4NtiB_zk0Tx1I3DT7DLcCg5ChaikmIge2WqVLrsLK5DQjTM1DFNywBwGEbbCl7mb3ZLordtlYZYGH_-uBg6LdJrwkmxOzxMJcbGhdp20j-K8eFoBASoj7_ol67MAAGUycq5uWTlBQU3hCuC1i2ybepNEQwCWFAiMaO3Tb_nqFnJ5x5GmcVN6kNBlEUHzT8g1CWpxh54bVaITpi3uAddIJhDckqasxOiId5IyskvRy9uof-w3KN75iqPawyIJsW1OYguzorHaFejixjzNDpZCSlX4GUv3m9hHbqlaCB_5HGIYNpIdGG1xUykJ-3t95Im1Db_TakRP0fQt2iVDtYK7RQyIB3a7di4BQHXiCR0C9ttRSLBaGsgo3VV31TQCAA3ZWrcPLCxA5RDcLyCzr8nl5amv7umVaDdxtERV6ZuR9nxDXBa9VPynRSj0xccG6FoxnIjfuDC0vQw8slulMutM0uVcc2EVwCvwcA8VMs9g4YOIgmx6l-nNqz1EorcY5RnvKdfpmDzZVl7Xs8AVki_ZXjil2CD4M_RdZb3B_tUTtljoOcMSrUNz56o3v_qsj2eHCm6ZLbB2FKyfyAcsnKx-XnzT83kia-FnNQh-K1vN3xReQsL52ysFC0fSHfw0cOo2tQd5ZYZOzhQaCTqudqB-xNLdASL3BIfEad1ad39G2JQfyIzdhj6N9LsbdwxFs5cawZNCSpavW9h_dhWBL8KH-t1CtRMxJAFYtPz_AsIWOufV2ZI9WITlQgYZ84--UoYXDIbDNrDeYRmJKDMsRnOmIgaQ7FQNDzGzzxICyWT9p994aoFfaJ7qtWLFnC_izdwvqio0w7nfjflSwvg7vt6HsXMMPmsLC9glZsNgB-NSGVAye39jGDQ0UVBuqEiKHqVgrXwXPDeoNLuDGFgWSKU-nV1bvnP03EzAXArTY7qgCy-iqF9cXhXJkU1wrFrBXEtGdLM7znwQhS6M0USsCcPAX05BYvT63D5V90Jam4Qlpc40pw97229me77Pk926Wb_oGg2W5odznA-dH_qKsmoU0mmiojsJdi7Ph2a6VSsMoCx2ZnuLtBOmeUA1G-bZMd9I8nniu7bkCU9GNtaZE5-0syoauMF9lzJaVsIsIocWzq-5aa_RfDv3k9jcm0lkrFfzgF7mT8JaA7FpEekCF5p4giYP_OVyXAYYuS-aiyR9Pgs11FqJaZDgazaF8iLNx6vvfkpSLprVelQ9jaG1a_vTDr5qLySzLcn5Th4sle5L0W05K4lPnTwJem-xaBi4XRTS4Z7_ZBCW75mgHF36XuFUqreLya73tUJhIj1QqAl9mwAhPIxVQwZ6qJQIjuRuuzQmZT71iczg3E7d-pti1wZTXNFc2ipuc9dSLnE_pRtYbL8jkBIpO16raqjDOmUJr_jFieSfvtkqmt93mbk10gyEtuDmDqup705PvxWACVIog319cELOmCOrnZ_xKImvH5x5zYlXlmqUUxUTBOjMOI1ae6unosARqBUCmBweeIRTXKSQM-_j2XiY8O9SWKuZsv8yH3HO-lHRSG3V_lgoBvmO6HTpQUKXsS2oaj41wcV4OH1L1NPoff2BxwyCiiy-B4oF0Y7eRX9cFM4-RPy2h_VTrZa6CXtqJjOCjAkIJw3v6Wl2OmUT4lj-hLMH2SyF8lQoIYms7ChvFCjRSeB-3Ll0YzsEFLq8ICrP-5mMjmgB3Hx2mztie2M3z_iDI0QQrQbiOg5lKs5JUBl6he4UEsVMw893yeKesw7zxEse9j7AtnT6_wfT8wIG3paGCsP-yXSyo_Th8FINcvUefC7lk4IOoS33ozkL3ojMi2GgzIYvwnFQeS-OULXoXR-qiqp05bOBtSWZowI4wMEC3FkK684dD5yrFGPx_o-wwQpyb-V6W6KTCAcp87cD38jYg-wxLTK_woqKWt5eMD5fBc0ExnDGAmnt1U6X0aXUWzpL2XR2l5aH4h97KdSUt_ZovBXAUMIhOQKyDJL6iKkYsWElEiKkwAXZiYQg4ZREOCFS8e5lJXMj4HTc6lL9oAaWs56T6gCPP7l-JBuQZXCeABxG9JoIzd6l0Rv9C7HUzV4bhJqkukzZPBelZ5CjxrrL6v6qCNjbXvfTSvfIXmTAYBNh5z7OWEbKXEJAdJEsU2QzgVYAPKDja49ACLw5cBYcA5De3c2IxSxMmjns5IyhosMPB4-mwlmW79DhP2G3AmgAHcivuMhsd72ok7EkgsDBE8iKKzeqs7GoFrzneRE3gteMDksAegfrwB6tTuqpEqWSgXN0wy_Ojo8G6hEVq_lnA8ssZHErb_p6l40LRlsL2CQNKtr_Vbd4e1LzdodE1OPBeysArCqFUu3gW0f-teK1ejdssp6uIVy-2-yulMW6U70BiPgxMqk2IWvKE-kaht_840ls3HI7kdzbT2TN3d5fX3cZeliSblihZFTnMdffkeWdQo2SDomZQMYLzLScbhQmt2yrrY0b5pRqQaYMeDWfUG4Y4T6l4KVKjLlZcwmp3RSk7x8f14XuDkKs8yuFV4Ez67HFADsKfotuHe7xNL32W_IOsvd3p-mfXL_S_0TRMqH2GSsf03iWSQ8pSJktLczeVTGjcMSxaCr-kGcKudBYnKONSlalYcsiG2BAXFU4_k5uyOT_8NndDifaeyPIoVBwOKFfYcMP3Xx-ykks8HNJpnUs_Vy8n9n4sOLtpxmjZKV36nNc-BJWGdnSJ23ImEiVQhNwuFiO8-0ldn28YyPVRL-9hxjHb33yxp3P-knFb4-TiTcD2BHMr_x6uPaG5GGcMlT8dUSZYhIf2_C1WSr7nUtHGOk9SmRfHzzFyyRHHxq582mv_UOEg11o="
+    },
+    {
+     "id": "rs_0dfeac93dcb4951b006ac51cef17cc87d2afd77f9012048cb2",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRz7hP4mQFtX719sQqDd9ZFHou0Lxpi9KOxUfKiDXRbZl6TD5o0SK1MtQQ9OOiQh8Tn774nAVtaT2LfnTlTZHmLcbLNc0gUuR2j_1YqSWY5mn2cR1EKZ1B5y2mMe7RM0hy7gume8Y1IdjnVNoXyKR0KI7qHt_gJ6CDmM0u7AeqYj8Y2BY6OmduvXQAMc-NkyX6wQRYte1cAmeuZaE2eByCMQlEvAa0_CaoqD4OQUj81gg8Z-iihfWq8A30llvJQ1E3bfnBRCoX4SkI1O2deq9l8NZne2cyDVqru7pb9RdDmqpo4eEsLqlAeGtYSVroPxWQ8H8Fs5CE5RfFHTRY8aZ9-hTqzTiMjoio0MyFvBCAOpyEG9RezA_b_sSkqZWgp3XXSqWoQr4u3dikz66yuqNdY65NmcuBMS-oK-4j6EXR6h3lYUwvSUxs8jOcfIrNphFYO8d9_wbr7WDHdRLrgCbRqsYP5wyA0BKDyyAgCFSyGx5DuoZKbCjujwji9wvO2BljxH9bbbRjzKJfFMvBto8qFKqNh9FXx8GtuzIhxBA2pkFgfq8Y4ODyrO_8IzLAEEKsiRD67J9ExwCXhP1RjQqsLzXXV0E45eXphWuUoALuVLPsMSKARXIoqU4L0260c3Y8iIalDC3dhy2a84je_3iWZTMhiHeU0EsRNU2mJ7BZJLxRSk80jac8N2Xw99oj-K6OffvPDHJG2Hr6BgYZ3Xu4J1hYk4p94FZyVIhuprnEE_MC6zke-N-RSPeJKTLY96PpK-Yd1uZ_IeYZyyTJyIeXnwSs2vKXiWZpdrbLbXuHkVYQXbJEAjN-6TIBS3mUOIOs9Z8zg0IE4ARGyufUroDdFLBB5FMciVG8ikex3sCGYdDrgaSblVmpOP10-eeg9gnaFazF2BaslmTERnUSBM3oqDykYTXj9YaktxxTZPWL84PX98Psptt9k7ws8z9k_HyZaMomBypxNeEmvchVVGU57mV1KiN7cXUFHI9OqjWF4XhC_rq6XcSSQrKx80EedCQbjR9ifbnoOPr5ufKlupltfxEhVIyEjZOfegHFF_NyhSpLu0DIxAStpdEcZ-Or82rmSIayG1WJ-WCA2oWRaWcLMb_gUrI6pU5ebHfkj1bd5tnu9DqR-Xfgh0f6NAUPmtU54rOA6QqIbNQmFU_rrMLrfobnkeQ6GfVcR9DzYmLDJosUF_AASqXvh3IHEYMkGZ8NdaxCcA6Y2B4cMVBZU_Ki-u8ioAzppCmQyjoKa4Vl3ptUsPBpVNykAnwTJUj8KuY4u9PTsXATx4HGIx7HiO_5ceaNepWCAAuCouaoBTEiPj1nRoS3U9FoVkWYVjbaUl4OCY-cIV0QZfEfnI_CktV97ijR3E3b5tsN4-r2INywBMkljHRB_5ACsssO526Ie4hF9EfQjfYV_t153XIz_KUwEMAFzJ6qKBqDBxP5W7cQ5eS9J2LYZR509PhDnip_pqjEeT3c0bVzrL-DMKgWtjqno0f3CoPeIOGkPCfy_rt7u4BCmam5WrNk2k5LbmkZvbjJx_"
+    },
+    {
+     "id": "ws_0dfeac93dcb4951b006ac51cef6acc87d293f7221904e139a1",
+     "action": {
+      "type": "search",
+      "queries": [
+       "IWC Portugieser perpetual calendar moonphase at 6 red gold silver dial reference 42.3",
+       "IWC Portugieser perpetual calendar 42 rose gold silver dial moonphase 6 reference",
+       "IWC IW344202 silver dial rose gold Portugieser perpetual calendar moon phase position dial"
+      ],
+      "query": "IWC Portugieser perpetual calendar moonphase at 6 red gold silver dial reference 42.3",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/us-en/watches/portugieser/iw344203-portugieser-perpetual-calendar-42"
+       },
+       {
+        "type": "url",
+        "url": "https://www.bucherer.com/us/en/watches/iwc-schaffhausen/portugieser/1332-018-6.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/ca-en/past-collections/portugieser/iw502213-portugieser-perpetual-calender"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/eu-it/watches/portugieser/iw344202-portugieser-perpetual-calendar-42"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/content/dam/rcq/iwc/19/60/27/0/1960270.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://everywatch.com/iwc/portugieser/iw344202/watch-33679703"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/content/dam/rcq/iwc/19/60/25/3/1960253.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/iwc/ref-iw344202.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/content/dam/rcq/iwc/19/61/47/0/1961470.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.fratellowatches.com/hands-on-iwc-portugieser-perpetual-calendar-watch-review/"
+       },
+       {
+        "type": "url",
+        "url": "https://watchesbysjx.com/2020/04/iwc-portugieser-perpetual-calendar-42.html"
+       },
+       {
+        "type": "url",
+        "url": "https://chateaudivoire.com/en/watches/iwc/portugieser-calendrier-perpetuel"
+       },
+       {
+        "type": "url",
+        "url": "https://watchbase.com/iwc/portugieser/iw502123"
+       },
+       {
+        "type": "url",
+        "url": "https://www.collectorstime.com/products/portugieser-perpetual-calendar-18k"
+       },
+       {
+        "type": "url",
+        "url": "https://www.prestigetime.com/preowned/IWC-Portugieser-Perpetual-Calendar-42mm-IW344202-70442"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iwc.com/content/dam/rcq/iwc/19/55/75/3/1955753.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=Y-2KX9K_fJ4"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1w4qh7g/wtswtt_18k_rose_gold_iwc_portuguese_perpetual/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=DDMMsagFVXU"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1pwh5fd/wts_iwc_portugieser_perpetual_calendar/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/WatchExchangeCanada/comments/1racfyc/wts_can_iwc_portugieser_perpetual_calendar_rose/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1at6kex"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/ub7v2z"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1ai3fkg"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/17t02sc"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/IWCschaffhausen/comments/1lqnsml"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/16r2k4g"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1anq83n"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/1lhrzpg/iwc_portugieser_perpetual_calendar_gold_on/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1ri0cux/wts_iwc_portuguese_perpetual_calendar_silver_dial/"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/IWC_Schaffhausen"
+       },
+       {
+        "type": "url",
+        "url": "https://www.lemonde.fr/m-styles/article/2024/05/27/quand-les-montres-decrochent-la-lune_6235879_4497319.html"
+       },
+       {
+        "type": "url",
+        "url": "https://fr.wikipedia.org/wiki/Quanti%C3%A8me_perp%C3%A9tuel"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/International_Watch_Company"
+       },
+       {
+        "type": "url",
+        "url": "https://de.wikipedia.org/wiki/Goldene_Unruh"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Reference_57260"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0dfeac93dcb4951b006ac51cf8b56887d291704fc6e5bae164",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRz70uRZt0E8pY24K8l76oT1GzifhahhdQPCeHmqslaCFH4LvvYubX9_czQkl-ATmV4azhAeIxvElV2kQeUVybSVlM4NTQVlmhhyw_7M9D8y0_qOpOq-12eF1Zwh3JaUzfq9-ZiVr6jsoIbSZGBu2A7DjeUdsDVfe7sFA1VPdw97D7QVz-xZaJVAjgwt4gSi5w_v6xQkeao-R6-eGHrKmy6bsKhBgh5Zuevusmu9BlLdf1oy7t3rPuB5Xo__e6f0zK_Ys16njKHQC_DKhRZ8n3lPFsSixsEizcd3opnRzBZt91LrAD_9yMkYSN5XgAIRCDj9ZmOGjhP-4gPA8_LycEfJ6iYu97Rhg6ATTU8eICtZF_cCzLK9yCAmO3ZAFuF6g--Txh-U03nVYohuB2WI1lj0ib9FxjVbGjjPcwAfU-PzyKIvgJO7fz7AgAMczUOrl-OEdLR6vFeyFsnNGpXMbMnQBeD1dYx3bik-XMVgGjRI7eCVQfg8K6uyx0wknKIp-iTwkT3BIMB4m_i2vLg64PmRCpCR4w_qpLYLhDo22ZM9x3-Pg7tjKGrWm3IlbKL34Nuvu70CkK1db5sE9QbQYJW26VTt8jHLhFxXTXHsbaQKpl4qWJQW0dU-ijd5tsokJpSuMqxSXUfO6o3VMjAUhBG-nq92ucOd2q34_LL0-wYoEhje9JrDxxropQnG9lvV2IcX_9C47tE5WRwIOQrvPz_1fAyyeIL_iN-rsR1VG23Hr5SWSLhZaW2iXntDkpj-U10eOR3Nbl82SO6YnsGdXpS9QRixxW6IycYRFH8eUqK1l-nkAxq2cuzA6mySy6UqIA-xI0MfCI7sfK4UocdIVTSHhOPNWTsOtFMOjNLXg6L2Uq-nsie0F7TIO-mi9zNRgMIis27_QPZ3YNiioELstvOCvhSrp0y_Ds7jOH9vJ1s1ca-b2GficbTkRwtB6R4ocaHLpOvkR1FIvYX1DTMqtNFwrLHV6u4zXH-UnFwcqwQdxHbvMhpUtJBZudLUMximrvSBrzY1veu2L2poblf63ryzhVdXdbcE9vgxBrO5xsP9iyAiDjODGM9jQqnIbHkF-wBNxmlXWKp8JFoX5oV0yZtojEf2Ythr8n-IvYMA9vLItm9SgOOHMp0fnZLdf7SBmbrPOAeZADP0k7u8vImWc0athIAJPmB9Ug0dfj7KMWks2M6AnGvWzX9i3ynoQ0XBRxUiVXsUyrVXB9Kx4byqA_GFhC4QiNlqmXdzGsLvc6U3YW9YQfsfpirEjYOHPB26SzbD_IgXeLe2ZzEzNuouo8pEku4O37i1KP65o0SdwKTLtalzicEJOsip-vnl_HAmAEtxKx99B9273uZZB2Clll5W3AOGxrjQVQxuYeRNeGI4XZXiRSVW0Z-OJ1dFeZFpLcMVINNzT1d7zEzybuo3iH1yvDvpjcpo-GTnXZUyGqOfH9_GgjA8VM84eYFpf3ZtUCsChPZpWrKdbKeVMQxX5zaICP0H1Mz2hDaUiZs-e9O6ven3Yht37yyfrOB5Sd4f8_anheqqBXcQXen-WNTarw475tEQk1xbOAjx9-ff-ot7iwxpnmjiD36C2Q9Nyp8hmakOcY6ei_uqtSF6Mu8qQ6jhtFl23SROH-wdeav5h4a6s95zjXF0l5QHYg8FIjCGluuchKaQ8bV4aJnCuQIMFVnn-9OyRy4QiUfdMRUix948Vu_FxiWVjdo6-a0f7D4JaFVXKhTdbcYgcNwDbKdord6jbR1PFU4guJ7lf0vsHJcj2Dx8UZEBohbyDIL19yuEssdjbmIwYogyYettMkUTqpRD0d4_B-5Mbf03HDSCdWyhOTtA9Z60Ed9D8QQz0BepAOuF3rL87ijtCH6AT7cldsDp9rZ6e3jI7u8aWcY3LlsQvigyAwxbGKC_wtxn_o1TisPjVN5OYtmzARtwa_icfpwg10utn4KcWdyWy5xs6P_qXOH3kv752auJovOUC7l_5AedR5oKgEsBml9WOFUjQQVCn070twFj3itZhWRvHMsPSwzkOIeFyuXTfBR7hp0H19jH16_MI-7ez375AFvyC3ld2D0S8YRjuqUHvFKlpqmgfaQ2-HshVdV-oxJnwpmcl4OtpNSlacpmg3E3KApra8FUkQJBVhRNfZGKcToxvWCmrjE9g6imQ_mb1CpAnAQAAzXOf9ZcR5QjDLpaewPkv_TnxeKAcQfU-Q03Pc7MDmmgmyMXmvaht1bMTiK86Hqp0f7kvyLiG1qItO7AU4LeHiWjctjALWEeaslYjhOM9ZnGmf8jvTV2nTqpe1Np5FIEvdyW7w5BL9MHMSxNeVyxZqVZZ96vdU2uDN3hq2pl-0op3h39gDDrZtiaW9mghKLVSIiX6xqsPxxXaR1c9BJMJnmOx9j7eimAbx18_6sR9kYArgVHM8m7JcCm5mELxbN9J5qAE2MXFo5LdsJgKK36UrWcMM92ataGQ41fl3E7BKQOCHFqQQVb0oikUulCd_E_IWQgeISqmQu5tVtZNd1BHpAXsxOsK5Rhcy2UCBG5SsKy6pi7wY02bXbdyIsytoUYeFBECytQpCu3awXqbFxNffJ40LPfDit8GFk-tVswopoSIltO4TZ4PWyvAv9bOjzE6Qzdfo3J5227iSy10sD9EWM7R0fGxv5lBltRdOkUn0JyVNj2VAJRNI2tZ02NMcVqPnprsUxUJhuPJaotSwzl77Gbt-yr68ntuFpmarh9COSV71PNmCMIOTx-vIXGOf30gVV7tdkjnrUj2cSsWHQp90rwYD3ehmueGJ0ddj942W-fqI5-WFJQUuNLTnHJNUPsQ9ysJwnYjM3qVSNRFq5vP_rjvQaR7Cf5u8VgfJGSK7oVta1XDJKxJ35nuJMIfKWcgtkvpjDTFdW-VV7qDvYfZbRXeIAtD6SwO4UifOLavmJLK8KeEh_-w9t7eqK6MiSHhy580NOWcK4v_BYKjGuO32Kuc-FEBkqxZlkd_1u7oo83_VivqRxe0sk2Wjr_kQtn7bm68ctCo4eNWmCeokhGsKtAbsb1iwhMral6aJhfHjIoe8fNBVZ5gX8_0OgbHmbhKYL3XrtSFi3XliFnERxKIlG5sDAUKIULWwvqOO-Jj_HFfFhjNb0bFOU6QxzYxv5Dp8VSula9LKG5sjWMW5WrbOz9r5dx6Uyj_b7xRBlzBOky9MvcAMRXMvboHyR4qSFigNb-cU2tN8IEdf7wCEYhtj5Oon2EwAOZXX21fhFarXFnIY9-6iSZ-_6PaEn1LYeWgiKwcmqGR2BA158_3TetKOD8PlTfMNjq8xPGV3IM9PXXf8rEi_np7t3bPV0rGzOnoo0sVtYUSJi7yEXIXzHQ-AY25mTj6HlT5GXyI96MoqNGzkbkdzPwPN12ObcaDDSKso5hXhLLxdPEyjs_v3JorYVVypM2ST9TryoaCow4ZBHwLclGpqcKAk6UXZHhuLu7YGKCSuP3R4LA2rJDdHdpozK5WbkeetEWHjo9xrH3ZjynyCT4mCcqRj-xPLe1XFOpXkct3bJmqddB8bUVXsgKOpp5c_jDVd6LmPpLlilK1VhoYnE1n_1EmUgkb-lMl3uii400UJpuylgjDi2xCfXxfg4Vp7g1RTf-Y_oUBcU4RMtIMhK2iacC5LvbewNmslpOGeynFyoUCzZhzGTh_3GU7oXPguyFeRPA_YiHqauj9NuzLRw0KejhA6gXEC1yKt8WM9WwycX4P_mW0C6Sfe9343kbsa2meAiQaRSesuZ5Cb064F8hMEDJtqCUvAbHFgnUdJHyYPj69XkrUCyaEmrwMeuYFkHRmlk2KyS1amoOp02Zwg3DsXq7Yq-9GynI4hHBajOlrzC4tmNVlU3tFHJNhsRfTGorTAQEqzMk8mobKYpWGfrK3mWTe9NT4FA8NIb8y4hoWhnglSl-eDgW9dlOM9TJlVb9JSaIj-kvCOKyGprFJs5FxbBCIGIcrh2u4fdW8Pl5zZJ0XJwseFq8Rim7GU5o-K_172LspV3s8SD4cvakFxdeyxblBYsBe0Fiy7WcMCXFGPvXggLeTDxC6bkKIQKWoQOw1ofLwrR_ExC8fz_kH6JH9dkGqsBLCq9EPwiUgVO_jZSQTxG7VZnUlaoN_ZeE9-wLunRrESEnckyRtm3GSHzUIbCg2m9pU1g_kb6JLKVqnzE810HbvXd4Ij-J2K6Ev-dsQijHYzCvtezhQclymNWQ-Zpb_OLnfWC8JGMpSQW4JUXuOlTbTfe3BGuBUzNlUQnwmQmXBdbZe-3vE1YGVz7lxH08ofzSmHbAF9fk1lnd8niXk_OVERNky0FAC97b68YLF9vFGJUYeUdPbRhBj5nWvFtDFrKDI7KGEqQz3sFI"
+    },
+    {
+     "id": "rs_0dfeac93dcb4951b006ac51cfb2f0c87d280f2eca1dc3b12c7",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRz7d9wMtSl_DJeP6IgqGXIlavNs2CEtkNn45lflQd6dJEZh-x2AO_bpCqTceS5ERCYprIm8fPWiM3sJB3Kj4RlFAc8BGKAothXuSu4CZFzTwJnRNl_WauehVKJoPYCnSCWVB4MgErKruwU9Vc0uuhd-cgZS10xZQMLe0NWfuqsp3VSxHqCY2MQQ_vIh9yUaJW8Teopy09t8GM_CjHFLerHN6GrlAB2L1lCldAgUTmz7k-asbBKZtPbahAPtSEqm9--lRLXofS0cepcbzyw4_34YFyp4uDct5Tj5oUqtBgpquAlMB2UD6x2aX_A7QQzk2MZ_mIpXxd085eAU4T6xnyrKOQp3X7IeWwJ3XGotXPX8lVOOq5OB-CmWyHOQGJ8gZyiHUtGxdg5tSJYFxjjpEdTVPIlyz0H-0jo6gH6b_vetdmMJ7uqF08yX2ZkLwb6ljxxKM_piEKuTOp8al0qbKs5RWv5t4iuDStgPtOInKEUg5ytyAZfMwzwRBwsgE4tCBfyAS62Klaya16y7PE0Oq-Km8TVq0KQxGXBhtdeanbsDBwl1JDRx9xn1UDmsDpLdsM0CiPlzd1d_D_nv0O5o6X2Qm9ZtJBUpE7Lp2dK2EhixNzXUKyIP_8v5R7xtWsZfdHe3KaxyUvcZMUinutu9qr6sRrswXD-z_ubqXttZhf8Tdo7jjNSzCsjVQ-ewLRE9PKPLGEslru89uhF3jdYTspmhabUaNs6zZ9pMY7NLDnW78pbOR1w53gtMFSENmuO69RimN5B8HwDRZoEvKjhf3fbpPTZs2trnSe0biOxjG3XTjtzdBoaQ5DREJOstC8Im8JhLz7ctiqMv_KS_xTrGImcl6oa-ambnN66n9b4fHW6wv8jAE44J1yfKbh77vi6ZTi0wpZ-uVhhGgyHDXOLFlXbVMG_MLs_mtVH4xMkhSPj_ZV2dlC-zLuPWeg_R1tD_UqXL7F78aKh82tbunLvbB-upgQrJaBbsMG1oN4Q2o1HxWFmy4mwkOd0TJHJngkqthrPZ-VkjdLmFSXhbmAFm_BwZGDd4-C_Kj4o7BlF-R9p8pfRs87MYyhkV2E75udqpJVnPoRLoFdjSlmxy-aVgXm18FCpHvv9Np24u8qTrnsDyOnRncR4sujJ42JHPfDa5ZHI9dKRKPxFbjnxPSJEz7UgT5vz6IQcyULVXwEb_QyPQFf6_47c5rGKRuvNF6W7AiXb3__Y5n1UzSAa9yxa9La3LVRlpcX4TpDIDYq2RZVxle7igFhG-gMsBmM-R4Vvym6yqnA75HkGyGC_L7QQY0kR8pHIPrfbGJ5C7ux5RSac-aZc3AhNnUraOot2K11yd0TYfmDQLPXUfc5w2pP-__xkBcSQc8jv2PXjzrE1HhsZzDP0="
+    },
+    {
+     "id": "msg_0dfeac93dcb4951b006ac51cfb44cc87d2828f4c735c42c19a",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"IWC\",\"model_line\":\"Portugieser Perpetual Calendar 42\",\"dial_color\":\"silver\",\"case_material\":\"rose-gold\",\"bracelet_material\":\"leather\",\"bezel\":\"Smooth rose-gold bezel\",\"case_size_mm\":42.4,\"complications\":[\"date\",\"day-date\",\"moonphase\",\"perpetual-calendar\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"IW344202\",\"IW344203\",\"IW502213\"],\"confidence\":0.9}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791302907.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 32586,
+    "input_tokens_details": {
+     "cache_write_tokens": 2002,
+     "cached_tokens": 4723
+    },
+    "output_tokens": 1969,
+    "output_tokens_details": {
+     "reasoning_tokens": 1857
+    },
+    "total_tokens": 34555
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 3
+    }
+   }
+  },
+  "search_requests": 3,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

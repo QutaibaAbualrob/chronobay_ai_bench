@@ -1,0 +1,639 @@
+{
+ "row_id": 23,
+ "image_file": "023_patek_calatrava-white-gold.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_line": "Calatrava Automatic Date 39",
+   "dial_color": "black",
+   "case_material": "white-gold",
+   "bracelet_material": "leather",
+   "bezel": "Smooth white-gold bezel",
+   "case_size_mm": 39.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "5227G-010",
+    "5227G-001",
+    "5227R-001"
+   ],
+   "confidence": 0.98
+  },
+  "raw_text": "{\"brand\":\"Patek Philippe\",\"model_line\":\"Calatrava Automatic Date 39\",\"dial_color\":\"black\",\"case_material\":\"white-gold\",\"bracelet_material\":\"leather\",\"bezel\":\"Smooth white-gold bezel\",\"case_size_mm\":39,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"5227G-010\",\"5227G-001\",\"5227R-001\"],\"confidence\":0.98}",
+  "input_tokens": 20426,
+  "output_tokens": 1073,
+  "cached_input_tokens": 4723,
+  "reasoning_tokens": 970,
+  "token_cost_usd": 0.0021540300000000004,
+  "searches": 2,
+  "page_opens": 1,
+  "tool_calls": 3,
+  "queries": [
+   "site:patek.com 5227G-010 black dial Calatrava",
+   "Patek Philippe 5227G-010 black dial reference 5227G-010",
+   "Patek Philippe black dial date Calatrava white gold 39mm reference 5227G",
+   "Patek Philippe 5127G-001 official reference black dial 37mm Calatrava date",
+   "Patek Philippe 5227J-001 reference Calatrava ivory dial 39mm official",
+   "Patek Philippe 5227G-001 Calatrava ivory dial reference"
+  ],
+  "source_domains": [
+   "patek.com",
+   "watchesofswitzerland.com",
+   "static.patek.com",
+   "chrono24.com",
+   "thewatchpages.com",
+   "chronocheck.de",
+   "the1916company.com",
+   "christies.com",
+   "wewatches.com",
+   "youtube.com",
+   "reddit.com",
+   "essential-watches.com",
+   "vericog.io",
+   "watchledger.net",
+   "subdial.com",
+   "mywristworth.com",
+   "spacecitytimepiece.com",
+   "hvmc.com",
+   "wallpaper.com",
+   "en.wikipedia.org"
+  ],
+  "elapsed_s": 16.719,
+  "started_at": "2026-10-07T06:57:56.521613+00:00",
+  "error": null,
+  "tidied": false,
+  "rate_limit_waits": 0,
+  "raw_response": {
+   "id": "resp_08fb3f703e9de6b3006ac5ed771e8887d2b8083add04c192cd",
+   "access_programs": null,
+   "created_at": 1791356279.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_08fb3f703e9de6b3006ac5ed783e3c87d2abdbcdebbefe6552",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe2HuvfkWSdwHHFuW3Gjw7S5tVIWVOPHJ7bvQ4Tkojj8GWsYF0nLDhDcFm_zh_A0ZcU1-Px-_ebHgX5cO0u37mjw0xV9H6x-ZhAJYbbKY7zFpcktXKlzwnLo4ozU5wNZTp11Erm6eQ2bh5JESGuHON0SC7VWL7hwQTsXxXGsRfI0r-ilD_zirbEcS8cVYAijjHNeBE7G0xr7kba25GvrdOEtgn-hsCWXA4jsv6L3ch1-0VLxGF9gZdtC1llnY3F-pyvKamEHH_qJmjBbwHv8KIw3Lsn9X0wzYjQQ3i2adOEu5-_RaoUaiDm4hLfo0tkLCegn1V2EZL5BNHbQW2iZS3kc-CxKysrmTgvNMbRsP_83Sc_55S4HBM8TQU48ugaFPTDs4iD9Vmu6is0C-l4Ka036fjDLISB7HcQfx2zDaghaJDw94ixzSkGeK5dbNEp6okFk0B_0M4cxDpHLYeN_xNzE_clF6Lxl5_Os1W-nWMT47FUPpuINGDpThblnAj0B1-HA3hWdPzMX_1fQ3_WjV-lGpCArodgvaHAKbpCQYrihaCY-iB4RaQ2MS2Jsm6Hk6Z546Nd4Bb17KvllaMBZoR71n5p57KXy_hl-EutZZyKQesdsd_vi8ZUGaEueEqMUjKXqcgG3eLK5VjoawS90gL0jtQQcpqdRvTSl3h6xGsP8-YfakBxlkEGGYckc4Efo0VgykqVJ5YQ8st-GOFT91ArVinzSUQoJMkJh-C1uJoY4ch0Zr_kEV5ZLKSngE9-DTMrCupTLgbuqSsSsrIq0RGnHx-32xgz699UcdryXiRNfeKHhYkkqAwRx1H79cmb9XfBY2emMtDyZPQfsALb9VJJZvVBek8NNHUQgjknqT7ifnOdtg3O7C3x2qun7tFIbxUohn4idmeLvnC6_5l4J16HFN1Qmpx89Jk8tRzKSnWZu9OiYsEWFOTJNyBbKdBlhZov2RQ5Bw46BKTz0t2KsAhIcs7qS6-aRsruoyZTqKzzLJjaIU-2CIgXAguNBNlTNSaAqlEXwLhyzySKjXQKYSxA1kGFITyrHVwcgYlWBlRYNXCbFGbd2pZOV9ry4ambogPdp77RNn94OpkXe1Xo4VLJKNHf7ByrWpt5WsBR9jrcr_fcVxRWd8xiyIqXVezG7s4vJv_lcUqzhUag0TYjdR9wbmgWS2zKHp-arZTpgYFvUMhDOsfz5MWV6kcngEnZpG1dpyez8ltQ1gcNB8I1W6Ct8LiBPSR3xh9BlcWoR1JyXZ0iUgECIl8BNl97EX6fsWDnCCsP2IEHWDsQI2fQmNfokwM0i8_eY5IxfqbfBmcGMpWSocbasnEooXGV_5wVoDWtJR6rVcjFF6XrgGWqIChHOpVL3jLJe2-jHkVbpxUEX6ZJ5VKLFHpZQ78AMoMj660926BHRFsFAUAC-OYdexwlPw4jSZMXnfEqGWNDFFRmTRsaVxJkduoxvMXqjlAON-fNM1CsAa9RW6ItxLNs43R-7bAYeJkOqrgjjMV_RoA0OjaN6XAkM4XAx8D7RGUnn1vCn2tMw0PHN1XWW9huQqICN9D_5oGUsGvDgU2Nbd9y7-Lacka2-ewDAClRlb5P4GVTnY_Nft-FArTZNXduAbbp7zO6X7C3whR_Mf4cn-uswKWURTiI-Ac7mgiA6yM1A__PHGSqwxvQq7-7Oj37ZWJQvtHMNpau70sXWfHqufrLVgMVeGQ529ji5AuoU_ESVREiUXINTGphfGIyHrQDY8RfTDNKNlz3Iwj1Rhoc1m7G3KOivB0jLtTN4PjKX5btkj4FZlvZGQvMxl4G12Qzhqd-g8ViSb89BMdEqVJ5H6GyM4yNqX_PHNp_gz0LNAT3NNOE1RBDZJjy-ghMV0t1TAdx6eSbKGmg_bnO0TQD9PwQzGwVqhRSMiRJmsEAdpESk_xoZ"
+    },
+    {
+     "id": "ws_08fb3f703e9de6b3006ac5ed7a02bc87d2b300397632dbdda1",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:patek.com 5227G-010 black dial Calatrava",
+       "Patek Philippe 5227G-010 black dial reference 5227G-010",
+       "Patek Philippe black dial date Calatrava white gold 39mm reference 5227G"
+      ],
+      "query": "site:patek.com 5227G-010 black dial Calatrava",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/collection/calatrava/5227g-010"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchesofswitzerland.com/products/patek-philippe-calatrava-as12660"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/ja/%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/%E3%82%AB%E3%83%A9%E3%83%88%E3%83%A9%E3%83%90/5227G-010"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/catalogs/PatekPhilippe_Watch_Art_Tokyo_2023_Catalog_EN.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/en/2013_PatekPhilippe_Ref_5227.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/fr/collection/calatrava/5227G-010"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/patekphilippe/ref-5227g010.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.thewatchpages.com/watches/patek-philippe-calatrava-5227g-010"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchesofswitzerland.com/products/patek-philippe-calatrava-as09534"
+       },
+       {
+        "type": "url",
+        "url": "https://chronocheck.de/en/marktwert/patek-philippe/5227g-010/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.the1916company.com/pre-owned/patek-philippe/calatrava/ref-5227G/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.christies.com/en/lot/lot-6378184"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wewatches.com/en/encyclopedia/patek-philippe/calatrava/5227g-010"
+       },
+       {
+        "type": "url",
+        "url": "https://www.the1916company.com/pre-owned/patek-philippe/calatrava/dial-Black/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=v71owIvgmsM"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=CN6lbnmeaAI"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1sbdych/calatrava_5227g010/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/replicawatchreview/comments/1i1nlay"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTime/comments/1nfegbw/any_calatrava_5227g_010_or_001_3kf_owners_here/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/1tv11me/qc_patek_philippe_calatrava_5227g10_3kf/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/1hz09m3"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/1d1cl7d"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1f5ot5o"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1cxct7s"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/108f5sd"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1r8ly1r/wts_patek_philippe_calatrava_5227g010_18k_white/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vx98oy/wts_patek_philippe_calatrava_5227g_white_ivory/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/1vhaef0/wts_patek_philippe_calatrava_5227g_white_gold/"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_08fb3f703e9de6b3006ac5ed7e3b7c87d2be1af8d4a829b588",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe2HNMZfYZYoa-eyrGJW0r2mzrwysyOSPMHCxu989wKGv6KrUVG66POSPbrof_FEkKpkKxc0TXQ4QIDL7Lc1LynPGepnbk8LwvOUG10EQPjJb1fNmwrzU3rham4AcLQB69WcYq0YS7NL24vGZaOZ--HxNKIPxOJhrRnw-Sl3N4A-KbLm9SmfvHE7YZmHeP-X9D7mlvxfSOncJJ65py6cECDF0HKzpJT1yERCjN9aGYDw0Q6sSNxdcwz1KQM3moQTcUwvlKWZvTvM_oEPlZ3bv7xJo5fvbz3XufkQmqzJmIKFugTCX0zgumgLVrbd59cmjLinVM0DigGNV_ReJGbAZWd8qrVd9BbZtDRAsWZ583FajcA1OsYtrPBd9POqRfGqBnVBlQIWDwbjUrpvsr144P1wQuTjJrdGPmPgC8SYVQuuTfReKuNMmG2xIW-ObMGEY2-36z3r6uMpYy4P-vaaPArFqXsxVDoCTVrW1D_HZaavWI_yAD4eZXVFwS7HFVaMKtJd8d2915u90cV-OQVAO-7j9DLbpL4QIjs8avP0dPdykwsqmfKkrwn-Pi7qXDSD9vsMzIrL-2P44ErYlCMt48QLOYTJtStfJS1vxgSGeyFdaYLegHXeDRgXveJePNBv1uA_BiqASJGBg5Nf9vfgXYKILDWYg_1bA2rN59vBz4igp7y0zNuoy6O1WfluYxUQ76q_GAuIh4SLsiLPp463HiVbCAo8UB54XaNvtQx9mkW-BrzzCUjEOMC8LNvG6tzqXvZ-uIKN9MQL45Serph8v4MAe-vSvz9vvIcPii9GStbNrTxjYePKUjfSi8rePwhuoADE0qExdcgr2ottWdjRxfWHBUN97aE4QKroxiRIHWNxc0iVVRExXrxhF2ZpzxiTtVtl2069S9naCF5JjVSq6k1UjgwK6d7ulwCy43erGeVZUHV3lnh16NNw0t4LiUdw-V_hjE5_ZaofQg-kF_K4dt3Mx54BkH3OGz1Ph5YCz4na3BBQG6NxvwqpeG-4Af_1yzB5nrpafLJKGa6x7ZA0K8MKMr1_075OSLXPX-y0gA2jh4Atbp4FTdsn062EPVoSSiH7lAgqf3LX7NzyFZEBcU5UzgLXSllPw9ks1Y9spVMwHkaV2yqhscPHEnOYtApYoRUfcIRT9Opx5xHX2uizPcTuSuZ71iYqC4wAiOSnlq5TD8jcR1O2V0ttAw5V4aU8FSWNQSeGAGfZ2V7xXpT2BSdmwmCntdZL8R1lIs5_3T63JGvp3CJLVcXPFjuE7cYiUhRm2O8_K1lBzr56n49dokywL_ctM6AulfXtFMweKygoA5kKA5jslm_D0562rcmkC-VmWBsIgt8VQgvTLlfXo-Ht84h7z0fkOP-XKTQB59vqM5PUI_lEMWWZYGB8F8LJMf58SNQXzS-JasCLy3xfjq--6qxajqhXlBsKv9uXSLm4FBTTw5X2vnnDQ-fO8TOl_DydPKpCponqlZRm8FnicrtiBfkoxDsVvX-5PfNvenbgK2LzvRHRZ6qaU97u76F7LAqHrIO-5ZbuaSwSPjXxauE4iAwV2ReFNakwCZUyCCsnA0MXAYFXNC5XbiiaMfmVSs3maAdUlihy8dztqal_3V-1pi2xL-Iru8dXQEEPrVV7YijtdAz4KgDz9DKYYVajwiWgE_DgOU0l6o1l3d_MCC5rKomJlgcQfGvx3l-KwUg2qSTtKBxEasHudG5jHoV7QrgzjYpmQAL8S2VpyF59FeZHq4BsUjcOhu-xsgxoLx-K_wYQIwMg2YNwy0xqnm9j5Ks1Lx0OToiB0WBLUXWtwCFH0zaNxtf7I5snQGzrnkHHDwFd6TLhFYWPh39DSR0GRnLIlIA2vPp2-_qeZB_gnzcVMSgH8L0aDzN0hrLjShUQaq2DSRh5xmKCUB9BVCNaVRjX8CcF90hH-byOP4XqHyqyf48fPWzEjW3ksikPUPrOBYd5KZI_WwSrksWvpU1tIOpDehNTrhJjmE2gkMq45iXlnSfpSFjfyudftrHqODY70tbomh-bJJ8jA_gFJYpOUAvfhH86Y6qpKGXI-AYXRwlVFvotNjJ1ESu-255UU0LMSmpKnaLGJ8csQ95kYUMmwkWdLD5sit9sHYpVSVlEuSDRjY7JSyWVHaL4yKdf94cD_0cYOnpEB9yJuWeFPO8bQ4fMrgrhEvIwLJUTUIBvK-s8wQ=="
+    },
+    {
+     "id": "ws_08fb3f703e9de6b3006ac5ed7ef5ec87d2b08a86ac86a38d55",
+     "action": {
+      "type": "open_page",
+      "url": "https://www.patek.com/en/collection/calatrava/5227g-010"
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_08fb3f703e9de6b3006ac5ed7f9e6087d29803e83796aae226",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe2H3gj2a8eWkwV4Uj3W682SbmIaFe_odynzfKhlMzkcIqqiB1RW11yQFvj1ba5LIk55Hi9tY5kkR5PWwLJAOexzIJMkCPfjOHjWjd7HrHfn4pMOcdzKU1jmKvByKMjk0vD2_FnnAKretATGKuUuxFbSXwayJklMEhX6fYL-M2BurvAfE-sfyWyMDPRNPGiAcR9RyVTwkmqS3H6SnxqZgaL1toAAagEleWEeibbO6h_CoemebRcAcE76wlx0-THqn-De2MM12hW5XR2p2k3oXFsRSnkx4YLXICaTGsg6ZqoJUL9iIFDldsAj0Avg5f2UftwPj8ctG4qCUTL110Y1s6p0vDUBIhWMljXRAp61aCkKgoJK96iwgxAa2j7m7yONAdS0jYob1I0AXEH6xMCUmknA-sypEaMe4zK3ucI2oAt2V-DMqbRPfL_bScoUatic49a_O_rOlkpVt-4AcYq3WNrNhJkpVUDUA2cOLW91Pr2Ed02KX3cqubN-6gciQrmN04wfaMC3BDOfdVYHXD89i5YMoa6ubceIcSMdiWhXuFU_ck0NeODNredUzy70lqQLY3ym_ZUqIuapt00QV6kr1Wniez_KZ1j0KjZ5bgBBccHVW21Ij6Ocg1jUpiUaeAz8wy0-UmFgc57iLpUKwhtbG_LMetPjf4XQPJMwwEui7DRk_7WA4alfwgC71D2z7aF9q959e12n9Qd_bOQ2RKkJ1Y8s0XZT3h3CarqHuzBwLxX9vJPb1Sma8sRXKEeShaNs_PrPayLrk_DwrE1cxLKJbpTMzzspPt3m42N6V9-FVuGi6u5SSjcoQymk4IOoS_QhMIWfq5CPofx45w39UMJWQznjqY9OVCUMxvoGymiZcYGTfXA0WyW5IyJoa2I77dj3NmMjIf1k3-eNnnnLf8iZhBrHvEPKeYI2GeOrIcNNt3GduDQIexBoxynrE4OErzTuexylY0MvkPuNEpDI26_1UvB2tZCbS7rrCymuDWBFAefLoMZqLqqP221qvW-GX5tkIyc9ER-x_XPOGbZ9sayYET_0Nepd6U3RFv30Ee6Tf7GFeCvnd0mhnPBTdt5xppTfuRjFchiyGseAZCq6xp_8rFfAHNXQnobWWf_iaHfLavmi9zd1-4_uOQz1rCAIH38kZWesTnE6pYCAapY_9fCDXOcIc0aIpB2wnploGuua_DP-F1Im14-Y2E6oFS9VqnqQK3XoA2dbylG4nE7u9Q7iJRssxvgpYymHVriR-YL7rkqx_LgGXksAyhISw0ERY-evMechFXPII3VnmsgqSmsTqUiOEfxG5gFag3HV9xfld6sU5ZZ40w3Jwr0wR2VRs1--u_fGrxv1z1NjPuHFt_6UVjyZdw=="
+    },
+    {
+     "id": "ws_08fb3f703e9de6b3006ac5ed80053887d2938df14a4a423e7a",
+     "action": {
+      "type": "search",
+      "queries": [
+       "Patek Philippe 5127G-001 official reference black dial 37mm Calatrava date",
+       "Patek Philippe 5227J-001 reference Calatrava ivory dial 39mm official",
+       "Patek Philippe 5227G-001 Calatrava ivory dial reference"
+      ],
+      "query": "Patek Philippe 5127G-001 official reference black dial 37mm Calatrava date",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/collection/calatrava/5227J-001"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/fr/collection/calatrava/5227J-001"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/ja/%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/%E3%82%AB%E3%83%A9%E3%83%88%E3%83%A9%E3%83%90/5227J-001"
+       },
+       {
+        "type": "url",
+        "url": "https://www.essential-watches.com/patek-philippe/calatrava/5227"
+       },
+       {
+        "type": "url",
+        "url": "https://vericog.io/watch-references/patek-philippe/5227g-001"
+       },
+       {
+        "type": "url",
+        "url": "https://www.the1916company.com/pre-owned/patek-philippe/calatrava/ref-5227G/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/patekphilippe/ref-5227g001.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.essential-watches.com/watch/Patek-Philippe-5227G-001-5227G-in-White-Gold-on-Black-Alligator-Leather-Strap-with-Ivory-Dial/55036"
+       },
+       {
+        "type": "url",
+        "url": "https://watchledger.net/brand/patek-philippe/series/calatrava/5227G-001"
+       },
+       {
+        "type": "url",
+        "url": "https://subdial.com/listing/patek-philippe-calatrava-5227g-white-gold-ivory-sd069703"
+       },
+       {
+        "type": "url",
+        "url": "https://www.mywristworth.com/vault/5227G-001"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/en/2013_PatekPhilippe_Ref_5227.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://spacecitytimepiece.com/watches/patek-philippe/calatrava/5227g-001"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=d-xv4wTBAEs"
+       },
+       {
+        "type": "url",
+        "url": "https://hvmc.com/wp-content/uploads/2025/07/Catalogue_Montres_Juillet2025.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1f5ot5o"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=HCmYbpBomQw"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/catalogs/PatekPhilippe_Watch_Art_Tokyo_2023_Catalog_EN.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/ppmagazine/en/PP_Magazine_V3_N9_5227_Inspiration.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTime/comments/1nfegbw/any_calatrava_5227g_010_or_001_3kf_owners_here/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTime/comments/1rx364e/patek_philippe_5227_white_gold_ivory_dial/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vx98oy/wts_patek_philippe_calatrava_5227g_white_ivory/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1wtnluv/calatrava_5227g/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/1vhaef0/wts_patek_philippe_calatrava_5227g_white_gold/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vhad2w/wts_patek_calatrava_5227g_white_gold_complete_set/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1snaz4j/thoughts_on_the_new_5227g/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/1vx97g5/wts_patek_calatrava_5227g_white_ivory_complete/"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/en/2022_PatekPhilippe_General_November.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1evs11e/how_versatile_is_your_5227g/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1sbdych/calatrava_5227g010/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/u_InjuryJazzlike7921/comments/1lnaouh"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wallpaper.com/watches-jewellery/watches-and-wonders-2026-patek-philippe-new-releases"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Patek_Philippe_Calatrava"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_08fb3f703e9de6b3006ac5ed85650887d28c36d7e4f9fb7569",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe2HwbdWM6zr9SVM-iFL1GwGjBif6rMQLcSUUjFUCSCqGQLcln7KhwJFze0X5YWYI3cNdJhbWqVVfZTHq8BwLGRQ2yOfmp8UoPJvLR1Z4xqQXpilwKdo276OViR3Py4_xeIq20eeKrJ1EcR7jR8Wo4BccrOOTAZqcM3nwX05kkOlhe0CJIrZDmuSl48iDzAFdKD_yY7AIzk8rYPB6qwt1H8kbo9tE2I2JRNeMmDrcJ_NEQkq7vha5pzI7AcHY62p7LbDOkeTuX4P0_z-udIcek1-69JIplsWc-sGd_YXpGQ3bH4vVIjHpVAmTR1adXwpOqbkCF-8YhedktYZBmylEys5X72fVdFJZhAqM3cAOAK52J4UwTh5FX3IYury-N8NEVbRHHMOevOIMvHVn54UIjWVJ7VtwevrsdjYfVKQHBdRXTyLLhBYiTqI-XJz_nJg6QGgSjk7kd_0x6Kr3iFpRzdWRe6pNfDWfaA-LuO2Sq2aOVE99qerQkrATnQBIVOxJnInGTPodecrKK7u3whplP3qU3ePDKfIQ71C_vQg49z4HjoiLeDOmrkuiQJl9XLQydJjhE9t6aluy0YsQgXzQ7auvEVdCqr8PiLOm9AqgSR0sLrBTrYFKlSzePT_txxGdi8s_rV7rIG-QUB6L3AX-2fpGTuih_rX--DmouiKBR-V94ASFg150VhEA5XCJFq349LsgE5PZLzESWh0sF5GPUEHx02Gx4KkLJEXO_Q9N7S-X29SY12w0i_tTuc1AxYZfxXCOgb8v5LssU5drSMY_fi4TxxUg4uTCswH4wsDGfl71CwzyKXtygdvW3FbSfp7kVEBHys8XdtQXQrMKB_pYARKgAJ5GJsAYMDhfn1O9stx2Fa6K9fiOEg7iUC6fS6rwhBWNWMm8kmtLrQWlH_teUGFST2DSD5yemx9ZMCX150E7DEHU-oJk6ym3Fq-XX66uZT-3zDBYx-wQkJbA5s8YzqefGBf1yF8eaUYJ1II28jwqMbDYQPUhv_6FfkrWFW6cqeyca5XELlMfUsACIJlfQ6dB3vjlkz4xjLIvn41edNlTtuV8NX9O8RQe14FCGx0owMurbPp5eqXpn3sXm3a2OFGkOhHWhzbiso7KaZ5PIdIGghj2un180eBJ252Bs4j5weUI49p50vxCDh4Pscwppc2LLw_caZfSFwsjXyyB42dLX0ydtgjoJmNt5VMxaayHO6rmMRYcBGIFmb_2qg7nyAiJV9AZ7CPXuxslQF2Fkfw7q68k0ogvKMJ0DfIrIl3q8UIaRXNKCYXbH14lxO6cStdG4eyjxTHp9N62TskJ4ZKEXAG5zlgmN-t7vzrtfdheP70XQqN08k5mkXRUB9fbnreIz3QCYtSvmek-D2knLCY9SPFvX6A7cMndTBCy8rYIx5vXtVDcYcXxGLmBeRrKyjqVDPE_NC3bpH9_uNrJTvJAYGRTxbRT7Ospp8-jms6tibpeHBNPSGvalKnfwxoPv1JPdovt_1BzlscSBfO4ccPztmcw-H-F1PjRoxo66CAyvSt2SrIPEBvpoH1n7uTwgO0hn4GJGhZ76xP7cY2s1UIZ6spnJL6MO8hO52bxH_sCx_MxSekeRx7wJozI6V8ITGCBaq3XkxGRhPc2YedCeGQHKgYJgUrGYEv5eKDlfygiy2QQn3LqVybH3NIIItsXqM2SXUJYQ8VZdThpsnKWaqza8JfD5hMECBLJ_RgjUuViUqcKm_E8MyXhDFhUZDyy92qatSaWpeDUsLKLwQkkLOgOpTa-l3c2_vpE14wBK9Avqlntxdm9ShNAfdifPGlkJBhxdopBJYeHqiEIPcZDD5HBhpB-shLrIAP1B07nTIgtF0AJLFHvOZpZLrrCvpUcOtNFvJQ2EBoXyu5_bFCVeCBOLlxbWJesyLW_mW8CXafjoVwRXI6pRphin7zbFLGcvnCsvMjHP1ETtJlpUsNOn80t60vqsf3k-RmDavE7OMGIu_CuXSNm45K0ZM5XXlxEOx3psBHvtRb5pAWYnWpVuaqroWqFxC2wRx58T0qpiLiVRtajIMWFejCjJ2QY6Yx_ioncN4naW78Q3shNRs630z435VpqgX5AZZIGW-d3lY2RL6Z_Hv-FdqXB23GcdkNcSovKY9omNLDQsXjbcCAoNG67bHuRIgOrYGSULXOO8OGI-m5tuJxiEerFoSBUE4aBc5aexGXTWWUd0q5UIUpzKYV2DUkgsiUBnjSmjjTLDfhNjj9Jsu-6f9Gk6bDyawNvTMp2E0RIRPsJiYIzSf0Gnu9myhpyQ5b7bvB_ATR0ESf7IZh47cVxQ6trDImdukzcg3OFaKQcrCuioRsTvrxTTnPgEgTbpUfDtuVsyjQ7R-xzt4Kx8beI1dCo670TOwqS06ufGf0YV3atxaL_0kznKmnWNaXp-BF9NTVNRmyVQoS2V8g1MQ70OR1BWLpie1zLvQvO0pgKIGy8-xjeeZljrSHowXCxPsJ9YKvplb98xPEJXCH0Gv_N7ngSb5-TP9gCfuXpeCd1kBUPWXpbNmi3-qfX8HmXUJixgAuZn9SwvdMTvP4gO0hYO48BnxRBpNP87cg6A2qKmW-xgWYv21ratKFu-3d19KHApFFni8BRPP_8Sb9ER3cy50iiidKMj9RJQO6PNCwgKxxxNbdhvyEf_uQ0p_dHocM0yXIyED_dJFJbKRv5ZEy_-r_44qI1OFzjExoGN6lTXcT_iSmFpgkuVO2qDiN57vyR9BOyMfr4MXMF6720DQIF4Hk6Sx40tfxWnavwFY4Y0LVuvIiulDhoSJXBjAK74M4_IdRMAWr7ENucHv80DajugOJt6g4jVGcZI4jCgUmOTBXPb-wptm49cp5Y7IwzlDeDEWVUB32Mm_u9cnMyiE65GGfPtrhwoYfe_1wF4n8BFBfip2BsEfrVz7bjLCPZurnMEhyjw0u2vsP540QYyuy7MUsdZCx8c2px10kHSaup4ZqCSOBqSaQTALiskZXJK9xM6bPEevEiAKqA8hvmLbNpyVT1EijNnQN91zOtQf9xNLm5Wuf5Dy-ph2lXYxxIXrG9gJFtDcsJqAQ7DaGUtilgIxDBwfRM5h46JSNfvJwwePRpl0he7wAPSMq9LC3e6kXCUdZiFQkKKsTIEuloQ54fAr5FIe7UfkGfSZV0FYuBzq11_zuw6NWbnLHUh_hyTAhfpASCqwNg0ihwao9F2yheAf2-VRpyDLdqJsR6PhdSAaXDm-RF9jHblt6hm5KW4y-lTNvYLA9ucHE9y9487e8DbUq1_jXTEF3HH9Cq_73U1Xc5vcfMJDZjoPrRYd0F0a3nrUER-_0nq1ixw9FKNcpfWV71gq_8ilXoc21P-ZoE69dBnQQwEWNBRs6V5UciwxkcpNIm0ZEJVE2Kz3ep1VfiqRE-r796IXGFrefWlKD2XK7N6NmGayDfWTyNbRpmFNb6y3g7N5XmLUl2u16dmH8NfWa2iNgFkHhZS9gM1DbGVQg7x6lATmv3LXe1BgMS1ZS2vKSSVcp10sZYjczlKN6i9nYeaEpgA-G_Wi9nDTcGtwVW4MoI-QH42TyMqfsSyjmJAWV0CUNDaFqx4-COgaSCWZs8OJGcM6O1y3JnA=="
+    },
+    {
+     "id": "msg_08fb3f703e9de6b3006ac5ed86a3f087d29c5a9570a2dd090b",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Patek Philippe\",\"model_line\":\"Calatrava Automatic Date 39\",\"dial_color\":\"black\",\"case_material\":\"white-gold\",\"bracelet_material\":\"leather\",\"bezel\":\"Smooth white-gold bezel\",\"case_size_mm\":39,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"5227G-010\",\"5227G-001\",\"5227R-001\"],\"confidence\":0.98}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791356295.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 20426,
+    "input_tokens_details": {
+     "cache_write_tokens": 3495,
+     "cached_tokens": 4723
+    },
+    "output_tokens": 1073,
+    "output_tokens_details": {
+     "reasoning_tokens": 970
+    },
+    "total_tokens": 21499
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 2
+    }
+   }
+  },
+  "search_requests": 2,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

@@ -1,0 +1,634 @@
+{
+ "row_id": 8,
+ "image_file": "008_rolex_yacht-master-40.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_line": "Yacht-Master 40",
+   "dial_color": "grey",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "Platinum bidirectional graduated bezel",
+   "case_size_mm": 40.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "126622",
+    "116622",
+    "268622"
+   ],
+   "confidence": 0.97
+  },
+  "raw_text": "{\"brand\":\"Rolex\",\"model_line\":\"Yacht-Master 40\",\"dial_color\":\"grey\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"Platinum bidirectional graduated bezel\",\"case_size_mm\":40,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"126622\",\"116622\",\"268622\"],\"confidence\":0.97}",
+  "input_tokens": 20694,
+  "output_tokens": 907,
+  "cached_input_tokens": 4723,
+  "reasoning_tokens": 814,
+  "token_cost_usd": 0.0020978299999999997,
+  "searches": 2,
+  "page_opens": 1,
+  "tool_calls": 3,
+  "queries": [
+   "site:rolex.com Yacht-Master 40 rhodium 126622",
+   "Rolex Yacht-Master 126622 rhodium dial 116622 reference WatchBase",
+   "Rolex 126622 gray dial blue seconds hand manufacturer reference",
+   "site:rolex.com/en-us/watches/yacht-master 268622 slate reference 37 mm",
+   "Rolex 268622 slate Yacht-Master 37 official reference"
+  ],
+  "source_domains": [
+   "rolex.com",
+   "youtube.com",
+   "assets.rolex.com",
+   "watchcharts.com",
+   "nexchrono.com",
+   "scgtime.com",
+   "hourstriker.com",
+   "integritywatches.com",
+   "millenarywatches.com",
+   "luxurywatchesusa.com",
+   "rolexforums.com",
+   "watchprosite.com",
+   "wewatches.com",
+   "watchguys.com",
+   "images1.bonhams.com",
+   "reddit.com",
+   "assets.rolex.cn",
+   "watchesofswitzerland.com",
+   "bucherer.com",
+   "newsroom.rolex.com",
+   "rolex.jewelrygoldfinger.com",
+   "en.wikipedia.org"
+  ],
+  "elapsed_s": 14.818,
+  "started_at": "2026-10-06T15:40:24.447242+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_0cfbf5032b02204e006ac51668ff3887d2b4ec4a54ac2f8d4a",
+   "access_programs": null,
+   "created_at": 1791301225.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0cfbf5032b02204e006ac5166982b487d29315a1fe9aa05772",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRZ36ya1dULGME6v7545hqbkkKVX25g2UA7t_3VcjyP96yiNFIE8kVGt-5Z-TZ9ttjxP_TjWMpQTq1OcvSIt--cVFlPUDVElFSLQAlEfTS2wrg-l-ZCFdiT-o48TFIitExLD1IzlD_2gXO4q1XV9KtkQs4U3prhrG2oMOjdBXlXA2Zkm08IuFyt_qznnaI9AUVOfbB0XDCEDzVKCtCptr-ASSt28KWZQBTNIMsPgL6I80uytdOzDF6mZpWS0jAZTzEtneJfqMsuMdsDDfjnztVO9I3XyeLQRkaxOnBr6Y4wHYbuL4oXBxd6zJ7UjqyA1oa8jh9rAf8FtyJ2aYr83X7FY8u-y9UY-ZkagdqmPRoixr_YEyDx17sFXoivEkAGYW2CJ6soMw34ZwZaXzoUfWXKJkpVrdj8xdwsx0qG7p-eZanPspcf0DQqqb-jm3RtlAZI6ZGWPjvmknEPaLZZxWXs8dsu3XqiBemXBtwhUCxfiHKjXWBHbZ8o9PAJv7T89ObEvvULUgjYO5-lEF8tvUQUJU1g9YCOAmS7bGnwcLb9pZNoOz1T2Hxe0apJixfGFkkfGwZBpxwRbEq-G3ChA1uivm1604uYBWumMBrjQ8EIvBzQSSfGt6gzWV36AIbwOou7EcobBvRqShIQ7nU5VSk-xNjI3Zo8l0VVpGf7c5D0kV0zYw__ekcSEGGrdU_8k4720lXQMFSNwdyGL_kv9_V_2cIHVl3bMYBme_1BtK4RLO7bdmpbnR2cPS3v8sbPWLQ4mscOobBnccYWuOk09fHBZp8gESjGOKkPuDqHt2Xkqtt8rcwM56u_CwJeePHfzMiY83CPDffIut8DhuqMzXFhdwFz85uK-8AIvFn-J9xXeK74ZKYlAxdvFnngbng-2e-hBryFvBAK-4UkrRZCGe0V5T1oZLHMAM8zCHpMRA7JvmIGZlxn2yCaZW5dp5cJxbSPZfnnzlly6KP9Ftr94wxzHfZSUdEgQN-z1s5applV1vfhB8NNFUVPehlgfuIXNZu8Ab2aOa680gGr7xOvhVZ0G1ANz1DUAV8ne9x_znx4oyfgQjNp64HYHr7TSNlD-pwmWzhMekcqDt5N9sNPZwSP2fR2ZNPH2yyA6i6e5_qvZfmB_b1T9ku1CLoPmzLmiJ-j-L23fTblbq6zsiiow5OlRYBh-US6sClfpiwORaaaoyzv7Vk-3wAw-DcYMnI6TqxMVADaFg4IRA5YbKnCwsEak985Mh5nFmaz3KE76C8RFAAE2ceDMa7rJjBdrBuuFdZOcYXbr8suARUhsae6xPU2JlGRddS-Jafh3Lc7TLdUd43UazLi_Ta9EK27LWXQmbacvkHWiGzRFRHGvguZKwBg7wNh7pLdi_HPfhtVML6jsK_xLampU2KW0C8tyE8yKZSJcklyw8QhcDO-08is_kX13mtogcPqrJmPceLOap0vYUnR3FlMzWF4G_yzalWRLMKpZPqdeY0dS4BVs8aJ1CUY1LqcDky2WzdlhRuZ_I3dSrTfhKQoJKwFpr_RXpb6dATM2cdPRjHYZWG2enc5jy45Ww9fQbD65WLBm5L00hjFDWqMakShVBNjazIGk55GCSf52UzNPqCkBPtrhsublExLi-pe-xBTdWJDuhXFcghvW2Hc="
+    },
+    {
+     "id": "ws_0cfbf5032b02204e006ac5166a641487d2ac57ef0639703560",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:rolex.com Yacht-Master 40 rhodium 126622",
+       "Rolex Yacht-Master 126622 rhodium dial 116622 reference WatchBase",
+       "Rolex 126622 gray dial blue seconds hand manufacturer reference"
+      ],
+      "query": "site:rolex.com Yacht-Master 40 rhodium 126622",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.rolex.com/en-us/watches/yacht-master/m126622-0001"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=bVvfBPfQFTo"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/en-us/yacht-master/m126622-0002.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/en_us/yacht-master/m126622-0001.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://watchcharts.com/articles/p/1057/blue-rhodium-platinum-the-rolex-yacht-master-116622-by-dial"
+       },
+       {
+        "type": "url",
+        "url": "https://nexchrono.com/rolex-yacht-master-reference-guide/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.scgtime.com/product/25/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hourstriker.com/database/rolex-yachtmaster-rhodium-dial-116622-44794"
+       },
+       {
+        "type": "url",
+        "url": "https://www.integritywatches.com/watches-listed-for-sale/rolex-yacht-master-40-with-a-rhodium-%28slate-grey%29-dial"
+       },
+       {
+        "type": "url",
+        "url": "https://millenarywatches.com/rolex-yacht-master-126622/"
+       },
+       {
+        "type": "url",
+        "url": "https://luxurywatchesusa.com/collection/116622/"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/en/yacht-master/m126622-0002.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.rolexforums.com/showthread.php?t=811271"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchprosite.com/digest/rolex-yacht-master-116622-rhodium-dial-review/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wewatches.com/en/marketplace/rolex/yacht-master/rolex-yachtmaster-40-126622-rhodium-new-2026-307830"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchguys.com/pages/rolex-yacht-master-guide"
+       },
+       {
+        "type": "url",
+        "url": "https://images1.bonhams.com/original?src=Images%2Flive%2F2022-11%2F28%2FS-27665-0-1.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepWatchClud/comments/1v92l4b/rolex_yachtmaster_40_126622_slate_dial_comparison/"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/ms/yacht-master/m126622-0001.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=c8-UfVuj2xc"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/rolex/comments/ys15v0"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/rolex/comments/m64vkw"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1v3pua3/wts_rolex_yacht_master_rhodium_dial_june_2026/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTime/comments/1m53jum"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTime/comments/1l6brx5"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1tu7ss4/wts_rolex_yacht_master_with_rhodium_dial_ref/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1l62kfm/wts_rolex_yachtmaster_blue_dial_40mm_116622/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/15ec76j"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1akiki3"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0cfbf5032b02204e006ac5166e076087d2b4a1f649835178c8",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRZ3yZKeQh2otSL-9ZwlI8FCm7g9FyjeZNwFe_lUccffpQeB1uCt0_W6BHXGY4Kg_wB-II4lfJu0aQd_xx7I9o0ZzhXeSfdrFQSXlJVpCWynV19wl_YjbJIlKGiZ9pu7ah4JKuJ6ngPXgMkM5FL_7QOnzKWnobND6sSncqAJU54a5C37B3ZFsInDxLRbTtMnZOF54x_urNg96WsBT6Pc5oEJKr9KDsg68xyET7eB4VOLUPjGusYFMijfSHZZoWXHRy-gOjf1t0DptA2rRb2621v49eAqfp18nSzIbqD_A6QLq4LUInDK7Cypjeoc0HEwe5R_YYsNQKDAva4L1sSOoJLJ1SXs9ws4l18hJejWOsXoCX6TQJFLMVHexvIerpXrcO3EXbKHdx20iYa4QM6sGXs_1VfEQ2qylRIvJw3DrQOykpNIh7ORbMh3WSLL9J6eQWHH_kV1I97DeRZ2GzzqWxLiqluCQQb_mA3kIkvxqqpSckZWii7E_cmq4tGXENRLRbcLaUU2Tw4hqeVDKCVOPoXQrOE2wNUbADwNF50jiSroNo1cYvH2Q3gJBOpjPLylTCX1w5y1cSPcqHm1WkrrSmi00EH2ShwZCZA03F_YWSDE9vYnqbbrivLMx0TAKVYF9TcOgFeJusUaRgH3MLNuVa3kUUETvgqnlQXGr9wTbUrQxT0-JfTtMb5n6uKEzgjW19XV_W4nk7vqbxa3jKgIZl6d0VnCN60JTL1I0tbf2LHLwrINUSP2OJ6VTdyKydJtKXduU4mLYAhYQeETwDiNGvuc0LRQ8a7RmlNt-9UbNBNqlyaoFRPYohDhqQg1Saa0Tqck0foOu5LvNOOctXTEwP1hUO_tW2URVYwavwWpf379UFsFkOtdtpL8tyO7_0TeQMw944OX0aM7lORFmUpTkCJUnM9KzXb1Q_Uw-AEq4T0VzrRVSchG-bZRZZZsgZuoKbFElV3us9F0t_75dms9LZPE2_3E1XhYszvy-2FPkemDDO7m_hnrDulGnQmAd1YB1FF3rIjhT65PFDRDlU917sLfKPQuwunPYnbtqNm1ENOkcGIoAcJeaWex-StJvEsiCKtukKdcR9eDwasllu92D0jHelHe-PMRcT59ld_npGUifhuk418Mun2vVJ4jp7zu71PtTsx1KFB_LTTt-DAZoenR8FTcbYqwNU5oHSAxh9iCyhcfW1N-0o_Er9MAIPQa8z_dKG2GggTpVzc0Pb1jnSUpD_Xlq3b_No7yOxbFFDnaE4DAJd8z24EN7PHb3vX1sclMh--WkPUbzIK2J0GgxFHEAALcqqWdzxWjxB3uxD_WVb0t0IqZIrENtF__ZSaj4t0VM9t3Ri19vKp_uc-Ltpz2bojOSO_G7yLq9Ee1bPILxHPyrpDYHeQFaeNxmFojtkkeVOAjKTkTmDesNw159dRDVh2ziqOB_O3CcIGyUOzIrK0R9RpJnhNvP80ddclrXZAJkBTHQMmN4I1iHwTq68U_DRbZ3tkgX0ct9o9QuGM8NHkF1UanfGG_SetRiV_sU0rkPgSVemWZIgoZ6Vrx3GwHWV2V4ekEQDHQ43qTI4zGuDwpTlwCh6nB4WASwa97Q54QEiH10cRjHKMhVLciaR4bRxN92bSSr7jl-Fw8UtJQGhZDJjbmd9L2JSD-l1jn7vz_at9hvQSduLvm-c7akGr6XilnM9VQnQI3oi1B4bv3KZ285gvYP7JxHAFuQySZ_oPrzqYjxT74mXl1ntamwU73XBjTacNuln9051SSd8HX8baYERoArpnjvledm6-ocSC41Hx6RhqfHtSIx9OZmJx09gzYJ-lpe6qoVzYxhvqZnahmSARB3B5FzPF5HS0lb_liXAiNlHBS4pcWh2nNu40oJTHnSdS0Y2_zVXSykEcRykSUsu3mEbmwHQAHqqkTUQvjmmUWrHMzn_peaaybZlAMgX0u3RA1DXMijBqhm7OIglsLS6OgeBI-c9LRhUHRK0BDWd4ts-UESDBxpVXRT0XaxeUewuXb7PooHXCeq8XTzPA5_xK92Ixu9KGZlUkTGNUdqeoshwJAMvymq5C7xW4KScYW9HwWH17IF9sOIk4fH93iSC9w0C208_MrIZl_CtTK2bwUBa2YtPlNAxXOKUMANNjwn0-WmVvmw4VsnE-JReRDusKo-DW52Ggpm4NyafxqrCO_4vbAg8ziwTax5YlkeV5rfD1dzLaJVtuh8xl4xoJuza6RCgbGlo8CwyiqQD_31sTNWdNQe-X8uv9YRO-FUxYF4frvVc8gJUMwXMTUmx-ZNBAC5pdXLrJ-6p2rBSrpLZbcmwVTz82nH-0AZWpzcb0Hb2iUC1GS9LLJgkmp28BFN_MciphYtnBm4B6tLr3kgzfztcLdT5GqitONQAVdbUnsYYGUr3DrihQnzusEFOPOqZd2WKxVRIbkIZ4THQfDlSGPrO2FvFREJUtbWi38Y2sD3-SE4-X9kP8wkd0Gn6Z7jZOc34uFfMM-HNpOsjapiriM6LnGeVCnkhoyquMcU1FdhbO7AlJUeAKgrdwRKe0JL63sEPVY9PlY6LO-WTIF3P_7EJ7FRuIYHVHghE8jdq-piXz84dDT1ZOLyGT6OjuJWiPyojwhr4RhQcdLLvJ5kcRiAXSmzm-2pUt_qQrt2hlGtK_MNSRcBZOmjbFkfvz-OBozrnok3cEMRoZkdmC9Bdw35nQj3MHfSyAZt7Vs5KPQT_izslOrfOd-S0GOquc3D3ppTUNwxEeVVV76f7xeGkssWcL3JaeZij6n_I-HACG0JPq4eFIGk7nF-7BUGanRgeZF1alsNLOo9-yLICd7FQwFJMEyHfU-ciZDSx8zrOZUY7NqKSgxd77QTyCUtnj_g4SBnYh32Wx7EHrwMdEjVdeLADqPNX4G5EVhSjaSajqLuMppgoSOL1Lx-1uydjXzfZ_afJTj9Gj2d1grKhaS9HwkWrK84EruOsiXLcyC2akhEyayk4k6N6d2Xdy1lO3bAo_Ov-LiI0yZ-9r4tj3eyhj-8LpTXZ8f5GIVjj0xxoM_Svrz71Eg2JnadHp81iI="
+    },
+    {
+     "id": "ws_0cfbf5032b02204e006ac5166f25ac87d29e4135d899c023ae",
+     "action": {
+      "type": "open_page",
+      "url": "https://www.rolex.com/en-us/watches/yacht-master/m126622-0001"
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0cfbf5032b02204e006ac5166fec8487d28f99133996983be1",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRZ3eD2cvqHWNh_Qydb3oqXj5ODHfv0wY5BGUkcdTbR71XXPawJbdfNRcpt4GCneNo4PTlz9Lr0DjxxB2H3hP4zSRyTaXIYTugx50psGC7YjwusIQi0RihF_hb21oZuig68zi2OEJjO9RDnPk6lZYnVpQz2ibktqyQ3axTuKq_TCl3TRPAk9aZXHRjgPcPWXHKBgtOxYbqynGCWj5T3H8Aw519h_PfT1ZQsIOBnS7FD7o3FzH6GTaohvVtQmxCcwMEryeeoSnDufg5rXWiolZok_oSzHqNTn-HxvssGf9hNSXxikY_So2NRkb7SyXu6uJdAgN9vBxTHgI8M3iEW10tJlX2SwMqNqzJVyITXtb3rQ0aSZs0NBqRhkOaScbqQhctZm2bGaEVZZDYmLsFjjBdqQJlAYjACb7ZeNw3L2EJF1DpuLn2ULJ9evlqbXhhWaJs9j_VMi-CGhtEvrYhM_DaLvLvx1fp78dZemtFPe3aTkhPU377jXtBHceSBSi6c19QbK4BJorOoaeHZ6yqDq0ua5Y3Ds4wTEiARNkM7ecZvgFLYH8_cq8Y2QOHm6L3GEjpA72jjN1djiwclUFUqFHR3J-vfX1S3hQFjSY_obCpXUTcGz6LguecLR91MmDV7c32h20UghxOEnA42_pH_9RQ1vGnoWg0Ofxk8pPEojW1TYy33Mr31JoG-EjyNWNAEgps-XjHPUd-0viBllSfBNbxgirhS25KEm4TLAsEFV9xrAAXFiGOXAkxjypYgb2SQNZpmh-uIqtPtmkJhtr36uAooSTD6NxKpQNp_yoFya1bk2PQZBGGQLni_HKzqPJ5pU03h9RwYhGckhkUTTFeWAWKp6b6Ztf4Py6hd4nPR5Tg0JvzZJTBXP6Iy0gnQtlxEnuvJZJdvIb0v226LW7F466meoYm-_WZQR3tKYpgbsArAupnU4zsljfL-CzUpTGz6Dpxpbyn8ckOOufmE7F60c4gSeeY6XbyIdcycyT4kZdnNCkwYr3wVZ-MLq_h70vibDL4ayS72c5Hmh0dLvX_kwpee7vKNCgBzi4jkkbF2KTy1X9SDcBtFP3QggS48iNMqz_gS17zDymwGrGkShSaCN-an9vpiWf3xRytDtX5erXiMn_zZn5s8t0Nht_sLyI-EArsaEX12T4k7wgnR6HNktzgZx4koFDxJn7O33gQYZKFXbJUn-6XoyG7Z4_mThl3R9W9Bb0iGjd0HKbOCDdUkHBV30kB_5bGoq6qGB5n21zJJmUBvzkOtv3TePhr2m-wWDXLTTxzfoGogKdQv5yr66LDBNhlZHEN99Y0Ty_Kwu5vFXeFqgzEMPJHj288Q0keEwW0sFjUzFuGCQvQ2I9e980S19xH6KjUKYOxe8oXM2UYDDU_LAe7EMJsbKN_pH-jRi1oDGYdMdIJWaymDG9XURYcL_vUMMfvKlamqTahs_KiEkHdTpchSraKVMrFTGLmZUG0cEqJ82VKFLylwd_d3gBv2MAXir-Y_J46aHLgOvydQ7oJH_bsaw7ym_90b-dfp_b6ZHmte5u-2NQWiMlshDYmeshgUSHhT_6sTjgqETD9oWYYXEs7MkH-08OSs_t4BBGfNgf42vp-BExt92WMTXA2TlIAwz19z8yEmLa_NqK_f1fD-1vK4GuSwGM3Kv6UCV_w0m5o1sBYMRdkcXisN_8soc2b4tEgr9iN5CE-1ZYic7UVAxwMWee_ASu5o4iaRax6PkNFShLfJ70kugCZ7L3g8TPBHPCt7L4Qco89n_q_RoQWIQOxM-pTTu3oeGadjakxOGWEtFkBCN7PM7yH5GrxQVn8lAwQNMvxQz8x8Pz6sSH15Eb8IjQ2VpIJCdSsxfvfN-K1prwb0krNkKekbkb5KZUuAO74WwThpXVhGzK6JA1jVyHQiz4UCsTfKMiTU5q0-qTiSYMnLQm4UJ_3gnxwFvWDCtjy7lW4OK8-6lOfryBzab0Ti4J5hi3fQ3Lma5mE5j2j1jZfBc7HFK5wj2yLR_6QbSRnxRBT90-Uq_wzc9LSHXV_rwjr5xh006xH4TExqfp3jw-tu1V90o6FzxjZxILqXjaYJkKn55xjG4kvFnMzMnQ_27V7snZXJc7E4AUenyw_fx3Pl-YMvItOxAjm42JooNHAFWFrq5OyNLOAIGzr5mCnxiV7pSt12jtv-Ev929IceTfvJOwQdgNtH5pzGgx2xdlZ6dJDgFirPlyDrLdWilrkDpj9rS2U6lzmXJGoM8pKIpdxVoYnQRN2cONt4duA=="
+    },
+    {
+     "id": "ws_0cfbf5032b02204e006ac51671747c87d28c9bdf1712dd01f7",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:rolex.com/en-us/watches/yacht-master 268622 slate reference 37 mm",
+       "Rolex 268622 slate Yacht-Master 37 official reference"
+      ],
+      "query": "site:rolex.com/en-us/watches/yacht-master 268622 slate reference 37 mm",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.rolex.com/watches/yacht-master/m268622-0002"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/en-us/yacht-master/m268622-0002.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/en_us/yacht-master/m268622-0002.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/en/yacht-master/m268622-0002.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.rolex.com/en-us/watches/yacht-master/all-models"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.cn/api/brochure/en/yacht-master/m268622-0002.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.rolex.com/watches/yacht-master/all-models"
+       },
+       {
+        "type": "url",
+        "url": "https://www.rolex.com/en-us/watches/yacht-master/m268621-0004"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchesofswitzerland.com/pages/rolex/yacht-master-m268622-0002"
+       },
+       {
+        "type": "url",
+        "url": "https://www.bucherer.com/us/en/rolex-certified-pre-owned/watches/yacht-master/1489-656-1.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.rolex.com/pl/watches/yacht-master/m268622-0002"
+       },
+       {
+        "type": "url",
+        "url": "https://www.rolex.com/he/watches/yacht-master/m268622-0002"
+       },
+       {
+        "type": "url",
+        "url": "https://www.rolex.com/tr/watches/yacht-master/m268622-0002"
+       },
+       {
+        "type": "url",
+        "url": "https://newsroom.rolex.com/watches/oyster-collection/yacht-master"
+       },
+       {
+        "type": "url",
+        "url": "https://www.rolex.com/en-us/watches/yacht-master?ef_id=Cj0KCQjw2MWVBhCQARIsAIjbwoPoTfnnxupVWinPgEYHDeRNF4kcl5RdcZVKcIXvZ3yMT26ELEBb9oUaAsiTEALw_wcB%3AG%3As&s_kwcid=AL%21141%213%21533389445182%21e%21%21g%21%21rolex+yacht+master"
+       },
+       {
+        "type": "url",
+        "url": "https://rolex.jewelrygoldfinger.com/watches/yacht-master/m268622-0002"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=9kw1OJC8Eb8"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/rolex/comments/1e0s4z2"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=6IamIK2STAk"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1qt1pfv/wts_rolex_yachtmaster_37_ref_268622/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1uxhjfb/wts_rolex_yachtmaster_37_rhodium_dial_268622/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1pz746y/wts_2021_rolex_yachtmaster_268622/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vebbcx/wts_2020_rolex_yachtmaster_37_rhodium_dial_268622/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vwoazc/wts_rolex_yachtmaster_37_rhodium_dial_268622_2020/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1ue12so/wts_rolex_yachtmaster_37_rhodium_dial_268622/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1uocufo/wts_rolex_yachtmaster_37mm_rhodium_dial_268622_wc/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/1lhyx0f"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTime/comments/nz8yo2"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/rolex/comments/giywot"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1gbwtaj"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Rolex_Yacht-Master"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0cfbf5032b02204e006ac5167656e087d28609f4c86cd7bcdc",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRZ35u2G_NClo9YiSO-dvvgFh3WDQtbReUYNtnJdiCaACMkxZ5HdtecraIZEnoXBEC5Fuy6S1P4JpEhHI2obq95SjnD8IiPCH5WZUgdfzzFYiIQxLEswwiZme51dcwljV_D3KY2F3YxanOYWHAkSK575Hdph3_cnIwTkRH8xGPoDodrLtuKDqgYONdVMqJxicI5_JuvuSOy2cpZV2GBKCEP3vt3aQZ2DXGJQsng89HpRZiHKPZQfUcTV8PmLMTHVs08exHhfHXU6LTvkqAJr5Ycu0Bjix4X2JMJXOuVHhs7W6ppE4opvLyB3AuxZl0dyEMWnKqiBaol_8xX0IYliAvaXw1J9syR-coXsuTIncu9YR1AwBapVmMJ6CmvQhC3-x9dVzh6pxPh6-cKPXnzJl50NGrS1vDYesidooP8ISwJ1C_hr_UgXpV397Isw2Ym9jYlOZZKqrfFy80FO93uv57Vd6erdric5IBqXikzSyM6fyTNJMVow9_v7ej2sq3vJm1PEaPtFhfO2bex2R0pewqpBcjDsOSZ2OlONlIfFl1QTH83sL-YGa5QqXg9-oQYx9T_Upe26wLwcY_W7n57U94ZQTim_20Osag9zcQUK9ch_oFP4KTCcQjhGAcylYgTMUYyvvcQ4Irv2fBph6AjAcHXDTW1le-I1RiKjd9uKHtCQi2byBv28hxhxYRwNpr7EJQ-6nKhBmw1_0R2v6j9_gNm7KdxyCoaPLTwHL3i7aT0EW5QJcRcEz5IeuB-bU7j75-MaxqXRv5awSYI9uWLxzhtlhPBs5DHAZPVQMWVnC1USIe3vsOc6KC5wGV6_iWdTvWaHwnLb_zFNYFYhmYS_6LDVz-G6lsJClxbJDwpoCf5U72DjCE5XKTdBljYbNB4Lsq3e91ePrBwKDR-Y3EYvJaZkssNoOWnQy-zIU76_by0U3uvcmA7ELfnYAXGaIa0i3ZN3c12_mkmKIjDPlw6bMvjrNIhHopHfdUM9ssYeq2ECfev5ZBiLkC6oWaXNA6OIADWn4FYvxOxAeVBvKVHN6ETkxq5YFN3RqlcGLgQNfju8j6G11WuJkFhGUshxCWL_jhj4NdkagyhwpNnJhoH1RUyCM0-afrEPB2-x2FugvGnI45_JOeMpk3OLVjt1U4Z0Q_K2IhkdCd8Iog5hP6duGMPsCbGvJ_Wo_7-cY1--rPwcNmFq9chAtl2hlwhrmgWOoBKynULx0pfrYpBAs87N9TcTcXzT4-t_QjAthMiJMx_BOoiuuCOLyqZ_rFaXRRRhFlii5G1lFpDPLQgO8LJyVmnmUXnGtDJAD1Oqo8m2tBiRMiHRR4buZwhuQQIwa-eXPlJYjAc5U6HhVig_malNpchA1OgOJi4Rtuznj6_tPZKOjgxLdOcRvzMoLkLxHiFafWOYzBhWh1IGL9Vt1wYEMZ8kLmbTZjjKxlxaUtvHLZ9u2fTCyxblCWjxeNz0-Fh12ZjhOc_vdFCI9JJGhy__fVDgijQafVLeuU0gKI5mHsiO6-RL78oAF8Q5cieBA0555vZFg5dvq_l72h7wFZGg_1Xj9n4Q7mxWVoAab1pMCb7I7H2ZR4HTDb8wRCI7JSUfOLXsivImeDx4cbO9aqysirHRrdWzutt_KAJ3KuHsNHDkBxPyP1XlksrvZJdrdcwr5GZv2rNCW6i-bOMLrdb7jp_L_M55GNYHqmJ_6O-E1SeEmcTlP04nFGKyvEHoZhJm7D5VpIiiElKg19Y0qf6NJ3bCQw=="
+    },
+    {
+     "id": "msg_0cfbf5032b02204e006ac51676e39887d28853bd2f5f9287d3",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Rolex\",\"model_line\":\"Yacht-Master 40\",\"dial_color\":\"grey\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"Platinum bidirectional graduated bezel\",\"case_size_mm\":40,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"126622\",\"116622\",\"268622\"],\"confidence\":0.97}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791301239.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 20694,
+    "input_tokens_details": {
+     "cache_write_tokens": 2347,
+     "cached_tokens": 4723
+    },
+    "output_tokens": 907,
+    "output_tokens_details": {
+     "reasoning_tokens": 814
+    },
+    "total_tokens": 21601
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 2
+    }
+   }
+  },
+  "search_requests": 2,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

@@ -1,0 +1,623 @@
+{
+ "row_id": 30,
+ "image_file": "030_patek_twenty-4.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_line": "Twenty~4",
+   "dial_color": "blue",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "Steel bezel with two rows of diamonds",
+   "case_size_mm": 25.1,
+   "complications": [],
+   "movement": "quartz",
+   "printed_reference": "",
+   "references": [
+    "4910/1200A-001",
+    "4910/1200A-010",
+    "4910/10A-012"
+   ],
+   "confidence": 0.94
+  },
+  "raw_text": "{\n  \"brand\": \"Patek Philippe\",\n  \"model_line\": \"Twenty~4\",\n  \"dial_color\": \"blue\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"bezel\": \"Steel bezel with two rows of diamonds\",\n  \"case_size_mm\": 25.1,\n  \"complications\": [],\n  \"movement\": \"quartz\",\n  \"printed_reference\": \"\",\n  \"references\": [\n    \"4910/1200A-001\",\n    \"4910/1200A-010\",\n    \"4910/10A-012\"\n  ],\n  \"confidence\": 0.94\n}",
+  "input_tokens": 20914,
+  "output_tokens": 1274,
+  "cached_input_tokens": 6166,
+  "reasoning_tokens": 1121,
+  "token_cost_usd": 0.00217346,
+  "searches": 2,
+  "page_opens": 0,
+  "tool_calls": 2,
+  "queries": [
+   "site:patek.com Twenty~4 blue dial diamond bezel steel bracelet 4910 reference",
+   "Patek Philippe 4910/10A blue dial diamond bezel reference blue",
+   "Patek Philippe Twenty 4 blue dial steel diamond bezel 4910/10A reference",
+   "Patek Philippe 4910/10A-012 blue dial official reference 4910/10A-011 010",
+   "Patek Philippe 4910/10A-012 blue dial roman arabic numerals",
+   "site:patek.com \"4910/10A\""
+  ],
+  "source_domains": [
+   "patek.com",
+   "static.patek.com",
+   "watchcharts.com",
+   "chrono24.com",
+   "hourstriker.com",
+   "essential-watches.com",
+   "5dwatches.com",
+   "phigora.com",
+   "therealreal.com",
+   "gazette-drouot.com",
+   "treasury.gov",
+   "youtube.com",
+   "reddit.com",
+   "en.wikipedia.org",
+   "cd.patek.com",
+   "jomashop.com",
+   "thewatchagency.com",
+   "regaltimelondon.com",
+   "thewatchsource.co.uk",
+   "jdwatchesny.com",
+   "swisswatchexpo.com",
+   "fashionphile.com",
+   "it.wikipedia.org"
+  ],
+  "elapsed_s": 49.192,
+  "started_at": "2026-10-06T15:46:41.429229+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_0dd89d85f3efa592006ac517ff932887d2a82f3fb2388a4e27",
+   "access_programs": null,
+   "created_at": 1791301631.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0dd89d85f3efa592006ac5180031e487d29a83c874f67f986d",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRgSQ-rs0E32HxwsRBidDpES3iAqGS7Qoa3pZRD2bwL6trBuejpJfWiZ-sLuhxSsZfV1WyGlVgb5zfB8ld8GLFbQVJokCzc-kQNniFQrXoJsm0noF7f3fnP3gMWeO7SIW1KwwzQcnD-pZnc7-_2vvYlvJJnUmzx0Ai-hXq5kbu862_nQzXcSTUyt-cpsVMSvVA8s2sw7Y_v_A_zTWx4hCknYG7WqP2ftMvjW-9YZ28dLJLb8cPUsuD0GumYEemtgYYz36kOG0R342XgWprwWyqecl6K-d6VVma1uPtJa9HFx-_gBwupthbnm6IwBdPVcPKdM3n3MJ1yBCI0k4dh33DHqTpAnc8AoCiXjK8kPY7eqKUVvn92bOqQGp_0V2jgjNOzrRkH3UEVoH9BXSnYudBzr0j3QHfs5--f2dnLQOeJz2QaYM_mg8qyn_eu1_NQXikezjpzIC3uh0psAeWaoE01uvsAJtXDX_d2mX7S6lvF1eXOw1Nw6SyUouBHJBLY3zTc87WzfQhoihTC6g9KtKMrihDA4jXqacYn3308F1Z3oVlngFPH_7zqWEm4WDxj3eyf7tKUur_GCbNjzjXKThcmwvqJ1uCmBzXS9_SzXTr9NBTrLPUYH8m_dlS4KjqIA6ekhA5jSNhynfkhE3uqJMdIdVIt1bZFMF8qxw_5lIE5O4dts1MJ7g0DnvaGpAPC9OPF28dx74hwtFbjmqsmzwrreQPaY4_TrhgpkORTxzFuAN4gTBxshSyWtsf2x_LxyUL0FL9XsHToltq75coMW3Hn_OFmFINdFLXka5x8OFBGnwCCa9aY4fIR7jjKgwusrlGWoeGFO7eoDuYDl6MUJcbY_yiMklWZXIXraV4VMwd301xjbXEMHSs8exNe8zCCr3c7xoMpS6kBfMx0eDxc9t_TR4w1hbQ2JUWhwXHY5svb03aWr5xB7xZAQTwMuWBxjzzs4DuuVeFDApxWrJSFNtx-3cMZ9ffow1m4U5JQcqtdl5BWYlFw3_1AD48LeM-aNn9TqlBjh8Ugh7I-CcVkIB_4Xuk_-6YUw-Zokj1ijPDcrr3B1CZVS88AER0NhP445gzEMahrW6CfPN5SAbzU6cH0QOPZoCM_nFqy_2TWKyfgGp3dm2SJVDsbAZjE7lfS3DSFxwiVP4IgMPEZjkKDncxck9fU0fXTrEAiooce-unf3MUF-4W-V63cWphfCk87GORYQgatdFlMBgpWgNX0XY7Jj7pa1mmKP0L6YKcchP3kyLQ1Tkp5WKRNDmHyHJbTGGJZzpPeDd9W2SEafwozY3sYz8XcULWQk-bH1GRh4TiWTVwv50BKkkCejt1Z7YhDt5pZppGwsAqU0dTQ9wF37xX7Z-Mn-wLRbMTvNSs_QIfx7GZufxVs3OFQSoxbPB9r7s4kvRh5Pz_K-jwWinEY6yDzX3ubv4PhS7sYBgIfXRo63nF2ZEPbviWa3tsw4fAmNEqxZcyAJrYNNFwPRWDpDwfqkzA=="
+    },
+    {
+     "id": "ws_0dd89d85f3efa592006ac51801031887d28d4bd8ed1df0190b",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:patek.com Twenty~4 blue dial diamond bezel steel bracelet 4910 reference",
+       "Patek Philippe 4910/10A blue dial diamond bezel reference blue",
+       "Patek Philippe Twenty 4 blue dial steel diamond bezel 4910/10A reference"
+      ],
+      "query": "site:patek.com Twenty~4 blue dial diamond bezel steel bracelet 4910 reference",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/collection/twenty4/4910-1200a-001"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/en/2020_PatekPhilippe_Twenty4_Ref_4910_1200A.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/collection/twenty4/7300-1200A-001"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/ja/%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/twenty4/4910-1200A-001"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/fr/collection/twenty4"
+       },
+       {
+        "type": "url",
+        "url": "https://watchcharts.com/watch_model/22902-patek-philippe-twenty-4-4910-stainless-steel-4910-10a/overview"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/catalogs/PatekPhilippe_Watch_Art_Tokyo_2023_Catalog_EN.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/patekphilippe/ref-491010a.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hourstriker.com/database/patek-philippe-twenty-4-twenty4-491010a010-38528"
+       },
+       {
+        "type": "url",
+        "url": "https://www.essential-watches.com/Patek-Philippe/Twenty-4"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/manufacture/quality-and-fine-workmanship/the-finest-timepieces-in-the-world"
+       },
+       {
+        "type": "url",
+        "url": "https://www.5dwatches.com/shop/patek-philippe/twenty4-30mm-steeldiamonds-blue-dial-491010a-012--e3cb3cdeaa3d4e8689559bb686c70cbe"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/es/2020_PatekPhilippe_Twenty4_Ref_4910_1200A.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.patek.com/ja/%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/twenty4"
+       },
+       {
+        "type": "url",
+        "url": "https://www.phigora.com/products/patek-philippe-twenty-4-4910-diamond-blue-dial-ladies-watch"
+       },
+       {
+        "type": "url",
+        "url": "https://www.therealreal.com/products/14873852/appraisal_report"
+       },
+       {
+        "type": "url",
+        "url": "https://www.gazette-drouot.com/telechargement/catalogue?venteId=173514"
+       },
+       {
+        "type": "url",
+        "url": "https://www.treasury.gov/auctions/treasury/gp/fy2018/051518Nationwideonline.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=08r-SF510Ag"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=GM2uI62D_wQ"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1sil7gj/wts_patek_philippe_twenty_4_anthracite_dial_ref/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vpd1r7/wts_patek_philippe_twenty_4_anthracite_dial_ref/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1swckro/wts_patek_philippe_twenty_4_anthracite_dial_ref/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1w2m23i/wts_patek_philippe_twenty_4_anthracite_dial_ref/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1sbqq5t/wts_patek_philippe_twenty_4_anthracite_dial_ref/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1viy5pl/wts_patek_philippe_twenty_4_anthracite_dial_ref/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1sq4xq3/wts_patek_philippe_twenty_4_anthracite_dial_ref/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1t5u8v1/wts_patek_philippe_twenty_4_anthracite_dial_ref/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1tdc8m4/wts_patek_philippe_twenty_4_anthracite_dial_ref/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/15dwe1q"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1v4koad/ad_vs_grey_market_for_patek_philippe_ladies/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1rps08c/4910_twenty4/"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Patek_Philippe"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0dd89d85f3efa592006ac518087b7887d2a6c3edd883edcacf",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRgSjcM5ZZu-K4N5CtwlbN4dTycyr-7abNv0GLu8LZepmVlYMY0LE2Wfetmk0-F1V8RHWamfn8Q1wLEbA9tppzPPCnSS6qXPv7jTcaxifLVgshXW97_WCEuMNTvP5YMM046zdmRzwes3d2RcXBk1iK3-RQ-wVFIFCxO5_ASiwNcmbJPfkRTZ7JI5yWv1ZtZP74vhDXf14aUQ8ODYX3l5SdIMETeD2otD8BP-MiWRaCHmX8zsk9LdGkXJ5pNx1l5BUGQOYYAZ7CYVirZxwbjMGdUbIXNXVauAuZdfCjuPZTKBOYPVuyCuTE2Th3n0yOznDLyiFcRrxoTFUp_1D9YZsVkIpedJZZL1iFENFAiaGzyswfR1h7sq_jP_Nih6XY9X7WFrPvukr1239esBBuU-1gVrQz1OQX1mhNynXuhvQ6ye661Ndg5Jc7ooC84DNwoBK71NL2F9qKUVgKzDLiO_-lHstC3OUBrWZDbjWhWrxI_zvfaOSn9eKov6ulNOFBuGwhrGGGyxxeyP-jwvbNmuUkma2-yycytPwJypEvCtlLa4Q4l8w_VdM7rjzYkbBVhWMm85K7OFaauMt1d2TW_LcAFIvJV58N3PW4A_hXDbMZ0VROA4UCoqO9Y1G1Cv_Z_kFo0dPscWANghDaqF5fdEtwyUFP_fgrdwiWbFG8RFiQq711AW9yGzxdv5tjL4TJn-CCDpWU9tOMee1aJV6mKbUIGjRkzK4D44nY-WFRucs3Y9x2QsECN4XzJFylzwb42iylWczvSRo8LES3IN2XhDp6_YU2jrKSs3_WGkCjJT43RTgpF88-cCNMySI_NUD5a2QDXw8Tu0iU_HHla-FKl5uZ1_cqaYsAv4rwu0hz3gnE1DYpM3N19a3pqnrAJNnSwkFLA4S16l1gegxd06YnzTQMURNKCIpM2y8lW7tIwDbmgoW934fWTWTq9x5w9KKYqQK3QPkbuoIwMSeMSzRMlcvqYLrGazPS124nNKz3VMzvfBVijVpFDn0ljhqkbTQdHNKtHqvl5ZrK9oA6yTqn9ZjJCu0YfiYDFTjuYaWbob_YtPNVHsFR8Rt8BPEJ6daoL_luIRfV4S3ONIRS5ZZdH1KqNAKrwDi6IjnFTGuSsDiCa8VLNWIQhYwQWPYukd1l2GynbAKE0rflpX8Xk-JI7-1YciHZeA0qADMLLHtyIF-ZiWSOH0D9dV2uw7S8IiDdLKnCO-40gt5SyVzsAPXrUqTr9Jq4Z0vCgZTLn4ihrQ4MpUTcBaiJGH-ngyiv-RgeQN1PHvuQfIBbkU8zUtdXRAQVmomaunbM2cCkXoeVy_0wVDJ3irJAFGDL30MYDUzc_RNttYCLf-vke8mQYC-AJ6-IFmgNYWcTawj_xi4GUWc_o8WpCs6sI2DLg3ukdYarchc2VMDBdhW9hSScy_KQrm-kkaSytOnKC29sVvK3Dh7vG9vIl_oBl0Obj26OMAlvcQBx5qkS6wyDBL55h6baR4ofn6Q8IPKyKIGJYeaCXwm8uOLjs080_UAu-YkkX3thzKSErbzosaW4ujDo_jI3OF0Q1hX6QsI9SzDIwHjdwPmnZSuUY2okItWQ4vRFkHy06zHAufpUXUyf1cDg8QI00dkErLMKmI1LWG965C1PpTM1pw56OMQt22149tECPbCKEl8GDFAJPifhWNeg8SM8rRlBQVK8vLzOJiCX7j-mwq8KAJbXuEqWKzCGTNfmudECwPKWg3ldIkpr_d9P-T4SG01g_cP-o4bmM_i7RNMEPFvxSh6lTFsU2ltCrZ8_hCcyh8G4n_UXZzC7Oeo5FvjFVJwbL9k3XbmtBiYmxEa0RS6qk4EjTbKtmPc6QujjWshvwhOdewNC1C1dL4vvjJyTSeDct7gktunBo98JMezQQOpc7oc2wJc4hC4pKrYGXvkXorMRKWJVhPIo6sYW1qf4wmtefUUQCg3e7--hwrunO7mQ7ozfyTJnx6_uaT0hSyZ9J2KGisvohbLabTj4HI-InOcTZYqkJl6TDHAs4kC4baP3c9T2vY1au61wht8LYHFCnZVsVlC5CyjqkNfAeKmrhj_Dc5whaaku0jCZ6XYJPaPuPJMXgh43ncNIsKEz43toYxNNIx7xyBqVIMWFpD25Uo-4eNny0vcEKwotHd8lwqYS4wfPHigSofKlMd7dYNKkUluM9E6-lOja_Hq1mAODWXK9BqsPf8gIQYmcSL6cbpwNtUiWXBv9Pwa4zif_iiCN3weOVJu8D7MEpWjw_1EU7_mI5EC3FfXxF7FlXwOY--cvv73p45DeihEq8HVSPzxcSXB6B7D64bUjnK81TaMN1zPJuAW5K_b-qGtXL9hIjL5fdauAjSwN6_FkZfM78L0tE0wDMgnghlqP3MnuVu3rFLyonPX-DAdEJiUzOZIcGjX2VHF3ZkV8Tq_Px9Gg54pQxMBHy5DJEcnWVrVHrhm4Xo-_fxgbVyHpfxw7k55IgtqYv0wxMhjGrL_FAd3AUs-dc-qZQ4D4n2xxFDuPiOiVp5yz9jPqAsqUVxERnO2RU5ieWG3APe1H8cWKqIXfDOWyMo-2s5ByMNBpaWk_52RPypIC2swILcmFSY8FKrzebKtnwf7toG2XFaJvPf9Wnmk1ZsKssFnIyqgJBUofeyAfzL5QzCI9IY-zm1f9ZG3wIsn4nUEMQ5Yw69-SoMX7tvXG_8ZX35f5F0-Ws9XMmPOmYnTJ3nNcXaxdyWNKoinEi2QhTjtHNkNRTpacTST8F53anPGJumpCSzeEdPcR1qBExIL0lTNHkXvSnIBNLlgENLkwi9cCzVnK_4Fb4MkxVV42T38-pm7IREWD8jLBEQ-fYIC0RYs3MZpDuQLJamSl2Qxu_63HDIpVwwWpaCwrKu-OLOk399wcJTTvPNG7PKfUuKSR0L05Bf22XlMHb2fnDew4kv66UsrAleDCvFg0DGrk9zYNZZUPbakOBw0myNEx9nyDMjkH4LA6RkslSPJEcDtNDG4brZham3uyj_l_-f6Wgb336-Y45zxBTt2X7_KlCe0FtAosWYgekiysDMVAzyRc0lOo3JsZI8e3mtM8tVP8Cn5Q9JyVOsfDX8od_phKr_hatdNb3MwA2PJkFUqXTfHVWSStCu4Z94qhp2XqPwlG4d3uqC-IEH1wyCK2XJRXZxgW6b1NAeZJ5NSWgAkniK_4d2Y5EWxSAV0Xv9U_CIXJTVDYDJ9N2e9EkOlAhmKmPyDd_gAs424JF2wCpvHbaqbSRIJ0cLqUGGiEKdLLaANNMl3BebK5b_6Da4mhh0oiyfAERLmr_AU_TkMsxOfOjVAEOwnNPWOXA8RKujotoETDCpYyg8eWyBgdR_xpgg_bEjKQPT_qW1G394XtJTA2wuBG2gLOVn87Frl9Trmh-TR6w7dxDhRTTg3deB_KizAKjV7RtdJv2thU-MccJ916rPjnI8akqWu175Bzga-RXyedxIEpl-sl1hUw9_qXcXSF28lX5ahnzCFLJtjV7qfeSrKuu9X8D5CsWORQPBvTDwtNN_ZBloeHIfrmjt57S2IK_3rfMR8uCeo2SdDdQL0FhfxnufR6yiVEpzTI5JDwyIg-ytpUri4CNdqdSZczR642jYBi33PxOn99ei9GnKfZOqKfw8-UKS_gv0af7ftSrVQxwwD4-Dhv8rJgQdzk8BKEEBum9mfKyRqatLd7-fq6Jt6_98efuRXtB2tWcolt9P4CEAvG7kNqkzlMwD6qgEwV72JXd1Z-d85XEaxgETQuWb_mknGAm96s0STwFXjcaKdOzUmXQoPt568F1OK4iCVp5MIvwtJuBE7yXztoz5GLsQZazMq5B98IbTp7ZHGUOnsltXr0kcsirV1_248fP_qDqnnuAaULnm26RXRIhg1P-SbA5MEBnIMVr2itIH_Q9o5FPnfkwm2iXgjWGThTsC6JfVUnNSnwcv-xaXpIiLqKeMSMAAPpI="
+    },
+    {
+     "id": "ws_0dd89d85f3efa592006ac5180a817087d294f9aeab96c23584",
+     "action": {
+      "type": "search",
+      "queries": [
+       "Patek Philippe 4910/10A-012 blue dial official reference 4910/10A-011 010",
+       "Patek Philippe 4910/10A-012 blue dial roman arabic numerals",
+       "site:patek.com \"4910/10A\""
+      ],
+      "query": "Patek Philippe 4910/10A-012 blue dial official reference 4910/10A-011 010",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/patekphilippe/twenty4-steel-perfect-blue---ref-491010a-012--id49037184.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://cd.patek.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/314605-source/options/download/pp-magazine-v5-n6-creative-mind-fr"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/es/2020_PatekPhilippe_Twenty4_Ref_4910_1200A.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/en/2020_PatekPhilippe_Twenty4_Ref_4910_1200A.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.jomashop.com/patek-philippe-ladies-watch-4910-10a-012.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.thewatchagency.com/patek-philippe/twenty-4/4910-10a-012/13820"
+       },
+       {
+        "type": "url",
+        "url": "https://regaltimelondon.com/sold-patek-philippe/patek-philippe-twenty-4-491010a-012-unworn"
+       },
+       {
+        "type": "url",
+        "url": "https://www.thewatchagency.com/patek-philippe/twenty-4/4910-10a-012/1375855"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/ppmagazine/chs/PP_Magazine_V3_N10_Pictorial_History.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.thewatchsource.co.uk/Patek-Philippe/4910~10a-012.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.5dwatches.com/shop/patek-philippe/twenty4-30mm-steeldiamonds-blue-dial-491010a-012--e3cb3cdeaa3d4e8689559bb686c70cbe"
+       },
+       {
+        "type": "url",
+        "url": "https://jdwatchesny.com/products/patek-philippe-4910-twenty-4-blue-dial-steel-diamond-ladies-watch"
+       },
+       {
+        "type": "url",
+        "url": "https://www.swisswatchexpo.com/watches/patek-philippe-twenty-4-blue-dial-steel-diamond-ladies-watch-4910-papers-57163/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/patekphilippe/patek-philippe-twenty-4--id44335213.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.fashionphile.com/products/patek-philippe-stainless-steel-diamond-25mm-twenty-4-quartz-watch-blue-491010a-012-88033"
+       },
+       {
+        "type": "url",
+        "url": "https://www.swisswatchexpo.com/watches/patek-philippe/ladies-patek-philippe/twenty-4-blue-dial-steel-diamond-ladies-4910-26210/"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/fr/2020_PatekPhilippe_Twenty4_Ref_4910_1200A.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=GM2uI62D_wQ"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=uVI45xLi5rs"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/16t1tp3"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepWatchClud/comments/1vqsg9j/3kf_patek_philippe_aquanaut_chronograph_5968_blue/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/1m3impc"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1h2fe7a"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/1wjjdzi/patek_philippe_aquanaut_5168g_blue/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/16ffiai"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/clsgph"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/1v1qpra/girard_perregaux_9050_small_seconds_as_a_dress/"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Nautilus_%28Patek_Philippe%29"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0dd89d85f3efa592006ac5180f7f7087d29823ed489020d1d6",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRgSp0UBerqabfaP4Po4WtM9xGaNIcrWXc4AhUazZWerUeB8MwRPLSLrnuBosewnGf8EKlfdFvSZ_qWxIZciYz8tdNyTDsS6dn3vhUNv2IHG9n3Hc17ccDiOyY6RU-XMkAfeg_XMcy0Y0eKqMyHozG2iulQTvhUoSOofJC1ms9sbMkpvaO-415wlYMuuO-5uI9mn1aw--MCIyVShR97TAOB4MGeRw2Vom5eNR5ywyypaMpFIuhz0nFzZD9u_I7Wxhl3yjX420jrE1YI5UMh1O8kHFxGS4siR8ksO3eQXSKm-XPFaZZ0ZGP-m1TLxf8MfkqogBOyT9KJ_A-dECUO9hvNHgFj-DP209iDZej4RRWIprs0QtKIn-wg0IkO_hzJcWUYpQ-izCJo8FUO1Gw5lBb0TTu8o3koehEG6-sAfHEIoSzdTXNqYvwEpWrO3E4kRxyWC-wEahQ5CzaRvZ3i2aWrpkaKXwmVeDzj5Omu5UYVZSh4xypj-BlOamnzZqPEUao_YR31LCi62-HqYN5I0QOyeCtefh3ZKWoA3mhS_nLEEbcFZC67-lfnjuuMSwPP9EETu8UZwHcsiHZSjBNBy1YNNPEbz7DRAlfa5I1WcHzYw7g1ExMbW6EZMzFNc8Qgpy-3aYGA6cEn9zALcR2VbGv0qDMC998eZ2L37fJmohDMfK6I0A29DFBG2TI34KWxJ8VuTYIHq7x70Le8QXzSiuK0oW802RduYmosnbg7KBK29VWPTITLFAmDmOiQPVXeLTJxEpKTZx29XbjIw98lqrE6afcqrL24oYkXObrS8om05IyxunoE1GMdoWaHMOxYRc3yiIqavyDQMusj8VUjnLXfvHDwU7bRuQ7RxqdnwTyAdt_e4xzvLAj1aa1u3RZeOXDM-a8UmoAPQ1SVNUUWwXtO5GxjatCRxnGq761848ioRR0cX584RNeyq1zwzef5lcBmjJRwVlGtUQOItsqbIpBoap0eKfF8M7A_i7DfIshLXzGyKvjoHtvE4Kz3moVtRW4gV1n3pu0qzy-uHzx_qE5Cvj-A8-ozNsENGgTOFnvnxOkeFt3VjPvXUtpC5C_zHiwsQUAayTHv7hpnWusp47Q5ZoL43BSNE3ojqxjl9gWn80G3dOZ1EE-TTIrE0wCFv0M02k46O74FBakKTXuqjlMteUahhq9j-cj7qcmN9_A3aBqUC8Hd9r3XDW9VcZORfLEtxaTSOArvFrFtItg7hfPkSG5SJTYN2vpg9sklgcwVyJnQeHl4vQimtlXRI_1wBgH7hTXno8T8eSb89094VZDp0vehFzs0Qz5lveIUfvUe_3R65hsiXxir-IfzEPASWlEfFgJ9uQoXwnKXcWOV7FTR4AZzrFIT6cViuKdhTyb_8e-ofXVY5iB5uAmVGKuQTbSx8gqSWyVPnxX7Qm-IlOb5z_Se2HMAJLuxTzycPOmi6JzjAo0u0KB31_IyvMo9pfmQH8cXoBzzwpCBzI1u_F1jZXBAHCJE4wE7AjvoPTGl_pZG9gDtl8MtpslGocAsipnzaqEdActgZtJzPewqfeTX6t7oAsmR745A1S3qr8hsIcb__T-ABPoKfhwYmGsnMfRIEA8YLD5k3Uzum8eFBZxYEDof-PXCR3u2Prblig9YS7j671nR7Qyqdh4mDhCgUy0v-cpewhjw2QBH-cE5izq-YEmSqpzFo9VH7TO2soMcqfU_AIcdNi8r7k3HtwURgWnamLmsusLbKS1o2sEF-FWmJBp023G1NiRZa4mmr2_Dm1oaPWUbqK1oj8sMQjB6o4sfgylSpDMDC4Pj3C866-W9Exh9tSejJ4-ch_uwYNCsxa7Wg7uR-Fcobr7LaPdIzE9tgVBzhD5qfRFXtWQ8Fi2aeRW-HmWnUzRxFOL1kD5RJDNy6vj2jy4c14QMYHXSbRrU4dbf6ukQbBWsLvu_0hjXxW0C3QEZUdDL6wf3kNq3K88iACYCsrkeTdSrf-SHGgASuhTdHQJMbE2kiJjw39QzTtuRJ3zMKi_E9Dnn94QisrQxLMHniWbT-k7p9Fq1oRXa_Bd5URLYy-Ff1gXjredQIV-LA9zxQpMnwqUoKlzJ7tWHIGZUpYkvS2WT0KRTQ6DdQoWkRJEfRYfOzk5IUQSoDnGJWqi2pLip8DLygS4fQq7rZP0frEB_kyxyRWB5KhrdmN7ialuQLOwg7aYQgZiZMG7-WAucMmyCpZfWANtbm2H_SlbJRU7C6juHOaKQAMDE4JwCv4V2WayrkVB_jPXfNvuh2ipjFKlgljI1cwAT3S5LdHE4pFhMz1VFV8QTgoUw-o-9H6VlGWoPJdstwrncSm7Cd5-XLdz19fd0fA1vrnnG8RNoajMbu5baT5XF5YCCsmoQRfOR0TElxlLWIoY-4F-5eTE9F2PPogMvf5CF6qPKZFZ4vGB_he-ZqUcetmmLMHrdNhr6dDJElu4UKepGSa4ZAjyyAYeuqrDQH1ffVAiiia9dS8qLpbu4jHRyaajTEouip96ZGxJapnWyxoxJ1OwXHJ1WDGkKo8XpdAzIlt35kI1z1Hy0mLfmebZI4Xw9AqT86wUsPKPud9oL7V115yFIHHs-XwOY50eLh2Tp0tNd_Xzk2qAJuuwRtwthRVsU9rNXpHlmwFfptNqAuKavuRiEwD8qcs1hZEPouO5rAsDrIZTv4IITsI4ldULJA9OYg2TOePqB_sTSVk2rBbNUorqf_Fz7d6kfRSLLoXSbyBrOb_9iTTtnSzAEvYwRhtdmFcYQfQfpZ1-xFl76Uo7yzUo-rzCss8Wnjhb5pm2_-tpXAGKikvQtoRbxXJSzl_0CdreAk00iZfFEy1N5aO_fu8_RlHmTbnPm_In-lYxhHVZjwVCmkwq3IbpoFGhiT0vJLf9JTlI-jMth1Nmb5zLD3JrLiFIWF8Rpaava4hs_EFnwrU5AcxPKU627kmo5c5e2h8rcQLQW7RUKk3xxjSPCDayu3eN45750MQATe9iv9QKtXms-4Xn3KWBXxk3mQX8oreNCzsBz86TTCRluSVLCY3anuP-KFJ2vH1F2A3Xeoj_WjyZ1-c5O2QNaM6c5DcqopxRHhz9lqhXZsBYUCb43qEKiaKEgCdT1Qonv2gzLolM_xP137J5Ciz3tG8Mzg2NqOdmuxJODLMYGCL02sO830wb1UNl_ojLkYDyoBAqM9Zd1KuYVLzjYOuWLqOKLqO15PgvgQVKPYdYMrTsycaJlF71mY7V4x43PRuo_46DVkFAFakU-8164-NDFxnw04hZXzafForj2_VKc4KJmYEplchAM02cxRs6g_hQzij_f4bHsTuoZlTOL2K-UKYQKSnMC4jLcwZ0LUfeCuh3z0mjQ1vguqWetFZDLu65ExvFvkeNq24yeW-2K1mHuiOS53iq_ge3AFXRxyqJ9uAZ3k3GV8AugkwUC2pZwwsOFzLsjkdGs="
+    },
+    {
+     "id": "msg_0dd89d85f3efa592006ac51811113c87d2981b361328f5297f",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Patek Philippe\",\n  \"model_line\": \"Twenty~4\",\n  \"dial_color\": \"blue\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"bezel\": \"Steel bezel with two rows of diamonds\",\n  \"case_size_mm\": 25.1,\n  \"complications\": [],\n  \"movement\": \"quartz\",\n  \"printed_reference\": \"\",\n  \"references\": [\n    \"4910/1200A-001\",\n    \"4910/1200A-010\",\n    \"4910/10A-012\"\n  ],\n  \"confidence\": 0.94\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791301649.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 20914,
+    "input_tokens_details": {
+     "cache_write_tokens": 0,
+     "cached_tokens": 6166
+    },
+    "output_tokens": 1274,
+    "output_tokens_details": {
+     "reasoning_tokens": 1121
+    },
+    "total_tokens": 22188
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 2
+    }
+   }
+  },
+  "search_requests": 2,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

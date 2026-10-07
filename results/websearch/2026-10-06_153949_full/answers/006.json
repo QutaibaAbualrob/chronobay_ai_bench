@@ -1,0 +1,457 @@
+{
+ "row_id": 6,
+ "image_file": "006_rolex_explorer-36.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_line": "Explorer 36",
+   "dial_color": "black",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "smooth polished steel",
+   "case_size_mm": 36.0,
+   "complications": [],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "124270",
+    "214270",
+    "224270"
+   ],
+   "confidence": 0.72
+  },
+  "raw_text": "{\"brand\":\"Rolex\",\"model_line\":\"Explorer 36\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"smooth polished steel\",\"case_size_mm\":36,\"complications\":[],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"124270\",\"214270\",\"224270\"],\"confidence\":0.72}",
+  "input_tokens": 11186,
+  "output_tokens": 845,
+  "cached_input_tokens": 4723,
+  "reasoning_tokens": 760,
+  "token_cost_usd": 0.0011160300000000003,
+  "searches": 1,
+  "page_opens": 0,
+  "tool_calls": 1,
+  "queries": [
+   "site:rolex.com/watches/explorer 124270 224270 Explorer 36 40 black dial",
+   "Rolex Explorer blue dial photo 124270 reference 39 mm 214270",
+   "Rolex Explorer 36 124270 WatchBase reference black dial 2021"
+  ],
+  "source_domains": [
+   "rolex.com",
+   "rolexopedia.net",
+   "rolexforums.com",
+   "assets.rolex.com",
+   "tempo-watches.com",
+   "watchgecko.com",
+   "naplesrolex.com",
+   "watchreferencemap.com",
+   "youtube.com",
+   "thelinendial.com",
+   "reddit.com"
+  ],
+  "elapsed_s": 10.327,
+  "started_at": "2026-10-06T15:40:14.117533+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_0fc1aeb7f9daceb9006ac5165eabd487d2a7dc1c8b482fe7fe",
+   "access_programs": null,
+   "created_at": 1791301214.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0fc1aeb7f9daceb9006ac5165f368c87d28d852469f3a8af02",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRZowuYsRYaP5W0By2nEXKFSJG1U7V9waRAZcI93uxzMfuXukoTSu3ed2EjnT-AEqYwaX60AEQwElLmaNKuQPcpTOkRU4TdIrsnEDLGPbk-R-tBGWmD3ri1LhGUx7kLouFe9tkM8W6Gaeajh7e3zrkx5iRUUmYoQBlBpkyArlw33M14SZFBjvq027AwdOnrnDSKLmaI1dWpKa6saSq_oZEApF370hSx7OhhiRgRwb7p9S2PmzPLY2k25QrYenryflBzfBSDI4tePOjg6Ro_um2UMQQhLNypv2cuUZJ1vpBHLfsBjJ4NGvxJmkWxaojX_f8WAxSEa9L-e2FiJI9J0q0FGFyTqv2VXMkhM4scrYaw5BvqMfLyHcbMEiKaygBnImGbwL7nLl7UKxHDUTvoumrPe3pwKAn4ue1U8dBWBbal2w6ydtLL4xSsHYAXgqTKnCiT-I05Zcw-XC8KwpkZEAIWF4rfWnsrYbciAn3-dEquN4eCCSDZ7MNGXmLFWxZJmL65Qz8OO5iSu4GH7r7TBCEIdIAJ757M99NzSznDPAU2q80M5l1DfqFv11H7_Zyi-AI6ZgtxSvh8TNyaYDyFCGr-DWfrO1MX-oH5P61DQnvIhveZit5DXTA1_vL_3HWkKQ8jtPgD5M7azzwjFTNYbWSBgf9ViKlYxfnc4rZWLRQ4XX_rK1FDBz4ZpOl5qwX5g2kEYqeaBhW8YvrX3PG-S_G_nhqZhOULgXihDVXbxFci4sbg5YXbl9tn_w6HEG-IfGaskqarakQj7d_bJoiR2ixZYAnUpUALkdsci6AL_rO6sIS1ysL-5wyIo9q3xg8RYg4--yNtl2t22XLAdEVgk9CVQeDGxqcmlHDsAnlHV4HtZ_TUd5FX38Pre6fbQ9RN3Ljnv7-f5oXJydtSLfU7mfsCioEc5-p6cO1HKJ7X3PMXD-bIMRZtuwiipv3ynId44Nv3byKVqYoQA-YrmoQ9oxQTSCCDMHvtp_N1C_nl67c7T4ZW1cBMevIlCMkg5VgKrP-LJ4ZGajaRwqLQM7LNqqGgBGZe4Hi7Xab_EK3FiiZsFfnfBCb2rcgb3fSbPl33sqUHcd7gbcnXLoSgP92u8gmc47kaO8J1XcD9RgASmhFdDB4PS_7nUk-yzIth1xEiEQx7AbegTniBihQ-Goq4HjNHOFJlFEMxuPWCJD3NZp3dFreRfnDbofb3-T2iO-jdvi6AVJ2GWGQUuUIhkFmLUH9YqOvUpwsqfjlhl8D904cQOPR4YgAJzY_AF6Bo0AzUqRUR31-NZ3MkUorC8V77NZUZU7jcUdb4RotXqwoem8fgNYu3Xa4ozB5-LDRQlJOJnv0hU2fCVihFtBLv238tOgcFjGxZOJdezQPQEdYXkfU5s_LnWwaIOLxlskjmeNhHhpJWuzYv8AT5P4efpTD8FrhAbZnHffHDgem-ac5y9MlHqeAPI8w3ac5Y1m0wIcJmETgGiZNC7o6BeTPw_w1XlEO8vpOid5-UBf44i3Buz3e2SUNr9nSSC1qF16NADjWPYaPBYuhpIHjKlLi9ZRmwBFu5xMRhul2tGUubi0Mj7I2OOW2__CgBgyZpm0KTQEQWGmP_tv1FZFCWFicOcPRFls-SZe03XR7Rd59EOeBxWy_wVPAOvbOljwwI1ld1BRlvjbZIwkGTiGOfwZW899_SFKDRcauL_V1uR5-s8ntPAB9y_p8YLQHLzfcEXH9GN9mNoIX2dlvVXaZuxAQkux3MUkPe5ej46X8ZDHP5YTp9OAN6Ex-0hx25nnr4x3NDD7dsjx7Puhs489dj7M1RivSqxdL5odX3ACZ35ISnJHljagw4k1yX-bko3Hl_X3HzFEGroTUY19OupkX2Vl10RTTAcuDzPhfKhNMhVDte-eFhAN9r8LDQ7VT7PILF05Cnl6hlgtaVDvKea9sM1sBQZMV6JTfJLzPIRpzcGjVvtBO36TrefFUEie6ihDfwPLnypqwMDutEprmQnHSNjxrXb1kXzGtZrmHYag_sdWYEQzdJbuosK7B2Zk5xaMIjM5q6qrtyMXKQl"
+    },
+    {
+     "id": "ws_0fc1aeb7f9daceb9006ac51660db2887d2b5eae74a5a02f080",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:rolex.com/watches/explorer 124270 224270 Explorer 36 40 black dial",
+       "Rolex Explorer blue dial photo 124270 reference 39 mm 214270",
+       "Rolex Explorer 36 124270 WatchBase reference black dial 2021"
+      ],
+      "query": "site:rolex.com/watches/explorer 124270 224270 Explorer 36 40 black dial",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.rolex.com/watches/explorer/m124270-0001"
+       },
+       {
+        "type": "url",
+        "url": "https://www.rolex.com/watches/explorer/all-models"
+       },
+       {
+        "type": "url",
+        "url": "https://rolexopedia.net/wiki/Reference%3A214270"
+       },
+       {
+        "type": "url",
+        "url": "https://www.rolex.com/watches/explorer/explorer"
+       },
+       {
+        "type": "url",
+        "url": "https://www.rolex.com/watches/explorer"
+       },
+       {
+        "type": "url",
+        "url": "https://rolexforums.com/showthread.php?t=826671"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/en-us/explorer/m124270-0001.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tempo-watches.com/reference/rolex/124270-0001"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/en_us/explorer/m124270-0001.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchgecko.com/blogs/magazine/rolex-explorer-124270-review"
+       },
+       {
+        "type": "url",
+        "url": "https://naplesrolex.com/models/explorer/"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/en-us/explorer/m224270-0001.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchreferencemap.com/guides/rolex-214270-vs-124270-vs-224270"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=zyNzZJgK4tc"
+       },
+       {
+        "type": "url",
+        "url": "https://thelinendial.com/rolex-2021-explorer-i-36mm-124270/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=30cfLwHfw2c"
+       },
+       {
+        "type": "url",
+        "url": "https://rolexopedia.net/wiki/Reference%3Aexplorer"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/en/explorer/m224270-0001.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://assets.rolex.com/api/brochure/en/explorer/m124270-0001.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1frrgnu"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1cpqhpx"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/1frrkzm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/1tk470z/wts_rolex_explorer_39mm_ref214270_box_card_7900/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1m8laql"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/1qrlzjj/wts_rolex_explorer_39mm_ref214270_mk2_dial_box/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1pz4ozh/wts_rolex_explorer_1_ref_124270_mk2_dial_2021/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/156o1i3"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1qrly0c/wts_rolex_explorer_39mm_ref214270_mk2_dial_box/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTime/comments/qihi06"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0fc1aeb7f9daceb9006ac516650a3087d29de4d6914ab0c2dd",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRZoNPMs9MwpSD-LRqS73KgDa4DOWSSmlO-vh-dslDoc8YjW3wsdGQZTOR5zk1UUzH0-Dv0TUGFVK1ZThZ5_qBA74tsU2AuEpKjRLswWKeo4n9qKiboGSvLHiAMu9SqG8w_HgS0K3-6LpZa1SU8nab7mPwyijrr-7z1Up4pQXRNhZBp53-KB6AbUkDNMtzcDov0Apk9BRqrRz6jgVtTKa0Dj96sSXtReq3FZozLUNmF77rzF087dK3H_eDrBHfk_9-jxseX8q9FOmsRkbzTOCIsOXOq1DZ94LY9OCVEu3e9fISVkzgrn1uLrMEn4XrG7kzYt_EtHOY4FVNBV6_cetuIhnd5nf3GFxcesijMkNXqrpJIB-F_2urtStElBwGrbwIXVR0Oj5pCIMrtajclxO-tizya6NPuRp-RSUDBikBMbu8rJzbyHFuy31Yk_NA7S8YC6ocqAxvAeuMdZSzXmstCK6egf7hza8ZJjJwhII__-Pp7StqWAol5-e1ugXlN_XCXOFrBwu42QwKvZS-u4RCokr3nObElAMRYQn-1F5yvT5EWtAyia0M3JIDoOO1lX1szbpVyHviMs3Rny0rR0sKqCQd1A4OgD3ATMvkeVzmf4OtCyd8H4xR_J3vvKel-4UQe6_GnQ3pnU-V6_CLusni0AlVhUXF4mr0Gg2ajxx2A0iVWNEUQePwKZkJKZ71JbV9T6nD0xdItSolzmAAc5xPTN7yfr5IU8xpknbRCoqopjJQ5O1e4y4F8W71IbpQX6H9r_Ka229wkvQO-lmz5BkYedJ99cPNNKL58zCSL3IkWLQUYYy2ykgDKtPlLCebp5UtHnSofUsF8uS5Lkg9KKGM5mn3N61Ej7WY05VjoMorAd_uCbNzqUQ1G028Ds3cgLPekxx8JEOmI_5h3Rqyzj9j29WXale84I5gDPy6p6voBwRIXAQ6_ZnfAUXFcra3Tyy29-dzCzvrK1RnCbQt1m5JUM_fpQCRWJb4mV7-FhyNvgHPBiro7ftbRhsFE7ujbF1qFcdlz4BqKkJy5FeT8ykXaO6AhCXWCnQdIWgj-2cVACOSujPxgqDnWMOdQ9i0xTLA9yzps3Y-SRFE4RaHXlST8I_t3hiFn5xL65QEdN7HB4gRFx3bMieDXejwwjXF4hdjI9WHIwwwzL5zzmlVx79Uvfs0W4z6kWK8Rs18ZtywOGB5PsHKYRDfRKQVEruhiMm2aw-JtQtnvQ6Xem6_FFpxsFEQg4wpeoZ4rP4aL7DahItUTx8jqVokVeFIGyR0QV1qK7H_st7YrXjpRGubA8PVAqykuB6K6tFXHvzxGJUZKPQwfr4i5db8g8sqy7KX3eH49zoG20ZWscp05gskrx2jriWA2JX-hYb0YLz6BHGWQmXKEnCGJMVQM5AXXeqZVKpTHTB3URUGrMjoM4w8KIqLjwLWFMH9AZEE8c74dqGGZ686LalhUpKsW3j-3AX3OOAOg6ldRjr32MJy5CI8FEVmZalO8lCeJweENN2VG9EhhhUoBZK5Ktg0hELnMMjMS7S_0tM9zjwPjtjDGY0aL7oMAyVqYPp8x2mhzpBbKUJ4V-etjwjKl93cWAHVg6TrYWtroIQgqcbxgNx8Jg79KlxOvGUz0zr3vNaDNcRav6TkcKAsmVAlCCT_nlxHV_CJXhZpFkRJa_2HYQQ7zPlTIunijEblse5Y_y-sZnuSrBELNuBW32uspxsgHTIzsWHGICZ45uuzRDPFchCNfiC6NNILNocmmB3SoDACotrvEeKSSz_v7lIlPdeMvf38YX3vZU9Jgtk6TWdaZkbF6TKRqjR500wZChbQPdWcy0m-YMXrzLwpNKY384z2yvx7CiQJuW-jC9qbDQcG3-fOD1YdQ1KavtULkLEACLYcbuLFzoHXbAOve4ghhCXsayw8spRUq7nQQOZL0zO0Q-IzvHY4ptTEpb3aFQSatPbjZ0vGgQEqhtt7A-GtVzLsZGdZEqoCWS7BuC0W45SpJ98AvLVP9V3BeIvoYJiU2XZeWu2EsOquOYH7RR0kOvPYLsoHnfPgmrsKdIeJD9-bAlswZdl2OI33zriveWkRCAiQB-NyKhBCHey9NjAd6pLQnPCv-ozk1LJh8pVjzXwTKHxDdkA6oNlrJkrP-NOabwhD2gWzDMvVeO_ZTnUoGbHeJlwBESp43W3BDgze6FYHVBCzSygJ51j2yhTglpkgOOkWHXtA3D8SkO0z31A4rTsK9f2POMsZRMueeUyGWMbMwDWWcGiJI8S6hzKhXMvZkB07TBwnnX0bJTb4LLXWK4e4GoFCPLeKcXbu9WZ6uXUsq0HqOdEIB8-ifXdTyUIs-maRjDYNNaZOvIOWECnbIuxGZIbDl2XZJ8CD3LmjhaGnttc1ob0_R1ASF8rzBUTiK_7taiOC2BUGA7uzYOYHwsgzizFpXpqRJi24iuqEVzOE6xaksS7q1krnNWM9Ujxb56-Mwo7U9QE9hMFMPexwanI1v_3-0vLfFllALIdE7rgze0RNey40AD8KaG9yQYeEsE2yreJUCZDef4yv066F5HvPxl8EXSNlaUEwzF955JGWFncBmq7BiFTsU7ek-hdy9-6G6Jpzn_pLzvhK52qswFHXnZwPVG84Zkq7aCO6vB03WpSfCxGeucFP8H8qaTO95-Htyd2mBiXpmQ9Bryz7mMV7Zz_4zvNfT37BBSdLLfk5pyQkKc7MTbCHIi4SHMluGphsS14lenc6-WlKpIR2Oue-mT2u-e2w6WwolIhVecHW8Ys4K4TobPWgxW0BcFSGQe5yE0tHPxJvA-CUNRnCTYP5lOIl6joU4LSw0gAZB3wLObi-L3H1l6KiT-5c1apYuT5waRPaU0otNeyvYEXRkpUS-PwcdmLtNolBj-2tPuY5H57ecI9N5MW4And2bCxSmXAW6DWFiQX08KD4P-QE8X-7YcQEZr3-OKlzzARz15IaQhO0By81VY_3WgQpSR-ZK2t5unEgF38rrLfnR7XexZ-Xs6AzQd62YDTk4jjbivBXcmk40gyHdEI75Bz6ZFmlCWIB8Prd_TZpWA0UJT9rqR7862LuQ38qyRp4czD-vZaJiEYeSjzgrVPdEkpK_-LulWS4BrLlRwvRK8z9jruX5-7GO8bgnImNFeq40NYhS9Baii9b__s38O830DLxu-o7aH9kNPbc7VsBiysc4CIY7f7CqJjfa2Tl0a_RE86AM4fS6LNWnBoWMg-JpCoSq9U5o_-4DoUKXlv4Wp_Ul1npOXR9-pEfvFMvxF-5fBZQlPosYXG_9C9MbVYRIgjTJg8yK69TCu0fkL-RxFdl4jrnSUQvCBjyFPhrgN3s-rEX_d2Z63nvdv789NpbH9iF0-3RCZjf6pishPsxZvNghWYzsTAdPCMg6UMe4YmjHO2BHV_MSwQ8CI6VR1RaMvhmKLUMRoPOFEnhAkVu0BmcHsHDCIZ7jj0xlwbnzQRj15va2EU3cfV3sH1IOGQAYeDkEU9pHk6L5EKForZ5nrZ3Y-CYEpkf9yNlW3YBhVQEbyNMIHy1rFbBlG0d_C9TNbBsUs0FIphDtoL4gUzwa-hz1VlyG617e23X5tEyg3lpHBb1DfxrtNzb_1E_vF6CcIdrMlbhRYI8vY0ODItN_XwcoeNDlGnlgX7yqfG06U4Apij3q7MaU-E7SC2uMiWsXf8oaoEugmU9f8G0KSsZvbbc5lq4o1EU8CvrACxL3jRTEQRMy0T8qdt1q5ADV-8y4YYpuOaxB7-ObuETnxMm_KdOcOOzucKT4Pd4O5KyQShpf6o9-nEu1oEfcKpBJWOdrglVwJuvOmI064sLb4QmtzX-Az-Yk003yZf-ZQ_SN8vcBfmVp0PAFdXre2hj5PnLYqQwVcBhB1YMpujnRFl-ludrOjqAYTwF6A34iymuFGbvvIh_LPtMhp_VrXJVnBZQ9LvVFRGTYkNcgH1gagWb21Dzk5i6z_Pu56DzqAq9J8J4giPCB46q6tzQVIfmnld5zf5FGM3JqE85G2kq2qM7YFKt7CDYY0cCveJIAaJKglr92KE-ak9YyafWJmXcw57LID32sf7VlEFplWgVoQDHhJZd4="
+    },
+    {
+     "id": "msg_0fc1aeb7f9daceb9006ac51667ae1887d2a56dd728607fb228",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Rolex\",\"model_line\":\"Explorer 36\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"smooth polished steel\",\"case_size_mm\":36,\"complications\":[],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"124270\",\"214270\",\"224270\"],\"confidence\":0.72}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791301224.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 11186,
+    "input_tokens_details": {
+     "cache_write_tokens": 2002,
+     "cached_tokens": 4723
+    },
+    "output_tokens": 845,
+    "output_tokens_details": {
+     "reasoning_tokens": 760
+    },
+    "total_tokens": 12031
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 1
+    }
+   }
+  },
+  "search_requests": 1,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

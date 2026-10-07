@@ -169,6 +169,41 @@ For each candidate, and for the printed reference if there is one, call
 Compare references after normalising notation (case, spaces, dots, dashes, slashes), as
 `scoring.py` in this repo does.
 
+**Alternative under test: search first, then choose.** In the flow above the model must recall
+the reference and the catalog only confirms it. The alternative reverses that: the model
+describes the watch, a search returns real references that fit the description, and the model
+picks one while looking at the photo. It was proposed on 2026-10-06 using the Serper search API
+over WatchBase pages, with three related ideas (check the model's candidates by search, Google
+Lens on the photo, catching new releases). None is tested beyond two small probes. They are
+listed in `FINDINGS.md`, section 4, with the revised design: search by model line and by the
+model part of the guessed reference, rank in code, return at most three. WatchCharts search
+could supply the siblings of a guessed reference, since it matches part of a reference, but
+it cannot search by name.
+
+Stage 0 of its test is done (2026-10-06, `results/SEARCH_STUDY.md`). Replaying saved answers
+through search, with no model call, put the right reference in the candidate list or in the
+model's own answer for Opus 91 of 99 photos (own answer alone 79), Sonnet 92 (72) and Sol 87
+(70). The list has about 11 candidates, so this is the most a chooser could reach, not a
+result. WatchBase has 94 of the 100 answer-key watches; the open web has the other six.
+
+Stage 1 ran the whole flow with Sonnet, thinking off (2026-10-06, `results/PIPELINE_STUDY.md`).
+It stopped at 91 of 100 photos when the Anthropic account ran out of credit. On those 91:
+
+- The first choice is right 61 times with the flow and 61 times from the model alone.
+- The right reference is among three options 82 times, against 72 for the model's own three.
+- The choosing call's own "clear leader" flag is right 21 times in 24.
+
+DeepSeek Flash went through the same flow on all 100 photos: first choice 55 before and 57
+after, right reference among three options 66 before and 72 after, at $0.005 a photo and 27
+seconds. On the 91 photos both runs share, its three options hold the right reference 63
+times, fewer than Sonnet's own three with no search (72). A cheap model does not make up the
+difference by searching.
+
+What this means for step 4: `choose_one` should be the normal outcome. Nothing measured so far
+is reliable enough to fill the reference in unasked at the 95% mark in section 10. Ranking by
+attributes read from search text did not beat the model's own order either, so "rules in code
+decide" needs a structured catalog, not search snippets.
+
 ### Step 3: fetch specs
 
 This step runs only when a spec source has been chosen (section 7.1). Without one, the

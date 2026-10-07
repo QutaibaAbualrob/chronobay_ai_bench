@@ -1,0 +1,35 @@
+{
+ "row_id": 29,
+ "image_file": "029_patek_calatrava-yellow-gold.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_line": "Calatrava",
+   "dial_color": "white",
+   "case_material": "yellow-gold",
+   "bracelet_material": "leather",
+   "bezel": "smooth polished gold",
+   "case_size_mm": 33.0,
+   "complications": [
+    "small-seconds"
+   ],
+   "movement": "manual",
+   "printed_reference": "",
+   "references": [
+    "5119J-001",
+    "96J",
+    "3796J"
+   ],
+   "confidence": 0.3
+  },
+  "raw_text": "{\"brand\":\"Patek Philippe\",\"model_line\":\"Calatrava\",\"dial_color\":\"white\",\"case_material\":\"yellow-gold\",\"bracelet_material\":\"leather\",\"bezel\":\"smooth polished gold\",\"case_size_mm\":33,\"complications\":[\"small-seconds\"],\"movement\":\"manual\",\"printed_reference\":\"\",\"references\":[\"5119J-001\",\"96J\",\"3796J\"],\"confidence\":0.3}",
+  "input_tokens": 3233,
+  "output_tokens": 133,
+  "cost_usd": 0.007796,
+  "elapsed_s": 2.404,
+  "started_at": "2026-10-06T13:49:46.873499+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

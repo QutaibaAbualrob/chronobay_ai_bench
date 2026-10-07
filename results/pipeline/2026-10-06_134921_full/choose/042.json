@@ -1,0 +1,35 @@
+{
+ "row_id": 42,
+ "candidates": [
+  "CAW2111.FC6183",
+  "CAW211B.FC6302",
+  "CAW218E.FC6565",
+  "CAW211D.FC6300",
+  "CAW211S.FC6375",
+  "CAW211V.FC6466",
+  "CAW211U.FC6356",
+  "CAW211R.FC6401",
+  "CAW211P.FC6356"
+ ],
+ "result": {
+  "parsed": {
+   "reason": "The watch shows a steel square Monaco Calibre 11 with a blue sunray dial, white sub-registers, red accents, a date window at 6 and a perforated black leather strap, which matches the classic blue-dial CAW211B (Gulf/McQueen-style editions such as CAW211R differ by Gulf logo and orange striping, and CAW2111 is the older black-dial model).",
+   "ranking": [
+    2,
+    1,
+    8
+   ],
+   "clear_leader": false,
+   "none_fit": false
+  },
+  "raw_text": "{\"reason\":\"The watch shows a steel square Monaco Calibre 11 with a blue sunray dial, white sub-registers, red accents, a date window at 6 and a perforated black leather strap, which matches the classic blue-dial CAW211B (Gulf/McQueen-style editions such as CAW211R differ by Gulf logo and orange striping, and CAW2111 is the older black-dial model).\",\"ranking\":[2,1,8],\"clear_leader\":false,\"none_fit\":false}",
+  "input_tokens": 4238,
+  "output_tokens": 163,
+  "cost_usd": 0.010106,
+  "elapsed_s": 3.08,
+  "started_at": "2026-10-06T13:52:52.305734+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

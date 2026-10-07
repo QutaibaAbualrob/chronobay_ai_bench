@@ -1,0 +1,288 @@
+{
+ "row_id": 78,
+ "image_file": "078_iwc_ingenieur-automatic-40.jpg",
+ "result": {
+  "parsed": {
+   "brand": "IWC",
+   "model_line": "Ingenieur Automatic 40",
+   "dial_color": "green",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "Smooth stainless-steel bezel with five exposed screws",
+   "case_size_mm": 40.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "IW328903",
+    "IW328902",
+    "IW328901"
+   ],
+   "confidence": 0.91
+  },
+  "raw_text": "{\"brand\":\"IWC\",\"model_line\":\"Ingenieur Automatic 40\",\"dial_color\":\"green\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"Smooth stainless-steel bezel with five exposed screws\",\"case_size_mm\":40,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"IW328903\",\"IW328902\",\"IW328901\"],\"confidence\":0.91}",
+  "input_tokens": 2154,
+  "output_tokens": 592,
+  "cached_input_tokens": 0,
+  "reasoning_tokens": 494,
+  "token_cost_usd": 0.0005114,
+  "searches": 0,
+  "page_opens": 0,
+  "tool_calls": 0,
+  "queries": [],
+  "source_domains": [],
+  "elapsed_s": 8.774,
+  "started_at": "2026-10-06T15:36:34.122934+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_06ff749bb23ca859006ac51582ab3087d2af8f41d1f11f335e",
+   "access_programs": null,
+   "created_at": 1791300994.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_06ff749bb23ca859006ac51584903087d28f981e1f305856bb",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRWL51RstMr_8AzZNn56VcJbA5Q9kbWOKYqonCPWvUtag7TosQ45u32GzS-ut80UbT99KMBniSQbD_mN9l1v-zMHU93chpcsrhfxwFEA-bbw3ZPhi6L5CIuaM1WjPC7DkP5OkCGR_rWTFLkjnB4XC-trk_6OBoJ6DplsNBBeoDM_GVZJasrigmG7LW9FcwBdJpxM3k7quY2SoZ9ELDmepWwRivw24OhO9R3RVsb4-MTVc-nezZ_L8NqajE69jjCNlRYplW7v9vBHJC9oc4YKR1umbRkAaYew3nwyp0sa18nn0I5WZOn0JIt1r5iPhNYTwMJmh9cbF2MOqIwbLvukvSu7vcxLzjpi-ldSz2exTdmy-GeARlaUb0vesAPSH1qGo8ebAcxfQesJ-YSm5HXIih0hBCpZVXLZ0rHptvNDua9Pxc05E1hGXFJBxluN9b6C4jf14cy21OhXn-xQTRYROj6Qg0ypzK8s3gAurvxfVWGA3v3Ruy9FzGoOH69S_9WlF_WD89gc-IsnO-CXzvvygNrmP0Cvm4qvRqIpN3pXytyL77n8Owzq45a5V4lvDF8nw1CBqI4FMZnrlCkcSTZsZFMOu29E8GILQnazeRViigdg6DJcxtH4BB3Yg0O1QT9GsMXwjNcU8XBcsj3QNDVuIkWSFImBpGqOpcNuFcProWl4RimfI7j8X7DFrj30rXReAUDWVsrRnIeFmvi6n3al9P0ohgeWCJPKSAbeYFHRc28aYEagudWGAJTeyzGypaAwfMq0ppeQR85qRtOLIedRLXghCpFnVh_m3nTPgjaxZxMIYqlod_r_7S1eXuNSNg9Xgtzi5XSzEKQoEoMpGn2a0kmdm8c_8YiR8c0ML-hBqxuus-4b6OP2L8Bet5FyuP1QbZIsaqjLiksEiXHmqceFsno62jeg7S1bYKCkHQFtosjRdXq9fSJvfSjGv6g_JYq9NCS__Uns83Db7tGe9Xkl_stz6XFExgK3Mafhg4T6VZUR2Y1EfTVKc0bacmwjNnT8-lr-kcMv9ADT44xNGb5vjw63y0RQ5amkVHT9sKn_VT93mTZIoEZ4vL1uGHn3S1I0Sh_yhDT34UMYapIHUWQ0sVTyK2kIQV_puBjDdWHskKSK473ih7VP2pmfbuomN6eImlEFaVLgUbDCYM81Qkv8tRH3ByHxu1KrCclPxMovZ8lIZ0C0pSVddw-Ow2LcCd1qY_lD39wT1f7ZHZkusrykQp_hTqxQiwRX8mwsFQCW0iOZVUHczu1foSKkQ-tqtreXn2ROupQx6yn0lQyZ-1bicO__YLjKXh61FLYN_WZd7druzxdNJ1O70lvoRYFcGfmHouJPHVPP6-o1MN0UJQI5Ru3zhwB94j0tFmO5WI09r2jLRjBAQp0_NgxXFCVD13xNofqE7ZlwqGWDIHLgz4uiBXHLLUkhP78e2AzcXUpmMs5iQ0FZllwu9umMy61aULyZLVBn_NiQTnC9SMEQMwENw54sxhJMwAGBcegLHKbd3-KPxdlHpAKNrgIw5NJYfJn1vOC4Unu8v5gJm8RhC4l9UR5dKAOMT_OlXqrHTW3QGMdYsqsCdZGCvOHQZCGg_rcwh9hzkU5a-CNO0KNsmkWDDqBBlHJMQuhrceFsVZdGuFx_ssvI-pMyM8BZAryyzkItK4uVMZGYWaQb9U5Lmqb7pKeRyRCO7WkSpTQmI64ZIH9FtGLuskfLX_5LJbAu96aTG4vrC-HP1pqMovcgr1WQ5UNqgQ9JBWF_80Hdp7SzvnKxHyGeJ4S_HEHnH-yaR8dbgSfmXBywzW8Uh69ypRYj3I9Ane5cTPHLF2fiLU8bbqbP2KFCF_B3lFe4OTOpqmcmHHaaizvmm3oIAb4AzQpU5UYzVZky37mpD3aU5hhsFRlf2NxBqpxrVkxnIDRKU8QHEkHgyUMIR7TT1rj52EudFAGy4bYXev2NdZ71-PGwljUKrITuPuPuS548Rl18lC2yO-aNWZYnm8Bku3XxOTdDSPcYYVWiM_W-Uu3zIXjd37lKLLXbY_MG76nXRFihxwYVt64LTp7nme8747zI4IVoq9qNlZem4a2DuTrnmVuDda9JJgCyORYHuniyp07NcVwnpl8QQcF07Hl276qBpn5dKX5I-espu9RZdMyMSTuC8X9R2w_s8pwermRn7dMihFBx6b_cXJlUUwPYBgAxcpx5sz8c5FtcXrFyGPbXmvS24_VMIsu3WmCnudHVCCvLVKLQ5KxLBLGIWxaw5eP-3QY8hXv_9lbnKhMmTAg31BG2Me0M_w-FQV5uGRCmFb7HZ5v0lnic7oGTBvLmLHxskSpaiVG197uqx82TuTjxx6ObVeJ_LTOCBjw0WMssYbInNTwvy3oxDkB-cPJSUQTIdsqi88F8OBuWca0tMxk66jlJ8QGPdl4QfqIO9Y_AI51liJxR0rqtxtjt7Dz2z-rqG97c3dVqB9GNLmnrGyq3RTQV1IDZ-jNGqJBowLh84zld2HVMskn2QR25mfEC0gXCOBrDWsmMXhavKDa-hOwXkaGyNpHJbBIfcPz998j7gFt1GQlRbxEyQNnKZ8QbWejtpIZ5OQdIcSubUqzmQtf1GsQIRZSewznPKhwGBWXbNTd-wI3qezTdYanjKlVxxY10QjsEe_NRx0HM70nmAXlaC-B6vaXTKyb1ri5Y9gzA69qFQkvJgaei3tI-OpbGeDNdtUiAaIy8uw08TQxCTjriR1gVFrcAKyyaf3KKqDT6JsB1oHZkl9aF8iCwKCJnn2KZzJqDNXNvMVKBnNuLwFwYw4y-vaTrilZGNd8ke7rzeHh2IrYiumVf_I3ZuCdEh4a4KasIxak7cWxR64L2Q9MIaXY0uvsY-cLJKN0PVp_-BQqTJMhwjwso5Wz7qNscXEWoLhdo0v9xrsK4TlEfzS31TqhAEGdyB2xSOHqSHJ5oxekUhxXTTsI7gzNGqbI-7o6RZK1wYqsELtMYCFucN5zuErx8ISByH-VGzMEhiczF56NsLvAyxjUlTmSQsUPyB9V2h3ai3OPXbnqH7eIpmexdJ1rkDwmUSPjFyUz-ovGBaCiw65JVdHCNSvXK7W8Hkompf0TGxO0foYt-QArJ3aAum7ZXPM6fVoGipcdlFBty8A8oXbg-OQinTfiVPZxFEgcPgI0huXu77GnnSyOa--6II0WxFJhyuzzwJuXMQeE2_MyuyMVLjkBGiYh7q5I62ueO7UM7nP7RUe6velOGHqSbjV5QsFPsclNwXewfyh6FZcKxfbH3zRjf8ydMBpxjc8ukmRii7BHv3GsktZSjOMxPi2qWwHbIXOfSpufuuIhcRCV-gTGY3uckDWmd0tA7kTP9VIuPJPTq41YAPgGBaceyliiDwvHkmx9Nq-O5FcbJ13LOuWU2VmyrkHO5l3mSDv9WKkjqkiH--xxAPNv9yKkjQCeBzmXy8RvXHKQzZHPorltfxQo4CytjyN3OUv7LRGT1mGJDU4HHJaWFK3_HrwFbqYABOM3niQnBNpBWne8-oopjRJBUoDVixI7LP_yvugoFD69AiApmtsI-PUW4jO5XEvtmNvQPqpmM6eGCCrAut7C0997g-daEdN4KCxLDWEqHtz75mkiA1xoU0Bf9JzkBgWDIG6nrGzlIkwgOJqsEjKSeQc6xJWQTXGYowk5KIcNApWhzpX91q0QYBPeoD4C3ctyY_PyJLeqats_coip7xcL4-4Am5ki_dGPrOw_ZfLJILhjHambNZalTej3ssSd9nQl223hTssuhKUfr1tJOV3VtaJk3-vLYmSPfjoqAMSiZsON0NfdhKOhpXjonaChJ1wej5XDdi0dCADLNSi12vfJLkrdDmb1TLofFBaKS-nA1kJRUJqqfZA=="
+    },
+    {
+     "id": "msg_06ff749bb23ca859006ac5158a0e5887d2b9688b49e6177bef",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"IWC\",\"model_line\":\"Ingenieur Automatic 40\",\"dial_color\":\"green\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"Smooth stainless-steel bezel with five exposed screws\",\"case_size_mm\":40,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"IW328903\",\"IW328902\",\"IW328901\"],\"confidence\":0.91}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791301002.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 2154,
+    "input_tokens_details": {
+     "cache_write_tokens": 2151,
+     "cached_tokens": 0
+    },
+    "output_tokens": 592,
+    "output_tokens_details": {
+     "reasoning_tokens": 494
+    },
+    "total_tokens": 2746
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "search_requests": 0,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

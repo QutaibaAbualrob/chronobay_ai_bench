@@ -1,0 +1,37 @@
+{
+ "row_id": 5,
+ "image_file": "005_rolex_day-date-40.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_line": "Day-Date 40",
+   "dial_color": "champagne",
+   "case_material": "yellow-gold",
+   "bracelet_material": "metal",
+   "bezel": "fluted yellow gold",
+   "case_size_mm": 40.0,
+   "complications": [
+    "date",
+    "day-date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "228238",
+    "118238",
+    "128238"
+   ],
+   "confidence": 0.62
+  },
+  "raw_text": "{\"brand\": \"Rolex\", \"model_line\": \"Day-Date 40\", \"dial_color\": \"champagne\", \"case_material\": \"yellow-gold\", \"bracelet_material\": \"metal\", \"bezel\": \"fluted yellow gold\", \"case_size_mm\": 40, \"complications\": [\"date\", \"day-date\"], \"movement\": \"automatic\", \"printed_reference\": \"\", \"references\": [\"228238\", \"118238\", \"128238\"], \"confidence\": 0.62}",
+  "input_tokens": 1721,
+  "output_tokens": 511,
+  "cost_usd": 0.000489486,
+  "elapsed_s": 3.747,
+  "started_at": "2026-10-06T14:06:24.190066+00:00",
+  "error": null,
+  "attempts": 1,
+  "tidied": false,
+  "served_model": "deepseek-flash"
+ }
+}

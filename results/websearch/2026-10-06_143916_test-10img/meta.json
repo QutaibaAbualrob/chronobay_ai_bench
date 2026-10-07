@@ -1,0 +1,27 @@
+{
+  "run_id": "2026-10-06_143916_test-10img",
+  "started_at": "2026-10-06T14:39:16.538542+00:00",
+  "model_name": "gpt-6-luna",
+  "spec": {
+    "provider": "openai",
+    "model": "gpt-6-luna"
+  },
+  "max_searches": 3,
+  "rows": [
+    5,
+    15,
+    25,
+    35,
+    45,
+    55,
+    65,
+    75,
+    85,
+    95
+  ],
+  "dataset_size": 100,
+  "prompt": "You are identifying a wristwatch from a single photo, to pre-fill a listing on a luxury watch resale marketplace. You can search the web.\n\nFirst look at the watch and decide the brand, the model line and what is visible. Then search for the manufacturer's exact reference number of this version: brand catalogue pages, watch databases such as WatchBase and Chrono24, and retailers list references with their dial, metal and strap. Check each candidate against what you see in the photo before you answer.\n\nReport:\n- brand: one of Rolex, Omega, Patek Philippe, Audemars Piguet, Tag Heuer, Breitling, Cartier, IWC, Jaeger-LeCoultre, Vacheron Constantin — or \"unknown\".\n- model_line: the collection and model name the brand uses, with the size when it is part of the name (for example \"Portugieser Automatic 42\").\n- dial_color: the main colour of the dial: black, white, silver, grey, blue, green, brown, red, orange, yellow, pink, purple, champagne, salmon, beige, mother-of-pearl, skeleton, other, or \"unknown\".\n- case_material: stainless-steel, yellow-gold, rose-gold, white-gold, two-tone (steel with gold), platinum, titanium, ceramic, bronze, other, or \"unknown\".\n- bracelet_material: leather, metal, rubber, fabric, nylon, or \"unknown\".\n- bezel: a few words on the bezel, its material or colour and its type (for example \"black ceramic dive bezel\", \"fluted\", \"smooth steel\", \"tachymeter\"), or \"none\".\n- case_size_mm: your estimate of the case diameter in millimetres, or 0 if you cannot tell.\n- complications: every one you can see, from: date, day-date, chronograph, gmt, moonphase, power-reserve, small-seconds, world-time, annual-calendar, perpetual-calendar, tourbillon. An empty list for a time-only watch.\n- movement: automatic, manual, quartz, solar, hybrid, or \"unknown\".\n- printed_reference: a reference number you can read in the photo itself (on a card, a tag or the case back), copied exactly; otherwise an empty string. Never copy a serial number.\n- references: up to three candidate manufacturer reference numbers for this exact version of the watch, most likely first, each in the brand's own official format (keep its dots, slashes and letters). Always give at least one. Add a second or a third only for versions you cannot rule out from the photo: another dial or strap version, the previous generation, another size. For Rolex give the base reference (126334), not a catalogue suffix.\n- confidence: a number from 0.0 to 1.0 — how sure you are that the first reference is exactly right.\n\nAnswer as JSON.",
+  "search_fee_usd": 0.01,
+  "csv_sha256": "65354b93824d06ba145ace623dd3aa82db070854fb7d8c7366a98e94608e2bf2",
+  "format_enforced": true
+}

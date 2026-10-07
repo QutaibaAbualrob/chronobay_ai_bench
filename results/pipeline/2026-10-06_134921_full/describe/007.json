@@ -1,0 +1,33 @@
+{
+ "row_id": 7,
+ "image_file": "007_rolex_sea-dweller.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Rolex",
+   "model_line": "Sea-Dweller 43",
+   "dial_color": "black",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "black ceramic dive bezel, 60-minute graduated",
+   "case_size_mm": 43.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "126600"
+   ],
+   "confidence": 0.93
+  },
+  "raw_text": "{\"brand\":\"Rolex\",\"model_line\":\"Sea-Dweller 43\",\"dial_color\":\"black\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"black ceramic dive bezel, 60-minute graduated\",\"case_size_mm\":43,\"complications\":[\"date\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"126600\"],\"confidence\":0.93}",
+  "input_tokens": 3269,
+  "output_tokens": 134,
+  "cost_usd": 0.007878,
+  "elapsed_s": 2.352,
+  "started_at": "2026-10-06T13:49:29.900284+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

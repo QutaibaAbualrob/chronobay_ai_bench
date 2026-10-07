@@ -1,0 +1,835 @@
+{
+ "row_id": 53,
+ "image_file": "053_breitling_chronomat-b01-42.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Breitling",
+   "model_line": "Chronomat B01 42",
+   "dial_color": "black",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "Stainless-steel rotating bezel with engraved minute scale and rider tabs",
+   "case_size_mm": 42.0,
+   "complications": [
+    "date",
+    "chronograph"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "AB0134101B1A1",
+    "AB0134101G1A1",
+    "AB0134101K1A1"
+   ],
+   "confidence": 0.98
+  },
+  "raw_text": "{\n  \"brand\": \"Breitling\",\n  \"model_line\": \"Chronomat B01 42\",\n  \"dial_color\": \"black\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"bezel\": \"Stainless-steel rotating bezel with engraved minute scale and rider tabs\",\n  \"case_size_mm\": 42,\n  \"complications\": [\"date\", \"chronograph\"],\n  \"movement\": \"automatic\",\n  \"printed_reference\": \"\",\n  \"references\": [\"AB0134101B1A1\", \"AB0134101G1A1\", \"AB0134101K1A1\"],\n  \"confidence\": 0.98\n}",
+  "input_tokens": 25659,
+  "output_tokens": 1141,
+  "cached_input_tokens": 4723,
+  "reasoning_tokens": 981,
+  "token_cost_usd": 0.00271133,
+  "searches": 3,
+  "page_opens": 0,
+  "tool_calls": 3,
+  "queries": [
+   "site: breitling.com Chronomat B01 42 black dial steel bracelet AB0134101B1A1",
+   "Breitling Chronomat B01 42 black dial silver subdials rouleaux bracelet reference AB0134101B1A1",
+   "Breitling Chronomat B01 42 reference black dial silver counters steel bracelet",
+   "site:breitling.com/us-en/watches/chronomat AB0134101B1S1",
+   "Breitling AB0134101B1A1 closest references black dial rubber AB0134101B1S1 silver dial bracelet AB0134101G1A1",
+   "Breitling Chronomat B01 42 silver dial steel bracelet reference AB0134101G1A1",
+   "\"AB0134101B1S1\" Breitling",
+   "\"AB0134101K1A1\" Chronomat B01 42 Breitling",
+   "site:breitling.com \"AB0134101K1A1\""
+  ],
+  "source_domains": [
+   "breitling.com",
+   "dialspec.com",
+   "wempe.com",
+   "chrono24.com",
+   "cortinawatch.com",
+   "feldmarwatch.com",
+   "youtube.com",
+   "watchesofswitzerland.com",
+   "chronotick.com",
+   "prestigetime.com",
+   "watches-of-switzerland.co.uk",
+   "fristwatches.com",
+   "tourneau.com",
+   "aeworld.com",
+   "en.wikipedia.org",
+   "colman.be",
+   "therealreal.com",
+   "reddit.com",
+   "t3.com",
+   "de.wikipedia.org",
+   "es.wikipedia.org",
+   "it.wikipedia.org",
+   "hourstriker.com",
+   "emperorwatchjewellery.com",
+   "chrono24.ca",
+   "lepage.fr",
+   "juwelier-wagner.at",
+   "wallpaper.com",
+   "cjcharles.com",
+   "maier.fr",
+   "jomashop.com",
+   "watchswiss.com",
+   "chrono24.de",
+   "bobswatches.com",
+   "thewatchpages.com",
+   "forum.watchlounge.com",
+   "auktionen.eppli.com"
+  ],
+  "elapsed_s": 26.424,
+  "started_at": "2026-10-07T06:59:36.176126+00:00",
+  "error": null,
+  "tidied": false,
+  "rate_limit_waits": 0,
+  "raw_response": {
+   "id": "resp_0becb9a8dab74c2c006ac5eddab18087d2a146b5e10f61be84",
+   "access_programs": null,
+   "created_at": 1791356378.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0becb9a8dab74c2c006ac5eddb416487d2bf17b67c20cd0926",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe30LCSMXOHU8diNdCUPO3XcDvVbRKBsB2GJnVt5hu6fALleBG1xufnIiDJUhjB3z7RxiO6AAnCWjn9P11N8s-sfVZK7H8RgeXta8UbNelzSmos78QwMIs1YJt7uNGFZmjB1FId4JKYRMHr6k5OUbrFbsYJ4cScURCfiGEl-Ok9ilxHPU9_Zr5HerX6d8fSMhTw40XJipeX18SmppJfXNa5uTFbxkJLnwcAKOQ51LP5KeTKRrQ5ERREmJfmMdQ3IoLuE_IX0cXQqRGgXikDYb3xf-qIdg_lQJvhsaDxn0-RhxKuwIwzumt1rFrQRkrJzohFuMXOw-YMK4xLjxoek1HD3Z6dUH2-dXzBTQED2Tt2kGl7odgoF9pNw_yDN8ARtlgx2wArWP82DhM3mt4iF9gLTCFQ99Jw-18dRBVPU0ztmM8MZvfjbQ3cR_D5Jwc0fa3Ndw5K_JiXyxtK_Qya2cIBthEXAIyD_X3Q1TIGd6-HnzvU7Rs8pUOA3oi3eAl7Ymxmp6IMCuc9PJeJJ2EXiqE1hWS1tWlH_Md-0TffOgmzm3AoMavJHtoagpltfjg9j7FoDpFSfdfa9tUSux18Fm_qzs_1XcDNmTm0LiBPUUR5eVTywzwfGgw9P9goT6aO5maktrdK2c3xOF1dBoJggKMvHwpB-sTCwcoPdtRQDS-zjY63nhSop-gkSc6KMs9BPpOc5NJg54uGPGBB-99fDIAG8gieyQtBsYLlM2n-E8SLlWWCxPGbqzbpITlwxXVAOMol56HVSnaFsGfvdzb4pjQHe6AkXYXhN1zS3fSYgS_zDvDanpLw3A0V6LAF8baM23TSUjg5iKlIutZlH71omHrFKO_VIHuMWm8w0-16S6pGBzYx-l8B569ikvGp3LEHds67feiFUDY2HxIMr8QBOqId4_XJmE5eLau5-K9VNd6US47gs0uWgLfbllJHiDQSWDI3JFRa9Qj9rkuTPbY6HrEz5V1lmPWnGmyBCXn-ImIgNUOp_aCmowxjo2Cmv3KIXC_xiLM5oPgArk03wMAvND_b7no0vq8P9rwH2MePp7Kupdt_QlXjHH8EAglaYvoGUVH021gVQREyeAkwqWfIOBQVKgCUTEJKILrHtphyQ9SfOEsDEvDPkBaufMblFIrJnfC10aGPUdYTy3J1P0zXaj4RO_rxY3kZBmzfxETMSogFkJjHekE0GBqViZ7UuKMaWv13Gz3a7q7hl9iAPD2UhzGJnQIYfYOccFnHKyUbjvVmEWsY9qKTn-rh000NFPKxA72KnnTvl5i4XTKQ_i18JbHSygmciqhc4MOmKnn9KMg_cnVB_2PSa9kkI6PHUtFEevGfiMq5t5vjUvwztutA8diSrvo1-iOSLRPa7kj08QCDUVf9eF1rUZ8c_K6NZVlQHby_iqig47Qn1Ildi54YGsUZSxn0oUlzWU1Z7ycyDZGCUqh7L9bEs53dEtdl5OcSziG8uIAhi5X2-FbgEkp2h7wCM02iQ8BZqm9dTnBhykTCshiD_SwfJLqjy5ZrozA0E9XUYUsEPlpko_xVnmcQDQ4gRz72HMbZAeXZ-Bk7DsIcvTJo="
+    },
+    {
+     "id": "ws_0becb9a8dab74c2c006ac5eddc599c87d2a2de7063112cff80",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site: breitling.com Chronomat B01 42 black dial steel bracelet AB0134101B1A1",
+       "Breitling Chronomat B01 42 black dial silver subdials rouleaux bracelet reference AB0134101B1A1",
+       "Breitling Chronomat B01 42 reference black dial silver counters steel bracelet"
+      ],
+      "query": "site: breitling.com Chronomat B01 42 black dial steel bracelet AB0134101B1A1",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.breitling.com/us-en/watches/chronomat/chronomat-b01-42-my26/AB0158101C1S1/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.breitling.com/us-en/watches/chronomat/chronomat-b01-42/AB0134101L1A1/"
+       },
+       {
+        "type": "url",
+        "url": "https://dialspec.com/references/breitling-chronomat-ab0134101b1a1"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wempe.com/en-us/watches/breitling/chronomat/chronomat-b01-42-ab0134721g1s1"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/breitling/ref-ab0134101g1s2.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.cortinawatch.com/en/breitling/chronomat/ab0134101b1a1/"
+       },
+       {
+        "type": "url",
+        "url": "https://feldmarwatch.com/product/breitling/chronomat/b01-42/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=ePuR-jx83fw"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchesofswitzerland.com/products/breitling-chronomat-ab0134101b1a1-17531832"
+       },
+       {
+        "type": "url",
+        "url": "https://chronotick.com/breitling/breitling-chronomat-b01-chronograph-42mm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.prestigetime.com/preowned/Breitling-Chronomat-B01-42mm-AB0134101B1A1-68122"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watches-of-switzerland.co.uk/p/17531832?lc-recs=a1"
+       },
+       {
+        "type": "url",
+        "url": "https://www.fristwatches.com/replica-breitling/replica-chronomat/breitling-chronomat-ab0134101b1a1-42mm-automatic-black-dial-stainless-steel.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.breitling.com/media/document/4/model-chrmtb01-chronomat-b01-42-user-guide-merged.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tourneau.com/on/demandware.static/-/Sites-Tourneau-Library/default/dwf000c265/documents/2024_Tourneau_exclusive_CorporateCollection.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=19TGweNogrs"
+       },
+       {
+        "type": "url",
+        "url": "https://aeworld.com/wp-content/uploads/2020/06/juneaugust.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Breitling_Chronomat"
+       },
+       {
+        "type": "url",
+        "url": "https://colman.be/media/57744/ColmanMagazine_07.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.therealreal.com/products/94306232/appraisal_report"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/13me03y"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1fctjzx"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wr63fe/wts_breitling_super_chronomat_b01_44_black_dial/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/100nbia"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1f7i3uy"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vqgabz/wts_breitling_chronomat_b01_42_silver_gold_ref/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1v6dpsn/wts_breitling_chronomat_b01_42_silver_gold_ref/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/v9bp5o"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vzis3g/wts_breitling_chronomat_b01_42mm_a_navitimer/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vifgvj/wts_breitling_chronomat_b01_42mm_a_navitimer/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/breitling/comments/1r3ojiz/chronomat_b01_42_australia_limited_edition/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1sd2dni/wts_breitling_chronomat_b01_chronograph_42mm/"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Breitling_SA"
+       },
+       {
+        "type": "url",
+        "url": "https://www.t3.com/luxury/watches/new-breitling-watch-fuses-a-chronograph-and-a-dive-watch-in-homage-to-a-classic-model-from-the-brand"
+       },
+       {
+        "type": "url",
+        "url": "https://de.wikipedia.org/wiki/Breitling_SA"
+       },
+       {
+        "type": "url",
+        "url": "https://www.t3.com/luxury/watches/new-breitling-chronomat-range-makes-subtle-changes-to-perfect-the-sports-watch-formula"
+       },
+       {
+        "type": "url",
+        "url": "https://www.t3.com/luxury/watches/breitlings-new-chronograph-is-made-to-celebrate-an-unexpected-sporting-legend"
+       },
+       {
+        "type": "url",
+        "url": "https://es.wikipedia.org/wiki/Breitling_S.A."
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Breitling"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0becb9a8dab74c2c006ac5ede1a79887d29f0034bc360a2ef8",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe30f_2jJrPFUjB2efq63aNM-RoxE9mr_HCRR3d6pRigb73LRnHNdJoNbvia3WUsJ0laUaId-13CYR8QX2QGHk9DTjfEOMB-yGFTEwTI9IUaDdwWlIWLq-_hr8zmhaRjphbo7-KKwa0cogxZegV9qTvotrPsquwautanxmScWyJaUxTq4xEq5vYv-ErKv4pDWWtwQR6yPoXClJPDbcCSFIG276NPiYXIqhv5Mk9DRkf4lxovYB4ehtVTTVCkqJcGBR8GrZCNxffNrAxAQoQX1QJkh5XgjhmgPcV6zFsL5Lcghq8a3dBHfYwOjXq0gG3HXJ3R3gNCw6Vd7odEPCpUmqs3BZ_hg52K_B0BH7je1uXzImJAxhx6tW21YgLzZBeV5ks94UKPuisQD_K5vVYXWUXH0U9508TIz1bL7Itg2w7QaIj0Ehyc0ffZjrg109ilnhtLbqniIpNvRnd-ASBGSQLKZw2m9-bAVk_PGOTtRsH8Ns7sMjlHY2AdiPuPJU_eUrItC7jagLdeZ07BrXOXqhmr4pM_E96pFWCUXmMcuGPBblHkZfwJAVRuNjuuiDL3XeTU0d6ek9rERwVcQHlQV6rEnswg_5vpb955HQBa6UClt7K06L_RpBcLjO1VHoiXBsYSRnFJ1lphnTxGamZTIg-A0TMzL8VcOxaoJaWmF-RPM6jsU-kVediGVyyUlK7SSg50v21NajDZ0fxg0qWZA19E7aWhmfc16coU9SwPbzWbfYxoSiPLsonjBu9i-Gq4Lw1g7NQvTrQ6YtlnJLgziGO_3f7gVthLBrq9REGU52MQOyh2vYaeOwg61UdC3HnhvExQ5XEEAzLbe7dOUFWImtVuX8G6VjUeVrbS4Ww4xC6eSVNiod96iyb4hwc4Hff3Kk4aEFIvDQs9rNgm4azHZi03Qu-s0sZISxboGHK54SPjESusH9M2XBFS34L8-wMbDXy_pA-gQMMG97rAr_WPAFOMWuge5Sujw-TW2Ro-PUHAJZ7ZL411lrRXgWJtoiWjFm1iAxHFgOFcz-mBoGTnF5qR13VhPFdlEYfC3E_0sLIlyxET_Zl151ughHSWJjnRezmH6n3fusxhM9SooG6uQNNtmpk23GfFxaVqe8swprqdBvPI2Ful9xRn8XK6hAe_6s-B9RItz_kGjkjNVLK_rqQI7itQMLNj9oOEBDq_a5tB3jFrzlxZfxeBN_dN6lMnqcyeoZ3yFE4cOzHDHNbtwYYkDsbIFMkGIUyEgP3JrM96olZNwxTe7xohFTjyWeaEu5QIKI4dRQJv9rU6RmA4Fzrgm2O00KPC6jfM5XElnfcU_K734o93QaV1BK5SzbncIfUP8yfYJIog9xAremlMA_M60dXCnhM-W2DwURr-DjU1JGbMZiysgXrcMof869-uNnfz9f0qlQEyPb6gMxgkUpe07bZIUQvHrVuLL_ya1xpkb2iOISul9UkbrU_EW1Czd3S4zHTztiUeWBj-zObkQI-rcOxPpjy87YjwCHsiiq1U6gJIXCH47eSb8su7egoaCOBeWN7QpWI0emvm3-FUL4gqP2IqncNET56NSqYi0TBnkumQGZuwzN5EZm5agdSvCACxFNtVDn4sIseWH6hmz44gF-OknBqNPK8WsDs1Dj2I8b1prl-6pvKcXFv_S9A_oOW_282IOSNHxRniDDuRDGWIpgDad3bNF2Y8N7utspCOcB34YyyH-bqzzdXiIdFYYhKgTBrJH5BeFEL5g39LJyD5JNFmwlkDmVKJ1Ovg0AAAHHU67OhFQ0frgX19yIwji0oRDAAbITtWSIDa50_IYUm8z0uklXvSZ9wVkkRpXZ_vipFol_ajdA7T-A2AweBqyKe2NcltxDj5AWYAcT-1yIGYstMb0ngiuz1Hga7B_2mmgxpp2Kie-Dzde0dnCTrHmBI1pqYStl8TUERHmFnX2SmRC51PquwLTs66GF45KKGigM0WTlhCx6qIEwgj7WNxl8f5HlYMA0w-bB4QmcF2drOOvh2kwDNf90jfrt0oGUpEAciGRMWy4u6UgDAgJ1AUM3nQldcIgrEajZwza4mh9vtzMr7w0vqDVQ7PccLKwYkzOfM="
+    },
+    {
+     "id": "ws_0becb9a8dab74c2c006ac5ede3773087d28439737f816df7cf",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:breitling.com/us-en/watches/chronomat AB0134101B1S1",
+       "Breitling AB0134101B1A1 closest references black dial rubber AB0134101B1S1 silver dial bracelet AB0134101G1A1",
+       "Breitling Chronomat B01 42 silver dial steel bracelet reference AB0134101G1A1"
+      ],
+      "query": "site:breitling.com/us-en/watches/chronomat AB0134101B1S1",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/breitling/ref-ab0134101g1a1.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.breitling.com/us-en/watches/chronomat/chronomat-b01-42/RB0134101B1S1/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hourstriker.com/database/breitling-chronomat-b01-42-stainless-steel-ab0134101g1a1-4799"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchesofswitzerland.com/products/breitling-chronomat-ab0134101g1a1-17531829"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchesofswitzerland.com/en-int/products/breitling-chronomat-ab0134101g1a1-17531829"
+       },
+       {
+        "type": "url",
+        "url": "https://www.breitling.com/us-en/collections/chronomat/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.emperorwatchjewellery.com/en/watches/breitling/chronomat-b01-42-ab0134101g1a1/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/breitling/chronomat--b01-42-ab0134101g1a1--id38594758.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/breitling/chronomat--b01-42-ab0134101g1a1--id35840896.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.ca/breitling/breitling-chronomat-b01-42-silver-dial-mens-watch-ab0134101g1a1--id40703553.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.lepage.fr/en/8050-montre-breitling-chronomat-b01-cadran-argent-bracelet-acier-rouleau-42-mm-ab0134101g1a1.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/breitling/breitling-chronomat-b01-42-silver-dial-mens-watch-ab0134101g1a1--id40703553.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=x9RSz_XuCl4"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=wj1BiTif3qY"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/193cq5q"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1v5sznw/wts_breitling_chronomat_b01_42_ab0134/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1mrvogt"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/19awkhc"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vqgabz/wts_breitling_chronomat_b01_42_silver_gold_ref/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1v6dpsn/wts_breitling_chronomat_b01_42_silver_gold_ref/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1jolpgj"
+       },
+       {
+        "type": "url",
+        "url": "https://www.therealreal.com/products/94306232/appraisal_report"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1dnccu1"
+       },
+       {
+        "type": "url",
+        "url": "https://www.juwelier-wagner.at/wp-content/uploads/Beileger_.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://aeworld.com/wp-content/uploads/2020/06/juneaugust.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tourneau.com/on/demandware.static/-/Sites-Tourneau-Library/default/dwf000c265/documents/2024_Tourneau_exclusive_CorporateCollection.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.breitling.com/media/document/4/model-chrmtb01-chronomat-b01-42-user-guide-merged.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1dzzylp"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/breitling/comments/1jz1nq1"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1pcqfla/wts_2025_breitling_chronomat_b01_42_steel_silver/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.breitling.com/media/document/4/model-28282882-chronomat-28-user-guide-merged.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/13me03y"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Breitling_SA"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wallpaper.com/watches-jewellery/contemporary-watches/breitling-top-time-b01-chronograph-41-tribute-to-aston-martin-db5"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Breitling_Aerospace"
+       },
+       {
+        "type": "url",
+        "url": "https://es.wikipedia.org/wiki/Breitling_S.A."
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0becb9a8dab74c2c006ac5edea556c87d28090b0a9625c28bf",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe30bZEl0wBurwQen-MzAjr5s__cTTREq9L0DHHVXuTMcMh-l2X3s1eE4Mzf18vpwBbfG2-bk7C3WXFWXz2ZyGCpc_05QcKmOFY67Nk3vbCM-iYRPfpL7IE_dLMPXtTRPAC-pkWC9eak7bLdl6iFu0SO6jVWrseC6b11B0-X4UDfV_d7KvQpTO_BPqnxXJvyaI8nZGO2wo8NSKBPTSdPR5euzd7CJhlts_4_V-OuKXifw8NOpWUA16A90vf0XBM8FLpCb-LfjbbS-rhruuSddmfJXYcZFleRr35OqpqxII8jetXRmYFoXHp6Jn8-zHTZ0WiKLUmLU3q4jDtHyIR9umrxI9OlbeEY1WSinj9nf9gIdTnE5pOL9VkEu-E54avFQ2Lfyci3V-o8_SvzG2dEuahN4DFM_-NiIX99pog9ELDDYOTkv8AXojDfGqBKwP8k9UH2qwy2NttMQ5U0KHP3a2xOFK6oRVWh5rFs2qnB_VjFRMS7rkMqMtVxyzrBQvLKaXZbaNtrYhqq7c2f1YsBjA9QwJ41wgldKDlg_G8VIPqG8F6mBHB7TMVbI8axxgz3a7LoqJ0mqRDaHpYnic75lbmV31ykg1cI1msB4UgqEB8XBTCn6zv-bpd5PXHpVlGMcdwBXMsta-icQSYS47D-9AFSKoGd8cKyQWtSdFx0d_nkuYic8IPAgDD4Yr3kZlemNay8i81Fg0I3iBIT94Cdbnzwid8LxXA8vV0zpCjSc1LaTuidKZuFz6yYd4qRrzHnql_E5uav-29k90rGe9E9-XMEH-J88R5v-j0tyBnmPed53Agxf7Lf7ivyjEORIIurt3Y1WY5PdMlaKwlNHVQ2rHmKFkQiLmS8zGdYesBZLVgXjRlrF_ubNsbsXjZaYm9QQmcR8on27Czy908tPmeZ1unHlAzLTZKEhe-MftEP7bk1cn-TopSP1nVRPiQOS-S2XuD86YZxxAmGApy8BhSklaJeOXrNMHZe34KWk1m7wILvTpV7Q5F4z-3tdGrCi2rUe0Uat8hwN-AXi53SZ4zdVilnp4xu-PVNrTthIoE_9dmszvxghG8IZBrBzjjQRNbfHNKLPnGFw9Vz5DbA6_ikURqywy_CUCoYZEEy0tfddgEcA1dhMOhk7LDXVOwK6D3SC87tTsI1e_3LFvZbhQKHzKdeNLw8bKDqlXDFrwbfzonZ1Fq2JCSOm9tMxNkbqNIp8q8ZGT3PMginJNolTSqYpV3ciuY182m7nXx1_5eJbYzeFMuEZKPVQL2H4kIpRzPANNz6fQjEwOckJm6mmjFIJwtYQp0x1gT1yMYNmpFrSS9COXDkLd20y1DMxXyYTlPoYsVB9RHXdrqkZFP8SEdBPz2Lgn_kFQ7yBZKkkgV8EcDsCm5BCqxDRrHkr_WHqp2UffNsUtq92ge-m3YscTq_nGNg6dLozu3CRfMEXOaIqLRr9gnuf39Fee9zVMmotMaInlG6SCWqBjQ4U5kaPmIk2tyK4AP53jRwbjH9OsoGZRJ-5XHkwMN6OM1ycj3LlwwH1vAjzyq1seQtk6gtQ82f4n2RcXpcrOi9frvMlwVjtq1uDSwzx3YR4d2piY5qWPOBRAGd08gI5MV2wAna9eyT_3p0X51IJ5FleSF5Exa3DhkAQan0xQNdYfxfwW1MGr0h4UblCcOk0WC5Zg-OCZx8lmG0OMU6Wxt5ifypeZdMZrhEPlcHMtEvNINMc4OyDzTvXfdCIduG4l9kKsS8hvxoT3V100mSlcEGfTV2fj0XkP6V3iQSUfiOdkoYcLLeB3iIY1fXahOn6rTGIz5EKp3j4UE3vDPLUza7EKb_W9X9bazhM_FqBXSoT_qG9DMyGaVDnVkjy5T8nbhL2kFGd7CPlAdNIU-KNl5XOblOlDHTuK_JdE72p5jIGRsrd5Hh56nZjPOPp5AEGGlrr1HcjWM4RMsZc_eQ3-rUBQMU0yaD0C7FFsg6GpyGhYSQ_45nZSIUwpyhKM4mv23Sa8bOWX85LzMG5rlf8R_B8iIdlZC9cJAVxCNEQqhsniOwiQRijmwkp0zK9r4DZXkxj8BKFt5LY3L_6T-_0VsOfiENwRvu53N1IC70IXoo0SmYqLKlchRg2s7b2wj3v1YJoddWl_PZOCsFs8t40NkJC5y1PVJNdHe23dPZAzZDIMtD_Dy2GoLqguy9o3ncW4khshJMCumiYjdnQqm0yEgYMYwNl-8_KsQjlOqEzRyNhnjOl0efEj9bcXEysuuLCHmWoGpd7az2kF30sB-94YHzpOxjWQMztv3fvpE="
+    },
+    {
+     "id": "ws_0becb9a8dab74c2c006ac5edecc2f487d2b75ee5dc2c306751",
+     "action": {
+      "type": "search",
+      "queries": [
+       "\"AB0134101B1S1\" Breitling",
+       "\"AB0134101K1A1\" Chronomat B01 42 Breitling",
+       "site:breitling.com \"AB0134101K1A1\""
+      ],
+      "query": "\"AB0134101B1S1\" Breitling",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.therealreal.com/products/94306232/appraisal_report"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchesofswitzerland.com/products/breitling-chronomat-ab0134101k1a1-17531831"
+       },
+       {
+        "type": "url",
+        "url": "https://www.cortinawatch.com/en/breitling/chronomat/ab0134101k1a1/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/breitling/ref-ab0134101k1a1.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.cjcharles.com/products/chronomat-b01-42-ab0134101k1a1"
+       },
+       {
+        "type": "url",
+        "url": "https://www.therealreal.com/products/watches/bracelet/breitling-chronomat-watch-ri730"
+       },
+       {
+        "type": "url",
+        "url": "https://www.maier.fr/marques-horlogerie-bijouterie/breitling/montres/chronomat/chronomat-b01-42_ab0134101k1a1"
+       },
+       {
+        "type": "url",
+        "url": "https://www.jomashop.com/breitling-chronomat-b01-42-chronograph-automatic-mens-watch-ab0134101k1a1.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=AuRxWKLndKo"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchswiss.com/brands/breitling/chronomat-collection/breitling-chronomat-chronograph-b01-42-ab0134101k1a1/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.de/breitling/ref-ab0134101k1a1.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.bobswatches.com/breitling/pre-owned-stainless-steel-breitling-chronomat-b01-42-copper-dial.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.bobswatches.com/breitling/breitling-copper-dial-chronomat-b01-42.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.thewatchpages.com/watches/breitling-chronomat-b01-42-ab0134101k1a1/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=Toq2zfIEaHg"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1vibvgi/wts_2026_breitling_chronomat_b01_42_ab0134_new_in/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wxkp16/wts_2026_breitling_chronomat_b01_42_ab0134_new_in/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1w4hmav/wts_2026_breitling_chronomat_b01_42_ab0134_new_in/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1v7nmme/wts_breitling_chronomat_42_b01_ref_ab0134101k1a1/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/v9bp5o"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/handwatch/comments/1lhoe5n"
+       },
+       {
+        "type": "url",
+        "url": "https://forum.watchlounge.com/wcf/index.php?attachment%2F601407-breitling-preisliste-01-2024-pdf%2F="
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/breitling/comments/18fs4q8"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1ixmzag"
+       },
+       {
+        "type": "url",
+        "url": "https://auktionen.eppli.com/Auction/Document/67e353dc-a69c-4146-bef0-7de61ec4e9ab/2021-12-04_auktionsliste_schmuck_uhren_auktion.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/lx4wgz"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/le8f47"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/l8uo2u"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0becb9a8dab74c2c006ac5edf23fa887d2ba453be0b6d753b2",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxe30-ZthkNHXOUH25XwblKQmbXFIbRhu1oAqjJPlekYFynBJQTsh1ZYTuMC9v8jyz2syoOl_344t6RH0BGV6W_ZP6oXUScvNCb_bgNLZfXPiAqttP6DpknWgZlDiu7h3j7ofs6xm_Cjtk74EwkJHxtZ5dkXFXqIF9KHMKPesxJ-wJTH467hOWXOXOwiQo5YXy5lBwKJx2o1GHPGvqAO01Xz6VKQLocEe-_deGgWRAkl-lHmWHsr-BWVNcTwJf3B1q1DSyqZe--7HX36QK53fhZR9jPTWyi5tHAtZEUr7Ux3KngjU2_WsaqFIAyMemOyKQz21u_Qve0ZVhCIRu6f4JG4T3QyYUk9yFm3shFS-4ngPS1O6F37qYnZbm4w0tP1qz59Lmjx8JaZAYBC_UyiNVhyEPnWKx48Vakr3K7SBdPe-PEYsy3qNRrSpiiMGV9i8fToGRViYSVZ6Ytu08m-4xN30ra-ILbvSDre_4YdSxSj5B5UICjRdr7c_ao3gi7XNQIWzMDmtI-8r7KwSdkmToDvzBB74jZvckCwQsaJUDQQHPnbuj2MCkJPCpP4HpWfcpxRJ-ywREN6o46Ta5-Kbj78yO14QnFp9IVpwkWYLAuv-6J609h-zhGSEaLFyrB4wIdvwY6dfUoLttp0FTd-iTh10W_k4UgHnTmMOoqak0pLfN2BvIKzI7U3TD10xz8hzCZabMoNPoJGbSMRMonfwheLFnt7o7ZnvvnmGf1R5IkSgKjTSuwnI1i-9lOzE_5PADScV9gtBGO4n600woLz5YSew0CnfNvAFiLlsIaxzDvDuLtvcB9RpYJjZEiXkRYHuhyhMRYqV-NBd_y7ppAFVJbCi7h7YJvbr7jBR7HA7r6M7GAKPCo3Yl4eNmsJ4eLr11b_MbEWwRghCseJAnhgC4YrzIlvROMo978R5xARyC96JT0uk3Yl68xlyz3bI674xzciqOWj8FcU7ADYxJO-sMJrVix7umFyR3zB5waALdYTstSFCZ92bUgwQLs1BZccSl1gzYSRT4YYi7m5-F3RqrPAMlqdB-RCfAljgyaKIBb-cGTYgFLZ-HCRBJ7u7M27O4ZS7-FkucohrM2YUibleirvbvhhESprZ3Zk-iHtJWSap5ajDX1SY3swZZ5XixZvmOl1JCpiA0ZXC2sAgB1-mGqgaTmJ8gtZDDMqJH0JQgFxIQ0NHdOeWBdxA6n1spX87H8wYns-zyIeGluQb36Q6b2VlOiwoJr5urHrQn15VvfXngCXt1TRaktaIJIbmnqhqPd805zu8E-TJMg7BQWK0g-q4lnjk3rNxyehx5xQL9FwBjAVrrzSwpMlhGMIkkfJnUybo94_ZtngPxecISqG8cnBBc7dHgt7mN_0TBL6_uIXbk_98035eEeIRzj5dODu6k-lZPf6i2EhMJba-GRypgxlJcYBRKfPcoZZq43h_Pod4Iu_nm2YNMUkrAgM8adc-nbQp21B_0WdQk8otPRq9ha3yGMuX4nTA8QlZLlttThlzXsWSbD4yHEMjckDNkSC0xfBXKwGzNWOy-LEnD4HUPdemwfix9RjvuaZhn2M_0VvgcurcYatRwn0e-mp_76Kn0fiKk-oRwvwM4BYWzZnwqzzFlCEGJ_Ofa2L02IIi_90-EkB9AP-lFc0lNhD2E9y0je8nG8Mqh8BfTB5xZ-5yKS4_O8umasKFNZsdZKHmBLQb1dFN02BSreQ9GpnH8aOBkeFFatPI4-WIboTXq9dHDSknsdsFs5OGB2fa2RC6211ZC4lATYUhMrJK107Y753pA3Wl3FjvLPdYLN_4WpZ6LM6obQfla4JLJx3-nwlkRaaVIA6CZ1yR9JxGZ4lTksyC6-RiJDIe5ntstwviKFYB43mR2P5lANzAb83X0s8EQnLj2cSruV0KCcmCAmWzNAaDBlxdUPtGi3zw5RaoQ-sePGBE9yQl7OCXqp6Fr3sejjHvOPq-fNfA2EWb6rptDv7j3VbKLslRiJIC0uGHjR0XF_j85_I6-CybIBfrXB6GLrTmIUf_t8_W9TIJEbcrX-NM1rsAW2JLD_Wmu96KunG-3RUlS170W-kk-5BZJlYhoFWy548wDOVW1uDE6eLRALcSh3PF52oWoLwVmvI2Uc4Xl590OREpBZCbjgPTZ4rifNKZ5w2iXhbocdydEgxEGvMTq9Nuu_PvGNO6oBdOXYDVU3yMTPhjkrVZDx5CKUOCNxrdc1VVKYS8Zr2YnzL7mK2r5cMgwaS0zARyBLhPPdwN8tsxIxTvh8SX78OCiN4SY1tY3jBDdM8rj55Dpj0KAQ-4pa2J_SkUZv_D9ohBCW_rDGTpui9nWUVYS13N87tDmOSQDFWH5Ns3z0s-5Bb-5fJ2fnV1reVv0Qr8hTYs8ygSFS-qmUf6JzU4NwN6Gf6bBOwQbYmK6BX4KpaGyhjkvvoy0r1jCucWSGrrFIb8wpM-m3g7eYs0MRdxMX6gth36wK_oG6cNyYtBEkkW4v5temzut146dQ9AYzkB-5XLYecv4-81Yp53Gnvd4khxDTjApS5Q813aC9hgHDW08SSbB0XyB9xGIeN1yTsRXR703agy6IhxoqML0tCrJXOapbD8uKpXOx9IWmiM4KqFTY3yF37THOllNpOcybYl_Km7RyCnOCK2-cVtLeChlMUmVg_63MAtCIkFrPrfMX0F7pnHNimwSzvBJrFtXP0yvnipnCITAXocAWL6ehKIZ2D1pRFivdqsxu8="
+    },
+    {
+     "id": "msg_0becb9a8dab74c2c006ac5edf35f9087d28a1cb959cab0577e",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Breitling\",\n  \"model_line\": \"Chronomat B01 42\",\n  \"dial_color\": \"black\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"bezel\": \"Stainless-steel rotating bezel with engraved minute scale and rider tabs\",\n  \"case_size_mm\": 42,\n  \"complications\": [\"date\", \"chronograph\"],\n  \"movement\": \"automatic\",\n  \"printed_reference\": \"\",\n  \"references\": [\"AB0134101B1A1\", \"AB0134101G1A1\", \"AB0134101K1A1\"],\n  \"confidence\": 0.98\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791356403.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 25659,
+    "input_tokens_details": {
+     "cache_write_tokens": 2002,
+     "cached_tokens": 4723
+    },
+    "output_tokens": 1141,
+    "output_tokens_details": {
+     "reasoning_tokens": 981
+    },
+    "total_tokens": 26800
+   },
+   "user": null,
+   "billing": {
+    "payer": "openai"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 3
+    }
+   }
+  },
+  "search_requests": 3,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "row_id": 26,
+ "image_file": "026_patek_world-time.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_line": "World Time",
+   "dial_color": "grey",
+   "case_material": "white-gold",
+   "bracelet_material": "leather",
+   "bezel": "smooth polished white gold",
+   "case_size_mm": 38.5,
+   "complications": [
+    "world-time"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "5230G-001",
+    "5230G-010",
+    "5130G-001"
+   ],
+   "confidence": 0.55
+  },
+  "raw_text": "{\"brand\":\"Patek Philippe\",\"model_line\":\"World Time\",\"dial_color\":\"grey\",\"case_material\":\"white-gold\",\"bracelet_material\":\"leather\",\"bezel\":\"smooth polished white gold\",\"case_size_mm\":38.5,\"complications\":[\"world-time\"],\"movement\":\"automatic\",\"printed_reference\":\"\",\"references\":[\"5230G-001\",\"5230G-010\",\"5130G-001\"],\"confidence\":0.55}",
+  "input_tokens": 6698,
+  "output_tokens": 137,
+  "cost_usd": 0.014766,
+  "elapsed_s": 18.707,
+  "started_at": "2026-10-06T13:49:44.379192+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

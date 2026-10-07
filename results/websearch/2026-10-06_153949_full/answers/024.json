@@ -1,0 +1,500 @@
+{
+ "row_id": 24,
+ "image_file": "024_patek_nautilus-moon-phase.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_line": "Nautilus Annual Calendar 40.5 mm",
+   "dial_color": "grey",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "smooth stainless-steel bezel, brushed top with polished edges",
+   "case_size_mm": 40.5,
+   "complications": [
+    "date",
+    "annual-calendar",
+    "moonphase"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "5726/1A-001",
+    "5726/1A-010",
+    "5726/1A-014"
+   ],
+   "confidence": 0.97
+  },
+  "raw_text": "{\n  \"brand\": \"Patek Philippe\",\n  \"model_line\": \"Nautilus Annual Calendar 40.5 mm\",\n  \"dial_color\": \"grey\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"bezel\": \"smooth stainless-steel bezel, brushed top with polished edges\",\n  \"case_size_mm\": 40.5,\n  \"complications\": [\"date\", \"annual-calendar\", \"moonphase\"],\n  \"movement\": \"automatic\",\n  \"printed_reference\": \"\",\n  \"references\": [\"5726/1A-001\", \"5726/1A-010\", \"5726/1A-014\"],\n  \"confidence\": 0.97\n}",
+  "input_tokens": 16903,
+  "output_tokens": 1054,
+  "cached_input_tokens": 4723,
+  "reasoning_tokens": 889,
+  "token_cost_usd": 0.0017922300000000001,
+  "searches": 1,
+  "page_opens": 0,
+  "tool_calls": 1,
+  "queries": [
+   "site:patek.com 5726/1A-001 Nautilus annual calendar black dial",
+   "Patek Philippe 5726/1A black dial reference 40.5 WatchBase",
+   "Patek Nautilus 5726 black dial steel bracelet annual calendar reference 5726/1A"
+  ],
+  "source_domains": [
+   "patek.com",
+   "essential-watches.com",
+   "bizakandco.com",
+   "watch-wiki.net",
+   "fratellowatches.com",
+   "the1916company.com",
+   "wewatches.com",
+   "watchcharts.com",
+   "timeandwatches.com",
+   "static.patek.com",
+   "iconeek.com",
+   "everywatch.com",
+   "youtube.com",
+   "manuals.plus",
+   "reddit.com",
+   "electronicsandbooks.com",
+   "api.salcedoauctions.com",
+   "it.wikipedia.org",
+   "en.wikipedia.org"
+  ],
+  "elapsed_s": 14.154,
+  "started_at": "2026-10-06T15:44:34.297206+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_0409b75299b6384c006ac51762e44c87d28e2eaeded590d703",
+   "access_programs": null,
+   "created_at": 1791301475.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0409b75299b6384c006ac51764ec9487d28846555a4c346e29",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRdwpn-MheT2hrALL34_sMjZxYngGWr9Q0yPXa5QOF6KmIM2KwhWrsEq1Hj7Kp5mYfsz2P0-Vo3mwFiyxaJAqOg5n1pwQMfOTfrrHFZAHCR7BiMLL9-BmUQJkS-fS9cpfgZGL_cVwvNUoBlefIpYmgFG8km7LnSwGcdes_g6bCtSAyqz1B4KIrHOpfWwN2cjsXc26EkKr-XNdXGYYTukarAlyclXiUWwW7bWpecpOnxaV9c0W5ZV0pv1iD5ydJlIZYsOio7KUZg_nzXFWzT8NHXcxhK92LpBv1tq0EQoFhPmyAMnzKQOE-eQwCpilRvP5uOqg6nkVjj9aKqqYsVnDB43JRL96O9doKyfR1vZjqZhp9D1naNfqJyXrrhHYL02E7oMVTaHbCAO4uy7KR7NGQa7ouY8a5P3XoQBZuHK3wUUW5PsC0Z6PfGePU1-bCz6jSECh9CHrU8uHBXjbHBKMdNd_AniUanPKHbuLgMV3v7J1Uyv0LOgsKRR2DAoZIzO4Z7fgLnoRFVuFBF6I6OhHCTXBeqpY_H9pOtBtSvVSGgR7J62tf-R3_phuZ8CKzYPypgB6ME9e41mFZEq2vlUSunY8QilKCJquv14UUUjUF2TJriGPziD1HQNelgWp1fakzTunj-ytqfn-lgAAPtqG3Z7X-0wiUQ_uhb_8uyrF3NVDgWoqG_V1P-S3otWsF3bklMZ3-1yZiVfTTgLmiAtXAyg0k6VqxglOKn1P53Oi7yTjkxRgwBPSXAJHEXYkXvMKYoraocbFYY-t8hg4p2C3tn0KmVZ3S-9y7XyfzjyTytEwUyjlfZeOnUZ4J4siFcP-8yuPZiDTUyBaJXBjUjX-MBfNgWZ870dW56Z_XtvYYMCGGtZfXFa94_oPYBh_Fxb_3haRr5QGB_-I9y_BsMDa53WgS2SMHXznrxrF6Beuh4xW8_gOt6xVwYmAIjooGoNuVWQInNMXV6bvNCL1OgoFXOPoi8UuqmrOj0UWxKcZ02lGMW0cWrvQ-_BHpqcmCCziOCxlv7yRDNnI6zy7sJLzSEDshLD1hQOEA9OEAcXI76fgPVGi9Bp8n1MSP9nJ6Z7R-uIzx5gS6_6um9q1_Xq3TUSuy3zYkU6KY_qMgbeHmmNc3o2wqfcnW4x5aosIA02eSk_fkoqChOX10i_g_Xzxd1zMRgGM5I8-aJ23JyZajtCeT9p55md8XHXLNATwZ-_DP0XUjKpzHbjGTGlHcdmYKjkTP1ajzl-iSZ-EDx-mrTx1fPDTgIB6JSJuCyDchtxcKhro9FSY_0D13Esfx6ObPRrYd6U9WiJvXzId-PF0cixmfWC2E0EnQUNo9HeHcYERwCy9Hs3nHlsDPC8LXxeOzKAwZLvn2df5CC02PYj9GUGqd7OAy2eNUdlESlIyU0PFv5qh7ONf0ksddxfeoQ9IxkcprKus3IHM0rjf9VGuoSctSzQq5BoEMgP7w-1TjuS9oFX4foO7cV4EHXiIjb9nv6WpxqoeS_zK4C2OSXZtE6S9_K63x5nQzYXuUpxWY2QLnx-2fHjK72cci7CqrvmbadKz1Kvn6Sfi8mPv_R1KFhm8H_POxNqtzyiZCWRYDEUKeIKRZzErxJfnec13ejs4RpkySO7MiMJcuOx_Ztw0GXYgEO5nqj8KUrgMsPScS-8CosIsYYl566vSu3G1slMDN_ckfEmEzv8RkYkD9buKmd1PQ_xxddDhzWQyd6lPS5wI6sxLb1sGFvqUqKI5OXP7aMt_zSl35xcl3m9qBe553XYxjD3qQicgzWU30I77cbKfzxRDu0paADODvsFah1qf4wb-o4xa2IOTk_qd-bJ34OLzkLshoLxKTW0Gu7-q2wiSaF97n7318cv1AZONmH7jWyT-u07s2TeP7ooUEwYlukyCoaotWwDCZHCWIvGddkdAjk67Zg6Hgzkpp6YA6LJfrs7fwAGwh3ennmBjN-e9XVPMjE="
+    },
+    {
+     "id": "ws_0409b75299b6384c006ac51766a24087d29f973a57abb901d1",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:patek.com 5726/1A-001 Nautilus annual calendar black dial",
+       "Patek Philippe 5726/1A black dial reference 40.5 WatchBase",
+       "Patek Nautilus 5726 black dial steel bracelet annual calendar reference 5726/1A"
+      ],
+      "query": "site:patek.com 5726/1A-001 Nautilus annual calendar black dial",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.patek.com/en/collection/nautilus/5726A-001"
+       },
+       {
+        "type": "url",
+        "url": "https://www.essential-watches.com/Patek-Philippe/Nautilus/5726"
+       },
+       {
+        "type": "url",
+        "url": "https://bizakandco.com/blogs/editorial/patek-philippe-nautilus-5726-guide"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watch-wiki.net/doku.php?id=patek_philippe_nautilus_annual_calendar_5726"
+       },
+       {
+        "type": "url",
+        "url": "https://www.fratellowatches.com/patek-philippe-nautilus-5726-1a/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.the1916company.com/pre-owned/patek-philippe/nautilus/ref-5726/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wewatches.com/en/encyclopedia/patek-philippe/nautilus/5726-brd-01js4qbpx7eh9b1n5gfe2t6hrr"
+       },
+       {
+        "type": "url",
+        "url": "https://watchcharts.com/watch_model/22877-patek-philippe-nautilus-5726-stainless-steel-5726-1a/overview"
+       },
+       {
+        "type": "url",
+        "url": "https://www.timeandwatches.com/2019/03/patek-philippe-nautilus-57261a-annual.html?m=0"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/en/2016_PatekPhilippe_Nautilus_40th_Anniversary.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.iconeek.com/patekphilippenautilus5726steel/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.essential-watches.com/watch/Patek-Philippe-5726-1A-001-Nautilus-with-Annual-Calendar-57261A-in-Stainless-Steel-on-Steel-Bracelet-with-Black-Dial/47962"
+       },
+       {
+        "type": "url",
+        "url": "https://everywatch.com/patek-philippe/nautilus/5726/watch-14317900"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=bbzn8MWD6aQ"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=e4aGL9DcvBI"
+       },
+       {
+        "type": "url",
+        "url": "https://manuals.plus/m/a02c653138265f89310cb16f736ba152d9f0464109671177dad99627fde8b654.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/ppmagazine/en/PP_Magazine_V4_N2_Nautilus.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://static.patek.com/pdf/pressreleases/en/2021_PatekPhilippe_New_Nautilus_Models.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1j95ail/57261a/"
+       },
+       {
+        "type": "url",
+        "url": "https://electronicsandbooks.com/edt/manual/Art/Auction/Christies/2016/20161128%20HGK12578%20Important%20Watches%20Including%20NAUTILUS%2040%20Part%20III%20%5B1%5D.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://api.salcedoauctions.com/assets/files/pdfs/IPA_FJT_2020_Ecatalogue-small_compressed2.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1ntkmlr"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/1tw8n3s/patek_philippe_nautilus_annual_calendar_57261a014/"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Nautilus_%28Patek_Philippe%29"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/hlqw09"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1w1y4lg/wts_a_modern_icon_patek_nautilus_57261a014_full/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/kht86a/patek_nautilus_57261a014_look_what_arrived_in_the/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wszhxs/wts_patek_philippe_nautilus_5726a001_annual/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/1ihobev"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1iho91f"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/patekphilippe/comments/11jam84"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/1uy38lj/wts_2026_patek_phillippe_nautilus_annual_calendar/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1nl3hp3"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Reference_57260"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Annual_calendar"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0409b75299b6384c006ac5176c6fb487d2a0c02817e2257d6f",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRdwNfzqtiDXy0CBAoMye51sBNk8KHisnwlIjZ0RyTrkYe2hSJznvbvXoahtEAftLd_-1dRyrqyHdzZkMjdbbNy6zxgiHTRnzzXa07qf1ft2wyLw6sUNCug7temYZHuL6Ev8j4B4ZgPoGa88SF3-h8KQ10N6A9Ip0CN-ipZtumeD3F3ocAHOP7MzEmTFI51T_n1nzzh2nvq1bPBTDi10wy6g3QlfWCp9ZIxLACt0JacGm1h4WPR5JmVy_kzTP5M3wigAJXrXEr8VrgXoleu50jriE1gFf7WwaqrrjPwL9kgO2U-oHzLvy3s4MtkiIQxNDLt8tU3-hQ-J-ejytuJn3ZmErTL8SurG3lcqT_hFDR1g4R3lU2UZ3I9Iq_bIPXJdGb94jO7Yb4jMvg34O4IJvmQSxIrL_25DlfkEaJap1KTgaER5BlUSn2LCyshOVSr9widKhtYthsdWMnAOt-f0QbnOHjWQ3ZDIo9Y_RaP0VtkHoc99w9lh7C3Jn7JPqyr6Mbkl_AyEa9WfluKfFr5yvtkIN5HFctkKhQStwm1ogdXXd7nD-pcNbHlEwCG4-hHHaREolJ4ibx6o5xBzQGdXPs-SLXNqQlmxLVyE9rrQNQRyyI-tnbzYfrm_PVQxqme822iTg5ayjpFK7fBuHcoYR4ocDCSTs7ZCQ7GtFSO6BiTT8qOHrCpocFQUgFsO3nH3btqkIbb-km9d030HCaV_QI7e2TuPUSFj7_9o5Fiq5k2FfHlm1nUIcbviR48M3uPiuvzMv8WH7O9lglT11mCAoNINyVbWbClEO_lRh9hVeXFfMORSmcL0whJdmlmvRyt8Y4bKRnbHhHdmQ7HBq4jYd4brk2JHROrVnqp75B4PLF9-9ph18hrjkmq66wIiey4mxXoLfLQ1wYxalEG3bLYqJSSxtawZ0bKENrmfKa6i8knllT6leKWFbsb1aRLwiDUD01u5ELG7ujAAra5HoQEwDvBRMsxzUYiK1Ew6yW66pkK2sZBZosQ_LZE9uZOB-JyZ0iQqKOP-_ot2SNqw6RP2x-MaYgfKHtOAxQNE7Z9WPgFax5SUWScl1okWute30o7_OG2uuikW_bIpIr31qWBY_C257QIQVd3HBhCrCrjf61Fj8PmABpQMk688FHzyInIslPGxBzGdZ8qk3e8mj2a65vue2ztTOH7v_lOeghMuVX9dB9tcxzJmzBP2pb49QnElA3EO2pHNNKhOlt4TCISxtraI1VQMC-cdJ6Ne4i5S5cx8Kb2CfVkU1b8x6lW_ABJNyN_oUwfBIqZw8I_FgsL8uzTmGYwC-kO0L7ldMDaknXiKCgjmuXmIXpwgvLUV4YcdBut-0bhHvG4EDLS6HJ73-SOoD6Ii4YDTwLOFJj8SWqGM3qx-1mySEy6zqyhXm-bU7w2SvAQ4YpIoDN1DLhg3XdUkOp-NJI_PRnHzVYK8Mcl0c3UNh1eHcYsoNcis0QygMbD-z4VIYTK5oFHrsd9UfiSeyYv9O7fRIVKffsmtz_DiReucX7LCXLt_6tKxoLAeZOj4ddL0e3PJOrM3gbzxBCg6KIlnwjaqKP3GfsLZxcLVkEcd0HQ6O6LEBoi3XLakvBeIKffNhJDfNGD_j5cnF-F_T5wjeNuz291UO_eyYuweug77oTycw5AZuZsaSBdCVHnkDYVvb-cVizKhCuWVuqijyrmbr3ce5aPOfst-wRQLNbexrw2CUppz18eGikSwux020Vw9LO_xQPx3k89I76cd0gy_9q6wlrvH3cCBgriAs7GMUWWwAqCu9YqZejQhQI5pNhvNMQ0G7TVnntgijthamEWdsfQdjn-Q_GoFCpmdc8u-mhdfkiH0mfbbfZCEyHi_pIZ8qPgdH4ugbD6zBndWYrvZS7VndJl_60CW7RTRZlKoKqZbFzQlWB-SA2uiaA5iooWdL_PpRZQ9SuqeBxFdKgCr1K4cQnj2owZl7QANDGjD0hyglSY-c_0mWCSxwE1G9dpYWblgDKL0dVerAvY-BBa7QymI7hiN3CJj0gy1uNbvqc4BxQXOs2zZ832cIOXwm0Ql-kNu0Quk8bEpieTFjWkQHqKeZQ4vdicSWDxgmF5GbidPXZHxv5JZmTgMg-PAT5SPIU-1zPUMeXCGbDkwJhChO2-LQv6Xj5mv4nDk2CHmiql-cB5-z4YnqHgnMc9icVI4Hh8coblxVLa0aIgSIhx14eRe0dWyv2F3ceuvLZYc49M5tgIK3AgGJAYzqH8PtHlnHhdUjT5u-wFxBZFArKWkG5Bl_bjivrMlQpnIcgli9dJF1p9d8dzPzKbf5Kir44ayrtSZJq9TrBEBoKdZDLlbkVq-0xP6dLEgEcvDyFcMnOmgligRTROiCwmFYBS20MArqlbcUoHhMovz9oe42HoNuJb2JIfmDLeb4BnxhZXsIoqHRzDyN3FxgoWVxqXw7bw1TIPW_bZcA0DyR0KsvZoHxgHJof2L19_WFVfZp2pD_XXjuMLOCgDWEJYK28pcwafuiTPwDKNR_ROVXpZ6NqNttMj0DDDBTJ9KlvTD9avb8ILsRpAvzv-xWI_48_t2VeUxXaS6HMnesFg7lLBwX4pXWfCBF98kOUv_PcCUmrlL36TgqtDzFHvhbgVW87jZ95zQ1ibuNs1xqpZjmfIjzX1exn4sklI3i6IFlaiw-H29YE6v96nAckyGvOefIHI7vZz6oclPlw_EYAvQB6JhA9Qwyw_EHngO632_wHCYwLtPd1BzxrZ1DNkkFvA3POMQMHQxYaxxTSqOmCHeF_KDb8Bxw4YIbR93IFTdft0iGpdhxMdyIO1M4OgXE_LDYF_VnMhdh-O1ywaPvG69mQrvFvpjSS4NuZwhElOgErxz4XLNBlPQgXYJ38nXEt5I-VVi2VR7PRCd9eQHhcF9AVeONPiAxsCd0Sz7Bfdzofd0wXfh58YxpSmXREsd7aRQAuCfEB6QzBArrr9hCF26v6rbRt22cBfqtybafR0AICC2ypmjbcdaOZfYbP0FhvqaDpW3otObBFJvoOI3-r9UXm_p2E4RWDIVTuaq-Af1S7S4_opXskHwn5cgtBg0bki67vabD6IfkX6tP0_pil8MT5s_LUsoiVQv9XFqgNuhqCRBb4_vpVKrfy6YnxWh2Fbfy5rwtkvZ4x7yiOK1DsLnWwCKEXr4irA7XYKcsKLl_U12lzr5CNCPAaunZrbvAR0SuHs-bHQNx0oKuNqLMqmvWvhAPqCB5upAY_2am-pMmRPR6Lg_293u916LJjouOwz9skDaQYyF_l9gdX8pDb2csuqs-ONQALHEc8-3wGL8KIWCRrunAiG8k0LmhnTKpBjCqyVBotR5aka-DRQ4fHURwgaBRSkwHsXhWPh62r_OCn-bmk-hf9zSOfRGdp5cmcFIt2jSKTne4ZNwPmywm7B0ExPb-1fHxzcLg-UbmErokRXE4pwbsUXFIX0Utokf_DundjbyVSO6a2CVNWw9a0pdLKtw4AOWXWLQ96us5hsL7DxPY-m5U1ee5ClW77ecBHrMdRhp666TIeeqXhTrdOnWpuJsr6rElJWcNkxAuF9Fgd7VVs0bVGSE4QJ6g0AJgPiGf-_nTZBwYU15Z2E-vKAg_th4amYg-NHuHNLvjxmJAupDnfRaeiMygpp5aFRsC-N4CJet0A0jjGonHyivrsSlESWT_u2vMc0V6TZIBIHtw4pbvgD87bOIDrcLVJWrlvsZlNrjqH9pxFbjtqUT0KzFlMOrqoq9Sc-znbSh9u9jxUZ9BdO0_J1BCGx2BJYJdVaafglX--a4mkPDRxkT2CdFs4lLA_IbOPenZxfyG4gD7cEAyFCA9BmLujdjpYWf6lRE8HRWfQ6y-viJiZvjBv31_Xk7-4uMeT_7imT8i_yvWSBGWKsIwEGj-K2FIm9hk-UCLt8L4AGxG9FImrlUevfSTWwjJGQIaZemLDWcKlJzFeMO2p5UabxjmtzU7sG5K-XNftitt-b8_D7-NNbCNR7XioMBaPqgcGyKWwd0eAOiGnmRbFr_F5pHsbR8NY2nk0ctEsiE"
+    },
+    {
+     "id": "rs_0409b75299b6384c006ac5176e553487d29ada7109e4f0c113",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRdwXCU1Q1TqPV_mG2tzDiAG7heD11Dtv61xFXy5IIOnOk5AH_D-GLyv5AwHkt5ku6KhMFU9jPANFEv4Cb4eU5dc68OJ4GSzaIW0j3r7iQEejasDRIjdHbpSt_1QKcDSo29PccCXQvyHgXMmgCQjxFjYr9MzMQ12bkJEthnN5ErFYe4PTGqupRWvd6wZRQrFv7CwfnPqmny-V0nJjBL3hsaYKrBZ-OzQ8QHzT5Sc-FlpZCyu5bJ1eLsZMK4T3vi5xOVm4i8T-hcdhnKHTiy2KHuCmDxbAfrJRtDAvYAdLsi_RySAzdEGblBtZQoqFJ9XGEWNmvN_j4uMuxU-3Mlq1ttohlgZB6tRaWvt9mLiH453-46DjXvVb0YThd_34f-jpziLQgFOyaoSj6C1u2npJJqKIC4no6FMTD6paiBfzi4-JRRQymzX2bB7GOewLY6T8SUMy93A7okMVzt2DAZezQXQT0bdg48Wr79OnFdloy2K51FEnUK_zyRPJy-V7wZGnc6Of-ywdunv3PjmRsDyQ_qks775bx5sdLEc9M6pRp4pD6Ha_aXnbgwzY5d8Hr9CXtXdasG0J3EgYdnYa8QTKzJWomYaSCYzFzZTqul4jRTV5bGpAhfWeVeyYTPg3EPWk5F7TC9PQveVgbGpMQmQBYEzoDdD1zg8-U9J5Q9Tj7zdnelEpb6_dsUTJvhVMMdXq-6uCs-6fiPVshda_4hVfwwdyUHPU5vF58KtlQimY0Xhy4zIvtHmcb3pfrx-kYCP4mWlRg0cGkaptLP8Jh4MXiili0l7goKEThikoABBrT19dH5uXC82hg1PxaUB_CHnfUhkmLGgVfJctLh0__pxqfQTVBU4Y2HwhiZWk4IjCEdF0mI3IVfxYTDqJ1N_QCNpNHxiuef0v_2DGSi7RbRhl3wkfJEfdpHrBMNr96CvukSlrZzAh-S5D1WZkWypQ0NZn4X3qg1OEjIfDPNqPQXp3fQ4QHDWdoLJ17xZaopry_i8Js6e3mCsDgpuePEh8KPl5bfh08yzJkBI9IA-UKdPBQn5J7QaDY1mKs6l4W6evfAedcSwIlf9qwEDOIMIEfNfNWdIe5xPrYJIgn28xdOnEs8HTsWeHjqEq5GwZGPCCmxaPRwBvQVZ_I2IW5wV2E0LJmk761CVBs1PqfzYxZWKwPKHY81XDMFOFUTPP-fR2AIQO-6wb1kAjTO6-AUZmvV-yBDmzabyt7Cjdi6gbKz2gnxdrBTVyk9j36_zV5sZCwjYYAOyvB7k5RISsCBMdwd2G53dWf05aG49LHffeKf1kniDc8zTtyILgaySmF9t9yYdckQdTvwE77vOPsnRp6neYpvFKidLgsm2B1aJOggVOSVZoVqFgUQ5agtx1Htiol6_vMs9NLo49FzogE6l3IPplhUSNzCGD5V3o1UBXXz9qm7PN8-Z8oCaNPC11iH13SZOxgLWOrhnz5C7UlRmPUObcSf2UCqPUxgI_Y7UatO7--dZVQsJLYvblzgbrcqy4O31aSHYKGRmYmnUPEfg7_xsTdlkys89rLrD62vTStah9wbgbLggb25TkvF-F4FVK32xqXd7esTjaaxwH0WJPBE_5zfU15KfaUwxfapwB_o5CvoHXVL1oCR4WD19Wst8Tq_kK7kkwCs2hp_5PVeft4XPleTbnGi6zB2E-zmYPPKX0ukIGFwxLYszANrGwnsneBZzHmGD7W1OzXSEIPDTlrHZp65EQa0cQUnUkp5XGyy4mALXep1GuE-HwOSMMYXtkzzY3bHRT4evOnnQYGhkcSdDttt4LhN8Dc_MEope_-L-6nPvcf_Mzmptug0cazei1R7CAHc="
+    },
+    {
+     "id": "msg_0409b75299b6384c006ac5176f38a487d2a24d8a8d1aedead7",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Patek Philippe\",\n  \"model_line\": \"Nautilus Annual Calendar 40.5 mm\",\n  \"dial_color\": \"grey\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"bezel\": \"smooth stainless-steel bezel, brushed top with polished edges\",\n  \"case_size_mm\": 40.5,\n  \"complications\": [\"date\", \"annual-calendar\", \"moonphase\"],\n  \"movement\": \"automatic\",\n  \"printed_reference\": \"\",\n  \"references\": [\"5726/1A-001\", \"5726/1A-010\", \"5726/1A-014\"],\n  \"confidence\": 0.97\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791301488.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 16903,
+    "input_tokens_details": {
+     "cache_write_tokens": 3495,
+     "cached_tokens": 4723
+    },
+    "output_tokens": 1054,
+    "output_tokens_details": {
+     "reasoning_tokens": 889
+    },
+    "total_tokens": 17957
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 1
+    }
+   }
+  },
+  "search_requests": 1,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "row_id": 65,
+ "image_file": "065_cartier_santos-dumont-large.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Cartier",
+   "model_line": "Santos-Dumont Large",
+   "dial_color": "silver",
+   "case_material": "stainless-steel",
+   "bracelet_material": "leather",
+   "bezel": "Smooth square steel bezel with exposed screws",
+   "case_size_mm": 33.0,
+   "complications": [],
+   "movement": "manual",
+   "printed_reference": "",
+   "references": [
+    "WSSA0032"
+   ],
+   "confidence": 0.84
+  },
+  "raw_text": "{\"brand\":\"Cartier\",\"model_line\":\"Santos-Dumont Large\",\"dial_color\":\"silver\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"bezel\":\"Smooth square steel bezel with exposed screws\",\"case_size_mm\":33,\"complications\":[],\"movement\":\"manual\",\"printed_reference\":\"\",\"references\":[\"WSSA0032\"],\"confidence\":0.84}",
+  "input_tokens": 1982,
+  "output_tokens": 804,
+  "cached_input_tokens": 0,
+  "reasoning_tokens": 715,
+  "token_cost_usd": 0.0006002000000000001,
+  "searches": 0,
+  "page_opens": 0,
+  "tool_calls": 0,
+  "queries": [],
+  "source_domains": [],
+  "elapsed_s": 14.52,
+  "started_at": "2026-10-06T14:50:42.493153+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_076a7a0408c71e0e006ac50ac2e92c87d2b24a01cbaeb76fb6",
+   "access_programs": null,
+   "created_at": 1791298242.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_076a7a0408c71e0e006ac50ac5f34087d2a615cfe5c962af0a",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxQrRNBgNp4Nxxw-dcFhUcpp2nxHWPzmZ9ZarU9wH_hMLOd2sxiutKiIlOzX_BfhrhZBpL-GP6hKCasdmQYeY0_CvSIrJR7nqWTlw3nBRt8tifrXtUXXaIJdJ3JOwYpV94Ovn82GmkHuiCou_nT_RqATfGgtRSFDRuclir7GQH205REn3rglvt_dp99Yc61c8NrrlK9IkJexnF5qgRakOoiQysd54XjpRiyADfYoboMdVJKxeM1RH8NJv2iZQYdrHW6IsOsvugNdqcjfaKJPleO_y_TNjCGMK_8Gy1N4gjHdX3eh3FHc7dgHh2wmyFs9YGKIpGf5pOAfQz9mh3I8mUt71QCFd1WcvGSywhhSv4GhLCWSW6S33yBJ7EK0bfsDA_j4JtUOsLH3K86WznhtVIarysHFKMl1iS3lOQ8uE4_YdNDvcTcUC82toBb-K17GOkK2LRFJESRMgf8D9xS1ey1y4X7m7ufsak7TQRCprOBOZk7HSYusj63wIXCZBAFzPVCy9_N3bihkENY-IX24qjqr1VMgI-q_SREIG3nL1042mOF5xilzSGheUtVkyb2wiHOnTpU0iftYrT8K_6AywGGfwHcsw6_XZIGM17_Kf_8SFawl76OifsrzWpTQuCKTiEHUkxzEx-RiUKugw9Cur_XOeoC9fxsioUh-WD3IjVKBiQr8hMm8-SeJR4AbIMrQ561CwkHE0EUskzOlwwy6twiz9KHeZenkQgtAjp7XcNBlMH0IZmIuGzEPNz6srfTed0YNOJWolGji_SZL_T69tlSoCxZKuQ0RBFw6EhTJMLGSXzmPKi81n4ipJ3xX6btBsvKLrC5ik1btQioByq7w1Bx2f_S6K8VqE7KMfH-CZsInX5O_ADS5CRYU7D48lI0k87fhXIZ-CuAfxiZt_qwIKnV8pqhClGoq-z_6U8MGAacrA1q_CEf3vN--9VlzL6bX_C8hQdDbfev0Z2EaxXxgmuFWUuSWnsBvr2mqrho_oKb7hLO6skC_0POvrqA3kD-4eOC0yQzDEHjTzLdzGZLz6Curbl79D1GXoVtxIeFo1RmR8vElKpTSL-enre9ctFiNxatfXzIEmI63ITHZV1vkBmIcCiRec8kmtj5FPEohfHKQG_ZD_R1NwG3oZ4Zld9R5i3q6Tzw6bBsd7RhpSMR3m2syoS66D9uyJZR25l2irKUOt3L1j364q_L9QKCb4AYaxVwnq8iKlJqIfmA48WU_6Kq8a70AorMfE8D3jE9579Wqn2CyZsNPrigTyZHZxFv2TC6OKGOEOvwoDAXCYKXxZlWRVETi70edNXJjnUCJszzMpzJzmBROYt06yTVGDyDnmxGNAnW6F-25imTq3qt_8BKiYtrklNoeEfHqODp_eXRliOhPfkeW-9KtLI18NKG3FVYXSWQugPY__YnOmafPX3S6ScOrExrsAM56DMv10UH84O1UW9mL1MzBh0_A1m1ZKifwAGS46Zm5JHXuqf5BUcXiuoN-Y78h45PlrXXJjL3_Szxi9kTdaP4tImbLPMYggKt2M55HkrSFIgMnT2pkE8qkA8_J2QqBOIN5iox7QRBaE1qU2FHHBSPCrbMW1e90SS3cRM7yJUVZfgwB_mtfGGCN6OT6ztGCgQ0n2ReFMZzRPI42HAOUsmSxBneVWnvwSGHjqrMFCjqJ8tHC8ogjjDVRFksCd6YuEdG0z-GbhVoS-oWn_pzOGrigm16GssOMa-c9zDhVbv-YLwaHtwgXCInRdotWDOrYe127GiMM_Rz-MJo64bu87KRa4qJp_18iqPlYbdxGRG4yAxZvFiAS0esGNN5RhoOoDnyL_VwWOZ8WgqzifuF_GkemCV-Ib7BsBg2WvPQph8xcQZVJbEo0faymkCIXph7DMdsHYbk8SilKqZty5u92Crm054cz40VsReiKAbtoVaS6ij4cI-UNuAjDOegTHH4crtM6Jxa1h-2C-4DCrlgAA4O6sSc0QOZkOW4VCU2BEZaSx7qhtupDQa-OrQ73dh1tVSqk4VybYC0tXAj7Unf2VvyymSn76mEWFXPWxAHReHEbemRnKl2e5PETsHYF9diEIRMHlFtfefwuerGuJAPdzF87U8AAAjSFfxTEXtbSmHQvJ5LWmx0ElIqMXIL7jnnNU9K1o0XWdRkBbsRzPZZ4_EkkWs0UwQ_X9VPcTDJOJ4DFNde6foAPg8ps8MOc42VGBYrpOwsRD8aW77c2-Ca-GNZS8xKZTaqUvYonHJK-J4V0jxPpMXsGj0MrPR06A5hRp2i5PkPvpdBxUjzfshMQaIdzZt6e0NftKB28HYdpUSCMYfIe-bu_23SLvReMmIfsS1Or6xyK10KgDjZ7zN82EuGwJj-YDNjrRDETbkmqt8HI3MGLcHFkTEnv5m9U3_FDwl4fKttRiEt8xkUcpzhAZEXeTDgxxcQFNGbsvWcsEFrrAfcqI_afuVFnob3Mzp-5Uv8cCfNjQwC3PHdTKU6A14rbDfFRpKm78z80st72KxpebmKPx7dLibKwG2lSTYrcFt6iRDX5yBZTl3_BMp2_ZsZoZmanK0bUPzWdHLLGyDD7unW0F5QiH81s1UZokIwlNZfEv20tCaJxU_6_XgXP0bW3aTRtVllVcSQcikAcSak-S9WoFKu3dp4qLWU74Ytr4A3hNgxNMZfAKspP1CbicrJtZn-GA5mvRbgb5mIdxpEhKCD3m7ptPJ82oYxBsLX67mC2i96ElPZlvX1PhnloCuWmH0I1hB2-F0wyJLj0exaHcCPMksSIBEbHwZSZpBSQ6KHcKcvTblXJie_aj0qR6HnNurn6R_kTI2vQYJ4TLh6u_D6uY9qE5kmv-qVuyXWH5JjO61EreljplOL-PrNsgds0y6MY-auoOtoNf2F395nD5M7HhlZIZA34TcrGMN_ts08cMDDwgns52rqg-Zfy-YVq6e_WJiT4HXMU7NbzWP0NTqKO8OLN3bKhrXdgKAkNb5OUnmbjCQvb-Jny7tlXUK9jRn9sS_tkKakrT2MPiKDde9dZcd-wN0BBGkv7JsDdfCRt4z6sii6izAUg53HnFHE-JYceMXYRZvAdVm7OmgmXnETXV9WA9hURC7CCqWVZbOfw_GnNfvCVu14JHRjG4wJYt3kVw1SoXbzC1xhjmAXLKfsVdw7-S3hwa_YOnO3qSCCO5m0nHavQ4ajAKwO2dKhFNFKcCyyqvQ8x9SGSkGmBwVicNSUm9W_99GJIf-IfTK2iEhUlRIGvknC0W8BXiEozteYLXuXeEWu8nGvOwP_HsB1SChN2mc0c-nqXyGZzFdTq0KSpaBPJgIywexTeOINqMVh0pCSito7H53h8LOLhZQssgdrJ1kS3h_YwWSY5v60MA7jHdTp40K__-O2K2a657F_MiHAZjKxtFPQ2Opo6VGsOKuxmmIld7E4gWRSpfhGCGSnc-1KBVuddyKKtMqKL3bC0Yqv44GY0OllzLR79eUsHzw7507BgwIVtYb0wmJ8KHZ8ZHk8iMTaBOW-FS_r1i3puo4UoJT5oh1R6zNXAqJj3tgO62Ul1s9pnP7lb_ZrwiY3SoZ9xawsllikt-fdNxBmDUhHMxLtkZB9Gnb6iKmB2_mnPRubJ4Fd_npq5qjTlJlTHnpo25r8a26Uot3XZoTMUkYsrf1qioVAY_cLkrSai8KlPPOpJp_FY7YKaOPJ2OBl2OEH98PQ9XAMfwk9v2sPvNc1vQFVnrfKFUu5dXIS5nPMyxFHmkArOviG1JrWw1zX5AxoDSjuv4aEIFJRiWHlLkd-aPALX_"
+    },
+    {
+     "id": "rs_076a7a0408c71e0e006ac50ace65d887d29de31e4d4707f495",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxQrRh40C18WXg61xH7Gf9cedLmctY8icKD31F_L1bOKYStFaKyDwWGJtnlnOvxUiAiZvG2DFKOTzR5vvM8ijha40FIIoLPSj1d51Nv5a0awNcyzT3qg_ibUvzAS-HWoYJtjoYYjsYb-ysnB_zwaN2WcstnBOOohoPWUeEPjfe4bgkD_lEzW3nmT3Kk4G7XTjpiCLuJOUwEzXysMIQLsUd9wqBBrmIpLZpygJO1K4pBaK3GkP-iQhYDqqGQ4DY_skjLVR70OIs6CY0cI6-uTIXiX7bYU9GTtGYz6KU5GGRIh8kzhoq13QYXuoGjypb6M4rdeMaY0LRJTGeBmqyx1IjP2unAElmjf6Pa6IIy7ZOsic4jevOMUKFDeH8IueK1gci-NJNIxGnvLcttWdgFAE8lAgKNON7x95IuaWE7ZZ0rQ86R_wTDik9SWRa5u-QxQpLhk2uJl4ifQ4qHbihE75qzdC8rBG53JO6gsqbv8zefkUYpScVWF4tWrKPguJUtbw_k9WCO-5nzKUFco14VDYp34JDg2e5v2N2dBf9aXui5TsIiwWyS6KoBwSYVCy2epPJwf_64SN7kiI1qT2MxN3jPHlE8-ye21vG0dvfPg3VIrV6r3sAY4WCztnyVlD-Kw8AB0MDTOr77KeyIe4eTJoLJRLoaLM4YCyT-HhUGXR4gYopmF_7juPX66SwsZyCLo2icjRaPVdsEDOsAdlAET7IiHCj7CoHGvNDLYEt_syrHk4qhde6i2zgg2vRnLGTqll-Ks5zF1BnABDl2A3QHP3Ux4HDHZ7YcVz3PYjNUcRHrJzguYEoZV19vkug1kSYHO3USJfdJzQbMgi4IUW7PyzdqYJAS_khQrkrKcEjoYnik-ewFXjal0sBfEfL5yoZxynpthElZpeaniwvamy590luTmODfFhJMS93ncvb0PDu_GNws-aosT_u6hBevVZXAWyHECAdUBdGgJVEvYsXMf3Ld6ANFLbtwKeHcqHOV_7cmafPqEM6fuCsRk7wtlhx3bcGAMLNWZOxiOoNFhNWKLcTBsZHbOhCJD1Cq1aVSMgphhYllow9j-qQv4FFcyNSLF7qvZzvV6OURdIGWRqEaXhNQkCoVsHPQtArqrwXrBfHu-DusHbJRaSACfwXiiRQhps8oZGcmWdCOfuC1AFLO79nSsOhziGyLEwVm0SiN5g5U4xMp6tOe-fYpfEb8VESMjGXhjtb1JD3wlhaYD45P94MfEWy8wrH8Yib8N9KAilKpyAJvh3Z-Br9X6i9kVn4F9t8stk3J16o0XxralQElA6M-gPJqG7pOSQiTwGmP84K9r467SXYk4rDaRzmLFxfzJJcnqptUMRTmjEWXVStOMJXrqU79ShTJZcuhgKZpPhP-gST7JiMm1f4h0wQnYL_1EQlahafy1I5YKW07EtOB5HV2SmaQGjzgEaEo3qP-nUVUEdwqwwmPuml715F6UbxVxA-Yy9Mv3Xm0Bfh7qKLO6JYptMMakATVi3YOFEWsuP11HZ5qAMVtmlgtFietzg63IzJv_znVH_cmJx8DFAQ-DrUb6HDXBYDCIpzBQNN4k4FaHJwpjXnjP4wbK3fajrgC_VPRV-OEtmw-MqZV-7sWpU6zVeJXLAZxS00ceDcCdX2J0cantnuJfWDNfXtJU2BrxQriSDu6sSgu5IO06hTX6fdkZwcStMu5z9D7xyxkt1oB0DnEcL8BKgdo_hkQHca4Ldjui1DgbHk8J1pT5KTdbnrFwcB-PEFfheLZek47VihLVgK_Te_DNxqk0_xXFwL1XFUdauiJ40c0yHmVvReR8BLBHCMFPg1h0XFPnDn0an_B7EN3puGv4Ex1Un560jA_unzYgHMEWzX55E0cAAgs7m-LJ96j6aj3bLc9hio8xSSpNFQYqjK7kdOXvETFZOMCRKsaxhSQbbMogp_jCmGjYyfjfIVHWRGt9AkHwYClhosTo7JahIFD0ei2295USrx2kD9mW8it_Z7lLs-2iVRyVwRB7AcIW4xhYK8jQ5UO74_DC3r7OtZDJE99v44WvLO638CoxZLKFNki2PrcYOME_U3qrt4FQaXWNOrB5VLzcyiIqvPiIrTQ1R7FwEaOVMHJpad6avQTF8m8-EnnvZr7U8jmxo2iJFI9px34PhUZ4LTyglb253Sm1NLY-4qziaOE0zWo11oHgrrhYkzvojJGDI4M_EMEgGoVn5V3t7jRMHpcVz6jS4JhBsvsPpQOy9uCMPbBrTrE-y2_OFS5rukPzSYdrk-w=="
+    },
+    {
+     "id": "msg_076a7a0408c71e0e006ac50acf3c4887d2bbe208c6c40ea1a1",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Cartier\",\"model_line\":\"Santos-Dumont Large\",\"dial_color\":\"silver\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"leather\",\"bezel\":\"Smooth square steel bezel with exposed screws\",\"case_size_mm\":33,\"complications\":[],\"movement\":\"manual\",\"printed_reference\":\"\",\"references\":[\"WSSA0032\"],\"confidence\":0.84}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791298256.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": null,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 1982,
+    "input_tokens_details": {
+     "cache_write_tokens": 1979,
+     "cached_tokens": 0
+    },
+    "output_tokens": 804,
+    "output_tokens_details": {
+     "reasoning_tokens": 715
+    },
+    "total_tokens": 2786
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 0
+    }
+   }
+  },
+  "search_requests": 0,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "row_id": 32,
+ "candidates": [
+  "15400ST.OO.1220ST.01",
+  "15500ST.OO.1220ST.01",
+  "15202ST.OO.1240ST.01",
+  "15400ST.OO.1220ST.02",
+  "15510ST.OO.1320ST.03",
+  "15400ST.OO.1220ST.03",
+  "15510ST.OO.1320ST.10",
+  "15514BC.TV.1284BC.02",
+  "15400ST.OO.1220ST.04",
+  "15510BC.OO.1320BC.02",
+  "15514BC.EE.1284BC.01",
+  "15300ST.OO.1220ST.01",
+  "26240ST.OO.1320ST.04",
+  "26574ST.OO.1220ST.01",
+  "15451ST.ZZ.1256ST.02"
+ ],
+ "result": {
+  "parsed": {
+   "reason": "The watch shows a 41mm steel Royal Oak with a blue Tapisserie dial, date at 3, and \"AUDEMARS PIGUET / AUTOMATIC\" printed at 12 with the applied AP monogram lower on the dial — a 15400-style dial, not the 15500/15510 (which drop the \"AUTOMATIC\" line) nor the gold, diamond, or gem-set references.",
+   "ranking": [
+    6,
+    1,
+    4
+   ],
+   "clear_leader": false,
+   "none_fit": false
+  },
+  "raw_text": "{\"reason\": \"The watch shows a 41mm steel Royal Oak with a blue Tapisserie dial, date at 3, and \\\"AUDEMARS PIGUET / AUTOMATIC\\\" printed at 12 with the applied AP monogram lower on the dial — a 15400-style dial, not the 15500/15510 (which drop the \\\"AUTOMATIC\\\" line) nor the gold, diamond, or gem-set references.\", \"ranking\": [6, 1, 4], \"clear_leader\": false, \"none_fit\": false}",
+  "input_tokens": 2067,
+  "output_tokens": 1746,
+  "cost_usd": 0.00135765,
+  "elapsed_s": 9.643,
+  "started_at": "2026-10-06T14:16:26.095713+00:00",
+  "error": null,
+  "attempts": 1,
+  "tidied": false,
+  "served_model": "deepseek-flash"
+ }
+}

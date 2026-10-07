@@ -1,0 +1,41 @@
+{
+ "row_id": 17,
+ "candidates": [
+  "311.92.44.51.01.003",
+  "311.92.44.51.01.004",
+  "311.92.44.51.01.007",
+  "311.92.44.51.01.005",
+  "310.92.44.51.01.003",
+  "310.92.44.51.01.005",
+  "310.92.44.50.06.001",
+  "311.92.44.51.01.006",
+  "310.92.44.51.01.004",
+  "311.92.44.51.99.001",
+  "310.92.44.50.06.002",
+  "311.92.44.30.01.002",
+  "310.92.44.50.01.001",
+  "310.92.44.51.01.002",
+  "311.93.44.51.99.001"
+ ],
+ "result": {
+  "parsed": {
+   "reason": "The photo shows an all-black ceramic Speedmaster Dark Side of the Moon with a black dial, white-printed tachymeter bezel, red 'Speedmaster' text, and a grey fabric/NATO-style strap, which matches the 311.92.44.51.01.xxx family, but several near-identical references (.003, .004, .005, .006, .007) differ in strap/details not distinguishable here.",
+   "ranking": [
+    1,
+    2,
+    3
+   ],
+   "clear_leader": false,
+   "none_fit": false
+  },
+  "raw_text": "{\"reason\":\"The photo shows an all-black ceramic Speedmaster Dark Side of the Moon with a black dial, white-printed tachymeter bezel, red 'Speedmaster' text, and a grey fabric/NATO-style strap, which matches the 311.92.44.51.01.xxx family, but several near-identical references (.003, .004, .005, .006, .007) differ in strap/details not distinguishable here.\",\"ranking\":[1,2,3],\"clear_leader\":false,\"none_fit\":false}",
+  "input_tokens": 3212,
+  "output_tokens": 170,
+  "cost_usd": 0.008124,
+  "elapsed_s": 3.016,
+  "started_at": "2026-10-06T13:52:33.003099+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "row_id": 14,
+ "candidates": [
+  "215.30.44.21.01.001",
+  "215.30.44.21.01.002",
+  "215.30.40.20.01.001",
+  "215.30.44.21.01.003",
+  "217.30.42.21.01.001",
+  "217.30.42.21.01.003",
+  "215.30.44.21.03.003",
+  "215.30.44.21.03.001",
+  "215.30.44.21.04.001",
+  "215.92.44.21.99.001",
+  "215.32.44.21.06.001",
+  "215.33.44.22.01.001",
+  "215.92.46.22.01.001",
+  "522.32.44.21.03.001",
+  "215.32.44.21.04.001"
+ ],
+ "result": {
+  "parsed": {
+   "reason": "The watch shows a black dial with black ceramic bezel, steel bracelet, 43.5 mm case with date at 9 and a plain orange-tipped seconds hand (no GMT hand), matching the 215.30.44.21.01.001 black-dial bracelet model, though the .003 NOCS variant looks nearly identical.",
+   "ranking": [
+    1,
+    4,
+    2
+   ],
+   "clear_leader": false,
+   "none_fit": false
+  },
+  "raw_text": "{\"reason\":\"The watch shows a black dial with black ceramic bezel, steel bracelet, 43.5 mm case with date at 9 and a plain orange-tipped seconds hand (no GMT hand), matching the 215.30.44.21.01.001 black-dial bracelet model, though the .003 NOCS variant looks nearly identical.\",\"ranking\":[1,4,2],\"clear_leader\":false,\"none_fit\":false}",
+  "input_tokens": 7355,
+  "output_tokens": 144,
+  "cost_usd": 0.01615,
+  "elapsed_s": 3.613,
+  "started_at": "2026-10-06T13:52:31.054002+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

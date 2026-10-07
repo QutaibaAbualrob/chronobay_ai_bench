@@ -1,0 +1,591 @@
+{
+ "row_id": 37,
+ "image_file": "037_ap_royal-oak-offshore-diver.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Audemars Piguet",
+   "model_line": "Royal Oak Offshore Diver 42mm",
+   "dial_color": "blue",
+   "case_material": "stainless-steel",
+   "bracelet_material": "rubber",
+   "bezel": "Octagonal stainless-steel bezel with an inner rotating diving scale",
+   "case_size_mm": 42.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "15720ST.OO.A027CA.01",
+    "15710ST.OO.A027CA.01",
+    "15720ST.OO.A009CA.01"
+   ],
+   "confidence": 0.9
+  },
+  "raw_text": "{\n  \"brand\": \"Audemars Piguet\",\n  \"model_line\": \"Royal Oak Offshore Diver 42mm\",\n  \"dial_color\": \"blue\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"rubber\",\n  \"bezel\": \"Octagonal stainless-steel bezel with an inner rotating diving scale\",\n  \"case_size_mm\": 42,\n  \"complications\": [\"date\"],\n  \"movement\": \"automatic\",\n  \"printed_reference\": \"\",\n  \"references\": [\n    \"15720ST.OO.A027CA.01\",\n    \"15710ST.OO.A027CA.01\",\n    \"15720ST.OO.A009CA.01\"\n  ],\n  \"confidence\": 0.9\n}",
+  "input_tokens": 22747,
+  "output_tokens": 1135,
+  "cached_input_tokens": 4723,
+  "reasoning_tokens": 963,
+  "token_cost_usd": 0.00241713,
+  "searches": 2,
+  "page_opens": 0,
+  "tool_calls": 2,
+  "queries": [
+   "site:audemarspiguet.com 15710ST blue rubber strap blue dial Royal Oak Offshore Diver",
+   "Audemars Piguet 15710ST.OO.A027CA blue dial blue rubber strap 42mm",
+   "AP Royal Oak Offshore Diver blue dial blue strap reference 15720ST",
+   "site:audemarspiguet.com/us/en/watch-collection/royal-oak-offshore/15720ST.OO.A027CA.01",
+   "site:audemarspiguet.com \"15720ST.OO.A009CA.01\"",
+   "site:audemarspiguet.com \"15710ST.OO.A027CA.01\""
+  ],
+  "source_domains": [
+   "midasstraps.com",
+   "audemarspiguet.com",
+   "watchguys.com",
+   "fratellowatches.com",
+   "reddit.com",
+   "hourstriker.com",
+   "chronocheck.de",
+   "chrono24.com",
+   "majestixcollection.com",
+   "watchprosite.com",
+   "youtube.com",
+   "shop.getbezel.com",
+   "spiralmagazine.com",
+   "dist.phillips.com",
+   "device.report",
+   "cdn.polyauction.com.hk",
+   "timeinternational.co.id",
+   "ttabvue.uspto.gov",
+   "en.wikipedia.org",
+   "wallpaper.com",
+   "it.wikipedia.org"
+  ],
+  "elapsed_s": 16.164,
+  "started_at": "2026-10-06T15:48:47.577169+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_0b5eaf67309632ab006ac51860274487d2bac5e8414525af74",
+   "access_programs": null,
+   "created_at": 1791301728.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0b5eaf67309632ab006ac518610f4c87d2a452516dfde0c98a",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRhvOaXAyA8nJi-qvn1re6c8XYZEIC2OU0e6XeAvl_NovvfhNZAgP-ekZkAl2Kas7DpX-fYLbL7XAOLW7-0LYiq2_Mg61oof2t1BQvvq17K53ft3juy4Vp4kvDlQh_XYyaEX1XaqIkXh9rmn4fYMZShUwnMYLvj6xphzkcAepcTIMuobkfd9Wp0Of3rzm6yaWefOa-dDeV9kxuvw9fdHzOqJ59kgq8r35dHDShsEzQlo0QxTIBJZL4DeTrFXl42cZ3C0Rtlh-t1fd6XafDqGFxY-n76FIAnIY8yjDX8b8PQiAofgg50XcGoJmi3ZvO6xbvN-Eg0EsRPo4Mu4JiLLhLbPhpZ5kYBUKEw4TidAMj1fMjlXJlQxRYNvbnR7qZwI6ZgRPguejYOawF6j_f5J8O7hUwHo8XiS-K3jiIJtXIsj1lUWw11SWqo8-4nCE8G4-eM7TSY_UUZz84or7WCTmP4dyh27T1nLVFTIDusGVNkaB_p8hHsSH9YDDGWngQqoqNHbi2gsjDvvM4Drz83RC3D4WvLvJKz9YKtIjECv8rkTQBdY_qUPz4_rDR7yUmCcI6Pokr9talkFr__19zUHwHLbg9XnYWqA6jkA76mC4KcIlUcfecuHxqR0JcOnh1eeZt8_QI9BAVUs8eduQ0nCocQoerRPE4M1DSG3sD_B3PLNANDa1lMJKVxzjlwnupmmBVu6k6WDWrGnyutePOfmapnyOgt9al2qCDSfqH-zULp_zWISyeUx5lD9IssO_bY1ZvT-gfWNVAGhYBKRkc10S6LcDhlTfTgDIEa2wGeHqYWDosrvmynz4DRGsYjaT9LOjYgzBNdnTwtJ5i7UuIzg9oiuSMKg88zbvZmhz6AcOqlDkSGRV6sUgku_uaqwAKtqo0Zp8W3Ln3YI6axtX8HFUwOuL4KSSkFYZXvLQPE4gyh-_STWU26BguU4SCw2hH3sRZPSUG76bHfBbeqozUCWIL31g12u47Tc-HS_U7PPg0Fpe8sxkQVL3XMXmTzcm5MIjjr5Yyvv2u-LvacRdFbJNTPxybX2MVvMSzD-yWdsg7x9Aw9XoFX48joBdYZj7oSnjF0tgstgzbCteD11SsykCECeGrsGn9ef4d9y4A2Bi6NTQGigrOgEnBMyLAl_6xSVfHkCBgggL5SVEIK5HG8W3Yb1lFg05CQYfCHGh95tVF6aEEMaNUxEyOYQ6NgZBqrl-JYzv5cEpiH8lWKXlH8gjcHIf8MY-w2a87gVBl-FhERjnAMBzNbDva7ArP5hEYVv4EQIFOixUQRAJM4gczQG6-Scrkaba9_apBi1li4gGIwblpMgEW6UL3_LS2ZXIZaz7C2AQne1P1DeLWMlanu8nyp-0FjwopVvyAeYjuz5i0DFPO_ViklHJ9VInPVmOeqDy3FXQD8_fo9ihh295SUqPEE9oo7f8FXkTsTbFBCXVjo11MvRzu3w5kdNYnmmTjftg4DqrAOpNPGshbxK5oFtPoI_NhC8yGUFN_qSTkkNYWboSy39DRIzyfl8JtUpbEDqzade5o2cLAQfNMfZbkfz0eGUBI6wlAC6TVDGam7S9E4R_Z8VekwIJP_WgZm-STCBrcnBRFoogcaISo1tTr-9rwcH5TWLCKO1eWvxFG2nyLxn6I5xkgrGm5XgS5V6fdafQrD21RM__MBku_u3KD-i7MODKtlASDxi_AyPmg12a5772cXXlyNgfScKZVgfmMKtx1heR5txj8KU0IamjuU7KnJtrsYbGNF8N_T3A_Auxh0ihabXsEJkueKW-_lzgcl--6ro4qqhpzHkZjnSlg2TOvnKjgxkwOURol1Xn3ziKZXREZSJsxpNTZv4OjAdpm_pd3tKGBaOVjT7tz9abAicxlqbojdNKkvtFEyq7iCjD0wbZepedtdZQDtywiddhKLGfVgpxD62akKOaXktb9FOdWKY3McazVCjjkQYp_O2KfmQtg_uPeMvthvPgwViQ9hPv24XkVNFKIh6wie1UjJmX8U_oapzuw4bdHMy4rKOVZ7wuvYgSGEe55mvFoXbCEiJNwAuPfeGVm7fOSHQ5ujege1IIFobiSztj7Lh6qcY2gh9O0kpj1mvii1rXXkRdmBnOOAUzOYqcZ7GO_5BFsh_dhczoeDlqVDBIp0NzN2BC8i0JFCT5DpJqSxjuu-tg58UDKlR2AciL7VfvjSIxO9FVx6esj1BXfw729Le1lUo3-2h4XundmzuEEFb3513svhjIBq_2lW18HLjlrdkQKULSCAb3Dx4c5UE0NLuUUZSq3Dab5mAoCAxj1htz8EBthtODQZgHnRCwNi9CziUBg0SUDneieGvPCzEWYUd5k0ucDJeBr3g4lzjli_aWuEcaXfKQvZL"
+    },
+    {
+     "id": "ws_0b5eaf67309632ab006ac51863b3d887d297a745eb3cf27ad6",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:audemarspiguet.com 15710ST blue rubber strap blue dial Royal Oak Offshore Diver",
+       "Audemars Piguet 15710ST.OO.A027CA blue dial blue rubber strap 42mm",
+       "AP Royal Oak Offshore Diver blue dial blue strap reference 15720ST"
+      ],
+      "query": "site:audemarspiguet.com 15710ST blue rubber strap blue dial Royal Oak Offshore Diver",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.midasstraps.com/pages/ap-royal-oak-offshore-15720st-strap-guide"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak-offshore/15720ST.OO.A355CA.01"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchguys.com/pages/audemars-piguet-royal-oak-offshore-diver-guide"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/watch/new-royal-oak-offshore-diver-"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak-offshore/15710ST.OO.A002CA.01"
+       },
+       {
+        "type": "url",
+        "url": "https://www.fratellowatches.com/hands-on-three-new-audemars-piguet-royal-oak-offshore-selfwinding-diver-models/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/audemarspiguet/comments/1umrkip/15720st_straps/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hourstriker.com/database/audemars-piguet-royal-oak-offshore-diver-blue-dial-15720stooa027ca01-45609"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTime/comments/1vb9moa/alright_boys_please_help_find_this_ap_roo_diver/"
+       },
+       {
+        "type": "url",
+        "url": "https://chronocheck.de/en/marktwert/audemars-piguet/15720st-oo-a027ca-01/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/audemarspiguet/ref-15720st.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://majestixcollection.com/watches/audemars-piguet-royal-oak-offshore-diver-42-steel-rubber-blue-mega-tapisserie-15720st-oo-a027ca-01/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchprosite.com/page-c.collection.detail/audemars-piguet-royal-oak-offshore-diver-15720st/ti-1716679/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=gNkZ_9TIk_c"
+       },
+       {
+        "type": "url",
+        "url": "https://shop.getbezel.com/watches/audemars-piguet/royal-oak-offshore-diver-42-blue-rubber/ref-15720st.oo.a027ca.01/id-799"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=f0imKUd1LL8"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wti985/wts_audemars_piguet_royal_oak_offshore_diver_blue/"
+       },
+       {
+        "type": "url",
+        "url": "https://spiralmagazine.com/wp-content/uploads/2022/06/Issue-185.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1j3i620"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/10pgpbj"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wz3p7s/wts_audemars_piguet_royal_oak_offshore_diver_blue/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/audemarspiguet/comments/1m4z2sb"
+       },
+       {
+        "type": "url",
+        "url": "https://www.dist.phillips.com/content/web/auctions/HK080323/HK080323_en_1.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTime/comments/1b99mu2"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTime/comments/1b9e79w"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/1b1wh8o"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTime/comments/115jpxn"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1s3aub2/wts_2023_audemars_piguet_royal_oak_offshore_diver/"
+       },
+       {
+        "type": "url",
+        "url": "https://device.report/m/82c20ebc61cb439eb70c86445f3af4c0656d50bcc1033e07045480ed11dd36a2.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://cdn.polyauction.com.hk/public-default/auction/sale/oct-7-important-watches-poly-auction-hk-2019f-xiang-gang-bao-li-2019nian-qiu-pai-ming-gui-zhong-biao-shuang-ye_eac03b7a-1d8b-4cbe-b1ea-83852b1b8fd4.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.timeinternational.co.id/wp-content/uploads/SCOOP_TTP52.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://ttabvue.uspto.gov/ttabvue/ttabvue-91244316-OPP-116.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Audemars_Piguet"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wallpaper.com/watches-jewellery/audemars-piguet-2026-releases"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Audemars_Piguet"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0b5eaf67309632ab006ac518698e8487d2be36b9d4be7f59c7",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRhvmUodgQOfvacjFt4WKoSUk_LTT_uHJNUQtwKjE7COqgTsJK55AjkNXJ9Dxbc1svxq1D6VUPyY0GDVGqGO-ixD2Y9PI2wo4kQjfth5QCWkbJrPJGL1oLfsJGWgahRBR-T4Pal9-69jSgIhtm6uQxUnT75LWmDbrXlbssG5Im6Tsolr0HvEdBCWsSufG7swNhuJpbeBtYv65solj8canS5nDTDv3_n267pO6YNg5wCdXxRn6TyThzKqNyPZ-r-JsPVgWn7tAO6XFkPk4ptJtL76TcTmmj_FztNYaJS75pP5jsuTx6lqeuHLO-qLBpMlKqxnuxfxI2mjPregTlqZ8jR6GFqaCwpGbom25lVbOQHgLiQky5L7ZSGLBefZEVRicxbgxfDHBE_9xvFDVGpoCyOKoLcCcP8gvqDTDWBKd-dkJJ_YqcQes2WTn4M6k-FSBP5v_lC5eOx-PjuaK3qo0Po3A6Xqae7qfgUmI6w7qHXB8rwLbEpJCwwp04f19qSrAvk4B7DnpurFKz1r8S96MmCdVL-ra0UMrgQ4ukD1yx80mm47EwMONCZJfBLSKBUkEGy9BPfC0d6Kc0_PQm1UI-K8EYKeF7br_osNZehBW9Ifp1RRELvCMLnTGG9QGwRuSJ-z83-3KBb4ab26U8h1hYBUv1h53oz5151FDSjzOG-rxeRfXZMh5gejk76fjNNaG1Wycpx_N7PE00wPumlVujtiWJAXCzTF7qAFszp76HNmpMB4EC31QfK9wyX5FfuYKfHpz2JquE4rJHDtOaeo101pCoG7eTiGp7lQTb1fBciyCUw-aTTjbTDg47aYtaiuvm3AkN6FrJ_iW5pgaYvPbWTBMUyww2IYfFjVPBVyyQtqJltVwfO1Kz2QbHPMXKjLwESiJAAUW5y6LIfQdRojxuTbNwLEkswazJ0GD80U80bkx9cinqRtQDuRfgyp3YdcztHCD1_Jgk3PGafR_HdjGW4Hk1i2mhqX8NeUplykR4T3VgN8LjEp7K9m0E_cDaDQKIpuXhB3_-ERpwz7YHE6BdHmeuiH6N6WQ-kpeyjWLDTa7fKxOe5xiUK7X3GF0n-TPPsjuutd8d-Jz9CRhh4FD3KkFX1whS-QDG29Qb2BzlBbXaYCsxPcT2seYfOLWk3fu-umLTopxKC0WGrn4TxJTt_BmGRM0UWTfnkv_OUEwvoFERI1DXoTc1jdPOw29LJ6JkVi3HmWKiRmrzePwLN7EVvl11RPM9fUgQcnhHkuQnYBpnWCvfksMp9OvtzE2NUJWX1-i9Kh6i76ZZN2cM60oenUsNX9UXxxTXXt88Eik1umjPtKclB8UgkskIxxTZr_w78kRyKU5gBrqHaze-Hnj6uKOoR9tCiqg79Ay6Hzi1q9P0HOtGxwazg-ZT4jcgAU7sc4lxmYimz1Amt_qsTGc2KXUHmUY9yfLBOCjC9NKKH8JE7Q0L_nu722CU2ZtC5Arx7LigtjRKqkE86Yac3rtbS8l9Z_z0DUjq8eNHjC2psMzx-3y5EsoQwE-bMhT556rvLbAPw3KqvOqeYUiNjBXMnzT-8dkEA0VbaVuNX7adxsmzo7sTnOWsbVW254xgTSdvOIbLfU-m7Wk173Q8szPsfS6fRtWy08tis9eTu6F7JTezDtqJFkMBNnxBTmDB_UBw_jmXA3wAoqvAQ6sckrkGX6cFRPPH2Y0QTXjFh_iTfeG0NlKXXqde7_iH8Vemluxo9YqZwDSM7JUmYYtzPvvz1FYuj6C5_H7bKhYXoBpiJ3wjm9ca-mMwoVefrQPH4MYVSdmqUQxiHCX1xQjb_iWJn1jiGgS4spgAzrPM7_Ia17QAujNx4Wskp5kooNLyNKJ8O2rgGmEFHY4njbn2GO2lmzFEHM2sNGnHjsJvyFMxImBGTHNZj5HuGvhpEhOzvLwG91gvb33HKRRkJeXHDodQjzGgtTOLKQvKaxHeWMcNSBOebW1xlNfd9qSZFNsU0yM4lV6WtYJgvTQDLXK4eBYqh7bSMKK95ipEqadJ-1HCKZngVUK_3WncQCBSUq8HSG1a5nRMJoqUMRFnGE5gTJErfp21tgi4u6BhAF_0xToj0eB9LRtWjr6CjKzEKbHFRRnjupXTCa5uuhX3lmL4dUtG25Ty27rKj_oagG2ES3gKAfNaEBQWfw9poU8acXSbdDaOVbTKSdQgk0-fpf_S4Wn3WM-7lQLBVC4fOggwpXfn9UCaRpdIsumXgr94OBaBbRkrMqvzShrlYdNY9Hyp-_JL_hJ2tmENYP_VQRn2lROBx5Ek9g50KRbNQsgS1HZy_ECc56vXZrQjhUw4B_44yAg8tUaakX-L_o6m8Y2t3s6oq8qWiZjoWN2p3urkD6sxbJgMkNCZOx0Pj7cuX-qqztmlrTwtOEYSNRV59CDQQqeeRofhAmetkpr5sY22PEufwD-UC184xzGTp8O9p8hMrpqcX9lAXkuldQ0eiduq7e9Vj2qS6Qs7mXymEQzbzT4RZwlheQ73LZCxhb7LMb_bsWwWLN-peB7U5jSgTA1SAf8Irs7SHI2JiakgFIlGVWbTSHPMRthrh0RuSPrypmA53HhgLmIGm1CxRUx5x0Xiv6IW97jelFHT-aRCyUyT8p2LhRmlPgt-nLfzDu1lgKAWJMpILXYHB7nQyTUZb7f_tp2Tlvc7-oMiRp4om7nG8acT8G-kqS7yrQmXkb1v5NXVHS8-i76Ch-z9Opu08-Pfj7S9LxLUQ393sTiz3GKXSZ8rz_pzQtAx4a5bN3BohIWkhawXdzeZwhXKQwjpNDvq9lItnTibN1eDLLRGWQVCafEi8PD3wKifJWdvLZ4XF711r43Zs-Z93GDNgkC5MOh-CyRfj22Vu4NOvwjN2fKk3TYiCvfMdCEIkVqDVr5I0UIZv2bU1Hn9n-wsJxksGwyyr8m0GVnDZDCjhRyjMWkLb1xApuVzAO2HmNnR77mbR5lJppnlUf8R3DPBtImEmsJ1eobaSinbenPCA0P0VDhApfOSaQrLj74jV_baeA-X8iqHGELG9HihQz-TK2KhOTfpxh83gTMt99u2K4CSUahhNQOZepkdGji52P8b06D5BJULgjFMKJBbg--ykz7otJl1zuFmn5JGYSqEKwQFBh45_nH0btbnOvkJ0g-HijkY5xfpdN5sQVR9mJocHcqEtrzUApvgRH5yVNmzyhckNHke5_aP4LqqCN9nd4x6nF-S-QXH2GoMEvq_zWDiK7icuvZbqgO1fNcRJ0M-cyUoZVhrhzQ-DpMHHg8hApLl3PesY_l5nV-hb2_1qBE8uheWtZCdzc-AImyyYWJQZnT8ZVMow2P-uC_4w0BtsByDXaWwA3mrKVbHyReUS2hiYUdyWpMDni6BR4AT27OlUvwvLwEWgt7-wm2AHHrQMXxDnC5hskrh6rGPQPStNbyzLCi3DxRRxsMdXiO8S40ubFGDve6TRjFdiQnniLYURrQc0enA_2AmlUSvKxMWFXhjQCNcQraz0iTk08qO3rrDPiz9VyyyfA_G4KBuKw9UL5PMoHpTza3VdyrvPvP7ZaAIJ7E_0Mz8RL_kFNYXWJghHTM8t_GLcw0mUJfRg_yFANN-A5Hdg_EoDUZisivco8kohOqzj5UkVgieQ90EOJMq8ZI-6A-4UbxW8MzvQ6ChJHhDS_izsZEj3JN9xLlijBSPFU0MVQeLksrrEMfWkOXrBmksdsbbvXX5G8r8BjUX_N3UcCZFW7bB62jPHbcnsO-XCNpH_379hBzln_XRRtknPt951z3uTzYP4Q-QK0"
+    },
+    {
+     "id": "ws_0b5eaf67309632ab006ac5186aa15887d2bfffc65e2790ad3f",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:audemarspiguet.com/us/en/watch-collection/royal-oak-offshore/15720ST.OO.A027CA.01",
+       "site:audemarspiguet.com \"15720ST.OO.A009CA.01\"",
+       "site:audemarspiguet.com \"15710ST.OO.A027CA.01\""
+      ],
+      "query": "site:audemarspiguet.com/us/en/watch-collection/royal-oak-offshore/15720ST.OO.A027CA.01",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/watch/new-royal-oak-offshore-diver-"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/collections/royal-oak-offshore-collection?yt=true"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/watch/Royal-Oak-Offshore"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/watch/royal-oak-offshore-30-years-anniversary"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/collections"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/collections/royal-oak-offshore-collection?gclsrc=aw.ds"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/watch-collection?keyword=diver&view=legacy"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/watch-collection/150-heritage"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/com/en/collections/royal-oak-offshore-collection.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/home"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/es/watch-collection/royal-oak-offshore/15720ST.OO.A027CA.01"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak-offshore/15720ST.OO.A355CA.01"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/content/dam/ap/com/services/terms-and-conditions/AP_COND_GENERALES_USA_EN_2021.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/content/dam/ap/com/services/international-sales-warranty-nov-2017.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/content/dam/ap/com/fragments/userguide/2713/AP%20USER%20GUIDE%20CALIBRE%202713-2714-2716_EN_2024.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/content/dam/ap/com/services/international-sales-warranty-2023.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/content/dam/ap/com/services/terms-and-conditions/AP_COND_GENERALES_SPAIN_EN_03.2024.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.audemarspiguet.com/content/dam/ap/com/services/terms-and-conditions/AP_COND_GENERALES_CHINA_EN_01.2021.pdf"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0b5eaf67309632ab006ac5186e267887d2a105db5d676f76bd",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRhv0U5vhkebCJwSWCZDD8DD7nKfkkE7ntIrUKzJ055yakZV6P4dVV1DZCA1rItD2WuhiP8LRHXBe1b_JqXLKCTyFGMAIBnqCaMTk0HoweJ60pzy720e74ivXEjOlNr0hcsMgVB2I77IUOhluVdmvF9I_3HmFUBuexHJipkQ8Xub6BuMBUpkUJVeYwLPtM2eTP7I6mFs2c8wpy0Xi3q1vbJ9iW3_ffGReCu1p6_EcryXEj5r72XwdCGs5k_MFA4AYfjQDF3FWauSN_SzPyE74ubi_8aDadyKPgb1zyHTjxt9z-MeBnFPvxmATgehtBeGAE6bQeJQxiswzm063yplAhuP4_psLwyFz_jG2gkHzDSy2TiZzF2GYibT5mzKwHqHyNV9iFlBRg13LSK7liAzgQGLxOAXw5bKpS8ufI8DtRwah6bvIMsAPh7JYdsbWAy8DZPsMlMUjpeu1AFtwNzewiRUkrlW6yX74Gx-EV_ZmIkEEaP0fMakbgBd-V73S_XDXqmNjOxz73yO-FYqTbdChQuZRi6adTynNRm5M0Y1tgzKhzv4McPGpDiPbnkNP2l8r2s1uMNqPhoZg9sQvpc8gEghYWFQDTfS21aNpsRfZpDhGtd52g_t96t3yi_uJJMgsb-VxUK2k2mQDt9J9ZktriWmm3XEJxjBCcL9Nv9If6b7PnWS9tCSvcEXgcjBLmbzwGBIUGD5IR9wb-6Hk1rwbmkoQ55Bg8fDpa8OrCBE1tv3EYfFz_GaMIPCZhVum6nyo9zKDKa9IfH3-YtbolYYfoyzBBOsFp47snKALqTQTj6z3katnxkGbljZjJGaUYXghuQmH7Sikd8P1JpKlXlYxguDbrjEqnTV5lIHcI8ymjDMVkvEslgQ6E23iVbNcBovGN9zFjrf4vEW4GQsxJZnP2BBH2aX3wtzrqaNdFu3lVNkRgEdwZuumsV-h1rvGJTF3cn3XF6Io8rGWx2qOIJ9ywuocWQxIX-sonkzGJASbZ3g3v3BPcUHpau8VpsXPfV9Cb6bcAllFcEBOkfQNZXuqBOA0oFj9MJFwJLWxgOMMfymWRIas1SW-KtSY30bllRiaoHclNvzTGLwqI6sNEXEQ5YPGWMyI5ospGbKipHE0xleRDQgYDeaUQ0_x7mUVdWelseXdgkfcWhLfRXrqbO8btCHTw_rwrzWUtglnYDR6iYQgYOJ8MPoY-kM3l_e9h-UauF30Z89_YGa4ni_emUwXszJCzhtUyDr5HJHDt3Smpkw37pEqN-7AJSz6nl7qXco8sRndq_RhqiZ4C6vieT3cg53dn6ALCCVDmeIjAKwacwzeWR_HsKobILwXSTMSNhQKmxR-SJ43FDTbrgvmpzn7JChFisD-lR4e54ISYDtdBKQSe7GSXa_yuLqfDKXT6-YWPbp019oCJiW1XpK97CoQuwRRxaqNMa7rRMOpZcs9IyJk2r6A-0PrXGPkRD162fciy7OTBHKeRjhdCSfFyXA_4RpgfxkKpjDllBWMNqkLR_BRcWZtirc6QQ4M1pUlz7uZsN4SDUW8HkY3NVggA1eCs2D49uHLFmQS9iwfUXHNiq5gLLjDv9Z4ngS13c4qLC0_s5fLfOmK2U4UGE-xzA7Ww-KvqYbf3R7zTmdp--OqBo4SIw6I5MoeXS8pESE1LQ9vEhW3dT4JOf-hGGAccNm2CvvsHZl_6t_TqK-fMyuc4DrpLOPpY09tB1BLXxYPOv24akDNWkE8BPEMczE1UiAot869_hqIspXAVqkzxmqNtW9ekb_EAWdw_tLvwxk-gHXkEUr"
+    },
+    {
+     "id": "msg_0b5eaf67309632ab006ac5186f56b887d2817b83bb96a51ea3",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Audemars Piguet\",\n  \"model_line\": \"Royal Oak Offshore Diver 42mm\",\n  \"dial_color\": \"blue\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"rubber\",\n  \"bezel\": \"Octagonal stainless-steel bezel with an inner rotating diving scale\",\n  \"case_size_mm\": 42,\n  \"complications\": [\"date\"],\n  \"movement\": \"automatic\",\n  \"printed_reference\": \"\",\n  \"references\": [\n    \"15720ST.OO.A027CA.01\",\n    \"15710ST.OO.A027CA.01\",\n    \"15720ST.OO.A009CA.01\"\n  ],\n  \"confidence\": 0.9\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791301743.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 22747,
+    "input_tokens_details": {
+     "cache_write_tokens": 3265,
+     "cached_tokens": 4723
+    },
+    "output_tokens": 1135,
+    "output_tokens_details": {
+     "reasoning_tokens": 963
+    },
+    "total_tokens": 23882
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 2
+    }
+   }
+  },
+  "search_requests": 2,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

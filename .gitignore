@@ -12,3 +12,9 @@ dataset/images/
 
 # Altered copies of the photos made by vision_test.py --variant altered
 results/vision/*/altered/
+
+# Saved Serper search responses (third-party search results) - kept local
+results/serper/
+
+# Prompts sent to the choosing call: they quote third-party search results
+results/pipeline/*/prompts/

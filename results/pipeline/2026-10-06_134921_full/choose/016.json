@@ -1,0 +1,34 @@
+{
+ "row_id": 16,
+ "candidates": [
+  "234.32.41.21.01.001",
+  "234.32.41.21.01.002",
+  "234.92.41.21.10.001",
+  "304.32.44.51.01.001",
+  "234.30.41.21.01.001",
+  "233.22.41.21.01.001",
+  "234.32.41.21.03.001",
+  "210.30.42.20.06.002"
+ ],
+ "result": {
+  "parsed": {
+   "reason": "The photo shows a steel-cased Seamaster 300 41mm with black dial, black ceramic bezel with beige/vintage-lume numerals and a brown leather strap, matching the 234.32.41.21.01.001 on leather, but the 001 and 002 variants (strap types) look nearly identical in this photo.",
+   "ranking": [
+    1,
+    2,
+    3
+   ],
+   "clear_leader": false,
+   "none_fit": false
+  },
+  "raw_text": "{\"reason\":\"The photo shows a steel-cased Seamaster 300 41mm with black dial, black ceramic bezel with beige/vintage-lume numerals and a brown leather strap, matching the 234.32.41.21.01.001 on leather, but the 001 and 002 variants (strap types) look nearly identical in this photo.\",\"ranking\":[1,2,3],\"clear_leader\":false,\"none_fit\":false}",
+  "input_tokens": 5803,
+  "output_tokens": 140,
+  "cost_usd": 0.013006,
+  "elapsed_s": 3.349,
+  "started_at": "2026-10-06T13:52:32.201274+00:00",
+  "error": null,
+  "served_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn"
+ }
+}

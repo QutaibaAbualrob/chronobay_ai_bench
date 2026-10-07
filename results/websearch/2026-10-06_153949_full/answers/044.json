@@ -1,0 +1,688 @@
+{
+ "row_id": 44,
+ "image_file": "044_tagheuer_formula-1.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Tag Heuer",
+   "model_line": "Aquaracer 500M Calibre 5",
+   "dial_color": "black",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "Black rubberized unidirectional dive bezel with numerals",
+   "case_size_mm": 41.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "WAJ2110.BA0870",
+    "WAJ2110.FT6015",
+    "WAJ1110.BA0871"
+   ],
+   "confidence": 0.57
+  },
+  "raw_text": "{\n  \"brand\": \"Tag Heuer\",\n  \"model_line\": \"Aquaracer 500M Calibre 5\",\n  \"dial_color\": \"black\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"bezel\": \"Black rubberized unidirectional dive bezel with numerals\",\n  \"case_size_mm\": 41,\n  \"complications\": [\"date\"],\n  \"movement\": \"automatic\",\n  \"printed_reference\": \"\",\n  \"references\": [\n    \"WAJ2110.BA0870\",\n    \"WAJ2110.FT6015\",\n    \"WAJ1110.BA0871\"\n  ],\n  \"confidence\": 0.57\n}",
+  "input_tokens": 24164,
+  "output_tokens": 2303,
+  "cached_input_tokens": 8102,
+  "reasoning_tokens": 2303,
+  "token_cost_usd": 0.0028387200000000003,
+  "searches": 4,
+  "page_opens": 0,
+  "tool_calls": 4,
+  "queries": [
+   "site:tagheuer.com Aquaracer black dial bezel numerals 5 10 15 stainless steel bracelet reference",
+   "TAG Heuer Aquaracer black dial oversized bezel numerals reference black crown guard date 43mm",
+   "site:tagheuer.com Aquaracer black dial bezel numerals 5 10 15 stainless steel bracelet reference",
+   "TAG Heuer Aquaracer black dial oversized bezel numerals reference black crown guard date 43mm",
+   "TAG Heuer Aquaracer 300 black bezel numerals 5 10 15 date black crown stainless steel bracelet model reference",
+   "TAG Heuer Aquaracer oversized 12 6 numerals black bezel 5 10 bracelet black crown reference",
+   "TAG Heuer Aquaracer 500M 12 and 6 Arabic numerals large bezel numerals watch reference",
+   "TAG Heuer Aquaracer black bezel oversized numerals 43mm stainless bracelet date photo model",
+   "TAG Heuer Aquaracer \"date at 9\" \"500M\" black dial 43 bracelet reference",
+   "TAG Heuer Aquaracer 500M Calibre 5 black dial oversized 12 6 date at 9 reference bracelet",
+   "TAG Heuer Aquaracer WAY 500m oversized numerals 12 6 black bezel reference"
+  ],
+  "source_domains": [
+   "tagheuer.com",
+   "tempuseuropa.com",
+   "bernardwatch.com",
+   "dajhcu4r67qk9n3h96cuafpb3.tagheuer.com",
+   "reddit.com",
+   "watchesofswitzerland.com",
+   "tourneau.com",
+   "pictures.dealer.com",
+   "en.wikipedia.org",
+   "magazine.tagheuer.com",
+   "masterhorologer.com",
+   "ebay.com",
+   "hourstriker.com",
+   "prowatches.com",
+   "swisswatchcompany.net",
+   "es.wikipedia.org"
+  ],
+  "elapsed_s": 73.767,
+  "started_at": "2026-10-06T15:51:27.515010+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_084c252a3ebaa24a006ac5192650c087d299bee1539b24a571",
+   "access_programs": null,
+   "created_at": 1791301926.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_084c252a3ebaa24a006ac51926fdf087d280b6322bb421d76d",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRlJIUI-PXQmnhf53006CenzI__R8wYNFz00z0CxOpgr32VO0YuxX0yYJce0kJht5hdZlaWN3g6O_lVCHR60_gFZ6KUORvSWozi9-Dc82pm9VHosbVzAU4FJWJg3n7I5I8Ev_BbhwpCUzG3ghI5mM9977DZ1kk7sxaULCq-aurOj9OGDFGDHtp6asDVBdDcNQH2UF-jqTCGNX15hffz7NdMbRpI-qVoxatEXf2de_zPdu8v31fnJShX3KeY8J-CszOAUEx40-xtmBlPcYt74khdPC_v_sPnEMIO8pcEFA0TUxd37uk82w1CgpFx6_KSyPNavafiTwkUn3x0USB7T8Z2RIKdEG0UJG48fTfOFhmI_ejqouqOSWfdbVWlJ_sDP-XJZeuUH-wPIw5pYZ9Bghf4mPU3hQ9w1g231Hfbo30C9qxvCPpdC0yaUYRdjhrP1rNlo67zIxAlx823VPmu6nOpIBUU8xsbrf_0fC_zS5YBr0AQD4duKFeyYJjGtvjgZnE8BUxH0h6MrmpEUaMWOtDTXMj9CIu84Ht02TVHRnJ5hELyfqHYqfb72P4tTPE8AWLDHjLSQ9xcP7lO4ZF3q1rGsgAjqSuKPrXt9h0qUvqRmmYIstl6Kt5uPj2w-9FM3j_9-XniUxYE8mA5xs_QoWTaGmXs43MCuN_pqz8eFNkVwS4EhdVFi45adTDZ7cPP2Ic-9EY4tmsXOFdhAvtfRFNRL0Hs-e9ZzDS53b2gVB1-DWM5TtlSLuqKpXOEBPafWYT4La5YvwRvB2rS9hM7GGg_KfmWOvyFxo0G8tuypoNHlouXIl4QZ-wP5ebBIJuDukTjBV7NYvLuqT0l_2jy2oUWpPxFSFmUgg-WFGzVZB1JlJ7hgqzX1PAfrXl4vqcDHhStopSOjkDGplc9ZIlf0hbiRs-fpzji0S9rZ2JEHhYzTCNKq7fTQGAM36ml_p921fB3fpCOryN3V5pU0xP97hkextbj0IsB5Mkq7uQo31goivri8t5yQp4uIW7hllMFc5UzECxcjmCmjeZHZdN9jJjLnRnmVis5kl2UzOUR9Cg-gOdEoYZKtlmcrhu078Bl0AQ3bScFH-w3Vv2qYg_idrEV9HjDqNFW1gkY8MDPBOOm_ED6Ya__xeGZsqQrWiumDJQH_NtaMgh0gBZawqCK862Cq3h9kTqFy9iunbCIr2VQNSNgKuUmrx8Ala3jLX6n_zD94wsvMc8ZQz0X0CXiDJ6smXHJaT4gMw7gi7KDSmvRObxJelHAY7rXwPg_VbZ9LE-wEAwcV6GRQ4Fe3ybf_T0SEdVjS3uLYYBYJryqWNLy8cQEEcOV3CPfW88H37_8fNiSBPppI4toAN9n7WhLX9eZxbpTKvtW_fqPFpL1O9mBL5VLHGzkcJSxLKulAnssDpj8gb5ybzBH-hLXzYWNLmQzoLA63OSr77PpljHS0ccLj5VpdzVMkjx_GJDK8SOGpos4rYN175OyJ8kys0uPtjb6JH-dpdgVn8LIc3CMVIybuFFqaH-hX_6kIFSa30QgGliO4ItigFSIHWOMvuoKAVyI1PYIqT-Zm7v7jKWFyJR-8URWoO7p9EOZvG_B3K97KSSW8SnzR4jaHPoCnEJgmgNgR9o33ZoFdfXYKXPoVMewzmkI-3xmtttUxUMIHLTQmdg3QjKaUn_76_qRSRc0yP4yvCioIVRwq3veGlFcMG2w3cTj792qCKmIllDk7OLdMV8j3er6ZrV7SBm9OqxniPHXjxY3DGWXslxgXz1BdCAgZOR9zVxThn74m4YaF3AJN_Y8ebIjm-dYQL6_XfFGIcL-JuOKEggmXqyEwmxqzRyFWZsXR_wIwWSTvMLhC2is_q4hAaq0o570zXY-eKGqhMp_Zr2fim4MU35ow-esn5vWJCN98slOlzztzqbHFA3x1GdPfFVLvOjqtSOfioWuHK8OzQeySZ1A92JhqZ0d-m55U6Vy79zk6YW555oz-tQRtRvhFapqSuVc4OAyEbgsA-BB7JNfeIRQDYDympEs-ZT_Ha3wYcqIGDRaQBXbKgqnQgtjFXwzIEbuqMKcXAqoTXKJOJeckbGq2MHi7Kit5siwYIeKh1yPt-fc_QlNuvk0m68vXvT3S0pvjc4lQpQta3iVOKv6qlTl_fcjCEABT8iO2t6RarOsoeu73CJTERhtzguz38ftEEzaK3Fcl6Q1uJHjTz3aseCYU8R16kfKPRWgXAbe2oqaqc3SS92Q0dxllTfHDLAylwm9OPNur0L3xRnu7ThhxztE4f2m06A26G5HgHd5xK8cj8QaAiGS2PZQ7Gk7jV07Ney649WBHF1DRBoQJpjZ6EItCOrk-XcfPLVBHzyr_MisgTm6F6_CqAvfcTNkjCpGLeq5tiHMdrxA9L21bDAvF5QGMWdmed3tI3BawTBvfOxIpi8PqiW4Pfi5i7OBWMzZq0GouMOoFpoxGSSCHYiv7DXmFulm0YXnah1cfMKgOG6HVzkAvrg0M1nW9EUXwWAh3hXdCd3zcLZo0g1UBCu2hUWoDNdUvdtjj7CPKg_GVRffxuf573Ntc04IAyCqJsTs66mo8dNpjUZH-LzssUIQvd--73PfQ9vhzm4VN9Pw="
+    },
+    {
+     "id": "ws_084c252a3ebaa24a006ac5192a319c87d283a0933408b8b8b2",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:tagheuer.com Aquaracer black dial bezel numerals 5 10 15 stainless steel bracelet reference",
+       "TAG Heuer Aquaracer black dial oversized bezel numerals reference black crown guard date 43mm"
+      ],
+      "query": "site:tagheuer.com Aquaracer black dial bezel numerals 5 10 15 stainless steel bracelet reference"
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "ws_084c252a3ebaa24a006ac5192bc60887d2b725114640d6245c",
+     "action": {
+      "type": "search",
+      "queries": [
+       "site:tagheuer.com Aquaracer black dial bezel numerals 5 10 15 stainless steel bracelet reference",
+       "TAG Heuer Aquaracer black dial oversized bezel numerals reference black crown guard date 43mm",
+       "TAG Heuer Aquaracer 300 black bezel numerals 5 10 15 date black crown stainless steel bracelet model reference"
+      ],
+      "query": "site:tagheuer.com Aquaracer black dial bezel numerals 5 10 15 stainless steel bracelet reference",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-aquaracer/43-mm-quartz/CAY1110.FT6041.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/assets/brochures/tag-heuer-aquaracer/TAG_Heuer_Aquaracer_Professional_300_Date_GMT/EN_Mobile_Brochure-Aquaracer-Date-GMT_03-06-2024.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://tempuseuropa.com/en/reference/tag-heuer-aquaracer-professional-300-wbp201a-ba0632"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-aquaracer/43-mm-calibre-5-automatic/WBP208C.FT6201.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.bernardwatch.com/Tag-Heuer/Aquaracer/TAG1686"
+       },
+       {
+        "type": "url",
+        "url": "https://www.bernardwatch.com/Tag-Heuer/Aquaracer-Calibre-5/TAG1967"
+       },
+       {
+        "type": "url",
+        "url": "https://dajhcu4r67qk9n3h96cuafpb3.tagheuer.com/int/en/vintage-collection/vintage-tag-heuer-aquaracer.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/kw/en/timepieces/collections/tag-heuer-aquaracer/43-mm-quartz/CAY111A.BA0927.html?pp=1"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/assets/brochures/tag-heuer-aquaracer/TAG_Heuer_Aquaracer_Professional_1000_Superdiver/EN-Mobile_BrochureAQSuperdiver_29-03-22.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.bernardwatch.com/watch/TAG1707"
+       },
+       {
+        "type": "url",
+        "url": "https://www.bernardwatch.com/Tag-Heuer/Aquaracer-Professional-300/TAG1953"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1dcpv2r"
+       },
+       {
+        "type": "url",
+        "url": "https://www.bernardwatch.com/Tag-Heuer/Aquaracer-500M/TAG1675"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/DHgateVault/comments/1q0exnd/review_of_my_tag_heuer_aquaracer_300m_43mm/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1oihq5h"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchesofswitzerland.com/products/tag-heuer-aquaracer-wbp231d-ba0626-17381973"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-aquaracer/30-mm-calibre-9-automatic/WBP2451.BA0622.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tourneau.com/on/demandware.static/-/Sites-Tourneau-Library/default/dw971943a0/documents/CorporateCatalog_2014.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/15p2640"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1rbrc8a/wts_tag_heuer_aquaracer_calibre_5_43mm_ceramic/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/13uvbj1"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/plqrex"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/assets/brochures/tag-heuer-aquaracer/BrochureAquaracerPro200/Mobile-EN-BrochureAquaracerPro200.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1qihlr7/wts_tag_heuer_aquaracer_calibre_5_daydate/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1qbxvhj/wts_tag_heuer_aquaracer_calibre_5_daydate/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/onp5m7"
+       },
+       {
+        "type": "url",
+        "url": "https://pictures.dealer.com/parkavenuelexustc/3d3986ba0a0e0acc2af68618b19d87b3.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/tagheuer/comments/1nfthfs/tag_heuer_aquaracer_ceramic_bezel/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wgjtcb/wts_tag_heuer_aquaracer_calibre_5_way211aba0928/"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/TAG_Heuer"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Oris"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Omega_Seamaster"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/TAG_Heuer_Monaco"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Rolex_Datejust"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Rolex_Cosmograph_Daytona"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_084c252a3ebaa24a006ac519324c1887d2b99c117c1ecf6183",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRlJfqRC9giSxetwHEJ7oc7NqjfLJ3c0fE49bd4ppaI9GAofo5pWBQ6BfmAdf552nnLNUkDJ7LhTMJC6HKG6nrnrcEZIbJC6nvGhBktkVu2TyivbDlpUwM59db8CoQOrKcs__WPFYd739HxD4_1O9atCzmPIfsA5rH_EvlSi-ffSntut6kEd-pJqK8uHZB1WBEXwYbYa7ECzbO5nhcwgHBl-FyRI5kD51s4hjp6HKAEdX4PFQRR8D6yi7-oZuVeodxgKdpvrQfQfYChUCsSDh04vanPXB6Y_Ao45SaTW7uYIUkIFhIB8DJIFOjTcjhG27eSXIxD_rfrSXCGpsKurmGaSgdZj-ImL9uZ1eKhQmxyGHRF1VggZsR5t60phPw9XzvZ5Y8bak47cFH4XVZCbxLF8MYlH5MqC3JKqUPaIfDBCk7XF_ThBeI0elWMc4oCHFYTGYknHOKpo5K4kGXqw_4MfOHeCGFdeHEHQ3K83CgdUEIOJFvQ8HYLDftZrrV1i8-qy6hD159LqRlzk8OYY5h9x-uIYXoFa6iMLYoIY2Aia-Cs_nFBegWZoPtkQkGJcczMtmqlyvbzY4h6vAyKnvZrLMeraUMbj_BfJ0GSZKtSG-hLS5gbd95j2H_u_PsCc-8DT9gVvzzNi06XoA49m3eBsjPyH_X2qLJEw-Y3N7XMuDUjgY_NtXXS2hJ4MnBO5A13gjUmhmB7trS_KUo1-OHX8lzcHtgoDzPH0k3knj-ojssj5mBD8hXW_eE9Ph43TpmPoL5jIOYg2CqOlCuYf82gAFOhtvVmFAB9RbxnKLkZWq_2nu1HStVM_suAAt97a0cRvKgB1A0t8mpx8IO4UYG1hj5EL_zkUga40w8ywsjSM0rHqo3dD2A1o9c7iDlZ-2P1FkXxT8ENRSGLgLT1PKrWHYkhM03UNsBk3CsJn111vUB-UD64GlMDRJmPVM4yKjpMidikelTKTTM39QtcMwts6Nz3ybr8utD2x1oc8vkt9LW_9E2XhQsjePtb0UhOCPLejFRnQuQJDIxCaVdQy6Yt6uXh2Xw_5BTkNwwD5ZL4umJZZJ1OZGoW_UEnEjoNwIIdskzT4p44br5PDGxoqYEgzfAZf6fjY1zHnyKORd7L1r6Jq5ZsZV1UEsvpy5S9fWDHtuSni8VdY8Ji-BNHPmrei6QhFV6R0DQf_gRl3omKR29RAQTUUE4FRfNxDtp8o3IskYohaf9-Y-CHPBaoboUFB-HLaSbGwBijZLflDuMjKkPD77rnqoDNNvIbQ5Nr-Mi_y2mJYzy3C-xtF2OUhIYq156BmCcOKDqRgy7hMHUj8De_6cUf9Wn-XgEtQsKD8S5XBX5jdTxYbqamu4hnIZSY100U4mVLLPCocBXDPADRJRIusaApE5G6apjCQLPluJFOzgx1X2y77V9NOATXh-Fy_jwfFMwgW8pPAy-Gx5wVFz9VzsX7MCEtDOb-wrD_xcch9fnNeABwqcJWJlRubw78Hm5HbEnDKQyfTgv8w8Ll1ylI5KjULRHfbzY-oZLKPxRbXA7XOobX7EM_QCMBWuRmnO5O_FVOxiXNX__h3nvtltlda17nC0Y7U7WbYCP2bciyu90haw-x1pIJhD1kXihtgAUa5i-lpHtOiaaHKMoQ_5pE2US3HW2Of9tO9Z-uSXze4Tg3kHWNPLFNOp56UhMo7NoEjSXnRJnVGrphlf9Nh4fujTiQKEC4_0Dy3LM_BvaKyZUZS7-4pNofBOTSNSBK0dSeUNoEQhCZIV5kDHJAf15DCxoVQkILDQFlWySp3NwJfVRR6MzrnsfIVLR9Nyj12IKwaagcjyOQSHrZh2o52irqA1jt-bWm9_U3s4FjAnSZo4sFFVLvaZFgt5YxGgZ39X5vlPEbrfaveBR2pPyVsspaYd0ieG_7CXbsvIeOboIsvwIf96rgnTBZBqXen8JSBUNXv95b1SIJHwcSgehw0tNUCfS-msVgFro8NTv7DnQc139gPhc6St7NUVKsLH6PXfw-k9ZQnqiZQ07cIdaMtem9-75rixVRltR1fURCjENJLfVrO5vClsG-U48j7UQwsQPNx1_Bvvq7nsjfnG7okGJ2LffoYSbmw85nHd5Ro55zyJDHM9MJmYRAHhpBBdAUp6T-1Pe-IKbzElmZ0Xf_Gt1nExz74tHSk_GuqY6_7yIP8BXrlP_WJR3QERshlgoDMsA7lE9VXwlWq5Idw2IG6n8SvSuBAX6HsfWxYzWG4_Cao7dVMB9Huc8ATd-UFia2UC2WN2uEf3Q7b0B5zkCAegKruIQEXLVm_yBZJG26nR_66CHU_IqnIc9QJug2F8239EIXTM6-xm530mtw1pHgnC6GFfA9UBd9gtEYpdshzMGxRkQYf1E-J-QDQkbnHPNWW9ktHMkX_QFLdQCM3gGgui-7ZtsYd9NrA-UKhXADUk9V-FL2bqMA4xmNJ57LgdSBPzcdYg2uYF5xj9WS6GD1km2XvYay2qz0wftGmfW0MuxUoSQpF9M-LoHyYmadUlCyb0gF82Z4dl1uDgFDnKpY4881rDxbWRe5YyKye9HoQNFJC36NggGspRF-5YM1RNRanF1z8SIdiztAqw6ZtYXEnaZONLr9tfde4jU5hkIl2jhSuhT4QzE4Z25xZnZG6xOcHv5PXM4nscvW3lYIPvqc5MPii-fh7HAx-fCOVDmMHsDwYrhV7zmLLi1_WDzam_0JYTvn-gT7E-AltWgCDpeKYHtsI-vQhVHwz8-a2yT-w1cXyWr4Bka7CHrQjGlhxAkqN7tgxhOngkIBdCYTODWLM7ioG_94YeF7uqXq9YBRJFZnLeGaP2InkKsU0A2N8cHZgUlRHAD3tcmL8PNw2qjC0z43QLn0Oe_9aQkVGefHkdDbx6ZuM_82dMKRMeukvkeOilvUxTO_xfoNlVRQ5I1kM_r4h6gB8Fi_3oX8Zky6tZU6TqstIb-Dd9lHkxHptjEDy7irBMQVYy9-D25OafbrndzAMxeRBEjd9Pe1u26veJZgPvrCasV93g8EU7PnPPda4Tyei9QmYmwgKGsP6Osx5014mwH7vF59IIH64ohNXlG1IbCbnDiPLmb13MqbyEbiZmw6BamlgoE3w3N4puQgmtdnUAqIjsi8GLo2Vcxp4CLqdBD0j1ylLPQSLQlu_g6lJfqGHOFU3JB-BlfVBK9WxAsFhOsWtq3wtc9k_ddAigBjZo-Y_0OBvXbJ2tM-q09euyLgzqb5c0hkaTpfLR787wIqtFDDxFojHo3TQzYhqfSYam0LgtN77tcs2d4T2buZl7c7fSqcfLPB9q3-m95J4tCvFOXA9Qs53h1iKNCH_SlAfNCzl62e6wxz_Jr4Yfs7NMv1fdBhrTaao0CZrhFDGLUOJ2mz8WQcDGCDOV9DqTBO-WrXdtoGlJuxIgWZU8CeZy2XlkqMLDo7Y8nK24qtdRriz01W0-eleNt17xqNiDUelBxRANnaJtizZohnQ96Y3zWwSeIIwWL3NZFdqlD65Eo03dwRqi9heX9hGJCwTGLjLGYDDMI-zMXeBNPWKC0Fft8ccoBfwgyHnQAXh4XS5CchJEMG-STOqQXcn3tOrM8WxWq5uQmvQiB4nEMi_Mp6Urw=="
+    },
+    {
+     "id": "ws_084c252a3ebaa24a006ac51933b33087d280aded9200c2d1e7",
+     "action": {
+      "type": "search",
+      "queries": [
+       "TAG Heuer Aquaracer oversized 12 6 numerals black bezel 5 10 bracelet black crown reference",
+       "TAG Heuer Aquaracer 500M 12 and 6 Arabic numerals large bezel numerals watch reference",
+       "TAG Heuer Aquaracer black bezel oversized numerals 43mm stainless bracelet date photo model"
+      ],
+      "query": "TAG Heuer Aquaracer oversized 12 6 numerals black bezel 5 10 bracelet black crown reference",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-aquaracer/43-mm-quartz/CAY1110.FT6041.html"
+       },
+       {
+        "type": "url",
+        "url": "https://magazine.tagheuer.com/en/2022/03/03/the-ultimate-collectors-guide-tag-heuer-aquaracer/"
+       },
+       {
+        "type": "url",
+        "url": "https://masterhorologer.com/2013/09/03/tag-heuer-aquaracer-500m-calibre-72-countdown-automatic-chronograph-43-mm-aquaracer-500m-calibre-16-chronograph-and-aquaracer-500m-calibre-5/"
+       },
+       {
+        "type": "url",
+        "url": "https://masterhorologer.com/2010/07/12/tag-heuer-aquaracer-500m-calibre-5-full-black-43mm/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.ebay.com/itm/404724922415"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hourstriker.com/reviews/tag-heuer-aquaracer-professional-500-date-review"
+       },
+       {
+        "type": "url",
+        "url": "https://pictures.dealer.com/parkavenuelexustc/3d3986ba0a0e0acc2af68618b19d87b3.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/DHgateVault/comments/1q0exnd/review_of_my_tag_heuer_aquaracer_300m_43mm/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchesofswitzerland.com/products/tag-heuer-aquaracer-wbp208d-bf0631-17382107?_pos=10&_sid=a298bfad6&_ss=r"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/assets/brochures/tag-heuer-aquaracer/TAG_Heuer_Aquaracer_Professional_1000_Superdiver/EN-Mobile_BrochureAQSuperdiver_29-03-22.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tourneau.com/on/demandware.static/-/Sites-Tourneau-Library/default/dw971943a0/documents/CorporateCatalog_2014.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.bernardwatch.com/Tag-Heuer/Aquaracer/TAG1686"
+       },
+       {
+        "type": "url",
+        "url": "https://masterhorologer.com/2016/08/26/tag-heuer-aquaracer-300-m-43-mm-black-titanium-nylon-strap-automatic-calibre-5-with-date/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/ChinaTime/comments/1q0ev02/review_of_my_tag_heuer_aquaracer_300m_43mm/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1oihq5h"
+       },
+       {
+        "type": "url",
+        "url": "https://prowatches.com/tag-heuer-aquaracer-why-it-deserves-the-limelight/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/tagheuer/comments/1p1p7ks/thought_id_post_again_got_my_first_tag_yesterday/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tourneau.com/on/demandware.static/-/Sites-Tourneau-Library/default/dwc3d8b593/documents/Projects_Brand_Corporate_Emails_2018_DigitalCatalog.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tourneau.com/watches/tag-heuer/aquaracer-grande-date-chronograph-43mm-caf101e.ba0821-HEU0169600.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.swisswatchcompany.net/tag-heuer-aquaracer-grande-date-chronograph-with-swiss-quartz-movement.shtml"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/plqrex"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/onp5m7"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1wgjtcb/wts_tag_heuer_aquaracer_calibre_5_way211aba0928/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tourneau.com/on/demandware.static/-/Sites-Tourneau-Library/default/dwe8d99dab/documents/Projects_Brand_Corporate_2020_DigitalCatalog.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tagheuer.com/assets/brochures/tag-heuer-aquaracer/BrochureAquaracerPro200/Mobile-EN-BrochureAquaracerPro200.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1w9gxrp/wts_discontinued_tag_heuer_aquaracer_calibre_5/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1durijh"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1rbrc8a/wts_tag_heuer_aquaracer_calibre_5_43mm_ceramic/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/tagheuer/comments/1hneeq0"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/lofqi3"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/TAG_Heuer_Monaco"
+       },
+       {
+        "type": "url",
+        "url": "https://es.wikipedia.org/wiki/TAG_Heuer_Monaco"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_084c252a3ebaa24a006ac5193a41b487d2ba94f4e98d172e5a",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRlJMaSeC7l-3cGAvwfPbljcGG7IvATaJjoZw_CzvzZyT6WSnUs7ULveRijka-Jy1je4RxufU9-fIVNj6ET412shNQflxABVBxBJ4yvLJoRLg3D1x7lBPzGKbqSgGi-Cf57C6nM4SH3eaqHFtS7VbtLqvBNCSz9JIf-SI-4VHoyonjgIZqT5YBj72dxadsmI7gUSKR0r1psyw1VynbIA-NCRUXWpPh3vZ0SGu_RLgQ1o05pCWj3TeGPufFTM1i9mRQQMDIj1VUGEt41w_DvZA_otCfJABWm57ZFjNekqUkkiGXkkZyx_ft9HmasqDVQQqgb1kRpsndCR5HFXOERj0NwIb9xIr5Yq0SaaMF1Yb70bTTgjNeungK0rJ852GUNGYwEHEBc_A1luwMokjahiiq7QpyRqdBsFlJklIrpeCqToZqKiE3KUj3Mtq1GnJxyarVGplSvQRZyONEswrv4PYLZDdcA9GW2xqaBfZKCetTMFYNuOeph2Ohz5Aph7SCu3l5oQxhuWxF8SJgXKHDvzAWRswbKke60dx0mCzRX-UI4bLbm1Cr-4ChvOYu722Rpf3hjrluAGEWjYCHcU6lOjL9P24H-clg3vlXgGBOFKR5634GwoD2pGlqKs97yx3RGNY7hnp-MnMbsSV1s2cB2nhGzA_cWD9ipIUHN562wSkv_LQi1AfM1rixuH5lU95QlS0BpDlKA9KKGJZ3lVUCWX-kW0jy3mBryN9rP3ECp2Qxkyu25h7QmTGWrxE8AKMFhNVSYqKdwXiYm5LfbB4F6xZQ_YPvFp37DYoNYD3x-45d_Tl4oomGmd-mmLWj6jhe980Iujq8u-Q3hTSHdalkIO3jsztMPgC4Zrnqtvaa5vYSp-_uSnF_AfnsmFkFmpauuTbiaZlBYjAmmQr-Tj_6yT0dW7tGE__cZL5QtaZ_j6N9WhC1tG71zTRBX7Bmeuj9qI3N4IVgFwB4aClcEDI_yz-jRNa1ueRVkd-ojgbLKrnkzOBuseWV3ImdIjwuiGBFGas3JBCklFJ6zdl_2MnrNAhj8nWtJzGWn_16yFYakMhwPQCZj8uGEUPISBnjeq2VVUROKQ3z87dd3KuH_pRknmydH8uJxiG-W1nayUw-R5TBvK1MDgRlCxls2tP_FTHrP0hfd6hyJfShkMt9PtvBpKOVE1gg7fpI0qoSt859rYxR03bJmvh4gscaHi1PvenBpoO7D-3OIJzDhXDDwhwnUV9jA2z39_SzSXyhkRt0hCreAzn3lpiPfoLJ1yLTEraKxo2Fh0eXg6jdDH9p-meIU2ueDBv9dsQm7fiZtU9eaamg-o-73v1dqrURzQn9oL6L-r1bBMCTdvvtr2rQq8Thw_qw5arm4OaEv6ROwc3WTgV1ysm1gsRz20hATCgXlPmM5T7Hfd-siL-0JHbddR2Fu8tbbyTtSv_zerCME0DaUYY_XLojIPp2ZnqjZmxlTrF96GP042YheTDj0Lpz5br_CYaqwMGo7g2ICWgwWvR9D_qvIRNOpJqUJq2W-PrsXJFjDLCS1XLB4h05VwAmliJvyKC4GpeN7snhZIsJaqvHR6fBQFjo3336vS9qERIpiHCFWO41wB05RzipTQOUdfjLoO201m3ZO3U4M77ehmeBLtwHC_zdIQxHcdjjVHfKfYOvVU3dT7YTt7FlSLATuUNG_Aqxgwnoe6OLoeC_h3KkfRJyiEu3IoIUgRgPT3o17vgbw_UpcTlf0yb0S49s4eG6ptD1a4hHPbt3UXrLn8fbhUvp1ma6iMEq8IPAWWlx74rmr4JNLOR-lol2q6c2v53HS2SXx2mrSLWI9nE8QkFruCulKvOOhJqmAJYq-ZlSW_QFYTlGvIMqx6rBbB30B3m0wBw4gdowGuuhK_tMksztB4xk9UzbcFs-b-Q34P-ah3mTBc7KBm70xJrH9tEoVrxUkiPNWui2FM8lCbp_MddbQGePAfUxrHp0gjS2APdqteUnuqOAOkWxeDaE3QJE1CurA00J3YeaNG3ZagAka5duX5Efxhe6VXd6wEkvEhvNGCWH4Gtx6T2fRZ9vNY_hLVtAZU0ykrq9KyxbTjYLPHE5YhOoA2gqWFbApPOAvixorI_g16fKUJsO-4C21bkCWeKFI0jwglEQI_8bYEsMkwLiTigvIAeDLZht6sc8_5hHSvx9z23Q0_q7Go_OR-FMHEPsTNGmXZgkNk1NFqOkTFwaUEoCf-e2P8dKp1hPvzdabc0xBme0nVJ9E9NIN-5hlISJD18hRGVNKcdzGwStGRPd3VUxzWtHZQai16BKU5o1eR4LF_nmsMyhDUtcIKMp5UozVg_jcSfjzSbnxmtkM4dn00kENDCFnIzVUP3PP5WnDa8iU3Kvh4ecbu3pJM1GjhZQyoCvFSxTRBGwp3NhWppDTBWYtGUzsMR8KICCXjLefRLkFUvplh0QLghHmRHNzQtaNw7mRHuqBv1RqOTPVwRxkAeNLG3gc6-PO2aZHxMm46vnqwUzNYEXYoq2dM1o-D89ukxQ8BYpdkkfvZsLlvAkrmWKPcZLqrFqDrTARsAUnBHvxJQ9N-69UptR5FSUP3NDH3Lv-ck9whAk0jQ1PUFghJcw8-6rbcqmilbIqtTtV__lgKLxfKJ1GcY0f9vqWvIJDm0LHQDb1WTZ9Hx9bRivM1K9hhFS10BSlicJkcm_H8m8_GhHtaIaUQuQtK0K8sIZX2cZsaP-Hb7babztFMe88Rb2l7Io2OquHVI23o1Dq6x3sE8ATMmlPU0OegWQ1-8zPCpofHPo2QdY1pa4JrpFH2_2_r_OV3mijc5pEzRzoHm3ApqDYfthHSAm2X3sm-7I3BK0FV_OqxKxi1F4pBj5G2uRetO5n-HtzJaYoPLm5epUHRp8Qi0sJQM-sCEO_RmwytF8XucQAvK4sLopzfCleHGOjHxWlFR5p72_sSrckW3cbabchL0F18Fo0v1A7SsGtBCy2HQ0wb8AjPcqZJJqT6NRxk7Sm-hrgRRj1fx56PumQb-K315bX7rWG113Cgxs7m2aLJQDaeBUGac0wSmd0alHt50knhMTC9O1iB9WRHvX1odUJTPT7XwTmL-2Dpb65kU31yEiWZDjuptwfaEYrSt-vE_VCdE2CH8OIQ2n-gUQUNw06C9La8NvGh91GOnkWM5Zqq0Nb0WEyqr0fLMk6RojNQVFolkbaYeS4vMWlYJci_WgSbzTvZrMmz3pqBB4k7-bt6w0C7Ng88bj6U_II6-HM60zQ82vYYNa-Oi9IyjCUgH6xZh-bfbwcyiAlv4BGGqhbLoSn50i5_rzLz-PEq5fYFZGLWaco3Cy7fPWpYfCFleT-AykSzymBCwBVoX0xEmD4Cc9utOr2Q7KAlz_jC1c1H5R-yXZiQiz_zrhGDn7NroLH9DXXSHrRgQ8F_IqHC_tu_0ee6CM4JRuFv8idSqPLpvxH0AFkeGicEqoFhpIG2P78kMAwASpSV5b57zPCm0E83ItEbdLn3nJP2yMceYXpJq2AriHK93z3Le2PiYvCanoY2BMS5f8Ntc82tEdKBRHgpEFz3bCKp3j7EzVXqT7ub7bv5pT-0RLabcyMXXzk55DnFn4k_3IP24G4qNSW_gqNg4bHwkXDuRuy3c5vZi3KwhHNvjmFg5sf70c-UcDAxF5FfZYLhK7rdrhyT9Ru1pKrm9VeoOh1UTIAE8YqYO55AkPA_VGxivO_DtlMizSpBcH_fdPSOCKfl1jNcQIEAt2Hn5enstTjUt0hqHQ0MgAG0TO4TPyCuHhclN73jm5p0K7MctpUWLX4ke0iNdqFQ0rilyC9DqvhUxekwxQgWlIYBwVSRDDYd2P_-PLAZysmkF5SlnCNkizZux0h2jdlC0E8qmc3ni1hwd_CceqG6rTfjU3qXSHEw1FZKTFOml9MWlijdgmGW4d0hrtOa-qbFwOxRyQ=="
+    },
+    {
+     "id": "ws_084c252a3ebaa24a006ac5193ce69487d28de25cf175f8228e",
+     "action": {
+      "type": "search",
+      "queries": [
+       "TAG Heuer Aquaracer \"date at 9\" \"500M\" black dial 43 bracelet reference",
+       "TAG Heuer Aquaracer 500M Calibre 5 black dial oversized 12 6 date at 9 reference bracelet",
+       "TAG Heuer Aquaracer WAY 500m oversized numerals 12 6 black bezel reference"
+      ],
+      "query": "TAG Heuer Aquaracer \"date at 9\" \"500M\" black dial 43 bracelet reference"
+     },
+     "status": "searching",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_084c252a3ebaa24a006ac5193e465887d280221659eb34331f",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRlJHmOwVkvpS8QlDrCKMu2cbdz9ztTgW28_T5sbQjArC_4m-l0v3zm7ozyyacbj6iYk9EakiFVP0jlrLHwwdwhaRMUToqAQXwFV3g5zUo8hlXxDoIVk18p5NNmvFrDcqAAXESMfRTB2SSLZt_N2JWNTry5iEeN83Cb9RKhTRGFSjQit4ioDMOkjYej4Cxuk6enxraY_loW5queJVDVGsHeaOeJBE83RPIgoQsf7nrg-Mo1F45tm4ECgoV2UnasnN01nHF44y3xam6EN7RJaYHr-XAujJf4cMrsG9bu2cFNYOCtzafJpPJ0vX4YRh-kO6WEFOItvpSAnl9LiU9EPaHaQHdJuQ7QhBEzZApjgROqhLaB3C7yoZUHzePT5D-9mabU1bnbtAT0UHlJay7xVAKqDeVDmR0Kyac8ixFsmzdQp1LG2KNJjdXfC0Hlkkqk2kLq34jEaWCu3xOLsQ2p1Ce3w1kLI9z6s4WBEbjPv1N-e-J-rjcRXLVcgH1g-J8nE8WXz80HHgAQBivZZhiQyB2B76vFYjDUAl8iXiypXwVfz0Acyirqwykt4KB3mjXclxJpRXSWMETcx3gb7aAFet2JlrJPsy2yFLAZCZqaCCa-2-IIWb0J5k67_RoW3smfX2pKGhRL8Be6ETwLE9vEyfzr-ea5EjpLSIPA8lp87E6dNhcRo__3Ucy5oi3GrvPUMUQNj9ZJevdx93KS_8wmnw-4_TPB9lBhsDgAYyxjViLg0vJuJjTAFrkHMpG78YUimnHSk78mDs-7T5RTdaTrbfgcJpK-lQ2vqtCMGb0erqkPS8sdQI2NN-C4R7aZWfCeoOL_L5Shns9BfodICgdVUB9w2UBQH3NfxFZa75h4TD_n9vjYkXh03mlSssbD0ZjcRR3IQCwQgNIlcRKS7Q6DqcazPtFTyJVkb0iokpJncr6dGQSvfxjMx_ed3CkcjQCGWcjmZap8Xln0NU0O0s6N9deqpszkjGMCEduFUAvwNEXWAjm9rIZiQC5yIMrpPk1nR4nzi6iAZ_Y3iKYZe_hRRhnaVANGaU6zRc1QG7K69LDD1xcCrNKayQQk6FiV9WzSs-QFkVUGDEB6vjjMjyxZ5xW24Py5Ophjf8DjZtVHbgxFTKK9BmzVgo32WDXWPOqGtTZ7Biv3x2lyZILhJC9_kjKzv3XiWLdwPG6mYxf2Gh7kpt6PTvgy-HPyC6atUzMdTesiBM3Ki3W7inOWwlfdjUTLkLSwyOEjnFf5odmcHv8A3LuJOWU3WKhHBOgeZdMDO1-Q5hXqInYNKGfh4-NCFUV5CHsGc27YtolBmKBHpMtdvFZIIW0TD1pWift3sQ61iMt5k0hSy-h2NzB6blqVLz-9CUJTuJT_tTlTcuMqy7VIb_HZb_O0btqqBVFRwmKecINreZUsiY_sJ-2hdZAWBM9vMkl2NUocHo9Q4fg0gxtPvF5Y9lnPqmEeeeyIesI-kpEt-zZrBtfRB4ssqfdzCKgdJlOtIZTzygSZaIP3KtZZiMvO7dUEkzeJzek2wEmhkvORQsX7C17Aku5NPVTH_aT3yQKYQY_Hg87QVsA1qjKEaWfnRhh9zlzCdDXQhf3Ih18lvBOKVjbi6z0UpB4AmZMrQNQCTUnjppBtydBy0GBpSz_LGodtvqrV6kTF0jbMrZvmRS4q7V3hgoIr0rCnCCA7i7b2FNHoseE_AKPX7Yzm1x59s2CiCPN36iwAMjYvOh-Ui7hPC9YS4tmyRU3Bukq9T2B__m2vZG5frpOJ97_0lkECytPc9e15IQdfQE55uiIqpSDjBa9_0Uljtv8AX0opIdx03W9WdyTPXLvjK5fNY2PNZ_i2PMtauBUGVcqekvCJGRv4XaJ72kh17Co8y1ZeoEjPE6sOwD6-_A75GNyOozWrdtDL-vqhTEll65V0KgG75Q_UoAhZPJeyOUUnf-_RE6wPI8OMcU98PwOpSFJe_3GFlYpG6FRniijDcyabST5TvW7Q1v6cpLiT_ouNxw0ryClz1eumwS9_xdE51dd4LcmmHEr3hc7Q5tDqo2LoBu_XQ2q3MYLkF8TOcEFfRFdoXmxSSsVdRsQ4MSm1o8WkTgJJS46dgbvy15Dowft0Q5yQ8Q8bU0cbrzA553RJdVeRlsPJDrRc7hUl5X0NO0TAPDd3jwwct08gewOiukuh_hRrJMu74LA8llzSYJHwQDlDuDX0KyPnPsA47DKM6m8i2PD1iTGrMK0ngymTuR-5OGgQ4dDCyjTXGPctHbAiWZ5VA6Z70M_KUhssZC2vitlrp-swAoTfJ8-fvnnbLSCKkaRuWRRqApZ_iMltsir5HSC0Ng0NLJc5AxpzjhkVZHNaaqxVtxgRE7IlBhcpjnZjntdK34KCpPhrZltIEv04vp2KYUfX3vstNZyWpLPhKEIV58fuuvtjjtIWaedrG_9a8mmBHui7G1fx5mlOiuzOHL7tpgqSsq11buey0rCjbwZimokEXoKfYrYPHpDOE8aj3wtgiWA3-N-G8McgfZcAu_xQpEAv2S_hveLL_g4ic1Qa8-_E0zRDcn8jzoZ4CWkb63vyCz7RToXaDV61jWA6QXh4gETn5f1lh68mYZ7S249vgNY7PvwvsodjvnDQikBbWYXZ2GAkBXJgM4m-Lar50Wmvu5JHtxlcDifASDo84gslHn5nfzid3s_figjmAIf1Mq6TWwHgu8cRWmHsjyQ-h-pZqZcN1_OT44mZewYbjlI0DAR7e-T8HhLfsbcWpnwEY34_aXYkJGcd1lyCckbKYhaHXPj9p6g4RfjN5SBg3d8qdWw0tEydHu1yOqlzVwtCZX7XtD6Jw55QDXn6pofcYXO3ryyYIusqiEYMxm4awYz9QVI4VI7qEga3GB5fxghopqn-WKX1nLhKgjUBvJQJoSByG_f7OWkA5-bST4XREnBc_VA1TQgwY5W_5ODbZwclV9VxGLGiIjOafXN-90qel0ZWw8O5ke_6AWKQ_EtlawWtjovAivXSI1f2d0UjxfRL_w-KETydcNyogmZ1gAhxe1DPKsJZHXOVOhxthFZH2UFFMBZryfrrqI6wd1rLm_hgoOCoCEGAxpAOkWGe7WxnSalEvXmBOMCxndROMlwfGYlNm5XhruRLbhvFAFDuue7zL5iOKTYdWY6145f3Jygqzs8Zqy8qD5ohRL0l0NppGRHGUIO2ikPx04i9mTSTsAE47TXEV5qesdYMS7sGBM7EV_HIu9OsVmsjhJhRoTyRd63BTRs6sWjzqfZEj1-42pkfczSzYzWOwmhr0IajCKIgDo6ItN1NWSa_nrbRcP9SrFk8AeQDKGoU6MFKxuY6Qag-7Em6T7vsscKCc8gyBpyOf6oVF-S8CVxjnaqSOCP8scmVCVukH9qaoEsV5xIy6ri-o7jTBJ4jV48SUJvzgeYFdObio6fd6GomZjiswql8kVVTWy95VTlkg68xHwd31n35wZSM3ERADSSWDnfsMlHUQ8WSKueq8X_AVhAlkyewqfuIer3VBITkM3jUi4ZTFEcNuWpVEyPBX2Ev579lmhKvCDPShtxnddljgiGHcfxzB6r3EGqy-8pBQ5bm26E0d79i9WuP1q_MW4MR4nuPGuGnyAuIW1BEWjRajpffVN8QGnK6Qb5KEmc_ofs-LfsrK7XvljHo7LR9ic0v-Ig7l-aBv8opK8m_PFDzDsl4wDABX_YYz-rhpslYn8h2LmzrXADjvaiMSWN8v_yuKWukb6fX2l88rObf-oO99ebWwczeaHWd-wFTwy-uT4SJZLwrlbkxrIe_thr_HNDvReyWcbhALWvmYLaOmIbK2uUyTmr22h5WSEKeb2f6OiQHmrTr022XBHwehOawL-93o7VAoEcF0SaXxmdezsbCjBvXn4sq-DNPd3Vg="
+    },
+    {
+     "id": "rs_084c252a3ebaa24a006ac519435be887d2a8cd8fc82868efff",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRlJyLocnyFWg9wcR0JC7s_763l-2Nge0osuMp9w9TKuJNor4Z41wwo3WZM05r5O_pXtQXzG32qXYBxxxMLyzISLF0lhDdlQFeaJJMrOAWN8I9tWQPd-0Vol0V_cIWRDoG56TppStmbwKPkYJDgbTCMAg3gPE_TN0NniaTnCLZj0Vc10nmuTNwjITLFQB1YJn4aTguOwd2CYek-Yts1nQx-EKFzPIGi8FPNtBhwJ-J6kXpUfHzNF8BoXAa5aAt6N8OCy8ymc1Mr3IhM4C2C2VytlcodrgiweuLQt3fh-ccvvGzJr94jHufgmA3Zj7xOm21zruyuHOUOIvdFzD_DBDTzgkFXTThkWzQwJQOiwdjT5jBp3hVI5SGMCxaQsHn53duI1QF8SnEr9E2Ef74tEf_KeKKCYs-mbJcwZ53IPYa9Mf3kq4YLPy5kKdsAftw6vHd4nYDvN57tQF1KWCdjC0as4XvbuM0QRBZ2oAzIwLFdmt5nj64cCWJoPz-xQfovaGAlLw5ZbeRGZzNeYgI9h-tYmSmF3mS4s0oN4OZhahxZ_xb74BBjcuEIom8BM4aGIdEv06iio16kxTx1zslGB0_kwyaeEvf8MqhyClABoHYjhfGP3tmVUrPATROrqdBR5iyQr5RCmSp80AlQUXw9bze7w61jrZmN-x_rV1Ekyk0DegaL-BelEyxoUw36s8vFwdtHfVS7d18SjdoGE88GIyjJcu2YcR3n9UsRHzByQWRBvtLzebUGvcVjR4P6alXF75iR4oJgygG2V1h-VZVFQIjC0aLnRC79UbS_Ygyt7gEp4lOHOmJJqua3vYJOOEsNQLqTWr-I7t7ZmpuPSQcfQWD_HUJ_GbfIkAqxgr17KRn8Bwmf4zuJh4DJ5IEkXT7PcM002OTeUDlxx1H7iHweF4ePaDSjkaJKS6rpJtIvCHOelqnwUyLS0Pwyz8mdy3yFEbfyv9DlufK-fJcT2T9z_3r4a5xAefbmx85V1MUdM4EbzyjS9kYZT-xO4Gmde_V_7bU17bAR8Mn4Rdpu1Or5bCkvovWoQeKaxVdYd2wpvi8HSqwTLJuFXJ7lDn-6ER8zxd9LbiVi5PyD9Hpmu5Er9zrFZw-nHcgrHZAKzjFpfZ4UMTaTbAdyRjNIqRR0stLdkyONhHKyvNLau6f3PP46XbR_Fs41iZ2NkIORcE4A6nk9Q1GuM4NCCP51BSgaslzAe-Ou7fqTbzXX5m5f9lPvRB3h1Qdc7fREH9YCygaFe809OJ9U7fDcgiZlaGO7fSVnKmdsmSMenxLHqSptep9lRQCEkg5XROeTaCl7dsfiHNx97Kg7-ZjUMmObhqg2uzw-dA1lKbtcxlriPICkd1iJHnv_vG2VKfL7R_ctig6gig7Ixm79kEoSZwkC-zzWkziQVHyFkz2jc7la8pAhPXx34eAH-Xz-eb6l_ywII3IFATsweTm7qK4R3fBKhRAQ_77EW-JWpK2rRVzIiinhM0IqmBbIJ16Dn_ISFNlH5PKGDjMY6xT84qQRfvNqh8u4HZEtWsooqtEVkOfPFfWO_zBFAvQ4HaqEAT_ZIQuyzej4dIWruvoe2HlWusCy1OQwrHHaHl27RSCJCVXX-x652XIgM_wMqjT1tQl4bvep8qRdPX2GjdI4aJgWR_E-wErwBYJTOhtfvtY2aX2rBBtuBu_T7xEzzHAXCiX_Z-zaAcBrSHU-TjCkfBlGgGGJAHLZ5Gfr-Nge6TPPa6MnkmsdnWaGo7JgINIezZIjgtqsppkvIPP3DOGEM6teAR7n-uxImS98asfvAamYKMLKTlCL4hrBgcUiiZNUS0pNS2HRGRnRyv9yVYm9WCkyXMrcIc4NMjjYz7lKo5K-o0WXPthfiz4fakVfvVZ8rFy-NjssfhoHlVkYBXXyOda3nx0T97fcK6scvv1Se7dSSgbXQbQs1OwN9gpxrvN6oBR2Jfm72ED0ws5DpP79XBZ9FQ51R_9dFtilIC2R2Ch_IV0w45jjuN1bH3ymjpnlHu5dn-2nWS2W_bmO40_JMX_Gfd4xJ4A4uTjr2l1iOe8uCElwGyw7pjG3KSRAavC-NaJjbAzs7NBzGGcAZUc0r0miMFX-8HanNfBv2mn5LX0XtHzvTxXOJZlkUPIwEVQFE5OI6gQ4p-px9JdwBtVg8f5dCXEcK9j-HIDvIhZsnLH924h-G30pna90Oob3JbEFv_D1kpqO5wuzoKFWByhGx9XJvH3sTPMFPMjTNbBvc_oDs2M--i9d1AqzABNmAHYCdAcE_YnVFpvAiYAHlXSu6pCf3SaXO-Ez3SVLwttCnq0mUwLtOLhCymN2ojIzVrElNwQnzgPnljGMZWb-gcuWCOEV5oMcgIepnNRZYEL9O51GBghdf-yBdp3JBpCRdO4IpiO3RHYpC9qw3bza5qMMyDbzqB0YnGndWIaPA2PrDWrm9PMCr9pVQpN1mBcQKkPiHu25Hpipnysr_Qrp0onPJboE3lhnXrmZPnSklK-Td_haJQAolkUvDIiZTFHQ3uKU2MfDqgTSWAxBdclx-oYzMU8t7aLs0sQOwqznG2v2964OOV-SibW2sWWNoGDwZza6jM2EbmN-bWZQxN5s-PNP3YoT1vJgmWGx7OOMHA25kYTw_Au6Faiawkgdl0qQ5Lad97g379obwG3eFs4YTowqTg-9yVFKq_X38jdYGs4U6wcSLrZShOVujCpcq_je-81tB2_QIU7zC8V-J2HLGoB432g98rRfkXMt_pz1WAW2z2_hfKU3FCSHjAzMHfIm3HmOVSWZBZrbLdDPzuL2mHFhbbob7aqZiuVCKfNKbs-qEVOXR8in_Uq4wrXYiCFjxWBh4uwuzVXv3p0iCgpVOZ6CCW8iFwae2avw-qLE5cK06Mf9WR6BNF20_b5SKs5XtzFcWOOpOyLubl2rx_lzYWBfyhxMdjLE4nZZfiy_W6aItvjs47ZfdPGLjAjALCMlSx4yEjQDdtJrD1heoGtLyuIgSDgzHXAi3l4gBAH67VMFQiJjvHhzA4QlklmQd3pQgIiO4kjrLJ0pOx_m3ejSbGzqSBqqF9-yjBIJi0UGQkmfHmmoeJ3HZ3UP0jG3eEIdrkFqkKJbR6F4Jq3XxgzaR2VpMLjgrhIyTfmj56fSdix-Sjst2-BUq3F5z8dla99ZKdccYt6ljipaTpGKTmY5FELIVaCNJrXZ8YMjF0A8DlUxNqp-sP0ufqw0skPc53W56teCwo75BFrPQPCxRReLvtFlmVz0tRBE-eXojhCHLsyRBs3zYhAm4R63qMKDiYOIkizTdcvBtpwy0FvqyXWXfMrZHuSPm_K78rw4W4izmmRvmdLW9hEiDHDFLEFl97lhtBiKtVRl9XOzDo0KGHBADk-SXxb0tNp-EqC0uo3DVSAL2F-RZy2lv15qaFcJAzPCv9nNs_gp_Cf45K3arGgfCa9q91P9ega3IWPywPWJLjSE-xYqYXKZfXFvBJGWcgOOK9DJcKxGBWEHoI4ktOL8mzRn4qCHLo3qAPMPP3Ghg23NSO633WssJR1HZTv05uuHSdE_pf-QWHq25UWYN9XQunCKY3jV6swpottdEoXWvWsL__wvpaYI64g6R-QQMDwO3JE3h1_t7lxcNRb58YlXz1W9bbfqnq0Rhcv_4M_nqQCw05yOVxn44LsY9rWHgteaCIlavqJ8iSd8iYH1B-GIJCNTxE5y4-wsgh5jI9Xjp5RYM"
+    },
+    {
+     "id": "msg_084c252a3ebaa24a006ac51947e94887d28aafd7c569ec10bc",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\n  \"brand\": \"Tag Heuer\",\n  \"model_line\": \"Aquaracer 500M Calibre 5\",\n  \"dial_color\": \"black\",\n  \"case_material\": \"stainless-steel\",\n  \"bracelet_material\": \"metal\",\n  \"bezel\": \"Black rubberized unidirectional dive bezel with numerals\",\n  \"case_size_mm\": 41,\n  \"complications\": [\"date\"],\n  \"movement\": \"automatic\",\n  \"printed_reference\": \"\",\n  \"references\": [\n    \"WAJ2110.BA0870\",\n    \"WAJ2110.FT6015\",\n    \"WAJ1110.BA0871\"\n  ],\n  \"confidence\": 0.57\n}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791301961.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 24164,
+    "input_tokens_details": {
+     "cache_write_tokens": 0,
+     "cached_tokens": 8102
+    },
+    "output_tokens": 2303,
+    "output_tokens_details": {
+     "reasoning_tokens": 2303
+    },
+    "total_tokens": 26467
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 3
+    }
+   }
+  },
+  "search_requests": 3,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

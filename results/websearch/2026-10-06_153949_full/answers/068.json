@@ -1,0 +1,692 @@
+{
+ "row_id": 68,
+ "image_file": "068_cartier_tank-francaise.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Cartier",
+   "model_line": "Tank Française Small",
+   "dial_color": "silver",
+   "case_material": "stainless-steel",
+   "bracelet_material": "metal",
+   "bezel": "smooth stainless steel",
+   "case_size_mm": 25.0,
+   "complications": [],
+   "movement": "quartz",
+   "printed_reference": "",
+   "references": [
+    "W51008Q3",
+    "W51011Q3",
+    "WSTA0065"
+   ],
+   "confidence": 0.91
+  },
+  "raw_text": "{\"brand\":\"Cartier\",\"model_line\":\"Tank Française Small\",\"dial_color\":\"silver\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"smooth stainless steel\",\"case_size_mm\":25,\"complications\":[],\"movement\":\"quartz\",\"printed_reference\":\"\",\"references\":[\"W51008Q3\",\"W51011Q3\",\"WSTA0065\"],\"confidence\":0.91}",
+  "input_tokens": 24938,
+  "output_tokens": 1229,
+  "cached_input_tokens": 8279,
+  "reasoning_tokens": 1135,
+  "token_cost_usd": 0.0023631900000000003,
+  "searches": 2,
+  "page_opens": 0,
+  "tool_calls": 2,
+  "queries": [
+   "Cartier Tank Française steel white dial Roman numeral bracelet quartz reference medium W51002Q3",
+   "Cartier Tank Francaise stainless steel white dial reference W51008Q3 small 25.7",
+   "site:cartier.com Tank Française steel watch reference white dial Roman numerals",
+   "Cartier Tank Francaise W51011Q3 specs dimensions quartz date reference",
+   "Cartier Tank Francaise W51008Q3 W51011Q3 reference sizes official catalogue",
+   "Cartier Tank Francaise 2023 small steel quartz reference WSTA0067 medium WSTA0068"
+  ],
+  "source_domains": [
+   "archiva.watch",
+   "therealreal.com",
+   "everywatch.com",
+   "chrono24.com",
+   "watchfinder.co.uk",
+   "bobswatches.com",
+   "borsheims.com",
+   "1stdibs.com",
+   "authentiquelux.com",
+   "collectorswatches.com",
+   "essential-watches.com",
+   "youtube.com",
+   "en.wikipedia.org",
+   "reddit.com",
+   "graysantiques.com",
+   "orologiepassioni.com",
+   "onthedash.com",
+   "monacolegendauctions.com",
+   "fr.wikipedia.org",
+   "es.wikipedia.org",
+   "it.wikipedia.org",
+   "userguide.cartier.com",
+   "watchesbysjx.com",
+   "fratellowatches.com",
+   "chronocheck.de",
+   "hodinkee.com",
+   "spacecitytimepiece.com",
+   "timeandtidewatches.com",
+   "watchcharts.com",
+   "wisemanswatches.com",
+   "tourneau.com",
+   "tmng-al.uspto.gov",
+   "jones-horan.com"
+  ],
+  "elapsed_s": 136.293,
+  "started_at": "2026-10-06T16:02:46.941441+00:00",
+  "error": null,
+  "tidied": false,
+  "raw_response": {
+   "id": "resp_0e19f18c656be728006ac51c14cdd887d2aac6a71082d53af8",
+   "access_programs": null,
+   "created_at": 1791302676.0,
+   "error": null,
+   "incomplete_details": null,
+   "instructions": null,
+   "metadata": {},
+   "model": "gpt-6-luna",
+   "object": "response",
+   "output": [
+    {
+     "id": "rs_0e19f18c656be728006ac51c15a57087d28b2395a1e9b0676b",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRwvaqaGxzXdEnumPZYXswd6JtuE-QcJbJrzcPeJWwc7Jv4O0lZdVX9WZ1b798dLIHIAZ3tdILYBYa83bfY_uPHR6Lwx7ed3ze6AgGBzSMaPm_JFe2EQHFfsb6dVe1Uah_zRzkaed6piGeFHpTA03f0vfAsLkIOuYq9PMq2AVttZqrBYCl0Ska_ydjQf3IyTRWuvH7eXlKQzKXjuLdb6bOKy9J23F4I5k4wQ8jwYxWmwgfV_7tlHjgP1A-FYQQByNrd9jhcpjvlsuIaPBsF2ypDujgRbjUYidEVDHwO7kcpHCCiM-Eg4ZJJ75cgTYS_BR_pHtONIRYtSukRSm1s-NDLX1qXA7FIHBvv38Qhq04qmwblxfnp8WXaUL2IzZM5rA01P08ZH69yGulU_E1QiIYdMI5fd5zZc319om4vzolji9yC2nv22pz7z3IKBR6arbRvNNU3eGavJ1OqPa3lbZ7sZQHkHdGJVRAJ72BNm_fJXbsUNHDdSYD_fEWMxqAHoVRDFpcZCd1hd3iAWfZDxlBSg9e9bkh9jUu0Y_9GERFc9OI-U4_wVYHuaAwu1NIsxhMqHwPSJP1xoKVyCn0mX-lPRjL3SoP-DcNshwuDe1Wu6K-ynw4UUQ010-2dolzg85qe7SveTFbP5k_bJtxYuOfQfg9xWk7oLQOOVJd19RJmaJot1t6WtxCDNiUJa2Hnpgc6fcded_5e4D2FKXXLVAjAiPHRiKNw6L5IEEBbcGdMsWl-PBumfLpb6sd4qjbYj8IPu9wx4HNmd6rldKzaksbhbsP8NHmOmUeeVxazTtiz3uWT2sbIcPk2dXK6f4QN2IUGWYoxPxlfQqzQxsTyX_Z3rc6jfv5bK2MJdTlp-J5XsLXtUoIZQRD25V18X8xyOYe4zWD6saO7UEM-o9CNWvEE9g6QdbcTOyLxYgDTDfA_BkoexXhWLsGnRTozzl9Q3dy3Anu-tEYeQzVr0mRN7KbFBeE9B2pbDul3_5llqhd_tMer7271TGSPGKhkrIzAGL-__hS4kO7nXzNP-aLqEiAPHqxAMaSA5_Vyaf6N3w_MWUam9SsIwWX_6KdqwU4FzB5mPFe1Rn8tLCqJOFCc_8Za-1E2Kj79JD0zk9_JHpHlOxEF7xBrnEGFBuw2O6DK-X4xc8SSBGUWrEE3Fxi-UjA9zt5mQ9bDSVaaCrMLnB9QBMM795Dw4JnW0uGERR2mYdkMKXpVpPVmppp8lM5qu1jkvnc9So5TWo6ywp1wMZNwZiy_aPbR_Pc0m4yPOnj5CbZO4j_VecP_vOYMXezMaannfOSz95axVaPo6WujrrsdULYV-8xFWQ0x4CGGxy6ckOSK3FwoFeEXCu8y3tEy-eDNcIpXjBzKXT9Z3KQew4SFSiruMYnkYtrxP-jChqaoHsA7OoHB7BLOKhBFNiNpr6Wk62caEVKGeWiqshdU8trTv7TcxaevvwvKNPhpPzP0hWwFvzACqy5A8kaMMZdTzIjv8xCtZzdKsmYcr3eAdllQl4RP9vT12O68dXjcFEgxpxrDgdR7iLelpABhMgLJG5TaZzR9h_exvEK7p8p4h8TcxKDSp0zDepNy0LNXV4MhwTrdk8apWUYR-wqYfRg5yvunFt6jgXNguLryHRxc7XnzTeNjp9dgzzDm5PHsZzwo3lBvK2Nn82UrU3236zGrNEh0wPdzTzp9wEpvIJN9aEZss8iAs6NUoc2Mf5dYKKeR2px23"
+    },
+    {
+     "id": "ws_0e19f18c656be728006ac51c172c7c87d2bd7ce643df799b49",
+     "action": {
+      "type": "search",
+      "queries": [
+       "Cartier Tank Française steel white dial Roman numeral bracelet quartz reference medium W51002Q3",
+       "Cartier Tank Francaise stainless steel white dial reference W51008Q3 small 25.7",
+       "site:cartier.com Tank Française steel watch reference white dial Roman numerals"
+      ],
+      "query": "Cartier Tank Française steel white dial Roman numeral bracelet quartz reference medium W51002Q3",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.archiva.watch/cartier/tank-francaise/ref-w51002q3"
+       },
+       {
+        "type": "url",
+        "url": "https://www.archiva.watch/cartier/tank-francaise/ref-w51008q3"
+       },
+       {
+        "type": "url",
+        "url": "https://www.therealreal.com/products/93423162/appraisal_report"
+       },
+       {
+        "type": "url",
+        "url": "https://everywatch.com/cartier/w51002q3/watch-34416357"
+       },
+       {
+        "type": "url",
+        "url": "https://www.chrono24.com/cartier/ref-w51008q3.htm"
+       },
+       {
+        "type": "url",
+        "url": "https://www.watchfinder.co.uk/watches/cartier/tank-francaise/w51002q3/403193"
+       },
+       {
+        "type": "url",
+        "url": "https://www.bobswatches.com/cartier/pre-owned-silver-roman-dial-cartier-tank-francaise-ref-w51002q3.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.borsheims.com/cartier-tank-francaise-stainless-steel-25mm-watch-small"
+       },
+       {
+        "type": "url",
+        "url": "https://www.1stdibs.com/jewelry/watches/wrist-watches/cartier-stainless-steel-tank-francaise-watch-w51002q3/id-j_5644372/"
+       },
+       {
+        "type": "url",
+        "url": "https://authentiquelux.com/collections/luxury-timepieces/products/cartier-tank-francaise-w51002q3"
+       },
+       {
+        "type": "url",
+        "url": "https://collectorswatches.com/products/cartier-tank-francaise-stainless-steel-white-roman-automatic-28mm-2302-watch"
+       },
+       {
+        "type": "url",
+        "url": "https://essential-watches.com/Cartier/Tank-Francaise/Steel"
+       },
+       {
+        "type": "url",
+        "url": "https://everywatch.com/cartier/w51002q3/watch-90316"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=0SJYlM265Nc"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=sH8ePi7ycWY"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Cartier_Tank"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Cartier/comments/1thmrpn/tank_fran%C3%A7aise_leather_strap/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.graysantiques.com/download/18058"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/replicawatchreview/comments/1h8htkl"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/17tvj62"
+       },
+       {
+        "type": "url",
+        "url": "https://www.orologiepassioni.com/listino-cartier.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/1vdj48b/cartier_tank_francaise_medium_quartz_8848k/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/bxn0ia"
+       },
+       {
+        "type": "url",
+        "url": "https://www.onthedash.com/wp-content/uploads/2019/05/Bonhams_2019May_London_Catalog.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.graysantiques.com/download/17822"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1koytoc"
+       },
+       {
+        "type": "url",
+        "url": "https://www.monacolegendauctions.com/writable/media/auction/0015-0000/Catalogue_Dec_2019_Web.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Cartier/comments/155uk4a"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Cartier/comments/1ge0oj9"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/18b1lqo"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/171yl4y"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Cartier/comments/1t455xs/update_to_my_earlier_post_which_tank_fran%C3%A7aise_is/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/173u1t8"
+       },
+       {
+        "type": "url",
+        "url": "https://fr.wikipedia.org/wiki/Cartier_Tank"
+       },
+       {
+        "type": "url",
+        "url": "https://es.wikipedia.org/wiki/Cartier_Tank"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Cartier_%28jeweler%29"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Tank_Fran%C3%A7aise"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Cartier"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0e19f18c656be728006ac51c208b6487d2a18358fc9bd671c9",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRwvUeg563pGeu5bR-vle-Xf9wTmfVAipHkTmkp07xv4lzAzyjeqsa0IIVxgm-slFjQNRxFQKeeMv_j4JOOmudlQPmIhURS0btn8URlGAV6GgYw5EoEmGS4VZA7A7NN7f9FA0YhGKlec8rgJaDYEFPM1lYkoEITOdj1WtNPMBxiHLd5J5H5qkO5_pdhtB0NFvN2caFz1riCnicoQ_zdamiUgqw4auO2E9ELsoRdPiBF0_Ni_7gFArTndHqmc0j35uQNWTmAOe2BrRurnFiOf2jh8DeEGaDKtFM5pb4w9EPfNMAEFOiHcksLXVelKlWT-qrWD_ROXw-yDkGQhU1prPCfi09CUbiFqwfnPY0UdqY9JaiqnjLZ-AEwU6KueFL1qV8misUfFVKI_cCoZ8tAJX1JjXswLWG_VjvfEVmoE1Izb--kiJRyfmNrT6AXIOweOKSvPuEHG8azKGuyY1-zWrJbOcWRmM1qFM7JbnVrHYgva4vXsdAhzlgNGJKOLEn3CDJd42VEqHcr3x-4haAwLEPl-qzTcMyltNE4vtMpy4TX93aTJKWGkeUfi9t0yFJVdgwaaQt4R4JnBSDmrmi_iI7BHb8G2IqzhJD1PC7KWyq1S9yBua5wiawmfyc-tKU_oFJmPtNX83d0vQch128H8JcrwMGIhgwNrI0JCDYE6G8KiAUSJSmBViNjz7VYIU9eWxj72pFoZwFbqII0K3aGWOQ-Nq_khtwuY1neMe5IoTnb_cz_O318P_cv6yMx7ONXNv87i8ar87nNqsfgm8MYvZVoXSTsW1RLC6z-AwOSiFDZgTsUh7wMF-KyB6f_4zbyFlxr2ESCUAV_HFMt40qilK3t7oY5D_KPdw6qpAQWvLh-qxWyA6k_kdWeE8EdSaLVb39XgzGcXUoxQ55nfWQYVaDiKHU6RTqopEecgLw8lVzjMFIc-N_I0ayUDetYQKR7jHUjKk3T-Vqn4A_f8hV7ajdPmee0a0HWWvH8nzQgAVFC8GBWDpYq1wfIEEmBVjIiHgNVoS-eIts2UpUhKyhY4fAb6SIz_-FjY--KtG4B2qteuzQZbAD9BvxAQne-29RsNc-h8_YE21_ROOF_utObegzmlMGiA050D8nz2ZcOmuKkob6mvdZeaG5ELI9ddzW8Q4hrBz8n-4zNFB3f9OBJQACe_CaSCuJcCRn-Krk612U3mnNt33ZVP5aygQ3sJc8cg6nKbFXbWUjdSyzjj_vakTqK8pWKU8PF4a0unv2nBvdA6qQIMGZ_VmC7uW4Dlxly59gNM_lhraJ5zLm7MfS7MO-JXJQp3pjRYhD9oAkWTDPLxrZBpKt-CHtmIJ4UAm1l80fRQIO76_RrGq-7-Hsr1cFl78w_EMCYArRqNJ34nI4cYVuHzfRrJE8k9wK8dxAKkAqcsY4ai3HayY0wyNfJUN_OUDRFrM0h25UbY_g7ARRpcC3KOFrdtNEipKCikWzDAY1mapAQgvT-Lj1mBVzfHLn3CphDJCijatH35kGENDovyruNB4qpsYfI02P7Ui6YtCe8zIs_np92KINbBGcLXu8Qs3mAtz6uhUriMCGdPCFpQeRHFXU2I6ADVj9FIfQXal4JuszoaUCWvZ6v4VsAkQsVNpODAjMKrKQZiFoD7VhqXfmWeeeX7Z0KEzFQ7pSXUfexKEf4P5cCRX8r6CpeR2C2K0jMIThoJ1hAOiEkGpbXjJ5E4un065pgP7Zsq0Mzlx8JWif3LLCVnOktuvzsQMgKBk0TRCYZVOzcm7SKwbVmB4GlqzU7ESn-aBdFDPoCm49GEgTbv_92qshH9zGURJQGuUXcC4y_3fwCluCJPx4H-I7KZcnsoVZDBNssvT3uIl0dlcoIibhOsqVw2Q5_IZ6OQcWLVaO0n4qgYTMOZHJAEoYNMHoqtpcBUfX_HU5VEWWNKMsxNrQwYr5r-2z513sfzPcNm3X6DXAsw4imVLuPIANysdAVa_6kqDOBC4Eya4jKMZjGo3a2ldS5jjsrag6EP24GUBi4qHz1xQEqX-ucREhgZcMd5yf8Q0xKBwZentwvwGp_mm_pHTrzRDb2wBWDBUxiFbdVk3rQOlcNJ1UF-8VoMmvJ40H5wGXsv6IPS_XaF"
+    },
+    {
+     "id": "ws_0e19f18c656be728006ac51c21808487d29872715f16e697e3",
+     "action": {
+      "type": "search",
+      "queries": [
+       "Cartier Tank Francaise W51011Q3 specs dimensions quartz date reference",
+       "Cartier Tank Francaise W51008Q3 W51011Q3 reference sizes official catalogue",
+       "Cartier Tank Francaise 2023 small steel quartz reference WSTA0067 medium WSTA0068"
+      ],
+      "query": "Cartier Tank Francaise W51011Q3 specs dimensions quartz date reference",
+      "sources": [
+       {
+        "type": "url",
+        "url": "https://www.userguide.cartier.com/W51008Q3.html"
+       },
+       {
+        "type": "url",
+        "url": "https://watchesbysjx.com/2023/01/cartier-tank-francaise-2023.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.fratellowatches.com/introducing-the-new-cartier-tank-francaise/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.fratellowatches.com/trying-on-the-2023-cartier-tank-francaise/"
+       },
+       {
+        "type": "url",
+        "url": "https://chronocheck.de/en/marktwert/cartier/wsta0074/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.userguide.cartier.com/catalog.html"
+       },
+       {
+        "type": "url",
+        "url": "https://www.hodinkee.com/articles/cartier-refreshes-the-tank-francais-with-modern-updates-live-pics"
+       },
+       {
+        "type": "url",
+        "url": "https://spacecitytimepiece.com/watches/cartier/tank-fran-aise/w51011q3"
+       },
+       {
+        "type": "url",
+        "url": "https://timeandtidewatches.com/cartier-tank-francaise-2023/"
+       },
+       {
+        "type": "url",
+        "url": "https://watchcharts.com/watch_model/51136-cartier-tank-francaise-w51011q3/overview"
+       },
+       {
+        "type": "url",
+        "url": "https://spacecitytimepiece.com/watches/cartier/tank-fran-aise"
+       },
+       {
+        "type": "url",
+        "url": "https://www.therealreal.com/products/84446803/appraisal_report"
+       },
+       {
+        "type": "url",
+        "url": "https://www.wisemanswatches.com/products/cartier-tank-automatic-36-7mm-wsta0067-2023"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=mCa6AHYdLk8"
+       },
+       {
+        "type": "url",
+        "url": "https://www.youtube.com/watch?v=Z5hSKv-gec8"
+       },
+       {
+        "type": "url",
+        "url": "https://www.tourneau.com/on/demandware.static/-/Sites-Tourneau-Library/default/dwf000c265/documents/2024_Tourneau_exclusive_CorporateCollection.pdf?srsltid=AfmBOoqub880GirctZ2bsd5qtY7cIDnM_esW5wpQPdPtfQj2FK_iL2f6"
+       },
+       {
+        "type": "url",
+        "url": "https://www.orologiepassioni.com/listini/cartier2011.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.orologiepassioni.com/listino-cartier.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Cartier/comments/155uk4a"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Cartier/comments/1t455xs/update_to_my_earlier_post_which_tank_fran%C3%A7aise_is/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1qqttpl/wts_2023_nos_cartier_tank_fran%C3%A7aise_medium_box/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/watch_swap/comments/1qqtotx/wts_2023_nos_cartier_tank_fran%C3%A7aise_medium/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/1bqk7ef"
+       },
+       {
+        "type": "url",
+        "url": "https://tmng-al.uspto.gov/resting2/api/casedoc/cms/case/99215279/office-action/OfficeAction7938196.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://jones-horan.com/rc_images/230507_catalog.pdf"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/1di16kh"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/ti0j0s"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Cartier/comments/1nbssfi"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTimeQC/comments/1u3z299/qc_af_cartier_tank_fran%C3%A7aise_small_rose_gold/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watches/comments/17n6677/cartier_tank_francaise_my_first_watch/"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/RepTime/comments/119jnn5"
+       },
+       {
+        "type": "url",
+        "url": "https://www.reddit.com/r/Watchexchange/comments/173zygc"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Cartier_Tank"
+       },
+       {
+        "type": "url",
+        "url": "https://fr.wikipedia.org/wiki/Cartier_Tank"
+       },
+       {
+        "type": "url",
+        "url": "https://en.wikipedia.org/wiki/Cartier_%28jeweler%29"
+       },
+       {
+        "type": "url",
+        "url": "https://it.wikipedia.org/wiki/Tank_Fran%C3%A7aise"
+       }
+      ]
+     },
+     "status": "completed",
+     "type": "web_search_call"
+    },
+    {
+     "id": "rs_0e19f18c656be728006ac51c29c74087d2859b83ebe6702ed7",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRwvu5auFGwLBukOi5bXeqqeIhvCH6tCOagO3-mo7SXDEBz6B1XP_WA-k54Y0f_ZwFpzO0Vfy5yrRwtv605jmZWWGBM1nMIUsCtF9Ku_9vlSllwEO6bLVxNxkuVnFeot7vEpffgtfelKDiOY7frhM1_9-OmpSIE8wzmHVQVCkbI7GjRVHxUfhGb9VM9pEIi4rT6TkyM-t0byIgg1o_N0ibHmeStLhPFWWoUSn4Fbdj9A0oXeJrgvVSoCCsP3rnZHdJNpjzN61Wblm478eJG-uCjT6yt9rPfu2gTbUb4_Re6Pi3PWHDq_5pMbXKGkQjb3CP5z__gY7YUge3brHMFSLjHw-t1h1o0ye5IpnUDmiAddE-4QDFWq2jXXdntGrXmvXQ0v-cf3Nm-iTYUXMUVyNSAMzQWtmbt8aaW5S75XYhK7uQaGQreHMwNJY7DKe3I8uYflCMKHIljnjpl55UpwpBbUt0IMoctVfS5AeZ1nC8mYF4_h6eobuutkA74W8nVOmb57UBH4_9BO_Lo6brTxoroN3EfJSbUps3P-Zfcfcejr0CfLcxRCb-C02wjy_cMah0GFhpayLK0t3EghMRI2aspWT_mA8RAPaZLkdchAbBPku2aUrEDsiL5rG4xxRvBcrboRr7Ozqq73s5L-GA_6Z4qyvXSy95k2hfDWE_T6-HjhAd2oGyT-WDJtyTbOE1-KL5BirvQhniLRhj82hRsWfQFhMjIbBRdJff99cEsxITo-q6fKAPRbLhF1atO3O8LLIX1Cs7CyB4dERqAZr9r-YPu6aX8Onbo5ldqqfEvvCdEXuraE716LUFxXgluVLIMH6B38afohVgHckk_H1iKXt15xI3qfAvHkKCKGlmketd3UKVUDG7umG0lVYUOpJaLg1cyssivleKjdnhiJIlqKb0woXrgZQyyE0cefFkpIWV7U0j4vFJm4clRZUKD9Nu38Q-Q6iz2VbvABWCaohJrGy2tmjR2YtNxlXj1IJgYfbAFxEHNa8vTchmnLOAclS6Uq8rjYuIan91Jh5cuCP0tLjmryNPgwsa8Ap847o1YhRN6zLnL_IqATIOSNeifS7x8FdUajQRQe0Egdibct4zb44WV8nZMNviD9dB_DYCfrwcFlDoCN9TiUMW-ZGHwnkfd4lndZ82-TqKx5drNssXxwJYgyii7M_8aFjPyHbrSixF87YzshkUuwj09Y9afvbfjnwq5If7PjbqxL7rsCuPOLEtPcEsM2KWxwnFxihuB1e5TkCLWgY4TTRdoz2ajWtyj-0YvS-e8sqN6K5xyoj2Jreh1xaYvgbL9ILSs4Kjnkh9npHNp9XDOuJdgMzOl5zMXYFU9wy_WUf0FeFgEr8dRrpQiHJZwFojrCSPVMqRqg2W9KYke4V5k9_6JNhzMIKyIFKIAG_ONOgnu14VU-dUnMbY5GTcm_M2TfDY-MQSm7dnqvNXk_RucrK-PDf52Dzxjln6WTH9qiDvTRhKH18npXduO1AhMB_a51c442dcsGZTJ3o0vy7JVO5vpndqrWnbWiRvFP_pmtwJ1UbRcVYr-5GjSFG3OPYI-OEenosvBSMnMkqxTq7Cn9J-ZbRySaI6c-4cd-4F4vizuCBGvcw4sqX3rrAXHRlu6ut2cQEPnuj9gzP6CnvutL6S26Xe0aAyV4FPeYYfDRWR9fHkTsf6uc6stSQSi7dKXC8PaJx1rRmx_qa8pjmMxalv34IWRJG4u4esw2a1V4uEdaQ5GFIW9TOEpIV1XNyqV48FeV6ZCoH_RbI3m5rbMLLukhNGORLDbMN5XhemyXA5R1GiqmoY1z9wG-1CHRPdXePkVWs_UEBjqbPtGq0KeC3-uVgT0i-IYKPJ_m_Ti36bpd19taCotfWWsU7ZYVJZ6CggA5EABW6RM-pNz_dd4sOoHm36h7KqsjDimC_JRdR0AxyDOkEhPwZg30RddirlK3XUEwHVK-WFCJdh3m4JGbcwdJju0XZEg_47IozE3stSO8t88gxb1x90Y6DcG_XJg_t3Q97zVVRWVl6AGXNXffQGgxXLPQnC4iMO0679FejsVOiJpmMEHUE93T42BYXjJvnFNa1ATrMPYgHr4tqV9Ya6XtVslsqqbL8L9gf5BqZ552zflAAC72BGNE_p7Lj5fMC4DbIh_dyAwyY2qWicJBcO8OY8npuMFit45kyDGuOEiFJryHGz8J3hhuhVkA54izNxwLT78ZxebdpBmBBkKTocx5KIL4flhe-dhd6Kws2BK-sLqp16770yEwaoe8D-Dcj7WGDNBrxeaGXeOVTLp1WOmT-4OiIGKlngS8IofkG1pYLIMq7vWY-fW3WCHCahlFKWBAqpGBURC7aJgTHQvQor7n7hQCCVm1n39yydjcBta3BVQXTwYYunybn262Twh0JPnDORVRfmJ7VPnOKA5JC8vnhQrB6ILEd8HpF6r-GSgkuv-55FSI3bJjLbahtntcsouQqWUauo1UxzWlBjPK7mgPaGI-KHDKTAw6UzHBWPRkXGP0NeqCtafp_wVPr6N7Ab0dKjinyx916EB0krFOX3FcaWDtam9KbQ-WzzwJseQm6UvkPzispv-0rk5f6jxkBIZpEVRGE8EzsPb6lIJOqjbJyIBlIGfkILvwS25FUCTPqhGEOTRyA2_CU4Wrvxn6W6hB-OsYIZW38V9fJsxaNjFGTLwr09EhX4cRnGeLkSN6hGDQtWnfWYc-omVYRqG8W7_F_HWxHiqpMsSb1bL2no6376m9kV-JgJN4acJnWqvGKWYLtWksAT_XDoaNbpkm5eGu0djE4i0m_DiRkdOnkmCYBWgUUEvYukiXzMRXY05BBunsiouAsA6oCGitGlu7C8jnnbQN0QT1Q5Ck9VE8WzK3zv4XyLxpsNyIommZdh9fn8wPe6U2eAwCcGQ-Qwsqi6e1zgDaGZsw2ZlW5rBsrdwB0iehCKc5osMtPBfNl0OC_oTrPcLQr_9GM_TZEDfhOa7Bph7pAcdoIQ7l9wiou7fBb9WeBi-s9HwYXPDDDgNLIkb8RivYfp7oW4ynZkjjkZGyh07nR_D_4QENedqDwIivo9ACqxtSX26YnDMQE6p9Xdzop6x6OBjktH1Omv-P_Qgc_e68oRgI8iVPWG9pA3TzTRLZOvANUSWCtOckExhF_R7UNu-XZj3eqRRd4ITA-w3DkFXIqWS_AuFjbwVKEmmKQ8jZS3X0grnfNll_kfNFtGXuEo__NByj07TkBanZXEmM1Qz33iO9eIoFHmkuZCKLz8_h1IfbIvz_Xl8Ybf-59MpWIZZOTusi_DD9ZA32uzI6zAI6nKJN-WUqGkzfQ6KEPnQaeGXXgrbQdGv4yqYb-GZ1Ha3k3tEVzUgZEttEHJsL-sJ3cIBZ0Fvw4xxBao9Cbu9VIs8SQ6nynSPjKqJSCcAb7zRhvQCC_ce_r8p3jWMI3jRVH5g15ZkZNldkGQowulgup67j-INO35aukxv7MaEjxAYt8acSWZyXsaUcqmGcJ4MbXjENYZ1H19DW27XpJaSR6MHdSW_tUJJUQJfTg_t5kpsNrPXsCFmpzCJkIKPrsyGr-4HPk3ZZrvwBZPiWnRZ7BjJPiVMe1Zk-Nhze5SZXnDUQN9D9GlCFLKS8-VQ9DpGKjw3yZJ_65cjoSR48VK0w8XIBW3bGgTWQLPGztJyaThCGyIP2N4bT3i8HEMddf79tKbsCy7CFn35qqxHs9wOSFZudxZtFGMxa_rEfSkXzrnmbgQ8pRtHjBKxl7INuzYB1xk9YtSIXKno9AYZMg1JiOqHWN3I4QNRh1xKfogt-cw9yeysCXzvHedtb_6embGyOHoOquJWWQuDoYMlIjS2ACSbh5sZM92OMzWdLcAP090mImQIE-zWF7FnRXa8EiEGn7YNnLH9JFR0mXlQjLyBDbzPK5ZoAxYilmTL24EwOQpw69NkAU1h_IZ8QiF8f3O3pU9tx45u_fXTx1qLVf0gHualR7rgfCC_hwI8T_F_yj-047sMrGsTl2pvJgevQU6YB7Dps_o_PlF95W1qRPOCC286KF5AIJZMEaEi_oO2p4SECBRUIHDxVIbNm3gNkVfYpvyLxSOB4kpBlZgp5WVtKnR58bL8X"
+    },
+    {
+     "id": "rs_0e19f18c656be728006ac51c2c602887d2a1573b745dd840db",
+     "summary": [],
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABqxRwvgw0GbKQvWwIv10p3WwS5ic491DfaAu7spcttqeogFclQp4R_GSnd1DnI-vlR9CD5Js6xdm8yKM-YKM0d1smtv7OLmMdl8jtSXfZFIokJOBfgPzoKQajAE_i5hkFkq30ggAYPksysl-gThRtoEDQSys15BS85cU_rl4kAajNvdQJgCzSniUAsSfxnNCHzI7YizhO3qc5AvGFAJM1DgPJlv-LYzTGsixhzAzrrCAIt8NwPPKdvV_ZrrHYXjC7cT-sOZU1oNnp-0md0x8HHUnk5htaB6YQ_q_NEiN-K4Po6PX8HGCLeK12rzLULMwsUAZB1TDvZQbVfORWDst3MxOfRWxCGu-thqzzvYhxkcW6wRhm-MNah4Nfh4W4HUCHeq3Cgc0kcf0ioT9MAUVCxi7bFR10cf1pmE0is7jYtOzMGRFbc1GZfVQOs8C1r4XsWscWnbOYmpHJjBzF7JiQFKEQ7ktgaVwnOb7mkYlfdlTi2o00cuBHhprUEtb_ePiIX-vTboq6CPKXN8ydtqwHkaQDQCYmb37dde9jDiJsz0xYg-Rba-WwjFOy5bJDf_gIBL2sVBP-JeWwxoTJ2Kvhmqkj7Qtwh3q3yDO5PWt2SSmsBTUIefalopte_j42acbcejcBLhoXY1YU1xB-Z0L7UGUeq-CNP5lVgDuJTs-w90Q4M7ch6sbdh2bsk6wr80HWN_U1TN6YH_zGOsmLqGlhi98FoT9NiQwpucraOsjL8Sg87xY_GTLkoNsLsfBqsy6zta5t11ff1EefV8HvbMIisTaopZXqXfdAwuz7hf454-SWmhcCi6wcYW_hwFU2uvyX7Vf17Wu7X1dcrF5s9CJMZpDLRmLvVYh5YvVvLDbqGtNQ0YxyHft6SGk0TyL3zLpG_tmRz6b1cHHHRffQHSMUqgB1yeUzCh0Ndq4K5FFUD8r1Xd4aplJ9a9oIRAkXcF6wyaIuejGUJ9mbfJoKypvTnIWon5FttOUcLCiGMciOaKquIegIhhYrZkJuF1PaGtP6vx00SOpEx96r0zcbaiHcFVJjSi9q15ajPpKpjmPnq1uv7knfZUivorm2P19tM8E5FPYTILwSfJ9NZ2tmTUUzfDSQ6CbR1s8FU2TNMpiYxnWPac0WReotvGKnH2wXhS03RJOQ0ZiqXf3_NRzLJpBCt6pe-wtYSkz3yQdDWE0Fs_LxjSlHEZaedUvsMHAK7HMP9msWerMC1Vf9d0p-00TDCfj_YuHkdMpjAzwHiWhOTvA_2tmz85C3JJNnUaWBPPtODkrAusyX3tQDH-wMsmCWnsMXLUJMEFsn-DhGzuv7BLsyG_4rjKM6Yg8ruzTcTOwCUvevHqgCFQLoM4FxZQKtRdnjgIIFQjZEy7WPTmUFtpSRok_aNjp9ahB_kINPUlDydLDQ-F6x_6q4zOyUdJEitny5zj6dlACEH00RCjhqW406NyVqi7GTlBPz_sCD5kqq-bosOGUZEik3Iiyb_kP2mpbaLfBvQYIo4y8OTLAgC5LFvoOS8WN1kW1GrP2h5n0NXZko_ddBRun68_wfC1UgGqH2sKpqnSEBHXn1Owsw-RmaSfOTtwD4AmrCbpQoXBsvcW5Jt4H2MBaFWmyg2QWYg5c9wISDydemAi1gEe_v-huGFjVssMzeNCfIr0DV5uta4wPc3zy1MLVsLrZw3TDob51Z0cl8vuau4DG7c92OmmBpY-X_m2bM1ObD28qMcNO6oSo0A68uGZ2qsjmIJUPoI8Iau_5CCaoXijyL9apjIu-reoj42K6_r1vSa-N4Rhq3-ptAwOdlruIU52yF4OQiMoSmsig-mEROLpioImbA2u-DniJrMFAGs6SH0OTcC-agGrSmpg0rQ8LZ8_nNaQxn2adcRkV7y6HkYyKQd8DAz3GfrFCcj9SGc65JCuWRGJnX80ZJfl_4ebuO5FUXQq_zVClfuAqBSgbIIxWC5JE1bxfRsYtD2pHjayDGbAinGJ0QCkJBD69JPKgFd9BD9WmyEcrOYwpkDYsH-jGdyA8dxlmR_K4FXTClfODtL-o4mozkwKLd0VnTlcJ1VAsHoVo2gZy4u3RodNjvxz6Sg2caLcqwl8XEl_kUU2OTgUqyaH7MrrdJfUKTqzWSaROI-YRyB_wLU_TXtEeRlvXRYVEEzT7uPXpuhoc9631ZZ6P9VV_zfHg51v4BgtFYTTHD_AFlG9spJeoUMiH1-r0fUvF8N4kgWao0="
+    },
+    {
+     "id": "msg_0e19f18c656be728006ac51c2ea3bc87d280429f07a18b38f3",
+     "content": [
+      {
+       "annotations": [],
+       "text": "{\"brand\":\"Cartier\",\"model_line\":\"Tank Française Small\",\"dial_color\":\"silver\",\"case_material\":\"stainless-steel\",\"bracelet_material\":\"metal\",\"bezel\":\"smooth stainless steel\",\"case_size_mm\":25,\"complications\":[],\"movement\":\"quartz\",\"printed_reference\":\"\",\"references\":[\"W51008Q3\",\"W51011Q3\",\"WSTA0065\"],\"confidence\":0.91}",
+       "type": "output_text",
+       "logprobs": []
+      }
+     ],
+     "role": "assistant",
+     "status": "completed",
+     "type": "message",
+     "phase": "final_answer"
+    }
+   ],
+   "parallel_tool_calls": true,
+   "temperature": 1.0,
+   "tool_choice": "auto",
+   "tools": [
+    {
+     "type": "web_search",
+     "search_context_size": "medium",
+     "user_location": {
+      "city": null,
+      "country": "US",
+      "region": null,
+      "timezone": null,
+      "type": "approximate"
+     },
+     "return_token_budget": "default",
+     "search_content_types": [
+      "text"
+     ]
+    }
+   ],
+   "top_p": 0.98,
+   "background": false,
+   "completed_at": 1791302703.0,
+   "max_output_tokens": 16000,
+   "max_tool_calls": 3,
+   "moderation": null,
+   "previous_response_id": null,
+   "prompt_cache_key": null,
+   "prompt_cache_retention": "24h",
+   "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+   },
+   "safety_identifier": null,
+   "service_tier": "default",
+   "status": "completed",
+   "text": {
+    "format": {
+     "name": "watch_identification",
+     "schema": {
+      "additionalProperties": false,
+      "description": "What is visible comes before the references, so the model has looked before it names a number.",
+      "properties": {
+       "brand": {
+        "enum": [
+         "Rolex",
+         "Omega",
+         "Patek Philippe",
+         "Audemars Piguet",
+         "Tag Heuer",
+         "Breitling",
+         "Cartier",
+         "IWC",
+         "Jaeger-LeCoultre",
+         "Vacheron Constantin",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "model_line": {
+        "type": "string"
+       },
+       "dial_color": {
+        "enum": [
+         "black",
+         "white",
+         "silver",
+         "grey",
+         "blue",
+         "green",
+         "brown",
+         "red",
+         "orange",
+         "yellow",
+         "pink",
+         "purple",
+         "champagne",
+         "salmon",
+         "beige",
+         "mother-of-pearl",
+         "skeleton",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "case_material": {
+        "enum": [
+         "stainless-steel",
+         "yellow-gold",
+         "rose-gold",
+         "white-gold",
+         "two-tone",
+         "platinum",
+         "titanium",
+         "ceramic",
+         "bronze",
+         "other",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bracelet_material": {
+        "enum": [
+         "leather",
+         "metal",
+         "rubber",
+         "fabric",
+         "nylon",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "bezel": {
+        "type": "string"
+       },
+       "case_size_mm": {
+        "type": "number"
+       },
+       "complications": {
+        "items": {
+         "enum": [
+          "date",
+          "day-date",
+          "chronograph",
+          "gmt",
+          "moonphase",
+          "power-reserve",
+          "small-seconds",
+          "world-time",
+          "annual-calendar",
+          "perpetual-calendar",
+          "tourbillon"
+         ],
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "movement": {
+        "enum": [
+         "automatic",
+         "manual",
+         "quartz",
+         "solar",
+         "hybrid",
+         "unknown"
+        ],
+        "type": "string"
+       },
+       "printed_reference": {
+        "type": "string"
+       },
+       "references": {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       "confidence": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "brand",
+       "model_line",
+       "dial_color",
+       "case_material",
+       "bracelet_material",
+       "bezel",
+       "case_size_mm",
+       "complications",
+       "movement",
+       "printed_reference",
+       "references",
+       "confidence"
+      ],
+      "type": "object"
+     },
+     "type": "json_schema",
+     "description": null,
+     "strict": true
+    },
+    "verbosity": "medium"
+   },
+   "top_logprobs": 0,
+   "truncation": "disabled",
+   "usage": {
+    "input_tokens": 24938,
+    "input_tokens_details": {
+     "cache_write_tokens": 0,
+     "cached_tokens": 8279
+    },
+    "output_tokens": 1229,
+    "output_tokens_details": {
+     "reasoning_tokens": 1135
+    },
+    "total_tokens": 26167
+   },
+   "user": null,
+   "billing": {
+    "payer": "developer"
+   },
+   "frequency_penalty": 0.0,
+   "presence_penalty": 0.0,
+   "store": true,
+   "tool_usage": {
+    "image_gen": {
+     "input_tokens": 0,
+     "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "output_tokens": 0,
+     "output_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 0
+     },
+     "total_tokens": 0
+    },
+    "web_search": {
+     "num_requests": 2
+    }
+   }
+  },
+  "search_requests": 2,
+  "served_model": "gpt-6-luna",
+  "status": "completed"
+ }
+}

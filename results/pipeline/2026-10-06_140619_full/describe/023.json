@@ -1,0 +1,36 @@
+{
+ "row_id": 23,
+ "image_file": "023_patek_calatrava-white-gold.jpg",
+ "result": {
+  "parsed": {
+   "brand": "Patek Philippe",
+   "model_line": "Calatrava 5227",
+   "dial_color": "black",
+   "case_material": "white-gold",
+   "bracelet_material": "leather",
+   "bezel": "smooth polished white gold",
+   "case_size_mm": 39.0,
+   "complications": [
+    "date"
+   ],
+   "movement": "automatic",
+   "printed_reference": "",
+   "references": [
+    "5227G-010",
+    "5227G-001",
+    "5296G-010"
+   ],
+   "confidence": 0.5
+  },
+  "raw_text": "{\"brand\": \"Patek Philippe\", \"model_line\": \"Calatrava 5227\", \"dial_color\": \"black\", \"case_material\": \"white-gold\", \"bracelet_material\": \"leather\", \"bezel\": \"smooth polished white gold\", \"case_size_mm\": 39, \"complications\": [\"date\"], \"movement\": \"automatic\", \"printed_reference\": \"\", \"references\": [\"5227G-010\", \"5227G-001\", \"5296G-010\"], \"confidence\": 0.5}",
+  "input_tokens": 1701,
+  "output_tokens": 2299,
+  "cost_usd": 0.0015592859999999998,
+  "elapsed_s": 11.774,
+  "started_at": "2026-10-06T14:07:06.002998+00:00",
+  "error": null,
+  "attempts": 1,
+  "tidied": false,
+  "served_model": "deepseek-flash"
+ }
+}

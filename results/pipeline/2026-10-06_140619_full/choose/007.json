@@ -1,0 +1,31 @@
+{
+ "row_id": 7,
+ "candidates": [
+  "126600",
+  "136660",
+  "116600",
+  "126603"
+ ],
+ "result": {
+  "parsed": {
+   "reason": "The dial shows a single red 'Sea-Dweller' line over a black dial with a steel case, black ceramic bezel and no gold, which rules out the gold-and-steel 126603 and the white-text 116600, while the 126600 and 136660 are visually identical in this photo.",
+   "ranking": [
+    1,
+    2,
+    3
+   ],
+   "clear_leader": false,
+   "none_fit": false
+  },
+  "raw_text": "{\"reason\": \"The dial shows a single red 'Sea-Dweller' line over a black dial with a steel case, black ceramic bezel and no gold, which rules out the gold-and-steel 126603 and the white-text 116600, while the 126600 and 136660 are visually identical in this photo.\", \"ranking\": [1, 2, 3], \"clear_leader\": false, \"none_fit\": false}",
+  "input_tokens": 1320,
+  "output_tokens": 941,
+  "cost_usd": 0.0007626,
+  "elapsed_s": 5.943,
+  "started_at": "2026-10-06T14:14:15.106133+00:00",
+  "error": null,
+  "attempts": 1,
+  "tidied": false,
+  "served_model": "deepseek-flash"
+ }
+}
